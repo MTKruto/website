@@ -35,13 +35,13 @@ const lists = [
 ];
 
 const misc = [
-  "[&_a]:(text-tg hover:underline)",
+  "[&_a]:(text-kr hover:underline)",
   "[&_b]:font-bold",
   "[&_input,_&_select]:(px-4 py-2 min-w-[200px] rounded-md appearance-none bg-db)",
   "[&_.code-group>div:first-child]:(flex text-xs rounded-t-md bg-[#aaa8] dark:bg-white/10 overflow-hidden [&_button]:(py-1 px-3 bg-db first:rounded-tl-md))",
   "[&_.code-group_div_pre]:rounded-t-none",
   "[&_:not(pre)_>_code]:(inline-block rounded-md text-sm px-2 py-0.5 bg-db)",
-  "[&_blockquote]:(pl-[calc(16px+6px)] pr-[16px] py-0.5 bg-tg/25 rounded-md relative before:(absolute left-0 top-0 h-full w-[6px] bg-tg rounded-l-md overflow-hidden))",
+  "[&_blockquote]:(pl-[calc(16px+6px)] pr-[16px] py-0.5 bg-kr/25 rounded-md relative before:(absolute left-0 top-0 h-full w-[6px] bg-kr rounded-l-md overflow-hidden))",
 ];
 
 const all = [headings, blocks, code, lists, misc]

@@ -89,8 +89,8 @@ export function Sidebar({ pathname }: { pathname: string }) {
               <div class="flex flex-col">
                 {v.map(([k, v]) => (
                   <a
-                    class={`hover:text-tg w-full ${
-                      v == pathname ? "text-tg" : ""
+                    class={`hover:text-kr w-full ${
+                      v == pathname ? "text-kr" : ""
                     }`}
                     rel={v.startsWith("/") ? "noopener noreferrer" : undefined}
                     target={v.startsWith("/") ? undefined : "blank"}
@@ -113,8 +113,8 @@ export function Sidebar({ pathname }: { pathname: string }) {
                 <div class="flex flex-col">
                   {v.map(([k, v]) => (
                     <a
-                      class={`hover:text-tg w-full ${
-                        v == pathname ? "text-tg" : ""
+                      class={`hover:text-kr w-full ${
+                        v == pathname ? "text-kr" : ""
                       }`}
                       rel={v.startsWith("/")
                         ? "noopener noreferrer"

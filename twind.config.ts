@@ -11,13 +11,13 @@ export default {
         colors: {
           fg: "var(--fg)",
           bg: "var(--bg)",
-          tg: "#229ED9",
+          kr: "var(--kr)",
           db: "var(--db)",
         },
       },
     },
     rules: [
-      ["link", "text-tg hover:underline"],
+      ["link", "text-kr hover:underline"],
       ["h1", "mt-2.5 mb-1 font-bold text-4xl"],
     ],
   }),
