@@ -41,7 +41,7 @@ it.codeGroup(
 const apiId = 123456;
 const apiHash = "";
 
-const client = new Client(new StorageLocalStorage("my_client"), apiId, apiHash);`
+const client = new Client(new StorageLocalStorage("client"), apiId, apiHash);`
 ],
 
     [
@@ -57,7 +57,7 @@ const { StorageLocalStorage } = require("@mtkruto/storage-local-storage");
 const apiId = 123456;
 const apiHash = "";
 
-const client = new Client(new StorageLocalStorage("my_client"), apiId, apiHash);
+const client = new Client(new StorageLocalStorage("client"), apiId, apiHash);
 
 `.trim()
 ],
@@ -71,7 +71,7 @@ const client = new Client(new StorageLocalStorage("my_client"), apiId, apiHash);
 const apiId = 123456;
 const apiHash = "";
 
-const client = new Client(new StorageLocalStorage("my_client"), apiId, apiHash);`
+const client = new Client(new StorageLocalStorage("client"), apiId, apiHash);`
 ],
 
     [
@@ -83,7 +83,7 @@ const client = new Client(new StorageLocalStorage("my_client"), apiId, apiHash);
 const apiId = 123456;
 const apiHash = "";
 
-const client = new Client(new StorageLocalStorage("my_client"), apiId, apiHash);`
+const client = new Client(new StorageLocalStorage("client"), apiId, apiHash);`
 ],
 
 )
