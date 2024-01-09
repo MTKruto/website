@@ -48,7 +48,7 @@ export async function getDocs(version?: string) {
     )?.namespaceDef.elements ?? [];
 
   const methodTypeNodes = mod.filter((v) =>
-    v.location.filename.endsWith("/client/3_params.ts")
+    v.location.filename.endsWith("/client/0_params.ts")
   );
 
   const tlTypes = types2
