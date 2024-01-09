@@ -45,11 +45,12 @@ const client = new Client(storage, /* ... */);
 ```
 
 This storage adapter is natively supported inside browsers and on Deno.
-To use it on Node.js, you first need to install the `@mtkruto/storage-local-storage` package:
+Node.js users can use the [`node-localstorage`](https://npm.im/node-localstorage) adapter as a replacement.
+To do that, first install the required packages:
 
-<%= it.installPackage("@mtkruto/storage-local-storage") %>
+<%= it.installPackage("node-localstorage @mtkruto/storage-local-storage") %>
 
-And import the `StorageLocalStorage` class from there:
+And import the `StorageLocalStorage` class from `@mtkruto/storage-local-storage`:
 
 
 <%=
