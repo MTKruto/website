@@ -15,6 +15,7 @@ const links = [
   [
     "Guides",
     [
+      ["Storage Adapters", "/storage-adapters"],
       ["TCP Transport", "/tcp-transport"],
       ["Migrating from grammY", "/migrating-from-grammy"],
     ],
