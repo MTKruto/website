@@ -1,0 +1,42 @@
+name: Build
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: denoland/setup-deno@v1
+        with:
+          deno-version: vx.x.x
+
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/deno/deps
+          key: ${{ hashFiles('deno.json') }}
+
+      - run: deno run --allow-env --allow-net --allow-read --allow-run --allow-write _write.ts
+
+      - run: deno task gen
+
+      - run: VERSION=gh deno task gen
+
+      - run: git add src/*
+
+      - run: git -c "user.name=github-actions[bot]" -c "user.email=41898282+github-actions[bot]@users.noreply.github.com" -c "commit.gpgsign=false" commit -m "[Build]"
+
+      - uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
