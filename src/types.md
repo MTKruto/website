@@ -97,7 +97,7 @@ The rights of a chat administrator.
 <a href="/types/chatlistitem">ChatListItem</a>
 <div><div>
 
-No Desc
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -244,7 +244,7 @@ A button to be shown along with the results of an inline query.
 <a href="/types/inputmedia">InputMedia</a>
 <div><div>
 
-No Desc
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -265,7 +265,7 @@ A chat invite link.
 <a href="/types/invoice">Invoice</a>
 <div><div>
 
-No Desc
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -377,7 +377,7 @@ Reference to a message.
 <a href="/types/messagesearchfilter">MessageSearchFilter</a>
 <div><div>
 
-No Desc
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -405,14 +405,14 @@ An entry of a client's network statistics.
 <a href="/types/openinghours">OpeningHours</a>
 <div><div>
 
-No Desc
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/types/orderinfo">OrderInfo</a>
 <div><div>
 
-No Desc
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -447,7 +447,7 @@ A poll option.
 <a href="/types/precheckoutquery">PreCheckoutQuery</a>
 <div><div>
 
-No Desc
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -496,7 +496,7 @@ The reason for restricting an entity.
 <a href="/types/selfdestructoption">SelfDestructOption</a>
 <div><div>
 
-No Desc
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -566,7 +566,7 @@ Reference to a story.
 <a href="/types/successfulpayment">SuccessfulPayment</a>
 <div><div>
 
-No Desc
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -608,7 +608,7 @@ A video file.
 <a href="/types/videochat">VideoChat</a>
 <div><div>
 
-No Desc
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
