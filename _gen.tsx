@@ -72,7 +72,7 @@ title: Methods
       methods_md +=
         `<a href="/methods/${method.name.toLowerCase()}">${method.name}</a>\n`;
       methods_md += `<div><div>\n\n${
-        method.jsDoc?.doc ?? "No Desc"
+        method.jsDoc?.doc ?? `<i style="opacity: 0.5">No Description</i>`
       }\n\n</div></div>\n`;
       methods_md += '<div class="descr-list-border"></div>\n';
     }
@@ -98,7 +98,7 @@ title: Methods
       methods_md +=
         `<a href="/methods/${method.name.toLowerCase()}">${method.name}</a>\n`;
       methods_md += `<div><div>\n\n${
-        method.jsDoc?.doc ?? "No Desc"
+        method.jsDoc?.doc ?? `<i style="opacity: 0.5">No Description</i>`
       }\n\n</div></div>\n`;
       methods_md += '<div class="descr-list-border"></div>\n';
     }
@@ -131,7 +131,7 @@ title: Types
     types_md +=
       `<a href="/types/${type.name.toLowerCase()}">${type.name}</a>\n`;
     types_md += `<div><div>\n\n${
-      type.jsDoc?.doc ?? "No Desc"
+      type.jsDoc?.doc ?? `<i style="opacity: 0.5">No Description</i>`
     }\n\n</div></div>\n`;
     types_md += '<div class="descr-list-border"></div>\n';
   }
