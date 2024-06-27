@@ -1,0 +1,25 @@
+.toc {
+  width: 100%;
+  display: none;
+
+  &-link {
+    opacity: 0.5;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &-active {
+      opacity: 1;
+      color: var(--kr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    display: block;
+  }
+
+  li ul {
+    padding-left: 1rem;
+  }
+}

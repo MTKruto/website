@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "deno-bin task build"
+  },
+  "dependencies": {
+    "deno-bin": "^1.44.4"
+  }
+}

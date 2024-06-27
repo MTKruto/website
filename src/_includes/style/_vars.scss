@@ -1,0 +1,54 @@
+:root {
+  --bg: #ffffff;
+  --bgt: #ffffffcc;
+  --fg: #000000;
+  --fgt: #000000cc;
+  --db: #eeeeee;
+  --dbt: #eeeeee99;
+  --kr: #229ed9;
+  scrollbar-color: var(--db) var(--bg);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e0f0f;
+    --bgt: #0e0f0fcc;
+    --fg: #ffffff;
+    --fgt: #ffffffcc;
+    --db: #212121;
+    --dbt: #21212199;
+    --kr: #00adff;
+  }
+}
+
+::selection,
+*::selection {
+  color: var(--bg);
+  background-color: var(--fg);
+}
+
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: "liga" 1, "calt" 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: InterVariable, sans-serif;
+  }
+}
+
+code {
+  font-family: "Source Code Pro", monospace;
+}
+
+.hljs {
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+.n {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}

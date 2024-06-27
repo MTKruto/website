@@ -1,0 +1,28 @@
+---
+title: getStories
+---
+
+### Parameters 
+
+<div class="flex flex-col gap-3"><div><div class="font-mono"><span class="font-bold">chatId</span><span class="opacity-50">:</span> <a href="/gh/types/id"  >ID</a></div><div class="pl-3"><div class="no-margin">
+
+The identifier of the chat to retrieve the stories from.
+
+</div></div></div><div><div class="font-mono"><span class="font-bold">storyIds</span><span class="opacity-50">:</span> <span>number</span><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
+
+The identifiers of the stories to retrieve.
+
+</div></div></div></div>
+
+### Result 
+
+<div class="font-mono"><a href="/gh/types/story"  >Story</a><span class="opacity-50">[]</span></div>
+
+### Syntax
+
+```ts
+await client.getStories(chatId, storyIds);
+```
+
+
+

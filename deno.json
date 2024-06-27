@@ -1,0 +1,28 @@
+{
+  "imports": {
+    "lume/": "https://deno.land/x/lume@v2.2.2/",
+    "deno_doc/": "https://deno.land/x/deno_doc@0.83.0/"
+  },
+  "tasks": {
+    "lume": "echo \"import 'lume/cli.ts'\" | deno run -A -",
+    "build": "deno task lume",
+    "serve": "deno task lume -s",
+    "gen": "deno run -A _gen.tsx"
+  },
+  "compilerOptions": {
+    "types": [
+      "lume/types.ts"
+    ],
+    "jsx": "precompile",
+    "jsxImportSource": "npm:preact"
+  },
+  "exclude": [
+    "_site",
+    "doc",
+    "src/methods/",
+    "src/methods.md",
+    "src/types/",
+    "src/types.md",
+    "src/gh/"
+  ]
+}

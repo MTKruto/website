@@ -1,0 +1,30 @@
+.code-group {
+  margin: 1em 0;
+
+  pre {
+    margin: 0;
+    border-top-right-radius: 0 ;
+    border-top-left-radius: 0 ;
+  }
+
+  &-header {
+    display: flex;
+    font-size: 0.75rem; /* text-xs equivalent to 0.75rem */
+    border-top-left-radius: 0.375rem; /* rounded-t-md */
+    border-top-right-radius: 0.375rem; /* rounded-t-md */
+    background-color: #aaa8 !important; /* bg-[#aaa8] dark:bg-white/10 */
+    overflow: hidden;
+
+    @media (prefers-color-scheme: dark) {
+      background-color: rgba(255, 255, 255, 0.2) !important;
+    }
+  }
+
+  &-button {
+    padding: 0.25rem 1rem;
+
+    &-active {
+      background-color: var(--db);
+    }
+  }
+}
