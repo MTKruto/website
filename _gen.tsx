@@ -147,6 +147,11 @@ title: Types
 title: ${method.name}
 ---\n\n`;
 
+    if (method.jsDoc?.doc) {
+      method_md += method.jsDoc.doc;
+      method_md += "\n\n";
+    }
+
     //
     if (method.functionDef.typeParams.length > 0) {
       method_md += "### Type Parameters \n\n";
