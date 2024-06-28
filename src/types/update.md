@@ -24,5 +24,6 @@ An incoming update.
 | </span><a href="/types/updatenewstory"  >UpdateNewStory</a><span class="opacity-50">
 | </span><a href="/types/updatebusinessconnection"  >UpdateBusinessConnection</a><span class="opacity-50">
 | </span><a href="/types/updatevideochat"  >UpdateVideoChat</a><span class="opacity-50">
-| </span><a href="/types/updateprecheckoutquery"  >UpdatePreCheckoutQuery</a></div>
+| </span><a href="/types/updateprecheckoutquery"  >UpdatePreCheckoutQuery</a><span class="opacity-50">
+| </span><a href="/types/updatejoinrequest"  >UpdateJoinRequest</a></div>
 
