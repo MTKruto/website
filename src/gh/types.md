@@ -269,6 +269,13 @@ A chat invite link.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/joinrequest">JoinRequest</a>
+<div><div>
+
+A join request.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/keyboardbutton">KeyboardButton</a>
 <div><div>
 
