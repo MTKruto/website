@@ -24,11 +24,11 @@ if (last) {
 }
 await getDocs("gh");
 Deno.writeTextFileSync(
-  "versions.ts",
+  "_versions.ts",
   `export default ${JSON.stringify(versions, null, 2)};\n`,
 );
 await $`deno fmt`;
 await $`git add doc/*`;
 if (last) {
-  await $`git add versions.ts`;
+  await $`git add _versions.ts`;
 }
