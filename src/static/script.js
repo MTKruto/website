@@ -24,7 +24,7 @@ document.querySelectorAll(".code-group-button").forEach((button) => {
 const headings = Array.from(document.querySelectorAll(".header-anchor"));
 const tocItems = Array.from(document.querySelectorAll("[data-toc]"));
 
-const SCROLL_OFFSET = 134;
+const SCROLL_OFFSET = 50;
 function updateActiveTocItem() {
   const scrollY = window.scrollY;
   const innerHeight = window.innerHeight;
