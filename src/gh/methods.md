@@ -150,6 +150,22 @@ Send a callback query. User-only.
 ## Chats
 <div class="descr-list">
 
+<a href="/methods/approvejoinrequest">approveJoinRequest</a>
+<div><div>
+
+Approve a join request.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/approvejoinrequests">approveJoinRequests</a>
+<div><div>
+
+Approve all join requests. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/banchatmember">banChatMember</a>
 <div><div>
 
@@ -162,6 +178,22 @@ Ban a member from a chat.
 <div><div>
 
 Create an invite link.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/declinejoinrequest">declineJoinRequest</a>
+<div><div>
+
+Decline a join request.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/declinejoinrequests">declineJoinRequests</a>
+<div><div>
+
+Decline all join requests. User-only.
 
 
 </div></div>
