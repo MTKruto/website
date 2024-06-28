@@ -2,6 +2,9 @@
 title: answerPreCheckoutQuery
 ---
 
+Answer a pre-checkout query. Bot-only.
+
+
 ### Parameters 
 
 <div class="flex flex-col gap-3"><div><div class="font-mono"><span class="font-bold">preCheckoutQueryId</span><span class="opacity-50">:</span> <span>string</span></div><div class="pl-3"><div class="no-margin">

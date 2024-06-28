@@ -2,6 +2,9 @@
 title: editInlineMessageLiveLocation
 ---
 
+Edit an inline message's live location. Bot-only.
+
+
 ### Parameters 
 
 <div class="flex flex-col gap-3"><div><div class="font-mono"><span class="font-bold">inlineMessageId</span><span class="opacity-50">:</span> <span>string</span></div><div class="pl-3"><div class="no-margin">

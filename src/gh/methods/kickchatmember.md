@@ -2,6 +2,9 @@
 title: kickChatMember
 ---
 
+Kick a member from a chat. Same as a banChatMember call followed by unbanChatMember.
+
+
 ### Parameters 
 
 <div class="flex flex-col gap-3"><div><div class="font-mono"><span class="font-bold">chatId</span><span class="opacity-50">:</span> <a href="/gh/types/id"  >ID</a></div><div class="pl-3"><div class="no-margin">

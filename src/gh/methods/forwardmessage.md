@@ -2,6 +2,9 @@
 title: forwardMessage
 ---
 
+Forward a single message.
+
+
 ### Parameters 
 
 <div class="flex flex-col gap-3"><div><div class="font-mono"><span class="font-bold">from</span><span class="opacity-50">:</span> <a href="/gh/types/id"  >ID</a></div><div class="pl-3"><div class="no-margin">

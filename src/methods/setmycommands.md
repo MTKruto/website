@@ -2,6 +2,9 @@
 title: setMyCommands
 ---
 
+Set the bot's commands in the given scope and/or language. Bot-only.
+
+
 ### Parameters 
 
 <div class="flex flex-col gap-3"><div><div class="font-mono"><span class="font-bold">commands</span><span class="opacity-50">:</span> <a href="/types/botcommand"  >BotCommand</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">

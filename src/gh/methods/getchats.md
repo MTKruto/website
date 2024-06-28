@@ -2,6 +2,9 @@
 title: getChats
 ---
 
+Get chats from a chat list. User-only.
+
+
 ### Parameters 
 
 <div class="flex flex-col gap-3"><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">from</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>&quot;main&quot;</span> <span class="opacity-50">|</span> <span>&quot;archived&quot;</span></div></div><div class="pl-3"><div class="no-margin">

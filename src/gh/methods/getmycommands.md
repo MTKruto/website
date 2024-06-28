@@ -2,6 +2,9 @@
 title: getMyCommands
 ---
 
+Get the bot's commands in the given scope and/or language. Bot-only.
+
+
 ### Parameters 
 
 <div class="flex flex-col gap-3"></div>

@@ -2,6 +2,9 @@
 title: createStory
 ---
 
+Create a story. User-only.
+
+
 ### Parameters 
 
 <div class="flex flex-col gap-3"><div><div class="font-mono"><span class="font-bold">chatId</span><span class="opacity-50">:</span> <a href="/types/id"  >ID</a></div></div><div><div class="font-mono"><span class="font-bold">content</span><span class="opacity-50">:</span> <a href="/types/inputstorycontent"  >InputStoryContent</a></div><div class="pl-3"><div class="no-margin">
