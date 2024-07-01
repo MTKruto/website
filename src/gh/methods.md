@@ -150,6 +150,22 @@ Send a callback query. User-only.
 ## Chats
 <div class="descr-list">
 
+<a href="/methods/addchatmember">addChatMember</a>
+<div><div>
+
+Add a single user to a chat.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/addchatmembers">addChatMembers</a>
+<div><div>
+
+Add multiple users at once to a channel or a supergroup.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/approvejoinrequest">approveJoinRequest</a>
 <div><div>
 
