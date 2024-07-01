@@ -95,7 +95,7 @@ The identifier of a chat to send the message on behalf of. User-only.
 
 The reply markup of the message. Bot-only.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div></div></div></div>
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">messageEffectId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div></div></div></div>
 
 ### Result 
 
@@ -131,6 +131,7 @@ await client.sendVideo(chatId, video, {
     messageThreadId,
     sendAs,
     replyMarkup,
+    messageEffectId,
     businessConnectionId,
 });
 ```

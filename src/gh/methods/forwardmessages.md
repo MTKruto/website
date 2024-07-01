@@ -47,7 +47,7 @@ The identifier of a thread to send the message to.
 
 The identifier of a chat to send the message on behalf of. User-only.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div></div></div></div>
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">messageEffectId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div></div></div></div>
 
 ### Result 
 
@@ -69,6 +69,7 @@ await client.forwardMessages(from, to, messageIds, {
     replyQuote,
     messageThreadId,
     sendAs,
+    messageEffectId,
     businessConnectionId,
 });
 ```
