@@ -1,31 +1,35 @@
 ---
-title: sendMessage
+title: sendMediaGroup
 ---
 
-Send a text message.
+Send a media group.
 
 
 ### Parameters 
 
 <div class="flex flex-col gap-3"><div><div class="font-mono"><span class="font-bold">chatId</span><span class="opacity-50">:</span> <a href="/gh/types/id"  >ID</a></div><div class="pl-3"><div class="no-margin">
 
-The chat to send the message to.
+The chat to send the media group to.
 
-</div></div></div><div><div class="font-mono"><span class="font-bold">text</span><span class="opacity-50">:</span> <span>string</span></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="font-mono"><span class="font-bold">media</span><span class="opacity-50">:</span> <a href="/gh/types/inputmedia"  >InputMedia</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
 
-The message's text.
+The media to include in the media group. All of them must be of the same media type.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">parseMode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/parsemode"  >ParseMode</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">fileName</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
-The parse mode to use. If not provided, the default parse mode will be used.
+The file name to assign if applicable.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">entities</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/messageentity"  >MessageEntity</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">mimeType</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
-The message's entities.
+The mime type to assign if applicable.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">linkPreview</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/linkpreview"  >LinkPreview</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">chunkSize</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The message's link preview.
+Size of each upload chunk in bytes.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">signal</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">AbortSignal</span> <span class="opacity-50">|</span> <span>null</span></div></div><div class="pl-3"><div class="no-margin">
+
+Upload abort signal.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">disableNotification</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
@@ -51,28 +55,25 @@ The identifier of a thread to send the message to.
 
 The identifier of a chat to send the message on behalf of. User-only.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">messageEffectId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">replyMarkup</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/replymarkup"  >ReplyMarkup</a></div></div><div class="pl-3"><div class="no-margin">
-
-The reply markup of the message. Bot-only.
-
-</div></div></div></div></div>
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">messageEffectId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div></div></div></div>
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/messagetext"  >MessageText</a></div>
+<div class="font-mono"><a href="/gh/types/message"  >Message</a><span class="opacity-50">[]</span></div>
 
 ### Syntax
 
 ```ts
 // Required parameters only.
-await client.sendMessage(chatId, text);
+await client.sendMediaGroup(chatId, media);
 
 // Required parameters + optional parameters.
 // Any of the optional parameters can be omitted.
-await client.sendMessage(chatId, text, {
-    parseMode,
-    entities,
-    linkPreview,
+await client.sendMediaGroup(chatId, media, {
+    fileName,
+    mimeType,
+    chunkSize,
+    signal,
     disableNotification,
     protectContent,
     replyToMessageId,
@@ -81,7 +82,6 @@ await client.sendMessage(chatId, text, {
     sendAs,
     messageEffectId,
     businessConnectionId,
-    replyMarkup,
 });
 ```
 

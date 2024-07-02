@@ -20,6 +20,18 @@ Size of each upload chunk in bytes.
 
 Upload abort signal.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">caption</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The caption of the media.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">captionEntities</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/messageentity"  >MessageEntity</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+
+The entities of media's caption.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">parseMode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/parsemode"  >ParseMode</a></div></div><div class="pl-3"><div class="no-margin">
+
+Override the parse mode used for the media's caption.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">video</span><span class="opacity-50">:</span> <a href="/gh/types/filesource"  >FileSource</a></div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div><div class="pl-3"><div class="no-margin">
 
 The video.
@@ -43,10 +55,6 @@ The height of the photo in pixels.
 </div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">supportsStreaming</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the video is suitable for streaming.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">caption</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
-
-The caption of the media.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">hasSpoiler</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 

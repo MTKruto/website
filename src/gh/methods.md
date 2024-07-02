@@ -624,6 +624,14 @@ Send a location.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/sendmediagroup">sendMediaGroup</a>
+<div><div>
+
+Send a media group.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/sendmessage">sendMessage</a>
 <div><div>
 
