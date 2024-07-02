@@ -171,6 +171,13 @@ A document.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/failedinvitation">FailedInvitation</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/game">Game</a>
 <div><div>
 

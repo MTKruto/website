@@ -20,9 +20,21 @@ Size of each upload chunk in bytes.
 
 Upload abort signal.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">photo</span><span class="opacity-50">:</span> <a href="/types/filesource"  >FileSource</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">caption</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
-The new photo.
+The caption of the media.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">captionEntities</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/messageentity"  >MessageEntity</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+
+The entities of media's caption.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">parseMode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/parsemode"  >ParseMode</a></div></div><div class="pl-3"><div class="no-margin">
+
+Override the parse mode used for the media's caption.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">photo</span><span class="opacity-50">:</span> <a href="/types/filesource"  >FileSource</a></div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div><div class="pl-3"><div class="no-margin">
+
+The photo.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">width</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
@@ -31,10 +43,6 @@ The width of the photo in pixels.
 </div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">height</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 The height of the photo in pixels.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">caption</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
-
-The new caption of the message.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">hasSpoiler</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
