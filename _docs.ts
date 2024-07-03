@@ -299,6 +299,22 @@ function addPrefix(td: TsTypeDef, prefix: string, to: string[]) {
 
 async function doc(spec: string): ReturnType<typeof doc_> {
   const path = `./doc/${spec.replaceAll("/", "")}.json`;
+
+  const GH_PREFIX = "https://raw.githubusercontent.com/MTKruto/MTKruto/main/";
+  if (spec.startsWith(GH_PREFIX)) {
+    try {
+      const lastCommitId = await (await fetch(
+        "https://api.github.com/repos/MTKruto/MTKruto/commits/main",
+        { headers: { accept: "application/vnd.github.VERSION.sha" } },
+      )).text();
+      spec =
+        `https://raw.githubusercontent.com/MTKruto/MTKruto/${lastCommitId.trim()}/` +
+        spec.slice(GH_PREFIX.length);
+    } catch (err) {
+      console.log(err);
+    }
+  }
+
   if (!Deno.env.get("WRITE")) {
     try {
       return JSON.parse(await Deno.readTextFile(path));

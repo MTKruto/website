@@ -53,9 +53,9 @@ site.process([".html"], (pages) => {
     }
     for (const code of document.querySelectorAll(".language-shell")) {
       code.innerHTML = code.innerHTML.trim()
-      .split("\n").map((v) =>
-        `<span style="opacity: 0.5; user-select: none">$ </span>${v}`
-      ).join("\n");
+        .split("\n").map((v) =>
+          `<span style="opacity: 0.5; user-select: none">$ </span>${v}`
+        ).join("\n");
     }
   }
 });
