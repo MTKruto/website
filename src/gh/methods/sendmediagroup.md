@@ -15,23 +15,7 @@ The chat to send the media group to.
 
 The media to include in the media group. Animations are not allowed. All of them must be of the same media type, but an exception is that photos and videos can be mixed.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">fileName</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
-
-The file name to assign if applicable.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">mimeType</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
-
-The mime type to assign if applicable.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">chunkSize</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-Size of each upload chunk in bytes.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">signal</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">AbortSignal</span> <span class="opacity-50">|</span> <span>null</span></div></div><div class="pl-3"><div class="no-margin">
-
-Upload abort signal.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">disableNotification</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">disableNotification</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether to send the message in a silent way without making a sound on the recipients' clients.
 
@@ -70,10 +54,6 @@ await client.sendMediaGroup(chatId, media);
 // Required parameters + optional parameters.
 // Any of the optional parameters can be omitted.
 await client.sendMediaGroup(chatId, media, {
-    fileName,
-    mimeType,
-    chunkSize,
-    signal,
     disableNotification,
     protectContent,
     replyToMessageId,
