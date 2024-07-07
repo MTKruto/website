@@ -69,8 +69,9 @@ title: Methods
     methods_md += '<div class="descr-list">\n\n';
 
     for (const method of methods_) {
-      methods_md +=
-        `<a href="/methods/${method.name.toLowerCase()}">${method.name}</a>\n`;
+      methods_md += `<a href="${
+        version ? `${version}/` : "/"
+      }methods/${method.name.toLowerCase()}">${method.name}</a>\n`;
       methods_md += `<div><div>\n\n${
         method.jsDoc?.doc ?? `<i style="opacity: 0.5">No Description</i>`
       }\n\n</div></div>\n`;
@@ -95,8 +96,9 @@ title: Methods
     methods_md += '<div class="descr-list">\n\n';
 
     for (const method of unlisted) {
-      methods_md +=
-        `<a href="/methods/${method.name.toLowerCase()}">${method.name}</a>\n`;
+      methods_md += `<a href="${
+        version ? `${version}/` : "/"
+      }methods/${method.name.toLowerCase()}">${method.name}</a>\n`;
       methods_md += `<div><div>\n\n${
         method.jsDoc?.doc ?? `<i style="opacity: 0.5">No Description</i>`
       }\n\n</div></div>\n`;
@@ -128,8 +130,9 @@ title: Types
         return true;
       })
   ) {
-    types_md +=
-      `<a href="/types/${type.name.toLowerCase()}">${type.name}</a>\n`;
+    types_md += `<a href="${
+      version ? `${version}/` : "/"
+    }types/${type.name.toLowerCase()}">${type.name}</a>\n`;
     types_md += `<div><div>\n\n${
       type.jsDoc?.doc ?? `<i style="opacity: 0.5">No Description</i>`
     }\n\n</div></div>\n`;
