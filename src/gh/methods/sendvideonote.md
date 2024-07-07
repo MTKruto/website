@@ -63,13 +63,9 @@ Whether to send the message in a silent way without making a sound on the recipi
 
 Whether to protect the contents of the message from copying and forwarding.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">replyToMessageId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">replyTo</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/replyto"  >ReplyTo</a></div></div><div class="pl-3"><div class="no-margin">
 
-The identifier of a message to reply to.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">replyQuote</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/replyquote"  >ReplyQuote</a></div></div><div class="pl-3"><div class="no-margin">
-
-A specific part of the replying message's text to quote.
+Information on what the message is replying to.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">messageThreadId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
@@ -106,8 +102,7 @@ await client.sendVideoNote(chatId, videoNote, {
     signal,
     disableNotification,
     protectContent,
-    replyToMessageId,
-    replyQuote,
+    replyTo,
     messageThreadId,
     sendAs,
     messageEffectId,
