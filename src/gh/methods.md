@@ -4,7 +4,7 @@ title: Methods
 ## Account
 <div class="descr-list">
 
-<a href="/methods/getbusinessconnection">getBusinessConnection</a>
+<a href="/gh/methods/getbusinessconnection">getBusinessConnection</a>
 <div><div>
 
 Get a business connection. Bot-only.
@@ -12,7 +12,7 @@ Get a business connection. Bot-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/getme">getMe</a>
+<a href="/gh/methods/getme">getMe</a>
 <div><div>
 
 Get information on the currently authorized user.
@@ -20,7 +20,7 @@ Get information on the currently authorized user.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/hideusername">hideUsername</a>
+<a href="/gh/methods/hideusername">hideUsername</a>
 <div><div>
 
 Hide a username from the current account, a bot account, a supergroup, or a channel's profile. User-only.
@@ -28,7 +28,7 @@ Hide a username from the current account, a bot account, a supergroup, or a chan
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/hideusernames">hideUsernames</a>
+<a href="/gh/methods/hideusernames">hideUsernames</a>
 <div><div>
 
 Hide all usernames from the a supergroup or a channel's profile. User-only.
@@ -36,7 +36,7 @@ Hide all usernames from the a supergroup or a channel's profile. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/reorderusernames">reorderUsernames</a>
+<a href="/gh/methods/reorderusernames">reorderUsernames</a>
 <div><div>
 
 Reorder the usernames of the current account, a bot account, a supergroup, or a channel's profile. User-only.
@@ -44,7 +44,7 @@ Reorder the usernames of the current account, a bot account, a supergroup, or a 
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/showusername">showUsername</a>
+<a href="/gh/methods/showusername">showUsername</a>
 <div><div>
 
 Show a username in the current account, a bot account, a supergroup, or a channel's profile. User-only.
@@ -58,7 +58,7 @@ Show a username in the current account, a bot account, a supergroup, or a channe
 ## Bots
 <div class="descr-list">
 
-<a href="/methods/getmycommands">getMyCommands</a>
+<a href="/gh/methods/getmycommands">getMyCommands</a>
 <div><div>
 
 Get the bot's commands in the given scope and/or language. Bot-only.
@@ -66,7 +66,7 @@ Get the bot's commands in the given scope and/or language. Bot-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/getmydescription">getMyDescription</a>
+<a href="/gh/methods/getmydescription">getMyDescription</a>
 <div><div>
 
 Get the bot's description in the given language. Bot-only.
@@ -74,7 +74,7 @@ Get the bot's description in the given language. Bot-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/getmyname">getMyName</a>
+<a href="/gh/methods/getmyname">getMyName</a>
 <div><div>
 
 Get the bot's name in the given language. Bot-only.
@@ -82,7 +82,7 @@ Get the bot's name in the given language. Bot-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/getmyshortdescription">getMyShortDescription</a>
+<a href="/gh/methods/getmyshortdescription">getMyShortDescription</a>
 <div><div>
 
 Get the bot's short description in the given language. Bot-only.
@@ -90,7 +90,7 @@ Get the bot's short description in the given language. Bot-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/setmycommands">setMyCommands</a>
+<a href="/gh/methods/setmycommands">setMyCommands</a>
 <div><div>
 
 Set the bot's commands in the given scope and/or language. Bot-only.
@@ -98,7 +98,7 @@ Set the bot's commands in the given scope and/or language. Bot-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/setmydescription">setMyDescription</a>
+<a href="/gh/methods/setmydescription">setMyDescription</a>
 <div><div>
 
 Set the bot's description in the given language. Bot-only.
@@ -106,7 +106,7 @@ Set the bot's description in the given language. Bot-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/setmyname">setMyName</a>
+<a href="/gh/methods/setmyname">setMyName</a>
 <div><div>
 
 Set the bot's name in the given language. Bot-only.
@@ -114,7 +114,7 @@ Set the bot's name in the given language. Bot-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/setmyshortdescription">setMyShortDescription</a>
+<a href="/gh/methods/setmyshortdescription">setMyShortDescription</a>
 <div><div>
 
 Set the bot's short description in the given language. Bot-only.
@@ -128,7 +128,7 @@ Set the bot's short description in the given language. Bot-only.
 ## Callback Queries
 <div class="descr-list">
 
-<a href="/methods/answercallbackquery">answerCallbackQuery</a>
+<a href="/gh/methods/answercallbackquery">answerCallbackQuery</a>
 <div><div>
 
 Answer a callback query. Bot-only.
@@ -136,7 +136,7 @@ Answer a callback query. Bot-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/sendcallbackquery">sendCallbackQuery</a>
+<a href="/gh/methods/sendcallbackquery">sendCallbackQuery</a>
 <div><div>
 
 Send a callback query. User-only.
@@ -150,7 +150,7 @@ Send a callback query. User-only.
 ## Chats
 <div class="descr-list">
 
-<a href="/methods/addchatmember">addChatMember</a>
+<a href="/gh/methods/addchatmember">addChatMember</a>
 <div><div>
 
 Add a single user to a chat.
@@ -158,7 +158,7 @@ Add a single user to a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/addchatmembers">addChatMembers</a>
+<a href="/gh/methods/addchatmembers">addChatMembers</a>
 <div><div>
 
 Add multiple users at once to a channel or a supergroup.
@@ -166,7 +166,7 @@ Add multiple users at once to a channel or a supergroup.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/approvejoinrequest">approveJoinRequest</a>
+<a href="/gh/methods/approvejoinrequest">approveJoinRequest</a>
 <div><div>
 
 Approve a join request.
@@ -174,7 +174,7 @@ Approve a join request.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/approvejoinrequests">approveJoinRequests</a>
+<a href="/gh/methods/approvejoinrequests">approveJoinRequests</a>
 <div><div>
 
 Approve all join requests. User-only.
@@ -182,7 +182,7 @@ Approve all join requests. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/banchatmember">banChatMember</a>
+<a href="/gh/methods/banchatmember">banChatMember</a>
 <div><div>
 
 Ban a member from a chat.
@@ -190,7 +190,7 @@ Ban a member from a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/createinvitelink">createInviteLink</a>
+<a href="/gh/methods/createinvitelink">createInviteLink</a>
 <div><div>
 
 Create an invite link.
@@ -198,7 +198,7 @@ Create an invite link.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/declinejoinrequest">declineJoinRequest</a>
+<a href="/gh/methods/declinejoinrequest">declineJoinRequest</a>
 <div><div>
 
 Decline a join request.
@@ -206,7 +206,7 @@ Decline a join request.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/declinejoinrequests">declineJoinRequests</a>
+<a href="/gh/methods/declinejoinrequests">declineJoinRequests</a>
 <div><div>
 
 Decline all join requests. User-only.
@@ -214,7 +214,7 @@ Decline all join requests. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/deletechatphoto">deleteChatPhoto</a>
+<a href="/gh/methods/deletechatphoto">deleteChatPhoto</a>
 <div><div>
 
 Delete a chat's photo.
@@ -222,7 +222,7 @@ Delete a chat's photo.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/deletechatstickerset">deleteChatStickerSet</a>
+<a href="/gh/methods/deletechatstickerset">deleteChatStickerSet</a>
 <div><div>
 
 Delete a chat's sticker set.
@@ -230,7 +230,7 @@ Delete a chat's sticker set.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/disablejoinrequests">disableJoinRequests</a>
+<a href="/gh/methods/disablejoinrequests">disableJoinRequests</a>
 <div><div>
 
 Disable join requests in a chat. User-only.
@@ -238,7 +238,7 @@ Disable join requests in a chat. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/enablejoinrequests">enableJoinRequests</a>
+<a href="/gh/methods/enablejoinrequests">enableJoinRequests</a>
 <div><div>
 
 Enable join requests in a chat. User-only.
@@ -246,7 +246,7 @@ Enable join requests in a chat. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/getchat">getChat</a>
+<a href="/gh/methods/getchat">getChat</a>
 <div><div>
 
 Get a chat.
@@ -254,7 +254,7 @@ Get a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/getchatadministrators">getChatAdministrators</a>
+<a href="/gh/methods/getchatadministrators">getChatAdministrators</a>
 <div><div>
 
 Get the administrators of a chat.
@@ -262,7 +262,7 @@ Get the administrators of a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/getchatmember">getChatMember</a>
+<a href="/gh/methods/getchatmember">getChatMember</a>
 <div><div>
 
 Get information on a user's chat membership.
@@ -270,7 +270,7 @@ Get information on a user's chat membership.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/getchats">getChats</a>
+<a href="/gh/methods/getchats">getChats</a>
 <div><div>
 
 Get chats from a chat list. User-only.
@@ -278,7 +278,7 @@ Get chats from a chat list. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/getcreatedinvitelinks">getCreatedInviteLinks</a>
+<a href="/gh/methods/getcreatedinvitelinks">getCreatedInviteLinks</a>
 <div><div>
 
 Get the invite links created for a chat. User-only.
@@ -286,7 +286,7 @@ Get the invite links created for a chat. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/gethistory">getHistory</a>
+<a href="/gh/methods/gethistory">getHistory</a>
 <div><div>
 
 Get chat history. User-only.
@@ -294,7 +294,7 @@ Get chat history. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/getinactivechats">getInactiveChats</a>
+<a href="/gh/methods/getinactivechats">getInactiveChats</a>
 <div><div>
 
 Get inactive chats. User-only.
@@ -302,7 +302,7 @@ Get inactive chats. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/joinchat">joinChat</a>
+<a href="/gh/methods/joinchat">joinChat</a>
 <div><div>
 
 Join a chat. User-only.
@@ -310,7 +310,7 @@ Join a chat. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/kickchatmember">kickChatMember</a>
+<a href="/gh/methods/kickchatmember">kickChatMember</a>
 <div><div>
 
 Kick a member from a chat. Same as a banChatMember call followed by unbanChatMember.
@@ -318,7 +318,7 @@ Kick a member from a chat. Same as a banChatMember call followed by unbanChatMem
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/leavechat">leaveChat</a>
+<a href="/gh/methods/leavechat">leaveChat</a>
 <div><div>
 
 Leave a chat.
@@ -326,7 +326,7 @@ Leave a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/setavailablereactions">setAvailableReactions</a>
+<a href="/gh/methods/setavailablereactions">setAvailableReactions</a>
 <div><div>
 
 Set a chat's available reactions. User-only.
@@ -334,7 +334,7 @@ Set a chat's available reactions. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/setboostsrequiredtocircumventrestrictions">setBoostsRequiredToCircumventRestrictions</a>
+<a href="/gh/methods/setboostsrequiredtocircumventrestrictions">setBoostsRequiredToCircumventRestrictions</a>
 <div><div>
 
 Set the number of boosts required to circument a chat's default restrictions. User-only.
@@ -342,7 +342,7 @@ Set the number of boosts required to circument a chat's default restrictions. Us
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/setchatmemberrights">setChatMemberRights</a>
+<a href="/gh/methods/setchatmemberrights">setChatMemberRights</a>
 <div><div>
 
 Set the rights of a chat member.
@@ -350,7 +350,7 @@ Set the rights of a chat member.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/setchatphoto">setChatPhoto</a>
+<a href="/gh/methods/setchatphoto">setChatPhoto</a>
 <div><div>
 
 Set a chat's photo.
@@ -358,7 +358,7 @@ Set a chat's photo.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/setchatstickerset">setChatStickerSet</a>
+<a href="/gh/methods/setchatstickerset">setChatStickerSet</a>
 <div><div>
 
 Set a chat's sticker set.
@@ -366,7 +366,7 @@ Set a chat's sticker set.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/unbanchatmember">unbanChatMember</a>
+<a href="/gh/methods/unbanchatmember">unbanChatMember</a>
 <div><div>
 
 Unban a member from a chat.
@@ -380,7 +380,7 @@ Unban a member from a chat.
 ## Files
 <div class="descr-list">
 
-<a href="/methods/download">download</a>
+<a href="/gh/methods/download">download</a>
 <div><div>
 
 Download a file.
@@ -388,7 +388,7 @@ Download a file.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/getcustomemojistickers">getCustomEmojiStickers</a>
+<a href="/gh/methods/getcustomemojistickers">getCustomEmojiStickers</a>
 <div><div>
 
 Get custom emoji documents for download.
@@ -402,7 +402,7 @@ Get custom emoji documents for download.
 ## Inline Queries
 <div class="descr-list">
 
-<a href="/methods/answerinlinequery">answerInlineQuery</a>
+<a href="/gh/methods/answerinlinequery">answerInlineQuery</a>
 <div><div>
 
 Answer an inline query. Bot-only.
@@ -410,7 +410,7 @@ Answer an inline query. Bot-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/sendinlinequery">sendInlineQuery</a>
+<a href="/gh/methods/sendinlinequery">sendInlineQuery</a>
 <div><div>
 
 Send an inline query. User-only.
@@ -424,7 +424,7 @@ Send an inline query. User-only.
 ## Messages
 <div class="descr-list">
 
-<a href="/methods/deletechatmembermessages">deleteChatMemberMessages</a>
+<a href="/gh/methods/deletechatmembermessages">deleteChatMemberMessages</a>
 <div><div>
 
 Delete all messages sent by a specific member of a chat. User-only.
@@ -432,7 +432,7 @@ Delete all messages sent by a specific member of a chat. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/deletemessage">deleteMessage</a>
+<a href="/gh/methods/deletemessage">deleteMessage</a>
 <div><div>
 
 Delete a single message.
@@ -440,7 +440,7 @@ Delete a single message.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/deletemessages">deleteMessages</a>
+<a href="/gh/methods/deletemessages">deleteMessages</a>
 <div><div>
 
 Delete multiple messages.
@@ -448,7 +448,7 @@ Delete multiple messages.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/editinlinemessagelivelocation">editInlineMessageLiveLocation</a>
+<a href="/gh/methods/editinlinemessagelivelocation">editInlineMessageLiveLocation</a>
 <div><div>
 
 Edit an inline message's live location. Bot-only.
@@ -456,7 +456,7 @@ Edit an inline message's live location. Bot-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/editinlinemessagemedia">editInlineMessageMedia</a>
+<a href="/gh/methods/editinlinemessagemedia">editInlineMessageMedia</a>
 <div><div>
 
 Edit an inline message's media.
@@ -464,7 +464,7 @@ Edit an inline message's media.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/editinlinemessagereplymarkup">editInlineMessageReplyMarkup</a>
+<a href="/gh/methods/editinlinemessagereplymarkup">editInlineMessageReplyMarkup</a>
 <div><div>
 
 Edit an inline message's reply markup. Bot-only.
@@ -472,7 +472,7 @@ Edit an inline message's reply markup. Bot-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/editinlinemessagetext">editInlineMessageText</a>
+<a href="/gh/methods/editinlinemessagetext">editInlineMessageText</a>
 <div><div>
 
 Edit an inline message's text. Bot-only.
@@ -480,7 +480,7 @@ Edit an inline message's text. Bot-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/editmessagelivelocation">editMessageLiveLocation</a>
+<a href="/gh/methods/editmessagelivelocation">editMessageLiveLocation</a>
 <div><div>
 
 Edit a message's live location.
@@ -488,7 +488,7 @@ Edit a message's live location.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/editmessagemedia">editMessageMedia</a>
+<a href="/gh/methods/editmessagemedia">editMessageMedia</a>
 <div><div>
 
 Edit a message's media.
@@ -496,7 +496,7 @@ Edit a message's media.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/editmessagereplymarkup">editMessageReplyMarkup</a>
+<a href="/gh/methods/editmessagereplymarkup">editMessageReplyMarkup</a>
 <div><div>
 
 Edit a message's reply markup.
@@ -504,7 +504,7 @@ Edit a message's reply markup.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/editmessagetext">editMessageText</a>
+<a href="/gh/methods/editmessagetext">editMessageText</a>
 <div><div>
 
 Edit a message's text.
@@ -512,7 +512,7 @@ Edit a message's text.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/forwardmessage">forwardMessage</a>
+<a href="/gh/methods/forwardmessage">forwardMessage</a>
 <div><div>
 
 Forward a single message.
@@ -520,7 +520,7 @@ Forward a single message.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/forwardmessages">forwardMessages</a>
+<a href="/gh/methods/forwardmessages">forwardMessages</a>
 <div><div>
 
 Forward multiple messages.
@@ -528,7 +528,7 @@ Forward multiple messages.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/getmessage">getMessage</a>
+<a href="/gh/methods/getmessage">getMessage</a>
 <div><div>
 
 Retrieve a single message.
@@ -536,7 +536,7 @@ Retrieve a single message.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/getmessages">getMessages</a>
+<a href="/gh/methods/getmessages">getMessages</a>
 <div><div>
 
 Retrieve multiple messages.
@@ -544,7 +544,7 @@ Retrieve multiple messages.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/pinmessage">pinMessage</a>
+<a href="/gh/methods/pinmessage">pinMessage</a>
 <div><div>
 
 Pin a message in a chat.
@@ -552,7 +552,7 @@ Pin a message in a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/searchmessages">searchMessages</a>
+<a href="/gh/methods/searchmessages">searchMessages</a>
 <div><div>
 
 Search the messages of a chat. User-only.
@@ -560,7 +560,7 @@ Search the messages of a chat. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/sendanimation">sendAnimation</a>
+<a href="/gh/methods/sendanimation">sendAnimation</a>
 <div><div>
 
 Send an animation.
@@ -568,7 +568,7 @@ Send an animation.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/sendaudio">sendAudio</a>
+<a href="/gh/methods/sendaudio">sendAudio</a>
 <div><div>
 
 Send an audio file.
@@ -576,7 +576,7 @@ Send an audio file.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/sendchataction">sendChatAction</a>
+<a href="/gh/methods/sendchataction">sendChatAction</a>
 <div><div>
 
 Send a chat action.
@@ -584,7 +584,7 @@ Send a chat action.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/sendcontact">sendContact</a>
+<a href="/gh/methods/sendcontact">sendContact</a>
 <div><div>
 
 Send a contact.
@@ -592,7 +592,7 @@ Send a contact.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/senddice">sendDice</a>
+<a href="/gh/methods/senddice">sendDice</a>
 <div><div>
 
 Send a dice.
@@ -600,7 +600,7 @@ Send a dice.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/senddocument">sendDocument</a>
+<a href="/gh/methods/senddocument">sendDocument</a>
 <div><div>
 
 Send a document.
@@ -608,7 +608,7 @@ Send a document.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/sendinvoice">sendInvoice</a>
+<a href="/gh/methods/sendinvoice">sendInvoice</a>
 <div><div>
 
 Send an invoice.
@@ -616,7 +616,7 @@ Send an invoice.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/sendlocation">sendLocation</a>
+<a href="/gh/methods/sendlocation">sendLocation</a>
 <div><div>
 
 Send a location.
@@ -624,7 +624,7 @@ Send a location.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/sendmediagroup">sendMediaGroup</a>
+<a href="/gh/methods/sendmediagroup">sendMediaGroup</a>
 <div><div>
 
 Send a media group.
@@ -632,7 +632,7 @@ Send a media group.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/sendmessage">sendMessage</a>
+<a href="/gh/methods/sendmessage">sendMessage</a>
 <div><div>
 
 Send a text message.
@@ -640,7 +640,7 @@ Send a text message.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/sendphoto">sendPhoto</a>
+<a href="/gh/methods/sendphoto">sendPhoto</a>
 <div><div>
 
 Send a photo.
@@ -648,7 +648,7 @@ Send a photo.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/sendpoll">sendPoll</a>
+<a href="/gh/methods/sendpoll">sendPoll</a>
 <div><div>
 
 Send a poll.
@@ -656,7 +656,7 @@ Send a poll.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/sendsticker">sendSticker</a>
+<a href="/gh/methods/sendsticker">sendSticker</a>
 <div><div>
 
 Send a sticker.
@@ -664,7 +664,7 @@ Send a sticker.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/sendvenue">sendVenue</a>
+<a href="/gh/methods/sendvenue">sendVenue</a>
 <div><div>
 
 Send a venue.
@@ -672,7 +672,7 @@ Send a venue.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/sendvideo">sendVideo</a>
+<a href="/gh/methods/sendvideo">sendVideo</a>
 <div><div>
 
 Send a video.
@@ -680,7 +680,7 @@ Send a video.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/sendvideonote">sendVideoNote</a>
+<a href="/gh/methods/sendvideonote">sendVideoNote</a>
 <div><div>
 
 Send a video note.
@@ -688,7 +688,7 @@ Send a video note.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/sendvoice">sendVoice</a>
+<a href="/gh/methods/sendvoice">sendVoice</a>
 <div><div>
 
 Send a voice message.
@@ -696,7 +696,7 @@ Send a voice message.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/stoppoll">stopPoll</a>
+<a href="/gh/methods/stoppoll">stopPoll</a>
 <div><div>
 
 Stop a poll.
@@ -704,7 +704,7 @@ Stop a poll.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/unpinmessage">unpinMessage</a>
+<a href="/gh/methods/unpinmessage">unpinMessage</a>
 <div><div>
 
 Unpin a pinned message.
@@ -712,7 +712,7 @@ Unpin a pinned message.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/unpinmessages">unpinMessages</a>
+<a href="/gh/methods/unpinmessages">unpinMessages</a>
 <div><div>
 
 Unpin all pinned messages.
@@ -726,7 +726,7 @@ Unpin all pinned messages.
 ## Payments
 <div class="descr-list">
 
-<a href="/methods/answerprecheckoutquery">answerPreCheckoutQuery</a>
+<a href="/gh/methods/answerprecheckoutquery">answerPreCheckoutQuery</a>
 <div><div>
 
 Answer a pre-checkout query. Bot-only.
@@ -734,7 +734,7 @@ Answer a pre-checkout query. Bot-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/refundstarpayment">refundStarPayment</a>
+<a href="/gh/methods/refundstarpayment">refundStarPayment</a>
 <div><div>
 
 Refund a star payment. Bot-only.
@@ -748,7 +748,7 @@ Refund a star payment. Bot-only.
 ## Reactions
 <div class="descr-list">
 
-<a href="/methods/addreaction">addReaction</a>
+<a href="/gh/methods/addreaction">addReaction</a>
 <div><div>
 
 Make a reaction to a message.
@@ -756,7 +756,7 @@ Make a reaction to a message.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/removereaction">removeReaction</a>
+<a href="/gh/methods/removereaction">removeReaction</a>
 <div><div>
 
 Undo a reaction made to a message.
@@ -764,7 +764,7 @@ Undo a reaction made to a message.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/setreactions">setReactions</a>
+<a href="/gh/methods/setreactions">setReactions</a>
 <div><div>
 
 Change reactions made to a message.
@@ -778,7 +778,7 @@ Change reactions made to a message.
 ## Stories
 <div class="descr-list">
 
-<a href="/methods/addstoriestohighlights">addStoriesToHighlights</a>
+<a href="/gh/methods/addstoriestohighlights">addStoriesToHighlights</a>
 <div><div>
 
 Add multiple stories to highlights. User-only.
@@ -786,7 +786,7 @@ Add multiple stories to highlights. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/addstorytohighlights">addStoryToHighlights</a>
+<a href="/gh/methods/addstorytohighlights">addStoryToHighlights</a>
 <div><div>
 
 Add a single story to highlights. User-only.
@@ -794,7 +794,7 @@ Add a single story to highlights. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/createstory">createStory</a>
+<a href="/gh/methods/createstory">createStory</a>
 <div><div>
 
 Create a story. User-only.
@@ -802,7 +802,7 @@ Create a story. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/deletestories">deleteStories</a>
+<a href="/gh/methods/deletestories">deleteStories</a>
 <div><div>
 
 Delete multiple stories. User-only.
@@ -810,7 +810,7 @@ Delete multiple stories. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/deletestory">deleteStory</a>
+<a href="/gh/methods/deletestory">deleteStory</a>
 <div><div>
 
 Delete a single story. User-only.
@@ -818,7 +818,7 @@ Delete a single story. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/getstories">getStories</a>
+<a href="/gh/methods/getstories">getStories</a>
 <div><div>
 
 Retrieve multiple stories. User-only.
@@ -826,7 +826,7 @@ Retrieve multiple stories. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/getstory">getStory</a>
+<a href="/gh/methods/getstory">getStory</a>
 <div><div>
 
 Retrieve a single story. User-only.
@@ -834,7 +834,7 @@ Retrieve a single story. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/removestoriesfromhighlights">removeStoriesFromHighlights</a>
+<a href="/gh/methods/removestoriesfromhighlights">removeStoriesFromHighlights</a>
 <div><div>
 
 Remove multiple stories from highlights. User-only.
@@ -842,7 +842,7 @@ Remove multiple stories from highlights. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/removestoryfromhighlights">removeStoryFromHighlights</a>
+<a href="/gh/methods/removestoryfromhighlights">removeStoryFromHighlights</a>
 <div><div>
 
 Remove a single story from highlights. User-only.
@@ -856,7 +856,7 @@ Remove a single story from highlights. User-only.
 ## Video Chats
 <div class="descr-list">
 
-<a href="/methods/downloadlivestreamchunk">downloadLiveStreamChunk</a>
+<a href="/gh/methods/downloadlivestreamchunk">downloadLiveStreamChunk</a>
 <div><div>
 
 Download a live stream chunk. User-only.
@@ -864,7 +864,7 @@ Download a live stream chunk. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/getlivestreamchannels">getLiveStreamChannels</a>
+<a href="/gh/methods/getlivestreamchannels">getLiveStreamChannels</a>
 <div><div>
 
 Get live stream channels. User-only.
@@ -872,7 +872,7 @@ Get live stream channels. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/getvideochat">getVideoChat</a>
+<a href="/gh/methods/getvideochat">getVideoChat</a>
 <div><div>
 
 Get a video chat. User-only.
@@ -880,7 +880,7 @@ Get a video chat. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/joinlivestream">joinLiveStream</a>
+<a href="/gh/methods/joinlivestream">joinLiveStream</a>
 <div><div>
 
 Join a live stream. User-only.
@@ -888,7 +888,7 @@ Join a live stream. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/joinvideochat">joinVideoChat</a>
+<a href="/gh/methods/joinvideochat">joinVideoChat</a>
 <div><div>
 
 Join a video chat. User-only.
@@ -896,7 +896,7 @@ Join a video chat. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/leavevideochat">leaveVideoChat</a>
+<a href="/gh/methods/leavevideochat">leaveVideoChat</a>
 <div><div>
 
 Leave a video chat. User-only.
@@ -904,7 +904,7 @@ Leave a video chat. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/schedulevideochat">scheduleVideoChat</a>
+<a href="/gh/methods/schedulevideochat">scheduleVideoChat</a>
 <div><div>
 
 Schedule a video chat. User-only.
@@ -912,7 +912,7 @@ Schedule a video chat. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/startvideochat">startVideoChat</a>
+<a href="/gh/methods/startvideochat">startVideoChat</a>
 <div><div>
 
 Start a video chat. User-only.
@@ -926,7 +926,7 @@ Start a video chat. User-only.
 ## Unlisted
 <div class="descr-list">
 
-<a href="/methods/blockuser">blockUser</a>
+<a href="/gh/methods/blockuser">blockUser</a>
 <div><div>
 
 Block a user. User-only.
@@ -934,7 +934,7 @@ Block a user. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/getnetworkstatistics">getNetworkStatistics</a>
+<a href="/gh/methods/getnetworkstatistics">getNetworkStatistics</a>
 <div><div>
 
 Get network statistics. This might not always be available.
@@ -942,7 +942,7 @@ Get network statistics. This might not always be available.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/unblockuser">unblockUser</a>
+<a href="/gh/methods/unblockuser">unblockUser</a>
 <div><div>
 
 Unblock a user. User-only.
