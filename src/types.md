@@ -500,6 +500,13 @@ A reference to a specific part of a message that is being replied to.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/replyto">ReplyTo</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/restrictionreason">RestrictionReason</a>
 <div><div>
 
