@@ -55,7 +55,7 @@ const client = new Client({
 <code-group-item title="Node.js">
 
 ```ts
-import { Client, StorageLocalStorage } from "{{ deno }}/mod.ts";
+import { Client, StorageLocalStorage } from "@mtkruto/node";
 
 const client = new Client({
   storage: new StorageLocalStorage("my_client"),
