@@ -44,5 +44,6 @@ Any type of message.
 | </span><a href="/gh/types/messagevideochatended"  >MessageVideoChatEnded</a><span class="opacity-50">
 | </span><a href="/gh/types/messagegiveaway"  >MessageGiveaway</a><span class="opacity-50">
 | </span><a href="/gh/types/messageunsupported"  >MessageUnsupported</a><span class="opacity-50">
-| </span><a href="/gh/types/messagesuccessfulpayment"  >MessageSuccessfulPayment</a></div>
+| </span><a href="/gh/types/messagesuccessfulpayment"  >MessageSuccessfulPayment</a><span class="opacity-50">
+| </span><a href="/gh/types/messagerefundedpayment"  >MessageRefundedPayment</a></div>
 
