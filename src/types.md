@@ -486,6 +486,13 @@ The count of a specific reaction.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/refundedpayment">RefundedPayment</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/replymarkup">ReplyMarkup</a>
 <div><div>
 

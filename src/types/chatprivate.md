@@ -76,5 +76,5 @@ The exact location of the business.
 
 The opening hours of the business.
 
-</div></div></div></div>
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">hasMainMiniApp</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div></div></div>
 
