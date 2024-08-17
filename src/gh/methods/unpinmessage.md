@@ -15,7 +15,7 @@ The identifier of the chat that contains the message.
 
 The message's identifier.
 
-</div></div></div></div>
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div></div></div></div>
 
 ### Result 
 
@@ -24,7 +24,12 @@ The message's identifier.
 ### Syntax
 
 ```ts
+// Required parameters only.
 await client.unpinMessage(chatId, messageId);
+
+// Required parameters + optional parameters.
+// Any of the optional parameters can be omitted.
+await client.unpinMessage(chatId, messageId, { businessConnectionId });
 ```
 
 
