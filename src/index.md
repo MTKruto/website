@@ -15,6 +15,7 @@ hide_toc: true
 
 ### Guides
 
+- [Log Verbosity](/log-verbosity)
 - [Splitting Code](/splitting-code)
 - [Storage Adapters](/storage-adapters)
 - [Auth Strings](/auth-strings)
