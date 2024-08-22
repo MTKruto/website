@@ -15,6 +15,7 @@ hide_toc: true
 
 ### Guides
 
+- [Flood Waits](/flood-waits)
 - [Log Verbosity](/log-verbosity)
 - [Splitting Code](/splitting-code)
 - [Storage Adapters](/storage-adapters)
