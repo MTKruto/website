@@ -16,7 +16,7 @@ const client = new Client({
 });
 ```
 
-## Handling Larger Flood Waits
+## Handling Bigger Flood Waits
 
 If you want to handle >10-second flood waits, you can do so by extending the
 invoke middleware:
