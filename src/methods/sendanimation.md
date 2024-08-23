@@ -83,7 +83,15 @@ The identifier of a thread to send the message to.
 
 The identifier of a chat to send the message on behalf of. User-only.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">messageEffectId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div></div></div></div>
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">effectId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of a message effect to be attached to the message.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of a business connection ID to perform the action on.
+
+</div></div></div></div></div>
 
 ### Result 
 
@@ -115,7 +123,7 @@ await client.sendAnimation(chatId, animation, {
     replyTo,
     messageThreadId,
     sendAs,
-    messageEffectId,
+    effectId,
     businessConnectionId,
 });
 ```

@@ -11,7 +11,11 @@ Send a sticker.
 
 The chat to send the sticker to.
 
-</div></div></div><div><div class="font-mono"><span class="font-bold">sticker</span><span class="opacity-50">:</span> <a href="/types/filesource"  >FileSource</a></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">emoji</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">fileName</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="font-mono"><span class="font-bold">sticker</span><span class="opacity-50">:</span> <a href="/types/filesource"  >FileSource</a></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">emoji</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+Emoji to bind to the sticker.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">fileName</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
 The file name to assign if applicable.
 
@@ -47,7 +51,15 @@ The identifier of a thread to send the message to.
 
 The identifier of a chat to send the message on behalf of. User-only.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">messageEffectId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div></div></div></div>
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">effectId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of a message effect to be attached to the message.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of a business connection ID to perform the action on.
+
+</div></div></div></div></div>
 
 ### Result 
 
@@ -72,7 +84,7 @@ await client.sendSticker(chatId, sticker, {
     replyTo,
     messageThreadId,
     sendAs,
-    messageEffectId,
+    effectId,
     businessConnectionId,
 });
 ```

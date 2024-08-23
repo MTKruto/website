@@ -23,7 +23,15 @@ The maximum number of results to return. Must be in the range 1-100. Defaults to
 
 Whether only revoked invite links must be returned.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">afterDate</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">Date</span></div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">afterInviteLink</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div></div></div></div>
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">afterDate</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">Date</span></div></div><div class="pl-3"><div class="no-margin">
+
+Only get the invite links created after a specific date.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">afterInviteLink</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+Only get the invite links created after a specific invite link.
+
+</div></div></div></div></div>
 
 ### Result 
 
