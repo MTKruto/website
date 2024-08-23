@@ -118,9 +118,21 @@ The number of times the message was forwarded.
 
 The message's reply markup.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">senderBoostCount</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">viaBusinessBot</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/user"  >User</a></div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">effectId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
-The identifier of a message effect to be attached to the message.
+The identifier of a business conection that the message was sent in.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">senderBoostCount</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The number of the boosts made by the sender of the message.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">viaBusinessBot</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/user"  >User</a></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of the business connection in which the message was sent.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">effectId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of the message effect that has been attached to the message.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">location</span><span class="opacity-50">:</span> <a href="/gh/types/location"  >Location</a></div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div><div class="pl-3"><div class="no-margin">
 

@@ -489,7 +489,7 @@ The count of a specific reaction.
 <a href="/gh/types/refundedpayment">RefundedPayment</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+Information on a refunded payment.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -592,6 +592,13 @@ Reference to a story.
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/types/successfulpayment">SuccessfulPayment</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/switchinlinequerychosenchats">SwitchInlineQueryChosenChats</a>
 <div><div>
 
 <i style="opacity: 0.5">No Description</i>
