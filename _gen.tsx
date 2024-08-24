@@ -272,7 +272,7 @@ title: ${type.name}
 ---\n\n`;
 
     if (type.jsDoc?.doc) {
-      type_md += type.jsDoc.doc;
+      type_md += type.jsDoc.doc.replaceAll("\n\n```", "\n\n```ts");
       type_md += "\n\n";
     }
 
