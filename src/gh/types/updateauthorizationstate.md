@@ -4,7 +4,7 @@ title: UpdateAuthorizationState
 
 A client's authorization state was changed.
 
-```
+```ts
 client.on("authorizationState", (ctx) => {
   if (ctx.authorizationState.authorized) {
     const me = await ctx.client.getMe();

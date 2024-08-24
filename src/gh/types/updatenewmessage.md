@@ -4,7 +4,7 @@ title: UpdateNewMessage
 
 A message was sent or received.
 
-```
+```ts
 // Handle text messages
 client.on("message:text", (ctx) => {
   const receivedOrSent = ctx.message.out ? "sent" : "received";
