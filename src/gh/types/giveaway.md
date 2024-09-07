@@ -10,9 +10,13 @@ A giveaway.
 
 The quantity of the Telegram Premium subscriptions that will be given away..
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">monthCount</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">premiumMonthCount</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 The duration of each Telegram Premium subscription that is to be given away in months.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">starCount</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The amount of Telegram Stars that is to be given away to each user.
 
 </div></div></div></div>
 
