@@ -36,29 +36,9 @@ The chat where the message was sent to.
 
 A link to the message.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">forwardFrom</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/user"  >User</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">forwardFrom</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">ForwardHeader</span></div></div><div class="pl-3"><div class="no-margin">
 
-The original sender of the message.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">forwardFromChat</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/chatp"  >ChatP</a></div></div><div class="pl-3"><div class="no-margin">
-
-The original chat of the message.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">forwardId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-The original identifier of the message.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">forwardSignature</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
-
-The original signature of the message.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">forwardSenderName</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
-
-The name of the original sender of the message.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">forwardDate</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">Date</span></div></div><div class="pl-3"><div class="no-margin">
-
-The point in time in which the original message was sent.
+Information on the original message.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">isTopicMessage</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
