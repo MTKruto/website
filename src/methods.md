@@ -190,6 +190,14 @@ Ban a member from a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/closechat">closeChat</a>
+<div><div>
+
+Close a chat previously opened by openChat. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/createinvitelink">createInviteLink</a>
 <div><div>
 
@@ -322,6 +330,14 @@ Kick a member from a chat. Same as a banChatMember call followed by unbanChatMem
 <div><div>
 
 Leave a chat.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/openchat">openChat</a>
+<div><div>
+
+Open a chat. User-only.
 
 
 </div></div>
