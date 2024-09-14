@@ -39,7 +39,7 @@ The chat where the message was sent to.
 
 A link to the message.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">forwardFrom</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">ForwardHeader</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">forwardFrom</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/forwardheader"  >ForwardHeader</a></div></div><div class="pl-3"><div class="no-margin">
 
 Information on the original message.
 
