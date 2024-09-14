@@ -25,3 +25,28 @@ LOG_VERBOSITY=4 deno run main.ts
 ```shell
 LOG_VERBOSITY=4 npm start
 ```
+
+In browsers, the global variable `MTKRUTO__LOG_VERBOSITY` can be used.
+
+```html
+<!-- at the very top of the document -->
+<script>globalThis.MTKRUTO__LOG_VERBOSITY = 4;</script>
+```
+
+## Filtering Logs
+
+Logs can be filtered by their scopes using the LOG_FILTER environment variable
+which expects vaild regular expression.
+
+```shell
+LOG_VERBOSITY=4 LOG_FILTER=receiveLoop deno run main.ts
+```
+
+```shell
+LOG_VERBOSITY=4 LOG_VERBOSITY=receiveLoop npm start
+```
+
+```html
+<!-- at the very top of the document -->
+<script>globalThis.MTKRUTO__LOG_FILTER = "receiveLoop";</script>
+```
