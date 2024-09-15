@@ -7,8 +7,9 @@ An incoming update.
 <div class="font-mono whitespace-pre"><span class="opacity-50">| </span><a href="/types/updateconnectionstate"  >UpdateConnectionState</a><span class="opacity-50">
 | </span><a href="/types/updateauthorizationstate"  >UpdateAuthorizationState</a><span class="opacity-50">
 | </span><a href="/types/updatenewmessage"  >UpdateNewMessage</a><span class="opacity-50">
-| </span><a href="/types/updateeditedmessage"  >UpdateEditedMessage</a><span class="opacity-50">
-| </span><a href="/types/updatedeletedmessages"  >UpdateDeletedMessages</a><span class="opacity-50">
+| </span><a href="/types/updatemessageedited"  >UpdateMessageEdited</a><span class="opacity-50">
+| </span><a href="/types/updatemessagescheduled"  >UpdateMessageScheduled</a><span class="opacity-50">
+| </span><a href="/types/updatemessagesdeleted"  >UpdateMessagesDeleted</a><span class="opacity-50">
 | </span><a href="/types/updatecallbackquery"  >UpdateCallbackQuery</a><span class="opacity-50">
 | </span><a href="/types/updateinlinequery"  >UpdateInlineQuery</a><span class="opacity-50">
 | </span><a href="/types/updatechoseninlineresult"  >UpdateChosenInlineResult</a><span class="opacity-50">

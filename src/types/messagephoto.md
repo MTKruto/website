@@ -112,6 +112,10 @@ The identifier of the business connection in which the message was sent.
 
 The identifier of the message effect that has been attached to the message.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">scheduled</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the message is scheduled.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">caption</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">captionEntities</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/messageentity"  >MessageEntity</a><span class="opacity-50">[]</span></div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">hasMediaSpoiler</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">photo</span><span class="opacity-50">:</span> <a href="/types/photo"  >Photo</a></div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div><div class="pl-3"><div class="no-margin">
 
 The photo included in the message
