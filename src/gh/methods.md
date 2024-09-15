@@ -464,6 +464,22 @@ Delete multiple messages.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/deletescheduledmessage">deleteScheduledMessage</a>
+<div><div>
+
+Delete a scheduled message.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/deletescheduledmessages">deleteScheduledMessages</a>
+<div><div>
+
+Delete multiple scheduled messages.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/editinlinemessagelivelocation">editInlineMessageLiveLocation</a>
 <div><div>
 
@@ -668,6 +684,22 @@ Send a photo.
 <div><div>
 
 Send a poll.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/sendscheduledmessage">sendScheduledMessage</a>
+<div><div>
+
+Send a scheduled message before its schedule.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/sendscheduledmessages">sendScheduledMessages</a>
+<div><div>
+
+Send multiple scheduled messages before their schedule.
 
 
 </div></div>

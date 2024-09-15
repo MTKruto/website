@@ -83,6 +83,10 @@ The identifier of a chat to send the message on behalf of. User-only.
 
 The identifier of a message effect to be attached to the message.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">sendAt</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">Date</span></div></div><div class="pl-3"><div class="no-margin">
+
+If specified, the message will be scheduled to be sent at that date.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
 The identifier of a business connection ID to perform the action on.
@@ -119,6 +123,7 @@ await client.sendAudio(chatId, audio, {
     messageThreadId,
     sendAs,
     effectId,
+    sendAt,
     businessConnectionId,
 });
 ```

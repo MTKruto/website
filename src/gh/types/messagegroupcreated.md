@@ -115,6 +115,10 @@ The identifier of the business connection in which the message was sent.
 
 The identifier of the message effect that has been attached to the message.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">scheduled</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the message is scheduled.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">groupCreated</span><span class="opacity-50">:</span> true</div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">newChatMembers</span><span class="opacity-50">:</span> <a href="/gh/types/user"  >User</a><span class="opacity-50">[]</span></div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div><div class="pl-3"><div class="no-margin">
 
 The initial members of the group.
