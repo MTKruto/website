@@ -643,7 +643,7 @@ Send a document.
 <a href="/gh/methods/sendinvoice">sendInvoice</a>
 <div><div>
 
-Send an invoice.
+Send an invoice. Bot-only.
 
 
 </div></div>

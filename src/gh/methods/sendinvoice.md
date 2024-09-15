@@ -2,7 +2,7 @@
 title: sendInvoice
 ---
 
-Send an invoice.
+Send an invoice. Bot-only.
 
 
 ### Parameters 
