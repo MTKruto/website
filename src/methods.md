@@ -278,6 +278,14 @@ Get information on a user's chat membership.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getchatmembers">getChatMembers</a>
+<div><div>
+
+Get the members of a chat.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getchats">getChats</a>
 <div><div>
 

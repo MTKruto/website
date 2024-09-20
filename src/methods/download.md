@@ -19,6 +19,10 @@ Size of each download chunk in bytes.
 
 Download offset in bytes.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_signal" data-anchor><span class="font-bold">signal</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">AbortSignal</span></div></div><div class="pl-3"><div class="no-margin">
+
+Download abort signal.
+
 </div></div></div></div></div>
 
 ### Result 
@@ -33,7 +37,7 @@ await client.download(fileId);
 
 // Required parameters + optional parameters.
 // Any of the optional parameters can be omitted.
-await client.download(fileId, { chunkSize, offset });
+await client.download(fileId, { chunkSize, offset, signal });
 ```
 
 ### Examples 

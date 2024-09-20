@@ -35,6 +35,10 @@ A thumbnail to assign. Cannot be a URL.
 
 The file name to assign if applicable.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_fileSize" data-anchor><span class="font-bold">fileSize</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The file's size.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_mimeType" data-anchor><span class="font-bold">mimeType</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
 The mime type to assign if applicable.
@@ -43,7 +47,7 @@ The mime type to assign if applicable.
 
 Size of each upload chunk in bytes.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_signal" data-anchor><span class="font-bold">signal</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">AbortSignal</span> <span class="opacity-50">|</span> <span>null</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_signal" data-anchor><span class="font-bold">signal</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">AbortSignal</span></div></div><div class="pl-3"><div class="no-margin">
 
 Upload abort signal.
 
@@ -99,6 +103,7 @@ await client.sendDocument(chatId, document, {
     parseMode,
     thumbnail,
     fileName,
+    fileSize,
     mimeType,
     chunkSize,
     signal,
