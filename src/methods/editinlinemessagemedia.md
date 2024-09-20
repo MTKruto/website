@@ -7,11 +7,11 @@ Edit an inline message's media.
 
 ### Parameters 
 
-<div class="flex flex-col gap-3"><div><div class="font-mono"><span class="font-bold">inlineMessageId</span><span class="opacity-50">:</span> <span>string</span></div><div class="pl-3"><div class="no-margin">
+<div class="flex flex-col gap-3"><div><div class="font-mono" id="p_inlineMessageId" data-anchor><span class="font-bold">inlineMessageId</span><span class="opacity-50">:</span> <span>string</span></div><div class="pl-3"><div class="no-margin">
 
 The inline message's identifier.
 
-</div></div></div><div><div class="font-mono"><span class="font-bold">media</span><span class="opacity-50">:</span> <a href="/types/inputmedia"  >InputMedia</a></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="font-mono" id="p_media" data-anchor><span class="font-bold">media</span><span class="opacity-50">:</span> <a href="/types/inputmedia"  >InputMedia</a></div><div class="pl-3"><div class="no-margin">
 
 The new media of the message.
 

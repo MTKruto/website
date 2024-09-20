@@ -7,11 +7,11 @@ Kick a member from a chat. Same as a banChatMember call followed by unbanChatMem
 
 ### Parameters 
 
-<div class="flex flex-col gap-3"><div><div class="font-mono"><span class="font-bold">chatId</span><span class="opacity-50">:</span> <a href="/gh/types/id"  >ID</a></div><div class="pl-3"><div class="no-margin">
+<div class="flex flex-col gap-3"><div><div class="font-mono" id="p_chatId" data-anchor><span class="font-bold">chatId</span><span class="opacity-50">:</span> <a href="/gh/types/id"  >ID</a></div><div class="pl-3"><div class="no-margin">
 
 The identifier of the chat. Must be a supergroup.
 
-</div></div></div><div><div class="font-mono"><span class="font-bold">memberId</span><span class="opacity-50">:</span> <a href="/gh/types/id"  >ID</a></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="font-mono" id="p_memberId" data-anchor><span class="font-bold">memberId</span><span class="opacity-50">:</span> <a href="/gh/types/id"  >ID</a></div><div class="pl-3"><div class="no-margin">
 
 The identifier of the member.
 
