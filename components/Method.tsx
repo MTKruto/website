@@ -86,7 +86,7 @@ export function Method(
       )
         .map((v) => (
           <div>
-            <div class="font-mono">
+            <div class="font-mono" id={`p_${v.name}`} data-anchor>
               <PropertyName hasType={!!v.tsType}>{v}</PropertyName>{" "}
               {v.tsType ? <TsType getLink={getLink}>{v.tsType}</TsType> : "any"}
             </div>
