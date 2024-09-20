@@ -27,6 +27,10 @@ Millisecond timestamp of the chunk to download.
 
 Video quality.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_signal" data-anchor><span class="font-bold">signal</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">AbortSignal</span></div></div><div class="pl-3"><div class="no-margin">
+
+Download abort signal.
+
 </div></div></div></div></div>
 
 ### Result 
@@ -43,6 +47,7 @@ await client.downloadLiveStreamChunk(id, channelId, scale, timestamp);
 // Any of the optional parameters can be omitted.
 await client.downloadLiveStreamChunk(id, channelId, scale, timestamp, {
     quality,
+    signal,
 });
 ```
 
