@@ -15,19 +15,19 @@ The identifier of a video chat retrieved from getChat, startVideoChat, or schedu
 
 WebRTC connection parameters.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">joinAs</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/id"  >ID</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_joinAs" data-anchor><span class="font-bold">joinAs</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/id"  >ID</a></div></div><div class="pl-3"><div class="no-margin">
 
 The identifier of a chat to join the video chat on behalf of.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">inviteHash</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_inviteHash" data-anchor><span class="font-bold">inviteHash</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
 Invite hash.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">audio</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_audio" data-anchor><span class="font-bold">audio</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether to enable audio. Enabled by default.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">video</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_video" data-anchor><span class="font-bold">video</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether to enable video. Enabled by default.
 

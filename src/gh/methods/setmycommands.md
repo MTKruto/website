@@ -11,11 +11,11 @@ Set the bot's commands in the given scope and/or language. Bot-only.
 
 The commands to set.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">languageCode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_languageCode" data-anchor><span class="font-bold">languageCode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
 A two-letter ISO 639-1 language code. If not set, the command details will be updated for users having an unsupported language.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">scope</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/botcommandscope"  >BotCommandScope</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_scope" data-anchor><span class="font-bold">scope</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/botcommandscope"  >BotCommandScope</a></div></div><div class="pl-3"><div class="no-margin">
 
 The scope in which the commands are available.
 

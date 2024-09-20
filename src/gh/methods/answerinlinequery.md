@@ -15,19 +15,19 @@ The ID of the inline query to answer.
 
 The results to answer with.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">cacheTime</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_cacheTime" data-anchor><span class="font-bold">cacheTime</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 TTL of the caches of the results in seconds. Defaults to 300.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">isPersonal</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isPersonal" data-anchor><span class="font-bold">isPersonal</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the result caches should only be for the user who made the inline query.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">nextOffset</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_nextOffset" data-anchor><span class="font-bold">nextOffset</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
 A parameter to be passed to the same query next time when the user’s client asks for more results. Can’t be longer than 64 bytes.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">isGallery</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div></div><div><div class="flex gap-2"><div class="font-mono"><span class="font-bold">button</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/inlinequeryresultbutton"  >InlineQueryResultButton</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isGallery" data-anchor><span class="font-bold">isGallery</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_button" data-anchor><span class="font-bold">button</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/inlinequeryresultbutton"  >InlineQueryResultButton</a></div></div><div class="pl-3"><div class="no-margin">
 
 A button to be shown along with the results.
 
