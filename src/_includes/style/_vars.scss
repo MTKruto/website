@@ -52,3 +52,19 @@ code {
   align-items: center;
   justify-content: space-between;
 }
+
+.p:target {
+  position: relative;
+}
+
+.p:target::before {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 45%;
+  background-color: yellow;
+  z-index: -1;
+  opacity: .3;
+}

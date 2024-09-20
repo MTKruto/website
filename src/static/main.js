@@ -24,7 +24,9 @@ document.addEventListener("click", (e) => {
       }
     }
   }
-  if ("anchor" in e.target.dataset) {
-    location.href = "#" + e.target.id;
+  for (const el of e.composedPath()) {
+    if (el.dataset && 'anchor' in el.dataset && el.id) {
+      location.href = "#" + el.id;
+    }
   }
 });
