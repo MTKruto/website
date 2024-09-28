@@ -209,7 +209,7 @@ Giveaway parameters.
 <a href="/gh/types/id">ID</a>
 <div><div>
 
-The identifier of a channel, a group, or a user (as provided by MTKruto), a username, or a chat link (e.g., https://mtkruto.t.me, https://telegram.me/mtkruto). `"me"` resolves to current the account.
+The identifier of a channel, a group, or a user (as provided by MTKruto), a username, or a chat link (e.g., https://mtkruto.t.me, https://telegram.me/mtkruto). `"me"` resolves to the current account.
 
 </div></div>
 <div class="descr-list-border"></div>
