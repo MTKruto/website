@@ -34,7 +34,7 @@ export default (
         {fonts.map((v) => (
           <link
             rel="preload"
-            href={v}
+            href={`/fonts/${v}`}
             as="font"
             type="font/woff2"
             crossOrigin=""
