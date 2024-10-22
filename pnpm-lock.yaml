@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       deno-bin:
-        specifier: ^1.44.4
-        version: 1.44.4
+        specifier: ^2.0.2
+        version: 2.0.2
 
 packages:
 
@@ -18,14 +18,14 @@ packages:
     resolution: {integrity: sha512-DnyqqifT4Jrcvb8USYjp6FHtBpEIz1mnXu6pTRHZ0RL69LbQYiO+0lDFg5+OKA7U29oWSs3a/i8fhn8ZcceIWg==}
     engines: {node: '>=12.0'}
 
-  deno-bin@1.44.4:
-    resolution: {integrity: sha512-IJWKr7o4Qh7iB9yhNfvJURPsfifPqTcrmg45J95oS2vvDv3OdRCf8SNramL3cqcsYyLeQeTRzNj2QgmjH14oyw==}
+  deno-bin@2.0.2:
+    resolution: {integrity: sha512-HjjkLWufhRgvm5m5AwPHPnZcMNnrCytJeKEginlEWRtovrIE49N2iXc4U3H2ofC4zzkcwPA199T+ecgIhJXDzw==}
     hasBin: true
 
 snapshots:
 
   adm-zip@0.5.14: {}
 
-  deno-bin@1.44.4:
+  deno-bin@2.0.2:
     dependencies:
       adm-zip: 0.5.14

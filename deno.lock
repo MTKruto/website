@@ -40,6 +40,7 @@
     "npm:@unocss/transformer-directives@0.61.0": "0.61.0",
     "npm:@unocss/transformer-variant-group@0.61.0": "0.61.0",
     "npm:deno-bin@^1.44.4": "1.46.3",
+    "npm:deno-bin@^2.0.2": "2.0.2",
     "npm:estree-walker@3.0.3": "3.0.3",
     "npm:highlight.js@*": "11.9.0",
     "npm:highlight.js@11.9.0": "11.9.0",
@@ -288,6 +289,12 @@
     },
     "deno-bin@1.46.3": {
       "integrity": "sha512-soxZGY1NeTdjltCfDTf5aE3moOaP6lbVec8RKdOQByzoAxwfUuxF7RrC12y1kcsiY5vFsOovatXi3pKtvFuR9g==",
+      "dependencies": [
+        "adm-zip"
+      ]
+    },
+    "deno-bin@2.0.2": {
+      "integrity": "sha512-HjjkLWufhRgvm5m5AwPHPnZcMNnrCytJeKEginlEWRtovrIE49N2iXc4U3H2ofC4zzkcwPA199T+ecgIhJXDzw==",
       "dependencies": [
         "adm-zip"
       ]
