@@ -28,7 +28,7 @@ An optional title.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_expiresAt" data-anchor><span class="font-bold">expiresAt</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">Date</span></div></div><div class="pl-3"><div class="no-margin">
 
-A point in time within the future in which the ban will be reverted.
+A point in time within the future in which the invite link will be revoked.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_limit" data-anchor><span class="font-bold">limit</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
@@ -37,6 +37,14 @@ The times the invite link can be used.
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_pendingJoinRequestCount" data-anchor><span class="font-bold">pendingJoinRequestCount</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 The number of pending join requests originating from this invite link.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_subscriptionPrice" data-anchor><span class="font-bold">subscriptionPrice</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The amount of stars required to renew the subscription.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_subscriptionExpiresAt" data-anchor><span class="font-bold">subscriptionExpiresAt</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+A point in time within the future in which the subscription will expire.
 
 </div></div></div></div>
 
