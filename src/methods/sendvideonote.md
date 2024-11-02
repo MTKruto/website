@@ -91,7 +91,7 @@ If specified, the message will be scheduled to be sent at that date. User-only.
 
 The identifier of a business connection ID to perform the action on. Bot-only.
 
-</div></div></div></div></div>
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_paidBroadcast" data-anchor><span class="font-bold">paidBroadcast</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div></div></div></div>
 
 ### Result 
 
@@ -125,6 +125,7 @@ await client.sendVideoNote(chatId, videoNote, {
     effectId,
     sendAt,
     businessConnectionId,
+    paidBroadcast,
 });
 ```
 
