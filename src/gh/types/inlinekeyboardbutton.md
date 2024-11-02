@@ -12,5 +12,6 @@ A button of an inline keyboard.
 | </span><a href="/gh/types/inlinekeyboardbuttonswitchinlinecurrent"  >InlineKeyboardButtonSwitchInlineCurrent</a><span class="opacity-50">
 | </span><a href="/gh/types/inlinekeyboardbuttonswitchinlinechosen"  >InlineKeyboardButtonSwitchInlineChosen</a><span class="opacity-50">
 | </span><a href="/gh/types/inlinekeyboardbuttongame"  >InlineKeyboardButtonGame</a><span class="opacity-50">
-| </span><a href="/gh/types/inlinekeyboardbuttonpay"  >InlineKeyboardButtonPay</a></div>
+| </span><a href="/gh/types/inlinekeyboardbuttonpay"  >InlineKeyboardButtonPay</a><span class="opacity-50">
+| </span><a href="/gh/types/inlinekeyboardbuttoncopy"  >InlineKeyboardButtonCopy</a></div>
 
