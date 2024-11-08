@@ -206,10 +206,34 @@ Close a chat previously opened by openChat. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/createchannel">createChannel</a>
+<div><div>
+
+Create a channel. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/creategroup">createGroup</a>
+<div><div>
+
+Create a group. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/createinvitelink">createInviteLink</a>
 <div><div>
 
 Create an invite link.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/createsupergroup">createSupergroup</a>
+<div><div>
+
+Create a supergroup. User-only.
 
 
 </div></div>
