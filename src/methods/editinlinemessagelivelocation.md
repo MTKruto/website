@@ -43,7 +43,11 @@ The reply markup of the message. Bot-only.
 
 ### Result 
 
-<div class="font-mono"><span>void</span></div>
+<div class="font-mono"><span>void</span></div><div class="pl-3"><div class="no-margin">
+
+The edited location message.
+
+</div></div>
 
 ### Syntax
 

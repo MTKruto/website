@@ -23,7 +23,11 @@ The number of current messages to make visible to the user that is about to be a
 
 ### Result 
 
-<div class="font-mono"><a href="/types/failedinvitation"  >FailedInvitation</a><span class="opacity-50">[]</span></div>
+<div class="font-mono"><a href="/types/failedinvitation"  >FailedInvitation</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
+
+An array of FailedInvitation that has at most a length of 1. If empty, it means that the user was added.
+
+</div></div>
 
 ### Syntax
 

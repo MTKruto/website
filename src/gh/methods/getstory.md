@@ -19,7 +19,11 @@ The identifier of the story to retrieve.
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/story"  >Story</a> <span class="opacity-50">|</span> <span>null</span></div>
+<div class="font-mono"><a href="/gh/types/story"  >Story</a> <span class="opacity-50">|</span> <span>null</span></div><div class="pl-3"><div class="no-margin">
+
+The retrieved story.
+
+</div></div>
 
 ### Syntax
 

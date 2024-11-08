@@ -15,7 +15,11 @@ The identifier of the chat.
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/chatmember"  >ChatMember</a><span class="opacity-50">[]</span></div>
+<div class="font-mono"><a href="/gh/types/chatmember"  >ChatMember</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
+
+The chat's administrators.
+
+</div></div>
 
 ### Syntax
 

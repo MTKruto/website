@@ -27,7 +27,11 @@ Bot-provided pagination offset.
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/inlinequeryanswer"  >InlineQueryAnswer</a></div>
+<div class="font-mono"><a href="/gh/types/inlinequeryanswer"  >InlineQueryAnswer</a></div><div class="pl-3"><div class="no-margin">
+
+The bot's answer to the inline query.
+
+</div></div>
 
 ### Syntax
 

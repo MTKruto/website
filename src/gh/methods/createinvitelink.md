@@ -31,7 +31,11 @@ Whether an admin must explicitly approve join requests originating from this inv
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/invitelink"  >InviteLink</a></div>
+<div class="font-mono"><a href="/gh/types/invitelink"  >InviteLink</a></div><div class="pl-3"><div class="no-margin">
+
+The newly created invite link.
+
+</div></div>
 
 ### Syntax
 

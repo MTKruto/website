@@ -23,7 +23,11 @@ If specified, the bot will be started in that chat instead of its own private ch
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/message"  >Message</a></div>
+<div class="font-mono"><a href="/gh/types/message"  >Message</a></div><div class="pl-3"><div class="no-margin">
+
+The start message.
+
+</div></div>
 
 ### Syntax
 

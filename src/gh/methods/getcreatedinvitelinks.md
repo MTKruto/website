@@ -35,7 +35,11 @@ Only get the invite links created after a specific invite link.
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/invitelink"  >InviteLink</a><span class="opacity-50">[]</span></div>
+<div class="font-mono"><a href="/gh/types/invitelink"  >InviteLink</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
+
+The invite links created for the chat. This might be a subset of the results if they were less than `limit`. The parameters `afterDate` and `afterInviteLink` can be used for pagination.
+
+</div></div>
 
 ### Syntax
 

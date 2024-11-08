@@ -99,7 +99,11 @@ The identifier of a business connection ID to perform the action on. Bot-only.
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/messageaudio"  >MessageAudio</a></div>
+<div class="font-mono"><a href="/gh/types/messageaudio"  >MessageAudio</a></div><div class="pl-3"><div class="no-margin">
+
+The sent audio filr.
+
+</div></div>
 
 ### Syntax
 

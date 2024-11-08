@@ -91,7 +91,11 @@ The identifier of a business connection ID to perform the action on. Bot-only.
 
 ### Result 
 
-<div class="font-mono"><a href="/types/messagevoice"  >MessageVoice</a></div>
+<div class="font-mono"><a href="/types/messagevoice"  >MessageVoice</a></div><div class="pl-3"><div class="no-margin">
+
+The sent voice message.
+
+</div></div>
 
 ### Syntax
 

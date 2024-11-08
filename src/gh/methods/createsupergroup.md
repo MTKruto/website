@@ -27,7 +27,11 @@ Time to live of the messages of the supergroup that is to be created.
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/chatpsupergroup"  >ChatPSupergroup</a></div>
+<div class="font-mono"><a href="/gh/types/chatpsupergroup"  >ChatPSupergroup</a></div><div class="pl-3"><div class="no-margin">
+
+The created supergroup.
+
+</div></div>
 
 ### Syntax
 

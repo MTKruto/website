@@ -27,7 +27,11 @@ The reply markup of the message. Bot-only.
 
 ### Result 
 
-<div class="font-mono"><a href="/types/poll"  >Poll</a></div>
+<div class="font-mono"><a href="/types/poll"  >Poll</a></div><div class="pl-3"><div class="no-margin">
+
+The new state of the poll.
+
+</div></div>
 
 ### Syntax
 

@@ -67,7 +67,11 @@ Upload abort signal.
 
 ### Result 
 
-<div class="font-mono"><a href="/types/story"  >Story</a></div>
+<div class="font-mono"><a href="/types/story"  >Story</a></div><div class="pl-3"><div class="no-margin">
+
+The created story.
+
+</div></div>
 
 ### Syntax
 

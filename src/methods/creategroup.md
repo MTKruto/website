@@ -23,7 +23,11 @@ Time to live of the messages of the group that is to be created.
 
 ### Result 
 
-<div class="font-mono"><a href="/types/chatpgroup"  >ChatPGroup</a></div>
+<div class="font-mono"><a href="/types/chatpgroup"  >ChatPGroup</a></div><div class="pl-3"><div class="no-margin">
+
+The created group.
+
+</div></div>
 
 ### Syntax
 

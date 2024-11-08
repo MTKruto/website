@@ -23,7 +23,11 @@ The callback query's question.
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/callbackqueryanswer"  >CallbackQueryAnswer</a></div>
+<div class="font-mono"><a href="/gh/types/callbackqueryanswer"  >CallbackQueryAnswer</a></div><div class="pl-3"><div class="no-margin">
+
+The bot's answer to the callback query.
+
+</div></div>
 
 ### Syntax
 

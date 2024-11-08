@@ -27,7 +27,11 @@ The reply markup of the message. Bot-only.
 
 ### Result 
 
-<div class="font-mono"><a href="/types/message"  >Message</a></div>
+<div class="font-mono"><a href="/types/message"  >Message</a></div><div class="pl-3"><div class="no-margin">
+
+The edited message.
+
+</div></div>
 
 ### Syntax
 

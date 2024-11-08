@@ -115,7 +115,11 @@ The amount of stars that will be required to unlock the media.
 
 ### Result 
 
-<div class="font-mono"><a href="/types/messagevideo"  >MessageVideo</a></div>
+<div class="font-mono"><a href="/types/messagevideo"  >MessageVideo</a></div><div class="pl-3"><div class="no-margin">
+
+The sent video.
+
+</div></div>
 
 ### Syntax
 

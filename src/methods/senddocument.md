@@ -87,7 +87,11 @@ The identifier of a business connection ID to perform the action on. Bot-only.
 
 ### Result 
 
-<div class="font-mono"><a href="/types/messagedocument"  >MessageDocument</a></div>
+<div class="font-mono"><a href="/types/messagedocument"  >MessageDocument</a></div><div class="pl-3"><div class="no-margin">
+
+The sent document.
+
+</div></div>
 
 ### Syntax
 

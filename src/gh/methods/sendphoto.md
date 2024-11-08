@@ -99,7 +99,11 @@ The amount of stars that will be required to unlock the media.
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/messagephoto"  >MessagePhoto</a></div>
+<div class="font-mono"><a href="/gh/types/messagephoto"  >MessagePhoto</a></div><div class="pl-3"><div class="no-margin">
+
+The sent photo.
+
+</div></div>
 
 ### Syntax
 

@@ -63,7 +63,11 @@ The identifier of a business connection ID to perform the action on. Bot-only.
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/message"  >Message</a><span class="opacity-50">[]</span></div>
+<div class="font-mono"><a href="/gh/types/message"  >Message</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
+
+The forwarded messages.
+
+</div></div>
 
 ### Syntax
 

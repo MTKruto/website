@@ -23,7 +23,11 @@ Whether this is going to be a live stream.
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/videochatactive"  >VideoChatActive</a></div>
+<div class="font-mono"><a href="/gh/types/videochatactive"  >VideoChatActive</a></div><div class="pl-3"><div class="no-margin">
+
+The started video chat.
+
+</div></div>
 
 ### Syntax
 

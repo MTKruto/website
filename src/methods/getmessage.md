@@ -19,7 +19,11 @@ The identifier of the message to retrieve.
 
 ### Result 
 
-<div class="font-mono"><a href="/types/message"  >Message</a> <span class="opacity-50">|</span> <span>null</span></div>
+<div class="font-mono"><a href="/types/message"  >Message</a> <span class="opacity-50">|</span> <span>null</span></div><div class="pl-3"><div class="no-margin">
+
+The retrieved message.
+
+</div></div>
 
 ### Syntax
 

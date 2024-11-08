@@ -27,7 +27,11 @@ Whether this is going to be a live stream.
 
 ### Result 
 
-<div class="font-mono"><a href="/types/videochatscheduled"  >VideoChatScheduled</a></div>
+<div class="font-mono"><a href="/types/videochatscheduled"  >VideoChatScheduled</a></div><div class="pl-3"><div class="no-margin">
+
+The scheduled video chat.
+
+</div></div>
 
 ### Syntax
 

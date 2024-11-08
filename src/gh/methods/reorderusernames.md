@@ -19,7 +19,11 @@ The new order to use.
 
 ### Result 
 
-<div class="font-mono"><span>boolean</span></div>
+<div class="font-mono"><span>boolean</span></div><div class="pl-3"><div class="no-margin">
+
+Whether the order was changed.
+
+</div></div>
 
 ### Syntax
 

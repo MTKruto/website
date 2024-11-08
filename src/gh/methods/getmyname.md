@@ -11,7 +11,11 @@ Get the bot's name in the given language. Bot-only.
 
 ### Result 
 
-<div class="font-mono"><span>string</span></div>
+<div class="font-mono"><span>string</span></div><div class="pl-3"><div class="no-margin">
+
+The current bot's name in the specified language.
+
+</div></div>
 
 ### Syntax
 

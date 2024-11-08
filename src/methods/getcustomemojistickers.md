@@ -15,7 +15,11 @@ Identifier of one or more of custom emojis.
 
 ### Result 
 
-<div class="font-mono"><a href="/types/sticker"  >Sticker</a><span class="opacity-50">[]</span></div>
+<div class="font-mono"><a href="/types/sticker"  >Sticker</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
+
+The custom emoji documents.
+
+</div></div>
 
 ### Syntax
 

@@ -67,7 +67,11 @@ The reply markup of the message. Bot-only.
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/messagetext"  >MessageText</a></div>
+<div class="font-mono"><a href="/gh/types/messagetext"  >MessageText</a></div><div class="pl-3"><div class="no-margin">
+
+The sent text message.
+
+</div></div>
 
 ### Syntax
 

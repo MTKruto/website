@@ -35,7 +35,11 @@ Whether to enable video. Enabled by default.
 
 ### Result 
 
-<div class="font-mono"><span>string</span></div>
+<div class="font-mono"><span>string</span></div><div class="pl-3"><div class="no-margin">
+
+Parameters to be passed to the used WebRTC library.
+
+</div></div>
 
 ### Syntax
 
