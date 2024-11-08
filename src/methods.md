@@ -44,6 +44,14 @@ Reorder the usernames of the current account, a bot account, a supergroup, or a 
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/setonline">setOnline</a>
+<div><div>
+
+Set the current account's online status. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/showusername">showUsername</a>
 <div><div>
 
@@ -198,10 +206,34 @@ Close a chat previously opened by openChat. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/createchannel">createChannel</a>
+<div><div>
+
+Create a channel. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/creategroup">createGroup</a>
+<div><div>
+
+Create a group. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/createinvitelink">createInviteLink</a>
 <div><div>
 
 Create an invite link.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/createsupergroup">createSupergroup</a>
+<div><div>
+
+Create a supergroup. User-only.
 
 
 </div></div>
@@ -386,6 +418,14 @@ Set a chat's photo.
 <div><div>
 
 Set a chat's sticker set.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setmessagettl">setMessageTtl</a>
+<div><div>
+
+Set the time to live of the messages of a chat. User-only.
 
 
 </div></div>
@@ -592,6 +632,14 @@ Pin a message in a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/readmessages">readMessages</a>
+<div><div>
+
+Mark messages as read. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/searchmessages">searchMessages</a>
 <div><div>
 
@@ -748,6 +796,14 @@ Send a video note.
 <div><div>
 
 Send a voice message.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/startbot">startBot</a>
+<div><div>
+
+Start a bot. User-only.
 
 
 </div></div>
