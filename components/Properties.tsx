@@ -22,7 +22,7 @@ export function Properties(
       {i.map((v) => (
         <div>
           <div class="flex gap-2">
-            <div class="font-mono p" id={`p_${v.name}`} data-anchor> 
+            <div class="font-mono p" id={`p_${v.name}`} data-anchor>
               <PropertyName hasType={true}>{v}</PropertyName>{" "}
               {v.tsType ? <TsType getLink={getLink}>{v.tsType}</TsType> : "any"}
             </div>

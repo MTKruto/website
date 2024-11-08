@@ -5,6 +5,7 @@ import { getMethodOptionalParams, Method } from "./components/Method.tsx";
 import { TsType, TypeParams_ } from "./components/TsType.tsx";
 import { Properties } from "./components/Properties.tsx";
 import { TypeAlias } from "./components/TypeAlias.tsx";
+import { Description } from "./components/Description.tsx";
 
 const version = Deno.env.get("VERSION") ? ("/" + Deno.env.get("VERSION")) : "";
 
@@ -184,11 +185,19 @@ title: ${method.name}
           : undefined
         : method.functionDef.returnType
       : undefined;
+    const retDoc = method.jsDoc?.tags?.find((v) => v.kind == "return")?.doc;
     method_md += "### Result \n\n";
     method_md += renderToString(
-      <div class="font-mono">
-        {ret ? <TsType getLink={getLink}>{ret}</TsType> : "void"}
-      </div>,
+      <>
+        <div class="font-mono">
+          {ret ? <TsType getLink={getLink}>{ret}</TsType> : "void"}
+        </div>
+        {retDoc && (
+          <div class="pl-3">
+            <Description>{retDoc}</Description>
+          </div>
+        )}
+      </>,
     );
     method_md += "\n\n";
     //
