@@ -600,6 +600,14 @@ Pin a message in a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/readmessages">readMessages</a>
+<div><div>
+
+Mark messages as read. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/searchmessages">searchMessages</a>
 <div><div>
 
