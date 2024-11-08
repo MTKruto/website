@@ -422,6 +422,14 @@ Set a chat's sticker set.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/setmessagettl">setMessageTtl</a>
+<div><div>
+
+Set the time to live of the messages of a chat. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/unbanchatmember">unbanChatMember</a>
 <div><div>
 
