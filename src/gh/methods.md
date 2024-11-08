@@ -800,6 +800,14 @@ Send a voice message.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/startbot">startBot</a>
+<div><div>
+
+Start a bot. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/stoppoll">stopPoll</a>
 <div><div>
 
