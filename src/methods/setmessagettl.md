@@ -13,7 +13,7 @@ The identifier of the chat.
 
 </div></div></div><div><div class="font-mono" id="p_messageTtl" data-anchor><span class="font-bold">messageTtl</span><span class="opacity-50">:</span> <span>number</span></div><div class="pl-3"><div class="no-margin">
 
-The time to live of the messages.
+The time to live of the messages in seconds.
 
 </div></div></div></div>
 
