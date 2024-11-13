@@ -21,7 +21,7 @@ Whether a forum should be created.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_messageTtl" data-anchor><span class="font-bold">messageTtl</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-Time to live of the messages of the supergroup that is to be created.
+Time to live of the messages of the supergroup that is to be created in seconds.
 
 </div></div></div></div></div>
 
