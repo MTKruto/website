@@ -10,8 +10,6 @@ can be used.
 
 {{ "@mtkruto/node" |> install }}
 
-It supports both ECMAScript and CommonJS.
-
 ## Deno & Web
 
 1. If you develop for Deno or develop in Deno, install MTKruto using the
