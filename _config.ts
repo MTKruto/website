@@ -123,15 +123,15 @@ site.helper(
 );
 
 site.helper("install", (pkg: string) => {
-  const jsr = pkg.startsWith('jsr:')
-  jsr && (pkg = pkg.slice(4))
+  const jsr = pkg.startsWith("jsr:");
+  jsr && (pkg = pkg.slice(4));
   return `
 <code-group>
 
 <code-group-item title="pnpm">
 
 \`\`\`shell
-pnpm ${jsr ? 'add ' + pkg : 'dlx jsr i ' + pkg}
+pnpm ${jsr ? "dlx jsr i " + pkg : "add " + pkg}
 \`\`\`
 
 </code-group-item>
@@ -139,7 +139,7 @@ pnpm ${jsr ? 'add ' + pkg : 'dlx jsr i ' + pkg}
 <code-group-item title="yarn">
 
 \`\`\`shell
-yarn ${jsr ? 'add ' + pkg : 'dlx jsr i ' + pkg}
+yarn ${jsr ? "dlx jsr i " + pkg : "add " + pkg}
 \`\`\`
 
 </code-group-item>
@@ -147,13 +147,13 @@ yarn ${jsr ? 'add ' + pkg : 'dlx jsr i ' + pkg}
 <code-group-item title="npm">
 
 \`\`\`shell
-${jsr ? 'npm install ' + pkg : 'npx jsr i ' + pkg}
+${jsr ? "npx jsr i " + pkg : "npm install " + pkg}
 \`\`\`
 
 </code-group-item>
 
 </code-group>
-`
+`;
 }, { type: "filter" });
 
 export default site;

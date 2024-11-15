@@ -5,7 +5,8 @@ next: /starting-the-client
 
 ## Bun & Node.js
 
-In server-side projects running on Bun or Node.js, the `@mtkruto/node` package can be used.
+In server-side projects running on Bun or Node.js, the `@mtkruto/node` package
+can be used.
 
 {{ "@mtkruto/node" |> install }}
 
