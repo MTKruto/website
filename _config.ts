@@ -25,7 +25,7 @@ site.use(
   }),
 );
 
-site.data("deno", `https://deno.land/x/mtkruto@${versions[0]}`);
+site.data("deno", "@mtkruto/mtkruto");
 site.data("esm", `https://esm.sh/jsr/@mtkruto/mtkruto@${versions[0]}`);
 
 site.use(sass());

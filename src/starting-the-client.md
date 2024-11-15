@@ -37,10 +37,10 @@ localStorage storage adapter.
 
 <code-group>
 
-<code-group-item title="Deno">
+<code-group-item title="Deno, Web">
 
 ```ts
-import { Client, StorageLocalStorage } from "{{ deno }}/mod.ts";
+import { Client, StorageLocalStorage } from "{{ deno }}";
 
 const client = new Client({
   storage: new StorageLocalStorage("my_client"),
@@ -56,21 +56,6 @@ const client = new Client({
 
 ```ts
 import { Client, StorageLocalStorage } from "@mtkruto/node";
-
-const client = new Client({
-  storage: new StorageLocalStorage("my_client"),
-  // Replace these with your app's credentials.
-  apiId: 123456,
-  apiHash: "",
-});
-```
-
-</code-group-item>
-
-<code-group-item title="Web (Node.js)">
-
-```ts
-import { Client, StorageLocalStorage } from "@mtkruto/browser";
 
 const client = new Client({
   storage: new StorageLocalStorage("my_client"),
@@ -121,7 +106,7 @@ authorizing a user.
 
 <code-group>
 
-<code-group-item title="Deno/Web">
+<code-group-item title="Bun, Deno, Web">
 
 ```ts
 // The functions may also return promises.
