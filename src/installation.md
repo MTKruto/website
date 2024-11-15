@@ -3,36 +3,28 @@ title: Installation
 next: /starting-the-client
 ---
 
-## Node.js
+## Bun & Node.js
 
-In server-side Node.js projects, the `@mtkruto/node` package can be used.
+In server-sids projects running on Bun or Node.js, the `@mtkruto/node` package can be used.
 
 {{ "@mtkruto/node" |> install }}
 
 It supports both ECMAScript and CommonJS.
 
-## Deno
+## Deno & Web
 
-MTKruto is available on [deno.land/x](https://deno.land/x/mtkruto).
+1. If you develop for Deno or develop in Deno, install MTKruto using the following command.
 
-No setup is required, but here’s an import map entry for it in case you use one.
-
-```json
-"mtkruto/": "{{ deno }}/",
+```shell
+deno add jsr:@mtkruto/mtkruto
 ```
 
-## Web
+2. If your project is developed using Node.js with a framework like (Next.js,
+   SvelteKit, etc.) or a bundler (Parcel, Vite, etc.), install MTKruto using one of the following commands 
 
-1. If your project is developed using Node.js with a framework like (Next.js,
-   SvelteKit, etc.) or a bundler (Parcel, Vite, etc.), use the
-   `@mtkruto/browser` package.
+{{ "jsr:@mtkruto/mtkruto" |> install }}
 
-{{ "@mtkruto/browser" |> install }}
-
-1. If your project is developed using Deno with a framework like Fresh or Ultra,
-   it is the same case as [above](#deno).
-
-2. You can also import it directly from a CDN into your HTML file.
+3. You can also import it directly from a CDN into your HTML file.
 
 ```html
 <!DOCTYPE html>
@@ -43,13 +35,4 @@ No setup is required, but here’s an import map entry for it in case you use on
     </script>
   </body>
 </html>
-```
-
-## Bun
-
-The recommended way to use MTKruto with Bun is through
-[JSR](https://jsr.io/@mtkruto/mtkruto).
-
-```shell
-bunx jsr add @mtkruto/mtkruto
 ```

@@ -26,7 +26,7 @@ site.use(
 );
 
 site.data("deno", `https://deno.land/x/mtkruto@${versions[0]}`);
-site.data("esm", `https://esm.sh/@mtkruto/browser@${versions[0]}`);
+site.data("esm", `https://esm.sh/jsr/@mtkruto/mtkruto@${versions[0]}`);
 
 site.use(sass());
 
@@ -122,13 +122,16 @@ site.helper(
   { type: "filter" },
 );
 
-site.helper("install", (pkg) => `
+site.helper("install", (pkg: string) => {
+  const jsr = pkg.startsWith('jsr:')
+  jsr && (pkg = pkg.slice(4))
+  return `
 <code-group>
 
 <code-group-item title="pnpm">
 
 \`\`\`shell
-pnpm install ${pkg}
+pnpm ${jsr ? 'add ' + pkg : 'dlx jsr i ' + pkg}
 \`\`\`
 
 </code-group-item>
@@ -136,7 +139,7 @@ pnpm install ${pkg}
 <code-group-item title="yarn">
 
 \`\`\`shell
-yarn add ${pkg}
+yarn ${jsr ? 'add ' + pkg : 'dlx jsr i ' + pkg}
 \`\`\`
 
 </code-group-item>
@@ -144,12 +147,13 @@ yarn add ${pkg}
 <code-group-item title="npm">
 
 \`\`\`shell
-npm install ${pkg}
+${jsr ? 'npm install ' + pkg : 'npx jsr i ' + pkg}
 \`\`\`
 
 </code-group-item>
 
 </code-group>
-`, { type: "filter" });
+`
+}, { type: "filter" });
 
 export default site;
