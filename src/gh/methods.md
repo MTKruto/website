@@ -44,10 +44,26 @@ Reorder the usernames of the current account, a bot account, a supergroup, or a 
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/setemojistatus">setEmojiStatus</a>
+<div><div>
+
+Set the current account's emoji status. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/setonline">setOnline</a>
 <div><div>
 
 Set the current account's online status. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setuseremojistatus">setUserEmojiStatus</a>
+<div><div>
+
+Set the emoji status of a bot's user. Bot-only.
 
 
 </div></div>
