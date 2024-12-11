@@ -37,6 +37,7 @@ for (const dir of [`src${version}/methods`, `src${version}/types`]) {
     "re": ["Reactions", "reactions"],
     "st": ["Stories", "stories"],
     "vc": ["Video Chats", "video-chats"],
+    "co": ["Contacts", "contacts"],
     "pa": ["Payments", "payments"],
   }).sort(([, [a]], [, [b]]) => a.localeCompare(b));
   const knowsGroups = groups.map((v) => v[0]);
