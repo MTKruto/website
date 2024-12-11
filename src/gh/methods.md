@@ -1054,10 +1054,42 @@ Start a video chat. User-only.
 ## Unlisted
 <div class="descr-list">
 
+<a href="/gh/methods/addcontact">addContact</a>
+<div><div>
+
+Add a contact. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/blockuser">blockUser</a>
 <div><div>
 
 Block a user. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/deletecontact">deleteContact</a>
+<div><div>
+
+Delete a single contact. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/deletecontacts">deleteContacts</a>
+<div><div>
+
+Delete multiple contacts. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getcontacts">getContacts</a>
+<div><div>
+
+Get contacts. User-only.
 
 
 </div></div>
