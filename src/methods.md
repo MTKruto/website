@@ -457,6 +457,44 @@ Unban a member from a chat.
 
 </div>
 
+## Contacts
+<div class="descr-list">
+
+<a href="/methods/addcontact">addContact</a>
+<div><div>
+
+Add a contact. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/deletecontact">deleteContact</a>
+<div><div>
+
+Delete a single contact. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/deletecontacts">deleteContacts</a>
+<div><div>
+
+Delete multiple contacts. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getcontacts">getContacts</a>
+<div><div>
+
+Get contacts. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
 ## Files
 <div class="descr-list">
 
@@ -1054,42 +1092,10 @@ Start a video chat. User-only.
 ## Unlisted
 <div class="descr-list">
 
-<a href="/methods/addcontact">addContact</a>
-<div><div>
-
-Add a contact. User-only.
-
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/methods/blockuser">blockUser</a>
 <div><div>
 
 Block a user. User-only.
-
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/methods/deletecontact">deleteContact</a>
-<div><div>
-
-Delete a single contact. User-only.
-
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/methods/deletecontacts">deleteContacts</a>
-<div><div>
-
-Delete multiple contacts. User-only.
-
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/methods/getcontacts">getContacts</a>
-<div><div>
-
-Get contacts. User-only.
 
 
 </div></div>
