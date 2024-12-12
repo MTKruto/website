@@ -206,6 +206,22 @@ Approve all join requests. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/archivechat">archiveChat</a>
+<div><div>
+
+Archive a single chat.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/archivechats">archiveChats</a>
+<div><div>
+
+Archive multiple chats.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/banchatmember">banChatMember</a>
 <div><div>
 
@@ -442,6 +458,22 @@ Set a chat's sticker set.
 <div><div>
 
 Set the time to live of the messages of a chat. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/unarchivechat">unarchiveChat</a>
+<div><div>
+
+Unarchive a single chat.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/unarchivechats">unarchiveChats</a>
+<div><div>
+
+Unarchive multiple chats.
 
 
 </div></div>
