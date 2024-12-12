@@ -76,6 +76,14 @@ Show a username in the current account, a bot account, a supergroup, or a channe
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/updateprofile">updateProfile</a>
+<div><div>
+
+Update the profile of the current user. At least one parameter must be specified. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 
 </div>
 
