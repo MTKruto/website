@@ -209,7 +209,7 @@ Approve all join requests. User-only.
 <a href="/gh/methods/archivechat">archiveChat</a>
 <div><div>
 
-Archive a single chat.
+Archive a single chat. User-only.
 
 
 </div></div>
@@ -217,7 +217,7 @@ Archive a single chat.
 <a href="/gh/methods/archivechats">archiveChats</a>
 <div><div>
 
-Archive multiple chats.
+Archive multiple chats. User-only.
 
 
 </div></div>
@@ -465,7 +465,7 @@ Set the time to live of the messages of a chat. User-only.
 <a href="/gh/methods/unarchivechat">unarchiveChat</a>
 <div><div>
 
-Unarchive a single chat.
+Unarchive a single chat. User-only.
 
 
 </div></div>
@@ -473,7 +473,7 @@ Unarchive a single chat.
 <a href="/gh/methods/unarchivechats">unarchiveChats</a>
 <div><div>
 
-Unarchive multiple chats.
+Unarchive multiple chats. User-only.
 
 
 </div></div>

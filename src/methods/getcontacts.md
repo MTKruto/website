@@ -7,13 +7,11 @@ Get contacts. User-only.
 
 ### Result 
 
-<div class="font-mono"><a href="/types/user"  >User</a><span class="opacity-50">[]</span></div>
+
 
 ### Syntax
 
-```ts
-await client.getContacts();
-```
+
 
 
 
