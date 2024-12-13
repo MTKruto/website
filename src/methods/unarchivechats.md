@@ -2,7 +2,7 @@
 title: unarchiveChats
 ---
 
-Unarchive multiple chats.
+Unarchive multiple chats. User-only.
 
 
 ### Parameters 

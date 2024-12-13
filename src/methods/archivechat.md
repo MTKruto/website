@@ -2,7 +2,7 @@
 title: archiveChat
 ---
 
-Archive a single chat.
+Archive a single chat. User-only.
 
 
 ### Parameters 

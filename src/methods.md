@@ -76,6 +76,14 @@ Show a username in the current account, a bot account, a supergroup, or a channe
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/updateprofile">updateProfile</a>
+<div><div>
+
+Update the profile of the current user. At least one parameter must be specified. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 
 </div>
 
@@ -209,7 +217,7 @@ Approve all join requests. User-only.
 <a href="/methods/archivechat">archiveChat</a>
 <div><div>
 
-Archive a single chat.
+Archive a single chat. User-only.
 
 
 </div></div>
@@ -217,7 +225,7 @@ Archive a single chat.
 <a href="/methods/archivechats">archiveChats</a>
 <div><div>
 
-Archive multiple chats.
+Archive multiple chats. User-only.
 
 
 </div></div>
@@ -465,7 +473,7 @@ Set the time to live of the messages of a chat. User-only.
 <a href="/methods/unarchivechat">unarchiveChat</a>
 <div><div>
 
-Unarchive a single chat.
+Unarchive a single chat. User-only.
 
 
 </div></div>
@@ -473,7 +481,7 @@ Unarchive a single chat.
 <a href="/methods/unarchivechats">unarchiveChats</a>
 <div><div>
 
-Unarchive multiple chats.
+Unarchive multiple chats. User-only.
 
 
 </div></div>

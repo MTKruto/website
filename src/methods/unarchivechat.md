@@ -2,7 +2,7 @@
 title: unarchiveChat
 ---
 
-Unarchive a single chat.
+Unarchive a single chat. User-only.
 
 
 ### Parameters 
