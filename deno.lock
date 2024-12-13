@@ -1117,6 +1117,9 @@
     "https://deno.land/x/xml@5.4.7/wasm_xml_parser/wasm_xml_parser.js": "924706e40c2a0dfd21d9665d56fb098122e0955e3d8ad5e14c1931b4dfd25eaa"
   },
   "workspace": {
+    "dependencies": [
+      "npm:preact@*"
+    ],
     "packageJson": {
       "dependencies": [
         "npm:deno-bin@^2.0.2"

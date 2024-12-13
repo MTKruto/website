@@ -172,6 +172,7 @@ title: ${method.name}
     //
     if (method.functionDef.params.length > 0) {
       method_md += "### Parameters \n\n";
+      //
       method_md += renderToString(
         <Method getLink={getLink} methodTypes={methodTypes}>{method}</Method>,
       );
