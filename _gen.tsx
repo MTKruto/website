@@ -39,6 +39,7 @@ for (const dir of [`src${version}/methods`, `src${version}/types`]) {
     "vc": ["Video Chats", "video-chats"],
     "co": ["Contacts", "contacts"],
     "pa": ["Payments", "payments"],
+    "ta": ["Translations", "translations"],
   }).sort(([, [a]], [, [b]]) => a.localeCompare(b));
   const knowsGroups = groups.map((v) => v[0]);
 
@@ -172,10 +173,11 @@ title: ${method.name}
     //
     if (method.functionDef.params.length > 0) {
       method_md += "### Parameters \n\n";
-      //
+      console.log(method.functionDef.params)
       method_md += renderToString(
         <Method getLink={getLink} methodTypes={methodTypes}>{method}</Method>,
       );
+      console.log({method_md})
       method_md += "\n\n";
     }
     //
