@@ -1059,6 +1059,20 @@ Remove a single story from highlights. User-only.
 
 </div>
 
+## Translations
+<div class="descr-list">
+
+<a href="/methods/gettranslations">getTranslations</a>
+<div><div>
+
+Get translations. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
 ## Video Chats
 <div class="descr-list">
 

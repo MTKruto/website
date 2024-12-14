@@ -635,6 +635,13 @@ A file or sticker thumbnail.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/translation">Translation</a>
+<div><div>
+
+A translation.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/update">Update</a>
 <div><div>
 
