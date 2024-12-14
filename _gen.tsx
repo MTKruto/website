@@ -173,11 +173,9 @@ title: ${method.name}
     //
     if (method.functionDef.params.length > 0) {
       method_md += "### Parameters \n\n";
-      console.log(method.functionDef.params)
       method_md += renderToString(
         <Method getLink={getLink} methodTypes={methodTypes}>{method}</Method>,
       );
-      console.log({method_md})
       method_md += "\n\n";
     }
     //

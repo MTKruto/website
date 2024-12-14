@@ -1,4 +1,5 @@
 {
+  "lock": false,
   "imports": {
     "lume/": "https://deno.land/x/lume@v2.4.3/",
     "deno_doc/": "https://deno.land/x/deno_doc@0.125.0/"
