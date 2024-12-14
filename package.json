@@ -3,6 +3,6 @@
     "build": "deno-bin task build"
   },
   "dependencies": {
-    "deno-bin": "^2.0.2"
+    "deno-bin": "^2.1.4"
   }
 }
