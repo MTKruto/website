@@ -1,11 +1,11 @@
 import { JsDocTagDoc, JsDocTagUnsupported } from "deno_doc/types.d.ts";
 import { getDocs } from "./_docs.ts";
-import { renderToString } from "lume/deps/preact.ts";
 import { getMethodOptionalParams, Method } from "./components/Method.tsx";
 import { TsType, TypeParams_ } from "./components/TsType.tsx";
 import { Properties } from "./components/Properties.tsx";
 import { TypeAlias } from "./components/TypeAlias.tsx";
 import { Description } from "./components/Description.tsx";
+import { renderToString } from "npm:preact-render-to-string";
 
 const version = Deno.env.get("VERSION") ? ("/" + Deno.env.get("VERSION")) : "";
 
@@ -172,9 +172,8 @@ title: ${method.name}
     }
     //
     if (method.functionDef.params.length > 0) {
-      method_md += "### Parameters \n\n";
-      method_md += renderToString(
-        <Method getLink={getLink} methodTypes={methodTypes}>{method}</Method>,
+      method_md += "### Parameters \n\n";  
+      method_md += renderToString( <Method getLink={getLink} methodTypes={methodTypes}>{method}</Method>
       );
       method_md += "\n\n";
     }
