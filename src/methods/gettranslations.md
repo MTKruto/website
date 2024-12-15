@@ -19,7 +19,7 @@ The language to get translations for. Defaults to the client's language.
 
 ### Result 
 
-<div class="font-mono"><span>void</span></div>
+<div class="font-mono"><a href="/types/translation"  >Translation</a><span class="opacity-50">[]</span></div>
 
 ### Syntax
 

@@ -31,7 +31,7 @@ Hide a username from the current account, a bot account, a supergroup, or a chan
 <a href="/methods/hideusernames">hideUsernames</a>
 <div><div>
 
-Hide all usernames from the a supergroup or a channel's profile. User-only.
+Hide all usernames from a supergroup or a channel's profile. User-only.
 
 
 </div></div>
