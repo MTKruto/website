@@ -366,6 +366,14 @@ Get chats from a chat list. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getcommonchats">getCommonChats</a>
+<div><div>
+
+Get common chats between a user and the current one. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getcreatedinvitelinks">getCreatedInviteLinks</a>
 <div><div>
 
