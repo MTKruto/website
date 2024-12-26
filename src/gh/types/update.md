@@ -27,5 +27,6 @@ An incoming update.
 | </span><a href="/gh/types/updatevideochat"  >UpdateVideoChat</a><span class="opacity-50">
 | </span><a href="/gh/types/updateprecheckoutquery"  >UpdatePreCheckoutQuery</a><span class="opacity-50">
 | </span><a href="/gh/types/updatejoinrequest"  >UpdateJoinRequest</a><span class="opacity-50">
-| </span><a href="/gh/types/updatetranslations"  >UpdateTranslations</a></div>
+| </span><a href="/gh/types/updatetranslations"  >UpdateTranslations</a><span class="opacity-50">
+| </span><a href="/gh/types/updatepoll"  >UpdatePoll</a></div>
 

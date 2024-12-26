@@ -23,7 +23,7 @@ The maximum number of results to return. Must be in the range of 1-100. Defaults
 
 ### Result 
 
-<div class="font-mono"><span>void</span></div>
+<div class="font-mono"><a href="/gh/types/chatp"  >ChatP</a><span class="opacity-50">[]</span></div>
 
 ### Syntax
 

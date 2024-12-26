@@ -1170,10 +1170,26 @@ Get network statistics. This might not always be available.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/retractvote">retractVote</a>
+<div><div>
+
+Retract a vote. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/unblockuser">unblockUser</a>
 <div><div>
 
 Unblock a user. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/vote">vote</a>
+<div><div>
+
+Cast a vote. User-only.
 
 
 </div></div>
