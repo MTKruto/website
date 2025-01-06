@@ -136,7 +136,7 @@ pnpm ${jsr ? "dlx jsr i " + pkg : "add " + pkg}
 
 </code-group-item>
 
-<code-group-item title="yarn">
+<code-group-item title="Yarn">
 
 \`\`\`shell
 yarn ${jsr ? "dlx jsr i " + pkg : "add " + pkg}
@@ -148,6 +148,14 @@ yarn ${jsr ? "dlx jsr i " + pkg : "add " + pkg}
 
 \`\`\`shell
 ${jsr ? "npx jsr i " + pkg : "npm install " + pkg}
+\`\`\`
+
+</code-group-item>
+
+<code-group-item title="Bun">
+
+\`\`\`shell
+${jsr ? "bunx jsr add " + pkg : "bun add " + pkg}
 \`\`\`
 
 </code-group-item>
