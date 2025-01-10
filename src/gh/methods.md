@@ -662,6 +662,14 @@ Edit an inline message's text. Bot-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/editmessagecaption">editMessageCaption</a>
+<div><div>
+
+Edit a message's caption.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/editmessagelivelocation">editMessageLiveLocation</a>
 <div><div>
 
