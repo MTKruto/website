@@ -21,7 +21,7 @@ The new text of the message.
 
 </div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_parseMode" data-anchor><span class="font-bold">parseMode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/parsemode"  >ParseMode</a></div></div><div class="pl-3"><div class="no-margin">
 
-The parse mode to use. If not provided, the default parse mode will be used.
+The parse mode to use. if omitted, the default parse mode will be used.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_entities" data-anchor><span class="font-bold">entities</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/messageentity"  >MessageEntity</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
