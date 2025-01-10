@@ -25,11 +25,11 @@ The entities of the poll's question.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_questionParseMode" data-anchor><span class="font-bold">questionParseMode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/parsemode"  >ParseMode</a></div></div><div class="pl-3"><div class="no-margin">
 
-The parse mode to use for the poll's question. If not provided, the default parse mode will be used.
+The parse mode to use for the poll's question. if omitted, the default parse mode will be used.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_optionParseMode" data-anchor><span class="font-bold">optionParseMode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/parsemode"  >ParseMode</a></div></div><div class="pl-3"><div class="no-margin">
 
-The parse mode to use for the poll's options. If not provided, the default parse mode will be used.
+The parse mode to use for the poll's options. if omitted, the default parse mode will be used.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isAnonymous" data-anchor><span class="font-bold">isAnonymous</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
@@ -53,7 +53,7 @@ A text that will be shown to the user when the poll is answered. Only valid for 
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_explanationParseMode" data-anchor><span class="font-bold">explanationParseMode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/parsemode"  >ParseMode</a></div></div><div class="pl-3"><div class="no-margin">
 
-The parse mode to use for the explanation. If not provided, the default parse mode will be used.
+The parse mode to use for the explanation. if omitted, the default parse mode will be used.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_explanationEntities" data-anchor><span class="font-bold">explanationEntities</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/messageentity"  >MessageEntity</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 

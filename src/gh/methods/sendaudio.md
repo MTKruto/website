@@ -37,7 +37,7 @@ The caption's entities.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_parseMode" data-anchor><span class="font-bold">parseMode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/parsemode"  >ParseMode</a></div></div><div class="pl-3"><div class="no-margin">
 
-The parse mode to use for the caption. If not provided, the default parse mode will be used.
+The parse mode to use for the caption. if omitted, the default parse mode will be used.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_thumbnail" data-anchor><span class="font-bold">thumbnail</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/filesource"  >FileSource</a></div></div><div class="pl-3"><div class="no-margin">
 
