@@ -630,6 +630,14 @@ Delete multiple scheduled messages.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/editinlinemessagecaption">editInlineMessageCaption</a>
+<div><div>
+
+Edit an inline message's caption. Bot-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/editinlinemessagelivelocation">editInlineMessageLiveLocation</a>
 <div><div>
 
