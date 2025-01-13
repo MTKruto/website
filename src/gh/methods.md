@@ -1219,7 +1219,7 @@ Get network statistics. This might not always be available.
 <a href="/gh/methods/getusergifts">getUserGifts</a>
 <div><div>
 
-Get gifts claimed by a specific user.
+Get gifts claimed by a specific user. User-only.
 
 
 </div></div>

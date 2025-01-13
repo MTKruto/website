@@ -2,7 +2,7 @@
 title: getUserGifts
 ---
 
-Get gifts claimed by a specific user.
+Get gifts claimed by a specific user. User-only.
 
 
 ### Parameters 
