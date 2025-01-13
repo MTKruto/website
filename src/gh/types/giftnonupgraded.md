@@ -51,5 +51,9 @@ The date of the first sale of the gift if sold out.
 
 The date of the last sale of the gift if sold out.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_upgradePrice" data-anchor><span class="font-bold">upgradePrice</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The amount of stars required to upgrade the gift.
+
 </div></div></div></div>
 
