@@ -663,6 +663,20 @@ A user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/usergift">UserGift</a>
+<div><div>
+
+A gift claimed by a user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/usergifts">UserGifts</a>
+<div><div>
+
+Gifts claimed by a user.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/venue">Venue</a>
 <div><div>
 
