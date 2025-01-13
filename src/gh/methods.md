@@ -565,6 +565,28 @@ Get custom emoji documents for download.
 
 </div>
 
+## Gifts
+<div class="descr-list">
+
+<a href="/gh/methods/getgifts">getGifts</a>
+<div><div>
+
+Get available gifts.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getusergifts">getUserGifts</a>
+<div><div>
+
+Get gifts claimed by a specific user. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
 ## Inline Queries
 <div class="descr-list">
 
@@ -1200,26 +1222,10 @@ Block a user. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/methods/getgifts">getGifts</a>
-<div><div>
-
-Get available gifts.
-
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/gh/methods/getnetworkstatistics">getNetworkStatistics</a>
 <div><div>
 
 Get network statistics. This might not always be available.
-
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getusergifts">getUserGifts</a>
-<div><div>
-
-Get gifts claimed by a specific user. User-only.
 
 
 </div></div>
