@@ -630,6 +630,14 @@ Delete multiple scheduled messages.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/editinlinemessagecaption">editInlineMessageCaption</a>
+<div><div>
+
+Edit an inline message's caption. Bot-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/editinlinemessagelivelocation">editInlineMessageLiveLocation</a>
 <div><div>
 
@@ -1192,10 +1200,26 @@ Block a user. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getgifts">getGifts</a>
+<div><div>
+
+Get available gifts.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getnetworkstatistics">getNetworkStatistics</a>
 <div><div>
 
 Get network statistics. This might not always be available.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getusergifts">getUserGifts</a>
+<div><div>
+
+Get gifts claimed by a specific user. User-only.
 
 
 </div></div>

@@ -27,10 +27,6 @@ The message's entities.
 
 The message's link preview.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_businessConnectionId" data-anchor><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
-
-The identifier of a business connection ID to perform the action on. Bot-only.
-
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_replyMarkup" data-anchor><span class="font-bold">replyMarkup</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/replymarkup"  >ReplyMarkup</a></div></div><div class="pl-3"><div class="no-margin">
 
 The reply markup of the message. Bot-only.
@@ -53,7 +49,6 @@ await client.editInlineMessageText(inlineMessageId, text, {
     parseMode,
     entities,
     linkPreview,
-    businessConnectionId,
     replyMarkup,
 });
 ```

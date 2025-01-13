@@ -192,6 +192,13 @@ A game.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/gift">Gift</a>
+<div><div>
+
+A gift.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/giveaway">Giveaway</a>
 <div><div>
 
@@ -653,6 +660,20 @@ An incoming update.
 <div><div>
 
 A user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/usergift">UserGift</a>
+<div><div>
+
+A gift claimed by a user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/usergifts">UserGifts</a>
+<div><div>
+
+Gifts claimed by a user.
 
 </div></div>
 <div class="descr-list-border"></div>
