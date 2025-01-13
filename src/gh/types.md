@@ -192,6 +192,13 @@ A game.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/gift">Gift</a>
+<div><div>
+
+A gift.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/giveaway">Giveaway</a>
 <div><div>
 

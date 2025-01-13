@@ -1200,6 +1200,14 @@ Block a user. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getgifts">getGifts</a>
+<div><div>
+
+Get available gifts.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getnetworkstatistics">getNetworkStatistics</a>
 <div><div>
 
