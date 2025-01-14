@@ -584,6 +584,14 @@ Get gifts claimed by a specific user. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/sendgift">sendGift</a>
+<div><div>
+
+Send a gift.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 
 </div>
 
