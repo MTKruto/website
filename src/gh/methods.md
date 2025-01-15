@@ -584,6 +584,14 @@ Get gifts claimed by a specific user. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/sellgift">sellGift</a>
+<div><div>
+
+Sell a gift.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/sendgift">sendGift</a>
 <div><div>
 
