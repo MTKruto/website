@@ -972,6 +972,14 @@ Stop a poll.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/transcribevoice">transcribeVoice</a>
+<div><div>
+
+Transcribe a voice message. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/unpinmessage">unpinMessage</a>
 <div><div>
 
