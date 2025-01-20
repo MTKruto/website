@@ -712,6 +712,13 @@ A voice note.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/voicetranscription">VoiceTranscription</a>
+<div><div>
+
+An audio transcription.
+
+</div></div>
+<div class="descr-list-border"></div>
 
 </div>
 
