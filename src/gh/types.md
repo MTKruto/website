@@ -143,6 +143,20 @@ A chosen inline result.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/claimedgift">ClaimedGift</a>
+<div><div>
+
+A gift claimed by a user or a channel.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/claimedgifts">ClaimedGifts</a>
+<div><div>
+
+Gifts claimed by a user or a channel.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/connectionstate">ConnectionState</a>
 <div><div>
 
@@ -660,20 +674,6 @@ An incoming update.
 <div><div>
 
 A user.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/usergift">UserGift</a>
-<div><div>
-
-A gift claimed by a user.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/usergifts">UserGifts</a>
-<div><div>
-
-Gifts claimed by a user.
 
 </div></div>
 <div class="descr-list-border"></div>

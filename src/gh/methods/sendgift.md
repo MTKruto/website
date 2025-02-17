@@ -7,9 +7,9 @@ Send a gift.
 
 ### Parameters 
 
-<div class="flex flex-col gap-3"><div><div class="font-mono" id="p_userId" data-anchor><span class="font-bold">userId</span><span class="opacity-50">:</span> <a href="/gh/types/id"  >ID</a></div><div class="pl-3"><div class="no-margin">
+<div class="flex flex-col gap-3"><div><div class="font-mono" id="p_chatId" data-anchor><span class="font-bold">chatId</span><span class="opacity-50">:</span> <a href="/gh/types/id"  >ID</a></div><div class="pl-3"><div class="no-margin">
 
-The identifier of user to send the gift to.
+The identifier of a user or a channel to send the gift to.
 
 </div></div></div><div><div class="font-mono" id="p_giftId" data-anchor><span class="font-bold">giftId</span><span class="opacity-50">:</span> <span>string</span></div><div class="pl-3"><div class="no-margin">
 
@@ -45,11 +45,11 @@ Whether the gift should be upgraded before sending it.
 
 ```ts
 // Required parameters only.
-await client.sendGift(userId, giftId);
+await client.sendGift(chatId, giftId);
 
 // Required parameters + optional parameters.
 // Any of the optional parameters can be omitted.
-await client.sendGift(userId, giftId, {
+await client.sendGift(chatId, giftId, {
     message,
     parseMode,
     entities,

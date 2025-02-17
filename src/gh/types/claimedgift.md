@@ -1,8 +1,8 @@
 ---
-title: UserGift
+title: ClaimedGift
 ---
 
-A gift claimed by a user.
+A gift claimed by a user or a channel.
 
 ### Properties
 
@@ -18,9 +18,9 @@ The gift.
 
 Whether the gift is publicly visible.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_fromUser" data-anchor><span class="font-bold">fromUser</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/user"  >User</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_sender" data-anchor><span class="font-bold">sender</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/chatp"  >ChatP</a></div></div><div class="pl-3"><div class="no-margin">
 
-The user who sent the gift.
+The sender of the gift.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_message" data-anchor><span class="font-bold">message</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
