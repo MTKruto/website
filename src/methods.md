@@ -568,18 +568,18 @@ Get custom emoji documents for download.
 ## Gifts
 <div class="descr-list">
 
-<a href="/methods/getgifts">getGifts</a>
+<a href="/methods/getclaimedgifts">getClaimedGifts</a>
 <div><div>
 
-Get available gifts.
+Get gifts claimed by a user or a channel. User-only.
 
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/getusergifts">getUserGifts</a>
+<a href="/methods/getgifts">getGifts</a>
 <div><div>
 
-Get gifts claimed by a specific user. User-only.
+Get available gifts.
 
 
 </div></div>
