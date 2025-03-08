@@ -366,6 +366,14 @@ Get chats from a chat list. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getchatsettings">getChatSettings</a>
+<div><div>
+
+Get the settings of a chat. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getcommonchats">getCommonChats</a>
 <div><div>
 
