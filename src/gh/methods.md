@@ -326,6 +326,14 @@ Disable join requests in a chat. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/disableslowmode">disableSlowMode</a>
+<div><div>
+
+Disable slow mode in a group. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/enablebusinessbots">enableBusinessBots</a>
 <div><div>
 
@@ -498,6 +506,14 @@ Set a chat's sticker set.
 <div><div>
 
 Set the time to live of the messages of a chat. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setslowmode">setSlowMode</a>
+<div><div>
+
+Change slow mode in a group. User-only.
 
 
 </div></div>
