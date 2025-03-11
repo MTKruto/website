@@ -294,6 +294,14 @@ Decline all join requests. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/deletechat">deleteChat</a>
+<div><div>
+
+Delete a chat. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/deletechatphoto">deleteChatPhoto</a>
 <div><div>
 
