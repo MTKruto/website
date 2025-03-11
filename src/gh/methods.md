@@ -422,6 +422,14 @@ Get the invite links created for a chat. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getdiscussionchatsuggestions">getDiscussionChatSuggestions</a>
+<div><div>
+
+Get discussion chat suggestions. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/gethistory">getHistory</a>
 <div><div>
 
@@ -530,6 +538,14 @@ Set a chat's sticker set.
 <div><div>
 
 Change the title of a chat.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setdiscussionchat">setDiscussionChat</a>
+<div><div>
+
+Set a channel's discussion chat. User-only.
 
 
 </div></div>
