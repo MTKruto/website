@@ -590,6 +590,14 @@ Enable or disable topics in a group. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/transferchatownership">transferChatOwnership</a>
+<div><div>
+
+Transfer the ownership of a chat. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/unarchivechat">unarchiveChat</a>
 <div><div>
 
