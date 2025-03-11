@@ -310,10 +310,26 @@ Delete a chat's sticker set.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/disablebusinessbots">disableBusinessBots</a>
+<div><div>
+
+Disable business bots in a private chat. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/disablejoinrequests">disableJoinRequests</a>
 <div><div>
 
 Disable join requests in a chat. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/enablebusinessbots">enableBusinessBots</a>
+<div><div>
+
+Enable business bots in a private chat. User-only.
 
 
 </div></div>
