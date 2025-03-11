@@ -486,6 +486,14 @@ Set the number of boosts required to circument a chat's default restrictions. Us
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/setchatdescription">setChatDescription</a>
+<div><div>
+
+Change the description of a chat.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/setchatmemberrights">setChatMemberRights</a>
 <div><div>
 
@@ -506,6 +514,14 @@ Set a chat's photo.
 <div><div>
 
 Set a chat's sticker set.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setchattitle">setChatTitle</a>
+<div><div>
+
+Change the title of a chat.
 
 
 </div></div>
