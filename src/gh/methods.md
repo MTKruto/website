@@ -462,6 +462,14 @@ Open a chat. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/setantispamenabled">setAntispamEnabled</a>
+<div><div>
+
+Enable or disable automatic anti-spam in a group. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/setavailablereactions">setAvailableReactions</a>
 <div><div>
 
@@ -502,6 +510,14 @@ Set a chat's sticker set.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/setmemberlistvisibility">setMemberListVisibility</a>
+<div><div>
+
+Hide or show the member list of a group to non-admins. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/setmessagettl">setMessageTtl</a>
 <div><div>
 
@@ -510,10 +526,26 @@ Set the time to live of the messages of a chat. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/setsignaturesenabled">setSignaturesEnabled</a>
+<div><div>
+
+Enable or disable post signatures in a channel. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/setslowmode">setSlowMode</a>
 <div><div>
 
 Change slow mode in a group. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/settopicsenabled">setTopicsEnabled</a>
+<div><div>
+
+Enable or disable topics in a group. User-only.
 
 
 </div></div>
