@@ -570,6 +570,13 @@ A shipping address.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/slowmodeduration">SlowModeDuration</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/sticker">Sticker</a>
 <div><div>
 

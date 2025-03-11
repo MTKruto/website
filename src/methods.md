@@ -294,6 +294,14 @@ Decline all join requests. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/deletechat">deleteChat</a>
+<div><div>
+
+Delete a chat. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/deletechatphoto">deleteChatPhoto</a>
 <div><div>
 
@@ -310,10 +318,34 @@ Delete a chat's sticker set.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/disablebusinessbots">disableBusinessBots</a>
+<div><div>
+
+Disable business bots in a private chat. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/disablejoinrequests">disableJoinRequests</a>
 <div><div>
 
 Disable join requests in a chat. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/disableslowmode">disableSlowMode</a>
+<div><div>
+
+Disable slow mode in a group. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/enablebusinessbots">enableBusinessBots</a>
+<div><div>
+
+Enable business bots in a private chat. User-only.
 
 
 </div></div>
@@ -390,6 +422,14 @@ Get the invite links created for a chat. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getdiscussionchatsuggestions">getDiscussionChatSuggestions</a>
+<div><div>
+
+Get discussion chat suggestions. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/gethistory">getHistory</a>
 <div><div>
 
@@ -438,6 +478,14 @@ Open a chat. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/setantispamenabled">setAntispamEnabled</a>
+<div><div>
+
+Enable or disable automatic anti-spam in a group. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/setavailablereactions">setAvailableReactions</a>
 <div><div>
 
@@ -450,6 +498,14 @@ Set a chat's available reactions. User-only.
 <div><div>
 
 Set the number of boosts required to circument a chat's default restrictions. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setchatdescription">setChatDescription</a>
+<div><div>
+
+Change the description of a chat.
 
 
 </div></div>
@@ -478,10 +534,58 @@ Set a chat's sticker set.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/setchattitle">setChatTitle</a>
+<div><div>
+
+Change the title of a chat.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setdiscussionchat">setDiscussionChat</a>
+<div><div>
+
+Set a channel's discussion chat. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setmemberlistvisibility">setMemberListVisibility</a>
+<div><div>
+
+Hide or show the member list of a group to non-admins. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/setmessagettl">setMessageTtl</a>
 <div><div>
 
 Set the time to live of the messages of a chat. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setsignaturesenabled">setSignaturesEnabled</a>
+<div><div>
+
+Enable or disable post signatures in a channel. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setslowmode">setSlowMode</a>
+<div><div>
+
+Change slow mode in a group. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/settopicsenabled">setTopicsEnabled</a>
+<div><div>
+
+Enable or disable topics in a group. User-only.
 
 
 </div></div>
