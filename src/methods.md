@@ -44,6 +44,14 @@ Reorder the usernames of the current account, a bot account, a supergroup, or a 
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/setbirthday">setBirthday</a>
+<div><div>
+
+Set the birthday of the current user. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/setemojistatus">setEmojiStatus</a>
 <div><div>
 
@@ -52,10 +60,42 @@ Set the current account's emoji status. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/setlocation">setLocation</a>
+<div><div>
+
+Set the location of the current user. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setnamecolor">setNameColor</a>
+<div><div>
+
+Set the name color of the current user. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/setonline">setOnline</a>
 <div><div>
 
 Set the current account's online status. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setpersonalchannel">setPersonalChannel</a>
+<div><div>
+
+Set the personal channel of the current user. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setprofilecolor">setProfileColor</a>
+<div><div>
+
+Set the profile color of the current user. User-only.
 
 
 </div></div>
