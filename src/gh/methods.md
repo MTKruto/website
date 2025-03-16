@@ -956,6 +956,14 @@ Mark messages as read. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/resolvemessagelink">resolveMessageLink</a>
+<div><div>
+
+Retrieve a message using its link.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/searchmessages">searchMessages</a>
 <div><div>
 
