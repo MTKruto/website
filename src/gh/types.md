@@ -670,6 +670,13 @@ A file or sticker thumbnail.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/topic">Topic</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/translation">Translation</a>
 <div><div>
 

@@ -286,6 +286,14 @@ Close a chat previously opened by openChat. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/closetopic">closeTopic</a>
+<div><div>
+
+Close a forum topic.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/createchannel">createChannel</a>
 <div><div>
 
@@ -314,6 +322,14 @@ Create an invite link.
 <div><div>
 
 Create a supergroup. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/createtopic">createTopic</a>
+<div><div>
+
+Create a forum topic.
 
 
 </div></div>
@@ -378,6 +394,14 @@ Disable join requests in a chat. User-only.
 <div><div>
 
 Disable slow mode in a group. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/edittopic">editTopic</a>
+<div><div>
+
+Edit a forum topic.
 
 
 </div></div>
@@ -486,6 +510,14 @@ Get inactive chats. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/hidegeneraltopic">hideGeneralTopic</a>
+<div><div>
+
+Hide the general forum topic.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/joinchat">joinChat</a>
 <div><div>
 
@@ -514,6 +546,22 @@ Leave a chat.
 <div><div>
 
 Open a chat. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/pintopic">pinTopic</a>
+<div><div>
+
+Pin a forum topic.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/reopentopic">reopenTopic</a>
+<div><div>
+
+Reopen a forum topic.
 
 
 </div></div>
@@ -630,6 +678,14 @@ Enable or disable topics in a group. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/showgeneraltopic">showGeneralTopic</a>
+<div><div>
+
+Show the general forum topic.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/transferchatownership">transferChatOwnership</a>
 <div><div>
 
@@ -658,6 +714,14 @@ Unarchive multiple chats. User-only.
 <div><div>
 
 Unban a member from a chat.
+
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/unpintopic">unpinTopic</a>
+<div><div>
+
+Unpin a forum topic.
 
 
 </div></div>
