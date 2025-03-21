@@ -71,7 +71,7 @@ client.use(async (_ctx, next) => {
 
 /** Ignoring updates */
 client.use(async (ctx, next) => {
-  const message = ctx.effectiveMessage;
+  const message = ctx.msg;
   const date = message?.date;
   const isTooOld = date !== undefined && Date.now() - date.getTime() > 5 * 60 * 1_000;
   if (message !== undefined && isTooOld) {
@@ -145,7 +145,7 @@ Here's an example.
 ```ts
 client.branch(
   /** condition: update is from a special user */
-  (ctx) => ctx.effectiveUser?.username?.toLowerCase() == "onetimeusername",
+  (ctx) => ctx.from?.username?.toLowerCase() == "onetimeusername",
   /** true handler */
   () => {
     console.log("Using more compute power: Update from someone special.");
@@ -201,7 +201,7 @@ Here's an example.
 client.filter(
   /** condition: update is from a forum chat */
   (ctx) => {
-    return ctx.effectiveChat?.type == "supergroup" && ctx.effectiveChat.isForum;
+    return ctx.chat?.type == "supergroup" && ctx.chat.isForum;
   },
   (ctx) => {
     console.log("Received an update from a forum.");
