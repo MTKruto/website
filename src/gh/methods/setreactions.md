@@ -23,6 +23,10 @@ The new reactions.
 
 Whether to make the new reactions more notable.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_addToRecents" data-anchor><span class="font-bold">addToRecents</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether to add the reaction to recent reactions.
+
 </div></div></div></div></div>
 
 ### Result 
@@ -37,7 +41,10 @@ await client.setReactions(chatId, messageId, reactions);
 
 // Required parameters + optional parameters.
 // Any of the optional parameters can be omitted.
-await client.setReactions(chatId, messageId, reactions, { big });
+await client.setReactions(chatId, messageId, reactions, {
+    big,
+    addToRecents,
+});
 ```
 
 
