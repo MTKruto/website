@@ -118,6 +118,10 @@ The identifier of the message effect that has been attached to the message.
 
 Whether the message is scheduled.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_selfDestruct" data-anchor><span class="font-bold">selfDestruct</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/selfdestructoption"  >SelfDestructOption</a></div></div><div class="pl-3"><div class="no-margin">
+
+The message's self-destruct preference.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_caption" data-anchor><span class="font-bold">caption</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_captionEntities" data-anchor><span class="font-bold">captionEntities</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/messageentity"  >MessageEntity</a><span class="opacity-50">[]</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_hasMediaSpoiler" data-anchor><span class="font-bold">hasMediaSpoiler</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_audio" data-anchor><span class="font-bold">audio</span><span class="opacity-50">:</span> <a href="/types/audio"  >Audio</a></div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div><div class="pl-3"><div class="no-margin">
 
 The audio included in the message
