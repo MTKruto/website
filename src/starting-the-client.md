@@ -28,12 +28,13 @@ API hash.
 it, you can interact with Telegram.
 
 In fact, the constructor has no required arguments, but you usually pass the
-first three arguments unless you know what you are doing. The first argument is
-a storage adapter, the second and third ones are your app's credentials, and the
-last one is an object of other parameters.
+parameters `storage`, `apiId`, and `apiHash`, unless you know what you are
+doing. The first argument is a storage adapter, the second and third ones are
+your app's credentials, and the last one is an object of other parameters.
 
-The following examples show you how you can construct a client that uses a
-localStorage storage adapter.
+The following examples show you how you can construct a client that using the
+[storage adapter](/storage-adapters)
+[`StorageLocalStorage`](https://mtkru.to/storage-adapters/#localstorage).
 
 <code-group>
 
