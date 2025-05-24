@@ -281,7 +281,7 @@ Ban a member from a chat.
 <a href="/methods/closechat">closeChat</a>
 <div><div>
 
-Close a chat previously opened by openChat. User-only.
+Close a chat previously opened by openChat.
 
 
 </div></div>
@@ -545,7 +545,7 @@ Leave a chat.
 <a href="/methods/openchat">openChat</a>
 <div><div>
 
-Open a chat. User-only.
+Open a chat.
 
 
 </div></div>

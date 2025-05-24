@@ -2,7 +2,7 @@
 title: openChat
 ---
 
-Open a chat. User-only.
+Open a chat.
 
 
 ### Parameters 
