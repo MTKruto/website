@@ -18,13 +18,9 @@ The identifier of the message.
 
 The identifier of the message's thread.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_from" data-anchor><span class="font-bold">from</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/user"  >User</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_from" data-anchor><span class="font-bold">from</span><span class="opacity-50">:</span> <a href="/gh/types/chatp"  >ChatP</a></div></div><div class="pl-3"><div class="no-margin">
 
-The user who sent the message.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_senderChat" data-anchor><span class="font-bold">senderChat</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/chatp"  >ChatP</a></div></div><div class="pl-3"><div class="no-margin">
-
-The chat which the message was sent on behalf of.
+The sender of the message.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_date" data-anchor><span class="font-bold">date</span><span class="opacity-50">:</span> <span href="/">Date</span></div></div><div class="pl-3"><div class="no-margin">
 
