@@ -486,6 +486,13 @@ A poll.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/pollanswer">PollAnswer</a>
+<div><div>
+
+An answer to a poll.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/polloption">PollOption</a>
 <div><div>
 
