@@ -10,7 +10,7 @@ A join request.
 
 The chat that the user requested to join.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_user" data-anchor><span class="font-bold">user</span><span class="opacity-50">:</span> <a href="/gh/types/user"  >User</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_from" data-anchor><span class="font-bold">from</span><span class="opacity-50">:</span> <a href="/gh/types/user"  >User</a></div></div><div class="pl-3"><div class="no-margin">
 
 The user who made the join request.
 
