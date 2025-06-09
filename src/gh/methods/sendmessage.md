@@ -23,7 +23,7 @@ The parse mode to use. if omitted, the default parse mode will be used.
 
 The message's entities.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_linkPreview" data-anchor><span class="font-bold">linkPreview</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/linkpreview"  >LinkPreview</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_linkPreview" data-anchor><span class="font-bold">linkPreview</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/inputlinkpreview"  >InputLinkPreview</a></div></div><div class="pl-3"><div class="no-margin">
 
 The message's link preview.
 

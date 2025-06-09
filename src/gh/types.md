@@ -335,7 +335,7 @@ A keyboard button representing the type of the poll that is requested to be crea
 <a href="/gh/types/linkpreview">LinkPreview</a>
 <div><div>
 
-A link preview.
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -377,7 +377,7 @@ Any type of message.
 <a href="/gh/types/messagecontent">MessageContent</a>
 <div><div>
 
-The content of a message to be returned as an inline query result.
+The content of a message in an inline query result.
 
 </div></div>
 <div class="descr-list-border"></div>
