@@ -988,6 +988,14 @@ Forward multiple messages.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getlinkpreview">getLinkPreview</a>
+<div><div>
+
+Get the link preview for a message that is about to be sent. User-only.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getmessage">getMessage</a>
 <div><div>
 
