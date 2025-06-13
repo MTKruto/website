@@ -800,6 +800,14 @@ Get gifts claimed by a user or a channel. User-only.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getgift">getGift</a>
+<div><div>
+
+Get a gift using its slug.
+
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getgifts">getGifts</a>
 <div><div>
 
