@@ -19,9 +19,17 @@ The title of the gift.
 
 The unique index of the gift among others of the same type.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_ownerId" data-anchor><span class="font-bold">ownerId</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_ownerName" data-anchor><span class="font-bold">ownerName</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
-The identifier of the user that owns the gift.
+The name of the user that owns the gift.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_ownerAddress" data-anchor><span class="font-bold">ownerAddress</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The address of the TON wallet that owns the gift.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_owner" data-anchor><span class="font-bold">owner</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/user"  >User</a></div></div><div class="pl-3"><div class="no-margin">
+
+The user that owns the gift.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_currentUpgrades" data-anchor><span class="font-bold">currentUpgrades</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
