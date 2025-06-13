@@ -19,6 +19,14 @@ The title of the gift.
 
 The unique index of the gift among others of the same type.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_ownerName" data-anchor><span class="font-bold">ownerName</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The name of the user that owns the gift.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_ownerAddress" data-anchor><span class="font-bold">ownerAddress</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The address of the TON wallet that owns the gift.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_owner" data-anchor><span class="font-bold">owner</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/user"  >User</a></div></div><div class="pl-3"><div class="no-margin">
 
 The user that owns the gift.
