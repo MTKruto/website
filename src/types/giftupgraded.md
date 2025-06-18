@@ -43,5 +43,13 @@ The maximum count of gifts of the same type that can be upgraded.
 
 The components of the gift.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_address" data-anchor><span class="font-bold">address</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The address of the gift in TON blockchain.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_price" data-anchor><span class="font-bold">price</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The amount of stars that can be used to buy the gift.
+
 </div></div></div></div>
 
