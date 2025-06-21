@@ -2,6 +2,7 @@ import {
   ClassMethodDef,
   DocNodeInterface,
   JsDocTagParam,
+  JsDocTagUnsupported,
   ParamIdentifierDef,
   TsTypeDefLiteral,
 } from "deno_doc/types.d.ts";
@@ -95,6 +96,7 @@ export function Method(
                 .find((v_) =>
                   v_.kind == "param" && v_.name == v.name
                 ) as JsDocTagParam;
+
               return (
                 <>
                   {a?.doc && (

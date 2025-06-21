@@ -73,7 +73,13 @@ title: Methods
 
     methods_md += '<div class="descr-list">\n\n';
 
-    for (const method of methods_) {
+    for (let method of methods_) {
+      method = structuredClone(method);
+      if (method.jsDoc?.doc) {
+        method.jsDoc.doc = method.jsDoc.doc.replaceAll("User-only.", "");
+        method.jsDoc.doc = method.jsDoc.doc.replaceAll("Bot-only.", "");
+        method.jsDoc.doc = method.jsDoc.doc.trim();
+      }
       methods_md += `<a href="${
         version ? `${version}/` : "/"
       }methods/${method.name.toLowerCase()}">${method.name}</a>\n`;
@@ -100,7 +106,13 @@ title: Methods
 
     methods_md += '<div class="descr-list">\n\n';
 
-    for (const method of unlisted) {
+    for (let method of unlisted) {
+      method = structuredClone(method);
+      if (method.jsDoc?.doc) {
+        method.jsDoc.doc = method.jsDoc.doc.replaceAll("User-only.", "");
+        method.jsDoc.doc = method.jsDoc.doc.replaceAll("Bot-only.", "");
+        method.jsDoc.doc = method.jsDoc.doc.trim();
+      }
       methods_md += `<a href="${
         version ? `${version}/` : "/"
       }methods/${method.name.toLowerCase()}">${method.name}</a>\n`;
@@ -151,12 +163,43 @@ title: Types
 
 { // METHOD
   for (const method of methods) {
+    const cache = method.jsDoc?.tags?.find((
+      v,
+    ): v is JsDocTagUnsupported =>
+      v.kind == "unsupported" && v.value.includes("@cache")
+    );
+    const cacheFile = cache?.value.includes("file");
+    const tag = (text: string) => (
+      <span class="inline-flex w-fit items-center">
+        <span class="w-fit bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">
+          {text.toUpperCase()}
+        </span>
+      </span>
+    );
+    const cacheEl = (cacheFile || cache)
+      ? (
+        tag(`CACHE${cacheFile ? " [F]" : ""}`)
+      )
+      // deno-lint-ignore jsx-no-useless-fragment
+      : <></>;
+    const tagEl = method.jsDoc?.doc?.includes("User-only.")
+      ? tag("User-only")
+      : method.jsDoc?.doc?.includes("Bot-only.")
+      ? tag("Bot-only")
+      // deno-lint-ignore jsx-no-useless-fragment
+      : <></>;
+    const tags = <>{tagEl} {cacheEl}</>;
+
     let method_md = `---
 title: ${method.name}
 ---\n\n`;
 
     if (method.jsDoc?.doc) {
-      method_md += method.jsDoc.doc;
+      const a = renderToString(tags);
+      method_md += method.jsDoc.doc.replaceAll("User-only.", "").replaceAll(
+        "Bot-only.",
+        "",
+      ).trim() + (a ? `<span class="select-none"> ${a}</span>` : "");
       method_md += "\n\n";
     }
 
