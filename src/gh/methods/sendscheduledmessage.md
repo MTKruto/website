@@ -2,8 +2,7 @@
 title: sendScheduledMessage
 ---
 
-Send a scheduled message before its schedule.
-
+Send a scheduled message before its schedule.<span class="select-none">  </span>
 
 ### Parameters 
 

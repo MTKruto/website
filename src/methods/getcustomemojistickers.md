@@ -2,8 +2,7 @@
 title: getCustomEmojiStickers
 ---
 
-Get custom emoji documents for download.
-
+Get custom emoji documents for download.<span class="select-none">  </span>
 
 ### Parameters 
 

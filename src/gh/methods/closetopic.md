@@ -2,8 +2,7 @@
 title: closeTopic
 ---
 
-Close a forum topic.
-
+Close a forum topic.<span class="select-none">  </span>
 
 ### Parameters 
 

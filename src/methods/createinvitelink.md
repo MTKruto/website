@@ -2,8 +2,7 @@
 title: createInviteLink
 ---
 
-Create an invite link.
-
+Create an invite link.<span class="select-none">  </span>
 
 ### Parameters 
 

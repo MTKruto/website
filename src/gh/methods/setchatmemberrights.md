@@ -2,8 +2,7 @@
 title: setChatMemberRights
 ---
 
-Set the rights of a chat member.
-
+Set the rights of a chat member.<span class="select-none">  </span>
 
 ### Parameters 
 

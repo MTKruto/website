@@ -2,8 +2,7 @@
 title: getGifts
 ---
 
-Get available gifts.
-
+Get available gifts.<span class="select-none">  </span>
 
 ### Result 
 

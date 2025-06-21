@@ -2,8 +2,7 @@
 title: deleteChatStickerSet
 ---
 
-Delete a chat's sticker set.
-
+Delete a chat's sticker set.<span class="select-none">  </span>
 
 ### Parameters 
 

@@ -2,8 +2,7 @@
 title: editMessageReplyMarkup
 ---
 
-Edit a message's reply markup.
-
+Edit a message's reply markup.<span class="select-none">  </span>
 
 ### Parameters 
 

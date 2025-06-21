@@ -2,8 +2,7 @@
 title: pinMessage
 ---
 
-Pin a message in a chat.
-
+Pin a message in a chat.<span class="select-none">  </span>
 
 ### Parameters 
 

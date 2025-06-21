@@ -2,8 +2,7 @@
 title: sendDice
 ---
 
-Send a dice.
-
+Send a dice.<span class="select-none">  </span>
 
 ### Parameters 
 

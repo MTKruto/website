@@ -2,8 +2,7 @@
 title: editMessageLiveLocation
 ---
 
-Edit a message's live location.
-
+Edit a message's live location.<span class="select-none">  </span>
 
 ### Parameters 
 

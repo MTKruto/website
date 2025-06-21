@@ -2,8 +2,7 @@
 title: getMessages
 ---
 
-Retrieve multiple messages.
-
+Retrieve multiple messages.<span class="select-none">  </span>
 
 ### Parameters 
 

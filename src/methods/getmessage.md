@@ -2,8 +2,7 @@
 title: getMessage
 ---
 
-Retrieve a single message.
-
+Retrieve a single message.<span class="select-none">  </span>
 
 ### Parameters 
 

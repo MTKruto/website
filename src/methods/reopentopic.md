@@ -2,8 +2,7 @@
 title: reopenTopic
 ---
 
-Reopen a forum topic.
-
+Reopen a forum topic.<span class="select-none">  </span>
 
 ### Parameters 
 

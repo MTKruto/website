@@ -2,8 +2,7 @@
 title: sendMediaGroup
 ---
 
-Send a media group.
-
+Send a media group.<span class="select-none">  </span>
 
 ### Parameters 
 

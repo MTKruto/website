@@ -2,8 +2,7 @@
 title: sendMessage
 ---
 
-Send a text message.
-
+Send a text message.<span class="select-none">  </span>
 
 ### Parameters 
 

@@ -2,8 +2,7 @@
 title: getMessages
 ---
 
-Retrieve multiple messages.
-
+Retrieve multiple messages.<span class="select-none">  <span class="inline-flex w-fit items-center"><span class="w-fit bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">CACHE</span></span></span>
 
 ### Parameters 
 

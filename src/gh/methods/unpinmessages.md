@@ -2,8 +2,7 @@
 title: unpinMessages
 ---
 
-Unpin all pinned messages.
-
+Unpin all pinned messages.<span class="select-none">  </span>
 
 ### Parameters 
 

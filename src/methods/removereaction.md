@@ -2,8 +2,7 @@
 title: removeReaction
 ---
 
-Undo a reaction made to a message.
-
+Undo a reaction made to a message.<span class="select-none">  </span>
 
 ### Parameters 
 

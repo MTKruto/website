@@ -2,8 +2,7 @@
 title: deleteMessage
 ---
 
-Delete a single message.
-
+Delete a single message.<span class="select-none">  </span>
 
 ### Parameters 
 

@@ -2,8 +2,7 @@
 title: sendAnimation
 ---
 
-Send an animation.
-
+Send an animation.<span class="select-none">  </span>
 
 ### Parameters 
 

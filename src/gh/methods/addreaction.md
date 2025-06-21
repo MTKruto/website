@@ -2,8 +2,7 @@
 title: addReaction
 ---
 
-Make a reaction to a message.
-
+Make a reaction to a message.<span class="select-none">  </span>
 
 ### Parameters 
 

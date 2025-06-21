@@ -2,8 +2,7 @@
 title: approveJoinRequest
 ---
 
-Approve a join request.
-
+Approve a join request.<span class="select-none">  </span>
 
 ### Parameters 
 

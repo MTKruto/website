@@ -7,8 +7,7 @@ title: Methods
 <a href="/gh/methods/getbusinessconnection">getBusinessConnection</a>
 <div><div>
 
-Get a business connection. Bot-only.
-
+Get a business connection.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -17,110 +16,96 @@ Get a business connection. Bot-only.
 
 Get information on the currently authorized user.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/hideusername">hideUsername</a>
 <div><div>
 
-Hide a username from the current account, a bot account, a supergroup, or a channel's profile. User-only.
-
+Hide a username from the current account, a bot account, a supergroup, or a channel's profile.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/hideusernames">hideUsernames</a>
 <div><div>
 
-Hide all usernames from a supergroup or a channel's profile. User-only.
-
+Hide all usernames from a supergroup or a channel's profile.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/reorderusernames">reorderUsernames</a>
 <div><div>
 
-Reorder the usernames of the current account, a bot account, a supergroup, or a channel's profile. User-only.
-
+Reorder the usernames of the current account, a bot account, a supergroup, or a channel's profile.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setbirthday">setBirthday</a>
 <div><div>
 
-Set the birthday of the current user. User-only.
-
+Set the birthday of the current user.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setemojistatus">setEmojiStatus</a>
 <div><div>
 
-Set the current account's emoji status. User-only.
-
+Set the current account's emoji status.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setlocation">setLocation</a>
 <div><div>
 
-Set the location of the current user. User-only.
-
+Set the location of the current user.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setnamecolor">setNameColor</a>
 <div><div>
 
-Set the name color of the current user. User-only.
-
+Set the name color of the current user.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setonline">setOnline</a>
 <div><div>
 
-Set the current account's online status. User-only.
-
+Set the current account's online status.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setpersonalchannel">setPersonalChannel</a>
 <div><div>
 
-Set the personal channel of the current user. User-only.
-
+Set the personal channel of the current user.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setprofilecolor">setProfileColor</a>
 <div><div>
 
-Set the profile color of the current user. User-only.
-
+Set the profile color of the current user.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setuseremojistatus">setUserEmojiStatus</a>
 <div><div>
 
-Set the emoji status of a bot's user. Bot-only.
-
+Set the emoji status of a bot's user.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/showusername">showUsername</a>
 <div><div>
 
-Show a username in the current account, a bot account, a supergroup, or a channel's profile. User-only.
-
+Show a username in the current account, a bot account, a supergroup, or a channel's profile.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/updateprofile">updateProfile</a>
 <div><div>
 
-Update the profile of the current user. At least one parameter must be specified. User-only.
-
+Update the profile of the current user. At least one parameter must be specified.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -133,64 +118,56 @@ Update the profile of the current user. At least one parameter must be specified
 <a href="/gh/methods/getmycommands">getMyCommands</a>
 <div><div>
 
-Get the bot's commands in the given scope and/or language. Bot-only.
-
+Get the bot's commands in the given scope and/or language.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/getmydescription">getMyDescription</a>
 <div><div>
 
-Get the bot's description in the given language. Bot-only.
-
+Get the bot's description in the given language.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/getmyname">getMyName</a>
 <div><div>
 
-Get the bot's name in the given language. Bot-only.
-
+Get the bot's name in the given language.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/getmyshortdescription">getMyShortDescription</a>
 <div><div>
 
-Get the bot's short description in the given language. Bot-only.
-
+Get the bot's short description in the given language.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setmycommands">setMyCommands</a>
 <div><div>
 
-Set the bot's commands in the given scope and/or language. Bot-only.
-
+Set the bot's commands in the given scope and/or language.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setmydescription">setMyDescription</a>
 <div><div>
 
-Set the bot's description in the given language. Bot-only.
-
+Set the bot's description in the given language.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setmyname">setMyName</a>
 <div><div>
 
-Set the bot's name in the given language. Bot-only.
-
+Set the bot's name in the given language.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setmyshortdescription">setMyShortDescription</a>
 <div><div>
 
-Set the bot's short description in the given language. Bot-only.
-
+Set the bot's short description in the given language.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -203,16 +180,14 @@ Set the bot's short description in the given language. Bot-only.
 <a href="/gh/methods/answercallbackquery">answerCallbackQuery</a>
 <div><div>
 
-Answer a callback query. Bot-only.
-
+Answer a callback query.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/sendcallbackquery">sendCallbackQuery</a>
 <div><div>
 
-Send a callback query. User-only.
-
+Send a callback query.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -227,14 +202,12 @@ Send a callback query. User-only.
 
 Add a single user to a chat.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/addchatmembers">addChatMembers</a>
 <div><div>
 
 Add multiple users at once to a channel or a supergroup.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -243,30 +216,26 @@ Add multiple users at once to a channel or a supergroup.
 
 Approve a join request.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/approvejoinrequests">approveJoinRequests</a>
 <div><div>
 
-Approve all join requests. User-only.
-
+Approve all join requests.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/archivechat">archiveChat</a>
 <div><div>
 
-Archive a single chat. User-only.
-
+Archive a single chat.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/archivechats">archiveChats</a>
 <div><div>
 
-Archive multiple chats. User-only.
-
+Archive multiple chats.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -275,14 +244,12 @@ Archive multiple chats. User-only.
 
 Ban a member from a chat.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/closechat">closeChat</a>
 <div><div>
 
 Close a chat previously opened by openChat.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -291,22 +258,19 @@ Close a chat previously opened by openChat.
 
 Close a forum topic.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/createchannel">createChannel</a>
 <div><div>
 
-Create a channel. User-only.
-
+Create a channel.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/creategroup">createGroup</a>
 <div><div>
 
-Create a group. User-only.
-
+Create a group.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -315,14 +279,12 @@ Create a group. User-only.
 
 Create an invite link.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/createsupergroup">createSupergroup</a>
 <div><div>
 
-Create a supergroup. User-only.
-
+Create a supergroup.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -331,7 +293,6 @@ Create a supergroup. User-only.
 
 Create a forum topic.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/declinejoinrequest">declineJoinRequest</a>
@@ -339,22 +300,19 @@ Create a forum topic.
 
 Decline a join request.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/declinejoinrequests">declineJoinRequests</a>
 <div><div>
 
-Decline all join requests. User-only.
-
+Decline all join requests.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/deletechat">deleteChat</a>
 <div><div>
 
-Delete a chat. User-only.
-
+Delete a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -363,7 +321,6 @@ Delete a chat. User-only.
 
 Delete a chat's photo.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/deletechatstickerset">deleteChatStickerSet</a>
@@ -371,30 +328,26 @@ Delete a chat's photo.
 
 Delete a chat's sticker set.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/disablebusinessbots">disableBusinessBots</a>
 <div><div>
 
-Disable business bots in a private chat. User-only.
-
+Disable business bots in a private chat.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/disablejoinrequests">disableJoinRequests</a>
 <div><div>
 
-Disable join requests in a chat. User-only.
-
+Disable join requests in a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/disableslowmode">disableSlowMode</a>
 <div><div>
 
-Disable slow mode in a group. User-only.
-
+Disable slow mode in a group.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -403,22 +356,19 @@ Disable slow mode in a group. User-only.
 
 Edit a forum topic.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/enablebusinessbots">enableBusinessBots</a>
 <div><div>
 
-Enable business bots in a private chat. User-only.
-
+Enable business bots in a private chat.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/enablejoinrequests">enableJoinRequests</a>
 <div><div>
 
-Enable join requests in a chat. User-only.
-
+Enable join requests in a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -427,14 +377,12 @@ Enable join requests in a chat. User-only.
 
 Get a chat.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/getchatadministrators">getChatAdministrators</a>
 <div><div>
 
 Get the administrators of a chat.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -443,7 +391,6 @@ Get the administrators of a chat.
 
 Get information on a user's chat membership.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/getchatmembers">getChatMembers</a>
@@ -451,62 +398,54 @@ Get information on a user's chat membership.
 
 Get the members of a chat.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/getchats">getChats</a>
 <div><div>
 
-Get chats from a chat list. User-only.
-
+Get chats from a chat list.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/getchatsettings">getChatSettings</a>
 <div><div>
 
-Get the settings of a chat. User-only.
-
+Get the settings of a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/getcommonchats">getCommonChats</a>
 <div><div>
 
-Get common chats between a user and the current one. User-only.
-
+Get common chats between a user and the current one.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/getcreatedinvitelinks">getCreatedInviteLinks</a>
 <div><div>
 
-Get the invite links created for a chat. User-only.
-
+Get the invite links created for a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/getdiscussionchatsuggestions">getDiscussionChatSuggestions</a>
 <div><div>
 
-Get discussion chat suggestions. User-only.
-
+Get discussion chat suggestions.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/gethistory">getHistory</a>
 <div><div>
 
-Get chat history. User-only.
-
+Get chat history.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/getinactivechats">getInactiveChats</a>
 <div><div>
 
-Get inactive chats. User-only.
-
+Get inactive chats.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -515,14 +454,12 @@ Get inactive chats. User-only.
 
 Hide the general forum topic.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/joinchat">joinChat</a>
 <div><div>
 
-Join a chat. User-only.
-
+Join a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -531,14 +468,12 @@ Join a chat. User-only.
 
 Kick a member from a chat. Same as a banChatMember call followed by unbanChatMember.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/leavechat">leaveChat</a>
 <div><div>
 
 Leave a chat.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -547,14 +482,12 @@ Leave a chat.
 
 Open a chat.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/pintopic">pinTopic</a>
 <div><div>
 
 Pin a forum topic.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -563,30 +496,26 @@ Pin a forum topic.
 
 Reopen a forum topic.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setantispamenabled">setAntispamEnabled</a>
 <div><div>
 
-Enable or disable automatic anti-spam in a group. User-only.
-
+Enable or disable automatic anti-spam in a group.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setavailablereactions">setAvailableReactions</a>
 <div><div>
 
-Set a chat's available reactions. User-only.
-
+Set a chat's available reactions.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setboostsrequiredtocircumventrestrictions">setBoostsRequiredToCircumventRestrictions</a>
 <div><div>
 
-Set the number of boosts required to circument a chat's default restrictions. User-only.
-
+Set the number of boosts required to circument a chat's default restrictions.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -595,14 +524,12 @@ Set the number of boosts required to circument a chat's default restrictions. Us
 
 Change the description of a chat.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setchatmemberrights">setChatMemberRights</a>
 <div><div>
 
 Set the rights of a chat member.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -611,14 +538,12 @@ Set the rights of a chat member.
 
 Set a chat's photo.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setchatstickerset">setChatStickerSet</a>
 <div><div>
 
 Set a chat's sticker set.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -627,54 +552,47 @@ Set a chat's sticker set.
 
 Change the title of a chat.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setdiscussionchat">setDiscussionChat</a>
 <div><div>
 
-Set a channel's discussion chat. User-only.
-
+Set a channel's discussion chat.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setmemberlistvisibility">setMemberListVisibility</a>
 <div><div>
 
-Hide or show the member list of a group to non-admins. User-only.
-
+Hide or show the member list of a group to non-admins.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setmessagettl">setMessageTtl</a>
 <div><div>
 
-Set the time to live of the messages of a chat. User-only.
-
+Set the time to live of the messages of a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setsignaturesenabled">setSignaturesEnabled</a>
 <div><div>
 
-Enable or disable post signatures in a channel. User-only.
-
+Enable or disable post signatures in a channel.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setslowmode">setSlowMode</a>
 <div><div>
 
-Change slow mode in a group. User-only.
-
+Change slow mode in a group.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/settopicsenabled">setTopicsEnabled</a>
 <div><div>
 
-Enable or disable topics in a group. User-only.
-
+Enable or disable topics in a group.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -683,30 +601,26 @@ Enable or disable topics in a group. User-only.
 
 Show the general forum topic.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/transferchatownership">transferChatOwnership</a>
 <div><div>
 
-Transfer the ownership of a chat. User-only.
-
+Transfer the ownership of a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/unarchivechat">unarchiveChat</a>
 <div><div>
 
-Unarchive a single chat. User-only.
-
+Unarchive a single chat.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/unarchivechats">unarchiveChats</a>
 <div><div>
 
-Unarchive multiple chats. User-only.
-
+Unarchive multiple chats.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -715,14 +629,12 @@ Unarchive multiple chats. User-only.
 
 Unban a member from a chat.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/unpintopic">unpinTopic</a>
 <div><div>
 
 Unpin a forum topic.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -735,32 +647,28 @@ Unpin a forum topic.
 <a href="/gh/methods/addcontact">addContact</a>
 <div><div>
 
-Add a contact. User-only.
-
+Add a contact.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/deletecontact">deleteContact</a>
 <div><div>
 
-Delete a single contact. User-only.
-
+Delete a single contact.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/deletecontacts">deleteContacts</a>
 <div><div>
 
-Delete multiple contacts. User-only.
-
+Delete multiple contacts.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/getcontacts">getContacts</a>
 <div><div>
 
-Get contacts. User-only.
-
+Get contacts.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -775,14 +683,12 @@ Get contacts. User-only.
 
 Download a file.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/getcustomemojistickers">getCustomEmojiStickers</a>
 <div><div>
 
 Get custom emoji documents for download.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -795,8 +701,7 @@ Get custom emoji documents for download.
 <a href="/gh/methods/getclaimedgifts">getClaimedGifts</a>
 <div><div>
 
-Get gifts claimed by a user or a channel. User-only.
-
+Get gifts claimed by a user or a channel.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -805,14 +710,12 @@ Get gifts claimed by a user or a channel. User-only.
 
 Get a gift using its slug.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/getgifts">getGifts</a>
 <div><div>
 
 Get available gifts.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -821,14 +724,12 @@ Get available gifts.
 
 Sell a gift.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/sendgift">sendGift</a>
 <div><div>
 
 Send a gift.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -841,16 +742,14 @@ Send a gift.
 <a href="/gh/methods/answerinlinequery">answerInlineQuery</a>
 <div><div>
 
-Answer an inline query. Bot-only.
-
+Answer an inline query.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/sendinlinequery">sendInlineQuery</a>
 <div><div>
 
-Send an inline query. User-only.
-
+Send an inline query.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -863,8 +762,7 @@ Send an inline query. User-only.
 <a href="/gh/methods/deletechatmembermessages">deleteChatMemberMessages</a>
 <div><div>
 
-Delete all messages sent by a specific member of a chat. User-only.
-
+Delete all messages sent by a specific member of a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -873,14 +771,12 @@ Delete all messages sent by a specific member of a chat. User-only.
 
 Delete a single message.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/deletemessages">deleteMessages</a>
 <div><div>
 
 Delete multiple messages.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -889,7 +785,6 @@ Delete multiple messages.
 
 Delete a scheduled message.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/deletescheduledmessages">deleteScheduledMessages</a>
@@ -897,22 +792,19 @@ Delete a scheduled message.
 
 Delete multiple scheduled messages.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/editinlinemessagecaption">editInlineMessageCaption</a>
 <div><div>
 
-Edit an inline message's caption. Bot-only.
-
+Edit an inline message's caption.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/editinlinemessagelivelocation">editInlineMessageLiveLocation</a>
 <div><div>
 
-Edit an inline message's live location. Bot-only.
-
+Edit an inline message's live location.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -921,22 +813,19 @@ Edit an inline message's live location. Bot-only.
 
 Edit an inline message's media.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/editinlinemessagereplymarkup">editInlineMessageReplyMarkup</a>
 <div><div>
 
-Edit an inline message's reply markup. Bot-only.
-
+Edit an inline message's reply markup.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/editinlinemessagetext">editInlineMessageText</a>
 <div><div>
 
-Edit an inline message's text. Bot-only.
-
+Edit an inline message's text.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -945,14 +834,12 @@ Edit an inline message's text. Bot-only.
 
 Edit a message's caption.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/editmessagelivelocation">editMessageLiveLocation</a>
 <div><div>
 
 Edit a message's live location.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -961,14 +848,12 @@ Edit a message's live location.
 
 Edit a message's media.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/editmessagereplymarkup">editMessageReplyMarkup</a>
 <div><div>
 
 Edit a message's reply markup.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -977,14 +862,12 @@ Edit a message's reply markup.
 
 Edit a message's text.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/forwardmessage">forwardMessage</a>
 <div><div>
 
 Forward a single message.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -993,14 +876,12 @@ Forward a single message.
 
 Forward multiple messages.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/getlinkpreview">getLinkPreview</a>
 <div><div>
 
-Get the link preview for a message that is about to be sent. User-only.
-
+Get the link preview for a message that is about to be sent.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1009,14 +890,12 @@ Get the link preview for a message that is about to be sent. User-only.
 
 Retrieve a single message.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/getmessages">getMessages</a>
 <div><div>
 
 Retrieve multiple messages.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1025,14 +904,12 @@ Retrieve multiple messages.
 
 Pin a message in a chat.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/readmessages">readMessages</a>
 <div><div>
 
-Mark messages as read. User-only.
-
+Mark messages as read.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1041,14 +918,12 @@ Mark messages as read. User-only.
 
 Retrieve a message using its link.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/searchmessages">searchMessages</a>
 <div><div>
 
-Search the messages of a chat. User-only.
-
+Search the messages of a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1057,14 +932,12 @@ Search the messages of a chat. User-only.
 
 Send an animation.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/sendaudio">sendAudio</a>
 <div><div>
 
 Send an audio file.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1073,14 +946,12 @@ Send an audio file.
 
 Send a chat action.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/sendcontact">sendContact</a>
 <div><div>
 
 Send a contact.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1089,7 +960,6 @@ Send a contact.
 
 Send a dice.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/senddocument">sendDocument</a>
@@ -1097,14 +967,12 @@ Send a dice.
 
 Send a document.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/sendinvoice">sendInvoice</a>
 <div><div>
 
-Send an invoice. Bot-only.
-
+Send an invoice.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1113,14 +981,12 @@ Send an invoice. Bot-only.
 
 Send a location.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/sendmediagroup">sendMediaGroup</a>
 <div><div>
 
 Send a media group.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1129,14 +995,12 @@ Send a media group.
 
 Send a text message.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/sendphoto">sendPhoto</a>
 <div><div>
 
 Send a photo.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1145,14 +1009,12 @@ Send a photo.
 
 Send a poll.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/sendscheduledmessage">sendScheduledMessage</a>
 <div><div>
 
 Send a scheduled message before its schedule.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1161,14 +1023,12 @@ Send a scheduled message before its schedule.
 
 Send multiple scheduled messages before their schedule.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/sendsticker">sendSticker</a>
 <div><div>
 
 Send a sticker.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1177,14 +1037,12 @@ Send a sticker.
 
 Send a venue.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/sendvideo">sendVideo</a>
 <div><div>
 
 Send a video.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1193,7 +1051,6 @@ Send a video.
 
 Send a video note.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/sendvoice">sendVoice</a>
@@ -1201,14 +1058,12 @@ Send a video note.
 
 Send a voice message.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/startbot">startBot</a>
 <div><div>
 
-Start a bot. User-only.
-
+Start a bot.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1217,14 +1072,12 @@ Start a bot. User-only.
 
 Stop a poll.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/transcribevoice">transcribeVoice</a>
 <div><div>
 
-Transcribe a voice message. User-only.
-
+Transcribe a voice message.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1233,14 +1086,12 @@ Transcribe a voice message. User-only.
 
 Unpin a pinned message.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/unpinmessages">unpinMessages</a>
 <div><div>
 
 Unpin all pinned messages.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1253,16 +1104,14 @@ Unpin all pinned messages.
 <a href="/gh/methods/answerprecheckoutquery">answerPreCheckoutQuery</a>
 <div><div>
 
-Answer a pre-checkout query. Bot-only.
-
+Answer a pre-checkout query.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/refundstarpayment">refundStarPayment</a>
 <div><div>
 
-Refund a star payment. Bot-only.
-
+Refund a star payment.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1275,16 +1124,14 @@ Refund a star payment. Bot-only.
 <a href="/gh/methods/retractvote">retractVote</a>
 <div><div>
 
-Retract a vote. User-only.
-
+Retract a vote.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/vote">vote</a>
 <div><div>
 
-Cast a vote. User-only.
-
+Cast a vote.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1299,7 +1146,6 @@ Cast a vote. User-only.
 
 Make a reaction to a message.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/removereaction">removeReaction</a>
@@ -1307,14 +1153,12 @@ Make a reaction to a message.
 
 Undo a reaction made to a message.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/setreactions">setReactions</a>
 <div><div>
 
 Change reactions made to a message.
-
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1327,72 +1171,63 @@ Change reactions made to a message.
 <a href="/gh/methods/addstoriestohighlights">addStoriesToHighlights</a>
 <div><div>
 
-Add multiple stories to highlights. User-only.
-
+Add multiple stories to highlights.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/addstorytohighlights">addStoryToHighlights</a>
 <div><div>
 
-Add a single story to highlights. User-only.
-
+Add a single story to highlights.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/createstory">createStory</a>
 <div><div>
 
-Create a story. User-only.
-
+Create a story.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/deletestories">deleteStories</a>
 <div><div>
 
-Delete multiple stories. User-only.
-
+Delete multiple stories.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/deletestory">deleteStory</a>
 <div><div>
 
-Delete a single story. User-only.
-
+Delete a single story.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/getstories">getStories</a>
 <div><div>
 
-Retrieve multiple stories. User-only.
-
+Retrieve multiple stories.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/getstory">getStory</a>
 <div><div>
 
-Retrieve a single story. User-only.
-
+Retrieve a single story.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/removestoriesfromhighlights">removeStoriesFromHighlights</a>
 <div><div>
 
-Remove multiple stories from highlights. User-only.
-
+Remove multiple stories from highlights.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/removestoryfromhighlights">removeStoryFromHighlights</a>
 <div><div>
 
-Remove a single story from highlights. User-only.
-
+Remove a single story from highlights.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1405,8 +1240,7 @@ Remove a single story from highlights. User-only.
 <a href="/gh/methods/gettranslations">getTranslations</a>
 <div><div>
 
-Get translations. User-only.
-
+Get translations.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1419,64 +1253,56 @@ Get translations. User-only.
 <a href="/gh/methods/downloadlivestreamchunk">downloadLiveStreamChunk</a>
 <div><div>
 
-Download a live stream chunk. User-only.
-
+Download a live stream chunk.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/getlivestreamchannels">getLiveStreamChannels</a>
 <div><div>
 
-Get live stream channels. User-only.
-
+Get live stream channels.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/getvideochat">getVideoChat</a>
 <div><div>
 
-Get a video chat. User-only.
-
+Get a video chat.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/joinlivestream">joinLiveStream</a>
 <div><div>
 
-Join a live stream. User-only.
-
+Join a live stream.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/joinvideochat">joinVideoChat</a>
 <div><div>
 
-Join a video chat. User-only.
-
+Join a video chat.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/leavevideochat">leaveVideoChat</a>
 <div><div>
 
-Leave a video chat. User-only.
-
+Leave a video chat.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/schedulevideochat">scheduleVideoChat</a>
 <div><div>
 
-Schedule a video chat. User-only.
-
+Schedule a video chat.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/startvideochat">startVideoChat</a>
 <div><div>
 
-Start a video chat. User-only.
-
+Start a video chat.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1489,8 +1315,7 @@ Start a video chat. User-only.
 <a href="/gh/methods/blockuser">blockUser</a>
 <div><div>
 
-Block a user. User-only.
-
+Block a user.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1499,14 +1324,12 @@ Block a user. User-only.
 
 Get network statistics. This might not always be available.
 
-
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/methods/unblockuser">unblockUser</a>
 <div><div>
 
-Unblock a user. User-only.
-
+Unblock a user.
 
 </div></div>
 <div class="descr-list-border"></div>

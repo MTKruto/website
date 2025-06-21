@@ -2,8 +2,7 @@
 title: deleteMessages
 ---
 
-Delete multiple messages.
-
+Delete multiple messages.<span class="select-none">  </span>
 
 ### Parameters 
 

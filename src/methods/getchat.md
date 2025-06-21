@@ -2,8 +2,7 @@
 title: getChat
 ---
 
-Get a chat.
-
+Get a chat.<span class="select-none">  </span>
 
 ### Parameters 
 

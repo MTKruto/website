@@ -2,8 +2,7 @@
 title: showGeneralTopic
 ---
 
-Show the general forum topic.
-
+Show the general forum topic.<span class="select-none">  </span>
 
 ### Parameters 
 

@@ -2,8 +2,7 @@
 title: editInlineMessageMedia
 ---
 
-Edit an inline message's media.
-
+Edit an inline message's media.<span class="select-none">  </span>
 
 ### Parameters 
 

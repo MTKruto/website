@@ -2,8 +2,7 @@
 title: resolveMessageLink
 ---
 
-Retrieve a message using its link.
-
+Retrieve a message using its link.<span class="select-none">  </span>
 
 ### Parameters 
 

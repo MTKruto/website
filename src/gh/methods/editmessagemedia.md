@@ -2,8 +2,7 @@
 title: editMessageMedia
 ---
 
-Edit a message's media.
-
+Edit a message's media.<span class="select-none">  </span>
 
 ### Parameters 
 

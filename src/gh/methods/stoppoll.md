@@ -2,8 +2,7 @@
 title: stopPoll
 ---
 
-Stop a poll.
-
+Stop a poll.<span class="select-none">  </span>
 
 ### Parameters 
 

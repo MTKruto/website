@@ -2,8 +2,7 @@
 title: openChat
 ---
 
-Open a chat.
-
+Open a chat.<span class="select-none">  </span>
 
 ### Parameters 
 

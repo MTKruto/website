@@ -2,8 +2,7 @@
 title: sendLocation
 ---
 
-Send a location.
-
+Send a location.<span class="select-none">  </span>
 
 ### Parameters 
 

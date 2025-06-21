@@ -2,8 +2,7 @@
 title: banChatMember
 ---
 
-Ban a member from a chat.
-
+Ban a member from a chat.<span class="select-none">  </span>
 
 ### Parameters 
 

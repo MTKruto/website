@@ -2,8 +2,7 @@
 title: sendChatAction
 ---
 
-Send a chat action.
-
+Send a chat action.<span class="select-none">  </span>
 
 ### Parameters 
 

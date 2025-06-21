@@ -2,8 +2,7 @@
 title: sendAudio
 ---
 
-Send an audio file.
-
+Send an audio file.<span class="select-none">  </span>
 
 ### Parameters 
 

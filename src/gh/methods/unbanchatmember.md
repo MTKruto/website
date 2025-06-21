@@ -2,8 +2,7 @@
 title: unbanChatMember
 ---
 
-Unban a member from a chat.
-
+Unban a member from a chat.<span class="select-none">  </span>
 
 ### Parameters 
 

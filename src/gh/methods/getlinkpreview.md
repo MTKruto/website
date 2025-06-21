@@ -2,8 +2,7 @@
 title: getLinkPreview
 ---
 
-Get the link preview for a message that is about to be sent. User-only.
-
+Get the link preview for a message that is about to be sent.<span class="select-none"> <span class="inline-flex w-fit items-center"><span class="w-fit bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">USER-ONLY</span></span> </span>
 
 ### Parameters 
 

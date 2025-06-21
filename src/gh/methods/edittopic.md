@@ -2,8 +2,7 @@
 title: editTopic
 ---
 
-Edit a forum topic.
-
+Edit a forum topic.<span class="select-none">  </span>
 
 ### Parameters 
 

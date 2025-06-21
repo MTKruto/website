@@ -2,8 +2,7 @@
 title: leaveChat
 ---
 
-Leave a chat.
-
+Leave a chat.<span class="select-none">  </span>
 
 ### Parameters 
 

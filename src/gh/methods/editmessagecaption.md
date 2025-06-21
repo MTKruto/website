@@ -2,8 +2,7 @@
 title: editMessageCaption
 ---
 
-Edit a message's caption.
-
+Edit a message's caption.<span class="select-none">  </span>
 
 ### Parameters 
 

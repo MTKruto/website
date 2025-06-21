@@ -2,8 +2,7 @@
 title: deleteScheduledMessages
 ---
 
-Delete multiple scheduled messages.
-
+Delete multiple scheduled messages.<span class="select-none">  </span>
 
 ### Parameters 
 

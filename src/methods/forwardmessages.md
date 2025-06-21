@@ -2,8 +2,7 @@
 title: forwardMessages
 ---
 
-Forward multiple messages.
-
+Forward multiple messages.<span class="select-none">  </span>
 
 ### Parameters 
 

@@ -2,8 +2,7 @@
 title: getGift
 ---
 
-Get a gift using its slug.
-
+Get a gift using its slug.<span class="select-none">  </span>
 
 ### Parameters 
 

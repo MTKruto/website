@@ -2,8 +2,7 @@
 title: setChatStickerSet
 ---
 
-Set a chat's sticker set.
-
+Set a chat's sticker set.<span class="select-none">  </span>
 
 ### Parameters 
 

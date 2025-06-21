@@ -2,8 +2,7 @@
 title: archiveChat
 ---
 
-Archive a single chat. User-only.
-
+Archive a single chat.<span class="select-none"> <span class="inline-flex w-fit items-center"><span class="w-fit bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">USER-ONLY</span></span> </span>
 
 ### Parameters 
 

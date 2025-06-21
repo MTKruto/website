@@ -2,8 +2,7 @@
 title: sendGift
 ---
 
-Send a gift.
-
+Send a gift.<span class="select-none">  </span>
 
 ### Parameters 
 

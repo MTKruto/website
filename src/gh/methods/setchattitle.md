@@ -2,8 +2,7 @@
 title: setChatTitle
 ---
 
-Change the title of a chat.
-
+Change the title of a chat.<span class="select-none">  </span>
 
 ### Parameters 
 

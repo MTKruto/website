@@ -2,8 +2,7 @@
 title: hideGeneralTopic
 ---
 
-Hide the general forum topic.
-
+Hide the general forum topic.<span class="select-none">  </span>
 
 ### Parameters 
 

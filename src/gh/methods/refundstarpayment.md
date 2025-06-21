@@ -2,8 +2,7 @@
 title: refundStarPayment
 ---
 
-Refund a star payment. Bot-only.
-
+Refund a star payment.<span class="select-none"> <span class="inline-flex w-fit items-center"><span class="w-fit bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">BOT-ONLY</span></span> </span>
 
 ### Parameters 
 

@@ -2,8 +2,7 @@
 title: addChatMember
 ---
 
-Add a single user to a chat.
-
+Add a single user to a chat.<span class="select-none">  </span>
 
 ### Parameters 
 

@@ -2,8 +2,7 @@
 title: setReactions
 ---
 
-Change reactions made to a message.
-
+Change reactions made to a message.<span class="select-none">  </span>
 
 ### Parameters 
 

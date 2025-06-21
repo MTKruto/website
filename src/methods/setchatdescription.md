@@ -2,8 +2,7 @@
 title: setChatDescription
 ---
 
-Change the description of a chat.
-
+Change the description of a chat.<span class="select-none">  </span>
 
 ### Parameters 
 

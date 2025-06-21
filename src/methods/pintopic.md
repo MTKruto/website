@@ -2,8 +2,7 @@
 title: pinTopic
 ---
 
-Pin a forum topic.
-
+Pin a forum topic.<span class="select-none">  </span>
 
 ### Parameters 
 

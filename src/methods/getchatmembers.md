@@ -2,8 +2,7 @@
 title: getChatMembers
 ---
 
-Get the members of a chat.
-
+Get the members of a chat.<span class="select-none">  </span>
 
 ### Parameters 
 

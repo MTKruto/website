@@ -2,8 +2,7 @@
 title: createTopic
 ---
 
-Create a forum topic.
-
+Create a forum topic.<span class="select-none">  </span>
 
 ### Parameters 
 

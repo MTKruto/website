@@ -2,8 +2,7 @@
 title: sendDocument
 ---
 
-Send a document.
-
+Send a document.<span class="select-none">  </span>
 
 ### Parameters 
 

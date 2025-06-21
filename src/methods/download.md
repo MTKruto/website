@@ -2,8 +2,7 @@
 title: download
 ---
 
-Download a file.
-
+Download a file.<span class="select-none">  </span>
 
 ### Parameters 
 

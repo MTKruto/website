@@ -2,8 +2,7 @@
 title: sendContact
 ---
 
-Send a contact.
-
+Send a contact.<span class="select-none">  </span>
 
 ### Parameters 
 

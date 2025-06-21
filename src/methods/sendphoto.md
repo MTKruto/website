@@ -2,8 +2,7 @@
 title: sendPhoto
 ---
 
-Send a photo.
-
+Send a photo.<span class="select-none">  </span>
 
 ### Parameters 
 

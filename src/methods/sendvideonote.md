@@ -2,8 +2,7 @@
 title: sendVideoNote
 ---
 
-Send a video note.
-
+Send a video note.<span class="select-none">  </span>
 
 ### Parameters 
 

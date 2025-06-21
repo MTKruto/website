@@ -2,8 +2,7 @@
 title: sendVideo
 ---
 
-Send a video.
-
+Send a video.<span class="select-none">  </span>
 
 ### Parameters 
 

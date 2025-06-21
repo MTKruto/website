@@ -2,8 +2,7 @@
 title: sendVenue
 ---
 
-Send a venue.
-
+Send a venue.<span class="select-none">  </span>
 
 ### Parameters 
 

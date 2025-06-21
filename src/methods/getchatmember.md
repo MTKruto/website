@@ -2,8 +2,7 @@
 title: getChatMember
 ---
 
-Get information on a user's chat membership.
-
+Get information on a user's chat membership.<span class="select-none">  </span>
 
 ### Parameters 
 

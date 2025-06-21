@@ -2,8 +2,7 @@
 title: sendPoll
 ---
 
-Send a poll.
-
+Send a poll.<span class="select-none">  </span>
 
 ### Parameters 
 

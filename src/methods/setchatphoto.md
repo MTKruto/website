@@ -2,8 +2,7 @@
 title: setChatPhoto
 ---
 
-Set a chat's photo.
-
+Set a chat's photo.<span class="select-none">  </span>
 
 ### Parameters 
 
