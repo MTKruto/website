@@ -62,7 +62,15 @@ Whether the user has been verified.
 
 Whether the user is official support.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_addedToAttachmentMenu" data-anchor><span class="font-bold">addedToAttachmentMenu</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isRestricted" data-anchor><span class="font-bold">isRestricted</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the user has been restricted.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_restrictionReason" data-anchor><span class="font-bold">restrictionReason</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/restrictionreason"  >RestrictionReason</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+
+The reason why the user has been restricted.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_addedToAttachmentMenu" data-anchor><span class="font-bold">addedToAttachmentMenu</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the user is a bot that has been added to the attachment menu by the current user.
 
