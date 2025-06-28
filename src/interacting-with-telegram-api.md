@@ -129,7 +129,8 @@ if (Api.is("user", object)) {
 }
 ```
 
-- Use `Api.isOfEnum()` to see if a specific object is a member of a specific enum.
+- Use `Api.isOfEnum()` to see if a specific object is a member of a specific
+  enum.
 
 ```ts
 if (Api.isOfEnum("Updates", object)) {
