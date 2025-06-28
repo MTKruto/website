@@ -29,8 +29,7 @@ it, you can interact with Telegram.
 
 In fact, the constructor has no required arguments, but you usually pass the
 parameters `storage`, `apiId`, and `apiHash`, unless you know what you are
-doing. The first argument is a storage adapter, the second and third ones are
-your app's credentials, and the last one is an object of other parameters.
+doing.
 
 The following examples show you how you can construct a client that using the
 [storage adapter](/storage-adapters)
