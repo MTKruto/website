@@ -31,7 +31,7 @@ title: Interacting with Telegram API
   represented as big ints.
 
 ```ts
-// constructor1#FFFFFF param:bigint
+// constructor1 param:bigint = Type
 {
     _: "constructor1",
     param: 1234n,
@@ -39,10 +39,10 @@ title: Interacting with Telegram API
 ```
 
 - Parameters of the types [`int`](https://core.telegram.org/type/int) and
-  [`double`](https://core.telegram.org/type/double) are represented asnumbers .
+  [`double`](https://core.telegram.org/type/double) are represented as numbers.
 
 ```ts
-// constructor1#FFFFFF param:int duration:double
+// constructor1 param:int duration:double = Type
 {
     _: "constructor1",
     param: 10,
@@ -54,7 +54,7 @@ title: Interacting with Telegram API
   represented as strings.
 
 ```ts
-// constructor1#FFFFFF name:string
+// constructor1 name:string = Type
 {
     _: "constructor1",
     name: "MTKruto",
@@ -65,7 +65,7 @@ title: Interacting with Telegram API
   represented as instances of `Uint8Array`.
 
 ```ts
-// constructor1#FFFFFF data:bytes
+// constructor1 data:bytes = Type
 {
     _: "constructor1",
     data: new Uint8Array([77,  84,  75, 114, 117, 116, 111]),
@@ -76,7 +76,7 @@ title: Interacting with Telegram API
   have the value `true`.
 
 ```ts
-// constructor1#FFFFFF flags:# check:flags.0?true
+// constructor1 flags:# check:flags.0?true = Type
 {
     _: "constructor1",
     check: true,
@@ -91,8 +91,8 @@ title: Interacting with Telegram API
 - Parameters that are other constructors are also represented the same way.
 
 ```ts
-// constructor2#EEEEEE
-// constructor1#FFFFFF param:constructor2
+// constructor2 = Type
+// constructor1 param:constructor2 = Type
 {
     _: "constructor1",
     param: {
