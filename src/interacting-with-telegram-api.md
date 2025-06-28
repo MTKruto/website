@@ -121,18 +121,18 @@ namespace, which is exported from the root.
 To make dealing with these kinds of objects easier, you can use the built-in
 utilities.
 
-- Use `is()` to compare types.
+- Use `Api.is()` to compare types.
 
 ```ts
-if (is("user", object)) {
+if (Api.is("user", object)) {
   /* ... */
 }
 ```
 
-- Use `isOfEnum()` to see if a specific object is a member of a specific enum.
+- Use `Api.isOfEnum()` to see if a specific object is a member of a specific enum.
 
 ```ts
-if (isOfEnum("Updates", object)) {
+if (Api.isOfEnum("Updates", object)) {
   /* ... */
 }
 ```
