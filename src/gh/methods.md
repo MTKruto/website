@@ -449,6 +449,13 @@ Get inactive chats.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getjoinrequests">getJoinRequests</a>
+<div><div>
+
+Get pending join requests in a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/hidegeneraltopic">hideGeneralTopic</a>
 <div><div>
 
