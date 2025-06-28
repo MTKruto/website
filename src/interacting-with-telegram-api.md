@@ -91,7 +91,7 @@ title: Interacting with Telegram API
 - Parameters that are other constructors are also represented the same way.
 
 ```ts
-// constructor2 = Type
+// constructor2 = Type2
 // constructor1 param:constructor2 = Type
 {
     _: "constructor1",
