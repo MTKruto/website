@@ -8,7 +8,7 @@ Edit an inline message's live location.<span class="select-none"> <span class="i
 
 <div class="flex flex-col gap-3"><div><div class="font-mono" id="p_inlineMessageId" data-anchor><span class="font-bold">inlineMessageId</span><span class="opacity-50">:</span> <span>string</span></div><div class="pl-3"><div class="no-margin">
 
-The inline message's identifier.
+The identifier of the inline message.
 
 </div></div></div><div><div class="font-mono" id="p_latitude" data-anchor><span class="font-bold">latitude</span><span class="opacity-50">:</span> <span>number</span></div><div class="pl-3"><div class="no-margin">
 

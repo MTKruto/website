@@ -8,11 +8,11 @@ Set the rights of a chat member.<span class="select-none">  </span>
 
 <div class="flex flex-col gap-3"><div><div class="font-mono" id="p_chatId" data-anchor><span class="font-bold">chatId</span><span class="opacity-50">:</span> <a href="/types/id"  >ID</a></div><div class="pl-3"><div class="no-margin">
 
-The identifier of the chat. Must be a supergroup.
+The identifier of a chat. Must be a supergroup.
 
 </div></div></div><div><div class="font-mono" id="p_memberId" data-anchor><span class="font-bold">memberId</span><span class="opacity-50">:</span> <a href="/types/id"  >ID</a></div><div class="pl-3"><div class="no-margin">
 
-The identifier of a member.
+The identifier of the member.
 
 </div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_rights" data-anchor><span class="font-bold">rights</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/chatmemberrights"  >ChatMemberRights</a></div></div><div class="pl-3"><div class="no-margin">
 

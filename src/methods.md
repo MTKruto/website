@@ -906,6 +906,13 @@ Retrieve multiple messages.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/openminiapp">openMiniApp</a>
+<div><div>
+
+Open a mini app.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/pinmessage">pinMessage</a>
 <div><div>
 
