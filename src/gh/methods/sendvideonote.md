@@ -8,7 +8,7 @@ Send a video note.<span class="select-none">  </span>
 
 <div class="flex flex-col gap-3"><div><div class="font-mono" id="p_chatId" data-anchor><span class="font-bold">chatId</span><span class="opacity-50">:</span> <a href="/gh/types/id"  >ID</a></div><div class="pl-3"><div class="no-margin">
 
-The chat to send the video note to.
+The identifier of a chat to send the video note to.
 
 </div></div></div><div><div class="font-mono" id="p_videoNote" data-anchor><span class="font-bold">videoNote</span><span class="opacity-50">:</span> <a href="/gh/types/filesource"  >FileSource</a></div><div class="pl-3"><div class="no-margin">
 

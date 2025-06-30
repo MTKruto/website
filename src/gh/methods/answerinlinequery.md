@@ -8,7 +8,7 @@ Answer an inline query.<span class="select-none"> <span class="inline-flex w-fit
 
 <div class="flex flex-col gap-3"><div><div class="font-mono" id="p_id" data-anchor><span class="font-bold">id</span><span class="opacity-50">:</span> <span>string</span></div><div class="pl-3"><div class="no-margin">
 
-The ID of the inline query to answer.
+The identifier of the inline query to answer.
 
 </div></div></div><div><div class="font-mono" id="p_results" data-anchor><span class="font-bold">results</span><span class="opacity-50">:</span> <a href="/gh/types/inlinequeryresult"  >InlineQueryResult</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
 

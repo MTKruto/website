@@ -8,7 +8,7 @@ Edit an inline message's media.<span class="select-none">  </span>
 
 <div class="flex flex-col gap-3"><div><div class="font-mono" id="p_inlineMessageId" data-anchor><span class="font-bold">inlineMessageId</span><span class="opacity-50">:</span> <span>string</span></div><div class="pl-3"><div class="no-margin">
 
-The inline message's identifier.
+The identifier of the inline message.
 
 </div></div></div><div><div class="font-mono" id="p_media" data-anchor><span class="font-bold">media</span><span class="opacity-50">:</span> <a href="/gh/types/inputmedia"  >InputMedia</a></div><div class="pl-3"><div class="no-margin">
 

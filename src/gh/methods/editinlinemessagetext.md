@@ -8,7 +8,7 @@ Edit an inline message's text.<span class="select-none"> <span class="inline-fle
 
 <div class="flex flex-col gap-3"><div><div class="font-mono" id="p_inlineMessageId" data-anchor><span class="font-bold">inlineMessageId</span><span class="opacity-50">:</span> <span>string</span></div><div class="pl-3"><div class="no-margin">
 
-The inline message's identifier.
+The identifier of the inline message.
 
 </div></div></div><div><div class="font-mono" id="p_text" data-anchor><span class="font-bold">text</span><span class="opacity-50">:</span> <span>string</span></div><div class="pl-3"><div class="no-margin">
 
