@@ -22,7 +22,7 @@ The identifier of the message's thread.
 
 The sender of the message.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_date" data-anchor><span class="font-bold">date</span><span class="opacity-50">:</span> <span href="/">Date</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_date" data-anchor><span class="font-bold">date</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 The point in time in which the message was sent.
 
@@ -66,7 +66,7 @@ The part of the message that is being replied to.
 
 The inline bot that was used to send this message.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_editDate" data-anchor><span class="font-bold">editDate</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">Date</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_editDate" data-anchor><span class="font-bold">editDate</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 The point in time in which the message's last edit was made.
 
@@ -118,5 +118,5 @@ Whether the message is scheduled.
 
 The message's self-destruct preference.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_videoChatScheduled" data-anchor><span class="font-bold">videoChatScheduled</span><span class="opacity-50">:</span> <span class="font-mono">{ <span class="font-bold">startDate</span><span class="opacity-50">:</span> <span href="/">Date</span> }</span></div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div></div></div>
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_videoChatScheduled" data-anchor><span class="font-bold">videoChatScheduled</span><span class="opacity-50">:</span> <span class="font-mono">{ <span class="font-bold">startDate</span><span class="opacity-50">:</span> <span>number</span> }</span></div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div></div></div>
 

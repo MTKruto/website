@@ -43,11 +43,11 @@ Whether the gift is dedicated to birthdays.
 
 The amount of Telegram Stars that the gift can be swapped with.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_firstSaleDate" data-anchor><span class="font-bold">firstSaleDate</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">Date</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_firstSaleDate" data-anchor><span class="font-bold">firstSaleDate</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 The date of the first sale of the gift if sold out.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_lastSaleDate" data-anchor><span class="font-bold">lastSaleDate</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">Date</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_lastSaleDate" data-anchor><span class="font-bold">lastSaleDate</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 The date of the last sale of the gift if sold out.
 

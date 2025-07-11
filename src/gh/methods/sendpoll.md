@@ -62,7 +62,7 @@ The explanation's entities.
 
 Duration of the poll in seconds. Must be in the range of 5-600. Cannot be used simultaneously with `closeDate`.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_closeDate" data-anchor><span class="font-bold">closeDate</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">Date</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_closeDate" data-anchor><span class="font-bold">closeDate</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 The time in which the poll will be closed. Must be at least 5 seconds in the future, and no more than 600. Cannot be used simultaneously with `openPeriod`.
 
@@ -94,7 +94,7 @@ The identifier of a chat to send the message on behalf of. User-only.
 
 The identifier of a message effect to be attached to the message.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_sendAt" data-anchor><span class="font-bold">sendAt</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">Date</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_sendAt" data-anchor><span class="font-bold">sendAt</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 If specified, the message will be scheduled to be sent at that date. User-only.
 

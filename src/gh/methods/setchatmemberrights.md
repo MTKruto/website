@@ -18,7 +18,7 @@ The identifier of the member.
 
 The member's new rights. All fields default to `true` if the chat's default member rights allow. This means that this method is the same as unbanChatMember if this parameter is not provided or all of its fields are `true`.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_untilDate" data-anchor><span class="font-bold">untilDate</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">Date</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_until" data-anchor><span class="font-bold">until</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 A point in time within the future in which the restriction will be reverted.
 
@@ -36,7 +36,7 @@ await client.setChatMemberRights(chatId, memberId);
 
 // Required parameters + optional parameters.
 // Any of the optional parameters can be omitted.
-await client.setChatMemberRights(chatId, memberId, { rights, untilDate });
+await client.setChatMemberRights(chatId, memberId, { rights, until });
 ```
 
 

@@ -14,7 +14,7 @@ The identifier of a chat.
 
 The identifier of the member.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_untilDate" data-anchor><span class="font-bold">untilDate</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">Date</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_until" data-anchor><span class="font-bold">until</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 A point in time within the future in which the ban will be reverted.
 
@@ -36,7 +36,7 @@ await client.banChatMember(chatId, memberId);
 
 // Required parameters + optional parameters.
 // Any of the optional parameters can be omitted.
-await client.banChatMember(chatId, memberId, { untilDate, deleteMessages });
+await client.banChatMember(chatId, memberId, { until, deleteMessages });
 ```
 
 

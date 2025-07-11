@@ -14,7 +14,7 @@ The identifier of the chat that will be boosted for the duration of the given aw
 
 The identifiers of additional chats that the user must subscribe to in order to be eligible for the prizes.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_winnerSelectionDate" data-anchor><span class="font-bold">winnerSelectionDate</span><span class="opacity-50">:</span> <span href="/">Date</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_winnerSelectionDate" data-anchor><span class="font-bold">winnerSelectionDate</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 A point in time within the future in which the winners will be selected.
 
