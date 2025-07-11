@@ -22,7 +22,7 @@ The user who changed their reactions to the message. Unset if done on behalf of 
 
 The chat that changed its reactions to the message. Unset if done on behalf of a user.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_date" data-anchor><span class="font-bold">date</span><span class="opacity-50">:</span> <span href="/">Date</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_date" data-anchor><span class="font-bold">date</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 The point in time in which the change was made.
 

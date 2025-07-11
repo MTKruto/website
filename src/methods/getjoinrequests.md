@@ -18,7 +18,7 @@ An invite link. If specified, only join requests from that invite link will be r
 
 A search query. If specified, only matching users results will be returned.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_fromDate" data-anchor><span class="font-bold">fromDate</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">Date</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_fromDate" data-anchor><span class="font-bold">fromDate</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 A point in time. If specified, results will be fetched from that date.
 

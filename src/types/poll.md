@@ -58,7 +58,7 @@ The explanation's entities.
 
 Duration of the poll in seconds.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_closeDate" data-anchor><span class="font-bold">closeDate</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">Date</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_closeDate" data-anchor><span class="font-bold">closeDate</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 The time in which the poll will be closed.
 
