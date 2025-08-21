@@ -34,6 +34,10 @@ Size of each upload chunk in bytes.
 
 Upload abort signal.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_progressId" data-anchor><span class="font-bold">progressId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+A progress ID retrieved from the method getProgressId. If specified, updates on the upload progress will be sent.
+
 </div></div></div></div></div>
 
 ### Result 
@@ -54,6 +58,7 @@ await client.setChatPhoto(chatId, photo, {
     mimeType,
     chunkSize,
     signal,
+    progressId,
 });
 ```
 

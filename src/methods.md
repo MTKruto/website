@@ -906,6 +906,13 @@ Retrieve multiple messages.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getprogressid">getProgressId</a>
+<div><div>
+
+Get a progress ID that can be passed to relevant send* methods to receive upload progress updates for them.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/openminiapp">openMiniApp</a>
 <div><div>
 

@@ -744,6 +744,13 @@ An incoming update.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/uploadprogress">UploadProgress</a>
+<div><div>
+
+The progress of an upload.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/user">User</a>
 <div><div>
 

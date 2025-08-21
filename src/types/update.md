@@ -31,5 +31,6 @@ An incoming update.
 | </span><a href="/types/updatepoll"  >UpdatePoll</a><span class="opacity-50">
 | </span><a href="/types/updatepollanswer"  >UpdatePollAnswer</a><span class="opacity-50">
 | </span><a href="/types/updatevoicetranscription"  >UpdateVoiceTranscription</a><span class="opacity-50">
-| </span><a href="/types/updatelinkpreview"  >UpdateLinkPreview</a></div>
+| </span><a href="/types/updatelinkpreview"  >UpdateLinkPreview</a><span class="opacity-50">
+| </span><a href="/types/updateuploadprogress"  >UpdateUploadProgress</a></div>
 
