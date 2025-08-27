@@ -22,9 +22,13 @@ If set, only messages sent by `from` are returned.
 
 A search filter to apply.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_after" data-anchor><span class="font-bold">after</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_offset" data-anchor><span class="font-bold">offset</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 A message identifier to start searching after.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_addOffset" data-anchor><span class="font-bold">addOffset</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+Additional offset.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_threadId" data-anchor><span class="font-bold">threadId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
@@ -51,7 +55,8 @@ await client.searchMessages(chatId, query);
 await client.searchMessages(chatId, query, {
     from,
     filter,
-    after,
+    offset,
+    addOffset,
     threadId,
     limit,
 });
