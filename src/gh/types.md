@@ -516,6 +516,13 @@ A photo.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/photosource">PhotoSource</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/poll">Poll</a>
 <div><div>
 
@@ -641,6 +648,13 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 <div><div>
 
 A sticker.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/stickerset">StickerSet</a>
+<div><div>
+
+A sticker (or emoji) set.
 
 </div></div>
 <div class="descr-list-border"></div>

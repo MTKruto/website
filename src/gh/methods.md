@@ -885,13 +885,6 @@ Forward multiple messages.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/methods/getlinkpreview">getLinkPreview</a>
-<div><div>
-
-Get the link preview for a message that is about to be sent.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/gh/methods/getmessage">getMessage</a>
 <div><div>
 
@@ -910,6 +903,13 @@ Retrieve multiple messages.
 <div><div>
 
 Get a progress ID that can be passed to relevant send* methods to receive upload progress updates for them.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getstickerset">getStickerSet</a>
+<div><div>
+
+Get a sticker set.
 
 </div></div>
 <div class="descr-list-border"></div>
