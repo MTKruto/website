@@ -607,6 +607,20 @@ The reason for restricting an entity.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/savedchat">SavedChat</a>
+<div><div>
+
+Information on a saved chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/savedchats">SavedChats</a>
+<div><div>
+
+A list of saved chats.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/selfdestructoption">SelfDestructOption</a>
 <div><div>
 

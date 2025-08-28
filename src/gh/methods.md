@@ -906,6 +906,20 @@ Get a progress ID that can be passed to relevant send* methods to receive upload
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getsavedchats">getSavedChats</a>
+<div><div>
+
+Get a list of saved chats.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getsavedmessages">getSavedMessages</a>
+<div><div>
+
+Get messages saved from a specific chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getstickerset">getStickerSet</a>
 <div><div>
 
