@@ -958,7 +958,7 @@ Retrieve a message using its link.
 <a href="/gh/methods/searchmessages">searchMessages</a>
 <div><div>
 
-Search the messages of a chat.
+Search for messages.
 
 </div></div>
 <div class="descr-list-border"></div>

@@ -2,21 +2,21 @@
 title: searchMessages
 ---
 
-Search the messages of a chat.<span class="select-none"> <span class="inline-flex w-fit items-center"><span class="w-fit bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">USER-ONLY</span></span> </span>
+Search for messages.<span class="select-none"> <span class="inline-flex w-fit items-center"><span class="w-fit bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">USER-ONLY</span></span> </span>
 
 ### Parameters 
 
-<div class="flex flex-col gap-3"><div><div class="font-mono" id="p_chatId" data-anchor><span class="font-bold">chatId</span><span class="opacity-50">:</span> <a href="/gh/types/id"  >ID</a></div><div class="pl-3"><div class="no-margin">
+<div class="flex flex-col gap-3"><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_chatId" data-anchor><span class="font-bold">chatId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/id"  >ID</a></div></div><div class="pl-3"><div class="no-margin">
 
-The identifier of a chat.
+A chat ID. If specified, only the corresponding chat will be searched.
 
-</div></div></div><div><div class="font-mono" id="p_query" data-anchor><span class="font-bold">query</span><span class="opacity-50">:</span> <span>string</span></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_query" data-anchor><span class="font-bold">query</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
-The message search query.
+A search query.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_from" data-anchor><span class="font-bold">from</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/id"  >ID</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_from" data-anchor><span class="font-bold">from</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/id"  >ID</a></div></div><div class="pl-3"><div class="no-margin">
 
-If set, only messages sent by `from` are returned.
+If specified, only messages sent by `from` are returned.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_filter" data-anchor><span class="font-bold">filter</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/messagesearchfilter"  >MessageSearchFilter</a></div></div><div class="pl-3"><div class="no-margin">
 
@@ -47,12 +47,11 @@ The maximum number of results to return. Must be in the range of 1-100. Defaults
 ### Syntax
 
 ```ts
-// Required parameters only.
-await client.searchMessages(chatId, query);
-
-// Required parameters + optional parameters.
+// Optional parameters.
 // Any of the optional parameters can be omitted.
-await client.searchMessages(chatId, query, {
+await client.searchMessages( {
+    chatId,
+    query,
     from,
     filter,
     offset,
