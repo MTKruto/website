@@ -199,6 +199,13 @@ A document.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/filetype">FileType</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/forwardheader">ForwardHeader</a>
 <div><div>
 
@@ -509,6 +516,13 @@ A photo.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/photosource">PhotoSource</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/poll">Poll</a>
 <div><div>
 
@@ -593,6 +607,20 @@ The reason for restricting an entity.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/savedchat">SavedChat</a>
+<div><div>
+
+Information on a saved chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/savedchats">SavedChats</a>
+<div><div>
+
+A list of saved chats.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/selfdestructoption">SelfDestructOption</a>
 <div><div>
 
@@ -634,6 +662,13 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 <div><div>
 
 A sticker.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/stickerset">StickerSet</a>
+<div><div>
+
+A sticker (or emoji) set.
 
 </div></div>
 <div class="descr-list-border"></div>

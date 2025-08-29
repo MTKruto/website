@@ -885,13 +885,6 @@ Forward multiple messages.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/getlinkpreview">getLinkPreview</a>
-<div><div>
-
-Get the link preview for a message that is about to be sent.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/methods/getmessage">getMessage</a>
 <div><div>
 
@@ -910,6 +903,27 @@ Retrieve multiple messages.
 <div><div>
 
 Get a progress ID that can be passed to relevant send* methods to receive upload progress updates for them.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getsavedchats">getSavedChats</a>
+<div><div>
+
+Get a list of saved chats.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getsavedmessages">getSavedMessages</a>
+<div><div>
+
+Get messages saved from a specific chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getstickerset">getStickerSet</a>
+<div><div>
+
+Get a sticker set.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -944,7 +958,7 @@ Retrieve a message using its link.
 <a href="/methods/searchmessages">searchMessages</a>
 <div><div>
 
-Search the messages of a chat.
+Search for messages.
 
 </div></div>
 <div class="descr-list-border"></div>
