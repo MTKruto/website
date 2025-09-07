@@ -139,7 +139,7 @@ pnpm ${jsr ? "add jsr:" + pkg : "add " + pkg}
 <code-group-item title="Yarn">
 
 \`\`\`shell
-yarn ${jsr ? "dlx jsr i " + pkg : "add " + pkg}
+yarn ${jsr ? "add jsr:" + pkg : "add " + pkg}
 \`\`\`
 
 </code-group-item>
