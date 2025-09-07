@@ -131,7 +131,7 @@ site.helper("install", (pkg: string) => {
 <code-group-item title="pnpm">
 
 \`\`\`shell
-pnpm ${jsr ? "dlx jsr i " + pkg : "add " + pkg}
+pnpm ${jsr ? "add jsr:" + pkg : "add " + pkg}
 \`\`\`
 
 </code-group-item>
