@@ -1,5 +1,5 @@
 ---
-title: EntityGetter
+title: PeerGetter
 ---
 
 ### Properties
