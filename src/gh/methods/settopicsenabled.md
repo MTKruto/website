@@ -14,6 +14,10 @@ The identifier of the group.
 
 Whether topics should be enabled in the group.
 
+</div></div></div><div><div class="font-mono" id="p_tabs" data-anchor><span class="font-bold">tabs</span><span class="opacity-50">:</span> <span>boolean</span></div><div class="pl-3"><div class="no-margin">
+
+Whether topics should be displayed as tabs.
+
 </div></div></div></div>
 
 ### Result 
@@ -23,7 +27,7 @@ Whether topics should be enabled in the group.
 ### Syntax
 
 ```ts
-await client.setTopicsEnabled(chatId, enabled);
+await client.setTopicsEnabled(chatId, enabled, tabs);
 ```
 
 
