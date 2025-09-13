@@ -146,3 +146,45 @@ instance of a function object, and returns a promise resolving to the result.
 ```ts
 const config = await client.invoke({ _: "help.getConfig" });
 ```
+
+## Handling Updates
+
+Telegram API updates can be handled using the filter query `update`:
+
+```ts
+client.on("update", (ctx) => {
+  // ctx.update
+});
+```
+
+To handle only specific types, you need to replace the filter query with the
+[type of the update](https://core.telegram.org/type/Update):
+
+```ts
+client.on("updateNewMessage", (ctx) => {
+  // ctx.update
+});
+
+client.on("updateDeleteMessages", (ctx) => {
+  // ctx.update
+});
+```
+
+Note that Telegram API updates and MTKruto's high-level update types are sent
+differently. For instance, if a middleware includes a handler for
+`updateNewMessage` (Telegram API) and another for `message` (MTKruto
+[`Message`](/types/Message)), both of them will be called regardless of them
+having called `next` or not.
+
+```ts
+client.on("updateNewMessage", () => {
+  console.log("1");
+});
+
+client.on("message", () => {
+  console.log("2");
+});
+
+// Output when private messages are received:
+// 1, 2, 1, 2, ...
+```
