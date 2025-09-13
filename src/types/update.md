@@ -6,6 +6,7 @@ An incoming update.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">| </span><a href="/types/updateconnectionstate"  >UpdateConnectionState</a><span class="opacity-50">
 | </span><a href="/types/updateauthorizationstate"  >UpdateAuthorizationState</a><span class="opacity-50">
+| </span><a href="/types/updatelowlevel"  >UpdateLowLevel</a><span class="opacity-50">
 | </span><a href="/types/updatenewmessage"  >UpdateNewMessage</a><span class="opacity-50">
 | </span><a href="/types/updatemessageedited"  >UpdateMessageEdited</a><span class="opacity-50">
 | </span><a href="/types/updatemessagescheduled"  >UpdateMessageScheduled</a><span class="opacity-50">

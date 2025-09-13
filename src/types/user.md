@@ -74,5 +74,9 @@ The reason why the user has been restricted.
 
 Whether the user is a bot that has been added to the attachment menu by the current user.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_hasMainMiniApp" data-anchor><span class="font-bold">hasMainMiniApp</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the user is a bot that has a main mini app.
+
 </div></div></div></div>
 
