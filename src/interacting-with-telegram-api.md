@@ -5,7 +5,7 @@ title: Interacting with Telegram API
 ## Representation of Telegram API Objects
 
 - MTKruto represents the functions and the constructors of Telegram API in a
-  bare object with its "_" key set to the name of the constructor according to
+  bare object with its `_` key set to the name of the constructor according to
   the API schema.
 
 - An instance of
