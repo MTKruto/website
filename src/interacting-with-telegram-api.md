@@ -6,7 +6,7 @@ title: Interacting with Telegram API
 
 - MTKruto represents the functions and the constructors of Telegram API in a
   bare object with its `_` key set to the name of the constructor according to
-  the API schema.
+  the [API schema](https://core.telegram.org/schema).
 
 - An instance of
   [`inputPeerSelf`](https://core.telegram.org/constructor/inputPeerSelf) is
