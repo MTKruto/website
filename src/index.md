@@ -21,6 +21,7 @@ hide_toc: true
 - [Storage Adapters](/storage-adapters)
 - [Auth Strings](/auth-strings)
 - [Interacting with Telegram API](/interacting-with-telegram-api)
+- [Graceful Shutdown](/graceful-shutdown)
 
 ### API Reference
 
