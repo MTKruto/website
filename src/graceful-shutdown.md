@@ -2,8 +2,8 @@
 
 If you're running MTKruto with a **persistent storage** outside browsers where
 you can control the behavior of `SIGINT`, it is recommended that you disconnect
-the client before the process exits. This way, you'll persist cache that can
-later improve the performance of your app.
+the client before the process exits. This way, you'll make sure that important
+cache that can later improve the performance of your app is persisted.
 
 Here's how it can be done.
 
