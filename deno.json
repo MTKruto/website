@@ -1,14 +1,21 @@
 {
   "lock": false,
   "imports": {
+    "@david/dax": "jsr:@david/dax@^0.43.2",
     "@deno/doc": "jsr:@deno/doc@^0.184.0",
-    "lume/": "https://deno.land/x/lume@v2.4.3/"
+    "lume/": "https://deno.land/x/lume@v2.4.3/",
+    "lume_markdown_plugins/": "https://deno.land/x/lume_markdown_plugins@v0.9.0/"
   },
   "tasks": {
     "lume": "echo \"import 'lume/cli.ts'\" | deno run -A -",
     "build": "deno task lume",
     "serve": "deno task lume -s",
     "gen": "deno run -A _gen.tsx"
+  },
+  "lint": {
+    "rules": {
+      "exclude": ["no-explicit-any"]
+    }
   },
   "compilerOptions": {
     "types": [

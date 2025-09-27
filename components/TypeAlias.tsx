@@ -13,11 +13,19 @@ export function TypeAlias(
       {typeAlias.tsType.kind == "union"
         ? (
           <>
-            <span class="opacity-50">{"| "}</span>
+            <span class="opacity-50">|</span>{" "}
             {typeAlias.tsType.union.map((v) => (
               <TsType getLink={getLink}>{v}</TsType>
             )).reduce((a, b) => (
-              <>{a}{<span class="opacity-50">{"\n| "}</span>}{b}</>
+              <>
+                {a}
+                {"\n"}
+                {
+                  <span class="opacity-50">
+                    |
+                  </span>
+                } {b}
+              </>
             ))}
           </>
         )

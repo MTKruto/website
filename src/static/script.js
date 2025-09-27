@@ -26,8 +26,8 @@ const tocItems = Array.from(document.querySelectorAll("[data-toc]"));
 
 const SCROLL_OFFSET = 50;
 function updateActiveTocItem() {
-  const scrollY = window.scrollY;
-  const innerHeight = window.innerHeight;
+  const scrollY = globalThis.scrollY;
+  const innerHeight = globalThis.innerHeight;
   const offsetHeight = document.body.offsetHeight;
   const isBottom =
     Math.abs(Math.ceil(scrollY + innerHeight) - offsetHeight) <= 1;
@@ -35,7 +35,7 @@ function updateActiveTocItem() {
   let activeItem;
 
   // page top
-  if (window.scrollY < 1) {
+  if (globalThis.scrollY < 1) {
     activeItem = null;
   } else if (isBottom) {
     activeItem = headings[headings.length - 1].getAttribute("href");

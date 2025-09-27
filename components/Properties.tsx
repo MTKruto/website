@@ -23,7 +23,7 @@ export function Properties(
         <div>
           <div class="flex gap-2">
             <div class="font-mono p" id={`p_${v.name}`} data-anchor>
-              <PropertyName hasType={true}>{v}</PropertyName>{" "}
+              <PropertyName hasType>{v}</PropertyName>{" "}
               {v.tsType ? <TsType getLink={getLink}>{v.tsType}</TsType> : "any"}
             </div>
             {"jsDoc" in v && v.jsDoc?.tags &&

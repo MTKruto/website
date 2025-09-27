@@ -5,7 +5,7 @@ import { TsType, TypeParams_ } from "./components/TsType.tsx";
 import { Properties } from "./components/Properties.tsx";
 import { TypeAlias } from "./components/TypeAlias.tsx";
 import { Description } from "./components/Description.tsx";
-import { renderToString } from "npm:preact-render-to-string";
+import { renderToString } from "preact-render-to-string";
 
 const version = Deno.env.get("VERSION") ? ("/" + Deno.env.get("VERSION")) : "";
 

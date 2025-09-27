@@ -2,11 +2,11 @@ import lume from "lume/mod.ts";
 import code_highlight from "lume/plugins/code_highlight.ts";
 import jsx_preact from "lume/plugins/jsx_preact.ts";
 import sitemap from "lume/plugins/sitemap.ts";
-import toc from "https://deno.land/x/lume_markdown_plugins@v0.7.0/toc.ts";
+import toc from "lume_markdown_plugins/toc.ts";
 import sass from "lume/plugins/sass.ts";
-import lang_typescript from "npm:highlight.js/lib/languages/typescript";
-import lang_plaintext from "npm:highlight.js/lib/languages/plaintext";
-import lang_shell from "npm:highlight.js/lib/languages/shell";
+import lang_typescript from "highlight.js/lib/languages/typescript";
+import lang_plaintext from "highlight.js/lib/languages/plaintext";
+import lang_shell from "highlight.js/lib/languages/shell";
 import versions from "./_versions.ts";
 
 const site = lume({

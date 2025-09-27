@@ -1,4 +1,4 @@
-import $ from "https://deno.land/x/dax@0.36.0/mod.ts";
+import $ from "@david/dax";
 import versions from "./_versions.ts";
 import { getDocs } from "./_docs.ts";
 

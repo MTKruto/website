@@ -112,7 +112,7 @@ function TypeParams(
     <>
       <span class="opacity-50">&lt;</span>
       {params
-        .map((v) => <TsType getLink={getLink}>{v}</TsType>)
+        .map((v, i) => <TsType key={i} getLink={getLink}>{v}</TsType>)
         .reduce((a, b) => (
           <>
             {a}
@@ -160,7 +160,7 @@ function Union(
   { getLink, children: union }: { getLink: LinkGetter; children: TsTypeDef[] },
 ) {
   return union
-    .map((v) => <TsType getLink={getLink}>{v}</TsType>)
+    .map((v, i) => <TsType key={i} getLink={getLink}>{v}</TsType>)
     .reduce((a, b) => (
       <>
         {a} <span class="opacity-50">|</span> {b}
@@ -175,7 +175,7 @@ function Intersection(
   },
 ) {
   return intersection
-    .map((v) => <TsType getLink={getLink}>{v}</TsType>)
+    .map((v, i) => <TsType key={i} getLink={getLink}>{v}</TsType>)
     .reduce((a, b) => (
       <>
         {a} <span class="opacity-50">&</span> {b}
@@ -200,15 +200,16 @@ function Tuple(
   return (
     <>
       <span class="opacity-50">[</span>
-      {tuple.map((v) => <TsType getLink={getLink}>{v}</TsType>).reduce((
-        a,
-        b,
-      ) => (
-        <>
-          {a}
-          <span class="opacity-50">,</span> {b}
-        </>
-      ))}
+      {tuple.map((v, i) => <TsType key={i} getLink={getLink}>{v}</TsType>)
+        .reduce((
+          a,
+          b,
+        ) => (
+          <>
+            {a}
+            <span class="opacity-50">,</span> {b}
+          </>
+        ))}
       <span class="opacity-50">]</span>
     </>
   );
@@ -292,7 +293,8 @@ export function TypeParam_({
       )}
       {param.default && (
         <>
-          <span class="opacity-50">{" = "}</span>
+          {" "}
+          <span class="opacity-50">=</span>{" "}
           <TsType getLink={getLink}>{param.default}</TsType>
         </>
       )}
@@ -420,11 +422,13 @@ function ParamArray({
 }) {
   return (
     <>
-      [{param.elements.map((e) => e && <Param getLink={getLink}>{e}</Param>)}]
+      [{param.elements.map((e, i) =>
+        e && <Param key={i} getLink={getLink}>{e}</Param>
+      )}]
       {param.optional || optional ? "?" : ""}
       {param.tsType && (
         <>
-          <span style="opacity-50">{": "}</span>
+          <span style="opacity-50">:</span>{" "}
           <TsType getLink={getLink}>{param.tsType}</TsType>
         </>
       )}
@@ -451,7 +455,6 @@ function ParamAssign({
 
 function ParamIdentifier({
   children: param,
-  optional,
   getLink,
 }: {
   children: ParamIdentifierDef;
@@ -554,7 +557,7 @@ function ParamObject({
       &#123; {props} &#125;{param.optional || optional ? "?" : ""}
       {param.tsType && (
         <>
-          <span style="opacity-50">{": "}</span>
+          <span style="opacity-50">:</span>{" "}
           <TsType getLink={getLink}>{param.tsType}</TsType>
         </>
       )}
@@ -575,7 +578,7 @@ function ParamRest({
       <Param getLink={getLink}>{param.arg}</Param>
       {param.tsType && (
         <>
-          <span style="opacity-50">{": "}</span>
+          <span style="opacity-50">:</span>{" "}
           <TsType getLink={getLink}>{param.tsType}</TsType>
         </>
       )}
@@ -651,7 +654,7 @@ export function Params({
     <>
       {"\n  " + indent}
       {params
-        .map((param) => <Param getLink={getLink}>{param}</Param>)
+        .map((param, i) => <Param key={i} getLink={getLink}>{param}</Param>)
         .reduce((a, b) => (
           <>
             {a}
