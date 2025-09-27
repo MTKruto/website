@@ -32,3 +32,14 @@ process.on("SIGINT", async () => {
 </code-group-item>
 
 </code-group>
+
+## How to Know If You Need This
+
+If you don't have the client parameter
+[`persistCache`](https://jsr.io/@mtkruto/mtkruto/doc/~/ClientParams.persistCache)
+set to `true`, which is `false` by default, you don't have to worry about
+graceful shutdowns at all.
+
+If you use the
+[memory storage adapter](http://localhost:3000/storage-adapters/#memory), you
+don't need this regardless of what you set `persistCache` to.
