@@ -1,5 +1,6 @@
 ---
 title: UpdateMessageEdited
+parent: /types
 ---
 
 A message was edited.

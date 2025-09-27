@@ -1,5 +1,6 @@
 ---
 title: Poll
+parent: /types
 ---
 
 A poll.

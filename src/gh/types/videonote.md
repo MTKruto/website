@@ -1,5 +1,6 @@
 ---
 title: VideoNote
+parent: /types
 ---
 
 A video note.

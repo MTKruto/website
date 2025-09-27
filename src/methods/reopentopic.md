@@ -1,5 +1,6 @@
 ---
 title: reopenTopic
+parent: /methods
 ---
 
 Reopen a forum topic.<span class="select-none">  </span>

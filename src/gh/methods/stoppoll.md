@@ -1,5 +1,6 @@
 ---
 title: stopPoll
+parent: /methods
 ---
 
 Stop a poll.<span class="select-none">  </span>

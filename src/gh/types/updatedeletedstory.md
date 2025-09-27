@@ -1,5 +1,6 @@
 ---
 title: UpdateDeletedStory
+parent: /types
 ---
 
 A story was deleted.

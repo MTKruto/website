@@ -1,5 +1,6 @@
 ---
 title: sendPhoto
+parent: /methods
 ---
 
 Send a photo.<span class="select-none">  </span>

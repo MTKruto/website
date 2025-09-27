@@ -1,5 +1,6 @@
 ---
 title: UpdateMessageInteractions
+parent: /types
 ---
 
 The interactions of a message were updated. User-only.

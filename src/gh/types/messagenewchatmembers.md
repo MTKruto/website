@@ -1,5 +1,6 @@
 ---
 title: MessageNewChatMembers
+parent: /types
 ---
 
 A message that is received when new members join a chat.

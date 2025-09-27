@@ -1,5 +1,6 @@
 ---
 title: MessageReference
+parent: /types
 ---
 
 Reference to a message.

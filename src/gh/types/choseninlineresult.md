@@ -1,5 +1,6 @@
 ---
 title: ChosenInlineResult
+parent: /types
 ---
 
 A chosen inline result.

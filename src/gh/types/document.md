@@ -1,5 +1,6 @@
 ---
 title: Document
+parent: /types
 ---
 
 A document.

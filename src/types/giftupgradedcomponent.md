@@ -1,5 +1,6 @@
 ---
 title: GiftUpgradedComponent
+parent: /types
 ---
 
 A component of an upgraded gift.

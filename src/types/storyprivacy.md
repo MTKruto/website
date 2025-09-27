@@ -1,5 +1,6 @@
 ---
 title: StoryPrivacy
+parent: /types
 ---
 
 A story's privacy choice.

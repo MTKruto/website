@@ -1,5 +1,6 @@
 ---
 title: ConnectionState
+parent: /types
 ---
 
 A client's connection state.

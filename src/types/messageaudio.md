@@ -1,5 +1,6 @@
 ---
 title: MessageAudio
+parent: /types
 ---
 
 An audio message.

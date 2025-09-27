@@ -1,5 +1,6 @@
 ---
 title: forwardMessages
+parent: /methods
 ---
 
 Forward multiple messages.<span class="select-none">  </span>

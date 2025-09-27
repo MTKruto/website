@@ -1,5 +1,6 @@
 ---
 title: InlineKeyboardButtonCallback
+parent: /types
 ---
 
 An inline keyboard button that, when pressed, sends back the specified callback data.

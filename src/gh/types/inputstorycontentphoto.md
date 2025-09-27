@@ -1,5 +1,6 @@
 ---
 title: InputStoryContentPhoto
+parent: /types
 ---
 
 ### Properties

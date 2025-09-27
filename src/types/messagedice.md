@@ -1,5 +1,6 @@
 ---
 title: MessageDice
+parent: /types
 ---
 
 A dice message.

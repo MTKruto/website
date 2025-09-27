@@ -1,5 +1,6 @@
 ---
 title: ChatListItem
+parent: /types
 ---
 
 ### Properties

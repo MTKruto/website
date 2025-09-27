@@ -1,5 +1,6 @@
 ---
 title: User
+parent: /types
 ---
 
 A user.

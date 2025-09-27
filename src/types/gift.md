@@ -1,5 +1,6 @@
 ---
 title: Gift
+parent: /types
 ---
 
 A gift.

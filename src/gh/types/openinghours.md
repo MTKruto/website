@@ -1,5 +1,6 @@
 ---
 title: OpeningHours
+parent: /types
 ---
 
 ### Properties

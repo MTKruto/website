@@ -1,5 +1,6 @@
 ---
 title: Interacting with Telegram API
+parent: /#guides
 ---
 
 ## Representation of Telegram API Objects

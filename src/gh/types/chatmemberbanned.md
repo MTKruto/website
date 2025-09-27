@@ -1,5 +1,6 @@
 ---
 title: ChatMemberBanned
+parent: /types
 ---
 
 ### Properties

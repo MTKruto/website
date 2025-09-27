@@ -1,5 +1,6 @@
 ---
 title: MessageUserShared
+parent: /types
 ---
 
 A message that is received when a bot account receives a shared user.

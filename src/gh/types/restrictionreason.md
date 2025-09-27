@@ -1,5 +1,6 @@
 ---
 title: RestrictionReason
+parent: /types
 ---
 
 The reason for restricting an entity.

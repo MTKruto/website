@@ -1,5 +1,6 @@
 ---
 title: ReplyMarkupRemoveKeyboard
+parent: /types
 ---
 
 Makes the user's client hide the current custom keyboard.

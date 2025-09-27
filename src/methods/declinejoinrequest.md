@@ -1,5 +1,6 @@
 ---
 title: declineJoinRequest
+parent: /methods
 ---
 
 Decline a join request.<span class="select-none">  </span>

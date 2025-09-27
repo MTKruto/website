@@ -1,5 +1,6 @@
 ---
 title: pinMessage
+parent: /methods
 ---
 
 Pin a message in a chat.<span class="select-none">  </span>

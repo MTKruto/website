@@ -1,5 +1,6 @@
 ---
 title: MessageEntityPre
+parent: /types
 ---
 
 ### Properties

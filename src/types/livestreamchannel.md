@@ -1,5 +1,6 @@
 ---
 title: LiveStreamChannel
+parent: /types
 ---
 
 A live stream channel.

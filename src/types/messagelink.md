@@ -1,5 +1,6 @@
 ---
 title: MessageLink
+parent: /types
 ---
 
 A message with a link preview only.

@@ -1,5 +1,6 @@
 ---
 title: MessageContentLocation
+parent: /types
 ---
 
 A message content that shares a location.

@@ -1,5 +1,6 @@
 ---
 title: ConnectionStateNotConnected
+parent: /types
 ---
 
 The client is not connected.

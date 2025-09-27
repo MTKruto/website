@@ -1,5 +1,6 @@
 ---
 title: Dice
+parent: /types
 ---
 
 A rolled dice.

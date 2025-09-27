@@ -1,5 +1,6 @@
 ---
 title: InputLinkPreview
+parent: /types
 ---
 
 A link preview to be passed as an input.

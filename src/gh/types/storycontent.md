@@ -1,5 +1,6 @@
 ---
 title: StoryContent
+parent: /types
 ---
 
 A story content.

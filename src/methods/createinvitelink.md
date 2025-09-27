@@ -1,5 +1,6 @@
 ---
 title: createInviteLink
+parent: /methods
 ---
 
 Create an invite link.<span class="select-none">  </span>

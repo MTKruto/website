@@ -1,5 +1,6 @@
 ---
 title: getGift
+parent: /methods
 ---
 
 Get a gift using its slug.<span class="select-none">  </span>

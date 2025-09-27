@@ -1,5 +1,6 @@
 ---
 title: sendContact
+parent: /methods
 ---
 
 Send a contact.<span class="select-none">  </span>

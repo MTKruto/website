@@ -1,5 +1,6 @@
 ---
 title: CallbackQueryQuestionGame
+parent: /types
 ---
 
 A reference to a button for opening the bot's game.

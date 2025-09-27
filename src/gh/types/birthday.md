@@ -1,5 +1,6 @@
 ---
 title: Birthday
+parent: /types
 ---
 
 A user's birthday.

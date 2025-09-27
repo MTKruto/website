@@ -1,5 +1,6 @@
 ---
 title: LinkPreviewEmbeddedAudio
+parent: /types
 ---
 
 An embedded audio link preview.

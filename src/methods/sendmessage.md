@@ -1,5 +1,6 @@
 ---
 title: sendMessage
+parent: /methods
 ---
 
 Send a text message.<span class="select-none">  </span>

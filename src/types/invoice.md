@@ -1,5 +1,6 @@
 ---
 title: Invoice
+parent: /types
 ---
 
 ### Properties

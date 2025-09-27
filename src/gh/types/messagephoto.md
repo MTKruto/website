@@ -1,5 +1,6 @@
 ---
 title: MessagePhoto
+parent: /types
 ---
 
 ### Properties

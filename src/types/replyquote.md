@@ -1,5 +1,6 @@
 ---
 title: ReplyQuote
+parent: /types
 ---
 
 A reference to a specific part of a message that is being replied to.

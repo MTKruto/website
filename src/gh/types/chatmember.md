@@ -1,5 +1,6 @@
 ---
 title: ChatMember
+parent: /types
 ---
 
 A chat member.

@@ -1,5 +1,6 @@
 ---
 title: Photo
+parent: /types
 ---
 
 A photo.

@@ -1,5 +1,6 @@
 ---
 title: StoryInteractions
+parent: /types
 ---
 
 The interactions made with a story.

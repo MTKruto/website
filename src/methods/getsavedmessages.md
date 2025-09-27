@@ -1,5 +1,6 @@
 ---
 title: getSavedMessages
+parent: /methods
 ---
 
 Get messages saved from a specific chat.<span class="select-none">  </span>

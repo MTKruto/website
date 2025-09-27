@@ -1,5 +1,6 @@
 ---
 title: UpdateCallbackQuery
+parent: /types
 ---
 
 A callback query was made (a user presses an inline button). Bot-only.

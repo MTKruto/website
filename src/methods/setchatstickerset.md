@@ -1,5 +1,6 @@
 ---
 title: setChatStickerSet
+parent: /methods
 ---
 
 Set a chat's sticker set.<span class="select-none">  </span>

@@ -1,5 +1,6 @@
 ---
 title: CallbackQuery
+parent: /types
 ---
 
 A received callback query.

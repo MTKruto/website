@@ -1,5 +1,6 @@
 ---
 title: UpdateAuthorizationState
+parent: /types
 ---
 
 A client's authorization state was changed.

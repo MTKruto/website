@@ -1,5 +1,6 @@
 ---
 title: PriceTag
+parent: /types
 ---
 
 A price tag.

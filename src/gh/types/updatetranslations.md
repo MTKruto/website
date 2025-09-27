@@ -1,5 +1,6 @@
 ---
 title: UpdateTranslations
+parent: /types
 ---
 
 Translations were updated.

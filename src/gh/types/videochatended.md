@@ -1,5 +1,6 @@
 ---
 title: VideoChatEnded
+parent: /types
 ---
 
 An ended video chat.

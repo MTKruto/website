@@ -1,5 +1,6 @@
 ---
 title: InlineQueryResultContact
+parent: /types
 ---
 
 ### Properties

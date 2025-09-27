@@ -1,5 +1,6 @@
 ---
 title: InlineQueryAnswer
+parent: /types
 ---
 
 An answer to an inline query.

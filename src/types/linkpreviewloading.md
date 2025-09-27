@@ -1,5 +1,6 @@
 ---
 title: LinkPreviewLoading
+parent: /types
 ---
 
 A link preview that is being loaded.

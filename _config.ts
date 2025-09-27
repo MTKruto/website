@@ -27,6 +27,19 @@ site.use(
 
 site.data("deno", "@mtkruto/mtkruto");
 site.data("esm", `https://esm.sh/jsr/@mtkruto/mtkruto@${versions[0]}`);
+site.helper("bc", (path: string) => {
+  if (path.endsWith("/")) {
+    path = path.slice(0, -1);
+  }
+  const items = new Array<[string, string]>();
+  let parent = parentMap[path];
+  while (parent) {
+    items.push([parent, getTitle(parent)!]);
+    parent = parentMap[parent];
+  }
+  items.push(["/", "MTKruto"]);
+  return items.toReversed();
+}, { type: "filter" });
 
 site.use(sass());
 
@@ -44,6 +57,87 @@ site.data("layout", "layout.tsx");
 
 site.copy("_headers");
 site.copy("static", ".");
+
+function getTitle(path: string) {
+  let anchor: string | undefined;
+  if (path.includes("#")) {
+    [path, anchor] = path.split("#");
+  }
+  if (path === "/") {
+    path = "/index";
+  }
+  const page = site.pages.find((v) => v.src.path == path);
+  if (page === undefined) {
+    return path;
+  } else if (anchor !== undefined) {
+    const fallback = path + "#" + anchor;
+    const fileName = page.src.entry?.src;
+    if (fileName) {
+      const md = Deno.readTextFileSync(fileName);
+      for (let line of md.split("\n")) {
+        if (!line.startsWith("#") && line.includes("# ")) {
+          continue;
+        }
+        while (line.startsWith("#")) {
+          line = line.slice(1);
+        }
+        line = line.trim();
+        if (line.replaceAll(" ", "-").toLowerCase() === anchor) {
+          return line;
+        }
+      }
+    }
+    return fallback;
+  } else {
+    return page.data.title;
+  }
+}
+
+const titleMap: Record<string, string> = {};
+const parentMap: Record<string, string> = {};
+site.preprocess([".html"], (pages) => {
+  let error = false;
+  let errorCount = 0;
+  for (const page of pages) {
+    if (page.src.path === "/index" || page.src.path === "/404") {
+      continue;
+    }
+    if (!page.data.title) {
+      console.error("The page", page.src.path, "does not have a title.");
+      error = true;
+      ++errorCount;
+    } else {
+      titleMap[page.src.path] = page.data.title;
+    }
+    if (!page.data.parent) {
+      console.error("The page", page.src.path, "does not have a parent.");
+      error = true;
+      ++errorCount;
+    } else {
+      parentMap[page.src.path] = page.data.parent;
+    }
+  }
+  errorCount && console.error("Aborting because of", errorCount, "error(s).");
+  error && Deno.exit(1);
+});
+
+site.process([".html"], (pages) => {
+  let error = false;
+  let errorCount = 0;
+  for (const page of pages) {
+    if (
+      page.data.parent !== undefined &&
+      (getTitle(page.data.parent) === page.data.parent)
+    ) {
+      console.error("Tha page", page.src.path, "has an invalid parent.");
+      error = true;
+      ++errorCount;
+    }
+  }
+
+  errorCount && console.log("Aborting because of", errorCount, "error(s).");
+  error && Deno.exit(1);
+});
 
 site.process([".html"], (pages) => {
   for (const page of pages) {
@@ -108,7 +202,7 @@ site.preprocess(
 
 site.helper(
   "getTitle",
-  (title) => (site.pages.find((v) => v.src.path == title)?.data.title ?? title),
+  (path) => getTitle(path),
   { type: "filter" },
 );
 site.helper(

@@ -1,5 +1,6 @@
 ---
 title: InlineKeyboardButtonPay
+parent: /types
 ---
 
 An inline keyboard that, when pressed, initiates a payment.

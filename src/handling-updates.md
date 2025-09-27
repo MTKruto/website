@@ -1,5 +1,6 @@
 ---
 title: Handling Updates
+parent: /#walkthrough
 prev: /calling-methods
 next: /working-with-messages
 ---

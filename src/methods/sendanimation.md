@@ -1,5 +1,6 @@
 ---
 title: sendAnimation
+parent: /methods
 ---
 
 Send an animation.<span class="select-none">  </span>

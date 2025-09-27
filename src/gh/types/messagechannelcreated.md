@@ -1,5 +1,6 @@
 ---
 title: MessageChannelCreated
+parent: /types
 ---
 
 A message that is received by user accounts when a channel is created.

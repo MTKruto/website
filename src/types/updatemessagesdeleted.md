@@ -1,5 +1,6 @@
 ---
 title: UpdateMessagesDeleted
+parent: /types
 ---
 
 One or more messages were deleted.

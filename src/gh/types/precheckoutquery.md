@@ -1,5 +1,6 @@
 ---
 title: PreCheckoutQuery
+parent: /types
 ---
 
 ### Properties

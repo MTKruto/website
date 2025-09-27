@@ -1,5 +1,6 @@
 ---
 title: deleteMessage
+parent: /methods
 ---
 
 Delete a single message.<span class="select-none">  </span>

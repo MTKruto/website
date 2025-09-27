@@ -1,5 +1,6 @@
 ---
 title: ChatMemberAdministrator
+parent: /types
 ---
 
 ### Properties

@@ -1,5 +1,6 @@
 ---
 title: MessageEntityItalic
+parent: /types
 ---
 
 ### Properties

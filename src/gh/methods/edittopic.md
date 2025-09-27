@@ -1,5 +1,6 @@
 ---
 title: editTopic
+parent: /methods
 ---
 
 Edit a forum topic.<span class="select-none">  </span>

@@ -1,5 +1,6 @@
 ---
 title: UpdateJoinRequest
+parent: /types
 ---
 
 A user requested to join a chat. Bot-only.

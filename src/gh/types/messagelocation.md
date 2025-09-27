@@ -1,5 +1,6 @@
 ---
 title: MessageLocation
+parent: /types
 ---
 
 A location message.

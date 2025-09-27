@@ -1,5 +1,6 @@
 ---
 title: GiftNonUpgraded
+parent: /types
 ---
 
 An non-upgraded gift.

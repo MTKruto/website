@@ -1,5 +1,6 @@
 ---
 title: InlineQueryResultVoice
+parent: /types
 ---
 
 ### Properties

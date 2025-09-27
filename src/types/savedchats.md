@@ -1,5 +1,6 @@
 ---
 title: SavedChats
+parent: /types
 ---
 
 A list of saved chats.

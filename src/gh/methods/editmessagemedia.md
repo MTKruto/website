@@ -1,5 +1,6 @@
 ---
 title: editMessageMedia
+parent: /methods
 ---
 
 Edit a message's media.<span class="select-none">  </span>

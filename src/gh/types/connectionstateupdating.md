@@ -1,5 +1,6 @@
 ---
 title: ConnectionStateUpdating
+parent: /types
 ---
 
 The client is connected but recovering from an update gap.

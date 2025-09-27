@@ -1,5 +1,6 @@
 ---
 title: Setup
+parent: /#walkthrough
 next: /server/making-requests
 ---
 

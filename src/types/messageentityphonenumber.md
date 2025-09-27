@@ -1,5 +1,6 @@
 ---
 title: MessageEntityPhoneNumber
+parent: /types
 ---
 
 ### Properties

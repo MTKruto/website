@@ -1,5 +1,6 @@
 ---
 title: Receiving Updates
+parent: /#walkthrough
 prev: /server/making-requests
 next: /server/client-libraries
 ---

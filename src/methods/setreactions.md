@@ -1,5 +1,6 @@
 ---
 title: setReactions
+parent: /methods
 ---
 
 Change reactions made to a message.<span class="select-none">  </span>

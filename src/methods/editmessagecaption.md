@@ -1,5 +1,6 @@
 ---
 title: editMessageCaption
+parent: /methods
 ---
 
 Edit a message's caption.<span class="select-none">  </span>

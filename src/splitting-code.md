@@ -1,5 +1,6 @@
 ---
 title: Splitting Code
+parent: /#guides
 ---
 
 Larger projects with clients that include a lot of handlers assigned might need

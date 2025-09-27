@@ -1,5 +1,6 @@
 ---
 title: ReactionPaid
+parent: /types
 ---
 
 A paid (star) reaction.

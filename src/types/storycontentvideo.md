@@ -1,5 +1,6 @@
 ---
 title: StoryContentVideo
+parent: /types
 ---
 
 ### Properties

@@ -1,5 +1,6 @@
 ---
 title: Translation
+parent: /types
 ---
 
 A translation.

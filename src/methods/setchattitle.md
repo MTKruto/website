@@ -1,5 +1,6 @@
 ---
 title: setChatTitle
+parent: /methods
 ---
 
 Change the title of a chat.<span class="select-none">  </span>

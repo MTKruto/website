@@ -1,5 +1,6 @@
 ---
 title: InlineQueryResultCachedSticker
+parent: /types
 ---
 
 ### Properties

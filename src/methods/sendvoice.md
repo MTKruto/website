@@ -1,5 +1,6 @@
 ---
 title: sendVoice
+parent: /methods
 ---
 
 Send a voice message.<span class="select-none">  </span>

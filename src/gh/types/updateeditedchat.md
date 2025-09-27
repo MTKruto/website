@@ -1,5 +1,6 @@
 ---
 title: UpdateEditedChat
+parent: /types
 ---
 
 A chat in the chat list was edited. User-only.

@@ -1,5 +1,6 @@
 ---
 title: Audio
+parent: /types
 ---
 
 An audio file.

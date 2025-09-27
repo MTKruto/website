@@ -1,5 +1,6 @@
 ---
 title: LinkPreviewVideo
+parent: /types
 ---
 
 A video link preview.

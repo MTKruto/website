@@ -1,5 +1,6 @@
 ---
 title: SuccessfulPayment
+parent: /types
 ---
 
 ### Properties

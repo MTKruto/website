@@ -1,5 +1,6 @@
 ---
 title: MessageContact
+parent: /types
 ---
 
 A contact message.

@@ -1,5 +1,6 @@
 ---
 title: Game
+parent: /types
 ---
 
 A game.

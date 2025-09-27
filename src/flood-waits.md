@@ -1,4 +1,7 @@
-# Flood Waits
+---
+parent: /#guides
+title: Flood Waits
+---
 
 By default, flood waits of smaller than or equal to 10 seconds are handled. If
 the client faced a flood wait bigger than 10 seconds, it will instead be

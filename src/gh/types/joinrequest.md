@@ -1,5 +1,6 @@
 ---
 title: JoinRequest
+parent: /types
 ---
 
 A join request.

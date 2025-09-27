@@ -1,5 +1,6 @@
 ---
 title: resolveMessageLink
+parent: /methods
 ---
 
 Retrieve a message using its link.<span class="select-none">  </span>

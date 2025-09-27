@@ -1,5 +1,6 @@
 ---
 title: Storage Adapters
+parent: /#guides
 ---
 
 Just as any Telegram client, MTKruto requires persistent storage to work

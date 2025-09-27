@@ -1,5 +1,6 @@
 ---
 title: ReactionEmoji
+parent: /types
 ---
 
 A regular reaction.

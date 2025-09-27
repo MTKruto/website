@@ -1,5 +1,6 @@
 ---
 title: Commands
+parent: /#walkthrough
 prev: /working-with-messages
 next: /reactions
 ---

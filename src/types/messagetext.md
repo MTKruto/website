@@ -1,5 +1,6 @@
 ---
 title: MessageText
+parent: /types
 ---
 
 A text message.

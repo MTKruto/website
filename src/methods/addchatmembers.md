@@ -1,5 +1,6 @@
 ---
 title: addChatMembers
+parent: /methods
 ---
 
 Add multiple users at once to a channel or a supergroup.<span class="select-none">  </span>

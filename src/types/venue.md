@@ -1,5 +1,6 @@
 ---
 title: Venue
+parent: /types
 ---
 
 A shared venue.

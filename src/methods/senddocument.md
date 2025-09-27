@@ -1,5 +1,6 @@
 ---
 title: sendDocument
+parent: /methods
 ---
 
 Send a document.<span class="select-none">  </span>

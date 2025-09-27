@@ -1,5 +1,6 @@
 ---
 title: getGifts
+parent: /methods
 ---
 
 Get available gifts.<span class="select-none">  </span>

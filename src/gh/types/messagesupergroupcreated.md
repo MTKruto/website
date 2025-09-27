@@ -1,5 +1,6 @@
 ---
 title: MessageSupergroupCreated
+parent: /types
 ---
 
 A message that is received by user accounts when a supergroup is created.

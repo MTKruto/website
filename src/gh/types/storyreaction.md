@@ -1,5 +1,6 @@
 ---
 title: StoryReaction
+parent: /types
 ---
 
 Represents a type of reaction made to a story.

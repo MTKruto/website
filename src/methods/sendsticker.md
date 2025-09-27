@@ -1,5 +1,6 @@
 ---
 title: sendSticker
+parent: /methods
 ---
 
 Send a sticker.<span class="select-none">  </span>

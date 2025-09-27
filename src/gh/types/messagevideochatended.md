@@ -1,5 +1,6 @@
 ---
 title: MessageVideoChatEnded
+parent: /types
 ---
 
 A message that is received when a video chat is ended in a chat.

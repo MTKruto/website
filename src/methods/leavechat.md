@@ -1,5 +1,6 @@
 ---
 title: leaveChat
+parent: /methods
 ---
 
 Leave a chat.<span class="select-none">  </span>

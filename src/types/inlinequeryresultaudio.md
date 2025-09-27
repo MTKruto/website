@@ -1,5 +1,6 @@
 ---
 title: InlineQueryResultAudio
+parent: /types
 ---
 
 ### Properties

@@ -1,5 +1,6 @@
 ---
 title: UpdateBusinessConnection
+parent: /types
 ---
 
 A business connection was added, modified, or removed.

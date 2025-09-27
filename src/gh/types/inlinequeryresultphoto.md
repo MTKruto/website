@@ -1,5 +1,6 @@
 ---
 title: InlineQueryResultPhoto
+parent: /types
 ---
 
 ### Properties

@@ -1,5 +1,6 @@
 ---
 title: Installation
+parent: /#walkthrough
 next: /starting-the-client
 ---
 

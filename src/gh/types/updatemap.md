@@ -1,5 +1,6 @@
 ---
 title: UpdateMap
+parent: /types
 ---
 
 ### Properties

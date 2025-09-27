@@ -1,5 +1,6 @@
 ---
 title: createTopic
+parent: /methods
 ---
 
 Create a forum topic.<span class="select-none">  </span>

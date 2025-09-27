@@ -1,5 +1,6 @@
 ---
 title: StickerSet
+parent: /types
 ---
 
 A sticker (or emoji) set.

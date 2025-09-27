@@ -1,5 +1,6 @@
 ---
 title: InlineQueryResultCachedVoice
+parent: /types
 ---
 
 ### Properties

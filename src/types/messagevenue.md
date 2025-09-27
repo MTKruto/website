@@ -1,5 +1,6 @@
 ---
 title: MessageVenue
+parent: /types
 ---
 
 A venue message.

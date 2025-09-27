@@ -1,5 +1,6 @@
 ---
 title: UpdatePoll
+parent: /types
 ---
 
 A poll was updated.

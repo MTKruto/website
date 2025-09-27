@@ -1,5 +1,6 @@
 ---
 title: Message
+parent: /types
 ---
 
 Any type of message.

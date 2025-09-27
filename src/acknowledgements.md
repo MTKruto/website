@@ -1,5 +1,6 @@
 ---
 title: Acknowledgements
+parent: /#other-pages
 ---
 
 ```txt

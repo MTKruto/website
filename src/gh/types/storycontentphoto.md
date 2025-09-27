@@ -1,5 +1,6 @@
 ---
 title: StoryContentPhoto
+parent: /types
 ---
 
 ### Properties

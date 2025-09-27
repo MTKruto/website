@@ -1,5 +1,6 @@
 ---
 title: ChatMemberUpdated
+parent: /types
 ---
 
 Changes made to a chat member.

@@ -1,5 +1,6 @@
 ---
 title: BusinessConnection
+parent: /types
 ---
 
 A business connection.

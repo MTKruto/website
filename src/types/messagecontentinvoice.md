@@ -1,5 +1,6 @@
 ---
 title: MessageContentInvoice
+parent: /types
 ---
 
 ### Properties

@@ -1,5 +1,6 @@
 ---
 title: InlineQueryResultLocation
+parent: /types
 ---
 
 ### Properties

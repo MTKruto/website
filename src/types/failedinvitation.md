@@ -1,5 +1,6 @@
 ---
 title: FailedInvitation
+parent: /types
 ---
 
 ### Properties

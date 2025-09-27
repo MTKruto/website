@@ -1,5 +1,6 @@
 ---
 title: PollOption
+parent: /types
 ---
 
 A poll option.

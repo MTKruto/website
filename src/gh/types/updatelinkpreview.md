@@ -1,5 +1,6 @@
 ---
 title: UpdateLinkPreview
+parent: /types
 ---
 
 A link preview was updated.

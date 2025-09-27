@@ -1,5 +1,6 @@
 ---
 title: getStickerSet
+parent: /methods
 ---
 
 Get a sticker set.<span class="select-none">  </span>

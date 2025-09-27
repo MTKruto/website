@@ -1,5 +1,6 @@
 ---
 title: MessageSuccessfulPayment
+parent: /types
 ---
 
 A payment was successfully received. Bot-only.

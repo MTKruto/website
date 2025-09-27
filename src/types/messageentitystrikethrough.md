@@ -1,5 +1,6 @@
 ---
 title: MessageEntityStrikethrough
+parent: /types
 ---
 
 ### Properties

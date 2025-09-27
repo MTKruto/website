@@ -1,5 +1,6 @@
 ---
 title: AuthorizationState
+parent: /types
 ---
 
 A client's authorization state.

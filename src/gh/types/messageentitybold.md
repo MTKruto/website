@@ -1,5 +1,6 @@
 ---
 title: MessageEntityBold
+parent: /types
 ---
 
 ### Properties

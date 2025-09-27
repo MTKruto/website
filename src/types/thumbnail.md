@@ -1,5 +1,6 @@
 ---
 title: Thumbnail
+parent: /types
 ---
 
 A file or sticker thumbnail.

@@ -1,5 +1,6 @@
 ---
 title: ForwardHeaderUser
+parent: /types
 ---
 
 ### Properties

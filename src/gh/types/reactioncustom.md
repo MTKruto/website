@@ -1,5 +1,6 @@
 ---
 title: ReactionCustom
+parent: /types
 ---
 
 A custom reaction.

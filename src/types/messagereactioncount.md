@@ -1,5 +1,6 @@
 ---
 title: MessageReactionCount
+parent: /types
 ---
 
 Information on the reactions made to a channel post.

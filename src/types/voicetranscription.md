@@ -1,5 +1,6 @@
 ---
 title: VoiceTranscription
+parent: /types
 ---
 
 An audio transcription.

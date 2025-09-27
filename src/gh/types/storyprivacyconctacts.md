@@ -1,5 +1,6 @@
 ---
 title: StoryPrivacyConctacts
+parent: /types
 ---
 
 ### Properties

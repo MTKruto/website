@@ -1,5 +1,6 @@
 ---
 title: ChatP
+parent: /types
 ---
 
 A chat with lesser fields.

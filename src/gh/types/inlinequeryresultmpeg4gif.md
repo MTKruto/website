@@ -1,5 +1,6 @@
 ---
 title: InlineQueryResultMpeg4Gif
+parent: /types
 ---
 
 ### Properties

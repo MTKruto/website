@@ -1,5 +1,6 @@
 ---
 title: setChatDescription
+parent: /methods
 ---
 
 Change the description of a chat.<span class="select-none">  </span>

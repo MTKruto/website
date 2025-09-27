@@ -1,5 +1,6 @@
 ---
 title: ChatMemberLeft
+parent: /types
 ---
 
 ### Properties

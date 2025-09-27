@@ -1,5 +1,6 @@
 ---
 title: ForwardHeaderChannel
+parent: /types
 ---
 
 ### Properties

@@ -1,5 +1,6 @@
 ---
 title: sendLocation
+parent: /methods
 ---
 
 Send a location.<span class="select-none">  </span>

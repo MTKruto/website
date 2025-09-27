@@ -1,5 +1,6 @@
 ---
 title: removeReaction
+parent: /methods
 ---
 
 Undo a reaction made to a message.<span class="select-none">  </span>

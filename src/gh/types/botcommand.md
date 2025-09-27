@@ -1,5 +1,6 @@
 ---
 title: BotCommand
+parent: /types
 ---
 
 A bot command.

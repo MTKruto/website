@@ -1,5 +1,6 @@
 ---
 title: forwardMessage
+parent: /methods
 ---
 
 Forward a single message.<span class="select-none">  </span>

@@ -1,5 +1,6 @@
 ---
 title: UpdateMessageReactionCount
+parent: /types
 ---
 
 The anonymous reactions made to a message were changed. Bot-only.

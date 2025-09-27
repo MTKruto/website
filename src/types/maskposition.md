@@ -1,5 +1,6 @@
 ---
 title: MaskPosition
+parent: /types
 ---
 
 A mask position.

@@ -1,5 +1,6 @@
 ---
 title: Auth Strings
+parent: /#guides
 ---
 
 Auth strings (or session strings) are a piece of text that holds the necessary

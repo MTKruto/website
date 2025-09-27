@@ -1,5 +1,6 @@
 ---
 title: Location
+parent: /types
 ---
 
 A shared location.

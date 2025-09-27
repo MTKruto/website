@@ -1,5 +1,6 @@
 ---
 title: InlineQuery
+parent: /types
 ---
 
 An incoming inline query.

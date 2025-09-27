@@ -1,5 +1,6 @@
 ---
 title: Topic
+parent: /types
 ---
 
 ### Properties

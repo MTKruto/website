@@ -1,0 +1,19 @@
+.bc {
+  padding: 4px 8px;
+
+  .link-content {
+    opacity: 0.5;
+  }
+
+  .link-content,
+  .link-content a {
+    color: var(--fgt) !important;
+  }
+
+  a {
+    &:hover,
+    &:hover * {
+      text-decoration: underline;
+    }
+  }
+}

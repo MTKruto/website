@@ -1,5 +1,6 @@
 ---
 title: UpdateMyChatMember
+parent: /types
 ---
 
 The status of the current account was changed in a chat.

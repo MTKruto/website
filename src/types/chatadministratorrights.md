@@ -1,5 +1,6 @@
 ---
 title: ChatAdministratorRights
+parent: /types
 ---
 
 The rights of a chat administrator.

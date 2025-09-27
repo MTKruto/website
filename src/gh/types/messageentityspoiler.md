@@ -1,5 +1,6 @@
 ---
 title: MessageEntitySpoiler
+parent: /types
 ---
 
 ### Properties

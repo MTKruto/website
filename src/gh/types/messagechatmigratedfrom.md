@@ -1,5 +1,6 @@
 ---
 title: MessageChatMigratedFrom
+parent: /types
 ---
 
 A message that is received when a group is migrated to a supergroup.

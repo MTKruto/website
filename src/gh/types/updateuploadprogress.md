@@ -1,5 +1,6 @@
 ---
 title: UpdateUploadProgress
+parent: /types
 ---
 
 An upload has progressed.

@@ -1,5 +1,6 @@
 ---
 title: Making Requests
+parent: /#walkthrough
 prev: /server/setup
 next: /server/receiving-updates
 ---

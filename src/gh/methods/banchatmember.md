@@ -1,5 +1,6 @@
 ---
 title: banChatMember
+parent: /methods
 ---
 
 Ban a member from a chat.<span class="select-none">  </span>

@@ -1,5 +1,6 @@
 ---
 title: getChatAdministrators
+parent: /methods
 ---
 
 Get the administrators of a chat.<span class="select-none">  </span>

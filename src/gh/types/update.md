@@ -1,5 +1,6 @@
 ---
 title: Update
+parent: /types
 ---
 
 An incoming update.

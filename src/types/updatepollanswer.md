@@ -1,5 +1,6 @@
 ---
 title: UpdatePollAnswer
+parent: /types
 ---
 
 A poll was answered.

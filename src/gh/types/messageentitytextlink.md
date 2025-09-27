@@ -1,5 +1,6 @@
 ---
 title: MessageEntityTextLink
+parent: /types
 ---
 
 ### Properties

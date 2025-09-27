@@ -1,5 +1,6 @@
 ---
 title: Contributing
+parent: /#other-pages
 ---
 
 ## ...to the core

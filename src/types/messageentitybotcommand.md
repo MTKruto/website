@@ -1,5 +1,6 @@
 ---
 title: MessageEntityBotCommand
+parent: /types
 ---
 
 ### Properties

@@ -1,5 +1,6 @@
 ---
 title: Methods
+parent: /#api-reference
 ---
 ## Account
 <div class="descr-list">

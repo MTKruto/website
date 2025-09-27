@@ -1,5 +1,6 @@
 ---
 title: StoryReference
+parent: /types
 ---
 
 Reference to a story.

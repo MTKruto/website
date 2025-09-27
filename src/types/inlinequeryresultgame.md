@@ -1,5 +1,6 @@
 ---
 title: InlineQueryResultGame
+parent: /types
 ---
 
 ### Properties

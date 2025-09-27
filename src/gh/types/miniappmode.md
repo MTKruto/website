@@ -1,5 +1,6 @@
 ---
 title: MiniAppMode
+parent: /types
 ---
 
 A mini app mode.

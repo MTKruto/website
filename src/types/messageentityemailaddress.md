@@ -1,5 +1,6 @@
 ---
 title: MessageEntityEmailAddress
+parent: /types
 ---
 
 ### Properties

@@ -1,5 +1,6 @@
 ---
 title: MessageDocument
+parent: /types
 ---
 
 A document message.

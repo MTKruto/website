@@ -1,5 +1,6 @@
 ---
 title: InlineQueryResultGif
+parent: /types
 ---
 
 ### Properties

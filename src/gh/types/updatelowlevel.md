@@ -1,5 +1,6 @@
 ---
 title: UpdateLowLevel
+parent: /types
 ---
 
 A low-level (Telegram API) update.

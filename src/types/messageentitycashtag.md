@@ -1,5 +1,6 @@
 ---
 title: MessageEntityCashtag
+parent: /types
 ---
 
 ### Properties

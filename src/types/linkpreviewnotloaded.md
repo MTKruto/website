@@ -1,5 +1,6 @@
 ---
 title: LinkPreviewNotLoaded
+parent: /types
 ---
 
 A link preview that was not loaded.

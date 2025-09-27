@@ -1,5 +1,6 @@
 ---
 title: editMessageText
+parent: /methods
 ---
 
 Edit a message's text.<span class="select-none">  </span>

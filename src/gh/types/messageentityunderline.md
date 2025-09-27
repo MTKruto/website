@@ -1,5 +1,6 @@
 ---
 title: MessageEntityUnderline
+parent: /types
 ---
 
 ### Properties

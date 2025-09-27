@@ -1,5 +1,6 @@
 ---
 title: ShippingAddress
+parent: /types
 ---
 
 A shipping address.

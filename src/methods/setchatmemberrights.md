@@ -1,5 +1,6 @@
 ---
 title: setChatMemberRights
+parent: /methods
 ---
 
 Set the rights of a chat member.<span class="select-none">  </span>

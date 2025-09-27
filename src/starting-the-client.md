@@ -1,5 +1,6 @@
 ---
 title: Starting the Client
+parent: /#walkthrough
 prev: /installation
 next: /calling-methods
 ---

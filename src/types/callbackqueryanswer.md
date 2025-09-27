@@ -1,5 +1,6 @@
 ---
 title: CallbackQueryAnswer
+parent: /types
 ---
 
 An answer to a callback query.

@@ -1,5 +1,6 @@
 ---
 title: setTopicsEnabled
+parent: /methods
 ---
 
 Enable or disable topics in a group.<span class="select-none"> <span class="inline-flex w-fit items-center"><span class="w-fit bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">USER-ONLY</span></span> </span>

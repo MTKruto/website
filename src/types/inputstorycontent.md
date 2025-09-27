@@ -1,5 +1,6 @@
 ---
 title: InputStoryContent
+parent: /types
 ---
 
 A story content when provided as an input.

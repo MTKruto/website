@@ -1,5 +1,6 @@
 ---
 title: MessagePinnedMessage
+parent: /types
 ---
 
 A message that is received when a message is pinned in a chat.

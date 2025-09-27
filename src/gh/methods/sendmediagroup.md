@@ -1,5 +1,6 @@
 ---
 title: sendMediaGroup
+parent: /methods
 ---
 
 Send a media group.<span class="select-none">  </span>

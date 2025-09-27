@@ -1,5 +1,6 @@
 ---
 title: unpinMessage
+parent: /methods
 ---
 
 Unpin a pinned message.<span class="select-none">  </span>

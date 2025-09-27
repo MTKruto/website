@@ -1,5 +1,6 @@
 ---
 title: InputStoryContentVideo
+parent: /types
 ---
 
 ### Properties

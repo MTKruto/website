@@ -1,5 +1,6 @@
 ---
 title: deleteChatStickerSet
+parent: /methods
 ---
 
 Delete a chat's sticker set.<span class="select-none">  </span>

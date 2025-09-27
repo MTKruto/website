@@ -1,5 +1,6 @@
 ---
 title: MiniAppInfo
+parent: /types
 ---
 
 The necessary information to launch a mini app.

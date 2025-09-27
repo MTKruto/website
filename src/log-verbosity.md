@@ -1,5 +1,6 @@
 ---
 title: Log Verbosity
+parent: /#guides
 ---
 
 Log verbosity can be changed using the environment variable `LOG_VERBOSITY`.

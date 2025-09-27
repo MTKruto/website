@@ -1,5 +1,6 @@
 ---
 title: setChatPhoto
+parent: /methods
 ---
 
 Set a chat's photo.<span class="select-none">  </span>

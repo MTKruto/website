@@ -1,5 +1,6 @@
 ---
 title: UpdateVideoChat
+parent: /types
 ---
 
 A video chat was started, scheduled, or ended.

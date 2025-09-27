@@ -1,5 +1,6 @@
 ---
 title: InlineQueryResultVenue
+parent: /types
 ---
 
 ### Properties

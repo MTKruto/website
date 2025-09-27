@@ -1,5 +1,6 @@
 ---
 title: Calling Methods
+parent: /#walkthrough
 prev: /starting-the-client
 next: /handling-updates
 ---

@@ -1,5 +1,6 @@
 ---
 title: ChatMemberRestricted
+parent: /types
 ---
 
 ### Properties

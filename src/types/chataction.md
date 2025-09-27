@@ -1,5 +1,6 @@
 ---
 title: ChatAction
+parent: /types
 ---
 
 A sign of a possible action by a member of a conversation.

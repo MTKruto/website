@@ -1,5 +1,6 @@
 ---
 title: Introduction
+parent: /#other-pages
 ---
 
 MTKruto Server is a server for running Telegram clients (whether they are bots

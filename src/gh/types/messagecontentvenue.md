@@ -1,5 +1,6 @@
 ---
 title: MessageContentVenue
+parent: /types
 ---
 
 A message content that shares a venue.

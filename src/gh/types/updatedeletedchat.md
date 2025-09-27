@@ -1,5 +1,6 @@
 ---
 title: UpdateDeletedChat
+parent: /types
 ---
 
 A chat was removed from the chat list. User-only.

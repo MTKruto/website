@@ -1,5 +1,6 @@
 ---
 title: MessageEntityBankCard
+parent: /types
 ---
 
 ### Properties

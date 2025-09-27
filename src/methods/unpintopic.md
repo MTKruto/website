@@ -1,5 +1,6 @@
 ---
 title: unpinTopic
+parent: /methods
 ---
 
 Unpin a forum topic.<span class="select-none">  </span>

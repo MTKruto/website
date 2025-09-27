@@ -1,5 +1,6 @@
 ---
 title: InlineQueryResult
+parent: /types
 ---
 
 A single inline query result.

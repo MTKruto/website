@@ -1,5 +1,6 @@
 ---
 title: NetworkStatisticsEntry
+parent: /types
 ---
 
 An entry of a client's network statistics.

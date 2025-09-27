@@ -1,5 +1,6 @@
 ---
 title: deleteMessages
+parent: /methods
 ---
 
 Delete multiple messages.<span class="select-none">  </span>

@@ -1,5 +1,6 @@
 ---
 title: Client Libraries
+parent: /#walkthrough
 prev: /server/receiving-updates
 next: /server/faq
 ---

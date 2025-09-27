@@ -1,5 +1,6 @@
 ---
 title: MessageSticker
+parent: /types
 ---
 
 A sticker message.

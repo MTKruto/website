@@ -1,5 +1,6 @@
 ---
 title: ChatMemberCreator
+parent: /types
 ---
 
 ### Properties

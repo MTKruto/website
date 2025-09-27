@@ -1,5 +1,6 @@
 ---
 title: getNetworkStatistics
+parent: /methods
 ---
 
 Get network statistics. This might not always be available.<span class="select-none">  </span>

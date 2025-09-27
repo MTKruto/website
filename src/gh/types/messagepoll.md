@@ -1,5 +1,6 @@
 ---
 title: MessagePoll
+parent: /types
 ---
 
 A poll message.

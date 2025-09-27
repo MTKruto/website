@@ -1,5 +1,6 @@
 ---
 title: Contact
+parent: /types
 ---
 
 A shared contact.

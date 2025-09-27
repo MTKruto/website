@@ -1,5 +1,6 @@
 ---
 title: VideoChatScheduled
+parent: /types
 ---
 
 A scheduled video chat.

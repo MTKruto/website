@@ -1,5 +1,6 @@
 ---
 title: MessageReactions
+parent: /types
 ---
 
 The reactions of a user to a messages in a group.

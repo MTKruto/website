@@ -1,5 +1,6 @@
 ---
 title: ReactionCount
+parent: /types
 ---
 
 The count of a specific reaction.

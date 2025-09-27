@@ -1,5 +1,6 @@
 ---
 title: MessageRefundedPayment
+parent: /types
 ---
 
 A payment was successfully refunded. Bot-only.

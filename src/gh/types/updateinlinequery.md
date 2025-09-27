@@ -1,5 +1,6 @@
 ---
 title: UpdateInlineQuery
+parent: /types
 ---
 
 An inline query was received. Bot-only.

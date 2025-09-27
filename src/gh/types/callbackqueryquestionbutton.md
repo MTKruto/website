@@ -1,5 +1,6 @@
 ---
 title: CallbackQueryQuestionButton
+parent: /types
 ---
 
 A reference to a usual button.

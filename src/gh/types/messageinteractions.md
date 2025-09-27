@@ -1,5 +1,6 @@
 ---
 title: MessageInteractions
+parent: /types
 ---
 
 The interactions made with a message.

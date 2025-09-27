@@ -1,5 +1,6 @@
 ---
 title: MessageUnsupported
+parent: /types
 ---
 
 An unsupported message.

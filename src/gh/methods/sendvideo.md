@@ -1,5 +1,6 @@
 ---
 title: sendVideo
+parent: /methods
 ---
 
 Send a video.<span class="select-none">  </span>

@@ -1,5 +1,6 @@
 ---
 title: MessageContentText
+parent: /types
 ---
 
 ### Properties

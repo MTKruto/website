@@ -1,5 +1,6 @@
 ---
 title: StoryContentUnsupported
+parent: /types
 ---
 
 ### Properties

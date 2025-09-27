@@ -1,5 +1,6 @@
 ---
 title: sendChatAction
+parent: /methods
 ---
 
 Send a chat action.<span class="select-none">  </span>

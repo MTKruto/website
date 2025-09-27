@@ -1,5 +1,6 @@
 ---
 title: approveJoinRequest
+parent: /methods
 ---
 
 Approve a join request.<span class="select-none">  </span>

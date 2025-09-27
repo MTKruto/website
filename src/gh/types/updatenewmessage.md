@@ -1,5 +1,6 @@
 ---
 title: UpdateNewMessage
+parent: /types
 ---
 
 A message was sent or received.

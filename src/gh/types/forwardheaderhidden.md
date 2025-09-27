@@ -1,5 +1,6 @@
 ---
 title: ForwardHeaderHidden
+parent: /types
 ---
 
 ### Properties

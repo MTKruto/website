@@ -1,5 +1,6 @@
 ---
 title: Giveaway
+parent: /types
 ---
 
 A giveaway.

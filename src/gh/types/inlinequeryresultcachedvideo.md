@@ -1,5 +1,6 @@
 ---
 title: InlineQueryResultCachedVideo
+parent: /types
 ---
 
 ### Properties

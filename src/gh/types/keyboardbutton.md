@@ -1,5 +1,6 @@
 ---
 title: KeyboardButton
+parent: /types
 ---
 
 A button of a custom keyboard.

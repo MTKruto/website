@@ -1,5 +1,6 @@
 ---
 title: sellGift
+parent: /methods
 ---
 
 Sell a gift.<span class="select-none">  </span>

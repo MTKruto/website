@@ -1,5 +1,6 @@
 ---
 title: LinkPreviewUnknown
+parent: /types
 ---
 
 A link preview of an unknown type.

@@ -1,5 +1,7 @@
 import { Telegram } from "./Telegram.tsx";
 import { GitHub } from "./GitHub.tsx";
+import { getPageDate } from "lume/core/utils/page_date.ts";
+import site from "../../_config.ts";
 
 const fonts = Array.from(Deno.readDirSync("src/static/fonts"))
   .map((v) => v.name.replaceAll("src/", "/"));
@@ -8,6 +10,24 @@ export default (
   { title, children, toc, hide_toc, next, prev, url }: Lume.Data,
   filters: Lume.Data,
 ) => {
+  function Bc() {
+    // deno-lint-ignore jsx-key
+    const items = filters.bc(url).map((v: [string, string]) => (
+      <a href={v[0]}>{v[1]}</a>
+    ));
+
+    return (
+      <div class="text-xs bc w-full">
+        <div class="link-content">
+          {items.map((v) =>
+            // deno-lint-ignore jsx-key
+            <>{v} /{" "}</>
+          )}
+        </div>
+      </div>
+    );
+  }
+
   return (
     <html style="scroll-padding-top: 10px">
       <head>
@@ -37,15 +57,19 @@ export default (
             href={`/fonts/${v}`}
             as="font"
             type="font/woff2"
+            // @ts-ignore
             crossOrigin=""
           />
         ))}
       </head>
       <body class="bg-bg text-fg overflow-x-hidden">
+        <Bc />
         <main class="min-h-screen w-full xl:flex px-5 pt-[25px]">
           <div class="max-w-screen-md w-full mx-auto flex gap-2 relative">
             <div class="content w-full grow">
-              <h1>{title}</h1>
+              <h1>
+                {title}
+              </h1>
               {children}
               {(next || prev) && (
                 <nav class="bottom-nav">

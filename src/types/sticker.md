@@ -1,5 +1,6 @@
 ---
 title: Sticker
+parent: /types
 ---
 
 A sticker.

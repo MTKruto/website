@@ -1,5 +1,6 @@
 ---
 title: GiftUpgradedComponentPattern
+parent: /types
 ---
 
 The pattern of an upgraded gift.

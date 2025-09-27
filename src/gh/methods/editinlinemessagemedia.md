@@ -1,5 +1,6 @@
 ---
 title: editInlineMessageMedia
+parent: /methods
 ---
 
 Edit an inline message's media.<span class="select-none">  </span>

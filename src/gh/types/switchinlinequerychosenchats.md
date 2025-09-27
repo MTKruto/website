@@ -1,5 +1,6 @@
 ---
 title: SwitchInlineQueryChosenChats
+parent: /types
 ---
 
 MTKruto - Cross-runtime JavaScript library for building Telegram clients

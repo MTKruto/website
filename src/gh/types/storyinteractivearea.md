@@ -1,5 +1,6 @@
 ---
 title: StoryInteractiveArea
+parent: /types
 ---
 
 A story's interactive area.

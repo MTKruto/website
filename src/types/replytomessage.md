@@ -1,5 +1,6 @@
 ---
 title: ReplyToMessage
+parent: /types
 ---
 
 ### Properties

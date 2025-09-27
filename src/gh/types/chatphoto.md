@@ -1,5 +1,6 @@
 ---
 title: ChatPhoto
+parent: /types
 ---
 
 A chat photo.

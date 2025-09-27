@@ -1,5 +1,6 @@
 ---
 title: MessageVoice
+parent: /types
 ---
 
 A voice message.

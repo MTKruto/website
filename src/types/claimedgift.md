@@ -1,5 +1,6 @@
 ---
 title: ClaimedGift
+parent: /types
 ---
 
 A gift claimed by a user or a channel.

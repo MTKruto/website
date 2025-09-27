@@ -1,5 +1,6 @@
 ---
 title: UploadProgress
+parent: /types
 ---
 
 The progress of an upload.

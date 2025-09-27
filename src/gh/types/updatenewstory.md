@@ -1,5 +1,6 @@
 ---
 title: UpdateNewStory
+parent: /types
 ---
 
 A story was posted.

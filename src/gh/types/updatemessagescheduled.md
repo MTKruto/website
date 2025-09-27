@@ -1,5 +1,6 @@
 ---
 title: UpdateMessageScheduled
+parent: /types
 ---
 
 A message was scheduled. User-only.

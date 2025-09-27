@@ -1,5 +1,6 @@
 ---
 title: GiftUpgradedComponentOriginalDetails
+parent: /types
 ---
 
 The original details of an upgraded gift.

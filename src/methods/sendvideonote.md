@@ -1,5 +1,6 @@
 ---
 title: sendVideoNote
+parent: /methods
 ---
 
 Send a video note.<span class="select-none">  </span>

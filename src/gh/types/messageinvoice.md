@@ -1,5 +1,6 @@
 ---
 title: MessageInvoice
+parent: /types
 ---
 
 An invoice message.

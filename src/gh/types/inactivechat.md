@@ -1,5 +1,6 @@
 ---
 title: InactiveChat
+parent: /types
 ---
 
 An inactive chat.

@@ -1,5 +1,6 @@
 ---
 title: getChatMembers
+parent: /methods
 ---
 
 Get the members of a chat.<span class="select-none">  </span>

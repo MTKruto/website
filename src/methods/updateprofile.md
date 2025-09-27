@@ -1,5 +1,6 @@
 ---
 title: updateProfile
+parent: /methods
 ---
 
 Update the profile of the current user. At least one parameter must be specified.<span class="select-none"> <span class="inline-flex w-fit items-center"><span class="w-fit bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">USER-ONLY</span></span> </span>

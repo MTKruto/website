@@ -1,5 +1,6 @@
 ---
 title: deleteScheduledMessage
+parent: /methods
 ---
 
 Delete a scheduled message.<span class="select-none">  </span>

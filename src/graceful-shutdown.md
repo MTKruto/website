@@ -1,4 +1,7 @@
-# Graceful Shutdown
+---
+title: Graceful Shutdown
+parent: /#guides
+---
 
 If you're running MTKruto with a **persistent storage** outside browsers where
 you can control the behavior of `SIGINT`, it is recommended that you disconnect

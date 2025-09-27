@@ -1,5 +1,6 @@
 ---
 title: ChatMemberRights
+parent: /types
 ---
 
 The rights of a chat member.

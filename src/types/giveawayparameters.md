@@ -1,5 +1,6 @@
 ---
 title: GiveawayParameters
+parent: /types
 ---
 
 Giveaway parameters.

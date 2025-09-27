@@ -1,5 +1,6 @@
 ---
 title: LinkPreviewPhoto
+parent: /types
 ---
 
 An embedded video link preview.

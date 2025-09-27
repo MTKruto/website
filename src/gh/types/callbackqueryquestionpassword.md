@@ -1,5 +1,6 @@
 ---
 title: CallbackQueryQuestionPassword
+parent: /types
 ---
 
 A reference to a password confirmation button.

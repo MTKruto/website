@@ -1,5 +1,6 @@
 ---
 title: editMessageLiveLocation
+parent: /methods
 ---
 
 Edit a message's live location.<span class="select-none">  </span>

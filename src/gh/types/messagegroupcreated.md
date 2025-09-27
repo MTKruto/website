@@ -1,5 +1,6 @@
 ---
 title: MessageGroupCreated
+parent: /types
 ---
 
 A message that is received by user accounts when a group is created.

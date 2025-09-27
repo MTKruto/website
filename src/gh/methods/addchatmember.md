@@ -1,5 +1,6 @@
 ---
 title: addChatMember
+parent: /methods
 ---
 
 Add a single user to a chat.<span class="select-none">  </span>

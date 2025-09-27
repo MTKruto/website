@@ -1,5 +1,6 @@
 ---
 title: MessageEntity
+parent: /types
 ---
 
 A single entity of a message's text or caption.

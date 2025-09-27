@@ -1,5 +1,6 @@
 ---
 title: editMessageReplyMarkup
+parent: /methods
 ---
 
 Edit a message's reply markup.<span class="select-none">  </span>

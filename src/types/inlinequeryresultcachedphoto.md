@@ -1,5 +1,6 @@
 ---
 title: InlineQueryResultCachedPhoto
+parent: /types
 ---
 
 ### Properties

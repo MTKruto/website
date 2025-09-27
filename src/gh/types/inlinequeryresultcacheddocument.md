@@ -1,5 +1,6 @@
 ---
 title: InlineQueryResultCachedDocument
+parent: /types
 ---
 
 ### Properties

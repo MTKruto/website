@@ -1,5 +1,6 @@
 ---
 title: getChatMember
+parent: /methods
 ---
 
 Get information on a user's chat membership.<span class="select-none">  </span>

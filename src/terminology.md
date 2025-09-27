@@ -1,5 +1,6 @@
 ---
 title: Terminology
+parent: /#guides
 ---
 
 When working with in projects that depend on Telegram, it is useful to know the

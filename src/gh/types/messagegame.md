@@ -1,5 +1,6 @@
 ---
 title: MessageGame
+parent: /types
 ---
 
 A game message.

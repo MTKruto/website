@@ -1,5 +1,6 @@
 ---
 title: VideoChatActive
+parent: /types
 ---
 
 An ongoing video chat.

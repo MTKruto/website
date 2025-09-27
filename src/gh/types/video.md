@@ -1,5 +1,6 @@
 ---
 title: Video
+parent: /types
 ---
 
 A video file.

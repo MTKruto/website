@@ -1,5 +1,6 @@
 ---
 title: Chat
+parent: /types
 ---
 
 A chat with more fields.

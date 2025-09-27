@@ -1,5 +1,6 @@
 ---
 title: MessageEntityCustomEmoji
+parent: /types
 ---
 
 ### Properties

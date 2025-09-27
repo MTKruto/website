@@ -1,5 +1,6 @@
 ---
 title: MessageGiveaway
+parent: /types
 ---
 
 A message that is received when a giveaway is started in a chat.

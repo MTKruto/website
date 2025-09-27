@@ -1,5 +1,6 @@
 ---
 title: ParseMode
+parent: /types
 ---
 
 Message parse mode.

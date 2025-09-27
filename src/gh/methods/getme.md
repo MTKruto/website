@@ -1,5 +1,6 @@
 ---
 title: getMe
+parent: /methods
 ---
 
 Get information on the currently authorized user.<span class="select-none">  </span>

@@ -1,5 +1,6 @@
 ---
 title: deleteChatPhoto
+parent: /methods
 ---
 
 Delete a chat's photo.<span class="select-none">  </span>

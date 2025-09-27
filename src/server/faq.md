@@ -1,5 +1,6 @@
 ---
 title: FAQ
+parent: /#other-pages
 prev: /server/receiving-updates
 ---
 

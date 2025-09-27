@@ -1,5 +1,6 @@
 ---
 title: UpdateConnectionState
+parent: /types
 ---
 
 A client's connection state was changed.

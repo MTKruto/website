@@ -1,5 +1,6 @@
 ---
 title: MessageContent
+parent: /types
 ---
 
 The content of a message in an inline query result.

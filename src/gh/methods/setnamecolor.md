@@ -1,5 +1,6 @@
 ---
 title: setNameColor
+parent: /methods
 ---
 
 Set the name color of the current user.<span class="select-none"> <span class="inline-flex w-fit items-center"><span class="w-fit bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">USER-ONLY</span></span> </span>

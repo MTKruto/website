@@ -1,5 +1,6 @@
 ---
 title: MessageContentContact
+parent: /types
 ---
 
 A message content that shares a contact.

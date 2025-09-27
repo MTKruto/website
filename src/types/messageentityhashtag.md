@@ -1,5 +1,6 @@
 ---
 title: MessageEntityHashtag
+parent: /types
 ---
 
 ### Properties

@@ -1,5 +1,6 @@
 ---
 title: getSavedChats
+parent: /methods
 ---
 
 Get a list of saved chats.<span class="select-none">  </span>

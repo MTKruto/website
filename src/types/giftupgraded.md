@@ -1,5 +1,6 @@
 ---
 title: GiftUpgraded
+parent: /types
 ---
 
 An upgraded gift.

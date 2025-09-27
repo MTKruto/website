@@ -1,5 +1,6 @@
 ---
 title: PhotoSource
+parent: /types
 ---
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <span class="font-mono">{ <span class="font-bold">type</span><span class="opacity-50">:</span> <span class="text-red-500">indexedAccess</span><span class="opacity-50">;</span> <span class="font-bold">secret</span><span class="opacity-50">:</span> <span>bigint</span> }</span>

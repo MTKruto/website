@@ -1,5 +1,6 @@
 ---
 title: sendPoll
+parent: /methods
 ---
 
 Send a poll.<span class="select-none">  </span>

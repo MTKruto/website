@@ -1,5 +1,6 @@
 ---
 title: MessageTypes
+parent: /types
 ---
 
 ### Properties

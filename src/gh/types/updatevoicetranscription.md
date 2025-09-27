@@ -1,5 +1,6 @@
 ---
 title: UpdateVoiceTranscription
+parent: /types
 ---
 
 A voice transcription was updated.

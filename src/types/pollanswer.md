@@ -1,5 +1,6 @@
 ---
 title: PollAnswer
+parent: /types
 ---
 
 An answer to a poll.

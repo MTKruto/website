@@ -1,5 +1,6 @@
 ---
 title: InlineQueryResultCachedAudio
+parent: /types
 ---
 
 ### Properties

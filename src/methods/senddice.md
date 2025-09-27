@@ -1,5 +1,6 @@
 ---
 title: sendDice
+parent: /methods
 ---
 
 Send a dice.<span class="select-none">  </span>

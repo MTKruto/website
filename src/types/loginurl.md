@@ -1,5 +1,6 @@
 ---
 title: LoginUrl
+parent: /types
 ---
 
 A login URL.

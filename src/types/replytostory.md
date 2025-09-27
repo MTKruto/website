@@ -1,5 +1,6 @@
 ---
 title: ReplyToStory
+parent: /types
 ---
 
 ### Properties

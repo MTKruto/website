@@ -1,5 +1,6 @@
 ---
 title: Reactions
+parent: /#walkthrough
 prev: /commands
 ---
 

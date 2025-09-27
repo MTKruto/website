@@ -1,5 +1,6 @@
 ---
 title: GiftUpgradedComponentBackdrop
+parent: /types
 ---
 
 The backdrop of an upgraded gift.

@@ -1,5 +1,6 @@
 ---
 title: MessageEntityBlockquote
+parent: /types
 ---
 
 ### Properties

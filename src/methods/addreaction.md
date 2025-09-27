@@ -1,5 +1,6 @@
 ---
 title: addReaction
+parent: /methods
 ---
 
 Make a reaction to a message.<span class="select-none">  </span>

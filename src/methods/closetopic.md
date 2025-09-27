@@ -1,5 +1,6 @@
 ---
 title: closeTopic
+parent: /methods
 ---
 
 Close a forum topic.<span class="select-none">  </span>

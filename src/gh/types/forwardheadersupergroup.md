@@ -1,5 +1,6 @@
 ---
 title: ForwardHeaderSupergroup
+parent: /types
 ---
 
 ### Properties

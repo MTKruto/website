@@ -1,5 +1,6 @@
 ---
 title: Voice
+parent: /types
 ---
 
 A voice note.

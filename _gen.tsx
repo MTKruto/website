@@ -54,6 +54,7 @@ for (const dir of [`src${version}/methods`, `src${version}/types`]) {
 
   let methods_md = `---
 title: Methods
+parent: /#api-reference
 ---
 `;
 
@@ -131,6 +132,7 @@ title: Methods
 { // TYPE INDEX
   let types_md = `---
 title: Types
+parent: /#api-reference
 ---
 `;
 
@@ -192,6 +194,7 @@ title: Types
 
     let method_md = `---
 title: ${method.name}
+parent: /methods
 ---\n\n`;
 
     if (method.jsDoc?.doc) {
@@ -325,6 +328,7 @@ ${optional}`.trim()
     if (type.name.startsWith("_")) continue;
     let type_md = `---
 title: ${type.name}
+parent: /types
 ---\n\n`;
 
     if (type.jsDoc?.doc) {

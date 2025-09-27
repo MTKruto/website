@@ -1,5 +1,6 @@
 ---
 title: MessageEntityTextMention
+parent: /types
 ---
 
 ### Properties

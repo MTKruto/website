@@ -1,5 +1,6 @@
 ---
 title: InlineQueryResultArticle
+parent: /types
 ---
 
 ### Properties

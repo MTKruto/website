@@ -1,5 +1,6 @@
 ---
 title: sendVenue
+parent: /methods
 ---
 
 Send a venue.<span class="select-none">  </span>

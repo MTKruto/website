@@ -1,5 +1,6 @@
 ---
 title: pinTopic
+parent: /methods
 ---
 
 Pin a forum topic.<span class="select-none">  </span>

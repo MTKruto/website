@@ -1,5 +1,6 @@
 ---
 title: sendAudio
+parent: /methods
 ---
 
 Send an audio file.<span class="select-none">  </span>

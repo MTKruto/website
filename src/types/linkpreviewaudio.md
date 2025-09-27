@@ -1,5 +1,6 @@
 ---
 title: LinkPreviewAudio
+parent: /types
 ---
 
 An audio link preview.

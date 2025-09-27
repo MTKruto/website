@@ -1,5 +1,6 @@
 ---
 title: UpdateChosenInlineResult
+parent: /types
 ---
 
 An inline query result was chosen. Bot-only.

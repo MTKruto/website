@@ -1,5 +1,6 @@
 ---
 title: RefundedPayment
+parent: /types
 ---
 
 Information on a refunded payment.

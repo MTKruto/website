@@ -1,5 +1,6 @@
 ---
 title: sendGift
+parent: /methods
 ---
 
 Send a gift.<span class="select-none">  </span>

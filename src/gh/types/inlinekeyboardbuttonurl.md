@@ -1,5 +1,6 @@
 ---
 title: InlineKeyboardButtonURL
+parent: /types
 ---
 
 An inline keyboard button that, when pressed, opens the specified URL.

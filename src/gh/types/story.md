@@ -1,5 +1,6 @@
 ---
 title: Story
+parent: /types
 ---
 
 A story.

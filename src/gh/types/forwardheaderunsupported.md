@@ -1,5 +1,6 @@
 ---
 title: ForwardHeaderUnsupported
+parent: /types
 ---
 
 ### Properties

@@ -1,5 +1,6 @@
 ---
 title: InviteLink
+parent: /types
 ---
 
 A chat invite link.
