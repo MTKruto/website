@@ -20,8 +20,7 @@ site.ignore("components");
 
 site.use(
   toc({
-    slugify: (text) =>
-      text.replaceAll(/\p{P}/ug, "").toLowerCase().replaceAll(/\s+/g, "-"),
+    slugify: (text) => toAnchor(text),
   }),
 );
 
@@ -58,6 +57,10 @@ site.data("layout", "layout.tsx");
 site.copy("_headers");
 site.copy("static", ".");
 
+function toAnchor(title: string) {
+  return title.replaceAll(/\p{P}/ug, "").toLowerCase().replaceAll(/\s+/g, "-");
+}
+
 function getTitle(path: string) {
   let anchor: string | undefined;
   if (path.includes("#")) {
@@ -82,7 +85,7 @@ function getTitle(path: string) {
           line = line.slice(1);
         }
         line = line.trim();
-        if (line.replaceAll(" ", "-").toLowerCase() === anchor) {
+        if (toAnchor(line) === anchor) {
           return line;
         }
       }
@@ -256,6 +259,24 @@ ${jsr ? "bunx jsr add " + pkg : "bun add " + pkg}
 
 </code-group>
 `;
+}, { type: "filter" });
+
+site.helper("i", (page) => {
+  const content = site.pages.find((v) => v.src.path === page)?.data.content;
+  if (typeof content !== "string") {
+    return "no for " + page;
+  }
+  const links = new Array<[string, string]>();
+  for (let line of content.split("\n")) {
+    if (!line.startsWith("## ")) {
+      continue;
+    }
+    line = line.slice(3).trim();
+    const title = line;
+    const link = page + "#" + toAnchor(line);
+    links.push([title, link]);
+  }
+  return "\n" + links.map((v) => `    - [${v[0]}](${v[1]})`).join("\n");
 }, { type: "filter" });
 
 export default site;

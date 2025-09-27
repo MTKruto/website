@@ -26,23 +26,25 @@ Its key features include:
 
 ### Walkthrough
 
-1. [Installation](/installation)
-2. [Starting the Client](/starting-the-client)
-3. [Calling Methods](/calling-methods)
-4. [Handling Updates](/handling-updates)
-5. [Working with Messages](/working-with-messages)
-6. [Commands](/commands)
-7. [Reactions](/reactions)
+1. [Installation](/installation) {{ "/installation" |> i }}
+2. [Starting the Client](/starting-the-client) {{ "/starting-the-client" |> i }}
+3. [Calling Methods](/calling-methods) {{ "/calling-methods" |> i }}
+4. [Handling Updates](/handling-updates) {{ "/handling-updates" |> i }}
+5. [Working with Messages](/working-with-messages) {{ "/working-with-messages"
+   |> i }}
+6. [Commands](/commands) {{ "/commands" |> i }}
+7. [Reactions](/reactions) {{ "/reactions" |> i }}
 
 ### Guides
 
-- [Flood Waits](/flood-waits)
-- [Log Verbosity](/log-verbosity)
-- [Splitting Code](/splitting-code)
-- [Storage Adapters](/storage-adapters)
-- [Auth Strings](/auth-strings)
-- [Interacting with Telegram API](/interacting-with-telegram-api)
-- [Graceful Shutdown](/graceful-shutdown)
+1. [Flood Waits](/flood-waits) {{ "/flood-waits" |> i }}
+2. [Log Verbosity](/log-verbosity) {{ "/log-verbosity" |> i }}
+3. [Splitting Code](/splitting-code) {{ "/splitting-code" |> i }}
+4. [Storage Adapters](/storage-adapters) {{ "/storage-adapters" |> i }}
+5. [Auth Strings](/auth-strings) {{ "/auth-strings" |> i }}
+6. [Interacting with Telegram API](/interacting-with-telegram-api) {{
+   "/interacting-with-telegram-api" |> i }}
+7. [Graceful Shutdown](/graceful-shutdown) {{ "/graceful-shutdown" |> i }}
 
 ### API Reference
 
@@ -51,8 +53,8 @@ Its key features include:
 
 ### Other Pages
 
-- [FAQ](/faq)
-- [Terminology](/terminology)
+- [FAQ](/faq) {{ "/faq" |> i }}
+- [Terminology](/terminology) {{ "/terminology" |> i }}
 - [MTKruto Server](/server)
 - [Acknowledgements](/acknowledgements)
-- [Contributing](/contributing)
+- [Contributing](/contributing) {{ "/contributing" |> i }}
