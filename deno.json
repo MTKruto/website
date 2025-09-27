@@ -1,8 +1,8 @@
 {
   "lock": false,
   "imports": {
-    "lume/": "https://deno.land/x/lume@v2.4.3/",
-    "deno_doc/": "https://deno.land/x/deno_doc@0.125.0/"
+    "@deno/doc": "jsr:@deno/doc@^0.184.0",
+    "lume/": "https://deno.land/x/lume@v2.4.3/"
   },
   "tasks": {
     "lume": "echo \"import 'lume/cli.ts'\" | deno run -A -",

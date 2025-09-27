@@ -1,4 +1,4 @@
-import { JsDocTagDoc, JsDocTagUnsupported } from "deno_doc/types.d.ts";
+import { JsDocTagDoc, JsDocTagUnsupported } from "@deno/doc";
 import { getDocs } from "./_docs.ts";
 import { getMethodOptionalParams, Method } from "./components/Method.tsx";
 import { TsType, TypeParams_ } from "./components/TsType.tsx";

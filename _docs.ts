@@ -1,11 +1,11 @@
-import { doc as doc_ } from "deno_doc/mod.ts";
 import {
+  doc as doc_,
   DocNodeClass,
   DocNodeInterface,
   DocNodeNamespace,
   DocNodeTypeAlias,
   TsTypeDef,
-} from "deno_doc/types.d.ts";
+} from "@deno/doc";
 import versions from "./_versions.ts";
 
 const mdnLinks: Record<string, string> = {

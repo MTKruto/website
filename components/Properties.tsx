@@ -2,7 +2,7 @@ import {
   ClassPropertyDef,
   InterfacePropertyDef,
   LiteralPropertyDef,
-} from "deno_doc/types.d.ts";
+} from "@deno/doc";
 import { PropertyName } from "./PropertyName.tsx";
 import { TsType } from "./TsType.tsx";
 import { LinkGetter } from "./TsType.tsx";
