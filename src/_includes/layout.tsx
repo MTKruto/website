@@ -1,7 +1,5 @@
 import { Telegram } from "./Telegram.tsx";
 import { GitHub } from "./GitHub.tsx";
-import { getPageDate } from "lume/core/utils/page_date.ts";
-import site from "../../_config.ts";
 
 const fonts = Array.from(Deno.readDirSync("src/static/fonts"))
   .map((v) => v.name.replaceAll("src/", "/"));
@@ -11,7 +9,6 @@ export default (
   filters: Lume.Data,
 ) => {
   function Bc() {
-    // deno-lint-ignore jsx-key
     const items = filters.bc(url).map((v: [string, string]) => (
       <a href={v[0]}>{v[1]}</a>
     ));
