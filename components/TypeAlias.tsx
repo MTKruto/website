@@ -1,4 +1,4 @@
-import { TypeAliasDef } from "@deno/doc";
+import { TypeAliasDef } from "deno_doc/types.d.ts";
 import { TsType } from "./TsType.tsx";
 import { LinkGetter } from "./TsType.tsx";
 

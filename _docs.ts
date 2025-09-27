@@ -1,11 +1,11 @@
+import { doc as doc_ } from "deno_doc/mod.ts";
 import {
-  doc as doc_,
   DocNodeClass,
   DocNodeInterface,
   DocNodeNamespace,
   DocNodeTypeAlias,
   TsTypeDef,
-} from "@deno/doc";
+} from "deno_doc/types.d.ts";
 import versions from "./_versions.ts";
 
 const mdnLinks: Record<string, string> = {
@@ -34,6 +34,7 @@ export async function getDocs(version?: string) {
       ? "https://raw.githubusercontent.com/MTKruto/MTKruto/main/mod.ts"
       : `https://deno.land/x/mtkruto@${version}/mod.ts`,
   );
+
   const typeNodes = mod.filter((v) => v.location.filename.includes("/types/"));
 
   const errorNodes =

@@ -2,7 +2,7 @@
   "lock": false,
   "imports": {
     "@david/dax": "jsr:@david/dax@^0.43.2",
-    "@deno/doc": "jsr:@deno/doc@^0.184.0",
+    "deno_doc/": "https://deno.land/x/deno_doc@0.125.0/",
     "lume/": "https://deno.land/x/lume@v2.4.3/",
     "lume_markdown_plugins/": "https://deno.land/x/lume_markdown_plugins@v0.9.0/"
   },

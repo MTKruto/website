@@ -18,7 +18,7 @@ import {
   TsTypeParamDef,
   TsTypePredicateDef,
   TsTypeRefDef,
-} from "@deno/doc";
+} from "deno_doc/types.d.ts";
 import { PropertyName } from "./PropertyName.tsx";
 import { fixName } from "./misc.ts";
 

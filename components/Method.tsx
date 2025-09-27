@@ -4,7 +4,7 @@ import {
   JsDocTagParam,
   ParamIdentifierDef,
   TsTypeDefLiteral,
-} from "@deno/doc";
+} from "deno_doc/types.d.ts";
 import { PropertyName } from "./PropertyName.tsx";
 import { TsType } from "./TsType.tsx";
 import { LinkGetter } from "./TsType.tsx";
