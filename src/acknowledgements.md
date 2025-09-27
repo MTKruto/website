@@ -75,7 +75,7 @@ Dunkan (pmodes)
     SOFTWARE.
 
 
-Aliaksei Levin &lt;levlam@telegram.org&gt;, Arseny Smirnov &lt;arseny30@gmail.com&gt; (TDLib file IDs)
+Aliaksei Levin <levlam@telegram.org>, Arseny Smirnov <arseny30@gmail.com> (TDLib file IDs)
     Boost Software License - Version 1.0 - August 17th, 2003
 
     Permission is hereby granted, free of charge, to any person or organization
