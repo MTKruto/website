@@ -9,7 +9,7 @@ rethrowing.
 
 ## Opting Out of the Default Behavior
 
-If you don't want to handle <=10-second flood waits automatically, you can opt
+If you don't want to handle ≤10-second flood waits automatically, you can opt
 out by setting the `defaultHandlers` parameter of the client to `false`:
 
 ```ts
