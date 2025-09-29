@@ -51,7 +51,7 @@ Its key features include:
 - [Methods](/methods)
 - [Types](/types)
 
-### Other Pages
+### Misc
 
 - [FAQ](/faq) {{ "/faq" |> i }}
 - [Terminology](/terminology) {{ "/terminology" |> i }}

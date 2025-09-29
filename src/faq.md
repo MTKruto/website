@@ -1,6 +1,6 @@
 ---
 title: FAQ
-parent: /#other-pages
+parent: /#misc
 ---
 
 ## What Are the Differences Between the Telegram API and the Bot API?
