@@ -3,7 +3,7 @@ title: PriceTag
 parent: /types
 ---
 
-A TON price tag.
+A price tag.
 
 ### Properties
 
