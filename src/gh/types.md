@@ -559,6 +559,13 @@ A price tag.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/pricetag">PriceTag</a>
+<div><div>
+
+A TON price tag.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/reaction">Reaction</a>
 <div><div>
 

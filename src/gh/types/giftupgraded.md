@@ -52,5 +52,13 @@ The address of the gift in TON blockchain.
 
 The amount of stars that can be used to buy the gift.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_priceTon" data-anchor><span class="font-bold">priceTon</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The amount of TON that can be used to buy the gift.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_tonOnly" data-anchor><span class="font-bold">tonOnly</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the gift can be bought only using TON.
+
 </div></div></div></div>
 
