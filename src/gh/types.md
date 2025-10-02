@@ -228,6 +228,13 @@ A gift.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/giftvalue">GiftValue</a>
+<div><div>
+
+A gift's value.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/giveaway">Giveaway</a>
 <div><div>
 

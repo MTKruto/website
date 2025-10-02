@@ -60,7 +60,7 @@ The amount of TON that can be used to buy the gift.
 
 Whether the gift can be bought only using TON.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_value" data-anchor><span class="font-bold">value</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">GiftValue</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_value" data-anchor><span class="font-bold">value</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/giftvalue"  >GiftValue</a></div></div><div class="pl-3"><div class="no-margin">
 
 The value of the gift.
 
