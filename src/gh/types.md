@@ -424,6 +424,20 @@ Information on the reactions made to a channel post.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/messagereactionlist">MessageReactionList</a>
+<div><div>
+
+A list of reactions made to a message along with the users or chats that made them.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/messagereactionlistitem">MessageReactionListItem</a>
+<div><div>
+
+An item in a reaction list.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/messagereactions">MessageReactions</a>
 <div><div>
 
