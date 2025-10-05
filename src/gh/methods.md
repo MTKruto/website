@@ -893,6 +893,13 @@ Retrieve a single message.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getmessagereactions">getMessageReactions</a>
+<div><div>
+
+Get a list of reactions made to a message.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getmessages">getMessages</a>
 <div><div>
 
