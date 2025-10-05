@@ -228,6 +228,13 @@ A gift.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/giftvalue">GiftValue</a>
+<div><div>
+
+A gift's value.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/giveaway">Giveaway</a>
 <div><div>
 
@@ -414,6 +421,20 @@ Represents a type of reaction made to a message.
 <div><div>
 
 Information on the reactions made to a channel post.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/messagereactionlist">MessageReactionList</a>
+<div><div>
+
+A list of reactions made to a message along with the users or chats that made them.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/messagereactionlistitem">MessageReactionListItem</a>
+<div><div>
+
+An item in a reaction list.
 
 </div></div>
 <div class="descr-list-border"></div>
