@@ -172,8 +172,14 @@ parent: /#api-reference
     );
     const cacheFile = cache?.value.includes("file");
     const tag = (text: string) => (
-      <span class="inline-flex w-fit items-center">
-        <span class="w-fit bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">
+      <span
+        class="inline-flex w-fit items-center"
+        style={{ fontSize: 12, whiteSpace: "nowrap", wordBreak: "keep-all" }}
+      >
+        <span
+          class="w-fit bg-dbt select-none text-fgt"
+          style={{ padding: "2px 8px", borderRadius: 12 }}
+        >
           {text.toUpperCase()}
         </span>
       </span>
