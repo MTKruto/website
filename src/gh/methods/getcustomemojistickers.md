@@ -3,7 +3,7 @@ title: getCustomEmojiStickers
 parent: /methods
 ---
 
-Get custom emoji documents for download.<span class="select-none">  <span class="inline-flex w-fit items-center"><span class="w-fit bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">CACHE</span></span></span>
+Get custom emoji documents for download.<span class="select-none">  <span class="inline-flex w-fit items-center" style="font-size:12px;white-space:nowrap;word-break:keep-all;"><span class="w-fit bg-dbt select-none text-fgt" style="padding:2px 8px;border-radius:12px;">CACHE</span></span></span>
 
 ### Parameters 
 
