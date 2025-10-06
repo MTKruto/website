@@ -39,35 +39,35 @@ Whether the administrator can change the name of the chat, its photo, descriptio
 
 Whether the administrator can invite users to the chat.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canPostMessages" data-anchor><span class="font-bold">canPostMessages</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canPostMessages" data-anchor><span class="font-bold">canPostMessages</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the administrator can make posts in the channel. Only available for channels.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canEditMessages" data-anchor><span class="font-bold">canEditMessages</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canEditMessages" data-anchor><span class="font-bold">canEditMessages</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the administrator can pin posts and edit posts they didn't send. Only available for channels.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canPinMessages" data-anchor><span class="font-bold">canPinMessages</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canPinMessages" data-anchor><span class="font-bold">canPinMessages</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the administrator can pin messages. Only available for groups and supergroups.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canManageTopics" data-anchor><span class="font-bold">canManageTopics</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canManageTopics" data-anchor><span class="font-bold">canManageTopics</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the administrator can manage topics. Only available for supergroups.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canPostStories" data-anchor><span class="font-bold">canPostStories</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canPostStories" data-anchor><span class="font-bold">canPostStories</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the administrator can post stories.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canEditStories" data-anchor><span class="font-bold">canEditStories</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canEditStories" data-anchor><span class="font-bold">canEditStories</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the administrator can edit stories.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canDeleteStories" data-anchor><span class="font-bold">canDeleteStories</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canDeleteStories" data-anchor><span class="font-bold">canDeleteStories</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the administrator can delete stories.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canManageDirectMessages" data-anchor><span class="font-bold">canManageDirectMessages</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canManageDirectMessages" data-anchor><span class="font-bold">canManageDirectMessages</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the administrator manage direct messages.
 
