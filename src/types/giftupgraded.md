@@ -28,9 +28,9 @@ The name of the user that owns the gift.
 
 The address of the TON wallet that owns the gift.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_owner" data-anchor><span class="font-bold">owner</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/user"  >User</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_owner" data-anchor><span class="font-bold">owner</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/chatp"  >ChatP</a></div></div><div class="pl-3"><div class="no-margin">
 
-The user that owns the gift.
+The user or chat that owns the gift.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_currentUpgrades" data-anchor><span class="font-bold">currentUpgrades</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 

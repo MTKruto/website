@@ -499,6 +499,13 @@ Pin a forum topic.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/promotechatmember">promoteChatMember</a>
+<div><div>
+
+Promote a chat member.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/reopentopic">reopenTopic</a>
 <div><div>
 
