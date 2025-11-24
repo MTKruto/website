@@ -32,7 +32,7 @@ In fact, the constructor has no required arguments, but you usually pass the
 parameters `storage`, `apiId`, and `apiHash`, unless you know what you are
 doing.
 
-The following examples show you how you can construct a client that using the
+The following examples show you how you can construct a client that uses the
 [storage adapter](/storage-adapters)
 [`StorageLocalStorage`](https://mtkru.to/storage-adapters/#localstorage).
 
