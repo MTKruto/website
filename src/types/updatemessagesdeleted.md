@@ -19,5 +19,5 @@ client.on("deletedMessages", (ctx) => {
 
 The deleted messages
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_scheduled" data-anchor><span class="font-bold">scheduled</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_businessConnectionId" data-anchor><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div></div></div>
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isScheduled" data-anchor><span class="font-bold">isScheduled</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_businessConnectionId" data-anchor><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div></div></div>
 

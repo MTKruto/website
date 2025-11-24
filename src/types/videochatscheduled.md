@@ -11,7 +11,7 @@ A scheduled video chat.
 
 The video chat's title.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_liveStream" data-anchor><span class="font-bold">liveStream</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isLiveStream" data-anchor><span class="font-bold">isLiveStream</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether it is a live stream.
 

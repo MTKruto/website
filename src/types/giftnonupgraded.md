@@ -20,7 +20,7 @@ The sticker that represents the gift.
 
 The price of the sticker in Telegram Stars.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_limited" data-anchor><span class="font-bold">limited</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isLimited" data-anchor><span class="font-bold">isLimited</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the supply of this gift is limited.
 
@@ -36,7 +36,7 @@ The total supply of the gift if limited.
 
 Whether the gift is sold out if limited.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_birthday" data-anchor><span class="font-bold">birthday</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isBirthday" data-anchor><span class="font-bold">isBirthday</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the gift is dedicated to birthdays.
 

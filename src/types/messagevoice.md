@@ -7,7 +7,7 @@ A voice message.
 
 ### Properties
 
-<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_out" data-anchor><span class="font-bold">out</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_isOutgoing" data-anchor><span class="font-bold">isOutgoing</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the message is outgoing (sent by the current user).
 

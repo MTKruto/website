@@ -27,7 +27,7 @@ A file identifier that can be used to identify the big version of the chat photo
 
 Whether the chat photo is animated.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_personal" data-anchor><span class="font-bold">personal</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isPersonal" data-anchor><span class="font-bold">isPersonal</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Differentiates between user profile photos.
 
