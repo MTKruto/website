@@ -19,7 +19,7 @@ The user who created the invite link.
 
 Whether an admin must explicitly approve join requests originating from this invite link.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_revoked" data-anchor><span class="font-bold">revoked</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isRevoked" data-anchor><span class="font-bold">isRevoked</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the invite link is revoked.
 

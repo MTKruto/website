@@ -31,7 +31,7 @@ The stickers (or emojis) in the set.
 
 Thumbnails if available.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_adaptive" data-anchor><span class="font-bold">adaptive</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isAdaptive" data-anchor><span class="font-bold">isAdaptive</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the emojis in the set are adaptive.
 
@@ -39,15 +39,15 @@ Whether the emojis in the set are adaptive.
 
 Whether the emojis in the set can be set as channel status.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_creator" data-anchor><span class="font-bold">creator</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isCreator" data-anchor><span class="font-bold">isCreator</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the current account is the creator of the set.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_official" data-anchor><span class="font-bold">official</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isOfficial" data-anchor><span class="font-bold">isOfficial</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the set is official.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_archived" data-anchor><span class="font-bold">archived</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isArchived" data-anchor><span class="font-bold">isArchived</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the set is archived.
 
