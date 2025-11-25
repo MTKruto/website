@@ -169,4 +169,4 @@ const client = new Client({
 
 </code-group>
 
-This storage adapter is only supported in browsers.
+This storage adapter is supported only in browsers.
