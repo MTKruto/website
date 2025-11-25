@@ -41,7 +41,7 @@ const client = new Client({
 });
 ```
 
-This storage adapter is only supported inside browsers and on Deno.
+This storage adapter is supported only inside browsers and on Deno.
 
 ## localStorage
 
