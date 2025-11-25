@@ -80,7 +80,7 @@ const client = new Client({
 ```
 
 This module is natively supported on Deno, and unsupported for browsers. To use
-it on Node.js, you first need to install the following required packages:
+it on Node.js, the following required packages must be installed:
 
 {{ "@deno/kv @mtkruto/storage-denokv" |> install }}
 
