@@ -23,7 +23,7 @@ This will remove the need for going through the authorization flow when your sto
 
 ## CLI Tool
 
-[create-auth-string](https://github.com/MTKruto/create-auth-string) is a tool that lets you create auth strings in the go. To use it, just one of the following commands depending on your runtime.
+[create-auth-string](https://github.com/MTKruto/create-auth-string) is a tool that lets you create auth strings without leaving the command line. To use it, run one of the following commands depending on your runtime.
 
 {{ "@mtkruto/auth-string" |> create }}
 
