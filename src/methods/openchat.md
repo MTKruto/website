@@ -11,7 +11,11 @@ Open a chat.<span class="select-none">  </span>
 
 The identifier of a chat to open.
 
-</div></div></div></div>
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_timeout" data-anchor><span class="font-bold">timeout</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+TTL of update differences for unpolled chats in seconds. Defaults to a value specified by Telegram.
+
+</div></div></div></div></div>
 
 ### Result 
 
@@ -20,7 +24,12 @@ The identifier of a chat to open.
 ### Syntax
 
 ```ts
+// Required parameters only.
 await client.openChat(chatId);
+
+// Required parameters + optional parameters.
+// Any of the optional parameters can be omitted.
+await client.openChat(chatId, { timeout });
 ```
 
 
