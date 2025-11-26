@@ -8,3 +8,8 @@
 @use "style/toc";
 
 @use "style/code-group"; // !important
+
+// misc
+ul li li {
+  list-style: square;
+}

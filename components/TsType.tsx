@@ -1,24 +1,4 @@
-import {
-  LiteralDef,
-  ObjectPatPropAssignDef,
-  ObjectPatPropDef,
-  ObjectPatPropKeyValueDef,
-  ObjectPatPropRestDef,
-  ParamArrayDef,
-  ParamAssignDef,
-  ParamDef,
-  ParamIdentifierDef,
-  ParamObjectDef,
-  ParamRestDef,
-  TsConditionalDef,
-  TsFnOrConstructorDef,
-  TsTypeDef,
-  TsTypeLiteralDef,
-  TsTypeOperatorDef,
-  TsTypeParamDef,
-  TsTypePredicateDef,
-  TsTypeRefDef,
-} from "deno_doc/types.d.ts";
+import { LiteralDef, ObjectPatPropAssignDef, ObjectPatPropDef, ObjectPatPropKeyValueDef, ObjectPatPropRestDef, ParamArrayDef, ParamAssignDef, ParamDef, ParamIdentifierDef, ParamObjectDef, ParamRestDef, TsConditionalDef, TsFnOrConstructorDef, TsTypeDef, TsTypeLiteralDef, TsTypeOperatorDef, TsTypeParamDef, TsTypePredicateDef, TsTypeRefDef } from "deno_doc/types.d.ts";
 import { PropertyName } from "./PropertyName.tsx";
 import { fixName } from "./misc.ts";
 
@@ -47,8 +27,7 @@ export function TsType(
     case "typeOperator":
       return <TypeOperator getLink={getLink}>{tt.typeOperator}</TypeOperator>;
     case "parenthesized":
-      return <Parenthesized getLink={getLink}>{tt.parenthesized}
-      </Parenthesized>;
+      return <Parenthesized getLink={getLink}>{tt.parenthesized}</Parenthesized>;
     case "rest":
       return <Rest getLink={getLink}>{tt.rest}</Rest>;
     case "optional":
@@ -76,8 +55,7 @@ export function TsType(
     case "typeLiteral":
       return <TypeLiteral getLink={getLink}>{tt.typeLiteral}</TypeLiteral>;
     case "typePredicate":
-      return <TypePredicate getLink={getLink}>{tt.typePredicate}
-      </TypePredicate>;
+      return <TypePredicate getLink={getLink}>{tt.typePredicate}</TypePredicate>;
   }
   return <span class="text-red-500">{tt.kind}</span>;
 }
@@ -149,9 +127,7 @@ function TypeRef(
   return (
     <>
       {name}
-      {typeRef.typeParams
-        ? <TypeParams getLink={getLink}>{typeRef.typeParams}</TypeParams>
-        : ""}
+      {typeRef.typeParams ? <TypeParams getLink={getLink}>{typeRef.typeParams}</TypeParams> : ""}
     </>
   );
 }
@@ -223,8 +199,7 @@ function TypeOperator(
 ) {
   return (
     <>
-      {typeOperator.operator}{" "}
-      <TsType getLink={getLink}>{typeOperator.tsType}</TsType>
+      {typeOperator.operator} <TsType getLink={getLink}>{typeOperator.tsType}</TsType>
     </>
   );
 }
@@ -294,8 +269,7 @@ export function TypeParam_({
       {param.default && (
         <>
           {" "}
-          <span class="opacity-50">=</span>{" "}
-          <TsType getLink={getLink}>{param.default}</TsType>
+          <span class="opacity-50">=</span> <TsType getLink={getLink}>{param.default}</TsType>
         </>
       )}
     </>
@@ -340,9 +314,7 @@ function FnOrConstructor({
     <>
       {constructor ? "new " : ""}
       <TypeParams_ getLink={getLink}>{typeParams}</TypeParams_>(
-      <Params getLink={getLink}>{params}</Params>){" "}
-      <span class="opacity-50">=&gt;</span>{" "}
-      <TsType getLink={getLink}>{tsType}</TsType>
+      <Params getLink={getLink}>{params}</Params>) <span class="opacity-50">=&gt;</span> <TsType getLink={getLink}>{tsType}</TsType>
     </>
   );
 }
@@ -355,12 +327,7 @@ function Conditional(
 ) {
   return (
     <>
-      <TsType getLink={getLink}>{conditional.checkType}</TsType> extends{" "}
-      <TsType getLink={getLink}>{conditional.extendsType}</TsType>{" "}
-      <span class="opacity-50">?</span>{" "}
-      <TsType getLink={getLink}>{conditional.trueType}</TsType>{" "}
-      <span class="opacity-50">:</span>{" "}
-      <TsType getLink={getLink}>{conditional.falseType}</TsType>
+      <TsType getLink={getLink}>{conditional.checkType}</TsType> extends <TsType getLink={getLink}>{conditional.extendsType}</TsType> <span class="opacity-50">?</span> <TsType getLink={getLink}>{conditional.trueType}</TsType> <span class="opacity-50">:</span> <TsType getLink={getLink}>{conditional.falseType}</TsType>
     </>
   );
 }
@@ -374,8 +341,7 @@ function TypeLiteral(
   const a = typeLiteral.properties
     .map((v) => (
       <>
-        <PropertyName hasType={!!v.tsType}>{v}</PropertyName>{" "}
-        {v.tsType ? <TsType getLink={getLink}>{v.tsType}</TsType> : "any"}
+        <PropertyName hasType={!!v.tsType}>{v}</PropertyName> {v.tsType ? <TsType getLink={getLink}>{v.tsType}</TsType> : "any"}
       </>
     ))
     .reduce((a, b) => (
@@ -384,9 +350,7 @@ function TypeLiteral(
         <span class="opacity-50">;</span> {b}
       </>
     ));
-  return typeLiteral.properties.length == 0
-    ? <>{"{}"}</>
-    : <span class="font-mono">{"{ "}{a}{" }"}</span>;
+  return typeLiteral.properties.length == 0 ? <>{"{}"}</> : <span class="font-mono">{"{ "}{a}{" }"}</span>;
 }
 
 function TypePredicate(
@@ -422,14 +386,11 @@ function ParamArray({
 }) {
   return (
     <>
-      [{param.elements.map((e, i) =>
-        e && <Param key={i} getLink={getLink}>{e}</Param>
-      )}]
+      [{param.elements.map((e, i) => e && <Param key={i} getLink={getLink}>{e}</Param>)}]
       {param.optional || optional ? "?" : ""}
       {param.tsType && (
         <>
-          <span style="opacity-50">:</span>{" "}
-          <TsType getLink={getLink}>{param.tsType}</TsType>
+          <span style="opacity-50">:</span> <TsType getLink={getLink}>{param.tsType}</TsType>
         </>
       )}
     </>
@@ -483,9 +444,7 @@ function ObjectAssignPat({
   return (
     <>
       {pattern.key}
-      {pattern.value && pattern.value !== "[UNSUPPORTED]"
-        ? `= ${pattern.value}`
-        : undefined}
+      {pattern.value && pattern.value !== "[UNSUPPORTED]" ? `= ${pattern.value}` : undefined}
     </>
   );
 }
@@ -557,8 +516,7 @@ function ParamObject({
       &#123; {props} &#125;{param.optional || optional ? "?" : ""}
       {param.tsType && (
         <>
-          <span style="opacity-50">:</span>{" "}
-          <TsType getLink={getLink}>{param.tsType}</TsType>
+          <span style="opacity-50">:</span> <TsType getLink={getLink}>{param.tsType}</TsType>
         </>
       )}
     </>
@@ -578,8 +536,7 @@ function ParamRest({
       <Param getLink={getLink}>{param.arg}</Param>
       {param.tsType && (
         <>
-          <span style="opacity-50">:</span>{" "}
-          <TsType getLink={getLink}>{param.tsType}</TsType>
+          <span style="opacity-50">:</span> <TsType getLink={getLink}>{param.tsType}</TsType>
         </>
       )}
     </>

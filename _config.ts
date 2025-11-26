@@ -150,9 +150,7 @@ site.process([".html"], (pages) => {
     }
     for (const code of document.querySelectorAll(".language-shell")) {
       code.innerHTML = code.innerHTML.trim()
-        .split("\n").map((v) =>
-          `<span style="opacity: 0.5; user-select: none">$ </span>${v}`
-        ).join("\n");
+        .split("\n").map((v) => `<span style="opacity: 0.5; user-select: none">$ </span>${v}`).join("\n");
     }
   }
 });
@@ -173,10 +171,7 @@ site.process([".html"], (pages) => {
         let first = true;
         let n = 0;
         for (const node of codeGroup.querySelectorAll("code-group-item")) {
-          controls.innerHTML +=
-            `<button data-n=${n++} class="code-group-button${
-              first ? " code-group-button-active" : ""
-            }">${node.getAttribute("title")}</button>`;
+          controls.innerHTML += `<button data-n=${n++} class="code-group-button${first ? " code-group-button-active" : ""}">${node.getAttribute("title")}</button>`;
           first = false;
         }
         div.append(controls);

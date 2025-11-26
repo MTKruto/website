@@ -13,10 +13,7 @@ export function TypeAlias(
       {typeAlias.tsType.kind == "union"
         ? (
           <>
-            <span class="opacity-50">|</span>{" "}
-            {typeAlias.tsType.union.map((v) => (
-              <TsType getLink={getLink}>{v}</TsType>
-            )).reduce((a, b) => (
+            <span class="opacity-50">|</span> {typeAlias.tsType.union.map((v) => <TsType getLink={getLink}>{v}</TsType>).reduce((a, b) => (
               <>
                 {a}
                 {"\n"}

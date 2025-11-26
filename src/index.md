@@ -34,13 +34,13 @@ Its key features include:
 
 ### Guides
 
-1. [Flood Waits](/flood-waits) {{ "/flood-waits" |> i }}
-2. [Log Verbosity](/log-verbosity) {{ "/log-verbosity" |> i }}
-3. [Splitting Code](/splitting-code) {{ "/splitting-code" |> i }}
-4. [Storage Adapters](/storage-adapters) {{ "/storage-adapters" |> i }}
-5. [Auth Strings](/auth-strings) {{ "/auth-strings" |> i }}
-6. [Interacting with Telegram API](/interacting-with-telegram-api) {{ "/interacting-with-telegram-api" |> i }}
-7. [Graceful Shutdown](/graceful-shutdown) {{ "/graceful-shutdown" |> i }}
+- [Auth Strings](/auth-strings) {{ "/auth-strings" |> i }}
+- [Flood Waits](/flood-waits) {{ "/flood-waits" |> i }}
+- [Graceful Shutdown](/graceful-shutdown) {{ "/graceful-shutdown" |> i }}
+- [Interacting with Telegram API](/interacting-with-telegram-api) {{ "/interacting-with-telegram-api" |> i }}
+- [Log Verbosity](/log-verbosity) {{ "/log-verbosity" |> i }}
+- [Splitting Code](/splitting-code) {{ "/splitting-code" |> i }}
+- [Storage Adapters](/storage-adapters) {{ "/storage-adapters" |> i }}
 
 ### API Reference
 

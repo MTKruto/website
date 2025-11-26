@@ -1,20 +1,11 @@
 import { doc as doc_ } from "deno_doc/mod.ts";
-import {
-  DocNodeClass,
-  DocNodeInterface,
-  DocNodeNamespace,
-  DocNodeTypeAlias,
-  TsTypeDef,
-} from "deno_doc/types.d.ts";
+import { DocNodeClass, DocNodeInterface, DocNodeNamespace, DocNodeTypeAlias, TsTypeDef } from "deno_doc/types.d.ts";
 import versions from "./_versions.ts";
 
 const mdnLinks: Record<string, string> = {
-  "Uint8Array":
-    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
-  "Promise":
-    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
-  "ReadableStream":
-    "https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream",
+  "Uint8Array": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+  "Promise": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+  "ReadableStream": "https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream",
   "URL": "https://developer.mozilla.org/en-US/docs/Web/API/URL",
 };
 
@@ -30,27 +21,19 @@ export async function getDocs(version?: string) {
   }
 
   const mod = await doc(
-    version == "gh"
-      ? "https://raw.githubusercontent.com/MTKruto/MTKruto/main/mod.ts"
-      : `https://deno.land/x/mtkruto@${version}/mod.ts`,
+    version == "gh" ? "https://raw.githubusercontent.com/MTKruto/MTKruto/main/mod.ts" : `https://deno.land/x/mtkruto@${version}/mod.ts`,
   );
 
   const typeNodes = mod.filter((v) => v.location.filename.includes("/types/"));
 
-  const errorNodes =
-    mod.find((v): v is DocNodeNamespace =>
-      v.kind == "namespace" && v.name == "errors"
-    )?.namespaceDef.elements ?? [];
+  const errorNodes = mod.find((v): v is DocNodeNamespace => v.kind == "namespace" && v.name == "errors")?.namespaceDef.elements ?? [];
 
   const methodTypeNodes = mod.filter((v) =>
     v.location.filename.endsWith("/client/0_params.ts") ||
     v.location.filename.endsWith("/client/3_params.ts")
   );
 
-  const allElements =
-    mod.find((v): v is DocNodeNamespace =>
-      v.kind == "namespace" && v.name == "enums"
-    )?.namespaceDef.elements ?? [];
+  const allElements = mod.find((v): v is DocNodeNamespace => v.kind == "namespace" && v.name == "enums")?.namespaceDef.elements ?? [];
   for (const ns of allElements) {
     if (ns.kind == "namespace") {
       const prefix = ns.name + ".";
@@ -66,9 +49,7 @@ export async function getDocs(version?: string) {
     .sort((a, b) => a.name.localeCompare(b.name));
 
   const types = typeNodes
-    .filter((v): v is DocNodeInterface | DocNodeTypeAlias =>
-      v.kind == "interface" || v.kind == "typeAlias"
-    )
+    .filter((v): v is DocNodeInterface | DocNodeTypeAlias => v.kind == "interface" || v.kind == "typeAlias")
     .sort((a, b) => a.name.localeCompare(b.name));
 
   const namespaces = typeNodes
@@ -108,33 +89,19 @@ export async function getDocs(version?: string) {
         if (!t || t.kind != "interface") {
           continue;
         }
-        type.interfaceDef.properties = t.interfaceDef.properties.map((v) =>
-          type.interfaceDef.properties.some((v_) => v.name == v_.name)
-            ? type.interfaceDef.properties.find((v_) => v.name == v_.name)!
-            : v
-        ).concat(
-          type.interfaceDef.properties.filter((v) =>
-            !t.interfaceDef.properties.some((v_) => v.name == v_.name)
-          ),
+        type.interfaceDef.properties = t.interfaceDef.properties.map((v) => type.interfaceDef.properties.some((v_) => v.name == v_.name) ? type.interfaceDef.properties.find((v_) => v.name == v_.name)! : v).concat(
+          type.interfaceDef.properties.filter((v) => !t.interfaceDef.properties.some((v_) => v.name == v_.name)),
         );
       }
     }
   }
 
   const Client = mod
-    .find((v): v is DocNodeClass =>
-      (v.kind == "class") && (v.name == "Client")
-    );
+    .find((v): v is DocNodeClass => (v.kind == "class") && (v.name == "Client"));
   const names = new Set<string>();
   const methods = Client === undefined ? [] : Client.classDef.methods
-    .filter((v) =>
-      (v.accessibility === undefined) || (v.accessibility == "public")
-    )
-    .filter((v) =>
-      v.jsDoc?.tags?.some((v) =>
-        v.kind == "unsupported" && v.value.startsWith("@method")
-      )
-    )
+    .filter((v) => (v.accessibility === undefined) || (v.accessibility == "public"))
+    .filter((v) => v.jsDoc?.tags?.some((v) => v.kind == "unsupported" && v.value.startsWith("@method")))
     .filter((v) => !v.name.includes("["))
     .filter((v) => {
       try {
@@ -308,8 +275,7 @@ async function doc(spec: string): ReturnType<typeof doc_> {
         "https://api.github.com/repos/MTKruto/MTKruto/commits/main",
         { headers: { accept: "application/vnd.github.VERSION.sha" } },
       )).text();
-      spec =
-        `https://raw.githubusercontent.com/MTKruto/MTKruto/${lastCommitId.trim()}/` +
+      spec = `https://raw.githubusercontent.com/MTKruto/MTKruto/${lastCommitId.trim()}/` +
         spec.slice(GH_PREFIX.length);
     } catch (err) {
       console.log(err);

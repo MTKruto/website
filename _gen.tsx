@@ -45,12 +45,7 @@ for (const dir of [`src${version}/methods`, `src${version}/types`]) {
   }).sort(([, [a]], [, [b]]) => a.localeCompare(b));
   const knowsGroups = groups.map((v) => v[0]);
 
-  const hasGroup = (g: string) =>
-    methods.find((v) =>
-      v.jsDoc?.tags?.find((v): v is JsDocTagUnsupported =>
-        v.kind == "unsupported"
-      )?.value.split(/\s/)[1] == g
-    ) !== undefined;
+  const hasGroup = (g: string) => methods.find((v) => v.jsDoc?.tags?.find((v): v is JsDocTagUnsupported => v.kind == "unsupported")?.value.split(/\s/)[1] == g) !== undefined;
 
   let methods_md = `---
 title: Methods
@@ -62,11 +57,7 @@ parent: /#api-reference
     if (!hasGroup(g)) {
       continue;
     }
-    const methods_ = methods.filter((v) =>
-      v.jsDoc?.tags?.find((v): v is JsDocTagUnsupported =>
-        v.kind == "unsupported"
-      )?.value.split(/\s/)[1] == g
-    ).sort((a, b) => a.name.localeCompare(b.name));
+    const methods_ = methods.filter((v) => v.jsDoc?.tags?.find((v): v is JsDocTagUnsupported => v.kind == "unsupported")?.value.split(/\s/)[1] == g).sort((a, b) => a.name.localeCompare(b.name));
     if (!methods_.length) {
       continue;
     }
@@ -81,12 +72,8 @@ parent: /#api-reference
         method.jsDoc.doc = method.jsDoc.doc.replaceAll("Bot-only.", "");
         method.jsDoc.doc = method.jsDoc.doc.trim();
       }
-      methods_md += `<a href="${
-        version ? `${version}/` : "/"
-      }methods/${method.name.toLowerCase()}">${method.name}</a>\n`;
-      methods_md += `<div><div>\n\n${
-        method.jsDoc?.doc ?? `<i style="opacity: 0.5">No Description</i>`
-      }\n\n</div></div>\n`;
+      methods_md += `<a href="${version ? `${version}/` : "/"}methods/${method.name.toLowerCase()}">${method.name}</a>\n`;
+      methods_md += `<div><div>\n\n${method.jsDoc?.doc ?? `<i style="opacity: 0.5">No Description</i>`}\n\n</div></div>\n`;
       methods_md += '<div class="descr-list-border"></div>\n';
     }
 
@@ -94,9 +81,7 @@ parent: /#api-reference
   }
 
   const unlisted = methods.filter((v) => {
-    const tag = v.jsDoc?.tags?.find((v): v is JsDocTagUnsupported =>
-      v.kind == "unsupported"
-    )?.value.split(/\s/)[1];
+    const tag = v.jsDoc?.tags?.find((v): v is JsDocTagUnsupported => v.kind == "unsupported")?.value.split(/\s/)[1];
     if (!tag) {
       return true;
     }
@@ -114,12 +99,8 @@ parent: /#api-reference
         method.jsDoc.doc = method.jsDoc.doc.replaceAll("Bot-only.", "");
         method.jsDoc.doc = method.jsDoc.doc.trim();
       }
-      methods_md += `<a href="${
-        version ? `${version}/` : "/"
-      }methods/${method.name.toLowerCase()}">${method.name}</a>\n`;
-      methods_md += `<div><div>\n\n${
-        method.jsDoc?.doc ?? `<i style="opacity: 0.5">No Description</i>`
-      }\n\n</div></div>\n`;
+      methods_md += `<a href="${version ? `${version}/` : "/"}methods/${method.name.toLowerCase()}">${method.name}</a>\n`;
+      methods_md += `<div><div>\n\n${method.jsDoc?.doc ?? `<i style="opacity: 0.5">No Description</i>`}\n\n</div></div>\n`;
       methods_md += '<div class="descr-list-border"></div>\n';
     }
 
@@ -149,12 +130,8 @@ parent: /#api-reference
         return true;
       })
   ) {
-    types_md += `<a href="${
-      version ? `${version}/` : "/"
-    }types/${type.name.toLowerCase()}">${type.name}</a>\n`;
-    types_md += `<div><div>\n\n${
-      type.jsDoc?.doc ?? `<i style="opacity: 0.5">No Description</i>`
-    }\n\n</div></div>\n`;
+    types_md += `<a href="${version ? `${version}/` : "/"}types/${type.name.toLowerCase()}">${type.name}</a>\n`;
+    types_md += `<div><div>\n\n${type.jsDoc?.doc ?? `<i style="opacity: 0.5">No Description</i>`}\n\n</div></div>\n`;
     types_md += '<div class="descr-list-border"></div>\n';
   }
 
@@ -167,9 +144,7 @@ parent: /#api-reference
   for (const method of methods) {
     const cache = method.jsDoc?.tags?.find((
       v,
-    ): v is JsDocTagUnsupported =>
-      v.kind == "unsupported" && v.value.includes("@cache")
-    );
+    ): v is JsDocTagUnsupported => v.kind == "unsupported" && v.value.includes("@cache"));
     const cacheFile = cache?.value.includes("file");
     const tag = (text: string) => (
       <span
@@ -190,9 +165,7 @@ parent: /#api-reference
       )
       // deno-lint-ignore jsx-no-useless-fragment
       : <></>;
-    const tagEl = method.jsDoc?.doc?.includes("User-only.")
-      ? tag("User-only")
-      : method.jsDoc?.doc?.includes("Bot-only.")
+    const tagEl = method.jsDoc?.doc?.includes("User-only.") ? tag("User-only") : method.jsDoc?.doc?.includes("Bot-only.")
       ? tag("Bot-only")
       // deno-lint-ignore jsx-no-useless-fragment
       : <></>;
@@ -236,9 +209,7 @@ parent: /methods
     const ret = method.functionDef.returnType
       ? (method.functionDef.returnType.repr == "Promise" &&
           method.functionDef.returnType.kind == "typeRef")
-        ? method.functionDef.returnType.typeRef.typeParams
-          ? method.functionDef.returnType.typeRef.typeParams[0]
-          : undefined
+        ? method.functionDef.returnType.typeRef.typeParams ? method.functionDef.returnType.typeRef.typeParams[0] : undefined
         : method.functionDef.returnType
       : undefined;
     const retDoc = method.jsDoc?.tags?.find((v) => v.kind == "return")?.doc;
@@ -261,9 +232,7 @@ parent: /methods
     method_md += renderToString(
       <>
         {(() => {
-          const requiredParams = method.functionDef.params.filter((v) =>
-            v.kind == "identifier" && !v.optional
-          ).map((v) => "name" in v ? v.name : "").filter((v) => v);
+          const requiredParams = method.functionDef.params.filter((v) => v.kind == "identifier" && !v.optional).map((v) => "name" in v ? v.name : "").filter((v) => v);
           const p = getMethodOptionalParams(method, methodTypes);
           const len = (p?.interfaceDef?.properties?.length ?? 0) +
             requiredParams.length;
@@ -291,13 +260,9 @@ await client.${method.name}(${requiredParams.join(", ")});`.trim()
             : "";
 
           optional = optional
-            ? `// ${
-              required ? "Required parameters + o" : "O"
-            }ptional parameters.
+            ? `// ${required ? "Required parameters + o" : "O"}ptional parameters.
 // Any of the optional parameters can be omitted.
-await client.${method.name}(${requiredParams.join(", ")}${
-              optional ? `${requiredParams.length ? "," : ""} ${optional}` : ""
-            });`
+await client.${method.name}(${requiredParams.join(", ")}${optional ? `${requiredParams.length ? "," : ""} ${optional}` : ""});`
             : "";
 
           return `\`\`\`ts
@@ -312,9 +277,7 @@ ${optional}`.trim()
     );
     method_md += "\n\n";
     //
-    const example = method.jsDoc?.tags?.find((v) =>
-      v.kind == "example"
-    ) as JsDocTagDoc;
+    const example = method.jsDoc?.tags?.find((v) => v.kind == "example") as JsDocTagDoc;
     if (example?.doc) {
       method_md += "### Examples \n\n";
       method_md += example.doc;

@@ -8,9 +8,7 @@ export function MutedText(
 ) {
   return (
     <span
-      class={`select-none opacity-50${small ? " text-xs" : ""}${
-        uppercase ? " uppercase" : ""
-      }${italic ? " italic" : ""}`}
+      class={`select-none opacity-50${small ? " text-xs" : ""}${uppercase ? " uppercase" : ""}${italic ? " italic" : ""}`}
     >
       {children}
     </span>

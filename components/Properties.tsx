@@ -1,8 +1,4 @@
-import {
-  ClassPropertyDef,
-  InterfacePropertyDef,
-  LiteralPropertyDef,
-} from "deno_doc/types.d.ts";
+import { ClassPropertyDef, InterfacePropertyDef, LiteralPropertyDef } from "deno_doc/types.d.ts";
 import { PropertyName } from "./PropertyName.tsx";
 import { TsType } from "./TsType.tsx";
 import { LinkGetter } from "./TsType.tsx";
@@ -23,13 +19,10 @@ export function Properties(
         <div>
           <div class="flex gap-2">
             <div class="font-mono p" id={`p_${v.name}`} data-anchor>
-              <PropertyName hasType>{v}</PropertyName>{" "}
-              {v.tsType ? <TsType getLink={getLink}>{v.tsType}</TsType> : "any"}
+              <PropertyName hasType>{v}</PropertyName> {v.tsType ? <TsType getLink={getLink}>{v.tsType}</TsType> : "any"}
             </div>
             {"jsDoc" in v && v.jsDoc?.tags &&
-                v.jsDoc.tags.some((v) =>
-                  v.kind == "unsupported" && v.value == "@discriminator"
-                )
+                v.jsDoc.tags.some((v) => v.kind == "unsupported" && v.value == "@discriminator")
               ? (
                 <div class="flex items-center">
                   <div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">
