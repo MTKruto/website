@@ -261,6 +261,54 @@ ${jsr ? "bunx jsr add " + pkg : "bun add " + pkg}
 `;
 }, { type: "filter" });
 
+site.helper("create", (pkg: string) => {
+  return `
+<code-group>
+
+<code-group-item title="Deno">
+
+\`\`\`shell
+deno -A jsr:${pkg}
+\`\`\`
+
+</code-group-item>
+
+<code-group-item title="pnpm">
+
+\`\`\`shell
+pnpm create ${pkg}
+\`\`\`
+
+</code-group-item>
+
+<code-group-item title="Yarn">
+
+\`\`\`shell
+yarn create ${pkg}
+\`\`\`
+
+</code-group-item>
+
+<code-group-item title="npm">
+
+\`\`\`shell
+npm create ${pkg}
+\`\`\`
+
+</code-group-item>
+
+<code-group-item title="Bun">
+
+\`\`\`shell
+bun create ${pkg}
+\`\`\`
+
+</code-group-item>
+
+</code-group>
+`;
+}, { type: "filter" });
+
 site.helper("i", (page) => {
   const content = site.pages.find((v) => v.src.path === page)?.data.content;
   if (typeof content !== "string") {
