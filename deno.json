@@ -33,5 +33,8 @@
     "src/types.md",
     "src/gh/"
   ],
-  "nodeModulesDir": "auto"
+  "nodeModulesDir": "auto",
+  "fmt": {
+    "lineWidth": 9999
+  }
 }
