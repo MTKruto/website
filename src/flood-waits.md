@@ -3,14 +3,11 @@ parent: /#guides
 title: Flood Waits
 ---
 
-By default, flood waits of smaller than or equal to 10 seconds are handled. If
-the client faced a flood wait bigger than 10 seconds, it will instead be
-rethrowing.
+By default, flood waits of smaller than or equal to 10 seconds are handled. If the client faced a flood wait bigger than 10 seconds, it will instead be rethrowing.
 
 ## Opting Out of the Default Behavior
 
-If you don't want to handle ≤10-second flood waits automatically, you can opt
-out by setting the `defaultHandlers` parameter of the client to `false`:
+If you don't want to handle ≤10-second flood waits automatically, you can opt out by setting the `defaultHandlers` parameter of the client to `false`:
 
 ```ts
 const client = new Client({
@@ -21,8 +18,7 @@ const client = new Client({
 
 ## Handling Bigger Flood Waits
 
-If you want to handle >10-second flood waits, you can do so by extending the
-invoke middleware:
+If you want to handle >10-second flood waits, you can do so by extending the invoke middleware:
 
 ```ts
 const client = new Client({

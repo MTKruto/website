@@ -3,8 +3,7 @@ title: Splitting Code
 parent: /#guides
 ---
 
-Larger projects with clients that include a lot of handlers assigned might need
-to split the handler codes into different files.
+Larger projects with clients that include a lot of handlers assigned might need to split the handler codes into different files.
 
 This can be done levaraging the `Composer` class.
 
@@ -17,8 +16,7 @@ handlers/
 main.ts
 ```
 
-In each file that resides in handlers/ you could create and export an instance
-of `Composer`:
+In each file that resides in handlers/ you could create and export an instance of `Composer`:
 
 File: handlers/start.ts
 
@@ -187,6 +185,4 @@ client.use(hello);
 
 </code-group>
 
-If you wanted to access the client instance inside the handlers for whatever
-reason, it is available in the context object, so you can access it like
-`ctx.client`.
+If you wanted to access the client instance inside the handlers for whatever reason, it is available in the context object, so you can access it like `ctx.client`.

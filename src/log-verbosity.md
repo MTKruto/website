@@ -40,8 +40,7 @@ In browsers, the global variable `MTKRUTO__LOG_VERBOSITY` can be used.
 
 ## Filtering Logs
 
-Logs can be filtered by their scopes using the LOG_FILTER environment variable
-which expects vaild regular expression.
+Logs can be filtered by their scopes using the LOG_FILTER environment variable which expects vaild regular expression.
 
 ```shell
 LOG_VERBOSITY=4 LOG_FILTER=receiveLoop deno run main.ts

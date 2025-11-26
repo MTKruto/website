@@ -266,9 +266,7 @@
   font-weight: 700;
 }
 .font-mono {
-  font-family:
-    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-    "Courier New", monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 .italic {
   font-style: italic;
@@ -280,10 +278,7 @@
   opacity: 0.5;
 }
 .filter {
-  filter: var(--un-blur) var(--un-brightness) var(--un-contrast) var(
-    --un-drop-shadow
-  ) var(--un-grayscale) var(--un-hue-rotate) var(--un-invert) var(--un-saturate)
-    var(--un-sepia);
+  filter: var(--un-blur) var(--un-brightness) var(--un-contrast) var(--un-drop-shadow) var(--un-grayscale) var(--un-hue-rotate) var(--un-invert) var(--un-saturate) var(--un-sepia);
 }
 @media (min-width: 1280px) {
   .xl\:flex {

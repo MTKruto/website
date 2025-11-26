@@ -12,8 +12,7 @@ There are three methods you can use to react to messages:
 2. {{ "addReaction" |> m }}
 3. {{ "removeReaction" |> m }}
 
-If you want to change all the reactions made to a message at once, use
-setReactions.
+If you want to change all the reactions made to a message at once, use setReactions.
 
 ```ts
 // react with thumbs up
@@ -40,8 +39,7 @@ client.on("message", async (ctx) => {
 });
 ```
 
-If you just want to add or remove a specific reaction, use addReaction or
-removeReaction.
+If you just want to add or remove a specific reaction, use addReaction or removeReaction.
 
 ```ts
 // removes thumbs down
@@ -61,16 +59,11 @@ await client.addReaction(
 
 ## Reaction Updates
 
-Bots receive two kinds of updates for reactions: {{ "UpdateMessageReactions" |>
-t }}, and {{ "UpdateMessageReactionCount" |> t }}.
+Bots receive two kinds of updates for reactions: {{ "UpdateMessageReactions" |> t }}, and {{ "UpdateMessageReactionCount" |> t }}.
 
-The former is received when a user reacts to a message in a private chat, a
-basic group, or a supergroup chat. It includes information on the user who made
-the reaction.
+The former is received when a user reacts to a message in a private chat, a basic group, or a supergroup chat. It includes information on the user who made the reaction.
 
-The latter on the other hand, is received when the reactions to a channel post
-change. It only includes reaction counts, and no references to the users who
-made them.
+The latter on the other hand, is received when the reactions to a channel post change. It only includes reaction counts, and no references to the users who made them.
 
 ```ts
 // received only for private chats and groups
@@ -97,8 +90,7 @@ client.on("messageReactionCount", (ctx) => {
 });
 ```
 
-Users have only one update type related to reactions: {{
-"UpdateMessageInteractions" |> t }}. It is received for all types of chats.
+Users have only one update type related to reactions: {{ "UpdateMessageInteractions" |> t }}. It is received for all types of chats.
 
 ```ts
 client.on("messageInteractions", (ctx) => {

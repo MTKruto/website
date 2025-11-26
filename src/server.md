@@ -3,9 +3,7 @@ title: Introduction
 parent: /#misc
 ---
 
-MTKruto Server is a server for running Telegram clients (whether they are bots
-or user accounts) with ability to interact with them remotely through its HTTP
-interface.
+MTKruto Server is a server for running Telegram clients (whether they are bots or user accounts) with ability to interact with them remotely through its HTTP interface.
 
 - [Setup](./setup)
 - [Making Requests](./making-requests)

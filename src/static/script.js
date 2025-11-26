@@ -29,8 +29,7 @@ function updateActiveTocItem() {
   const scrollY = globalThis.scrollY;
   const innerHeight = globalThis.innerHeight;
   const offsetHeight = document.body.offsetHeight;
-  const isBottom =
-    Math.abs(Math.ceil(scrollY + innerHeight) - offsetHeight) <= 1;
+  const isBottom = Math.abs(Math.ceil(scrollY + innerHeight) - offsetHeight) <= 1;
 
   let activeItem;
 

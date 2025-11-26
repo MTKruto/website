@@ -11,8 +11,7 @@ There are three updates that are directly related to messages:
 
 - {{ "UpdateNewMessage" |> t }} --- Received when a message is received or sent.
 - {{ "UpdateEditedMessage" |> t }} --- Received when a message is edited.
-- {{ "UpdateDeletedMessages" |> t }} --- Received when one or more messages are
-  deleted.
+- {{ "UpdateDeletedMessages" |> t }} --- Received when one or more messages are deleted.
 
 Here are some examples on adding listeners for each of them:
 
@@ -30,16 +29,13 @@ client.on("deletedMessages", (ctx) => {
 });
 ```
 
-To see how the context object would look like for each update, you can refer to
-their specific documentation pages linked above.
+To see how the context object would look like for each update, you can refer to their specific documentation pages linked above.
 
 ### Filtering Message Types
 
-There is a significant number of different types of [messages](/types/Message),
-which makes processing all of them in a single handler a little harder.
+There is a significant number of different types of [messages](/types/Message), which makes processing all of them in a single handler a little harder.
 
-Fortunately, you can easily filter out messages by their types when assigning
-your handler. Here are some examples:
+Fortunately, you can easily filter out messages by their types when assigning your handler. Here are some examples:
 
 ```ts
 client.on("message:text", (ctx) => {
@@ -71,11 +67,9 @@ client.on("editedMessage", (ctx) => {
 });
 ```
 
-`ctx.msg` is just a shortcut that resolves to
-`ctx.message ?? ctx.editedMessage`. See {{ "Message" |> t }}.
+`ctx.msg` is just a shortcut that resolves to `ctx.message ?? ctx.editedMessage`. See {{ "Message" |> t }}.
 
-Updates for deleted messages don't include full message objects, only references
-to them (see {{ "MessageReference" |> t }}).
+Updates for deleted messages don't include full message objects, only references to them (see {{ "MessageReference" |> t }}).
 
 ```ts
 client.on("deletedMessages", (ctx) => {
@@ -85,10 +79,8 @@ client.on("deletedMessages", (ctx) => {
 
 ### Notes
 
-- UpdateDeletedMessages is **not always sent to bots**, so it is recommended
-  that you don't depend on it for bots.
-- Updates for outgoing messages are not sent for bots by default, but you can
-  disable the `ignoreOutgoing` option to receive them:
+- UpdateDeletedMessages is **not always sent to bots**, so it is recommended that you don't depend on it for bots.
+- Updates for outgoing messages are not sent for bots by default, but you can disable the `ignoreOutgoing` option to receive them:
 
 ```ts
 const client = new Client({
@@ -99,8 +91,7 @@ const client = new Client({
 
 ## Sending Messages
 
-There are multiple methods that can be used to send messages. Each of them is
-used for sending a specific type of message.
+There are multiple methods that can be used to send messages. Each of them is used for sending a specific type of message.
 
 - {{ "sendMessage" |> m }} --- For sending text messages.
 - {{ "sendPhoto" |> m }} --- For sending photos.
@@ -146,16 +137,11 @@ await client.sendDice(chat); // defaults to 🎲
 await client.sendDice(chat, { emoji: "🏀" }); // but you can send any valid dice
 ```
 
-To use the above example calls, `chat` must be replaced with a valid {{ "ID" |>
-t }}, and `file` must be replaced a valid {{ "FileSource" |> t }}.
+To use the above example calls, `chat` must be replaced with a valid {{ "ID" |> t }}, and `file` must be replaced a valid {{ "FileSource" |> t }}.
 
-As previously said, the last parameters are optional and can always be omitted,
-so for example you can do just `await client.sendMessage(chat, "Hey!");` if you
-don't specify any optional parameter. Optional parameters are those parameters
-marked with `?` in the method documentations.
+As previously said, the last parameters are optional and can always be omitted, so for example you can do just `await client.sendMessage(chat, "Hey!");` if you don't specify any optional parameter. Optional parameters are those parameters marked with `?` in the method documentations.
 
-Inside handlers, you can call the respective `reply*` shortcuts to easily reply
-the context message:
+Inside handlers, you can call the respective `reply*` shortcuts to easily reply the context message:
 
 ```ts
 client.on("message", async (ctx) => {
@@ -166,8 +152,7 @@ client.on("message", async (ctx) => {
 
 ## Deleting Messages
 
-You can delete messages by calling either {{ "deleteMessage" |> m }} or {{
-"deleteMessages" |> m }}.
+You can delete messages by calling either {{ "deleteMessage" |> m }} or {{ "deleteMessages" |> m }}.
 
 ```ts
 await ctx.deleteMessage(chat, messageId);
@@ -184,8 +169,7 @@ client.on("message", async (ctx) => {
 
 ## Forwarding Messages
 
-You can forward messages by calling either {{ "forwardMessage" |> m }} or {{
-"forwardMessages" |> m }}.
+You can forward messages by calling either {{ "forwardMessage" |> m }} or {{ "forwardMessages" |> m }}.
 
 ```ts
 await ctx.forwardMessage(fromChat, toChat);

@@ -13,11 +13,9 @@ client.command("start", async (ctx) => {
 });
 ```
 
-For bots, the default command prefix is `/`, so the above middleware gets
-triggered when it receives a message starting with the text "/start".
+For bots, the default command prefix is `/`, so the above middleware gets triggered when it receives a message starting with the text "/start".
 
-For user clients on the other hand, the default command prefix is `\`
-(backslash). So the message that triggers it is "\start".
+For user clients on the other hand, the default command prefix is `\` (backslash). So the message that triggers it is "\start".
 
 ## Custom Prefixes
 
@@ -34,8 +32,7 @@ const client = new Client({
 
 The above will make commands accessible with the prefixes `!` and `.`.
 
-Note that those options won't be synced with the composer that are to be
-installed on that client, so you have to specify them for composers separately:
+Note that those options won't be synced with the composer that are to be installed on that client, so you have to specify them for composers separately:
 
 ```ts
 const composer = new Composer();
@@ -52,9 +49,7 @@ client.command({ name: "start", prefixes: ["!", "."] }, async (ctx) => {
 
 ## Outgoing Messages
 
-Note that the command handlers are getting triggered for user clients even if
-the corresponding message is not outgoing, so it might be better to do a quick
-check for commands that are not supposed to be used by other users:
+Note that the command handlers are getting triggered for user clients even if the corresponding message is not outgoing, so it might be better to do a quick check for commands that are not supposed to be used by other users:
 
 ```ts
 client.command("start", async (ctx) => {

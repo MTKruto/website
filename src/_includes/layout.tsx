@@ -9,9 +9,7 @@ export default (
   filters: Lume.Data,
 ) => {
   function Bc() {
-    const items = filters.bc(url).map((v: [string, string]) => (
-      <a href={v[0]}>{v[1]}</a>
-    ));
+    const items = filters.bc(url).map((v: [string, string]) => <a href={v[0]}>{v[1]}</a>);
 
     return (
       <div class="text-xs bc w-full">
@@ -70,12 +68,8 @@ export default (
               {children}
               {(next || prev) && (
                 <nav class="bottom-nav">
-                  {prev
-                    ? <a href={prev}>← {filters.getTitle(prev)}</a>
-                    : <span></span>}
-                  {next
-                    ? <a href={next}>{filters.getTitle(next)} →</a>
-                    : <span></span>}
+                  {prev ? <a href={prev}>← {filters.getTitle(prev)}</a> : <span></span>}
+                  {next ? <a href={next}>{filters.getTitle(next)} →</a> : <span></span>}
                 </nav>
               )}
             </div>

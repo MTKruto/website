@@ -5,14 +5,11 @@ prev: /server/making-requests
 next: /server/client-libraries
 ---
 
-Inspired by Bot API, you can receive updates by either long polling or setting a
-webhook. Note that you cannot receive updates via both at the same time.
+Inspired by Bot API, you can receive updates by either long polling or setting a webhook. Note that you cannot receive updates via both at the same time.
 
 ## Polling
 
-To poll for updates, use the special method `getUpdates`. It accepts an optional
-`timeout` argument which will close the connection if there are no new updates
-for `timeout` seconds.
+To poll for updates, use the special method `getUpdates`. It accepts an optional `timeout` argument which will close the connection if there are no new updates for `timeout` seconds.
 
 ```http
 POST /:client-id/getUpdates
@@ -20,8 +17,7 @@ POST /:client-id/getUpdates
 []
 ```
 
-On success, it returns an array of [Update](https://mtkru.to/types/Update)
-objects.
+On success, it returns an array of [Update](https://mtkru.to/types/Update) objects.
 
 ## Webhooks
 

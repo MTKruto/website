@@ -5,17 +5,13 @@ prev: /calling-methods
 next: /working-with-messages
 ---
 
-You can handle updates by assigning update handlers to the client. A handler is
-a function that takes two arguments: `ctx` and `next`.
+You can handle updates by assigning update handlers to the client. A handler is a function that takes two arguments: `ctx` and `next`.
 
-`ctx` is the received update with context-aware methods and shortcuts. See all
-types of updates [here](/types/Update).
+`ctx` is the received update with context-aware methods and shortcuts. See all types of updates [here](/types/Update).
 
 `next` is a function that passes the update to the next handlers.
 
-Once an update reaches a handler, it _won't_ reach others unless it calls
-`next`. When `next` is called, the same thing goes on again: the update won't
-reach the next handler until `next` is called, and so on.
+Once an update reaches a handler, it _won't_ reach others unless it calls `next`. When `next` is called, the same thing goes on again: the update won't reach the next handler until `next` is called, and so on.
 
 There are four methods responsible for assigning handlers:
 
@@ -26,9 +22,7 @@ There are four methods responsible for assigning handlers:
 
 ## use
 
-This is the main method to assign a handler, and all others depend on it. It
-assigns an unconditional&nbsp;handler, meaning that it will always get called
-unless it is blocked by a handler preceding it.
+This is the main method to assign a handler, and all others depend on it. It assigns an unconditional&nbsp;handler, meaning that it will always get called unless it is blocked by a handler preceding it.
 
 ```txt
 |
@@ -101,8 +95,7 @@ client.use(async (_ctx, next) => {
 `branch` takes 3 functions:
 
 1. One that checks for a specific condition.
-2. A handler function that gets called when the specific condition is met, the
-   true handler.
+2. A handler function that gets called when the specific condition is met, the true handler.
 3. Another one that gets called when it is not met, the false handler.
 
 ```txt
@@ -160,9 +153,7 @@ client.branch(
 
 ## filter
 
-`filter` is almost the same as `branch` except that it does not have a false
-handler. It automatically moves to the next handlers if the condition is not
-met.
+`filter` is almost the same as `branch` except that it does not have a false handler. It automatically moves to the next handlers if the condition is not met.
 
 ```txt
 |
@@ -212,9 +203,7 @@ client.filter(
 
 ## on
 
-`on` works like `filter` but instead of providing a function that checks for a
-condition, you provide it a filter query. If the update matched the provided
-filter, the handler gets called.
+`on` works like `filter` but instead of providing a function that checks for a condition, you provide it a filter query. If the update matched the provided filter, the handler gets called.
 
 ```txt
 |

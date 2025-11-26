@@ -8,16 +8,11 @@ next: /server/making-requests
 
 ### Prebuilt Binaries
 
-To download a prebuilt binary, visit
-[here](https://github.com/MTKruto/server/actions/workflows/ci.yml), open the
-most recent successful run, and you will see appropriate download links for each
-operating system in the Artifacts section.
+To download a prebuilt binary, visit [here](https://github.com/MTKruto/server/actions/workflows/ci.yml), open the most recent successful run, and you will see appropriate download links for each operating system in the Artifacts section.
 
 ### Building from Source
 
-To build from source, you need to have [Deno](https://deno.land) installed.
-After making sure that it is properly installed, clone the repository
-recursively:
+To build from source, you need to have [Deno](https://deno.land) installed. After making sure that it is properly installed, clone the repository recursively:
 
 ```shell
 git clone --depth 1 --recursive https://github.com/MTKruto/server
@@ -34,8 +29,7 @@ The output executable will be in the same directory you run the command from.
 
 ## Running
 
-The only required CLI arguments to be able to start the server are `--api-id`
-and `--api-hash`:
+The only required CLI arguments to be able to start the server are `--api-id` and `--api-hash`:
 
 ```shell
 mtkruto-server --api-id 123456 --api-hash 0123456789abcdef

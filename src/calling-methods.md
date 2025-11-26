@@ -7,15 +7,9 @@ next: /handling-updates
 
 ## High-level Methods
 
-All high-level methods are available directly on MTKruto client instances. You
-can see a list of all methods and links to their reference [here](/methods).
+All high-level methods are available directly on MTKruto client instances. You can see a list of all methods and links to their reference [here](/methods).
 
-To call one, you need to access it from a client instance using its identifier,
-and call it providing the values of its required parameters in the correct
-order, and optionally, a subset of the optional parameters in an object as the
-last parameter. Inside the reference of each method, optional parameters are
-marked with `?`. Don't forget that all methods return a promise, so you have to
-await them.
+To call one, you need to access it from a client instance using its identifier, and call it providing the values of its required parameters in the correct order, and optionally, a subset of the optional parameters in an object as the last parameter. Inside the reference of each method, optional parameters are marked with `?`. Don't forget that all methods return a promise, so you have to await them.
 
 ```ts
 await client.methodIdentifier(requiredParam1, requiredParam2);
@@ -24,9 +18,7 @@ await client.methodIdentifier(requiredParam1, requiredParam2, {
 });
 ```
 
-Here's an example on how you can call [`sendMessage`](/methods/sendMessage)
-which has two required parameters (`chatId` and `text`), and a number of
-optional parameters.
+Here's an example on how you can call [`sendMessage`](/methods/sendMessage) which has two required parameters (`chatId` and `text`), and a number of optional parameters.
 
 ```ts
 await client.sendMessage(36265675, "Hey you!", {
@@ -57,5 +49,4 @@ const updates = await client.invoke({
 });
 ```
 
-You can learn more on direct interactions with the Telegram API
-[here](/interacting-with-telegram-api).
+You can learn more on direct interactions with the Telegram API [here](/interacting-with-telegram-api).
