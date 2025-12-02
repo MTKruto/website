@@ -5,8 +5,7 @@ prev: /handling-updates
 next: /working-with-messages
 ---
 
-The `errors` namespace includes all errors that have a chance of being thrown by MTKruto.
-This includes user input errors, access errors, TL errors, and Telegram API errors.
+The `errors` namespace includes all errors that have a chance of being thrown by MTKruto. This includes user input errors, access errors, TL errors, and Telegram API errors.
 
 For a complete list of its members, refer to [its list of symbols.](https://jsr.io/@mtkruto/mtkruto/doc/~/errors)
 
