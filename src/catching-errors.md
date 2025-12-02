@@ -45,7 +45,7 @@ try {
 <code-group-item title="Node.js">
 
 ```ts
-import * as Mtkruto "@mtkruto/node";
+import * as Mtkruto from "@mtkruto/node";
 
 try {
   // do something
