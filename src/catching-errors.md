@@ -104,7 +104,7 @@ try {
 
 ## Telegram API Errors
 
-Separate error classes are supported for common Telegram errors, all of which extend [`errors.TelegramError`](https://jsr.io/@mtkruto/mtkruto/doc/~/errors.TelegramError).
+Separate error classes are supported for common errors returned by the Telegram API, all of which extend [`errors.TelegramError`](https://jsr.io/@mtkruto/mtkruto/doc/~/errors.TelegramError).
 
 This means that you can do things like the following:
 
