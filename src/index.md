@@ -28,9 +28,10 @@ Its key features include:
 2. [Starting the Client](/starting-the-client) {{ "/starting-the-client" |> i }}
 3. [Calling Methods](/calling-methods) {{ "/calling-methods" |> i }}
 4. [Handling Updates](/handling-updates) {{ "/handling-updates" |> i }}
-5. [Working with Messages](/working-with-messages) {{ "/working-with-messages" |> i }}
-6. [Commands](/commands) {{ "/commands" |> i }}
-7. [Reactions](/reactions) {{ "/reactions" |> i }}
+5. [Catching Errors](/catching-errors) {{ "/catching-errors" |> i }}
+6. [Working with Messages](/working-with-messages) {{ "/working-with-messages" |> i }}
+7. [Commands](/commands) {{ "/commands" |> i }}
+8. [Reactions](/reactions) {{ "/reactions" |> i }}
 
 ### Guides
 

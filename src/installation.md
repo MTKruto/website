@@ -18,7 +18,7 @@ In server-side projects running on Bun or Node.js, the `@mtkruto/node` package c
 deno add jsr:@mtkruto/mtkruto
 ```
 
-2. If your project is developed using Node.js with a framework like (Next.js, SvelteKit, etc.) or a bundler (Parcel, Vite, etc.), install MTKruto using one of the following commands
+2. If your project is developed using Node.js with a framework like (Next.js, SvelteKit, etc.) or a bundler (Parcel, Vite, etc.), install MTKruto using one of the following commands.
 
 {{ "jsr:@mtkruto/mtkruto" |> install }}
 

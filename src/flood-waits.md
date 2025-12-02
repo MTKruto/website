@@ -27,7 +27,7 @@ const client = new Client({
 });
 
 client.invoke.use(async ({ error }, next) => {
-  if (error instanceof errors.FloodWait) {
+  if (error instanceof Mtkruto.errors.FloodWait) {
     await new Promise((r) => setTimeout(r, 1000 * error.seconds));
     return true;
   } else {
@@ -35,3 +35,5 @@ client.invoke.use(async ({ error }, next) => {
   }
 });
 ```
+
+> Note that the above snippet skips how the `errors` namespace is imported. [Learn more](/catching-errors)

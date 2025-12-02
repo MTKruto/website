@@ -1,7 +1,7 @@
 ---
 title: Working with Messages
 parent: /#walkthrough
-prev: /handling-updates
+prev: /catching-errors
 next: /commands
 ---
 

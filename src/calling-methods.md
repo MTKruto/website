@@ -2,7 +2,7 @@
 title: Calling Methods
 parent: /#walkthrough
 prev: /starting-the-client
-next: /handling-updates
+next: /catching-errors
 ---
 
 ## High-level Methods

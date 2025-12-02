@@ -17,7 +17,7 @@ POST /:client-id/getUpdates
 []
 ```
 
-On success, it returns an array of [Update](https://mtkru.to/types/Update) objects.
+On success, it returns an array of [Update](/types/update) objects.
 
 ## Webhooks
 

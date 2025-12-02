@@ -26,7 +26,7 @@ You should then be moved to somewhere where you can see your app's API ID and AP
 
 In fact, the constructor has no required arguments, but you usually pass the parameters `storage`, `apiId`, and `apiHash`, unless you know what you are doing.
 
-The following examples show you how you can construct a client that uses the [storage adapter](/storage-adapters) [`StorageLocalStorage`](https://mtkru.to/storage-adapters/#localstorage).
+The following examples show you how you can construct a client that uses the [storage adapter](/storage-adapters) [`StorageLocalStorage`](/storage-adapters#localstorage).
 
 <code-group>
 

@@ -31,4 +31,4 @@ This will remove the need for going through the authorization flow when your sto
 
 An auth string must only be used from a single network and only through a single connection. It will otherwise get invalidated, and a new one must be recreated.
 
-For bots, the recreation will be handled automatically if a bot token is provided when [`start`](https://jsr.io/@mtkruto/mtkruto/doc/~/Client.prototype.start) or [`signIn`](https://jsr.io/@mtkruto/mtkruto/doc/~/Client.prototype.signIn) is called. But if you use a non-memory [storage adapter](https://mtkru.to/storage-adapters/) and already have a bot token provided, it doesn't make sense to use auth strings in the first place.
+For bots, the recreation will be handled automatically if a bot token is provided when [`start`](https://jsr.io/@mtkruto/mtkruto/doc/~/Client.prototype.start) or [`signIn`](https://jsr.io/@mtkruto/mtkruto/doc/~/Client.prototype.signIn) is called. But if you use a non-memory [storage adapter](/storage-adapters) and already have a bot token provided, it doesn't make sense to use auth strings in the first place.
