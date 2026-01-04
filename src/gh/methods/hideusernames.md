@@ -15,7 +15,11 @@ A supergroup ID or a channel ID.
 
 ### Result 
 
-<div class="font-mono"><span>boolean</span></div>
+<div class="font-mono"><span>boolean</span></div><div class="pl-3"><div class="no-margin">
+
+Whether any username was hidden.
+
+</div></div>
 
 ### Syntax
 
