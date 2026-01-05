@@ -113,7 +113,7 @@ export default (
           <div class="spacer" />
           <footer class="w-full px-5 py-5 sticky bottom-0 bg-bg">
             <div class="max-w-screen-md w-full mx-auto flex gap-5 items-center justify-between text-xs">
-              <div class="opacity-50">&copy; 2023-2025 MTKruto</div>
+              <div class="opacity-50">&copy; 2023-2026 MTKruto</div>
               <div class="flex gap-2 opacity-50">
                 <a
                   href="https://telegram.me/MTKruto"
