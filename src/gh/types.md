@@ -358,7 +358,7 @@ A keyboard button representing the type of the poll that is requested to be crea
 <div><div>
 
 MTKruto - Cross-runtime JavaScript library for building Telegram clients
-Copyright (C) 2023-2025 Roj <https://roj.im/>
+Copyright (C) 2023-2026 Roj <https://roj.im/>
 
 This file is part of MTKruto.
 
@@ -486,7 +486,7 @@ Reference to a message.
 <div><div>
 
 MTKruto - Cross-runtime JavaScript library for building Telegram clients
-Copyright (C) 2023-2025 Roj <https://roj.im/>
+Copyright (C) 2023-2026 Roj <https://roj.im/>
 
 This file is part of MTKruto.
 
@@ -684,7 +684,7 @@ A shipping address.
 <div><div>
 
 MTKruto - Cross-runtime JavaScript library for building Telegram clients
-Copyright (C) 2023-2025 Roj <https://roj.im/>
+Copyright (C) 2023-2026 Roj <https://roj.im/>
 
 This file is part of MTKruto.
 
@@ -777,7 +777,7 @@ Reference to a story.
 <div><div>
 
 MTKruto - Cross-runtime JavaScript library for building Telegram clients
-Copyright (C) 2023-2025 Roj <https://roj.im/>
+Copyright (C) 2023-2026 Roj <https://roj.im/>
 
 This file is part of MTKruto.
 
