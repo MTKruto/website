@@ -1,5 +1,5 @@
 ---
-title: downloadLiveStreamChunk
+title: downloadLiveStreamSegment
 parent: /methods
 ---
 
@@ -41,11 +41,11 @@ Download abort signal.
 
 ```ts
 // Required parameters only.
-await client.downloadLiveStreamChunk(id, channelId, scale, timestamp);
+await client.downloadLiveStreamSegment(id, channelId, scale, timestamp);
 
 // Required parameters + optional parameters.
 // Any of the optional parameters can be omitted.
-await client.downloadLiveStreamChunk(id, channelId, scale, timestamp, {
+await client.downloadLiveStreamSegment(id, channelId, scale, timestamp, {
     quality,
     signal,
 });

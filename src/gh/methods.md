@@ -1300,7 +1300,7 @@ Get translations.
 ## Video Chats
 <div class="descr-list">
 
-<a href="/gh/methods/downloadlivestreamchunk">downloadLiveStreamChunk</a>
+<a href="/gh/methods/downloadlivestreamsegment">downloadLiveStreamSegment</a>
 <div><div>
 
 Download a live stream chunk.
