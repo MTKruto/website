@@ -700,6 +700,13 @@ Download a file.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/downloadchunk">downloadChunk</a>
+<div><div>
+
+Download a chunk of a file.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getcustomemojistickers">getCustomEmojiStickers</a>
 <div><div>
 
@@ -1300,10 +1307,10 @@ Get translations.
 ## Video Chats
 <div class="descr-list">
 
-<a href="/methods/downloadlivestreamchunk">downloadLiveStreamChunk</a>
+<a href="/methods/downloadlivestreamsegment">downloadLiveStreamSegment</a>
 <div><div>
 
-Download a live stream chunk.
+Download a live stream segment.
 
 </div></div>
 <div class="descr-list-border"></div>

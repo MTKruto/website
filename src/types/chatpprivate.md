@@ -13,6 +13,10 @@ The identifier of the chat.
 
 Identifier of a color that can be displayed instead of the chat's photo.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_photo" data-anchor><span class="font-bold">photo</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/chatphoto"  >ChatPhoto</a></div></div><div class="pl-3"><div class="no-margin">
+
+The chat's photo.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isBot" data-anchor><span class="font-bold">isBot</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether this is a bot's chat.
@@ -32,10 +36,6 @@ The user's main username.
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_also" data-anchor><span class="font-bold">also</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
 The user's additional usernames.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_photo" data-anchor><span class="font-bold">photo</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/chatphoto"  >ChatPhoto</a></div></div><div class="pl-3"><div class="no-margin">
-
-The user's profile photo.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_languageCode" data-anchor><span class="font-bold">languageCode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 

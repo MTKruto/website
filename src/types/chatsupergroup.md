@@ -13,6 +13,10 @@ The identifier of the chat.
 
 Identifier of a color that can be displayed instead of the chat's photo.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_photo" data-anchor><span class="font-bold">photo</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/chatphoto"  >ChatPhoto</a></div></div><div class="pl-3"><div class="no-margin">
+
+The chat's photo.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_title" data-anchor><span class="font-bold">title</span><span class="opacity-50">:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
 The title of the chat or channel.
@@ -48,10 +52,6 @@ The reason why the chat or channel has been restricted.
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isForum" data-anchor><span class="font-bold">isForum</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the chat is a forum.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_photo" data-anchor><span class="font-bold">photo</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/photo"  >Photo</a></div></div><div class="pl-3"><div class="no-margin">
-
-The chat's photo.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_videoChatId" data-anchor><span class="font-bold">videoChatId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 

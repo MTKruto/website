@@ -15,7 +15,11 @@ The identifier of the channel or supergroup to add the users to.
 
 ### Result 
 
-<div class="font-mono"><a href="/types/failedinvitation"  >FailedInvitation</a><span class="opacity-50">[]</span></div>
+<div class="font-mono"><a href="/types/failedinvitation"  >FailedInvitation</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
+
+An array of FailedInvitation that has at most a length that is the same as that of the parameter userIds. If empty, it means that all the provided users were added.
+
+</div></div>
 
 ### Syntax
 
