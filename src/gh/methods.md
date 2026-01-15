@@ -700,6 +700,13 @@ Download a file.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/downloadchunk">downloadChunk</a>
+<div><div>
+
+Download a chunk of a file.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getcustomemojistickers">getCustomEmojiStickers</a>
 <div><div>
 
@@ -1303,7 +1310,7 @@ Get translations.
 <a href="/gh/methods/downloadlivestreamsegment">downloadLiveStreamSegment</a>
 <div><div>
 
-Download a live stream chunk.
+Download a live stream segment.
 
 </div></div>
 <div class="descr-list-border"></div>

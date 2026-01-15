@@ -3,7 +3,7 @@ title: downloadLiveStreamSegment
 parent: /methods
 ---
 
-Download a live stream chunk.<span class="select-none"> <span class="inline-flex w-fit items-center" style="font-size:12px;white-space:nowrap;word-break:keep-all;"><span class="w-fit bg-dbt select-none text-fgt" style="padding:2px 8px;border-radius:12px;">USER-ONLY</span></span> </span>
+Download a live stream segment.<span class="select-none"> <span class="inline-flex w-fit items-center" style="font-size:12px;white-space:nowrap;word-break:keep-all;"><span class="w-fit bg-dbt select-none text-fgt" style="padding:2px 8px;border-radius:12px;">USER-ONLY</span></span> </span>
 
 ### Parameters 
 
@@ -35,7 +35,7 @@ Download abort signal.
 
 ### Result 
 
-<div class="font-mono"><span href="/">AsyncGenerator</span><span class="opacity-50">&lt;</span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array" target="_blank" rel="noreferrer noopener">Uint8Array</a><span class="opacity-50">,</span> <span>void</span><span class="opacity-50">,</span> <span>unknown</span><span class="opacity-50">&gt;</span></div>
+<div class="font-mono"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array" target="_blank" rel="noreferrer noopener">Uint8Array</a></div>
 
 ### Syntax
 
