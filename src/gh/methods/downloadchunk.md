@@ -47,6 +47,6 @@ await client.downloadChunk(fileId, { chunkSize, offset, signal });
 ### Examples 
 
 ```ts
-const chunk = await client.download(fileId, { chunkSize: 256 * 1024 });
+const chunk = await client.downloadChunk(fileId, { chunkSize: 256 * 1024 });
 ```
 
