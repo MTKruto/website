@@ -5,6 +5,13 @@ parent: /#api-reference
 ## Account
 <div class="descr-list">
 
+<a href="/methods/checkcode">checkCode</a>
+<div><div>
+
+Check if a code entered by the user was the same as the verification code.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getbusinessconnection">getBusinessConnection</a>
 <div><div>
 
@@ -16,6 +23,13 @@ Get a business connection.
 <div><div>
 
 Get information on the currently authorized user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getpasswordhint">getPasswordHint</a>
+<div><div>
+
+Get the user account password's hint.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -37,6 +51,13 @@ Hide all usernames from a supergroup or a channel's profile.
 <div><div>
 
 Reorder the usernames of the current account, a bot account, a supergroup, or a channel's profile.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/sendcode">sendCode</a>
+<div><div>
+
+Send a user verification code.
 
 </div></div>
 <div class="descr-list-border"></div>

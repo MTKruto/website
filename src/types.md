@@ -46,6 +46,13 @@ A type specifying where bot commads are available.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/bottokencheckresult">BotTokenCheckResult</a>
+<div><div>
+
+A result after checking a sent code.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/businessconnection">BusinessConnection</a>
 <div><div>
 
@@ -162,6 +169,13 @@ A gift claimed by a user or a channel.
 <div><div>
 
 Gifts claimed by a user or a channel.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/codecheckresult">CodeCheckResult</a>
+<div><div>
+
+A result after checking a sent code.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -554,6 +568,13 @@ Message parse mode.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/passwordcheckresult">PasswordCheckResult</a>
+<div><div>
+
+A result after checking a sent code.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/photo">Photo</a>
 <div><div>
 
@@ -877,6 +898,48 @@ A voice note.
 <div><div>
 
 An audio transcription.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/bottokencheckresult.signedin">BotTokenCheckResult.SignedIn</a>
+<div><div>
+
+The bot token was correct. The bot was signed in.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/codecheckresult.passwordrequired">CodeCheckResult.PasswordRequired</a>
+<div><div>
+
+The code was correct, but an additional password is required to sign in.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/codecheckresult.invalidcode">CodeCheckResult.InvalidCode</a>
+<div><div>
+
+The code entered was incorrect.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/codecheckresult.signedin">CodeCheckResult.SignedIn</a>
+<div><div>
+
+The code was correct. The user was signed in.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/passwordcheckresult.invalidpassword">PasswordCheckResult.InvalidPassword</a>
+<div><div>
+
+The password entered was incorrect.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/passwordcheckresult.signedin">PasswordCheckResult.SignedIn</a>
+<div><div>
+
+The password was correct. The user was signed in.
 
 </div></div>
 <div class="descr-list-border"></div>
