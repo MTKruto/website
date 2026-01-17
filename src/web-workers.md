@@ -5,7 +5,7 @@ title: Web Workers
 
 This is an experimental feature. The behavior is subject to change without prior notice.
 
-MTKruto natively supports web workers. You can create a client worker and within control clients created within it.
+MTKruto natively supports web workers. You can create a client worker and control clients created within it.
 
 For the API refer to [JSR](https://jsr.io/@mtkruto/mtkruto/doc/~/ClientWorker).
 
