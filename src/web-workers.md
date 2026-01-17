@@ -1,4 +1,7 @@
-# Web Workers
+---
+parent: /#guides
+title: Web Workers
+---
 
 This is an experimental feature. The behavior is subject to change without prior notice.
 
