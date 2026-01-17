@@ -5,10 +5,24 @@ parent: /#api-reference
 ## Account
 <div class="descr-list">
 
+<a href="/methods/checkbottoken">checkBotToken</a>
+<div><div>
+
+Check whether a bot token is valid.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/checkcode">checkCode</a>
 <div><div>
 
 Check if a code entered by the user was the same as the verification code.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/checkpassword">checkPassword</a>
+<div><div>
+
+Check whether a password entered by the user is the same as the account's one.
 
 </div></div>
 <div class="descr-list-border"></div>
