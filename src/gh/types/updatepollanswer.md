@@ -8,7 +8,7 @@ A poll was answered.
 ```ts
 client.on("pollAnswer", (ctx) => {
   console.log("A poll just got an answer.");
-  // ctx.poll
+  // ctx.update.poll
 });
 ```
 

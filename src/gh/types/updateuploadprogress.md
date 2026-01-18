@@ -7,7 +7,7 @@ An upload has progressed.
 
 ```ts
 client.on("uploadProgress", (ctx) => {
-  // ctx.uploadProgress
+  // ctx.update.uploadProgress
 });
 ```
 

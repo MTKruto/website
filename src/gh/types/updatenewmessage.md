@@ -8,13 +8,13 @@ A message was sent or received.
 ```ts
 // Handle text messages
 client.on("message:text", (ctx) => {
-  const receivedOrSent = ctx.message.out ? "sent" : "received";
-  console.log("Just", receivedOrSent, "a text message:", ctx.message.text);
+  const receivedOrSent = ctx.update.message.out ? "sent" : "received";
+  console.log("Just", receivedOrSent, "a text message:", ctx.update.message.text);
 });
 
 // Handle other messages
 client.on("message", (ctx) => {
-  if (ctx.message.out) {
+  if (ctx.update.message.out) {
    console.log("Just sent a message.");
   }
 });
