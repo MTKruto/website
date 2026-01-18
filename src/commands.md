@@ -53,7 +53,7 @@ Note that the command handlers are getting triggered for user clients even if th
 
 ```ts
 client.command("start", async (ctx) => {
-  if (!ctx.message.out) {
+  if (!ctx.msg.out) {
     // Not sent by the current user.
     return;
   }

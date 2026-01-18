@@ -51,29 +51,29 @@ client.on("editedMessage:photo", (ctx) => {
 
 ### Accessing the Message in Handlers
 
-You can access the received message in through `ctx.msg` or `ctx.message`.
+You can access the received message in through `ctx.msg` or `ctx.update.message`.
 
 ```ts
 client.on("message", (ctx) => {
-  // Both ctx.msg and ctx.message are referring to the received message.
+  // Both ctx.msg and ctx.update.message are referring to the received message.
 });
 ```
 
-Edited messages are accessed through `ctx.msg` and `ctx.editedMessage`.
+Edited messages are accessed through `ctx.msg` and `ctx.update.editedMessage`.
 
 ```ts
 client.on("editedMessage", (ctx) => {
-  // Both ctx.msg and ctx.editedMessage are referring to the edited message.
+  // Both ctx.msg and ctx.update.editedMessage are referring to the edited message.
 });
 ```
 
-`ctx.msg` is just a shortcut that resolves to `ctx.message ?? ctx.editedMessage`. See {{ "Message" |> t }}.
+`ctx.msg` is just a shortcut that resolves to `ctx.message ?? ctx.update.editedMessage`. See {{ "Message" |> t }}.
 
 Updates for deleted messages don't include full message objects, only references to them (see {{ "MessageReference" |> t }}).
 
 ```ts
 client.on("deletedMessages", (ctx) => {
-  // ctx.deletedMessages is an array of MessageReference.
+  // ctx.update.deletedMessages is an array of MessageReference.
 });
 ```
 

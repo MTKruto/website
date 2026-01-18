@@ -133,7 +133,7 @@ Telegram API updates can be handled using the filter query `update`:
 
 ```ts
 client.on("update", (ctx) => {
-  // ctx.update
+  // ctx.update.update
 });
 ```
 
@@ -141,11 +141,11 @@ To handle only specific types, you need to replace the filter query with the [ty
 
 ```ts
 client.on("updateNewMessage", (ctx) => {
-  // ctx.update
+  // ctx.update.update
 });
 
 client.on("updateDeleteMessages", (ctx) => {
-  // ctx.update
+  // ctx.update.update
 });
 ```
 

@@ -82,7 +82,7 @@ client.on("messageReactions", (ctx) => {
 
 // received only for channels
 client.on("messageReactionCount", (ctx) => {
-  const { reactions } = ctx.messageReactionCount;
+  const { reactions } = ctx.update.messageReactionCount;
   console.log("-----");
   for (const { reaction, count } of reactions) {
     console.log("The reaction", reaction, "was made", count, "time(s).");
@@ -94,6 +94,6 @@ Users have only one update type related to reactions: {{ "UpdateMessageInteracti
 
 ```ts
 client.on("messageInteractions", (ctx) => {
-  console.log("New message interactions:", ctx.messageInteractions);
+  console.log("New message interactions:", ctx.update.messageInteractions);
 });
 ```
