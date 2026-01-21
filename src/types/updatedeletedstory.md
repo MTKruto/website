@@ -7,7 +7,7 @@ A story was deleted.
 
 ```ts
 client.on("deletedStory", (ctx) => {
-  console.log("The story", ctx.deletedStory, "was deleted");
+  console.log("The story", ctx.update.deletedStory, "was deleted");
 });
 ```
 

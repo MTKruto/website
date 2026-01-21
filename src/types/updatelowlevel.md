@@ -7,7 +7,7 @@ A low-level (Telegram API) update.
 
 ```ts
 client.on("update", async (ctx) => {
-  // ctx.update
+  // ctx.update.update
 });
 ```
 

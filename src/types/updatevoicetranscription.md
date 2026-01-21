@@ -7,7 +7,7 @@ A voice transcription was updated.
 
 ```ts
 client.on("voiceTranscription", (ctx) => {
-  // ctx.voiceTranscription
+  // ctx.update.voiceTranscription
 });
 ```
 
