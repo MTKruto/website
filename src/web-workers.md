@@ -15,9 +15,9 @@ Here's how you can use MTKruto workers inside Vite projects:
 
 ```ts
 import { ClientWorker } from "@mtkruto/mtkruto";
-import workerUrl from "@mtkruto/mtkruto/worker?url";
+import Worker from "@mtkruto/mtkruto/worker?worker";
 
-const clientWorker = new ClientWorker(workerUrl, { type: "module" });
+const clientWorker = new ClientWorker(new Worker());
 const client = await clientWorker.createClient(); // API compatible with the `Client` class
 
 await client.start();
