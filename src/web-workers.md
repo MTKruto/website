@@ -18,8 +18,11 @@ import { ClientWorker } from "@mtkruto/mtkruto";
 import Worker from "@mtkruto/mtkruto/worker?worker";
 
 const clientWorker = new ClientWorker(new Worker());
-const client = await clientWorker.createClient(); // API compatible with the `Client` class
 
+// This creates a `ClientDispatcher` with the id "main"
+const client = await clientWorker.createClient("main");
+
+// API is compatible with the `Client` class
 await client.start();
 
 client.on("message", async (ctx) => {
