@@ -7,7 +7,7 @@ Get network statistics. This might not always be available.<span class="select-n
 
 ### Result 
 
-<div class="font-mono"><a href="/types/networkstatistics"  >NetworkStatistics</a></div>
+<div class="font-mono"><a href="/types/networkstatistics">NetworkStatistics</a></div>
 
 ### Syntax
 

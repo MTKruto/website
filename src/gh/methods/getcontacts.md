@@ -7,7 +7,7 @@ Get contacts.<span class="select-none"> <span class="inline-flex w-fit items-cen
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/user"  >User</a><span class="opacity-50">[]</span></div>
+<div class="font-mono"><a href="/gh/types/user">User</a><span class="opacity-50">[]</span></div>
 
 ### Syntax
 

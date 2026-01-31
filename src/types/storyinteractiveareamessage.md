@@ -5,5 +5,5 @@ parent: /types
 
 ### Properties
 
-<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_position" data-anchor><span class="font-bold">position</span><span class="opacity-50">:</span> <a href="/types/storyinteractiveareaposition"  >StoryInteractiveAreaPosition</a></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_messageReference" data-anchor><span class="font-bold">messageReference</span><span class="opacity-50">:</span> <a href="/types/messagereference"  >MessageReference</a></div></div></div></div>
+<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_position" data-anchor="true"><span class="font-bold">position</span><span class="opacity-50">:</span> <a href="/types/storyinteractiveareaposition">StoryInteractiveAreaPosition</a></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_messageReference" data-anchor="true"><span class="font-bold">messageReference</span><span class="opacity-50">:</span> <a href="/types/messagereference">MessageReference</a></div></div></div></div>
 

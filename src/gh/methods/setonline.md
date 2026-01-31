@@ -7,7 +7,7 @@ Set the current account's online status.<span class="select-none"> <span class="
 
 ### Parameters 
 
-<div class="flex flex-col gap-3"><div><div class="font-mono" id="p_online" data-anchor><span class="font-bold">online</span><span class="opacity-50">:</span> <span>boolean</span></div><div class="pl-3"><div class="no-margin">
+<div class="flex flex-col gap-3"><div><div class="font-mono" id="p_online" data-anchor="true"><span class="font-bold">online</span><span class="opacity-50">:</span> <span>boolean</span></div><div class="pl-3"><div class="no-margin">
 
 The new online status.
 

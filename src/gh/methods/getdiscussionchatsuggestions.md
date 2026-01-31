@@ -7,7 +7,7 @@ Get discussion chat suggestions.<span class="select-none"> <span class="inline-f
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/chatp"  >ChatP</a><span class="opacity-50">[]</span></div>
+<div class="font-mono"><a href="/gh/types/chatp">ChatP</a><span class="opacity-50">[]</span></div>
 
 ### Syntax
 

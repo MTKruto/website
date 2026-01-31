@@ -7,11 +7,11 @@ Enable or disable automatic anti-spam in a group.<span class="select-none"> <spa
 
 ### Parameters 
 
-<div class="flex flex-col gap-3"><div><div class="font-mono" id="p_chatId" data-anchor><span class="font-bold">chatId</span><span class="opacity-50">:</span> <a href="/gh/types/id"  >ID</a></div><div class="pl-3"><div class="no-margin">
+<div class="flex flex-col gap-3"><div><div class="font-mono" id="p_chatId" data-anchor="true"><span class="font-bold">chatId</span><span class="opacity-50">:</span> <a href="/gh/types/id">ID</a></div><div class="pl-3"><div class="no-margin">
 
 The identifier of the group.
 
-</div></div></div><div><div class="font-mono" id="p_enabled" data-anchor><span class="font-bold">enabled</span><span class="opacity-50">:</span> <span>boolean</span></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="font-mono" id="p_enabled" data-anchor="true"><span class="font-bold">enabled</span><span class="opacity-50">:</span> <span>boolean</span></div><div class="pl-3"><div class="no-margin">
 
 Whether automatic anti-spam should be enabled in the group.
 

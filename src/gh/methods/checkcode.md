@@ -7,7 +7,7 @@ Check if a code entered by the user was the same as the verification code.<span 
 
 ### Parameters 
 
-<div class="flex flex-col gap-3"><div><div class="font-mono" id="p_code" data-anchor><span class="font-bold">code</span><span class="opacity-50">:</span> <span>string</span></div><div class="pl-3"><div class="no-margin">
+<div class="flex flex-col gap-3"><div><div class="font-mono" id="p_code" data-anchor="true"><span class="font-bold">code</span><span class="opacity-50">:</span> <span>string</span></div><div class="pl-3"><div class="no-margin">
 
 A code entered by the user.
 
@@ -15,7 +15,7 @@ A code entered by the user.
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/codecheckresult"  >CodeCheckResult</a></div>
+<div class="font-mono"><a href="/gh/types/codecheckresult">CodeCheckResult</a></div>
 
 ### Syntax
 

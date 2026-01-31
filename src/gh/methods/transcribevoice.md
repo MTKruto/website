@@ -7,11 +7,11 @@ Transcribe a voice message.<span class="select-none"> <span class="inline-flex w
 
 ### Parameters 
 
-<div class="flex flex-col gap-3"><div><div class="font-mono" id="p_chatId" data-anchor><span class="font-bold">chatId</span><span class="opacity-50">:</span> <a href="/gh/types/id"  >ID</a></div><div class="pl-3"><div class="no-margin">
+<div class="flex flex-col gap-3"><div><div class="font-mono" id="p_chatId" data-anchor="true"><span class="font-bold">chatId</span><span class="opacity-50">:</span> <a href="/gh/types/id">ID</a></div><div class="pl-3"><div class="no-margin">
 
 The identifier of the chat which the message belongs to.
 
-</div></div></div><div><div class="font-mono" id="p_messageId" data-anchor><span class="font-bold">messageId</span><span class="opacity-50">:</span> <span>number</span></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="font-mono" id="p_messageId" data-anchor="true"><span class="font-bold">messageId</span><span class="opacity-50">:</span> <span>number</span></div><div class="pl-3"><div class="no-margin">
 
 The identifier of the message.
 
@@ -19,7 +19,7 @@ The identifier of the message.
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/voicetranscription"  >VoiceTranscription</a></div>
+<div class="font-mono"><a href="/gh/types/voicetranscription">VoiceTranscription</a></div>
 
 ### Syntax
 
