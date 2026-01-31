@@ -7,7 +7,7 @@ export interface LinkGetter {
 }
 
 export function TsType(
-  { getLink, children: tt }: { getLink: LinkGetter; children: TsTypeDef },
+  { getLink, children: tt }: { key?: string | number; getLink: LinkGetter; children: TsTypeDef },
 ) {
   switch (tt.kind) {
     case "keyword":
