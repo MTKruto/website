@@ -1,6 +1,7 @@
 {
   "imports": {
     "@david/dax": "jsr:@david/dax@^0.44.2",
+    "@deno/doc": "jsr:@deno/doc@^0.189.1",
     "deno_doc/": "https://deno.land/x/deno_doc@0.125.0/",
     "highlight.js": "npm:highlight.js@^11.11.1",
     "lume/": "https://cdn.jsdelivr.net/gh/lumeland/lume@3.1.4/",

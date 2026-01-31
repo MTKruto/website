@@ -1,4 +1,4 @@
-import { doc as doc_ } from "deno_doc/mod.ts";
+import { doc as doc_ } from "@deno/doc";
 import { DocNodeClass, DocNodeInterface, DocNodeNamespace, DocNodeTypeAlias, TsTypeDef } from "deno_doc/types.d.ts";
 import versions from "./_versions.ts";
 
@@ -20,9 +20,11 @@ export async function getDocs(version?: string) {
     throw new InvalidVersion(version);
   }
 
-  const mod = await doc(
-    version == "gh" ? "https://raw.githubusercontent.com/MTKruto/MTKruto/main/mod.ts" : `https://deno.land/x/mtkruto@${version}/mod.ts`,
-  );
+  const mod = Object.values(
+    await doc(
+      version === "gh" ? "https://raw.githubusercontent.com/MTKruto/MTKruto/main/mod.ts" : `https://deno.land/x/mtkruto@${version}/mod.ts`,
+    ),
+  ).flat();
 
   const typeNodes = mod.filter((v) => v.location.filename.includes("/types/"));
 
@@ -292,7 +294,7 @@ async function doc(spec: string): ReturnType<typeof doc_> {
   }
   let doc: Awaited<ReturnType<typeof doc_>>;
   try {
-    doc = await doc_(spec);
+    doc = await doc_([spec]);
   } catch (err) {
     console.trace(err);
     if (err instanceof Error && err.message.includes("Module not found")) {
