@@ -1,20 +1,19 @@
 import lume from "lume/mod.ts";
-import code_highlight from "lume/plugins/code_highlight.ts";
-import jsx_preact from "lume/plugins/jsx_preact.ts";
-import sitemap from "lume/plugins/sitemap.ts";
+import codeHighlight from "lume/plugins/code_highlight.ts";
+import jsx from "lume/plugins/jsx.ts";
 import toc from "lume_markdown_plugins/toc.ts";
-import sass from "lume/plugins/sass.ts";
 import lang_typescript from "highlight.js/lib/languages/typescript";
 import lang_plaintext from "highlight.js/lib/languages/plaintext";
 import lang_shell from "highlight.js/lib/languages/shell";
+import sass from "lume/plugins/sass.ts";
+import sitemap from "lume/plugins/sitemap.ts";
 import versions from "./_versions.ts";
 
-const site = lume({
-  location: new URL("https://mtkru.to"),
-  src: `./src`,
-}, {
+const site = lume({ src: "src" }, {
   markdown: { options: { typographer: true } },
 });
+
+site.use(jsx());
 
 site.ignore("components");
 
@@ -42,20 +41,19 @@ site.helper("bc", (path: string) => {
 
 site.use(sass());
 
-site.use(code_highlight({
+site.use(codeHighlight({
   languages: {
     typescript: lang_typescript,
     shell: lang_shell,
     txt: lang_plaintext,
   },
 }));
-site.use(jsx_preact());
-site.use(sitemap());
 
-site.data("layout", "layout.tsx");
+site.use(sitemap());
 
 site.copy("_headers");
 site.copy("static", ".");
+site.add("style.scss");
 
 function toAnchor(title: string) {
   return title.replaceAll(/\p{P}/ug, "").toLowerCase().replaceAll(/\s+/g, "-");
@@ -321,5 +319,7 @@ site.helper("i", (page) => {
   }
   return "\n" + links.map((v) => `    - [${v[0]}](${v[1]})`).join("\n");
 }, { type: "filter" });
+
+site.data("layout", "layout.tsx");
 
 export default site;

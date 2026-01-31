@@ -1,10 +1,10 @@
 import { JsDocTagDoc, JsDocTagUnsupported } from "deno_doc/types.d.ts";
 import { getDocs } from "./_docs.ts";
-import { getMethodOptionalParams, Method } from "./components/Method.tsx";
-import { TsType, TypeParams_ } from "./components/TsType.tsx";
-import { Properties } from "./components/Properties.tsx";
-import { TypeAlias } from "./components/TypeAlias.tsx";
-import { Description } from "./components/Description.tsx";
+import { getMethodOptionalParams, Method } from "./_components/Method.tsx";
+import { TsType, TypeParams_ } from "./_components/TsType.tsx";
+import { Properties } from "./_components/Properties.tsx";
+import { TypeAlias } from "./_components/TypeAlias.tsx";
+import { Description } from "./_components/Description.tsx";
 import { renderToString } from "preact-render-to-string";
 
 const version = Deno.env.get("VERSION") ? ("/" + Deno.env.get("VERSION")) : "";
