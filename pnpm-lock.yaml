@@ -8,8 +8,11 @@ importers:
 
   .:
     dependencies:
+      deno:
+        specifier: ^2.6.7
+        version: 2.6.7
       deno-bin:
-        specifier: ^2.1.4
+        specifier: ^2.2.7
         version: 2.2.7
       highlight.js:
         specifier: ^11.11.1
@@ -20,12 +23,46 @@ importers:
 
 packages:
 
+  '@deno/darwin-arm64@2.6.7':
+    resolution: {integrity: sha512-MUfk9dJnqTHFcY5+mJ1UjlzebHCrk3ZaaEBmxMOQIqAohpyAB1ev3lKJDGLLKjmrQ3imLyGwuQnZoo0BB9zsfQ==}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@deno/darwin-x64@2.6.7':
+    resolution: {integrity: sha512-lXz7EPao6YBXByQacI86ThthNqY3goTbBTpeVAImTj0RjT4KytkzY4bB6scK1fL735PX3GgPEqKQZSfMcS++cA==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@deno/linux-arm64-glibc@2.6.7':
+    resolution: {integrity: sha512-yHRXLFuvwMpGJMShCMSfW92HbD98YBpvBNW5jRaRsoQ+S/uFKg5dxVd1Kr6LU4q3qTMOPOWq7UXcLojm5fRkLg==}
+    cpu: [arm64]
+    os: [linux]
+
+  '@deno/linux-x64-glibc@2.6.7':
+    resolution: {integrity: sha512-7BosIxq/gEwSz5pE22al5IlsynyKkGxaW1g6I0CQnoybxcUzR56Z9fPedU8btmcJLrHdwMHTibKfNBOVQl5CtA==}
+    cpu: [x64]
+    os: [linux]
+
+  '@deno/win32-arm64@2.6.7':
+    resolution: {integrity: sha512-xXx3tdbgYGqUg+xWT1Me2rK8mq7h5QtwrC6BGdveuf/AP/hvcvPOOF7MV2VAY5bqnswL6oKQNPJ8almjyqmNwA==}
+    cpu: [arm64]
+    os: [win32]
+
+  '@deno/win32-x64@2.6.7':
+    resolution: {integrity: sha512-L5fDcySTZaLtokuX+ko9NdlrvetZBgRdbkmN1I7g70U+Giylm9bbDerYEm5L+WhMVB6tixZhnIbyw1odIwAwbg==}
+    cpu: [x64]
+    os: [win32]
+
   adm-zip@0.5.16:
     resolution: {integrity: sha512-TGw5yVi4saajsSEgz25grObGHEUaDrniwvA2qwSC060KfqGPdglhvPMA2lPIoxs3PQIItj2iag35fONcQqgUaQ==}
     engines: {node: '>=12.0'}
 
   deno-bin@2.2.7:
     resolution: {integrity: sha512-ANCqji3OqD0Voji5OtUElCFRhcp1Wt6d2LUMR+jlOXkIN/MqL8BgzHFMi3a5e8YnB7IEpxsR/O3Yd+wkQXcc9g==}
+    hasBin: true
+
+  deno@2.6.7:
+    resolution: {integrity: sha512-u01GyParfRPdO1re/usMH4rDr7qBPPVSxdcWUPKQmMpQQkfzF9xn56tqE2O2Kih2bois53Qq6nWeUbrkil+Y1A==}
     hasBin: true
 
   highlight.js@11.11.1:
@@ -42,11 +79,38 @@ packages:
 
 snapshots:
 
+  '@deno/darwin-arm64@2.6.7':
+    optional: true
+
+  '@deno/darwin-x64@2.6.7':
+    optional: true
+
+  '@deno/linux-arm64-glibc@2.6.7':
+    optional: true
+
+  '@deno/linux-x64-glibc@2.6.7':
+    optional: true
+
+  '@deno/win32-arm64@2.6.7':
+    optional: true
+
+  '@deno/win32-x64@2.6.7':
+    optional: true
+
   adm-zip@0.5.16: {}
 
   deno-bin@2.2.7:
     dependencies:
       adm-zip: 0.5.16
+
+  deno@2.6.7:
+    optionalDependencies:
+      '@deno/darwin-arm64': 2.6.7
+      '@deno/darwin-x64': 2.6.7
+      '@deno/linux-arm64-glibc': 2.6.7
+      '@deno/linux-x64-glibc': 2.6.7
+      '@deno/win32-arm64': 2.6.7
+      '@deno/win32-x64': 2.6.7
 
   highlight.js@11.11.1: {}
 

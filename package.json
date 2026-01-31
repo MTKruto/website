@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "build": "deno-bin task build"
+    "build": "deno task build"
   },
   "dependencies": {
-    "deno-bin": "^2.1.4",
+    "deno": "^2.6.7",
     "highlight.js": "^11.11.1",
     "preact-render-to-string": "^6.6.1"
   }

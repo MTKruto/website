@@ -85,5 +85,6 @@
   ],
   "fmt": {
     "lineWidth": 9999
-  }
+  },
+  "nodeModulesDir": "auto"
 }
