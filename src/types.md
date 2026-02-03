@@ -102,6 +102,13 @@ The rights of a chat administrator.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/chatfolder">ChatFolder</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/chatlistitem">ChatListItem</a>
 <div><div>
 
