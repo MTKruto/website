@@ -492,6 +492,13 @@ Get pending join requests in a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getpinnedchats">getPinnedChats</a>
+<div><div>
+
+Get pinned chats from a chat list.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/hidegeneraltopic">hideGeneralTopic</a>
 <div><div>
 
