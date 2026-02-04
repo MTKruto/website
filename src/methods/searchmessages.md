@@ -43,7 +43,7 @@ The maximum number of results to return. Must be in the range of 1-100. Defaults
 
 ### Result 
 
-<div class="font-mono"><a href="/types/message">Message</a><span class="opacity-50">[]</span></div>
+<div class="font-mono"><a href="/types/messagelist">MessageList</a></div>
 
 ### Syntax
 

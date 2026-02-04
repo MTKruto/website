@@ -454,6 +454,13 @@ The interactions made with a message.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/messagelist">MessageList</a>
+<div><div>
+
+A list of messages.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/messagereaction">MessageReaction</a>
 <div><div>
 
