@@ -249,6 +249,48 @@ A gift.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/giftcomponentrarity">GiftComponentRarity</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/giftcomponentrarityepic">GiftComponentRarityEpic</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/giftcomponentraritylegendary">GiftComponentRarityLegendary</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/giftcomponentraritypermille">GiftComponentRarityPerMille</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/giftcomponentrarityrare">GiftComponentRarityRare</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/giftcomponentrarityuncommon">GiftComponentRarityUncommon</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/giftvalue">GiftValue</a>
 <div><div>
 

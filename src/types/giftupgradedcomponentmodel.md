@@ -16,9 +16,9 @@ The name of the model.
 
 The sticker belonging to the model.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_rarityLevel" data-anchor="true"><span class="font-bold">rarityLevel</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_rarity" data-anchor="true"><span class="font-bold">rarity</span><span class="opacity-50">:</span> <a href="/types/giftcomponentrarity">GiftComponentRarity</a></div></div><div class="pl-3"><div class="no-margin">
 
-A number determining how rare this type of model is out of a thousand of others.
+The rarity of the model.
 
 </div></div></div></div>
 
