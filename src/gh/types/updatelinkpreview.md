@@ -1,6 +1,8 @@
 ---
 title: UpdateLinkPreview
 parent: /types
+metas:
+  description: A link preview was updated.  ``` client.on("linkPreview", (ctx) => {   // ctx.update.linkPreview }); ```
 ---
 
 A link preview was updated.

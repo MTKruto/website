@@ -1,6 +1,8 @@
 ---
 title: LinkPreviewGift
 parent: /types
+metas:
+  description: An gift link preview.
 ---
 
 An gift link preview.

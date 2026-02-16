@@ -1,6 +1,8 @@
 ---
 title: CodeCheckResult
 parent: /types
+metas:
+  description: A result after checking a sent code.
 ---
 
 A result after checking a sent code.

@@ -1,6 +1,8 @@
 ---
 title: InlineKeyboardButtonLogin
 parent: /types
+metas:
+  description: An inline keyboard button that, when pressed, logs the user into the specified URL.
 ---
 
 An inline keyboard button that, when pressed, logs the user into the specified URL.

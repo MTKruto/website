@@ -1,6 +1,8 @@
 ---
 title: UpdateAuthorizationState
 parent: /types
+metas:
+  description: A client's authorization state was changed.  ``` client.on("authorizationState", async (ctx) => {   if (ctx.update.authorizationState.authorized) {     const me = await ctx.client.getMe();     console.log("The client is now authorized as", me.firstName);   } else {     console.log("The client is no longer authorized.")   } }); ```
 ---
 
 A client's authorization state was changed.

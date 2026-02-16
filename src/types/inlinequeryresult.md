@@ -1,6 +1,8 @@
 ---
 title: InlineQueryResult
 parent: /types
+metas:
+  description: A single inline query result.
 ---
 
 A single inline query result.

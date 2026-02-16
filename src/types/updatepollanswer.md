@@ -1,6 +1,8 @@
 ---
 title: UpdatePollAnswer
 parent: /types
+metas:
+  description: A poll was answered.  ``` client.on("pollAnswer", (ctx) => {   console.log("A poll just got an answer.");   // ctx.update.poll }); ```
 ---
 
 A poll was answered.

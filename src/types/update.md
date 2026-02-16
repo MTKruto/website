@@ -1,6 +1,8 @@
 ---
 title: Update
 parent: /types
+metas:
+  description: An incoming update.
 ---
 
 An incoming update.

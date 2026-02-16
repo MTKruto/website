@@ -1,6 +1,8 @@
 ---
 title: UpdateBusinessConnection
 parent: /types
+metas:
+  description: A business connection was added, modified, or removed.  ``` client.on("businessConnection", (ctx) => {   console.log("Business connection with", ctx.from.id, ctx.update.businessConnection.isEnabled ? "created" : "lost");   console.log(ctx.update.businessConnection); }); ```
 ---
 
 A business connection was added, modified, or removed.

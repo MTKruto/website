@@ -1,6 +1,8 @@
 ---
 title: BotCommandScope
 parent: /types
+metas:
+  description: A type specifying where bot commads are available.
 ---
 
 A type specifying where bot commads are available.

@@ -1,6 +1,8 @@
 ---
 title: ReplyMarkup
 parent: /types
+metas:
+  description: A message's reply markup.
 ---
 
 A message's reply markup.

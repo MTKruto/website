@@ -1,6 +1,8 @@
 ---
 title: StoryContent
 parent: /types
+metas:
+  description: A story content.
 ---
 
 A story content.

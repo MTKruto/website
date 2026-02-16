@@ -1,6 +1,8 @@
 ---
 title: StoryPrivacy
 parent: /types
+metas:
+  description: A story's privacy choice.
 ---
 
 A story's privacy choice.

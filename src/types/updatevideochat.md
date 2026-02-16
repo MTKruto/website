@@ -1,6 +1,8 @@
 ---
 title: UpdateVideoChat
 parent: /types
+metas:
+  description: A video chat was started, scheduled, or ended.  ``` client.on("videoChat", (ctx) => {   console.log("Video chat", ctx.update.videoChat.type);   console.log(ctx.update.videoChat); }); ```
 ---
 
 A video chat was started, scheduled, or ended.

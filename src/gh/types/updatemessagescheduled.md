@@ -1,6 +1,8 @@
 ---
 title: UpdateMessageScheduled
 parent: /types
+metas:
+  description: A message was scheduled. User-only.  ``` client.on("scheduledMessage", (ctx) => {   console.log("A message was just schedueld.");   // ctx.update.scheduledMessage }); ```
 ---
 
 A message was scheduled. User-only.

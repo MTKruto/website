@@ -1,6 +1,8 @@
 ---
 title: ChatP
 parent: /types
+metas:
+  description: A chat with lesser fields.
 ---
 
 A chat with lesser fields.

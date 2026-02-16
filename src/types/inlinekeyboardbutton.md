@@ -1,6 +1,8 @@
 ---
 title: InlineKeyboardButton
 parent: /types
+metas:
+  description: A button of an inline keyboard.
 ---
 
 A button of an inline keyboard.

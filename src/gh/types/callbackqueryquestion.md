@@ -1,6 +1,8 @@
 ---
 title: CallbackQueryQuestion
 parent: /types
+metas:
+  description: A reference to a button that is to be clicked by a user.
 ---
 
 A reference to a button that is to be clicked by a user.

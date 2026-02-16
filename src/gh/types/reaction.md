@@ -1,6 +1,8 @@
 ---
 title: Reaction
 parent: /types
+metas:
+  description: A reaction type.
 ---
 
 A reaction type.

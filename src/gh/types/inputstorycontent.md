@@ -1,6 +1,8 @@
 ---
 title: InputStoryContent
 parent: /types
+metas:
+  description: A story content when provided as an input.
 ---
 
 A story content when provided as an input.

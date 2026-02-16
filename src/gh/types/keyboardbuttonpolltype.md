@@ -1,6 +1,8 @@
 ---
 title: KeyboardButtonPollType
 parent: /types
+metas:
+  description: A keyboard button representing the type of the poll that is requested to be created.
 ---
 
 A keyboard button representing the type of the poll that is requested to be created.

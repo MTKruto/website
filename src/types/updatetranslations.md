@@ -1,6 +1,8 @@
 ---
 title: UpdateTranslations
 parent: /types
+metas:
+  description: Translations were updated.  ``` client.on("translations", (ctx) => {   console.log("Translations were just updated.");   // ctx.update.translations }); ```
 ---
 
 Translations were updated.

@@ -1,6 +1,8 @@
 ---
 title: UpdateCallbackQuery
 parent: /types
+metas:
+  description: A callback query was made (a user presses an inline button). Bot-only.  ``` client.on("callbackQuery", async (ctx) => {   await ctx.answerCallbackQuery(ctx.update.callbackQuery.data, { alert: true }); }); ```
 ---
 
 A callback query was made (a user presses an inline button). Bot-only.

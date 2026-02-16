@@ -1,6 +1,8 @@
 ---
 title: ChatMember
 parent: /types
+metas:
+  description: A chat member.
 ---
 
 A chat member.

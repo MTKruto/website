@@ -1,6 +1,8 @@
 ---
 title: Gift
 parent: /types
+metas:
+  description: A gift.
 ---
 
 A gift.

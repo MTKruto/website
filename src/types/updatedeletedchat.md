@@ -1,6 +1,8 @@
 ---
 title: UpdateDeletedChat
 parent: /types
+metas:
+  description: A chat was removed from the chat list. User-only.
 ---
 
 A chat was removed from the chat list. User-only.

@@ -1,6 +1,8 @@
 ---
 title: StoryInteractiveArea
 parent: /types
+metas:
+  description: A story's interactive area.
 ---
 
 A story's interactive area.
