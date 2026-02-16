@@ -15,13 +15,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - uses: denoland/setup-deno@v2
         with:
           deno-version: vx.x.x
 
-      - uses: actions/cache@v4
+      - uses: actions/cache@5
         with:
           path: ~/.cache/deno/deps
           key: ${{ hashFiles('deno.json') }}
