@@ -182,7 +182,7 @@ parent: /methods
 
     if (method.jsDoc?.doc) {
       method_md += `metas:
-  description: ${method.jsDoc.doc.replaceAll("\n", " ")}
+  description: ${method.jsDoc.doc.trim().split("\n")[0]}
 `;
     }
     method_md += `---\n\n`;
@@ -313,7 +313,7 @@ parent: /types
 
     if (type.jsDoc?.doc) {
       type_md += `metas:
-  description: ${type.jsDoc.doc.replaceAll("\n", " ")}
+  description: ${type.jsDoc.doc.trim().split("\n")[0]}
 `;
     }
     type_md += `---\n\n`;
