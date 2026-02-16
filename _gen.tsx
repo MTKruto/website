@@ -178,14 +178,14 @@ metas:
     let method_md = `---
 title: ${method.name}
 parent: /methods
-`
+`;
 
-if (method.jsDoc?.doc) {
-  method_md += `metas:
-  description: ${method.jsDoc.doc.replaceAll('\n', ' ')}
-`
-}
-method_md += `---\n\n`;
+    if (method.jsDoc?.doc) {
+      method_md += `metas:
+  description: ${method.jsDoc.doc.replaceAll("\n", " ")}
+`;
+    }
+    method_md += `---\n\n`;
 
     if (method.jsDoc?.doc) {
       const a = renderToString(tags);
@@ -309,7 +309,14 @@ ${optional}`.trim()
     let type_md = `---
 title: ${type.name}
 parent: /types
----\n\n`;
+`;
+
+    if (type.jsDoc?.doc) {
+      type_md += `metas:
+  description: ${type.jsDoc.doc.replaceAll("\n", " ")}
+`;
+    }
+    type_md += `---\n\n`;
 
     if (type.jsDoc?.doc) {
       type_md += type.jsDoc.doc.replaceAll("\n\n```", "\n\n```ts");
