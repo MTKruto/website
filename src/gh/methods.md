@@ -28,6 +28,13 @@ Check whether a password entered by the user is the same as the account's one.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/checkusername">checkUsername</a>
+<div><div>
+
+Check the availability of a username.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getbusinessconnection">getBusinessConnection</a>
 <div><div>
 
