@@ -2,7 +2,7 @@
 title: sendGift
 parent: /methods
 metas:
-  description: Send a gift. 
+  description: Send a gift.
 ---
 
 Send a gift.<span class="select-none">  </span>

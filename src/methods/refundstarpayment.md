@@ -2,7 +2,7 @@
 title: refundStarPayment
 parent: /methods
 metas:
-  description: Refund a star payment. Bot-only. 
+  description: Refund a star payment. Bot-only.
 ---
 
 Refund a star payment.<span class="select-none"> <span class="inline-flex w-fit items-center" style="font-size:12px;white-space:nowrap;word-break:keep-all;"><span class="w-fit bg-dbt select-none text-fgt" style="padding:2px 8px;border-radius:12px;">BOT-ONLY</span></span> </span>

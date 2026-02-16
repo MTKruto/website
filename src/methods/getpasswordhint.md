@@ -2,7 +2,7 @@
 title: getPasswordHint
 parent: /methods
 metas:
-  description: Get the user account password's hint. 
+  description: Get the user account password's hint.
 ---
 
 Get the user account password's hint.<span class="select-none">  </span>

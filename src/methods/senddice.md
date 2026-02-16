@@ -2,7 +2,7 @@
 title: sendDice
 parent: /methods
 metas:
-  description: Send a dice. 
+  description: Send a dice.
 ---
 
 Send a dice.<span class="select-none">  </span>

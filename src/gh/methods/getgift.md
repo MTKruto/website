@@ -2,7 +2,7 @@
 title: getGift
 parent: /methods
 metas:
-  description: Get a gift using its slug. 
+  description: Get a gift using its slug.
 ---
 
 Get a gift using its slug.<span class="select-none">  </span>

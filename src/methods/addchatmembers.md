@@ -2,7 +2,7 @@
 title: addChatMembers
 parent: /methods
 metas:
-  description: Add multiple users at once to a channel or a supergroup. 
+  description: Add multiple users at once to a channel or a supergroup.
 ---
 
 Add multiple users at once to a channel or a supergroup.<span class="select-none">  </span>

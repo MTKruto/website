@@ -2,7 +2,7 @@
 title: sendAudio
 parent: /methods
 metas:
-  description: Send an audio file. 
+  description: Send an audio file.
 ---
 
 Send an audio file.<span class="select-none">  </span>

@@ -2,7 +2,7 @@
 title: reopenTopic
 parent: /methods
 metas:
-  description: Reopen a forum topic. 
+  description: Reopen a forum topic.
 ---
 
 Reopen a forum topic.<span class="select-none">  </span>

@@ -2,7 +2,7 @@
 title: UpdateUploadProgress
 parent: /types
 metas:
-  description: An upload has progressed.  ``` client.on("uploadProgress", (ctx) => {   // ctx.update.uploadProgress }); ```
+  description: An upload has progressed.
 ---
 
 An upload has progressed.

@@ -2,7 +2,7 @@
 title: deleteChatStickerSet
 parent: /methods
 metas:
-  description: Delete a chat's sticker set. 
+  description: Delete a chat's sticker set.
 ---
 
 Delete a chat's sticker set.<span class="select-none">  </span>

@@ -2,7 +2,7 @@
 title: editMessageMedia
 parent: /methods
 metas:
-  description: Edit a message's media. 
+  description: Edit a message's media.
 ---
 
 Edit a message's media.<span class="select-none">  </span>

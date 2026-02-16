@@ -2,7 +2,7 @@
 title: sendVideo
 parent: /methods
 metas:
-  description: Send a video. 
+  description: Send a video.
 ---
 
 Send a video.<span class="select-none">  </span>

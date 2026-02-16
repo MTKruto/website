@@ -2,7 +2,7 @@
 title: forwardMessages
 parent: /methods
 metas:
-  description: Forward multiple messages. 
+  description: Forward multiple messages.
 ---
 
 Forward multiple messages.<span class="select-none">  </span>

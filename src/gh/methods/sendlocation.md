@@ -2,7 +2,7 @@
 title: sendLocation
 parent: /methods
 metas:
-  description: Send a location. 
+  description: Send a location.
 ---
 
 Send a location.<span class="select-none">  </span>

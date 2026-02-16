@@ -2,7 +2,7 @@
 title: UpdateVoiceTranscription
 parent: /types
 metas:
-  description: A voice transcription was updated.  ``` client.on("voiceTranscription", (ctx) => {   // ctx.update.voiceTranscription }); ```
+  description: A voice transcription was updated.
 ---
 
 A voice transcription was updated.

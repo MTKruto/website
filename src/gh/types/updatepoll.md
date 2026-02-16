@@ -2,7 +2,7 @@
 title: UpdatePoll
 parent: /types
 metas:
-  description: A poll was updated.  ``` client.on("poll", (ctx) => {   console.log("A poll just changed.");   // ctx.update.poll }); ```
+  description: A poll was updated.
 ---
 
 A poll was updated.

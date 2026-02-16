@@ -2,7 +2,7 @@
 title: sendDocument
 parent: /methods
 metas:
-  description: Send a document. 
+  description: Send a document.
 ---
 
 Send a document.<span class="select-none">  </span>

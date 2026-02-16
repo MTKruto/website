@@ -2,7 +2,7 @@
 title: resolveMessageLink
 parent: /methods
 metas:
-  description: Retrieve a message using its link. 
+  description: Retrieve a message using its link.
 ---
 
 Retrieve a message using its link.<span class="select-none">  </span>

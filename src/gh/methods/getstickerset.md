@@ -2,7 +2,7 @@
 title: getStickerSet
 parent: /methods
 metas:
-  description: Get a sticker set. 
+  description: Get a sticker set.
 ---
 
 Get a sticker set.<span class="select-none">  </span>

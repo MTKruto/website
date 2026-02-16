@@ -2,7 +2,7 @@
 title: craftGifts
 parent: /methods
 metas:
-  description: Craft gifts. 
+  description: Craft gifts.
 ---
 
 Craft gifts.<span class="select-none">  </span>

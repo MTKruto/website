@@ -2,7 +2,7 @@
 title: UpdateMessageEdited
 parent: /types
 metas:
-  description: A message was edited.  ``` client.on("editedMessage", (ctx) => {   console.log("A message was just edited.");   // ctx.update.editedMessage }); ```
+  description: A message was edited.
 ---
 
 A message was edited.

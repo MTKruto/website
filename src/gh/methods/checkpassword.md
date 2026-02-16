@@ -2,7 +2,7 @@
 title: checkPassword
 parent: /methods
 metas:
-  description: Check whether a password entered by the user is the same as the account's one. 
+  description: Check whether a password entered by the user is the same as the account's one.
 ---
 
 Check whether a password entered by the user is the same as the account's one.<span class="select-none">  </span>

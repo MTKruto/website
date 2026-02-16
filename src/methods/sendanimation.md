@@ -2,7 +2,7 @@
 title: sendAnimation
 parent: /methods
 metas:
-  description: Send an animation. 
+  description: Send an animation.
 ---
 
 Send an animation.<span class="select-none">  </span>

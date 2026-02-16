@@ -2,7 +2,7 @@
 title: approveJoinRequests
 parent: /methods
 metas:
-  description: Approve all join requests. User-only. 
+  description: Approve all join requests. User-only.
 ---
 
 Approve all join requests.<span class="select-none"> <span class="inline-flex w-fit items-center" style="font-size:12px;white-space:nowrap;word-break:keep-all;"><span class="w-fit bg-dbt select-none text-fgt" style="padding:2px 8px;border-radius:12px;">USER-ONLY</span></span> </span>

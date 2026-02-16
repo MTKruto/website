@@ -2,7 +2,7 @@
 title: addReaction
 parent: /methods
 metas:
-  description: Make a reaction to a message. 
+  description: Make a reaction to a message.
 ---
 
 Make a reaction to a message.<span class="select-none">  </span>

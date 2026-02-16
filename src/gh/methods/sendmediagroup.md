@@ -2,7 +2,7 @@
 title: sendMediaGroup
 parent: /methods
 metas:
-  description: Send a media group. 
+  description: Send a media group.
 ---
 
 Send a media group.<span class="select-none">  </span>

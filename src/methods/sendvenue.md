@@ -2,7 +2,7 @@
 title: sendVenue
 parent: /methods
 metas:
-  description: Send a venue. 
+  description: Send a venue.
 ---
 
 Send a venue.<span class="select-none">  </span>

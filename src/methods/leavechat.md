@@ -2,7 +2,7 @@
 title: leaveChat
 parent: /methods
 metas:
-  description: Leave a chat. 
+  description: Leave a chat.
 ---
 
 Leave a chat.<span class="select-none">  </span>

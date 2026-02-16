@@ -2,7 +2,7 @@
 title: sendContact
 parent: /methods
 metas:
-  description: Send a contact. 
+  description: Send a contact.
 ---
 
 Send a contact.<span class="select-none">  </span>

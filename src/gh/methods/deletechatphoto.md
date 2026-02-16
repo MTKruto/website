@@ -2,7 +2,7 @@
 title: deleteChatPhoto
 parent: /methods
 metas:
-  description: Delete a chat's photo. 
+  description: Delete a chat's photo.
 ---
 
 Delete a chat's photo.<span class="select-none">  </span>

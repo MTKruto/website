@@ -2,7 +2,7 @@
 title: GiftUpgradedComponent
 parent: /types
 metas:
-  description: A component of an upgraded gift. 
+  description: A component of an upgraded gift.
 ---
 
 A component of an upgraded gift.

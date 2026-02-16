@@ -2,7 +2,7 @@
 title: hideGeneralTopic
 parent: /methods
 metas:
-  description: Hide the general forum topic. 
+  description: Hide the general forum topic.
 ---
 
 Hide the general forum topic.<span class="select-none">  </span>

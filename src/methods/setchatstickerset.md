@@ -2,7 +2,7 @@
 title: setChatStickerSet
 parent: /methods
 metas:
-  description: Set a chat's sticker set. 
+  description: Set a chat's sticker set.
 ---
 
 Set a chat's sticker set.<span class="select-none">  </span>

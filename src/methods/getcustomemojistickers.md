@@ -2,7 +2,7 @@
 title: getCustomEmojiStickers
 parent: /methods
 metas:
-  description: Get custom emoji documents for download. 
+  description: Get custom emoji documents for download.
 ---
 
 Get custom emoji documents for download.<span class="select-none">  <span class="inline-flex w-fit items-center" style="font-size:12px;white-space:nowrap;word-break:keep-all;"><span class="w-fit bg-dbt select-none text-fgt" style="padding:2px 8px;border-radius:12px;">CACHE</span></span></span>

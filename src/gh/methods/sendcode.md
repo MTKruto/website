@@ -2,7 +2,7 @@
 title: sendCode
 parent: /methods
 metas:
-  description: Send a user verification code. 
+  description: Send a user verification code.
 ---
 
 Send a user verification code.<span class="select-none">  </span>

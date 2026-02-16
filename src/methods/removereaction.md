@@ -2,7 +2,7 @@
 title: removeReaction
 parent: /methods
 metas:
-  description: Undo a reaction made to a message. 
+  description: Undo a reaction made to a message.
 ---
 
 Undo a reaction made to a message.<span class="select-none">  </span>

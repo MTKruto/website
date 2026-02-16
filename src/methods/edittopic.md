@@ -2,7 +2,7 @@
 title: editTopic
 parent: /methods
 metas:
-  description: Edit a forum topic. 
+  description: Edit a forum topic.
 ---
 
 Edit a forum topic.<span class="select-none">  </span>

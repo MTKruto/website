@@ -2,7 +2,7 @@
 title: getSavedChats
 parent: /methods
 metas:
-  description: Get a list of saved chats. 
+  description: Get a list of saved chats.
 ---
 
 Get a list of saved chats.<span class="select-none">  </span>

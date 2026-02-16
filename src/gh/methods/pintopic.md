@@ -2,7 +2,7 @@
 title: pinTopic
 parent: /methods
 metas:
-  description: Pin a forum topic. 
+  description: Pin a forum topic.
 ---
 
 Pin a forum topic.<span class="select-none">  </span>

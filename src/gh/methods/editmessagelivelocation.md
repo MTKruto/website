@@ -2,7 +2,7 @@
 title: editMessageLiveLocation
 parent: /methods
 metas:
-  description: Edit a message's live location. 
+  description: Edit a message's live location.
 ---
 
 Edit a message's live location.<span class="select-none">  </span>

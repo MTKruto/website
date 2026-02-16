@@ -2,7 +2,7 @@
 title: deleteMessage
 parent: /methods
 metas:
-  description: Delete a single message. 
+  description: Delete a single message.
 ---
 
 Delete a single message.<span class="select-none">  </span>
