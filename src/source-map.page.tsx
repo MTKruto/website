@@ -4,7 +4,7 @@ export const parent = "/#misc";
 
 export const hide_toc = true;
 
-export default (data: Lume.Data, helpers: Lume.Helpers) => {
+export default () => {
   const blockStyle = {
     padding: "12px",
     width: "100%",

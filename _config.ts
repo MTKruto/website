@@ -14,7 +14,7 @@ const site = lume({ src: "src" }, {
   markdown: { options: { typographer: true } },
 });
 
-// site.use(metas());
+site.use(metas());
 
 site.use(jsx());
 
