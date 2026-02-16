@@ -1,6 +1,8 @@
 ---
 title: sendPoll
 parent: /methods
+metas:
+  description: Send a poll. 
 ---
 
 Send a poll.<span class="select-none">  </span>

@@ -1,6 +1,8 @@
 ---
 title: showGeneralTopic
 parent: /methods
+metas:
+  description: Show the general forum topic. 
 ---
 
 Show the general forum topic.<span class="select-none">  </span>

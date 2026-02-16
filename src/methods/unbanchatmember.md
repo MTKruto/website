@@ -1,6 +1,8 @@
 ---
 title: unbanChatMember
 parent: /methods
+metas:
+  description: Unban a member from a chat. 
 ---
 
 Unban a member from a chat.<span class="select-none">  </span>

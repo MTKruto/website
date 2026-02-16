@@ -1,6 +1,8 @@
 ---
 title: promoteChatMember
 parent: /methods
+metas:
+  description: Promote a chat member. 
 ---
 
 Promote a chat member.<span class="select-none">  </span>

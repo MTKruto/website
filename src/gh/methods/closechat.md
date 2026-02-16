@@ -1,6 +1,8 @@
 ---
 title: closeChat
 parent: /methods
+metas:
+  description: Close a chat previously opened by openChat. 
 ---
 
 Close a chat previously opened by openChat.<span class="select-none">  </span>

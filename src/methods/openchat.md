@@ -1,6 +1,8 @@
 ---
 title: openChat
 parent: /methods
+metas:
+  description: Open a chat. 
 ---
 
 Open a chat.<span class="select-none">  </span>

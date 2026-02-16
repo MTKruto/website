@@ -1,6 +1,8 @@
 ---
 title: sendScheduledMessages
 parent: /methods
+metas:
+  description: Send multiple scheduled messages before their schedule. 
 ---
 
 Send multiple scheduled messages before their schedule.<span class="select-none">  </span>

@@ -1,6 +1,8 @@
 ---
 title: setUserEmojiStatus
 parent: /methods
+metas:
+  description: Set the emoji status of a bot's user. Bot-only. 
 ---
 
 Set the emoji status of a bot's user.<span class="select-none"> <span class="inline-flex w-fit items-center" style="font-size:12px;white-space:nowrap;word-break:keep-all;"><span class="w-fit bg-dbt select-none text-fgt" style="padding:2px 8px;border-radius:12px;">BOT-ONLY</span></span> </span>

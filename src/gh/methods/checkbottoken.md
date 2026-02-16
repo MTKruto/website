@@ -1,6 +1,8 @@
 ---
 title: checkBotToken
 parent: /methods
+metas:
+  description: Check whether a bot token is valid. 
 ---
 
 Check whether a bot token is valid.<span class="select-none">  </span>

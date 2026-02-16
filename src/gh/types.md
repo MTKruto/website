@@ -1,6 +1,8 @@
 ---
 title: Types
 parent: /#api-reference
+metas:
+  description: List of MTKruto types
 ---
 <div class="descr-list">
 

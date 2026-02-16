@@ -1,6 +1,8 @@
 ---
 title: getSavedMessages
 parent: /methods
+metas:
+  description: Get messages saved from a specific chat. 
 ---
 
 Get messages saved from a specific chat.<span class="select-none">  </span>

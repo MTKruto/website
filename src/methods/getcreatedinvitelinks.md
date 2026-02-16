@@ -1,6 +1,8 @@
 ---
 title: getCreatedInviteLinks
 parent: /methods
+metas:
+  description: Get the invite links created for a chat. User-only. 
 ---
 
 Get the invite links created for a chat.<span class="select-none"> <span class="inline-flex w-fit items-center" style="font-size:12px;white-space:nowrap;word-break:keep-all;"><span class="w-fit bg-dbt select-none text-fgt" style="padding:2px 8px;border-radius:12px;">USER-ONLY</span></span> </span>

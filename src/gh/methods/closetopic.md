@@ -1,6 +1,8 @@
 ---
 title: closeTopic
 parent: /methods
+metas:
+  description: Close a forum topic. 
 ---
 
 Close a forum topic.<span class="select-none">  </span>
