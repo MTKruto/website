@@ -21,7 +21,7 @@ jobs:
         with:
           deno-version: vx.x.x
 
-      - uses: actions/cache@5
+      - uses: actions/cache@v5
         with:
           path: ~/.cache/deno/deps
           key: ${{ hashFiles('deno.json') }}
