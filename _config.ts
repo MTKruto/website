@@ -8,10 +8,13 @@ import lang_shell from "highlight.js/lib/languages/shell";
 import sass from "lume/plugins/sass.ts";
 import sitemap from "lume/plugins/sitemap.ts";
 import versions from "./_versions.ts";
+import metas from "lume/plugins/metas.ts";
 
 const site = lume({ src: "src" }, {
   markdown: { options: { typographer: true } },
 });
+
+site.use(metas());
 
 site.use(jsx());
 

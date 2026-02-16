@@ -50,6 +50,8 @@ for (const dir of [`src${version}/methods`, `src${version}/types`]) {
   let methods_md = `---
 title: Methods
 parent: /#api-reference
+metas:
+  description: List of MTKruto methods
 ---
 `;
 
@@ -114,6 +116,8 @@ parent: /#api-reference
   let types_md = `---
 title: Types
 parent: /#api-reference
+metas:
+  description: List of MTKruto types
 ---
 `;
 
@@ -174,7 +178,14 @@ parent: /#api-reference
     let method_md = `---
 title: ${method.name}
 parent: /methods
----\n\n`;
+`
+
+if (method.jsDoc?.doc) {
+  method_md += `metas:
+  description: ${method.jsDoc.doc.replaceAll('\n', ' ')}
+`
+}
+method_md += `---\n\n`;
 
     if (method.jsDoc?.doc) {
       const a = renderToString(tags);

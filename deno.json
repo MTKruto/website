@@ -74,7 +74,6 @@
     }
   },
   "lock": false,
-
   "exclude": [
     "_site",
     "doc",
