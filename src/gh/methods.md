@@ -70,6 +70,13 @@ Hide all usernames from a supergroup or a channel's profile.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/removeusername">removeUsername</a>
+<div><div>
+
+Remove the current account's username.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/reorderusernames">reorderUsernames</a>
 <div><div>
 
@@ -137,6 +144,13 @@ Set the profile color of the current user.
 <div><div>
 
 Set the emoji status of a bot's user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setusername">setUsername</a>
+<div><div>
+
+Set the username of the current account.
 
 </div></div>
 <div class="descr-list-border"></div>
