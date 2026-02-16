@@ -764,6 +764,13 @@ Get custom emoji documents for download.
 ## Gifts
 <div class="descr-list">
 
+<a href="/gh/methods/craftgifts">craftGifts</a>
+<div><div>
+
+Craft gifts.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getclaimedgifts">getClaimedGifts</a>
 <div><div>
 

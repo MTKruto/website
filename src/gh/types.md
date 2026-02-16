@@ -363,6 +363,13 @@ A button to be shown along with the results of an inline query.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/inputgift">InputGift</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/inputmedia">InputMedia</a>
 <div><div>
 
@@ -998,6 +1005,27 @@ The password entered was incorrect.
 <div><div>
 
 The password was correct. The user was signed in.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/inputgift.slug">InputGift.Slug</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/inputgift.chat">InputGift.Chat</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/inputgift.user">InputGift.User</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
