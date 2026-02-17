@@ -7,5 +7,5 @@ metas:
 
 A result after checking a sent code.
 
-<div class="font-mono whitespace-pre"><a href="/gh/types/bottokencheckresult.signedin">BotTokenCheckResult.SignedIn</a></div>
+<div class="font-mono whitespace-pre"><a href="/gh/types/bottokencheckresultsignedin">BotTokenCheckResultSignedIn</a></div>
 

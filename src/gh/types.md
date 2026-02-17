@@ -195,27 +195,6 @@ The result after checking a sent code.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/types/codecheckresultinvalidcode">CodeCheckResultInvalidCode</a>
-<div><div>
-
-The code entered was incorrect.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/codecheckresultpasswordrequired">CodeCheckResultPasswordRequired</a>
-<div><div>
-
-The code was correct, but an additional password is required to sign in.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/codecheckresultsignedin">CodeCheckResultSignedIn</a>
-<div><div>
-
-The code was correct. The user was signed in.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/gh/types/connectionstate">ConnectionState</a>
 <div><div>
 
@@ -892,27 +871,6 @@ A voice note.
 <div><div>
 
 An audio transcription.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/bottokencheckresult.signedin">BotTokenCheckResult.SignedIn</a>
-<div><div>
-
-The bot token was correct. The bot was signed in.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/passwordcheckresult.invalidpassword">PasswordCheckResult.InvalidPassword</a>
-<div><div>
-
-The password entered was incorrect.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/passwordcheckresult.signedin">PasswordCheckResult.SignedIn</a>
-<div><div>
-
-The password was correct. The user was signed in.
 
 </div></div>
 <div class="descr-list-border"></div>
