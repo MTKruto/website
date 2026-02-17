@@ -1,9 +1,13 @@
 ---
 title: InputGift
 parent: /types
+metas:
+  description: Reference to a gift.
 ---
 
-<div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/gh/types/inputgift.slug">InputGift.Slug</a>
-<span class="opacity-50">|</span> <a href="/gh/types/inputgift.chat">InputGift.Chat</a>
-<span class="opacity-50">|</span> <a href="/gh/types/inputgift.user">InputGift.User</a></div>
+Reference to a gift.
+
+<div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/gh/types/inputgiftslug">InputGiftSlug</a>
+<span class="opacity-50">|</span> <a href="/gh/types/inputgiftchat">InputGiftChat</a>
+<span class="opacity-50">|</span> <a href="/gh/types/inputgiftuser">InputGiftUser</a></div>
 

@@ -191,7 +191,28 @@ Gifts claimed by a user or a channel.
 <a href="/gh/types/codecheckresult">CodeCheckResult</a>
 <div><div>
 
-A result after checking a sent code.
+The result after checking a sent code.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/codecheckresultinvalidcode">CodeCheckResultInvalidCode</a>
+<div><div>
+
+The code entered was incorrect.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/codecheckresultpasswordrequired">CodeCheckResultPasswordRequired</a>
+<div><div>
+
+The code was correct, but an additional password is required to sign in.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/codecheckresultsignedin">CodeCheckResultSignedIn</a>
+<div><div>
+
+The code was correct. The user was signed in.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -259,41 +280,6 @@ A gift.
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/types/giftcomponentrarity">GiftComponentRarity</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/giftcomponentrarityepic">GiftComponentRarityEpic</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/giftcomponentraritylegendary">GiftComponentRarityLegendary</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/giftcomponentraritypermille">GiftComponentRarityPerMille</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/giftcomponentrarityrare">GiftComponentRarityRare</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/giftcomponentrarityuncommon">GiftComponentRarityUncommon</a>
 <div><div>
 
 <i style="opacity: 0.5">No Description</i>
@@ -373,7 +359,7 @@ A button to be shown along with the results of an inline query.
 <a href="/gh/types/inputgift">InputGift</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+Reference to a gift.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -436,23 +422,7 @@ A keyboard button representing the type of the poll that is requested to be crea
 <a href="/gh/types/linkpreviewmediasize">LinkPreviewMediaSize</a>
 <div><div>
 
-MTKruto - Cross-runtime JavaScript library for building Telegram clients
-Copyright (C) 2023-2026 Roj <https://roj.im/>
-
-This file is part of MTKruto.
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Lesser General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Lesser General Public License for more details.
-
-You should have received a copy of the GNU Lesser General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
+The size of a link preview's media.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -571,23 +541,7 @@ Reference to a message.
 <a href="/gh/types/miniappbuttoninfo">MiniAppButtonInfo</a>
 <div><div>
 
-MTKruto - Cross-runtime JavaScript library for building Telegram clients
-Copyright (C) 2023-2026 Roj <https://roj.im/>
-
-This file is part of MTKruto.
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Lesser General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Lesser General Public License for more details.
-
-You should have received a copy of the GNU Lesser General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
+Information on a mini app button.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -776,23 +730,7 @@ A shipping address.
 <a href="/gh/types/slowmodeduration">SlowModeDuration</a>
 <div><div>
 
-MTKruto - Cross-runtime JavaScript library for building Telegram clients
-Copyright (C) 2023-2026 Roj <https://roj.im/>
-
-This file is part of MTKruto.
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Lesser General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Lesser General Public License for more details.
-
-You should have received a copy of the GNU Lesser General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
+A slow mode duration option.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -869,23 +807,7 @@ Reference to a story.
 <a href="/gh/types/switchinlinequerychosenchats">SwitchInlineQueryChosenChats</a>
 <div><div>
 
-MTKruto - Cross-runtime JavaScript library for building Telegram clients
-Copyright (C) 2023-2026 Roj <https://roj.im/>
-
-This file is part of MTKruto.
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Lesser General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Lesser General Public License for more details.
-
-You should have received a copy of the GNU Lesser General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
+Configuration for switching to inline mode in specific chat types.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -980,27 +902,6 @@ The bot token was correct. The bot was signed in.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/types/codecheckresult.passwordrequired">CodeCheckResult.PasswordRequired</a>
-<div><div>
-
-The code was correct, but an additional password is required to sign in.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/codecheckresult.invalidcode">CodeCheckResult.InvalidCode</a>
-<div><div>
-
-The code entered was incorrect.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/codecheckresult.signedin">CodeCheckResult.SignedIn</a>
-<div><div>
-
-The code was correct. The user was signed in.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/gh/types/passwordcheckresult.invalidpassword">PasswordCheckResult.InvalidPassword</a>
 <div><div>
 
@@ -1012,27 +913,6 @@ The password entered was incorrect.
 <div><div>
 
 The password was correct. The user was signed in.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/inputgift.slug">InputGift.Slug</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/inputgift.chat">InputGift.Chat</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/inputgift.user">InputGift.User</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
