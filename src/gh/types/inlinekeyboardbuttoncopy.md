@@ -13,5 +13,5 @@ An inline keyboard that, when pressed, copies the text inside its `copy` field.
 
 The text of the button.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_copy" data-anchor="true"><span class="font-bold">copy</span><span class="opacity-50">:</span> <span>string</span></div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div></div></div>
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_style" data-anchor="true"><span class="font-bold">style</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/buttonstyle">ButtonStyle</a></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_copy" data-anchor="true"><span class="font-bold">copy</span><span class="opacity-50">:</span> <span>string</span></div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div></div></div>
 

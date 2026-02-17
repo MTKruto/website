@@ -62,6 +62,13 @@ A business connection.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/buttonstyle">ButtonStyle</a>
+<div><div>
+
+The style of a keyboard button.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/callbackquery">CallbackQuery</a>
 <div><div>
 
