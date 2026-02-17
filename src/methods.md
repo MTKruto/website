@@ -28,6 +28,13 @@ Check whether a password entered by the user is the same as the account's one.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/checkusername">checkUsername</a>
+<div><div>
+
+Check the availability of a username.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getbusinessconnection">getBusinessConnection</a>
 <div><div>
 
@@ -60,6 +67,13 @@ Hide a username from the current account, a bot account, a supergroup, or a chan
 <div><div>
 
 Hide all usernames from a supergroup or a channel's profile.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/removeusername">removeUsername</a>
+<div><div>
+
+Remove the current account's username.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -130,6 +144,13 @@ Set the profile color of the current user.
 <div><div>
 
 Set the emoji status of a bot's user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setusername">setUsername</a>
+<div><div>
+
+Set the username of the current account.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -764,6 +785,13 @@ Get custom emoji documents for download.
 ## Gifts
 <div class="descr-list">
 
+<a href="/methods/craftgifts">craftGifts</a>
+<div><div>
+
+Craft gifts.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getclaimedgifts">getClaimedGifts</a>
 <div><div>
 
