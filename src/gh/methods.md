@@ -1126,6 +1126,13 @@ Send a text message.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/sendmessagedraft">sendMessageDraft</a>
+<div><div>
+
+Stream a drafted text message.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/sendphoto">sendPhoto</a>
 <div><div>
 

@@ -114,14 +114,14 @@ The rights of a chat administrator.
 <a href="/gh/types/chatfolder">ChatFolder</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A chat folder.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/types/chatlistitem">ChatListItem</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+An item of a chat list.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -226,7 +226,7 @@ A document.
 <a href="/gh/types/failedinvitation">FailedInvitation</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A failed invitation.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -254,7 +254,7 @@ A gift.
 <a href="/gh/types/giftcomponentrarity">GiftComponentRarity</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+The rarity of a gift component.
 
 </div></div>
 <div class="descr-list-border"></div>
