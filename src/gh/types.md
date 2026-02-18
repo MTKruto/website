@@ -230,13 +230,6 @@ A document.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/types/filetype">FileType</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/gh/types/forwardheader">ForwardHeader</a>
 <div><div>
 
@@ -562,7 +555,7 @@ An entry of a client's network statistics.
 <a href="/gh/types/orderinfo">OrderInfo</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+Information on an order.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -584,13 +577,6 @@ A result after checking a sent code.
 <div><div>
 
 A photo.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/photosource">PhotoSource</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -667,7 +653,7 @@ A reference to a specific part of a message that is being replied to.
 <a href="/gh/types/replyto">ReplyTo</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+Information on what a message is replying to.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -695,7 +681,7 @@ A list of saved chats.
 <a href="/gh/types/selfdestructoption">SelfDestructOption</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A message self-destruct option.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -779,7 +765,7 @@ Reference to a story.
 <a href="/gh/types/successfulpayment">SuccessfulPayment</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A successful payment.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -800,7 +786,7 @@ A file or sticker thumbnail.
 <a href="/gh/types/topic">Topic</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A forum topic.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -849,7 +835,7 @@ A video file.
 <a href="/gh/types/videochat">VideoChat</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A video chat.
 
 </div></div>
 <div class="descr-list-border"></div>
