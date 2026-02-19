@@ -35,6 +35,20 @@ Check the availability of a username.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/disablesponsoredmessages">disableSponsoredMessages</a>
+<div><div>
+
+Disable sponsored messages on the current user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/enablesponsoredmessages">enableSponsoredMessages</a>
+<div><div>
+
+Enable sponsored messages on the current user.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getbusinessconnection">getBusinessConnection</a>
 <div><div>
 
