@@ -67,7 +67,7 @@ client.on("editedMessage", (ctx) => {
 });
 ```
 
-`ctx.msg` is just a shortcut that resolves to `ctx.message ?? ctx.update.editedMessage`. See {{ "Message" |> t }}.
+`ctx.msg` is just a shortcut that resolves to `ctx.update.message ?? ctx.update.editedMessage`. See {{ "Message" |> t }}.
 
 Updates for deleted messages don't include full message objects, only references to them (see {{ "MessageReference" |> t }}).
 
