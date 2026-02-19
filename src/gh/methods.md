@@ -154,6 +154,13 @@ Set the username of the current account.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/setworkinghours">setWorkingHours</a>
+<div><div>
+
+Set the working hours of the current user.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/showusername">showUsername</a>
 <div><div>
 

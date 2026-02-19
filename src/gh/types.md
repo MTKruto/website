@@ -545,13 +545,6 @@ An entry of a client's network statistics.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/types/openinghours">OpeningHours</a>
-<div><div>
-
-The opening hours of a business.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/gh/types/orderinfo">OrderInfo</a>
 <div><div>
 
@@ -857,6 +850,20 @@ A voice note.
 <div><div>
 
 An audio transcription.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/workinghourinterval">WorkingHourInterval</a>
+<div><div>
+
+A business working hour interval.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/workinghours">WorkingHours</a>
+<div><div>
+
+The working hours of a business.
 
 </div></div>
 <div class="descr-list-border"></div>
