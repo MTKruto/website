@@ -338,7 +338,7 @@ Reference to a gift.
 <a href="/gh/types/inputmedia">InputMedia</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+An input media.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -359,7 +359,7 @@ A chat invite link.
 <a href="/gh/types/invoice">Invoice</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A payment invoice.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -387,7 +387,7 @@ A keyboard button representing the type of the poll that is requested to be crea
 <a href="/gh/types/linkpreview">LinkPreview</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A link preview.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -506,7 +506,7 @@ Reference to a message.
 <a href="/gh/types/messagesearchfilter">MessageSearchFilter</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A message search filter option.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -548,7 +548,7 @@ An entry of a client's network statistics.
 <a href="/gh/types/openinghours">OpeningHours</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+The opening hours of a business.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -604,7 +604,7 @@ A poll option.
 <a href="/gh/types/precheckoutquery">PreCheckoutQuery</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A pre-checkout query.
 
 </div></div>
 <div class="descr-list-border"></div>
