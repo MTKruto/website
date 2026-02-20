@@ -35,6 +35,20 @@ Check the availability of a username.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/disablesponsoredmessages">disableSponsoredMessages</a>
+<div><div>
+
+Disable sponsored messages on the current user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/enablesponsoredmessages">enableSponsoredMessages</a>
+<div><div>
+
+Enable sponsored messages on the current user.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getbusinessconnection">getBusinessConnection</a>
 <div><div>
 
@@ -151,6 +165,13 @@ Set the emoji status of a bot's user.
 <div><div>
 
 Set the username of the current account.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setworkinghours">setWorkingHours</a>
+<div><div>
+
+Set the working hours of the current user.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1123,6 +1144,13 @@ Send a media group.
 <div><div>
 
 Send a text message.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/sendmessagedraft">sendMessageDraft</a>
+<div><div>
+
+Stream a drafted text message.
 
 </div></div>
 <div class="descr-list-border"></div>

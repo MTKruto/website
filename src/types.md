@@ -114,14 +114,14 @@ The rights of a chat administrator.
 <a href="/types/chatfolder">ChatFolder</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A chat folder.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/types/chatlistitem">ChatListItem</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+An item of a chat list.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -226,14 +226,7 @@ A document.
 <a href="/types/failedinvitation">FailedInvitation</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/filetype">FileType</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
+A failed invitation.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -261,7 +254,7 @@ A gift.
 <a href="/types/giftcomponentrarity">GiftComponentRarity</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+The rarity of a gift component.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -345,7 +338,7 @@ Reference to a gift.
 <a href="/types/inputmedia">InputMedia</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+An input media.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -366,7 +359,7 @@ A chat invite link.
 <a href="/types/invoice">Invoice</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A payment invoice.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -394,7 +387,7 @@ A keyboard button representing the type of the poll that is requested to be crea
 <a href="/types/linkpreview">LinkPreview</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A link preview.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -513,7 +506,7 @@ Reference to a message.
 <a href="/types/messagesearchfilter">MessageSearchFilter</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A message search filter option.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -552,17 +545,10 @@ An entry of a client's network statistics.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/types/openinghours">OpeningHours</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/types/orderinfo">OrderInfo</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+Information on an order.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -584,13 +570,6 @@ A result after checking a sent code.
 <div><div>
 
 A photo.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/photosource">PhotoSource</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -618,7 +597,7 @@ A poll option.
 <a href="/types/precheckoutquery">PreCheckoutQuery</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A pre-checkout query.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -667,7 +646,7 @@ A reference to a specific part of a message that is being replied to.
 <a href="/types/replyto">ReplyTo</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+Information on what a message is replying to.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -695,7 +674,7 @@ A list of saved chats.
 <a href="/types/selfdestructoption">SelfDestructOption</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A message self-destruct option.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -779,7 +758,7 @@ Reference to a story.
 <a href="/types/successfulpayment">SuccessfulPayment</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A successful payment.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -800,7 +779,7 @@ A file or sticker thumbnail.
 <a href="/types/topic">Topic</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A forum topic.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -849,7 +828,7 @@ A video file.
 <a href="/types/videochat">VideoChat</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A video chat.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -871,6 +850,20 @@ A voice note.
 <div><div>
 
 An audio transcription.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/workinghourinterval">WorkingHourInterval</a>
+<div><div>
+
+A business working hour interval.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/workinghours">WorkingHours</a>
+<div><div>
+
+The working hours of a business.
 
 </div></div>
 <div class="descr-list-border"></div>

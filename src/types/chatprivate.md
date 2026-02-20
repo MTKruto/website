@@ -19,11 +19,11 @@ The written address of the business.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_location" data-anchor="true"><span class="font-bold">location</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/location">Location</a></div></div><div class="pl-3"><div class="no-margin">
 
-The exact location of the business.
+The location of the business.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_openingHours" data-anchor="true"><span class="font-bold">openingHours</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/openinghours">OpeningHours</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_workingHours" data-anchor="true"><span class="font-bold">workingHours</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/workinghours">WorkingHours</a></div></div><div class="pl-3"><div class="no-margin">
 
-The opening hours of the business.
+The working hours of the business.
 
 </div></div></div></div>
 

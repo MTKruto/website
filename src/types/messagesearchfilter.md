@@ -1,7 +1,11 @@
 ---
 title: MessageSearchFilter
 parent: /types
+metas:
+  description: A message search filter option.
 ---
+
+A message search filter option.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <span>&quot;empty&quot;</span>
 <span class="opacity-50">|</span> <span>&quot;animations&quot;</span>
