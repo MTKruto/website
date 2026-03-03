@@ -21,5 +21,6 @@ parent: /types
 <span class="opacity-50">|</span> <span>&quot;blockquote&quot;</span>
 <span class="opacity-50">|</span> <span>&quot;bankCard&quot;</span>
 <span class="opacity-50">|</span> <span>&quot;spoiler&quot;</span>
-<span class="opacity-50">|</span> <span>&quot;customEmoji&quot;</span></div>
+<span class="opacity-50">|</span> <span>&quot;customEmoji&quot;</span>
+<span class="opacity-50">|</span> <span>&quot;dateTime&quot;</span></div>
 

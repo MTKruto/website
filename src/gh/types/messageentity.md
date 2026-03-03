@@ -25,5 +25,6 @@ A single entity of a message's text or caption.
 <span class="opacity-50">|</span> <a href="/gh/types/messageentityblockquote">MessageEntityBlockquote</a>
 <span class="opacity-50">|</span> <a href="/gh/types/messageentitybankcard">MessageEntityBankCard</a>
 <span class="opacity-50">|</span> <a href="/gh/types/messageentityspoiler">MessageEntitySpoiler</a>
-<span class="opacity-50">|</span> <a href="/gh/types/messageentitycustomemoji">MessageEntityCustomEmoji</a></div>
+<span class="opacity-50">|</span> <a href="/gh/types/messageentitycustomemoji">MessageEntityCustomEmoji</a>
+<span class="opacity-50">|</span> <a href="/gh/types/messageentitydatetime">MessageEntityDateTime</a></div>
 
