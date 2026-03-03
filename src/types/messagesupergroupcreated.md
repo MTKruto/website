@@ -86,6 +86,10 @@ The identifier of the message's media group.
 
 The signature of the message.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_tag" data-anchor="true"><span class="font-bold">tag</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The member tag of the sender of the message.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_views" data-anchor="true"><span class="font-bold">views</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 The number of times the message was viewed.

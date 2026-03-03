@@ -81,6 +81,10 @@ Whether the administrator can delete stories.
 
 Whether the administrator manage direct messages.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canManageTags" data-anchor="true"><span class="font-bold">canManageTags</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the administrator manage member tags.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_title" data-anchor="true"><span class="font-bold">title</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
 The custom title of the administrator.
@@ -116,6 +120,7 @@ await client.promoteChatMember(chatId, userId, {
     canEditStories,
     canDeleteStories,
     canManageDirectMessages,
+    canManageTags,
     title,
 });
 ```

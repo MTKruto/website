@@ -634,6 +634,13 @@ Set the rights of a chat member.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/setchatmembertag">setChatMemberTag</a>
+<div><div>
+
+Change the tag of a chat member.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/setchatphoto">setChatPhoto</a>
 <div><div>
 
