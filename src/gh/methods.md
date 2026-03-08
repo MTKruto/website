@@ -592,6 +592,13 @@ Hide the general forum topic.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/hidememberlist">hideMemberList</a>
+<div><div>
+
+Hide the member list of a group to non-admins.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/joinchat">joinChat</a>
 <div><div>
 
@@ -711,13 +718,6 @@ Set a channel's discussion chat.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/methods/setmemberlistvisibility">setMemberListVisibility</a>
-<div><div>
-
-Hide or show the member list of a group to non-admins.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/gh/methods/setmessagettl">setMessageTtl</a>
 <div><div>
 
@@ -743,6 +743,13 @@ Change slow mode in a group.
 <div><div>
 
 Show the general forum topic.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/showmemberlist">showMemberList</a>
+<div><div>
+
+Show the member list of a group to non-admins.
 
 </div></div>
 <div class="descr-list-border"></div>
