@@ -84,6 +84,13 @@ Hide all usernames from a supergroup or a channel's profile.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/pausebusinessbotconnection">pauseBusinessBotConnection</a>
+<div><div>
+
+Pause the business bot in a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/removeusername">removeUsername</a>
 <div><div>
 
@@ -95,6 +102,13 @@ Remove the current account's username.
 <div><div>
 
 Reorder the usernames of the current account, a bot account, a supergroup, or a channel's profile.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/resumebusinessbotconnection">resumeBusinessBotConnection</a>
+<div><div>
+
+Resume the business bot in a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
