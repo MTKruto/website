@@ -424,6 +424,13 @@ Disable join requests in a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/disablesharing">disableSharing</a>
+<div><div>
+
+Disable sharing in a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/disableslowmode">disableSlowMode</a>
 <div><div>
 
@@ -449,6 +456,13 @@ Enable business bots in a private chat.
 <div><div>
 
 Enable join requests in a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/enablesharing">enableSharing</a>
+<div><div>
+
+Enable sharing in a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
