@@ -452,6 +452,13 @@ Disable slow mode in a group.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/disabletopics">disableTopics</a>
+<div><div>
+
+Disable topics in a group.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/edittopic">editTopic</a>
 <div><div>
 
@@ -477,6 +484,13 @@ Enable join requests in a chat.
 <div><div>
 
 Enable sharing in a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/enabletopics">enableTopics</a>
+<div><div>
+
+Enable topics in a group.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -722,13 +736,6 @@ Enable or disable post signatures in a channel.
 <div><div>
 
 Change slow mode in a group.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/settopicsenabled">setTopicsEnabled</a>
-<div><div>
-
-Enable or disable topics in a group.
 
 </div></div>
 <div class="descr-list-border"></div>
