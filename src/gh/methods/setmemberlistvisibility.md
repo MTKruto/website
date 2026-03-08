@@ -13,7 +13,7 @@ Hide or show the member list of a group to non-admins.<span class="select-none">
 
 The identifier of the group.
 
-</div></div></div><div><div class="font-mono" id="p_visible" data-anchor="true"><span class="font-bold">visible</span><span class="opacity-50">:</span> <span>boolean</span></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="font-mono" id="p_isVisible" data-anchor="true"><span class="font-bold">isVisible</span><span class="opacity-50">:</span> <span>boolean</span></div><div class="pl-3"><div class="no-margin">
 
 Whether the member list of the group should be visible.
 
@@ -26,7 +26,7 @@ Whether the member list of the group should be visible.
 ### Syntax
 
 ```ts
-await client.setMemberListVisibility(chatId, visible);
+await client.setMemberListVisibility(chatId, isVisible);
 ```
 
 
