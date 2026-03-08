@@ -424,6 +424,13 @@ Delete a chat's sticker set.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/disableantispam">disableAntispam</a>
+<div><div>
+
+Disable automatic anti-spam in a group.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/disablebusinessbots">disableBusinessBots</a>
 <div><div>
 
@@ -463,6 +470,13 @@ Disable topics in a group.
 <div><div>
 
 Edit a forum topic.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/enableantispam">enableAntispam</a>
+<div><div>
+
+Enable automatic anti-spam in a group.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -645,13 +659,6 @@ Promote a chat member.
 <div><div>
 
 Reopen a forum topic.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/setantispamenabled">setAntispamEnabled</a>
-<div><div>
-
-Enable or disable automatic anti-spam in a group.
 
 </div></div>
 <div class="descr-list-border"></div>
