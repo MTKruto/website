@@ -84,6 +84,13 @@ Hide all usernames from a supergroup or a channel's profile.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/pausebusinessbotconnection">pauseBusinessBotConnection</a>
+<div><div>
+
+Pause the business bot in a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/removeusername">removeUsername</a>
 <div><div>
 
@@ -95,6 +102,13 @@ Remove the current account's username.
 <div><div>
 
 Reorder the usernames of the current account, a bot account, a supergroup, or a channel's profile.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/resumebusinessbotconnection">resumeBusinessBotConnection</a>
+<div><div>
+
+Resume the business bot in a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -410,6 +424,13 @@ Delete a chat's sticker set.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/disableantispam">disableAntispam</a>
+<div><div>
+
+Disable automatic anti-spam in a group.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/disablebusinessbots">disableBusinessBots</a>
 <div><div>
 
@@ -424,6 +445,20 @@ Disable join requests in a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/disablesharing">disableSharing</a>
+<div><div>
+
+Disable sharing in a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/disablesignatures">disableSignatures</a>
+<div><div>
+
+Disable post signatures in a channel.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/disableslowmode">disableSlowMode</a>
 <div><div>
 
@@ -431,10 +466,24 @@ Disable slow mode in a group.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/disabletopics">disableTopics</a>
+<div><div>
+
+Disable topics in a group.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/edittopic">editTopic</a>
 <div><div>
 
 Edit a forum topic.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/enableantispam">enableAntispam</a>
+<div><div>
+
+Enable automatic anti-spam in a group.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -449,6 +498,27 @@ Enable business bots in a private chat.
 <div><div>
 
 Enable join requests in a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/enablesharing">enableSharing</a>
+<div><div>
+
+Enable sharing in a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/enablesignatures">enableSignatures</a>
+<div><div>
+
+Enable post signatures in a channel.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/enabletopics">enableTopics</a>
+<div><div>
+
+Enable topics in a group.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -550,6 +620,13 @@ Hide the general forum topic.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/hidememberlist">hideMemberList</a>
+<div><div>
+
+Hide the member list of a group to non-admins.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/joinchat">joinChat</a>
 <div><div>
 
@@ -596,13 +673,6 @@ Promote a chat member.
 <div><div>
 
 Reopen a forum topic.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/methods/setantispamenabled">setAntispamEnabled</a>
-<div><div>
-
-Enable or disable automatic anti-spam in a group.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -669,24 +739,10 @@ Set a channel's discussion chat.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/setmemberlistvisibility">setMemberListVisibility</a>
-<div><div>
-
-Hide or show the member list of a group to non-admins.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/methods/setmessagettl">setMessageTtl</a>
 <div><div>
 
 Set the time to live of the messages of a chat.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/methods/setsignaturesenabled">setSignaturesEnabled</a>
-<div><div>
-
-Enable or disable post signatures in a channel.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -697,17 +753,17 @@ Change slow mode in a group.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/settopicsenabled">setTopicsEnabled</a>
-<div><div>
-
-Enable or disable topics in a group.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/methods/showgeneraltopic">showGeneralTopic</a>
 <div><div>
 
 Show the general forum topic.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/showmemberlist">showMemberList</a>
+<div><div>
+
+Show the member list of a group to non-admins.
 
 </div></div>
 <div class="descr-list-border"></div>
