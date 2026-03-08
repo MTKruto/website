@@ -452,6 +452,13 @@ Disable sharing in a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/disablesignatures">disableSignatures</a>
+<div><div>
+
+Disable post signatures in a channel.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/disableslowmode">disableSlowMode</a>
 <div><div>
 
@@ -498,6 +505,13 @@ Enable join requests in a chat.
 <div><div>
 
 Enable sharing in a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/enablesignatures">enableSignatures</a>
+<div><div>
+
+Enable post signatures in a channel.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -729,13 +743,6 @@ Set a channel's discussion chat.
 <div><div>
 
 Set the time to live of the messages of a chat.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/setsignaturesenabled">setSignaturesEnabled</a>
-<div><div>
-
-Enable or disable post signatures in a channel.
 
 </div></div>
 <div class="descr-list-border"></div>
