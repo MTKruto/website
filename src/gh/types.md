@@ -51,7 +51,7 @@ A type specifying where bot commads are available.
 <a href="/gh/types/bottokencheckresult">BotTokenCheckResult</a>
 <div><div>
 
-A result after checking a sent code.
+A result after checking a bot token.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -562,7 +562,7 @@ Message parse mode.
 <a href="/gh/types/passwordcheckresult">PasswordCheckResult</a>
 <div><div>
 
-A result after checking a sent code.
+A result after checking a password.
 
 </div></div>
 <div class="descr-list-border"></div>
