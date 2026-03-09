@@ -17,7 +17,7 @@ The time when the gift was claimed.
 
 The gift.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_public" data-anchor="true"><span class="font-bold">public</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isPublic" data-anchor="true"><span class="font-bold">isPublic</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the gift is publicly visible.
 

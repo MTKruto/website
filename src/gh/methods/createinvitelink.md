@@ -25,7 +25,7 @@ A point in time within the future in which the invite link will be invalidated.
 
 The times the invite link can be used. Cannot be specified while `requireApproval` is `true`.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_requireApproval" data-anchor="true"><span class="font-bold">requireApproval</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isApprovalRequired" data-anchor="true"><span class="font-bold">isApprovalRequired</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether an admin must explicitly approve join requests originating from this invite link. Cannot be `true` while `limit` is specified.
 
@@ -51,7 +51,7 @@ await client.createInviteLink(chatId, {
     title,
     expireAt,
     limit,
-    requireApproval,
+    isApprovalRequired,
 });
 ```
 

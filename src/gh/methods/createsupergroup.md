@@ -17,7 +17,7 @@ The title of the supergroup.
 
 The description of the supergroup that is to be created.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_forum" data-anchor="true"><span class="font-bold">forum</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isForum" data-anchor="true"><span class="font-bold">isForum</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether a forum should be created.
 
@@ -43,7 +43,7 @@ await client.createSupergroup(title);
 
 // Required parameters + optional parameters.
 // Any of the optional parameters can be omitted.
-await client.createSupergroup(title, { description, forum, messageTtl });
+await client.createSupergroup(title, { description, isForum, messageTtl });
 ```
 
 

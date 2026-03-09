@@ -25,7 +25,7 @@ The number of current participants.
 
 The video chat's unique identifier.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;active&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_recording" data-anchor="true"><span class="font-bold">recording</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;active&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isRecording" data-anchor="true"><span class="font-bold">isRecording</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the video chat is being recorded.
 
