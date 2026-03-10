@@ -33,7 +33,7 @@ The start parameter to pass to the mini app.
 
 Theme parameters encoded in JSON.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_disableNotification" data-anchor="true"><span class="font-bold">disableNotification</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isSilent" data-anchor="true"><span class="font-bold">isSilent</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether messages relevant to the mini app session should be sent silently.
 
@@ -68,7 +68,7 @@ await client.openMiniApp(botId, chatId, {
     url,
     startParameter,
     themeParameters,
-    disableNotification,
+    isSilent,
     sendAs,
     isFromMenu,
     replyTo,
