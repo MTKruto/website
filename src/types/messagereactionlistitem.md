@@ -21,11 +21,11 @@ The point in time in which the reaction was made.
 
 The reaction that was made.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_big" data-anchor="true"><span class="font-bold">big</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isBig" data-anchor="true"><span class="font-bold">isBig</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether this is a big reaction.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_unread" data-anchor="true"><span class="font-bold">unread</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isUnread" data-anchor="true"><span class="font-bold">isUnread</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the reaction is unread.
 

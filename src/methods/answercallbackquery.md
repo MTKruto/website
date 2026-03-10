@@ -17,7 +17,7 @@ ID of the callback query to answer.
 
 A text to be shown to the user.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_alert" data-anchor="true"><span class="font-bold">alert</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isAlert" data-anchor="true"><span class="font-bold">isAlert</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether to show the text as an alert (popup).
 
@@ -45,7 +45,7 @@ await client.answerCallbackQuery(id);
 // Any of the optional parameters can be omitted.
 await client.answerCallbackQuery(id, {
     text,
-    alert,
+    isAlert,
     url,
     cacheTime,
 });

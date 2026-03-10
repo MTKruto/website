@@ -29,11 +29,11 @@ Whether to not include the original sender of the message that is going to be fo
 
 Whether to not include the original caption of the message that is going to be forwarded.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_disableNotification" data-anchor="true"><span class="font-bold">disableNotification</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isSilent" data-anchor="true"><span class="font-bold">isSilent</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether to send the message in a silent way without making a sound on the recipients' clients.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_protectContent" data-anchor="true"><span class="font-bold">protectContent</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isContentProtected" data-anchor="true"><span class="font-bold">isContentProtected</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether to protect the contents of the message from copying and forwarding.
 
@@ -82,8 +82,8 @@ await client.forwardMessages(from, to, messageIds);
 await client.forwardMessages(from, to, messageIds, {
     dropSenderName,
     dropCaption,
-    disableNotification,
-    protectContent,
+    isSilent,
+    isContentProtected,
     replyTo,
     messageThreadId,
     sendAs,

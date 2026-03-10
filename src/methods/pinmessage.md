@@ -21,7 +21,7 @@ The identifier of the message.
 
 Whether to pin the message for both sides. For private chats only.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_disableNotification" data-anchor="true"><span class="font-bold">disableNotification</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isSilent" data-anchor="true"><span class="font-bold">isSilent</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether to silently pin the message.
 
@@ -45,7 +45,7 @@ await client.pinMessage(chatId, messageId);
 // Any of the optional parameters can be omitted.
 await client.pinMessage(chatId, messageId, {
     bothSides,
-    disableNotification,
+    isSilent,
     businessConnectionId,
 });
 ```

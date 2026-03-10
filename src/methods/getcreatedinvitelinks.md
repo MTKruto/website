@@ -21,7 +21,7 @@ The identifier of an admin. If specified, only invite links created by this admi
 
 The maximum number of results to return. Must be in the range 1-100. Defaults to 100.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_revoked" data-anchor="true"><span class="font-bold">revoked</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isRevoked" data-anchor="true"><span class="font-bold">isRevoked</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether only revoked invite links must be returned.
 
@@ -54,7 +54,7 @@ await client.getCreatedInviteLinks(chatId);
 await client.getCreatedInviteLinks(chatId, {
     by,
     limit,
-    revoked,
+    isRevoked,
     afterDate,
     afterInviteLink,
 });

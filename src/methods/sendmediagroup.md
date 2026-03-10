@@ -17,11 +17,11 @@ The identifier of a chat to send the media group to.
 
 The media to include in the media group. Animations are not allowed. All of them must be of the same media type, but an exception is that photos and videos can be mixed.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_disableNotification" data-anchor="true"><span class="font-bold">disableNotification</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_isSilent" data-anchor="true"><span class="font-bold">isSilent</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether to send the message in a silent way without making a sound on the recipients' clients.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_protectContent" data-anchor="true"><span class="font-bold">protectContent</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isContentProtected" data-anchor="true"><span class="font-bold">isContentProtected</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether to protect the contents of the message from copying and forwarding.
 
@@ -68,8 +68,8 @@ await client.sendMediaGroup(chatId, media);
 // Required parameters + optional parameters.
 // Any of the optional parameters can be omitted.
 await client.sendMediaGroup(chatId, media, {
-    disableNotification,
-    protectContent,
+    isSilent,
+    isContentProtected,
     replyTo,
     messageThreadId,
     sendAs,

@@ -21,7 +21,7 @@ The identifier of the message to add the reaction to.
 
 The new reactions.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_big" data-anchor="true"><span class="font-bold">big</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_isBig" data-anchor="true"><span class="font-bold">isBig</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether to make the new reactions more notable.
 
@@ -44,7 +44,7 @@ await client.setReactions(chatId, messageId, reactions);
 // Required parameters + optional parameters.
 // Any of the optional parameters can be omitted.
 await client.setReactions(chatId, messageId, reactions, {
-    big,
+    isBig,
     addToRecents,
 });
 ```

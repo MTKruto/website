@@ -17,7 +17,7 @@ The identifier of a chat to start the video chat in.
 
 The video chat's title.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_liveStream" data-anchor="true"><span class="font-bold">liveStream</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isLiveStream" data-anchor="true"><span class="font-bold">isLiveStream</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether this is going to be a live stream.
 
@@ -39,7 +39,7 @@ await client.startVideoChat(chatId);
 
 // Required parameters + optional parameters.
 // Any of the optional parameters can be omitted.
-await client.startVideoChat(chatId, { title, liveStream });
+await client.startVideoChat(chatId, { title, isLiveStream });
 ```
 
 
