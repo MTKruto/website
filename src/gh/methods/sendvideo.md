@@ -113,7 +113,11 @@ If specified, the message will be scheduled to be sent at that date. User-only.
 
 The identifier of a business connection ID to perform the action on. Bot-only.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_paidBroadcast" data-anchor="true"><span class="font-bold">paidBroadcast</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_starCount" data-anchor="true"><span class="font-bold">starCount</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isPaidBroadcast" data-anchor="true"><span class="font-bold">isPaidBroadcast</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the message is a broadcast that is going to be paid for.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_starCount" data-anchor="true"><span class="font-bold">starCount</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 The amount of stars that will be required to unlock the media.
 
@@ -160,7 +164,7 @@ await client.sendVideo(chatId, video, {
     effectId,
     sendAt,
     businessConnectionId,
-    paidBroadcast,
+    isPaidBroadcast,
     starCount,
 });
 ```
