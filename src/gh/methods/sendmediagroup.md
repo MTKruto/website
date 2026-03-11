@@ -51,7 +51,7 @@ The identifier of a business connection ID to perform the action on. Bot-only.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isPaidBroadcast" data-anchor="true"><span class="font-bold">isPaidBroadcast</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
-Whether the message is a broadcast that is going to be paid for.
+Whether the message is a broadcast that is going to be paid for. Bot-only.
 
 </div></div></div></div></div>
 
