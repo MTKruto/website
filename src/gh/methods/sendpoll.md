@@ -17,7 +17,7 @@ The identifier of a chat to send the poll to.
 
 The poll's question.
 
-</div></div></div><div><div class="font-mono" id="p_options" data-anchor="true"><span class="font-bold">options</span><span class="opacity-50">:</span> <span>string</span><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="font-mono" id="p_options" data-anchor="true"><span class="font-bold">options</span><span class="opacity-50">:</span> <a href="/gh/types/inputpolloption">InputPollOption</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
 
 The poll's options.
 
