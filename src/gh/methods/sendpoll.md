@@ -29,10 +29,6 @@ The entities of the poll's question.
 
 The parse mode to use for the poll's question. If omitted, the default parse mode will be used.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_optionParseMode" data-anchor="true"><span class="font-bold">optionParseMode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/parsemode">ParseMode</a></div></div><div class="pl-3"><div class="no-margin">
-
-The parse mode to use for the poll's options. If omitted, the default parse mode will be used.
-
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isAnonymous" data-anchor="true"><span class="font-bold">isAnonymous</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the poll should be anonymous.
@@ -134,7 +130,6 @@ await client.sendPoll(chatId, question, options);
 await client.sendPoll(chatId, question, options, {
     questionEntities,
     questionParseMode,
-    optionParseMode,
     isAnonymous,
     type,
     allowMultipleAnswers,
