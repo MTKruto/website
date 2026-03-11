@@ -39,7 +39,7 @@ The maximum distance for proximity alerts on approaching another chat member in 
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_businessConnectionId" data-anchor="true"><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
-The identifier of a business connection ID to perform the action on. Bot-only.
+The identifier of a business connection to perform the action on. Bot-only.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_replyMarkup" data-anchor="true"><span class="font-bold">replyMarkup</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/replymarkup">ReplyMarkup</a></div></div><div class="pl-3"><div class="no-margin">
 
