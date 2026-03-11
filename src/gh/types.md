@@ -167,6 +167,27 @@ A chat photo.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/checklist">Checklist</a>
+<div><div>
+
+A checklist.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/checklistchanged">ChecklistChanged</a>
+<div><div>
+
+A change in checklist.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/checklistitem">ChecklistItem</a>
+<div><div>
+
+Any type of checklist item.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/choseninlineresult">ChosenInlineResult</a>
 <div><div>
 
@@ -325,6 +346,13 @@ A single inline query result.
 <div><div>
 
 A button to be shown along with the results of an inline query.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/inputchecklistitem">InputChecklistItem</a>
+<div><div>
+
+A checklist item that is to be provided as an input.
 
 </div></div>
 <div class="descr-list-border"></div>

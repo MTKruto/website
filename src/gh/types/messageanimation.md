@@ -127,7 +127,7 @@ The message's self-destruct preference.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_caption" data-anchor="true"><span class="font-bold">caption</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_captionEntities" data-anchor="true"><span class="font-bold">captionEntities</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/messageentity">MessageEntity</a><span class="opacity-50">[]</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isSpoiler" data-anchor="true"><span class="font-bold">isSpoiler</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_animation" data-anchor="true"><span class="font-bold">animation</span><span class="opacity-50">:</span> <a href="/gh/types/animation">Animation</a></div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div><div class="pl-3"><div class="no-margin">
 
-The animation included in the message
+The animation included in the message.
 
 </div></div></div></div>
 
