@@ -1161,6 +1161,13 @@ Send a chat action.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/sendchecklist">sendChecklist</a>
+<div><div>
+
+Send a checklist.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/sendcontact">sendContact</a>
 <div><div>
 

@@ -17,7 +17,7 @@ The identifier of a chat to send the poll to.
 
 The poll's question.
 
-</div></div></div><div><div class="font-mono" id="p_options" data-anchor="true"><span class="font-bold">options</span><span class="opacity-50">:</span> <span>string</span><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="font-mono" id="p_options" data-anchor="true"><span class="font-bold">options</span><span class="opacity-50">:</span> <a href="/types/inputpolloption">InputPollOption</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
 
 The poll's options.
 
@@ -28,10 +28,6 @@ The entities of the poll's question.
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_questionParseMode" data-anchor="true"><span class="font-bold">questionParseMode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/parsemode">ParseMode</a></div></div><div class="pl-3"><div class="no-margin">
 
 The parse mode to use for the poll's question. If omitted, the default parse mode will be used.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_optionParseMode" data-anchor="true"><span class="font-bold">optionParseMode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/parsemode">ParseMode</a></div></div><div class="pl-3"><div class="no-margin">
-
-The parse mode to use for the poll's options. If omitted, the default parse mode will be used.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isAnonymous" data-anchor="true"><span class="font-bold">isAnonymous</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
@@ -107,7 +103,7 @@ The identifier of a business connection ID to perform the action on. Bot-only.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isPaidBroadcast" data-anchor="true"><span class="font-bold">isPaidBroadcast</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
-Whether the message is a broadcast that is going to be paid for.
+Whether the message is a broadcast that is going to be paid for. Bot-only.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_replyMarkup" data-anchor="true"><span class="font-bold">replyMarkup</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/replymarkup">ReplyMarkup</a></div></div><div class="pl-3"><div class="no-margin">
 
@@ -134,7 +130,6 @@ await client.sendPoll(chatId, question, options);
 await client.sendPoll(chatId, question, options, {
     questionEntities,
     questionParseMode,
-    optionParseMode,
     isAnonymous,
     type,
     allowMultipleAnswers,

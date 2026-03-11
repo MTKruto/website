@@ -21,6 +21,7 @@ Any type of message.
 <span class="opacity-50">|</span> <a href="/types/messagecontact">MessageContact</a>
 <span class="opacity-50">|</span> <a href="/types/messagegame">MessageGame</a>
 <span class="opacity-50">|</span> <a href="/types/messagepoll">MessagePoll</a>
+<span class="opacity-50">|</span> <a href="/types/messagechecklist">MessageChecklist</a>
 <span class="opacity-50">|</span> <a href="/types/messageinvoice">MessageInvoice</a>
 <span class="opacity-50">|</span> <a href="/types/messagevenue">MessageVenue</a>
 <span class="opacity-50">|</span> <a href="/types/messagelocation">MessageLocation</a>
@@ -48,5 +49,7 @@ Any type of message.
 <span class="opacity-50">|</span> <a href="/types/messagegiveaway">MessageGiveaway</a>
 <span class="opacity-50">|</span> <a href="/types/messageunsupported">MessageUnsupported</a>
 <span class="opacity-50">|</span> <a href="/types/messagesuccessfulpayment">MessageSuccessfulPayment</a>
-<span class="opacity-50">|</span> <a href="/types/messagerefundedpayment">MessageRefundedPayment</a></div>
+<span class="opacity-50">|</span> <a href="/types/messagerefundedpayment">MessageRefundedPayment</a>
+<span class="opacity-50">|</span> <a href="/types/messagechecklistchanged">MessageChecklistChanged</a>
+<span class="opacity-50">|</span> <a href="/types/messagechecklistextended">MessageChecklistExtended</a></div>
 

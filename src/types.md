@@ -167,6 +167,27 @@ A chat photo.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/checklist">Checklist</a>
+<div><div>
+
+A checklist.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/checklistchanged">ChecklistChanged</a>
+<div><div>
+
+A change in checklist.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/checklistitem">ChecklistItem</a>
+<div><div>
+
+Any type of checklist item.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/choseninlineresult">ChosenInlineResult</a>
 <div><div>
 
@@ -328,6 +349,13 @@ A button to be shown along with the results of an inline query.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/inputchecklistitem">InputChecklistItem</a>
+<div><div>
+
+A checklist item that is to be provided as an input.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/inputgift">InputGift</a>
 <div><div>
 
@@ -339,6 +367,13 @@ Reference to a gift.
 <div><div>
 
 An input media.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/inputpolloption">InputPollOption</a>
+<div><div>
+
+A poll option to be provided as an input.
 
 </div></div>
 <div class="descr-list-border"></div>
