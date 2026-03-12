@@ -613,6 +613,27 @@ Get pinned chats from a chat list.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getrecommendedchannels">getRecommendedChannels</a>
+<div><div>
+
+Get recommended channels.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getsimilarbots">getSimilarBots</a>
+<div><div>
+
+Get similar bots.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getsimilarchannels">getSimilarChannels</a>
+<div><div>
+
+Get similar channels.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/hidegeneraltopic">hideGeneralTopic</a>
 <div><div>
 
