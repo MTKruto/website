@@ -958,6 +958,27 @@ Send an inline query.
 ## Messages
 <div class="descr-list">
 
+<a href="/methods/addtochecklist">addToChecklist</a>
+<div><div>
+
+Add items to a checklist.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/checkchecklistitem">checkChecklistItem</a>
+<div><div>
+
+Check a single item of a checklist.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/checkchecklistitems">checkChecklistItems</a>
+<div><div>
+
+Check multiple items of a checklist.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/deletechatmembermessages">deleteChatMemberMessages</a>
 <div><div>
 
@@ -1329,6 +1350,20 @@ Transcribe a voice message.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/uncheckchecklistitem">uncheckChecklistItem</a>
+<div><div>
+
+Uncheck a single item of a checklist.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/uncheckchecklistitems">uncheckChecklistItems</a>
+<div><div>
+
+Uncheck multiple items of a checklist.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/unpinmessage">unpinMessage</a>
 <div><div>
 
@@ -1340,6 +1375,13 @@ Unpin a pinned message.
 <div><div>
 
 Unpin all pinned messages.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/updatechecklist">updateChecklist</a>
+<div><div>
+
+Update a checklist.
 
 </div></div>
 <div class="descr-list-border"></div>
