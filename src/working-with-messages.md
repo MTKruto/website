@@ -106,6 +106,7 @@ There are multiple methods that can be used to send messages. Each of them is us
 - {{ "sendVenue" |> m }} --- For sending venues.
 - {{ "sendPoll" |> m }} --- For sending polls.
 - {{ "sendContact" |> m }} --- For sending contacts.
+- {{ "sendChecklist" |> m }} --- For sending checklists.
 
 Here are some example calls:
 
