@@ -1,4 +1,4 @@
-import { LiteralDef, ObjectPatPropAssignDef, ObjectPatPropDef, ObjectPatPropKeyValueDef, ObjectPatPropRestDef, ParamArrayDef, ParamAssignDef, ParamDef, ParamIdentifierDef, ParamObjectDef, ParamRestDef, TsConditionalDef, TsFnOrConstructorDef, TsTypeDef, TsTypeLiteralDef, TsTypeOperatorDef, TsTypeParamDef, TsTypePredicateDef, TsTypeRefDef } from "deno_doc/types.d.ts";
+import { LiteralDef, ObjectPatPropAssignDef, ObjectPatPropDef, ObjectPatPropKeyValueDef, ObjectPatPropRestDef, ParamArrayDef, ParamAssignDef, ParamDef, ParamIdentifierDef, ParamObjectDef, ParamRestDef, TsConditionalDef, TsFnOrConstructorDef, TsIndexedAccessDef, TsTypeDef, TsTypeLiteralDef, TsTypeOperatorDef, TsTypeParamDef, TsTypePredicateDef, TsTypeRefDef } from "deno_doc/types.d.ts";
 import { PropertyName } from "./PropertyName.tsx";
 import { fixName } from "./misc.ts";
 
@@ -49,7 +49,7 @@ export function TsType(
     case "infer":
       break;
     case "indexedAccess":
-      break;
+      return <IndexedAccess getLink={getLink}>{tt.indexedAccess}</IndexedAccess>;
     case "mapped":
       break;
     case "typeLiteral":
@@ -369,6 +369,19 @@ function TypePredicate(
           <TsType getLink={getLink}>{type}</TsType>
         </>
       )}
+    </>
+  );
+}
+
+function IndexedAccess(
+  { children: { objType, indexType }, getLink }: {
+    children: TsIndexedAccessDef;
+    getLink: LinkGetter;
+  },
+) {
+  return (
+    <>
+      <TsType getLink={getLink}>{objType}</TsType>[<TsType getLink={getLink}>{indexType}</TsType>]
     </>
   );
 }
