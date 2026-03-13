@@ -22,7 +22,7 @@ Here's an example on how you can call [`sendMessage`](/methods/sendMessage) whic
 
 ```ts
 await client.sendMessage(36265675, "Hey you!", {
-  disableNotification: true,
+  isSilent: true,
 });
 ```
 

@@ -116,7 +116,7 @@ const file = /* ... */; // FileSource
 await client.sendMessage(
   chat,
   "Hey!",
-  { disableNotification: true, /* other optional options */ }
+  { isSilent: true, /* other optional options */ }
 );
 
 await client.sendPhoto(chat, file, { caption: "Optional Caption", /* other optional options */ });
