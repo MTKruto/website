@@ -91,6 +91,13 @@ Pause the business bot in a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/removeemojistatus">removeEmojiStatus</a>
+<div><div>
+
+Remove the current account's emoji status.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/removeusername">removeUsername</a>
 <div><div>
 
