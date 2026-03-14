@@ -37,5 +37,7 @@ An incoming update.
 <span class="opacity-50">|</span> <a href="/gh/types/updatevoicetranscription">UpdateVoiceTranscription</a>
 <span class="opacity-50">|</span> <a href="/gh/types/updatelinkpreview">UpdateLinkPreview</a>
 <span class="opacity-50">|</span> <a href="/gh/types/updateuploadprogress">UpdateUploadProgress</a>
-<span class="opacity-50">|</span> <a href="/gh/types/updatebotcommands">UpdateBotCommands</a></div>
+<span class="opacity-50">|</span> <a href="/gh/types/updatebotcommands">UpdateBotCommands</a>
+<span class="opacity-50">|</span> <a href="/gh/types/updateemojistatus">UpdateEmojiStatus</a>
+<span class="opacity-50">|</span> <a href="/gh/types/updateemojistatusremoved">UpdateEmojiStatusRemoved</a></div>
 
