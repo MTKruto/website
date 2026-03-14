@@ -279,6 +279,20 @@ The rarity of a gift component.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/giftnonupgradedinformation">GiftNonUpgradedInformation</a>
+<div><div>
+
+Information on a non-upgraded gift.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/giftupgradedinformation">GiftUpgradedInformation</a>
+<div><div>
+
+Information on an upgraded gift.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/giftvalue">GiftValue</a>
 <div><div>
 

@@ -51,5 +51,7 @@ Any type of message.
 <span class="opacity-50">|</span> <a href="/gh/types/messagesuccessfulpayment">MessageSuccessfulPayment</a>
 <span class="opacity-50">|</span> <a href="/gh/types/messagerefundedpayment">MessageRefundedPayment</a>
 <span class="opacity-50">|</span> <a href="/gh/types/messagechecklistchanged">MessageChecklistChanged</a>
-<span class="opacity-50">|</span> <a href="/gh/types/messagechecklistextended">MessageChecklistExtended</a></div>
+<span class="opacity-50">|</span> <a href="/gh/types/messagechecklistextended">MessageChecklistExtended</a>
+<span class="opacity-50">|</span> <a href="/gh/types/messagegiftnonupgraded">MessageGiftNonUpgraded</a>
+<span class="opacity-50">|</span> <a href="/gh/types/messagegiftupgraded">MessageGiftUpgraded</a></div>
 
