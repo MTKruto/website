@@ -41,6 +41,13 @@ A bot command.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/botcommands">BotCommands</a>
+<div><div>
+
+A bot's list of commands.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/botcommandscope">BotCommandScope</a>
 <div><div>
 
