@@ -888,17 +888,17 @@ An audio transcription.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/types/workinghourinterval">WorkingHourInterval</a>
-<div><div>
-
-A business working hour interval.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/types/workinghours">WorkingHours</a>
 <div><div>
 
 The working hours of a business.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/workinghoursinterval">WorkingHoursInterval</a>
+<div><div>
+
+A business working hour interval.
 
 </div></div>
 <div class="descr-list-border"></div>
