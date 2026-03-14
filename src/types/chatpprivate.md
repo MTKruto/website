@@ -37,6 +37,14 @@ The user's main username.
 
 The user's additional usernames.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_status" data-anchor="true"><span class="font-bold">status</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/userstatus">UserStatus</a></div></div><div class="pl-3"><div class="no-margin">
+
+The user's status.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_emojiStatus" data-anchor="true"><span class="font-bold">emojiStatus</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/emojistatus">EmojiStatus</a></div></div><div class="pl-3"><div class="no-margin">
+
+The user's emoji status.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_languageCode" data-anchor="true"><span class="font-bold">languageCode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
 The user's [IETF language tag](https://en.wikipedia.org/wiki/IETF_language_tag).

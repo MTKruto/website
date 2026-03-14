@@ -36,5 +36,8 @@ An incoming update.
 <span class="opacity-50">|</span> <a href="/types/updatepollanswer">UpdatePollAnswer</a>
 <span class="opacity-50">|</span> <a href="/types/updatevoicetranscription">UpdateVoiceTranscription</a>
 <span class="opacity-50">|</span> <a href="/types/updatelinkpreview">UpdateLinkPreview</a>
-<span class="opacity-50">|</span> <a href="/types/updateuploadprogress">UpdateUploadProgress</a></div>
+<span class="opacity-50">|</span> <a href="/types/updateuploadprogress">UpdateUploadProgress</a>
+<span class="opacity-50">|</span> <a href="/types/updatebotcommands">UpdateBotCommands</a>
+<span class="opacity-50">|</span> <a href="/types/updateemojistatus">UpdateEmojiStatus</a>
+<span class="opacity-50">|</span> <a href="/types/updateemojistatusremoved">UpdateEmojiStatusRemoved</a></div>
 

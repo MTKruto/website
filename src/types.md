@@ -6,6 +6,13 @@ metas:
 ---
 <div class="descr-list">
 
+<a href="/types/_emojistatusbase">_EmojiStatusBase</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/animation">Animation</a>
 <div><div>
 
@@ -38,6 +45,13 @@ A user's birthday.
 <div><div>
 
 A bot command.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/botcommands">BotCommands</a>
+<div><div>
+
+A bot's list of commands.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -244,6 +258,13 @@ A document.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/emojistatus">EmojiStatus</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/failedinvitation">FailedInvitation</a>
 <div><div>
 
@@ -276,6 +297,20 @@ A gift.
 <div><div>
 
 The rarity of a gift component.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/giftnonupgradedinformation">GiftNonUpgradedInformation</a>
+<div><div>
+
+Information on a non-upgraded gift.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/giftupgradedinformation">GiftUpgradedInformation</a>
+<div><div>
+
+Information on an upgraded gift.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -353,6 +388,13 @@ A button to be shown along with the results of an inline query.
 <div><div>
 
 A checklist item that is to be provided as an input.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/inputemojistatus">InputEmojiStatus</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -843,6 +885,13 @@ The progress of an upload.
 <div><div>
 
 A user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/userstatus">UserStatus</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
