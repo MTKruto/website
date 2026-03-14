@@ -14,6 +14,8 @@ const site = lume({ src: "src" }, {
   markdown: { options: { typographer: true } },
 });
 
+site.use(sass());
+
 site.use(metas());
 
 site.use(jsx());
@@ -41,8 +43,6 @@ site.helper("bc", (path: string) => {
   items.push(["/", "MTKruto"]);
   return items.toReversed();
 }, { type: "filter" });
-
-site.use(sass());
 
 site.use(codeHighlight({
   languages: {
