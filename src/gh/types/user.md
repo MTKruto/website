@@ -41,6 +41,10 @@ The user's additional usernames.
 
 The user's status.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_emojiStatus" data-anchor="true"><span class="font-bold">emojiStatus</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/emojistatus">EmojiStatus</a></div></div><div class="pl-3"><div class="no-margin">
+
+The user's emoji status.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_photo" data-anchor="true"><span class="font-bold">photo</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/chatphoto">ChatPhoto</a></div></div><div class="pl-3"><div class="no-margin">
 
 The user's profile photo.
