@@ -980,6 +980,13 @@ Send a gift.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/transfergift">transferGift</a>
+<div><div>
+
+Transfer a gift.
+
+</div></div>
+<div class="descr-list-border"></div>
 
 </div>
 
