@@ -30,6 +30,7 @@ for (const dir of [`src${version}/methods`, `src${version}/types`]) {
     "ac": ["Account", "account"],
     "ms": ["Messages", "messages"],
     "ch": ["Chats", "chats"],
+    "cl": ["Checklists", "checklists"],
     "fs": ["Files", "files"],
     "cq": ["Callback Queries", "callback-queries"],
     "iq": ["Inline Queries", "inline-queries"],
