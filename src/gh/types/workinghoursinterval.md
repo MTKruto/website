@@ -1,5 +1,5 @@
 ---
-title: WorkingHourInterval
+title: WorkingHoursInterval
 parent: /types
 metas:
   description: A business working hour interval.
