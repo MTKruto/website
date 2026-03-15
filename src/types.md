@@ -6,13 +6,6 @@ metas:
 ---
 <div class="descr-list">
 
-<a href="/types/_emojistatusbase">_EmojiStatusBase</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/types/animation">Animation</a>
 <div><div>
 
@@ -177,7 +170,7 @@ A chat photo.
 <a href="/types/chatsettings">ChatSettings</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A chat's settings.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -261,7 +254,7 @@ A document.
 <a href="/types/emojistatus">EmojiStatus</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+Any type of emoji status.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -275,7 +268,7 @@ A failed invitation.
 <a href="/types/forwardheader">ForwardHeader</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+Any type of forward header.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -394,7 +387,7 @@ A checklist item that is to be provided as an input.
 <a href="/types/inputemojistatus">InputEmojiStatus</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+An emoji status to be passed as an input.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -891,7 +884,7 @@ A user.
 <a href="/types/userstatus">UserStatus</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+Any type of a user's status.
 
 </div></div>
 <div class="descr-list-border"></div>

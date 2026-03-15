@@ -131,7 +131,7 @@ The text included in the message.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_entities" data-anchor="true"><span class="font-bold">entities</span><span class="opacity-50">:</span> <a href="/types/messageentity">MessageEntity</a><span class="opacity-50">[]</span></div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div><div class="pl-3"><div class="no-margin">
 
-Entities of the text
+The text's entities.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_linkPreview" data-anchor="true"><span class="font-bold">linkPreview</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/linkpreview">LinkPreview</a></div></div><div class="pl-3"><div class="no-margin">
 

@@ -170,7 +170,7 @@ A chat photo.
 <a href="/gh/types/chatsettings">ChatSettings</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A chat's settings.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -387,7 +387,7 @@ A checklist item that is to be provided as an input.
 <a href="/gh/types/inputemojistatus">InputEmojiStatus</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+An emoji status to be passed as an input.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -884,7 +884,7 @@ A user.
 <a href="/gh/types/userstatus">UserStatus</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+Any type of a user's status.
 
 </div></div>
 <div class="descr-list-border"></div>

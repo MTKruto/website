@@ -125,5 +125,9 @@ Whether the message is scheduled.
 
 The message's self-destruct preference.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_videoChatScheduled" data-anchor="true"><span class="font-bold">videoChatScheduled</span><span class="opacity-50">:</span> <span class="font-mono">{ <span class="font-bold">startDate</span><span class="opacity-50">:</span> <span>number</span> }</span></div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div></div></div>
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_videoChatScheduled" data-anchor="true"><span class="font-bold">videoChatScheduled</span><span class="opacity-50">:</span> <span class="font-mono">{ <span class="font-bold">startDate</span><span class="opacity-50">:</span> <span>number</span> }</span></div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div><div class="pl-3"><div class="no-margin">
+
+Information on the scheduled video chat.
+
+</div></div></div></div>
 
