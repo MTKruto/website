@@ -5,6 +5,8 @@ prev: /calling-methods
 next: /working-with-messages
 ---
 
+MTKruto uses an update middleware inspired by [grammY](https//grammy.dev/).
+
 You can handle updates by assigning update handlers to the client. A handler is a function that takes two arguments: `ctx` and `next`.
 
 `ctx` is the received update with context-aware methods and shortcuts. See all types of updates [here](/types/Update).
@@ -13,12 +15,14 @@ You can handle updates by assigning update handlers to the client. A handler is 
 
 Once an update reaches a handler, it _won't_ reach others unless it calls `next`. When `next` is called, the same thing goes on again: the update won't reach the next handler until `next` is called, and so on.
 
-There are four methods responsible for assigning handlers:
+Currently, there are five methods responsible for composing update handlers:
 
 - [use](#use)
 - [branch](#branch)
 - [filter](#filter)
 - [on](#on)
+- [command](#command)
+- [chatType](#chatType)
 
 ## use
 
@@ -26,22 +30,13 @@ This is the main method to assign a handler, and all others depend on it. It ass
 
 ```txt
 |
-use———————handler
-           |
-           |
-           |
-         next
-          /
-         /
-        /
-       /
-      /
-     /
-    /
-   /
-  /
- /
-|
+use -------- handler
+               |
+              next
+               |
+               |
+               |
+               |
 ```
 
 The following are some usage examples.
@@ -72,8 +67,10 @@ client.use(async (ctx, next) => {
   if (message !== undefined && isTooOld) {
     // message is older than 5 minutes, not interesting
     console.log(
-      "Ignoring messsage", message.id,
-      "in", message.chat.id,
+      "Ignoring messsage",
+      message.id,
+      "in",
+      message.chat.id,
       "because it is too old.",
     );
   } else {
@@ -86,7 +83,7 @@ client.use(async (_ctx, next) => {
   const then = performance.now();
   await next(); // call the next handlers
   const elapsed = performance.now() - then;
-  console.log("Update handled in", ${Math.round(elapsed)}ms`);
+  console.log(`Update handled in ${Math.round(elapsed)}ms`);
 });
 ```
 
@@ -100,38 +97,21 @@ client.use(async (_ctx, next) => {
 
 ```txt
 |
-branch————————
-              |
-          condition
-              |
-         ————————————
-        |            |
-      true         false
-        |            |
-     handler      handler
-        |            |
-      next         next
-       /            /
-      /            /
-     /            /
-    /            /
-   /            /
-  /            /
- /            /
-|            /
-|           /
-|          /
-|         /
-|        /
-|       /
-|      /
-|     /
-|    /
-|   /
-|  /
-| /
-|/
-|
+branch -------- condition
+                   |
+              ------------
+             |            |
+           true        false
+             |            |
+          handler      handler
+             |            |
+           next        next
+              \        /
+               \      /
+                \    /
+                 \  /
+                  \/
+                  |
 ```
 
 Here's an example.
@@ -157,46 +137,28 @@ client.branch(
 
 ```txt
 |
-filter————————
-              |
-          condition
-              |
-         ————————————
-        |            |
-      true         false
-        |           /
-     handler       /
-        |         /
-      next       /
-       /        /
-      /        /
-     /        /
-    /        /
-   /        /
-  /        /
- /        /
-|        /
-|       /
-|      /
-|     /
-|    /
-|   /
-|  /
-| /
-|/
-|
+filter -------- condition
+                   |
+              ------------
+             |            |
+           true        false
+             |            |
+          handler         |
+             |            |
+            next <--------/
+             |
 ```
 
 Here's an example.
 
 ```ts
 client.filter(
-  /** condition: update is from a forum chat */
+  /* condition: update is from @crow */
   (ctx) => {
-    return ctx.chat?.type == "supergroup" && ctx.chat.isForum;
+    return ctx.from?.username === "crow";
   },
   (ctx) => {
-    console.log("Received an update from a forum.");
+    console.log("Received an update from @crow.");
   },
 );
 ```
@@ -207,51 +169,81 @@ client.filter(
 
 ```txt
 |
-on————————————
-              |
-            check
-              |
-         ————————————
-        |            |
-     passes      does not
-        |           /
-     handler       /
-        |         /
-      next       /
-       /        /
-      /        /
-     /        /
-    /        /
-   /        /
-  /        /
- /        /
-|        /
-|       /
-|      /
-|     /
-|    /
-|   /
-|  /
-| /
-|/
-|
+on -------------------- check
+                         |
+                    -------------
+                   |             |
+                passes      does not
+                   |            |
+                handler -------/
+                   |
+                 next
+                   |
+                   |
 ```
 
 Here are some examples.
 
 ```ts
 /** When the client's connection state changes */
-client.on("connectionState", ({ connectionState }) => {
-  console.log("New connection state:", connectionState);
+client.on("connectionState", (ctx)) => {
+  console.log("New connection state:", ctx.update.connectionState);
 });
 
 /** Handles text messages */
-client.on("message:text", ({ message }) => {
-  // do something with message.text
+client.on("message:text", (message) => {
+  // do something with ctx.message.text
 });
 
 /** Handles callback queries */
-client.on("callbackQuery", ({ callbackQuery }) => {
-  // do something with callbackQuery
+client.on("callbackQuery", (callbackQuery) => {
+  // do something with ctx.callbackQuery
+});
+```
+
+## command
+
+`command` works like `on("message:text")` except it filters commands.
+
+```ts
+client.command("start", async (ctx) => {
+  await ctx.reply("Hey, you just started me!");
+});
+```
+
+You can specify multiple commands.
+
+```ts
+client.command(["start", "ping"], async (ctx) => {
+  await ctx.reply("Command received!");
+});
+```
+
+You can also specify custom prefixes.
+
+```ts
+client.command({
+  names: ["start", "ping"],
+  prefixes: ["/", "!"],
+}, async (ctx) => {
+  await ctx.reply("Command received!");
+});
+```
+
+## chatType
+
+`chatType` filters incoming updates by their chat type.
+
+```ts
+client.chatType("private", async (ctx) => {
+  await ctx.reply("Received a message from a private chat!");
+});
+```
+
+You can specify multiple chat types.
+
+```ts
+client.chatType(["supergroup", "channel"], async (ctx) => {
+  await ctx.reply("Message received!");
 });
 ```
