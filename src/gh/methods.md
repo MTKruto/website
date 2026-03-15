@@ -91,6 +91,13 @@ Pause the business bot in a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/removechannelemojistatus">removeChannelEmojiStatus</a>
+<div><div>
+
+Remove the emoji status of a channel.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/removeemojistatus">removeEmojiStatus</a>
 <div><div>
 
@@ -137,6 +144,13 @@ Send a user verification code.
 <div><div>
 
 Set the birthday of the current user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setchannelemojistatus">setChannelEmojiStatus</a>
+<div><div>
+
+Set the emoji status of a channel.
 
 </div></div>
 <div class="descr-list-border"></div>
