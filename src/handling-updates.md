@@ -29,7 +29,7 @@ The methods responsible for composing update handlers are:
 
 ## use
 
-This is the main method to assign a handler, and all others depend on it. It assigns an unconditional&nbsp;handler, meaning that it will always get called unless it is blocked by a handler preceding it.
+[`use`](https://jsr.io/@mtkruto/mtkruto/doc/~/Composer.prototype.use) is the main method to assign a handler, and all others depend on it. It assigns an unconditional&nbsp;handler, meaning that it will always get called unless it is blocked by a handler preceding it.
 
 ```txt
 |
@@ -92,7 +92,7 @@ client.use(async (_ctx, next) => {
 
 ## branch
 
-`branch` takes 3 functions:
+[`branch`](https://jsr.io/@mtkruto/mtkruto/doc/~/Composer.prototype.branch) takes 3 functions:
 
 1. One that checks for a specific condition.
 2. A handler function that gets called when the specific condition is met, the true handler.
@@ -136,7 +136,7 @@ client.branch(
 
 ## filter
 
-`filter` is almost the same as `branch` except that it does not have a false handler. It automatically moves to the next handlers if the condition is not met.
+[`filter`](https://jsr.io/@mtkruto/mtkruto/doc/~/Composer.prototype.filter) is almost the same as `branch` except that it does not have a false handler. It automatically moves to the next handlers if the condition is not met.
 
 ```txt
 |
@@ -168,7 +168,7 @@ client.filter(
 
 ## on
 
-`on` works like `filter` but instead of providing a function that checks for a condition, you provide it a filter query. If the update matched the provided filter, the handler gets called.
+[`on`](https://jsr.io/@mtkruto/mtkruto/doc/~/Composer.prototype.on) works like `filter` but instead of providing a function that checks for a condition, you provide it a filter query. If the update matched the provided filter, the handler gets called.
 
 ```txt
 |
@@ -206,7 +206,7 @@ client.on("callbackQuery", (callbackQuery) => {
 
 ## command
 
-`command` works like `on("message:text")` except it filters commands.
+[`command`](https://jsr.io/@mtkruto/mtkruto/doc/~/Composer.prototype.command) works like `on("message:text")` except it filters commands.
 
 ```ts
 client.command("start", async (ctx) => {
@@ -235,7 +235,7 @@ client.command({
 
 ## callbackQuery
 
-`callbackQuery` filters incoming updates by a specific callback query data.
+[`callbackQuery`](https://jsr.io/@mtkruto/mtkruto/doc/~/Composer.prototype.callbackQuery) filters incoming updates by a specific callback query data.
 
 ```ts
 client.callbackQuery("btn_1", async (ctx) => {
@@ -245,7 +245,7 @@ client.callbackQuery("btn_1", async (ctx) => {
 
 ## inlineQuery
 
-`inlineQuery` filters incoming updates by a specific inline query.
+[`inlineQuery`](https://jsr.io/@mtkruto/mtkruto/doc/~/Composer.prototype.inlineQuery) filters incoming updates by a specific inline query.
 
 ```ts
 client.inlineQuery("query", async (ctx) => {
@@ -255,7 +255,7 @@ client.inlineQuery("query", async (ctx) => {
 
 ## chosenInlineResult
 
-`chosenInlineResult` filters incoming updates by a chosen inline result's query.
+[`chosenInlineResult`](https://jsr.io/@mtkruto/mtkruto/doc/~/Composer.prototype.chosenInlineResult) filters incoming updates by a chosen inline result's query.
 
 ```ts
 client.chosenInlineResult("query", async (ctx) => {
@@ -265,7 +265,7 @@ client.chosenInlineResult("query", async (ctx) => {
 
 ## chatType
 
-`chatType` filters incoming updates by their chat type.
+[`chatType`](https://jsr.io/@mtkruto/mtkruto/doc/~/Composer.prototype.chatType) filters incoming updates by their chat type.
 
 ```ts
 client.chatType("private", async (ctx) => {
