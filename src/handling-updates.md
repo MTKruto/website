@@ -5,7 +5,7 @@ prev: /calling-methods
 next: /working-with-messages
 ---
 
-MTKruto uses an update middleware inspired by [grammY](https//grammy.dev/).
+MTKruto uses an update middleware inspired by [grammY](https://grammy.dev/guide/filter-queries).
 
 You can handle updates by assigning update handlers to the client. A handler is a function that takes two arguments: `ctx` and `next`.
 
@@ -22,7 +22,7 @@ Currently, there are five methods responsible for composing update handlers:
 - [filter](#filter)
 - [on](#on)
 - [command](#command)
-- [chatType](#chatType)
+- [chatType](#chattype)
 
 ## use
 
