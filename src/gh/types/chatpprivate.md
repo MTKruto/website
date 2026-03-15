@@ -33,6 +33,10 @@ The last name of the user.
 
 The user's main username.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_phoneNumber" data-anchor="true"><span class="font-bold">phoneNumber</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The user's phone number.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_also" data-anchor="true"><span class="font-bold">also</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
 The user's additional usernames.
