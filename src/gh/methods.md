@@ -161,6 +161,13 @@ Set the current account's emoji status.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/setisonline">setIsOnline</a>
+<div><div>
+
+Set the current account's online status.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/setlocation">setLocation</a>
 <div><div>
 
@@ -172,13 +179,6 @@ Set the location of the current user.
 <div><div>
 
 Set the name color of the current user.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/setonline">setOnline</a>
-<div><div>
-
-Set the current account's online status.
 
 </div></div>
 <div class="descr-list-border"></div>
