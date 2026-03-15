@@ -15,7 +15,7 @@ You can handle updates by assigning update handlers to the client. A handler is 
 
 Once an update reaches a handler, it _won't_ reach others unless it calls `next`. When `next` is called, the same thing goes on again: the update won't reach the next handler until `next` is called, and so on.
 
-Currently, there are five methods responsible for composing update handlers:
+Currently, there are six methods responsible for composing update handlers:
 
 - [use](#use)
 - [branch](#branch)
