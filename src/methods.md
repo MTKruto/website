@@ -91,6 +91,13 @@ Pause the business bot in a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/removechannelemojistatus">removeChannelEmojiStatus</a>
+<div><div>
+
+Remove the emoji status of a channel.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/removeemojistatus">removeEmojiStatus</a>
 <div><div>
 
@@ -140,10 +147,24 @@ Set the birthday of the current user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/setchannelemojistatus">setChannelEmojiStatus</a>
+<div><div>
+
+Set the emoji status of a channel.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/setemojistatus">setEmojiStatus</a>
 <div><div>
 
 Set the current account's emoji status.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setisonline">setIsOnline</a>
+<div><div>
+
+Set the current account's online status.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -158,13 +179,6 @@ Set the location of the current user.
 <div><div>
 
 Set the name color of the current user.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/methods/setonline">setOnline</a>
-<div><div>
-
-Set the current account's online status.
 
 </div></div>
 <div class="descr-list-border"></div>
