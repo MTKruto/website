@@ -15,13 +15,16 @@ You can handle updates by assigning update handlers to the client. A handler is 
 
 Once an update reaches a handler, it _won't_ reach others unless it calls `next`. When `next` is called, the same thing goes on again: the update won't reach the next handler until `next` is called, and so on.
 
-Currently, there are six methods responsible for composing update handlers:
+The methods responsible for composing update handlers are:
 
 - [use](#use)
 - [branch](#branch)
 - [filter](#filter)
 - [on](#on)
 - [command](#command)
+- [callbackQuery](#callbackquery)
+- [inlineQuery](#inlinequery)
+- [chosenInlineResult](#choseninlineresult)
 - [chatType](#chattype)
 
 ## use
@@ -227,6 +230,36 @@ client.command({
   prefixes: ["/", "!"],
 }, async (ctx) => {
   await ctx.reply("Command received!");
+});
+```
+
+## callbackQuery
+
+`callbackQuery` filters incoming updates by a specific callback query data.
+
+```ts
+client.callbackQuery("btn_1", async (ctx) => {
+  // ctx.callbackQuery.data === "btn_1"
+});
+```
+
+## inlineQuery
+
+`inlineQuery` filters incoming updates by a specific inline query.
+
+```ts
+client.inlineQuery("query", async (ctx) => {
+  // ctx.inlineQuery.query === "query"
+});
+```
+
+## chosenInlineResult
+
+`chosenInlineResult` filters incoming updates by a chosen inline result's query.
+
+```ts
+client.chosenInlineResult("query", async (ctx) => {
+  // ctx.chosenInlineResult.query === "query"
 });
 ```
 
