@@ -6,13 +6,6 @@ metas:
 ---
 <div class="descr-list">
 
-<a href="/gh/types/_emojistatusbase">_EmojiStatusBase</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/gh/types/animation">Animation</a>
 <div><div>
 
@@ -261,7 +254,7 @@ A document.
 <a href="/gh/types/emojistatus">EmojiStatus</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+Any type of emoji status.
 
 </div></div>
 <div class="descr-list-border"></div>
