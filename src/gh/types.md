@@ -268,7 +268,7 @@ A failed invitation.
 <a href="/gh/types/forwardheader">ForwardHeader</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+Any type of forward header.
 
 </div></div>
 <div class="descr-list-border"></div>
