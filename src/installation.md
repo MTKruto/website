@@ -22,6 +22,10 @@ deno add jsr:@mtkruto/mtkruto
 
 {{ "jsr:@mtkruto/mtkruto" |> install }}
 
+As an alternative, you can also use `@mtkruto/browser` from npm:
+
+{{ "@mtkruto/browser" |> install }}
+
 3. You can also import it directly from a CDN into your HTML file.
 
 ```html
