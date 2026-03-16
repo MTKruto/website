@@ -71,7 +71,7 @@ try {
 
 </code-group-item>
 
-<code-group-item title="Web (esm.sh)">
+<code-group-item title="Web (jsDelivr)">
 
 ```ts
 import * as Mtkruto from "{{ esm }}";

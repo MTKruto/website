@@ -124,7 +124,7 @@ const client = new Client({
 
 </code-group-item>
 
-<code-group-item title="esm.sh">
+<code-group-item title="jsDelivr">
 
 ```ts
 import { StorageIndexedDB } from "{{ esm }}";

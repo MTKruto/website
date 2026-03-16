@@ -60,7 +60,7 @@ const client = new Client({
 
 </code-group-item>
 
-<code-group-item title="Web (esm.sh)">
+<code-group-item title="Web (jsDelivr)">
 
 ```ts
 import { Client, StorageLocalStorage } from "{{ esm }}";

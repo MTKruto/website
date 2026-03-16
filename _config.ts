@@ -29,7 +29,7 @@ site.use(
 );
 
 site.data("deno", "@mtkruto/mtkruto");
-site.data("esm", `https://esm.sh/jsr/@mtkruto/mtkruto@${versions[0]}`);
+site.data("esm", `https://cdn.jsdelivr.net/npm/@mtkruto/browser@${versions[0]}/esm/mod.js`);
 site.helper("bc", (path: string) => {
   if (path.endsWith("/")) {
     path = path.slice(0, -1);
