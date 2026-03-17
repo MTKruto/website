@@ -49,6 +49,26 @@ The user's status.
 
 The user's emoji status.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isSelf" data-anchor="true"><span class="font-bold">isSelf</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the user is the current user.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isDeleted" data-anchor="true"><span class="font-bold">isDeleted</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the user has been deleted.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isContact" data-anchor="true"><span class="font-bold">isContact</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the user is a contact.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isMutualContact" data-anchor="true"><span class="font-bold">isMutualContact</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the user is a mutual contact.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isCloseFriend" data-anchor="true"><span class="font-bold">isCloseFriend</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the user is a close friend.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_languageCode" data-anchor="true"><span class="font-bold">languageCode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
 The user's [IETF language tag](https://en.wikipedia.org/wiki/IETF_language_tag).
