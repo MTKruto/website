@@ -1,0 +1,20 @@
+{
+  "name": "Web DC",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "denoland.vscode-deno"
+      ],
+      "settings": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+      }
+    }
+  },
+  "forwardPorts": [
+    3000
+  ],
+  "remoteUser": "dc"
+}
