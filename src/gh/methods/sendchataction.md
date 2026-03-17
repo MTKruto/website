@@ -13,7 +13,7 @@ Send a chat action.<span class="select-none">  </span>
 
 The identifier of a chat to send the chat action to.
 
-</div></div></div><div><div class="font-mono" id="p_action" data-anchor="true"><span class="font-bold">action</span><span class="opacity-50">:</span> <a href="/gh/types/chataction">ChatAction</a></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="font-mono" id="p_action" data-anchor="true"><span class="font-bold">action</span><span class="opacity-50">:</span> <a href="/gh/types/chatactiontype">ChatActionType</a></div><div class="pl-3"><div class="no-margin">
 
 The chat action.
 
