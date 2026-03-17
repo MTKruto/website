@@ -21,5 +21,9 @@ The chat in which the action was made.
 
 The sender of the action.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_messageThreadId" data-anchor="true"><span class="font-bold">messageThreadId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of a thread in which the action was made.
+
 </div></div></div></div>
 
