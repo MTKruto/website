@@ -40,5 +40,6 @@ An incoming update.
 <span class="opacity-50">|</span> <a href="/types/updatebotcommands">UpdateBotCommands</a>
 <span class="opacity-50">|</span> <a href="/types/updateemojistatus">UpdateEmojiStatus</a>
 <span class="opacity-50">|</span> <a href="/types/updateemojistatusremoved">UpdateEmojiStatusRemoved</a>
-<span class="opacity-50">|</span> <a href="/types/updatechataction">UpdateChatAction</a></div>
+<span class="opacity-50">|</span> <a href="/types/updatechataction">UpdateChatAction</a>
+<span class="opacity-50">|</span> <a href="/types/updatemessagedraft">UpdateMessageDraft</a></div>
 

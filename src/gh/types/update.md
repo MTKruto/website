@@ -40,5 +40,6 @@ An incoming update.
 <span class="opacity-50">|</span> <a href="/gh/types/updatebotcommands">UpdateBotCommands</a>
 <span class="opacity-50">|</span> <a href="/gh/types/updateemojistatus">UpdateEmojiStatus</a>
 <span class="opacity-50">|</span> <a href="/gh/types/updateemojistatusremoved">UpdateEmojiStatusRemoved</a>
-<span class="opacity-50">|</span> <a href="/gh/types/updatechataction">UpdateChatAction</a></div>
+<span class="opacity-50">|</span> <a href="/gh/types/updatechataction">UpdateChatAction</a>
+<span class="opacity-50">|</span> <a href="/gh/types/updatemessagedraft">UpdateMessageDraft</a></div>
 

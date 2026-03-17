@@ -608,6 +608,13 @@ The content of a message in an inline query result.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/messagedraft">MessageDraft</a>
+<div><div>
+
+A message draft.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/messageentity">MessageEntity</a>
 <div><div>
 
