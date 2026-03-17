@@ -111,6 +111,104 @@ A sign of a possible action by a member of a conversation.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/chatactiontype">ChatActionType</a>
+<div><div>
+
+A type of a chat action.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/chatactiontypecancel">ChatActionTypeCancel</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/chatactiontypechoosinglocation">ChatActionTypeChoosingLocation</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/chatactiontypechoosingsticker">ChatActionTypeChoosingSticker</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/chatactiontypeplayinggame">ChatActionTypePlayingGame</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/chatactiontyperecordingvideo">ChatActionTypeRecordingVideo</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/chatactiontyperecordingvideonote">ChatActionTypeRecordingVideoNote</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/chatactiontyperecordingvoice">ChatActionTypeRecordingVoice</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/chatactiontypetyping">ChatActionTypeTyping</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/chatactiontypeuploadingaudio">ChatActionTypeUploadingAudio</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/chatactiontypeuploadingdocument">ChatActionTypeUploadingDocument</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/chatactiontypeuploadingphoto">ChatActionTypeUploadingPhoto</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/chatactiontypeuploadingtypevideonote">ChatActionTypeUploadingTypeVideoNote</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/chatactiontypeuploadingvideo">ChatActionTypeUploadingVideo</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/chatadministratorrights">ChatAdministratorRights</a>
 <div><div>
 
