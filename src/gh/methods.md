@@ -1650,6 +1650,13 @@ Start a video chat.
 ## Unlisted
 <div class="descr-list">
 
+<a href="/gh/methods/addgiftstocollection">addGiftsToCollection</a>
+<div><div>
+
+Add gifts to a gift collection.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/blockuser">blockUser</a>
 <div><div>
 
@@ -1657,10 +1664,52 @@ Block a user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/creategiftcollection">createGiftCollection</a>
+<div><div>
+
+Create a gift collection.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/deletegiftcollection">deleteGiftCollection</a>
+<div><div>
+
+Delete a gift collection.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getgiftcollections">getGiftCollections</a>
+<div><div>
+
+Get gift collections of a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getnetworkstatistics">getNetworkStatistics</a>
 <div><div>
 
 Get network statistics. This might not always be available.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/removegiftsfromcollection">removeGiftsFromCollection</a>
+<div><div>
+
+Remove gifts from a gift collection.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/reordergiftsincollection">reorderGiftsInCollection</a>
+<div><div>
+
+Reorder gifts in a gift collection.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setgiftcollectionname">setGiftCollectionName</a>
+<div><div>
+
+Set the name of a gift collection.
 
 </div></div>
 <div class="descr-list-border"></div>
