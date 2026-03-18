@@ -384,6 +384,13 @@ A gift.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/giftcollection">GiftCollection</a>
+<div><div>
+
+A gift collection.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/giftcomponentrarity">GiftComponentRarity</a>
 <div><div>
 

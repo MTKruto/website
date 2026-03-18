@@ -126,6 +126,13 @@ Reorder the usernames of the current account, a bot account, a supergroup, or a 
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/resolveusername">resolveUsername</a>
+<div><div>
+
+Resolve a username.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/resumebusinessbotconnection">resumeBusinessBotConnection</a>
 <div><div>
 
@@ -957,6 +964,61 @@ Download a chunk of a file.
 <div><div>
 
 Get custom emoji documents for download.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
+## Gift Collections
+<div class="descr-list">
+
+<a href="/methods/addgiftstocollection">addGiftsToCollection</a>
+<div><div>
+
+Add gifts to a gift collection.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/creategiftcollection">createGiftCollection</a>
+<div><div>
+
+Create a gift collection.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/deletegiftcollection">deleteGiftCollection</a>
+<div><div>
+
+Delete a gift collection.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getgiftcollections">getGiftCollections</a>
+<div><div>
+
+Get gift collections of a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/removegiftsfromcollection">removeGiftsFromCollection</a>
+<div><div>
+
+Remove gifts from a gift collection.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/reordergiftsincollection">reorderGiftsInCollection</a>
+<div><div>
+
+Reorder gifts in a gift collection.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setgiftcollectionname">setGiftCollectionName</a>
+<div><div>
+
+Set the name of a gift collection.
 
 </div></div>
 <div class="descr-list-border"></div>
