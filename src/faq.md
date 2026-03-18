@@ -25,7 +25,7 @@ While the Bot API can only be used to work with bot accounts, the Telegram API c
 - You can’t use both the Bot API and the Telegram API at once for the same bot.
 - Telegram API clients are required to persist data to properly consume the API.
 
-## What are the differences between MTKruto vs. TDLib?
+## What are the differences between MTKruto and TDLib?
 
 [TDLib](https://core.telegram.org/tdlib) is the official client library for the Telegram API. It is ideal, cross-platform, and contains everything required to build fully-featured Telegram clients, be it native graphical apps, web apps, or bots. Inside JavaScript runtimes, TDLib can be used either as a Wasm module, or imported as a dynamic library to use its FFI.
 
