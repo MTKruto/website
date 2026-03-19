@@ -126,6 +126,13 @@ Reorder the usernames of the current account, a bot account, a supergroup, or a 
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/resolvephonenumber">resolvePhoneNumber</a>
+<div><div>
+
+Resolve a phone number.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/resolveusername">resolveUsername</a>
 <div><div>
 
