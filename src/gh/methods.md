@@ -161,6 +161,13 @@ Set the emoji status of a channel.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/setclosefriends">setCloseFriends</a>
+<div><div>
+
+Set the list of close friends.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/setemojistatus">setEmojiStatus</a>
 <div><div>
 
