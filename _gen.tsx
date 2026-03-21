@@ -34,7 +34,7 @@ for (const dir of [`src${version}/methods`, `src${version}/types`]) {
     "fs": ["Files", "files"],
     "cq": ["Callback Queries", "callback-queries"],
     "iq": ["Inline Queries", "inline-queries"],
-    "bs": ["Bots", "bots"],
+    "bo": ["Bots", "bots"],
     "re": ["Reactions", "reactions"],
     "st": ["Stories", "stories"],
     "vc": ["Video Chats", "video-chats"],
