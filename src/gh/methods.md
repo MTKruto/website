@@ -245,6 +245,13 @@ Show a username in the current account, a bot account, a supergroup, or a channe
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/suggestbirthday">suggestBirthday</a>
+<div><div>
+
+Suggest a birthday.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/updateprofile">updateProfile</a>
 <div><div>
 
