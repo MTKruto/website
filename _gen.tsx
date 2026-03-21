@@ -37,6 +37,7 @@ for (const dir of [`src${version}/methods`, `src${version}/types`]) {
     "bo": ["Bots", "bots"],
     "re": ["Reactions", "reactions"],
     "st": ["Stories", "stories"],
+    "sa": ["Story Albums", "story-albums"],
     "vc": ["Video Chats", "video-chats"],
     "co": ["Contacts", "contacts"],
     "pa": ["Payments", "payments"],
