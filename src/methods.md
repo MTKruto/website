@@ -245,10 +245,79 @@ Show a username in the current account, a bot account, a supergroup, or a channe
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/suggestbirthday">suggestBirthday</a>
+<div><div>
+
+Suggest a birthday.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/updateprofile">updateProfile</a>
 <div><div>
 
 Update the profile of the current user. At least one parameter must be specified.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
+## Bots
+<div class="descr-list">
+
+<a href="/methods/getmycommands">getMyCommands</a>
+<div><div>
+
+Get the bot's commands in the given scope and/or language.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getmydescription">getMyDescription</a>
+<div><div>
+
+Get the bot's description in the given language.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getmyname">getMyName</a>
+<div><div>
+
+Get the bot's name in the given language.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getmyshortdescription">getMyShortDescription</a>
+<div><div>
+
+Get the bot's short description in the given language.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setmycommands">setMyCommands</a>
+<div><div>
+
+Set the bot's commands in the given scope and/or language.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setmydescription">setMyDescription</a>
+<div><div>
+
+Set the bot's description in the given language.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setmyname">setMyName</a>
+<div><div>
+
+Set the bot's name in the given language.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setmyshortdescription">setMyShortDescription</a>
+<div><div>
+
+Set the bot's short description in the given language.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -889,6 +958,13 @@ Delete multiple contacts.
 <div><div>
 
 Get contacts.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setcontactnote">setContactNote</a>
+<div><div>
+
+Set a contact note.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1664,66 +1740,10 @@ Block a user.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/getmycommands">getMyCommands</a>
-<div><div>
-
-Get the bot's commands in the given scope and/or language.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/methods/getmydescription">getMyDescription</a>
-<div><div>
-
-Get the bot's description in the given language.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/methods/getmyname">getMyName</a>
-<div><div>
-
-Get the bot's name in the given language.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/methods/getmyshortdescription">getMyShortDescription</a>
-<div><div>
-
-Get the bot's short description in the given language.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/methods/getnetworkstatistics">getNetworkStatistics</a>
 <div><div>
 
 Get network statistics. This might not always be available.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/methods/setmycommands">setMyCommands</a>
-<div><div>
-
-Set the bot's commands in the given scope and/or language.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/methods/setmydescription">setMyDescription</a>
-<div><div>
-
-Set the bot's description in the given language.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/methods/setmyname">setMyName</a>
-<div><div>
-
-Set the bot's name in the given language.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/methods/setmyshortdescription">setMyShortDescription</a>
-<div><div>
-
-Set the bot's short description in the given language.
 
 </div></div>
 <div class="descr-list-border"></div>
