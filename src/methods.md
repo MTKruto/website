@@ -1655,6 +1655,75 @@ Remove a single story from highlights.
 
 </div>
 
+## Story Albums
+<div class="descr-list">
+
+<a href="/methods/addstoriestoalbum">addStoriesToAlbum</a>
+<div><div>
+
+Add multiple stories to an album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/addstorytoalbum">addStoryToAlbum</a>
+<div><div>
+
+Add a single story to an album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/createstoryalbum">createStoryAlbum</a>
+<div><div>
+
+Create a story album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getstoriesinalbum">getStoriesInAlbum</a>
+<div><div>
+
+Get stories inside an album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getstoryalbums">getStoryAlbums</a>
+<div><div>
+
+Get story albums in a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/removestoriesfromalbum">removeStoriesFromAlbum</a>
+<div><div>
+
+Remove multiple stories from an album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/removestoryfromalbum">removeStoryFromAlbum</a>
+<div><div>
+
+Remove a single story from an album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/reorderstoriesinalbum">reorderStoriesInAlbum</a>
+<div><div>
+
+Reorder stories in an album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setstoryalbumname">setStoryAlbumName</a>
+<div><div>
+
+Set the name of a story album.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
 ## Translations
 <div class="descr-list">
 
