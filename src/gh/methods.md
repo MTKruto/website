@@ -1733,6 +1733,20 @@ Start a video chat.
 ## Unlisted
 <div class="descr-list">
 
+<a href="/gh/methods/addstoriestoalbum">addStoriesToAlbum</a>
+<div><div>
+
+Add multiple stories to an album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/addstorytoalbum">addStoryToAlbum</a>
+<div><div>
+
+Add a single story to an album.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/blockuser">blockUser</a>
 <div><div>
 
@@ -1740,10 +1754,59 @@ Block a user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/createstoryalbum">createStoryAlbum</a>
+<div><div>
+
+Create a story album.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getnetworkstatistics">getNetworkStatistics</a>
 <div><div>
 
 Get network statistics. This might not always be available.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getstoriesinalbum">getStoriesInAlbum</a>
+<div><div>
+
+Get stories inside an album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getstoryalbums">getStoryAlbums</a>
+<div><div>
+
+Get story albums in a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/removestoriesfromalbum">removeStoriesFromAlbum</a>
+<div><div>
+
+Remove multiple stories from an album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/removestoryfromalbum">removeStoryFromAlbum</a>
+<div><div>
+
+Remove a single story from an album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/reorderstoriesinalbum">reorderStoriesInAlbum</a>
+<div><div>
+
+Reorder stories in an album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setstoryalbumname">setStoryAlbumName</a>
+<div><div>
+
+Set the name of a story album.
 
 </div></div>
 <div class="descr-list-border"></div>

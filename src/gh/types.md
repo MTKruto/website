@@ -6,6 +6,13 @@ metas:
 ---
 <div class="descr-list">
 
+<a href="/gh/types/albumstorylist">AlbumStoryList</a>
+<div><div>
+
+A list of stories in a specific album.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/animation">Animation</a>
 <div><div>
 
@@ -892,6 +899,20 @@ A sticker (or emoji) set.
 <div><div>
 
 A story.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/storyalbum">StoryAlbum</a>
+<div><div>
+
+A story album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/storyalbumicon">StoryAlbumIcon</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
