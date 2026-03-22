@@ -98,6 +98,13 @@ Get information on the currently authorized user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getownedbots">getOwnedBots</a>
+<div><div>
+
+Get owned bots.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getpasswordhint">getPasswordHint</a>
 <div><div>
 
