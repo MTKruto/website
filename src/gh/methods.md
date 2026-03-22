@@ -1645,6 +1645,13 @@ Make a reaction to a message.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/clearrecentreactions">clearRecentReactions</a>
+<div><div>
+
+Clear recent reactions.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/removereaction">removeReaction</a>
 <div><div>
 
