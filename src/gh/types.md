@@ -41,6 +41,20 @@ A user's birthday.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/blockeduser">BlockedUser</a>
+<div><div>
+
+A blocked user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/blockeduserlist">BlockedUserList</a>
+<div><div>
+
+A list of blocked users.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/botcommand">BotCommand</a>
 <div><div>
 

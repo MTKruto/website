@@ -56,6 +56,13 @@ Enable sponsored messages on the current user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getblockedusers">getBlockedUsers</a>
+<div><div>
+
+Get blocked users.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getbusinessconnection">getBusinessConnection</a>
 <div><div>
 
