@@ -494,6 +494,13 @@ Disable business bots in a private chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/disablechathistoryfornewmembers">disableChatHistoryForNewMembers</a>
+<div><div>
+
+Disable chat history for new members.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/disablejoinrequests">disableJoinRequests</a>
 <div><div>
 
@@ -547,6 +554,13 @@ Enable automatic anti-spam in a group.
 <div><div>
 
 Enable business bots in a private chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/enablechathistoryfornewmembers">enableChatHistoryForNewMembers</a>
+<div><div>
+
+Enable chat history for new members.
 
 </div></div>
 <div class="descr-list-border"></div>
