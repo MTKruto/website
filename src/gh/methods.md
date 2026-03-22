@@ -63,6 +63,20 @@ Enable sponsored messages on the current user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getappsupport">getAppSupport</a>
+<div><div>
+
+Get app support.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getappsupportname">getAppSupportName</a>
+<div><div>
+
+Get app support name.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getblockedusers">getBlockedUsers</a>
 <div><div>
 

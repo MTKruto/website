@@ -20,6 +20,13 @@ An animation file (GIF or H.264/MPEG-4 AVC video without sound).
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/appsupport">AppSupport</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/audio">Audio</a>
 <div><div>
 
