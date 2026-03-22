@@ -662,6 +662,13 @@ Get pending join requests in a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getonlinecount">getOnlineCount</a>
+<div><div>
+
+Get the count of online members in a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getpinnedchats">getPinnedChats</a>
 <div><div>
 
