@@ -7,6 +7,13 @@ metas:
 ## Account
 <div class="descr-list">
 
+<a href="/gh/methods/blockuser">blockUser</a>
+<div><div>
+
+Block a user.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/checkbottoken">checkBotToken</a>
 <div><div>
 
@@ -249,6 +256,13 @@ Show a username in the current account, a bot account, a supergroup, or a channe
 <div><div>
 
 Suggest a birthday.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/unblockuser">unblockUser</a>
+<div><div>
+
+Unblock a user.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1540,6 +1554,19 @@ Unpin all pinned messages.
 
 </div>
 
+## Network Statistics
+<div class="descr-list">
+
+<a href="/gh/methods/getnetworkstatistics">getNetworkStatistics</a>
+<div><div>
+
+Get network statistics. This might not always be available.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
 ## Payments
 <div class="descr-list">
 
@@ -1814,33 +1841,6 @@ Schedule a video chat.
 <div><div>
 
 Start a video chat.
-
-</div></div>
-<div class="descr-list-border"></div>
-
-</div>
-
-## Unlisted
-<div class="descr-list">
-
-<a href="/gh/methods/blockuser">blockUser</a>
-<div><div>
-
-Block a user.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getnetworkstatistics">getNetworkStatistics</a>
-<div><div>
-
-Get network statistics. This might not always be available.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/unblockuser">unblockUser</a>
-<div><div>
-
-Unblock a user.
 
 </div></div>
 <div class="descr-list-border"></div>
