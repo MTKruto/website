@@ -7,6 +7,13 @@ metas:
 ## Account
 <div class="descr-list">
 
+<a href="/gh/methods/addbottoattachmentsmenu">addBotToAttachmentsMenu</a>
+<div><div>
+
+Add a bot to the attachments menu.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/blockuser">blockUser</a>
 <div><div>
 
@@ -102,6 +109,13 @@ Hide all usernames from a supergroup or a channel's profile.
 <div><div>
 
 Pause the business bot in a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/removebotfromattachmentsmenu">removeBotFromAttachmentsMenu</a>
+<div><div>
+
+Remove a bot from the attachments menu.
 
 </div></div>
 <div class="descr-list-border"></div>
