@@ -851,6 +851,13 @@ Change the title of a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/setdefaultsendas">setDefaultSendAs</a>
+<div><div>
+
+Set the default send as chat of a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/setdiscussionchat">setDiscussionChat</a>
 <div><div>
 
