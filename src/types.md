@@ -20,6 +20,13 @@ An animation file (GIF or H.264/MPEG-4 AVC video without sound).
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/appsupport">AppSupport</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/audio">Audio</a>
 <div><div>
 
@@ -34,10 +41,31 @@ A client's authorization state.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/availablereactions">AvailableReactions</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/birthday">Birthday</a>
 <div><div>
 
 A user's birthday.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/blockeduser">BlockedUser</a>
+<div><div>
+
+A blocked user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/blockeduserlist">BlockedUserList</a>
+<div><div>
+
+A list of blocked users.
 
 </div></div>
 <div class="descr-list-border"></div>

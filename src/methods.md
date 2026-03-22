@@ -7,6 +7,20 @@ metas:
 ## Account
 <div class="descr-list">
 
+<a href="/methods/addbottoattachmentsmenu">addBotToAttachmentsMenu</a>
+<div><div>
+
+Add a bot to the attachments menu.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/blockuser">blockUser</a>
+<div><div>
+
+Block a user.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/checkbottoken">checkBotToken</a>
 <div><div>
 
@@ -49,6 +63,27 @@ Enable sponsored messages on the current user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getappsupport">getAppSupport</a>
+<div><div>
+
+Get app support.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getappsupportname">getAppSupportName</a>
+<div><div>
+
+Get app support name.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getblockedusers">getBlockedUsers</a>
+<div><div>
+
+Get blocked users.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getbusinessconnection">getBusinessConnection</a>
 <div><div>
 
@@ -88,6 +123,13 @@ Hide all usernames from a supergroup or a channel's profile.
 <div><div>
 
 Pause the business bot in a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/removebotfromattachmentsmenu">removeBotFromAttachmentsMenu</a>
+<div><div>
+
+Remove a bot from the attachments menu.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -249,6 +291,13 @@ Show a username in the current account, a bot account, a supergroup, or a channe
 <div><div>
 
 Suggest a birthday.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/unblockuser">unblockUser</a>
+<div><div>
+
+Unblock a user.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -827,6 +876,13 @@ Set a chat's sticker set.
 <div><div>
 
 Change the title of a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setdefaultsendas">setDefaultSendAs</a>
+<div><div>
+
+Set the default send as chat of a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1540,6 +1596,19 @@ Unpin all pinned messages.
 
 </div>
 
+## Network Statistics
+<div class="descr-list">
+
+<a href="/methods/getnetworkstatistics">getNetworkStatistics</a>
+<div><div>
+
+Get network statistics. This might not always be available.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
 ## Payments
 <div class="descr-list">
 
@@ -1587,6 +1656,13 @@ Cast a vote.
 <div><div>
 
 Make a reaction to a message.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/clearrecentreactions">clearRecentReactions</a>
+<div><div>
+
+Clear recent reactions.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1814,33 +1890,6 @@ Schedule a video chat.
 <div><div>
 
 Start a video chat.
-
-</div></div>
-<div class="descr-list-border"></div>
-
-</div>
-
-## Unlisted
-<div class="descr-list">
-
-<a href="/methods/blockuser">blockUser</a>
-<div><div>
-
-Block a user.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/methods/getnetworkstatistics">getNetworkStatistics</a>
-<div><div>
-
-Get network statistics. This might not always be available.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/methods/unblockuser">unblockUser</a>
-<div><div>
-
-Unblock a user.
 
 </div></div>
 <div class="descr-list-border"></div>
