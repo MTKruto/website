@@ -494,6 +494,13 @@ Disable business bots in a private chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/disablechathistoryfornewmembers">disableChatHistoryForNewMembers</a>
+<div><div>
+
+Disable chat history for new members.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/disablejoinrequests">disableJoinRequests</a>
 <div><div>
 
@@ -547,6 +554,13 @@ Enable automatic anti-spam in a group.
 <div><div>
 
 Enable business bots in a private chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/enablechathistoryfornewmembers">enableChatHistoryForNewMembers</a>
+<div><div>
+
+Enable chat history for new members.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -659,6 +673,13 @@ Get inactive chats.
 <div><div>
 
 Get pending join requests in a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getonlinecount">getOnlineCount</a>
+<div><div>
+
+Get the count of online members in a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
