@@ -91,6 +91,13 @@ Get a business connection.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getcountries">getCountries</a>
+<div><div>
+
+Get countries.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getme">getMe</a>
 <div><div>
 

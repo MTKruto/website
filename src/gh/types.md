@@ -132,6 +132,13 @@ A reference to a button that is to be clicked by a user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/callingcode">CallingCode</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/chat">Chat</a>
 <div><div>
 
@@ -367,6 +374,13 @@ A client's connection state.
 <div><div>
 
 A shared contact.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/country">Country</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
