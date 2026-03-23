@@ -1917,3 +1917,16 @@ Start a video chat.
 
 </div>
 
+## Unlisted
+<div class="descr-list">
+
+<a href="/gh/methods/getleftchannels">getLeftChannels</a>
+<div><div>
+
+Get left channels.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+

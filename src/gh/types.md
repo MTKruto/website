@@ -517,6 +517,13 @@ A keyboard button representing the type of the poll that is requested to be crea
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/leftchannellist">LeftChannelList</a>
+<div><div>
+
+A list of left channels.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/linkpreview">LinkPreview</a>
 <div><div>
 
