@@ -41,6 +41,7 @@ for (const dir of [`src${version}/methods`, `src${version}/types`]) {
     "sa": ["Story Albums", "story-albums"],
     "vc": ["Video Chats", "video-chats"],
     "co": ["Contacts", "contacts"],
+    "to": ["Takeouts", "takeouts"],
     "pa": ["Payments", "payments"],
     "ta": ["Translations", "translations"],
     "pl": ["Polls", "polls"],
