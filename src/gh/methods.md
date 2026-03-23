@@ -1842,6 +1842,33 @@ Set the name of a story album.
 
 </div>
 
+## Takeouts
+<div class="descr-list">
+
+<a href="/gh/methods/endtakeoutsession">endTakeoutSession</a>
+<div><div>
+
+End a takeout session.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getleftchannels">getLeftChannels</a>
+<div><div>
+
+Get left channels.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/starttakeoutsession">startTakeoutSession</a>
+<div><div>
+
+Start a takeout session.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
 ## Translations
 <div class="descr-list">
 
@@ -1911,19 +1938,6 @@ Schedule a video chat.
 <div><div>
 
 Start a video chat.
-
-</div></div>
-<div class="descr-list-border"></div>
-
-</div>
-
-## Unlisted
-<div class="descr-list">
-
-<a href="/gh/methods/getleftchannels">getLeftChannels</a>
-<div><div>
-
-Get left channels.
 
 </div></div>
 <div class="descr-list-border"></div>
