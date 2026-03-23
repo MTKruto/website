@@ -112,6 +112,13 @@ Get the user account password's hint.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/gettimezones">getTimezones</a>
+<div><div>
+
+Get timezones.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/hideusername">hideUsername</a>
 <div><div>
 

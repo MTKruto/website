@@ -1007,6 +1007,13 @@ A file or sticker thumbnail.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/timezone">Timezone</a>
+<div><div>
+
+A timezone.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/topic">Topic</a>
 <div><div>
 
