@@ -91,6 +91,13 @@ Get a business connection.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getcountries">getCountries</a>
+<div><div>
+
+Get countries.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getme">getMe</a>
 <div><div>
 
@@ -98,10 +105,24 @@ Get information on the currently authorized user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getownedbots">getOwnedBots</a>
+<div><div>
+
+Get owned bots.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getpasswordhint">getPasswordHint</a>
 <div><div>
 
 Get the user account password's hint.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/gettimezones">getTimezones</a>
+<div><div>
+
+Get timezones.
 
 </div></div>
 <div class="descr-list-border"></div>

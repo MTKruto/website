@@ -132,6 +132,13 @@ A reference to a button that is to be clicked by a user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/callingcode">CallingCode</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/chat">Chat</a>
 <div><div>
 
@@ -367,6 +374,13 @@ A client's connection state.
 <div><div>
 
 A shared contact.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/country">Country</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1004,6 +1018,13 @@ Configuration for switching to inline mode in specific chat types.
 <div><div>
 
 A file or sticker thumbnail.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/timezone">Timezone</a>
+<div><div>
+
+A timezone.
 
 </div></div>
 <div class="descr-list-border"></div>
