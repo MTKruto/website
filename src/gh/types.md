@@ -863,7 +863,7 @@ A story album.
 <a href="/gh/types/storyalbumicon">StoryAlbumIcon</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A story album's icon.
 
 </div></div>
 <div class="descr-list-border"></div>
