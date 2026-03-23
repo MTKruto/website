@@ -23,7 +23,7 @@ An animation file (GIF or H.264/MPEG-4 AVC video without sound).
 <a href="/gh/types/appsupport">AppSupport</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+Information about app support.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -44,7 +44,7 @@ A client's authorization state.
 <a href="/gh/types/availablereactions">AvailableReactions</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A chat's available reactions.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -135,7 +135,7 @@ A reference to a button that is to be clicked by a user.
 <a href="/gh/types/callingcode">CallingCode</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A country calling code.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -157,97 +157,6 @@ A sign of a possible action by a member of a conversation.
 <div><div>
 
 A type of a chat action.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/chatactiontypecancel">ChatActionTypeCancel</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/chatactiontypechoosinglocation">ChatActionTypeChoosingLocation</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/chatactiontypechoosingsticker">ChatActionTypeChoosingSticker</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/chatactiontypeplayinggame">ChatActionTypePlayingGame</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/chatactiontyperecordingvideo">ChatActionTypeRecordingVideo</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/chatactiontyperecordingvideonote">ChatActionTypeRecordingVideoNote</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/chatactiontyperecordingvoice">ChatActionTypeRecordingVoice</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/chatactiontypetyping">ChatActionTypeTyping</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/chatactiontypeuploadingaudio">ChatActionTypeUploadingAudio</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/chatactiontypeuploadingdocument">ChatActionTypeUploadingDocument</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/chatactiontypeuploadingphoto">ChatActionTypeUploadingPhoto</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/chatactiontypeuploadingtypevideonote">ChatActionTypeUploadingTypeVideoNote</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/chatactiontypeuploadingvideo">ChatActionTypeUploadingVideo</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -380,7 +289,7 @@ A shared contact.
 <a href="/gh/types/country">Country</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A country.
 
 </div></div>
 <div class="descr-list-border"></div>
