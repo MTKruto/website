@@ -23,7 +23,7 @@ An animation file (GIF or H.264/MPEG-4 AVC video without sound).
 <a href="/types/appsupport">AppSupport</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+Information about app support.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -44,7 +44,7 @@ A client's authorization state.
 <a href="/types/availablereactions">AvailableReactions</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A chat's available reactions.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -135,7 +135,7 @@ A reference to a button that is to be clicked by a user.
 <a href="/types/callingcode">CallingCode</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A country calling code.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -157,97 +157,6 @@ A sign of a possible action by a member of a conversation.
 <div><div>
 
 A type of a chat action.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/chatactiontypecancel">ChatActionTypeCancel</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/chatactiontypechoosinglocation">ChatActionTypeChoosingLocation</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/chatactiontypechoosingsticker">ChatActionTypeChoosingSticker</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/chatactiontypeplayinggame">ChatActionTypePlayingGame</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/chatactiontyperecordingvideo">ChatActionTypeRecordingVideo</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/chatactiontyperecordingvideonote">ChatActionTypeRecordingVideoNote</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/chatactiontyperecordingvoice">ChatActionTypeRecordingVoice</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/chatactiontypetyping">ChatActionTypeTyping</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/chatactiontypeuploadingaudio">ChatActionTypeUploadingAudio</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/chatactiontypeuploadingdocument">ChatActionTypeUploadingDocument</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/chatactiontypeuploadingphoto">ChatActionTypeUploadingPhoto</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/chatactiontypeuploadingtypevideonote">ChatActionTypeUploadingTypeVideoNote</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/chatactiontypeuploadingvideo">ChatActionTypeUploadingVideo</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -380,7 +289,7 @@ A shared contact.
 <a href="/types/country">Country</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A country.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -605,6 +514,13 @@ A button of a custom keyboard.
 <div><div>
 
 A keyboard button representing the type of the poll that is requested to be created.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/leftchannellist">LeftChannelList</a>
+<div><div>
+
+A list of left channels.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -954,7 +870,7 @@ A story album.
 <a href="/types/storyalbumicon">StoryAlbumIcon</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A story album's icon.
 
 </div></div>
 <div class="descr-list-border"></div>

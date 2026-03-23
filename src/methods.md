@@ -1842,6 +1842,33 @@ Set the name of a story album.
 
 </div>
 
+## Takeouts
+<div class="descr-list">
+
+<a href="/methods/endtakeoutsession">endTakeoutSession</a>
+<div><div>
+
+End a takeout session.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getleftchannels">getLeftChannels</a>
+<div><div>
+
+Get left channels.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/starttakeoutsession">startTakeoutSession</a>
+<div><div>
+
+Start a takeout session.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
 ## Translations
 <div class="descr-list">
 
