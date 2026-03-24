@@ -332,68 +332,6 @@ Update the profile of the current user. At least one parameter must be specified
 
 </div>
 
-## Bots
-<div class="descr-list">
-
-<a href="/gh/methods/getmycommands">getMyCommands</a>
-<div><div>
-
-Get the bot's commands in the given scope and/or language.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getmydescription">getMyDescription</a>
-<div><div>
-
-Get the bot's description in the given language.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getmyname">getMyName</a>
-<div><div>
-
-Get the bot's name in the given language.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getmyshortdescription">getMyShortDescription</a>
-<div><div>
-
-Get the bot's short description in the given language.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/setmycommands">setMyCommands</a>
-<div><div>
-
-Set the bot's commands in the given scope and/or language.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/setmydescription">setMyDescription</a>
-<div><div>
-
-Set the bot's description in the given language.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/setmyname">setMyName</a>
-<div><div>
-
-Set the bot's name in the given language.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/setmyshortdescription">setMyShortDescription</a>
-<div><div>
-
-Set the bot's short description in the given language.
-
-</div></div>
-<div class="descr-list-border"></div>
-
-</div>
-
 ## Callback Queries
 <div class="descr-list">
 
