@@ -6,10 +6,24 @@ metas:
 ---
 <div class="descr-list">
 
+<a href="/types/albumstorylist">AlbumStoryList</a>
+<div><div>
+
+A list of stories in a specific album.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/animation">Animation</a>
 <div><div>
 
 An animation file (GIF or H.264/MPEG-4 AVC video without sound).
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/appsupport">AppSupport</a>
+<div><div>
+
+Information about app support.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -27,10 +41,31 @@ A client's authorization state.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/availablereactions">AvailableReactions</a>
+<div><div>
+
+A chat's available reactions.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/birthday">Birthday</a>
 <div><div>
 
 A user's birthday.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/blockeduser">BlockedUser</a>
+<div><div>
+
+A blocked user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/blockeduserlist">BlockedUserList</a>
+<div><div>
+
+A list of blocked users.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -97,6 +132,13 @@ A reference to a button that is to be clicked by a user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/callingcode">CallingCode</a>
+<div><div>
+
+A country calling code.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/chat">Chat</a>
 <div><div>
 
@@ -108,6 +150,13 @@ A chat with more fields.
 <div><div>
 
 A sign of a possible action by a member of a conversation.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/chatactiontype">ChatActionType</a>
+<div><div>
+
+A type of a chat action.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -237,6 +286,13 @@ A shared contact.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/country">Country</a>
+<div><div>
+
+A country.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/dice">Dice</a>
 <div><div>
 
@@ -286,6 +342,13 @@ A gift.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/giftcollection">GiftCollection</a>
+<div><div>
+
+A gift collection.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/giftcomponentrarity">GiftComponentRarity</a>
 <div><div>
 
@@ -331,7 +394,7 @@ Giveaway parameters.
 <a href="/types/id">ID</a>
 <div><div>
 
-The identifier of a channel, a group, or a user (as provided by MTKruto), a username, or a chat link (e.g., https://mtkruto.t.me, https://telegram.me/mtkruto). `"me"` resolves to the current account.
+The identifier of a channel, a group, or a user (as provided by MTKruto), a username, a phone number (for users), or a chat link (e.g., https://mtkruto.t.me, https://telegram.me/mtkruto). `"me"` resolves to the current account.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -454,6 +517,13 @@ A keyboard button representing the type of the poll that is requested to be crea
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/leftchannellist">LeftChannelList</a>
+<div><div>
+
+A list of left channels.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/linkpreview">LinkPreview</a>
 <div><div>
 
@@ -507,6 +577,13 @@ Any type of message.
 <div><div>
 
 The content of a message in an inline query result.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/messagedraft">MessageDraft</a>
+<div><div>
+
+A message draft.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -783,6 +860,20 @@ A story.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/storyalbum">StoryAlbum</a>
+<div><div>
+
+A story album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/storyalbumicon">StoryAlbumIcon</a>
+<div><div>
+
+A story album's icon.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/storycontent">StoryContent</a>
 <div><div>
 
@@ -843,6 +934,13 @@ Configuration for switching to inline mode in specific chat types.
 <div><div>
 
 A file or sticker thumbnail.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/timezone">Timezone</a>
+<div><div>
+
+A timezone.
 
 </div></div>
 <div class="descr-list-border"></div>

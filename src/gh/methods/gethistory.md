@@ -29,6 +29,10 @@ Additional offset.
 
 The maximum number of results to return. Must be in the range of 1-100. Defaults to 100.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_takeoutId" data-anchor="true"><span class="font-bold">takeoutId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of a takeout session.
+
 </div></div></div></div></div>
 
 ### Result 
@@ -48,6 +52,7 @@ await client.getHistory(chatId, {
     offsetDate,
     addOffset,
     limit,
+    takeoutId,
 });
 ```
 

@@ -7,6 +7,20 @@ metas:
 ## Account
 <div class="descr-list">
 
+<a href="/gh/methods/addbottoattachmentsmenu">addBotToAttachmentsMenu</a>
+<div><div>
+
+Add a bot to the attachments menu.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/blockuser">blockUser</a>
+<div><div>
+
+Block a user.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/checkbottoken">checkBotToken</a>
 <div><div>
 
@@ -49,10 +63,38 @@ Enable sponsored messages on the current user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getappsupport">getAppSupport</a>
+<div><div>
+
+Get app support.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getappsupportname">getAppSupportName</a>
+<div><div>
+
+Get app support name.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getblockedusers">getBlockedUsers</a>
+<div><div>
+
+Get blocked users.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getbusinessconnection">getBusinessConnection</a>
 <div><div>
 
 Get a business connection.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getcountries">getCountries</a>
+<div><div>
+
+Get countries.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -63,10 +105,24 @@ Get information on the currently authorized user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getownedbots">getOwnedBots</a>
+<div><div>
+
+Get owned bots.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getpasswordhint">getPasswordHint</a>
 <div><div>
 
 Get the user account password's hint.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/gettimezones">getTimezones</a>
+<div><div>
+
+Get timezones.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -88,6 +144,13 @@ Hide all usernames from a supergroup or a channel's profile.
 <div><div>
 
 Pause the business bot in a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/removebotfromattachmentsmenu">removeBotFromAttachmentsMenu</a>
+<div><div>
+
+Remove a bot from the attachments menu.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -126,6 +189,20 @@ Reorder the usernames of the current account, a bot account, a supergroup, or a 
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/resolvephonenumber">resolvePhoneNumber</a>
+<div><div>
+
+Resolve a phone number.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/resolveusername">resolveUsername</a>
+<div><div>
+
+Resolve a username.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/resumebusinessbotconnection">resumeBusinessBotConnection</a>
 <div><div>
 
@@ -151,6 +228,13 @@ Set the birthday of the current user.
 <div><div>
 
 Set the emoji status of a channel.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setclosefriends">setCloseFriends</a>
+<div><div>
+
+Set the list of close friends.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -224,72 +308,24 @@ Show a username in the current account, a bot account, a supergroup, or a channe
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/suggestbirthday">suggestBirthday</a>
+<div><div>
+
+Suggest a birthday.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/unblockuser">unblockUser</a>
+<div><div>
+
+Unblock a user.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/updateprofile">updateProfile</a>
 <div><div>
 
 Update the profile of the current user. At least one parameter must be specified.
-
-</div></div>
-<div class="descr-list-border"></div>
-
-</div>
-
-## Bots
-<div class="descr-list">
-
-<a href="/gh/methods/getmycommands">getMyCommands</a>
-<div><div>
-
-Get the bot's commands in the given scope and/or language.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getmydescription">getMyDescription</a>
-<div><div>
-
-Get the bot's description in the given language.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getmyname">getMyName</a>
-<div><div>
-
-Get the bot's name in the given language.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getmyshortdescription">getMyShortDescription</a>
-<div><div>
-
-Get the bot's short description in the given language.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/setmycommands">setMyCommands</a>
-<div><div>
-
-Set the bot's commands in the given scope and/or language.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/setmydescription">setMyDescription</a>
-<div><div>
-
-Set the bot's description in the given language.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/setmyname">setMyName</a>
-<div><div>
-
-Set the bot's name in the given language.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/setmyshortdescription">setMyShortDescription</a>
-<div><div>
-
-Set the bot's short description in the given language.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -466,6 +502,13 @@ Disable business bots in a private chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/disablechathistoryfornewmembers">disableChatHistoryForNewMembers</a>
+<div><div>
+
+Disable chat history for new members.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/disablejoinrequests">disableJoinRequests</a>
 <div><div>
 
@@ -519,6 +562,13 @@ Enable automatic anti-spam in a group.
 <div><div>
 
 Enable business bots in a private chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/enablechathistoryfornewmembers">enableChatHistoryForNewMembers</a>
+<div><div>
+
+Enable chat history for new members.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -631,6 +681,13 @@ Get inactive chats.
 <div><div>
 
 Get pending join requests in a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getonlinecount">getOnlineCount</a>
+<div><div>
+
+Get the count of online members in a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -778,6 +835,13 @@ Set a chat's sticker set.
 <div><div>
 
 Change the title of a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setdefaultsendas">setDefaultSendAs</a>
+<div><div>
+
+Set the default send as chat of a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -930,6 +994,13 @@ Delete multiple contacts.
 <div><div>
 
 Get contacts.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setcontactnote">setContactNote</a>
+<div><div>
+
+Set a contact note.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1479,6 +1550,13 @@ Make a reaction to a message.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/clearrecentreactions">clearRecentReactions</a>
+<div><div>
+
+Clear recent reactions.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/removereaction">removeReaction</a>
 <div><div>
 
@@ -1643,10 +1721,94 @@ Start a video chat.
 ## Unlisted
 <div class="descr-list">
 
-<a href="/gh/methods/blockuser">blockUser</a>
+<a href="/gh/methods/addgiftstocollection">addGiftsToCollection</a>
 <div><div>
 
-Block a user.
+Add gifts to a gift collection.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/addstoriestoalbum">addStoriesToAlbum</a>
+<div><div>
+
+Add multiple stories to an album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/addstorytoalbum">addStoryToAlbum</a>
+<div><div>
+
+Add a single story to an album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/creategiftcollection">createGiftCollection</a>
+<div><div>
+
+Create a gift collection.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/createstoryalbum">createStoryAlbum</a>
+<div><div>
+
+Create a story album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/deletegiftcollection">deleteGiftCollection</a>
+<div><div>
+
+Delete a gift collection.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/endtakeoutsession">endTakeoutSession</a>
+<div><div>
+
+End a takeout session.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getgiftcollections">getGiftCollections</a>
+<div><div>
+
+Get gift collections of a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getleftchannels">getLeftChannels</a>
+<div><div>
+
+Get left channels.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getmycommands">getMyCommands</a>
+<div><div>
+
+Get the bot's commands in the given scope and/or language.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getmydescription">getMyDescription</a>
+<div><div>
+
+Get the bot's description in the given language.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getmyname">getMyName</a>
+<div><div>
+
+Get the bot's name in the given language.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getmyshortdescription">getMyShortDescription</a>
+<div><div>
+
+Get the bot's short description in the given language.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1657,10 +1819,101 @@ Get network statistics. This might not always be available.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/methods/unblockuser">unblockUser</a>
+<a href="/gh/methods/getstoriesinalbum">getStoriesInAlbum</a>
 <div><div>
 
-Unblock a user.
+Get stories inside an album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getstoryalbums">getStoryAlbums</a>
+<div><div>
+
+Get story albums in a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/removegiftsfromcollection">removeGiftsFromCollection</a>
+<div><div>
+
+Remove gifts from a gift collection.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/removestoriesfromalbum">removeStoriesFromAlbum</a>
+<div><div>
+
+Remove multiple stories from an album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/removestoryfromalbum">removeStoryFromAlbum</a>
+<div><div>
+
+Remove a single story from an album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/reordergiftsincollection">reorderGiftsInCollection</a>
+<div><div>
+
+Reorder gifts in a gift collection.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/reorderstoriesinalbum">reorderStoriesInAlbum</a>
+<div><div>
+
+Reorder stories in an album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setgiftcollectionname">setGiftCollectionName</a>
+<div><div>
+
+Set the name of a gift collection.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setmycommands">setMyCommands</a>
+<div><div>
+
+Set the bot's commands in the given scope and/or language.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setmydescription">setMyDescription</a>
+<div><div>
+
+Set the bot's description in the given language.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setmyname">setMyName</a>
+<div><div>
+
+Set the bot's name in the given language.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setmyshortdescription">setMyShortDescription</a>
+<div><div>
+
+Set the bot's short description in the given language.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setstoryalbumname">setStoryAlbumName</a>
+<div><div>
+
+Set the name of a story album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/starttakeoutsession">startTakeoutSession</a>
+<div><div>
+
+Start a takeout session.
 
 </div></div>
 <div class="descr-list-border"></div>

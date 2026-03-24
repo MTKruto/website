@@ -13,7 +13,7 @@ Set a chat's available reactions.<span class="select-none"> <span class="inline-
 
 The identifier of a chat.
 
-</div></div></div><div><div class="font-mono" id="p_availableReactions" data-anchor="true"><span class="font-bold">availableReactions</span><span class="opacity-50">:</span> <span>&quot;none&quot;</span> <span class="opacity-50">|</span> <span>&quot;all&quot;</span> <span class="opacity-50">|</span> <a href="/gh/types/reaction">Reaction</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="font-mono" id="p_availableReactions" data-anchor="true"><span class="font-bold">availableReactions</span><span class="opacity-50">:</span> <a href="/gh/types/availablereactions">AvailableReactions</a></div><div class="pl-3"><div class="no-margin">
 
 The new available reactions.
 
