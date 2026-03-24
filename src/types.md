@@ -923,6 +923,13 @@ A successful payment.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/summarizedtext">SummarizedText</a>
+<div><div>
+
+A summarized text.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/switchinlinequerychosenchats">SwitchInlineQueryChosenChats</a>
 <div><div>
 

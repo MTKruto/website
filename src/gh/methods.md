@@ -329,6 +329,20 @@ Update the profile of the current user. At least one parameter must be specified
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/updateprofilephoto">updateProfilePhoto</a>
+<div><div>
+
+Update the profile photo of the current user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/updateprofilevideo">updateProfileVideo</a>
+<div><div>
+
+Update the profile video of the current user.
+
+</div></div>
+<div class="descr-list-border"></div>
 
 </div>
 
