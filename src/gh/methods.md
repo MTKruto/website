@@ -1243,6 +1243,13 @@ Send an inline query.
 ## Messages
 <div class="descr-list">
 
+<a href="/gh/methods/cleardrafts">clearDrafts</a>
+<div><div>
+
+Clear all message drafts.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/deletechatmembermessages">deleteChatMemberMessages</a>
 <div><div>
 
@@ -1593,6 +1600,13 @@ Send a voice message.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/setdefaultreaction">setDefaultReaction</a>
+<div><div>
+
+Set a reaction as default.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/startbot">startBot</a>
 <div><div>
 
@@ -1604,6 +1618,13 @@ Start a bot.
 <div><div>
 
 Stop a poll.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/summarizetext">summarizeText</a>
+<div><div>
+
+Summarize a message's text.
 
 </div></div>
 <div class="descr-list-border"></div>
