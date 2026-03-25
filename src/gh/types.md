@@ -839,6 +839,13 @@ A slow mode duration option.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/staramount">StarAmount</a>
+<div><div>
+
+A star amount.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/sticker">Sticker</a>
 <div><div>
 

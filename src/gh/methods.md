@@ -1654,6 +1654,20 @@ Answer a pre-checkout query.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getstarbalance">getStarBalance</a>
+<div><div>
+
+Get the star balance of a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/gettonbalance">getTonBalance</a>
+<div><div>
+
+Get the TON balance of a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/refundstarpayment">refundStarPayment</a>
 <div><div>
 
