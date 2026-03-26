@@ -839,6 +839,34 @@ A slow mode duration option.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/staramount">StarAmount</a>
+<div><div>
+
+A star amount.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/startransaction">StarTransaction</a>
+<div><div>
+
+A star transaction.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/startransactionlist">StarTransactionList</a>
+<div><div>
+
+A list of star transactions.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/startransactionpeer">StarTransactionPeer</a>
+<div><div>
+
+Any type of star transaction peer.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/sticker">Sticker</a>
 <div><div>
 
