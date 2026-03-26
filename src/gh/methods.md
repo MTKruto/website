@@ -1682,6 +1682,13 @@ Get the star balance of a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getstartransactions">getStarTransactions</a>
+<div><div>
+
+Get star transactions.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/gettonbalance">getTonBalance</a>
 <div><div>
 

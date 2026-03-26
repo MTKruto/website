@@ -846,6 +846,27 @@ A star amount.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/startransaction">StarTransaction</a>
+<div><div>
+
+A star transaction.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/startransactionlist">StarTransactionList</a>
+<div><div>
+
+A list of star transactions.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/startransactionpeer">StarTransactionPeer</a>
+<div><div>
+
+Any type of star transaction peer.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/sticker">Sticker</a>
 <div><div>
 
