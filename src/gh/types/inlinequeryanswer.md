@@ -13,7 +13,7 @@ An answer to an inline query.
 
 The ID of the inline query that yielded these results.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_results" data-anchor="true"><span class="font-bold">results</span><span class="opacity-50">:</span> <span href="/">InlineQueryResult</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_results" data-anchor="true"><span class="font-bold">results</span><span class="opacity-50">:</span> <a href="/gh/types/inlinequeryresult">InlineQueryResult</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
 The inline query results.
 

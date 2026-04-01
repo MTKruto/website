@@ -38,7 +38,7 @@ The chat where the message was sent to.
 
 A link to the message.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_forwardFrom" data-anchor="true"><span class="font-bold">forwardFrom</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">ForwardHeader</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_forwardFrom" data-anchor="true"><span class="font-bold">forwardFrom</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/forwardheader">ForwardHeader</a></div></div><div class="pl-3"><div class="no-margin">
 
 Information on the original message.
 
@@ -62,11 +62,11 @@ The identifier of the message that is being replied to.
 
 The reactions of the message.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_replyQuote" data-anchor="true"><span class="font-bold">replyQuote</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">ReplyQuote</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_replyQuote" data-anchor="true"><span class="font-bold">replyQuote</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/replyquote">ReplyQuote</a></div></div><div class="pl-3"><div class="no-margin">
 
 The part of the message that is being replied to.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_viaBot" data-anchor="true"><span class="font-bold">viaBot</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">User</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_viaBot" data-anchor="true"><span class="font-bold">viaBot</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/user">User</a></div></div><div class="pl-3"><div class="no-margin">
 
 The inline bot that was used to send this message.
 
@@ -98,7 +98,7 @@ The number of times the message was viewed.
 
 The number of times the message was forwarded.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_replyMarkup" data-anchor="true"><span class="font-bold">replyMarkup</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">ReplyMarkup</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_replyMarkup" data-anchor="true"><span class="font-bold">replyMarkup</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/replymarkup">ReplyMarkup</a></div></div><div class="pl-3"><div class="no-margin">
 
 The message's reply markup.
 
@@ -110,7 +110,7 @@ The identifier of a business conection that the message was sent in.
 
 The number of the boosts made by the sender of the message.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_viaBusinessBot" data-anchor="true"><span class="font-bold">viaBusinessBot</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">User</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_viaBusinessBot" data-anchor="true"><span class="font-bold">viaBusinessBot</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/user">User</a></div></div><div class="pl-3"><div class="no-margin">
 
 The identifier of the business connection in which the message was sent.
 
@@ -126,7 +126,7 @@ Whether the message is scheduled.
 
 The message's self-destruct preference.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_groupCreated" data-anchor="true"><span class="font-bold">groupCreated</span><span class="opacity-50">:</span> true</div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_newChatMembers" data-anchor="true"><span class="font-bold">newChatMembers</span><span class="opacity-50">:</span> <span href="/">User</span><span class="opacity-50">[]</span></div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_groupCreated" data-anchor="true"><span class="font-bold">groupCreated</span><span class="opacity-50">:</span> true</div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_newChatMembers" data-anchor="true"><span class="font-bold">newChatMembers</span><span class="opacity-50">:</span> <a href="/gh/types/user">User</a><span class="opacity-50">[]</span></div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div><div class="pl-3"><div class="no-margin">
 
 The initial members of the group.
 
