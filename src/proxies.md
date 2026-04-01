@@ -1,6 +1,6 @@
 ---
+parent: /#guides
 title: Proxies
-parent: /#proxies
 ---
 
 ## MTProxy
