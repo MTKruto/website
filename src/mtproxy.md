@@ -3,8 +3,7 @@ title: MTProxy
 parent: /#guides
 ---
 
-Both TLS and non-TLS versions of [MTProxy](https://core.telegram.org/proxy) are supported by MTKruto.
-To connect a client to an MTProxy server, use [`transportProviderMtproxy`](https://jsr.io/@mtkruto/mtkruto/doc/~/transportProviderMtproxy) when initializing it:
+Both TLS and non-TLS versions of [MTProxy](https://core.telegram.org/proxy) are supported by MTKruto. To connect a client to an MTProxy server, use [`transportProviderMtproxy`](https://jsr.io/@mtkruto/mtkruto/doc/~/transportProviderMtproxy) when initializing it:
 
 <code-group>
 
@@ -16,8 +15,8 @@ import { Client, transportProviderMtproxy } from "{{ deno }}";
 const proxyLink = "https://t.me/proxy?server=hostname&port=443&secret=00000000000000000000000000000000";
 
 const client = new Client({
-    transportProvider: transportProviderMtproxy(proxyLink),
-    /* ... */
+  transportProvider: transportProviderMtproxy(proxyLink),
+  /* ... */
 });
 ```
 
@@ -31,8 +30,8 @@ import { Client, transportProviderMtproxy } from "@mtkruto/node";
 const proxyLink = "https://t.me/proxy?server=hostname&port=443&secret=00000000000000000000000000000000";
 
 const client = new Client({
-    transportProvider: transportProviderMtproxy(proxyLink),
-    /* ... */
+  transportProvider: transportProviderMtproxy(proxyLink),
+  /* ... */
 });
 ```
 
