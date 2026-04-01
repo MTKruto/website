@@ -43,6 +43,7 @@ Its key features include:
 - [Splitting Code](/splitting-code) {{ "/splitting-code" |> i }}
 - [Storage Adapters](/storage-adapters) {{ "/storage-adapters" |> i }}
 - [Web Workers](/web-workers)
+- [MTProxy](/mtproxy)
 
 ### API Reference
 
