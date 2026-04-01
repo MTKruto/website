@@ -377,6 +377,13 @@ A gift's value.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/giveaway">Giveaway</a>
+<div><div>
+
+A giveaway.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/giveawayparameters">GiveawayParameters</a>
 <div><div>
 
@@ -388,6 +395,13 @@ Giveaway parameters.
 <div><div>
 
 The identifier of a channel, a group, or a user (as provided by MTKruto), a username, a phone number (for users), or a chat link (e.g., https://mtkruto.t.me, https://telegram.me/mtkruto). `"me"` resolves to the current account.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/inactivechat">InactiveChat</a>
+<div><div>
+
+An inactive chat.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -951,6 +965,13 @@ Configuration for switching to inline mode in specific chat types.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/thumbnail">Thumbnail</a>
+<div><div>
+
+A file or sticker thumbnail.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/timezone">Timezone</a>
 <div><div>
 
@@ -1004,6 +1025,13 @@ Any type of a user's status.
 <div><div>
 
 A shared venue.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/video">Video</a>
+<div><div>
+
+A video file.
 
 </div></div>
 <div class="descr-list-border"></div>

@@ -37,7 +37,7 @@ True, if the sticker is [animated](https://telegram.org/blog/animated-stickers)
 
 True, if the sticker is a [video sticker](https://telegram.org/blog/video-stickers-better-reactions)
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_thumbnails" data-anchor="true"><span class="font-bold">thumbnails</span><span class="opacity-50">:</span> <span href="/">Thumbnail</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_thumbnails" data-anchor="true"><span class="font-bold">thumbnails</span><span class="opacity-50">:</span> <a href="/gh/types/thumbnail">Thumbnail</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
 Sticker thumbnail in the .WEBP or .JPG format
 
