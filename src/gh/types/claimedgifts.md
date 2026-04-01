@@ -17,7 +17,7 @@ The number of all gifts claimed by the user.
 
 Offset of the results.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_gifts" data-anchor="true"><span class="font-bold">gifts</span><span class="opacity-50">:</span> <a href="/gh/types/claimedgift">ClaimedGift</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_gifts" data-anchor="true"><span class="font-bold">gifts</span><span class="opacity-50">:</span> <span href="/">ClaimedGift</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
 Gifts claimed by the user.
 

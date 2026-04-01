@@ -13,7 +13,7 @@ A received callback query.
 
 The identifier of the callback query.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_from" data-anchor="true"><span class="font-bold">from</span><span class="opacity-50">:</span> <a href="/gh/types/user">User</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_from" data-anchor="true"><span class="font-bold">from</span><span class="opacity-50">:</span> <span href="/">User</span></div></div><div class="pl-3"><div class="no-margin">
 
 The user who made the callback query.
 

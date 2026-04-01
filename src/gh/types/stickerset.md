@@ -25,7 +25,7 @@ The set's title.
 
 The type of the set.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_stickers" data-anchor="true"><span class="font-bold">stickers</span><span class="opacity-50">:</span> <a href="/gh/types/sticker">Sticker</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_stickers" data-anchor="true"><span class="font-bold">stickers</span><span class="opacity-50">:</span> <span href="/">Sticker</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
 The stickers (or emojis) in the set.
 

@@ -21,7 +21,7 @@ The poll's question.
 
 The entities of the poll's question.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_options" data-anchor="true"><span class="font-bold">options</span><span class="opacity-50">:</span> <a href="/gh/types/polloption">PollOption</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_options" data-anchor="true"><span class="font-bold">options</span><span class="opacity-50">:</span> <span href="/">PollOption</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
 The poll's options.
 
