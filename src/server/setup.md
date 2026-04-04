@@ -43,7 +43,7 @@ Other CLI arguments are listed below.
 | -------------- | -------- | ----------------------------------------- | ------- |
 | `--api-id`     | Yes      | Telegram app API ID                       | N/A     |
 | `--api-hash`   | Yes      | Telegram app API hash                     | N/A     |
-| `--port`       | No       | TCP port to accept connections from        | 8000    |
+| `--port`       | No       | TCP port to accept connections from       | 8000    |
 | `--workers`    | No       | Number of workers to use                  | 1       |
 | `--stats-port` | No       | The port to make the stats available from | 3000    |
 | `--add-user`   | No       | Add a user account                        | N/A     |
