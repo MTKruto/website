@@ -1,4 +1,10 @@
-import { JsDocTagDoc, JsDocTagUnsupported } from "deno_doc/types.d.ts";
+import {
+  DocNodeInterface,
+  JsDocTagDoc,
+  JsDocTagUnsupported,
+  TsTypeDef,
+  TsTypeDefLiteral,
+} from "deno_doc/types.d.ts";
 import { getDocs } from "./_docs.ts";
 import { getMethodOptionalParams, Method } from "./_components/Method.tsx";
 import { TsType, TypeParams_ } from "./_components/TsType.tsx";
@@ -15,6 +21,85 @@ const {
   methodTypes,
   types,
 } = await getDocs(Deno.env.get("VERSION"));
+
+function getLiteralStringKeys(typeDef?: TsTypeDef): string[] {
+  if (!typeDef) {
+    return [];
+  }
+  if (typeDef.kind == "literal") {
+    return typeDef.literal.kind == "string" ? [typeDef.literal.string] : [];
+  }
+  if (typeDef.kind == "union") {
+    return typeDef.union
+      .filter((v): v is TsTypeDefLiteral => v.kind == "literal")
+      .map((v) => v.literal.kind == "string" ? v.literal.string : "")
+      .filter((v) => v.length > 0);
+  }
+  return [];
+}
+
+function resolveInterfaceProperties(
+  target: DocNodeInterface,
+  allInterfaces: DocNodeInterface[],
+  cache = new Map<string, DocNodeInterface["interfaceDef"]["properties"]>(),
+  visiting = new Set<string>(),
+): DocNodeInterface["interfaceDef"]["properties"] {
+  const cached = cache.get(target.name);
+  if (cached) {
+    return cached;
+  }
+  if (visiting.has(target.name)) {
+    return target.interfaceDef.properties;
+  }
+  visiting.add(target.name);
+
+  const extended: DocNodeInterface["interfaceDef"]["properties"] = [];
+  for (const tsType of target.interfaceDef.extends ?? []) {
+    if (tsType.kind != "typeRef") {
+      continue;
+    }
+
+    if (tsType.repr == "Omit") {
+      const [ref, omitted] = tsType.typeRef.typeParams ?? [];
+      if (ref?.kind != "typeRef") {
+        continue;
+      }
+      const parent = allInterfaces.find((v) => v.name == ref.repr);
+      if (!parent) {
+        continue;
+      }
+      const omitKeys = new Set(getLiteralStringKeys(omitted));
+      for (const property of resolveInterfaceProperties(
+        parent,
+        allInterfaces,
+        cache,
+        visiting,
+      )) {
+        if (!omitKeys.has(property.name)) {
+          extended.push(property);
+        }
+      }
+      continue;
+    }
+
+    const parent = allInterfaces.find((v) => v.name == tsType.repr);
+    if (!parent) {
+      continue;
+    }
+    extended.push(
+      ...resolveInterfaceProperties(parent, allInterfaces, cache, visiting),
+    );
+  }
+
+  const own = target.interfaceDef.properties;
+  const merged = extended
+    .map((v) => own.find((v_) => v_.name == v.name) ?? v)
+    .concat(own.filter((v) => !extended.some((v_) => v_.name == v.name)));
+
+  visiting.delete(target.name);
+  cache.set(target.name, merged);
+  return merged;
+}
 
 for (const dir of [`src${version}/methods`, `src${version}/types`]) {
   try {
@@ -309,6 +394,14 @@ ${optional}`.trim()
 } // METHOD
 
 { // TYPE
+  const interfaceTypes = types.filter((v): v is DocNodeInterface =>
+    v.kind == "interface"
+  );
+  const interfacePropertiesCache = new Map<
+    string,
+    DocNodeInterface["interfaceDef"]["properties"]
+  >();
+
   for (const type of types) {
     if (type.name.startsWith("_")) continue;
     let type_md = `---
@@ -333,7 +426,11 @@ parent: /types
       type_md += "### Properties\n\n";
       type_md += renderToString(
         <Properties getLink={getLink}>
-          {type.interfaceDef.properties}
+          {resolveInterfaceProperties(
+            type,
+            interfaceTypes,
+            interfacePropertiesCache,
+          )}
         </Properties>,
       );
       type_md += "\n\n";
