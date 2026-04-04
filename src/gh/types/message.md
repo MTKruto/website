@@ -53,5 +53,7 @@ Any type of message.
 <span class="opacity-50">|</span> <a href="/gh/types/messagechecklistchanged">MessageChecklistChanged</a>
 <span class="opacity-50">|</span> <a href="/gh/types/messagechecklistextended">MessageChecklistExtended</a>
 <span class="opacity-50">|</span> <a href="/gh/types/messagegiftnonupgraded">MessageGiftNonUpgraded</a>
-<span class="opacity-50">|</span> <a href="/gh/types/messagegiftupgraded">MessageGiftUpgraded</a></div>
+<span class="opacity-50">|</span> <a href="/gh/types/messagegiftupgraded">MessageGiftUpgraded</a>
+<span class="opacity-50">|</span> <a href="/gh/types/messagepolloptionadded">MessagePollOptionAdded</a>
+<span class="opacity-50">|</span> <a href="/gh/types/messagepolloptionremoved">MessagePollOptionRemoved</a></div>
 
