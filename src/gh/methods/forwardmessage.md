@@ -21,11 +21,11 @@ The identifier of a chat to forward the message to.
 
 The identifier of the message to forward.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_dropSenderName" data-anchor="true"><span class="font-bold">dropSenderName</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_isSenderNameDropped" data-anchor="true"><span class="font-bold">isSenderNameDropped</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether to not include the original sender of the message that is going to be forwarded.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_dropCaption" data-anchor="true"><span class="font-bold">dropCaption</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isCaptionDropped" data-anchor="true"><span class="font-bold">isCaptionDropped</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether to not include the original caption of the message that is going to be forwarded.
 
@@ -84,8 +84,8 @@ await client.forwardMessage(from, to, messageId);
 // Required parameters + optional parameters.
 // Any of the optional parameters can be omitted.
 await client.forwardMessage(from, to, messageId, {
-    dropSenderName,
-    dropCaption,
+    isSenderNameDropped,
+    isCaptionDropped,
     isSilent,
     isContentProtected,
     replyTo,
