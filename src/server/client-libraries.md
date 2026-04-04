@@ -5,7 +5,7 @@ prev: /server/receiving-updates
 next: /server/faq
 ---
 
-To make interaction with the server even more easier, you can use a client library.
+To make interaction with the server even easier, you can use a client library.
 
 ### JavaScript
 

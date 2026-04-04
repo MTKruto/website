@@ -94,7 +94,7 @@ parent: /#guides
 
 ## Type Declarations
 
-Type declaraions for Telegram API constructors are accessible from the `Api` namespace, which is exported from the root.
+Type declarations for Telegram API constructors are accessible from the `Api` namespace, which is exported from the root.
 
 - All types have the same casing as the API schema. So the types and functions are all-lower, and enums are first-upper.
 - When accessing type declarations, the periods in original identifiers must be replaced with an underscore. So, the declaration for [`updates.updates`](https://core.telegram.org/constructor/updates.update) is at `Api.updates_updates`, and so on.

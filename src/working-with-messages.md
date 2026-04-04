@@ -51,7 +51,7 @@ client.on("editedMessage:photo", (ctx) => {
 
 ### Accessing the Message in Handlers
 
-You can access the received message in through `ctx.msg` or `ctx.update.message`.
+You can access the received message through `ctx.msg` or `ctx.update.message`.
 
 ```ts
 client.on("message", (ctx) => {
@@ -101,7 +101,7 @@ There are multiple methods that can be used to send messages. Each of them is us
 - {{ "sendAudio" |> m }} --- For sending audio files.
 - {{ "sendVoice" |> m }} --- For sending voice messages.
 - {{ "sendVideoNote" |> m }} --- For sending video notes.
-- {{ "sendDice" |> m }} --- For sending dices.
+- {{ "sendDice" |> m }} --- For sending dice messages.
 - {{ "sendLocation" |> m }} --- For sending locations.
 - {{ "sendVenue" |> m }} --- For sending venues.
 - {{ "sendPoll" |> m }} --- For sending polls.

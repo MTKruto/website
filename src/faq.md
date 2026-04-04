@@ -35,7 +35,7 @@ It’s also worth mentioning that TDLib **hasn’t been used** in any of Telegra
 
 ## Can I use Deno Deploy?
 
-Telegram API clients are stateful. They required to maintain a TCP connection with Telegram, and need persistent memory. Just like any other client, this is also the fact for MTKruto.
+Telegram API clients are stateful. They are required to maintain a TCP connection with Telegram, and need persistent memory. Just like any other client, this is also the fact for MTKruto.
 
 Hence, for most use cases, it is not possible to run them on serverless platforms like Deno Deploy. Instead, you are required to use a VPS.
 

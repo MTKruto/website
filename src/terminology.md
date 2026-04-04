@@ -3,7 +3,7 @@ title: Terminology
 parent: /#guides
 ---
 
-When working with in projects that depend on Telegram, it is useful to know the difference between some commonly used terms to avoid confusion. Here we try to explain the most common ones.
+When working with projects that depend on Telegram, it is useful to know the difference between some commonly used terms to avoid confusion. Here we try to explain the most common ones.
 
 ## MTProto
 
@@ -25,7 +25,7 @@ Some of them even expose their own API on top of the Telegram API to simplify th
 
 ## Telegram Client
 
-Any piece of software that takes advantage of a [Telegram client library](#telegram-client-library) communicate with Telegram can be classified as a Telegram client.
+Any piece of software that takes advantage of a [Telegram client library](#telegram-client-library) to communicate with Telegram can be classified as a Telegram client.
 
 This can be a process running in a server, or even a mobile app on an end user's device.
 

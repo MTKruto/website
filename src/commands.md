@@ -19,7 +19,7 @@ For user clients on the other hand, the default command prefix is `\` (backslash
 
 ## Custom Prefixes
 
-Command prefixes can be configured when the the client is constructed:
+Command prefixes can be configured when the client is constructed:
 
 ```ts
 const client = new Client({

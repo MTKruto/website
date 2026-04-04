@@ -39,7 +39,7 @@ This storage adapter is supported only inside browsers and on Deno.
 
 ## localStorage
 
-This storage adapter persista data into [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage).
+This storage adapter persists data into [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage).
 
 To use it, import the `StorageLocalStorage` class, construct it with a valid prefix, and pass it to the client's constructor:
 

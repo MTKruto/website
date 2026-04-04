@@ -5,7 +5,7 @@ parent: /#guides
 
 Larger projects with clients that include a lot of handlers assigned might need to split the handler codes into different files.
 
-This can be done levaraging the `Composer` class.
+This can be done leveraging the `Composer` class.
 
 Consider that your project's structure is:
 

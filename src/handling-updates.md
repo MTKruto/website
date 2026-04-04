@@ -70,7 +70,7 @@ client.use(async (ctx, next) => {
   if (message !== undefined && isTooOld) {
     // message is older than 5 minutes, not interesting
     console.log(
-      "Ignoring messsage",
+      "Ignoring message",
       message.id,
       "in",
       message.chat.id,

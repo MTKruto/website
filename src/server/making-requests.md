@@ -127,7 +127,7 @@ Content-Type: application/json
 
 As you may have already inferred, the TL objects are described in JSON as follows:
 
-- All objects have a `_` key that must corresponds to the name of the TL object as written in TL schema files, unless otherwise noted below.
+- All objects have a `_` key that must correspond to the name of the TL object as written in TL schema files, unless otherwise noted below.
 - The remaining keys of the object have the same names as the parameter names as written in TL schema files.
 - Flags are the same name as written in TL schema files, too, and their values are expected to be booleans.
 - Strings and numbers (`int` in TL schema files) are kept as they are.
@@ -150,4 +150,4 @@ Raw bytes (`bytes` in TL schema files) are described with an object that has its
 }
 ```
 
-Results of the functions invokations are in the same format.
+Results of the functions invocations are in the same format.
