@@ -37,11 +37,11 @@ Whether the poll should be anonymous.
 
 The type of the poll.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_allowMultipleAnswers" data-anchor="true"><span class="font-bold">allowMultipleAnswers</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isMultipleAnswersAllowed" data-anchor="true"><span class="font-bold">isMultipleAnswersAllowed</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether multiple selections should be allowed. Only valid for regular polls.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_correctOptionIndex" data-anchor="true"><span class="font-bold">correctOptionIndex</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_correctOptionIndexes" data-anchor="true"><span class="font-bold">correctOptionIndexes</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
 Index of the correct option. Required for quiz polls.
 
@@ -57,6 +57,18 @@ The parse mode to use for the explanation. if omitted, the default parse mode wi
 
 The explanation's entities.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_description" data-anchor="true"><span class="font-bold">description</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+An optional description.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_descriptionParseMode" data-anchor="true"><span class="font-bold">descriptionParseMode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/parsemode">ParseMode</a></div></div><div class="pl-3"><div class="no-margin">
+
+The parse mode to use for the poll's description. If omitted, the default parse mode will be used.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_descriptionEntities" data-anchor="true"><span class="font-bold">descriptionEntities</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/messageentity">MessageEntity</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+
+The entities of the poll's description.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_openPeriod" data-anchor="true"><span class="font-bold">openPeriod</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 Duration of the poll in seconds. Must be in the range of 5-600. Cannot be used simultaneously with `closeDate`.
@@ -68,6 +80,22 @@ The time in which the poll will be closed. Must be at least 5 seconds in the fut
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isClosed" data-anchor="true"><span class="font-bold">isClosed</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the poll should be closed as soon as it is sent, allowing no answers.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isRevotingAllowed" data-anchor="true"><span class="font-bold">isRevotingAllowed</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether revoting is allowed.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isShuffled" data-anchor="true"><span class="font-bold">isShuffled</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the list of options should be shuffled.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isResultHidden" data-anchor="true"><span class="font-bold">isResultHidden</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the result of the poll should be hidden until voting is closed.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isAddingOptionsAllowed" data-anchor="true"><span class="font-bold">isAddingOptionsAllowed</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether it is allowed for options to be added. Not supported for anonymous polls and quizzes.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isSilent" data-anchor="true"><span class="font-bold">isSilent</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
@@ -132,14 +160,21 @@ await client.sendPoll(chatId, question, options, {
     questionParseMode,
     isAnonymous,
     type,
-    allowMultipleAnswers,
-    correctOptionIndex,
+    isMultipleAnswersAllowed,
+    correctOptionIndexes,
     explanation,
     explanationParseMode,
     explanationEntities,
+    description,
+    descriptionParseMode,
+    descriptionEntities,
     openPeriod,
     closeDate,
     isClosed,
+    isRevotingAllowed,
+    isShuffled,
+    isResultHidden,
+    isAddingOptionsAllowed,
     isSilent,
     isContentProtected,
     replyTo,

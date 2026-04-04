@@ -1196,6 +1196,13 @@ Get available gifts.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/giftpremiumsubscription">giftPremiumSubscription</a>
+<div><div>
+
+Gift a Telegram Premium subscription.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/sellgift">sellGift</a>
 <div><div>
 
