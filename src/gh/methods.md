@@ -868,7 +868,7 @@ Set a chat's available reactions.
 <a href="/gh/methods/setboostsrequiredtocircumventrestrictions">setBoostsRequiredToCircumventRestrictions</a>
 <div><div>
 
-Set the number of boosts required to circument a chat's default restrictions.
+Set the number of boosts required to circumvent a chat's default restrictions.
 
 </div></div>
 <div class="descr-list-border"></div>
