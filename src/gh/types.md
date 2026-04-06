@@ -86,7 +86,7 @@ A bot's list of commands.
 <a href="/gh/types/botcommandscope">BotCommandScope</a>
 <div><div>
 
-A type specifying where bot commads are available.
+A type specifying where bot commands are available.
 
 </div></div>
 <div class="descr-list-border"></div>
