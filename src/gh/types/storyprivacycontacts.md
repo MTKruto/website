@@ -1,5 +1,5 @@
 ---
-title: StoryPrivacyConctacts
+title: StoryPrivacyContacts
 parent: /types
 ---
 
