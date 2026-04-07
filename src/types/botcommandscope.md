@@ -2,10 +2,10 @@
 title: BotCommandScope
 parent: /types
 metas:
-  description: A type specifying where bot commads are available.
+  description: A type specifying where bot commands are available.
 ---
 
-A type specifying where bot commads are available.
+A type specifying where bot commands are available.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/types/botcommandscopedefault">BotCommandScopeDefault</a>
 <span class="opacity-50">|</span> <a href="/types/botcommandscopeallprivatechats">BotCommandScopeAllPrivateChats</a>

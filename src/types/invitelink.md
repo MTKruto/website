@@ -45,9 +45,5 @@ The number of pending join requests originating from this invite link.
 
 The amount of stars required to renew the subscription.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_subscriptionExpiresIn" data-anchor="true"><span class="font-bold">subscriptionExpiresIn</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-The remaining duration (in seconds) until the subscription expires.
-
 </div></div></div></div>
 
