@@ -14,11 +14,11 @@ interface Collection {
 
 function getCollection(prefix: string): Collection {
   const path = locate(prefix);
-  return JSON.parse(Deno.readTextFileSync(path.toString()))
+  return JSON.parse(Deno.readTextFileSync(path.toString()));
 }
 
 export function Icon(
-  { name, size, ...rest }: { name: string; size?: number;[key: string]: unknown },
+  { name, size, ...rest }: { name: string; size?: number; [key: string]: unknown },
 ) {
   const [prefix, icon] = name.split(":");
   if (!prefix || !icon) {
