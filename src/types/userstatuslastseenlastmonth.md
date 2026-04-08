@@ -2,10 +2,10 @@
 title: UserStatusLastSeenLastMonth
 parent: /types
 metas:
-  description: A user status indictating that the user was last seen online around a month ago.
+  description: A user status indicating that the user was last seen online around a month ago.
 ---
 
-A user status indictating that the user was last seen online around a month ago.
+A user status indicating that the user was last seen online around a month ago.
 
 ### Properties
 

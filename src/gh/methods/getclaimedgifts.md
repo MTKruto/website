@@ -29,7 +29,7 @@ Whether to exclude unupgradable gifts.
 
 Whether to exclude upgradable gifts.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isSortedByValue" data-anchor="true"><span class="font-bold">isSortedByValue</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isSortedByValue" data-anchor="true"><span class="font-bold">isSortedByValue</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether to sort gifts by value.
 

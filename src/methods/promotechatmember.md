@@ -19,7 +19,7 @@ The identifier of the user to promote.
 
 </div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_isAnonymous" data-anchor="true"><span class="font-bold">isAnonymous</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
-Whether the admininistrator's presence in the chat is hidden.
+Whether the administrator's presence in the chat is hidden.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canManageChat" data-anchor="true"><span class="font-bold">canManageChat</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
@@ -39,7 +39,7 @@ Whether the administrator can restrict, ban or unban chat members.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canPromoteMembers" data-anchor="true"><span class="font-bold">canPromoteMembers</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
-Whether the administrator can promote regular members to admininistrators.
+Whether the administrator can promote regular members to administrators.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canChangeInfo" data-anchor="true"><span class="font-bold">canChangeInfo</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
@@ -79,11 +79,11 @@ Whether the administrator can delete stories.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canManageDirectMessages" data-anchor="true"><span class="font-bold">canManageDirectMessages</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
-Whether the administrator manage direct messages.
+Whether the administrator can manage direct messages.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canManageTags" data-anchor="true"><span class="font-bold">canManageTags</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
-Whether the administrator manage member tags.
+Whether the administrator can manage member tags.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_title" data-anchor="true"><span class="font-bold">title</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 

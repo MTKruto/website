@@ -86,7 +86,7 @@ A bot's list of commands.
 <a href="/gh/types/botcommandscope">BotCommandScope</a>
 <div><div>
 
-A type specifying where bot commads are available.
+A type specifying where bot commands are available.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -745,6 +745,13 @@ A poll option.
 <div><div>
 
 A pre-checkout query.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/premiumsubscriptionduration">PremiumSubscriptionDuration</a>
+<div><div>
+
+The duration of a Telegram Premium subscription.
 
 </div></div>
 <div class="descr-list-border"></div>

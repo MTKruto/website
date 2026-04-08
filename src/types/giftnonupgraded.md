@@ -2,10 +2,10 @@
 title: GiftNonUpgraded
 parent: /types
 metas:
-  description: An non-upgraded gift.
+  description: A non-upgraded gift.
 ---
 
-An non-upgraded gift.
+A non-upgraded gift.
 
 
 ### Properties

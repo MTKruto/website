@@ -2,10 +2,10 @@
 title: UserStatusLastSeenRecently
 parent: /types
 metas:
-  description: A user status indictating that the user was last seen online recently.
+  description: A user status indicating that the user was last seen online recently.
 ---
 
-A user status indictating that the user was last seen online recently.
+A user status indicating that the user was last seen online recently.
 
 ### Properties
 

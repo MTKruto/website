@@ -63,9 +63,9 @@ function Features() {
           />
           {/*  */}
         </>
-      )
-    }
-  ]
+      ),
+    },
+  ];
 
   return (
     <section class="flex flex-col justify-center items-center max-w-7xl mx-auto w-full">
@@ -74,15 +74,13 @@ function Features() {
       </h2>
 
       <div class="flex flex-col max-w-4xl">
-        {f.map(el => (
-          <FeaturesMajorCarrd {...el} />
-        ))}
+        {f.map((el) => <FeaturesMajorCarrd {...el} />)}
       </div>
     </section>
   );
 }
 
-function FeaturesMajorCarrd(props: { eyebrow: string, title: string, description: string, image: Element }) {
+function FeaturesMajorCarrd(props: { eyebrow: string; title: string; description: string; image: Element }) {
   return (
     <article class="text-center mt-40">
       <small class="font-dm-sans uppercase text-2xl font-semibold">{props.eyebrow}</small>
@@ -132,8 +130,8 @@ export default () => {
           <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" />
           <style
             {
-            // deno-lint-ignore no-explicit-any
-            ...{ type: "text/tailwindcss" } as any
+              // deno-lint-ignore no-explicit-any
+              ...{ type: "text/tailwindcss" } as any
             }
             dangerouslySetInnerHTML={{
               __html: `@theme {

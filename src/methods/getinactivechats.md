@@ -9,7 +9,11 @@ Get inactive chats.<span class="select-none"> <span class="inline-flex w-fit ite
 
 ### Result 
 
-<div class="font-mono"><a href="/types/inactivechat">InactiveChat</a><span class="opacity-50">[]</span></div>
+<div class="font-mono"><a href="/types/inactivechat">InactiveChat</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
+
+A list of inactive chats the current user is member of.
+
+</div></div>
 
 ### Syntax
 
