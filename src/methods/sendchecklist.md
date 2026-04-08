@@ -2,10 +2,10 @@
 title: sendChecklist
 parent: /methods
 metas:
-  description: Send a checklist. User-only.
+  description: Send a checklist.
 ---
 
-Send a checklist.<span class="select-none"> <span class="inline-flex w-fit items-center" style="font-size:12px;white-space:nowrap;word-break:keep-all;"><span class="w-fit bg-dbt select-none text-fgt" style="padding:2px 8px;border-radius:12px;">USER-ONLY</span></span> </span>
+Send a checklist.<span class="select-none">  </span>
 
 ### Parameters 
 
@@ -35,7 +35,7 @@ Whether users other than the creator of the to-do list can add more items.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isCompletableByOthers" data-anchor="true"><span class="font-bold">isCompletableByOthers</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
-Whether users other than the creator of the to-do-list can mark items as completed.
+Whether users other than the creator of the to-do list can mark items as completed.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isSilent" data-anchor="true"><span class="font-bold">isSilent</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 

@@ -19,7 +19,7 @@ An invite link. If specified, only join requests from that invite link will be r
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_search" data-anchor="true"><span class="font-bold">search</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
-A search query. If specified, only matching users results will be returned.
+A search query. If specified, only matching users will be returned.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_fromDate" data-anchor="true"><span class="font-bold">fromDate</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 

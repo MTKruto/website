@@ -355,8 +355,8 @@ export default () => {
           <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" />
           <style
             {
-            // deno-lint-ignore no-explicit-any
-            ...{ type: "text/tailwindcss" } as any
+              // deno-lint-ignore no-explicit-any
+              ...{ type: "text/tailwindcss" } as any
             }
             dangerouslySetInnerHTML={{
               __html: `@theme {

@@ -111,7 +111,7 @@ Whether the message is a broadcast that is going to be paid for. Bot-only.
 
 <div class="font-mono"><a href="/gh/types/messageaudio">MessageAudio</a></div><div class="pl-3"><div class="no-margin">
 
-The sent audio filr.
+The sent audio file.
 
 </div></div>
 
