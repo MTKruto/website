@@ -168,7 +168,7 @@ function Nav() {
         <img src={logo} alt="" class="size-6" />
 
         <div class="flex items-center gap-4">
-          {Object.values(nav).map(link => <a key={link.id} href={`#${link.id}`}>{link.text}</a>)}
+          {Object.values(nav).map((link) => <a key={link.id} href={`#${link.id}`}>{link.text}</a>)}
         </div>
 
         <div class="flex items-center gap-2">
@@ -207,23 +207,19 @@ function Features() {
       </h2>
 
       <div class="flex flex-col max-w-4xl">
-        {featuresMajors.map(el => (
-          <FeaturesMajorCard {...el} />
-        ))}
+        {featuresMajors.map((el) => <FeaturesMajorCard {...el} />)}
       </div>
 
       {featuresMinors.length > 0 && (
         <div class="grid grid-cols-3 gap-8 mt-32">
-          {featuresMinors.map(el => (
-            <FeaturersMinorCard {...el} />
-          ))}
+          {featuresMinors.map((el) => <FeaturersMinorCard {...el} />)}
         </div>
       )}
     </section>
   );
 }
 
-function FeaturesMajorCard(props: { color: string, eyebrow: string, title: string, description: string, type: string, icons?: string[][], code?: string }) {
+function FeaturesMajorCard(props: { color: string; eyebrow: string; title: string; description: string; type: string; icons?: string[][]; code?: string }) {
   return (
     <article class="text-center mt-40">
       <small class={`font-dm-sans uppercase text-2xl font-semibold tracking-wide text-${props.color}-500`}>{props.eyebrow}</small>
@@ -232,27 +228,23 @@ function FeaturesMajorCard(props: { color: string, eyebrow: string, title: strin
       <div class={`glass rounded-4xl mx-auto p-16 flex items-center justify-center flex-wrap mt-12 gap-4 ` + (props.type === "code" && "pb-0")}>
         {props.type === "icons" && props.icons?.map((group) => (
           <div class="flex items-center">
-            {group.map((name, i) => (
-              <Icon name={name} class={`h-22.5 w-fit${i > 0 ? " -ml-2.25" : ""}`} />
-            ))}
+            {group.map((name, i) => <Icon name={name} class={`h-22.5 w-fit${i > 0 ? " -ml-2.25" : ""}`} />)}
           </div>
         ))}
-        {props.type === "code" && (
-          <pre class="text-left font-dm-mono text-foreground overflow-x-auto w-full max-h-92.5 overflow-hidden"><code>{props.code}</code></pre>
-        )}
+        {props.type === "code" && <pre class="text-left font-dm-mono text-foreground overflow-x-auto w-full max-h-92.5 overflow-hidden"><code>{props.code}</code></pre>}
       </div>
     </article>
   );
 }
 
-function FeaturersMinorCard(props: { icon: string, title: string, description: string }) {
+function FeaturersMinorCard(props: { icon: string; title: string; description: string }) {
   return (
     <article class="text-center flex flex-col items-center justify-center">
       <Icon name={props.icon} size={52} />
       <h3 class="font-dm-sans font-medium text-4xl mt-2">{props.title}</h3>
       <p class="text-2xl text-dim mt-4">{props.description}</p>
     </article>
-  )
+  );
 }
 
 function Spotlight() {
@@ -266,16 +258,14 @@ function Spotlight() {
 
       <div class="overflow-x-auto mt-40 snap-x snap-mandatory [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         <div class="flex gap-10 pl-[30vw] pr-[50vw] w-max">
-          {spotlightItems.map(el => (
-            <SpotlightCard {...el} />
-          ))}
+          {spotlightItems.map((el) => <SpotlightCard {...el} />)}
         </div>
       </div>
     </section>
   );
 }
 
-function SpotlightCard(props: { image: string, title: string, description: string }) {
+function SpotlightCard(props: { image: string; title: string; description: string }) {
   return (
     <article class="max-w-sm lg:max-w-md snap-center">
       <div class="size-28 rounded-2xl overflow-hidden bg-shade/40 shrink-0">
@@ -285,7 +275,7 @@ function SpotlightCard(props: { image: string, title: string, description: strin
         <span class="text-foreground">{props.title}</span> {props.description}
       </p>
     </article>
-  )
+  );
 }
 
 function Docs() {
@@ -297,15 +287,13 @@ function Docs() {
         </h2>
 
         <div class="grid grid-cols-2 mt-24 gap-8">
-          {[docsItems.filter((_, i) => i % 2 === 0), docsItems.filter((_, i) => i % 2 === 1)].map(col => (
+          {[docsItems.filter((_, i) => i % 2 === 0), docsItems.filter((_, i) => i % 2 === 1)].map((col) => (
             <div class="flex flex-col gap-8">
-              {col.map(el => (
+              {col.map((el) => (
                 <div class="bg-background rounded-3xl p-16 flex flex-col gap-6">
                   <h3 class="font-dm-sans font-medium text-4xl">{el.title}</h3>
                   <span class="text-dim text-2xl flex flex-wrap gap-x-4 gap-y-2">
-                    {el.links.map(link => (
-                      <a class="underline underline-offset-4 decoration-2" href={link.href}>{link.text}</a>
-                    ))}
+                    {el.links.map((link) => <a class="underline underline-offset-4 decoration-2" href={link.href}>{link.text}</a>)}
                   </span>
                 </div>
               ))}
@@ -316,7 +304,7 @@ function Docs() {
 
       <p class="text-background text-[300px] -mt-36 max-w-7xl font-jakarta leading-tight mx-auto font-bold">MTKruto</p>
     </section>
-  )
+  );
 }
 
 function Footer() {
@@ -332,7 +320,7 @@ function Footer() {
           <Icon name="ph:github-logo-fill" size={24} />
         </a>
       </div>
-    </footer >
+    </footer>
   );
 }
 
