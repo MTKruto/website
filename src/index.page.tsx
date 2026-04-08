@@ -23,7 +23,7 @@ const nav = {
 const hero = {
   heading: "A Telegram client library you can depend on",
   subheading: "Connect easily, anywhere, anytime, anyhow, to Telegram",
-  cta: "View Documentation",
+  cta: { text: "View Documentation", href: "#" },
 };
 
 const featuresMajors = [
@@ -167,7 +167,7 @@ function Nav() {
       <div class="max-w-7xl mx-auto w-full flex justify-between items-center font-dm-sans text-dimmest">
         <img src={logo} alt="" class="size-6" />
 
-        <div class="flex items-center gap-4">
+        <div class="hidden md:flex items-center gap-4">
           {Object.values(nav).map(link => <a key={link.id} href={`#${link.id}`}>{link.text}</a>)}
         </div>
 
@@ -186,34 +186,34 @@ function Nav() {
 
 function Hero() {
   return (
-    <section class="flex flex-col justify-center items-center max-w-7xl mx-auto w-full h-[clamp(600px,95dvh,850px)]">
-      <img src={logo} alt="" class="size-28" />
+    <section class="flex flex-col justify-center items-center max-w-7xl mx-auto w-full px-4 h-[clamp(600px,95dvh,850px)]">
+      <img src={logo} alt="" class="size-16 md:size-28" />
 
-      <h1 class="mt-12 font-jakarta text-7xl font-bold max-w-4xl text-center tracking-tight">{hero.heading}</h1>
-      <p class="mt-8 text-dim text-3xl font-dm-sans max-w-lg text-center">{hero.subheading}</p>
+      <h1 class="mt-8 md:mt-12 font-jakarta text-4xl md:text-6xl lg:text-7xl font-bold max-w-4xl text-center tracking-tight text-balance">{hero.heading}</h1>
+      <p class="mt-4 md:mt-8 text-dim text-lg md:text-2xl lg:text-3xl font-dm-sans max-w-lg text-center text-balance">{hero.subheading}</p>
 
-      <button type="button" class="mt-12 rounded-full bg-foreground text-background h-15 px-8 font-semibold">
-        {hero.cta}
-      </button>
+      <a href={hero.cta.href} class="mt-8 md:mt-12 rounded-full bg-foreground text-background h-11 md:h-15 px-5 md:px-8 font-semibold text-xs md:text-base inline-flex items-center">
+        {hero.cta.text}
+      </a>
     </section>
   );
 }
 
 function Features() {
   return (
-    <section id={nav.features.id} class="flex flex-col justify-center items-center max-w-7xl mx-auto w-full mt-60 scroll-mt-15">
-      <h2 class="mt-12 font-jakarta text-7xl font-bold max-w-3xl text-center bg-linear-to-t from-brand to-brand/20 bg-clip-text text-transparent tracking-tight pb-3">
+    <section id={nav.features.id} class="flex flex-col justify-center items-center max-w-7xl mx-auto w-full px-4 mt-20 md:mt-40 lg:mt-60 scroll-mt-15">
+      <h2 class="mt-12 font-jakarta text-4xl md:text-5xl lg:text-7xl font-bold max-w-3xl text-center bg-linear-to-t from-brand to-brand/20 bg-clip-text text-transparent tracking-tight pb-3">
         {featuresHeading}
       </h2>
 
-      <div class="flex flex-col max-w-4xl">
+      <div class="flex flex-col w-full max-w-4xl">
         {featuresMajors.map(el => (
           <FeaturesMajorCard {...el} />
         ))}
       </div>
 
       {featuresMinors.length > 0 && (
-        <div class="grid grid-cols-3 gap-8 mt-32">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-20 md:mt-32">
           {featuresMinors.map(el => (
             <FeaturersMinorCard {...el} />
           ))}
@@ -225,11 +225,11 @@ function Features() {
 
 function FeaturesMajorCard(props: { color: string, eyebrow: string, title: string, description: string, type: string, icons?: string[][], code?: string }) {
   return (
-    <article class="text-center mt-40">
-      <small class={`font-dm-sans uppercase text-2xl font-semibold tracking-wide text-${props.color}-500`}>{props.eyebrow}</small>
-      <h3 class="font-dm-sans text-5xl mt-3 font-semibold">{props.title}</h3>
-      <p class="font-inter text-2xl text-dim mt-6">{props.description}</p>
-      <div class={`glass rounded-4xl mx-auto p-16 flex items-center justify-center flex-wrap mt-12 gap-4 ` + (props.type === "code" && "pb-0")}>
+    <article class="text-center mt-20 md:mt-40">
+      <small class={`font-dm-sans uppercase  md:text-2xl font-semibold tracking-wide text-${props.color}-500`}>{props.eyebrow}</small>
+      <h3 class="font-dm-sans text-3xl md:text-5xl mt-3 font-semibold">{props.title}</h3>
+      <p class="font-inter text-lg md:text-2xl text-dim mt-4 md:mt-6">{props.description}</p>
+      <div class={`glass rounded-3xl md:rounded-4xl mx-auto p-6 md:p-16 flex items-center justify-center flex-wrap mt-8 md:mt-12 gap-4 ` + (props.type === "code" && "pb-0")}>
         {props.type === "icons" && props.icons?.map((group) => (
           <div class="flex items-center">
             {group.map((name, i) => (
@@ -248,9 +248,9 @@ function FeaturesMajorCard(props: { color: string, eyebrow: string, title: strin
 function FeaturersMinorCard(props: { icon: string, title: string, description: string }) {
   return (
     <article class="text-center flex flex-col items-center justify-center">
-      <Icon name={props.icon} size={52} />
-      <h3 class="font-dm-sans font-medium text-4xl mt-2">{props.title}</h3>
-      <p class="text-2xl text-dim mt-4">{props.description}</p>
+      <Icon name={props.icon} size={36} />
+      <h3 class="font-dm-sans font-medium text-xl md:text-4xl mt-2">{props.title}</h3>
+      <p class="text-sm md:text-2xl text-dim mt-2 md:mt-4">{props.description}</p>
     </article>
   )
 }
@@ -259,12 +259,12 @@ function Spotlight() {
   if (spotlightItems.length === 0) return null;
 
   return (
-    <section id={nav.spotlight.id} class="mt-60 scroll-mt-15">
-      <h2 class="mt-12 font-jakarta text-7xl font-bold max-w-3xl mx-auto text-center bg-linear-to-t from-brand to-brand/20 bg-clip-text text-transparent tracking-tight pb-3">
+    <section id={nav.spotlight.id} class="mt-20 md:mt-40 lg:mt-60 scroll-mt-15">
+      <h2 class="px-4 font-jakarta text-4xl md:text-5xl lg:text-7xl font-bold max-w-3xl mx-auto text-center bg-linear-to-t from-brand to-brand/20 bg-clip-text text-transparent tracking-tight pb-3">
         {spotlightHeading}
       </h2>
 
-      <div class="overflow-x-auto mt-40 snap-x snap-mandatory [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+      <div class="overflow-y-hidden overflow-x-auto mt-16 md:mt-40 snap-x snap-mandatory [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         <div class="flex gap-10 pl-[30vw] pr-[50vw] w-max">
           {spotlightItems.map(el => (
             <SpotlightCard {...el} />
@@ -277,11 +277,11 @@ function Spotlight() {
 
 function SpotlightCard(props: { image: string, title: string, description: string }) {
   return (
-    <article class="max-w-sm lg:max-w-md snap-center">
-      <div class="size-28 rounded-2xl overflow-hidden bg-shade/40 shrink-0">
+    <article class="w-64 md:w-80 lg:w-96 snap-center">
+      <div class="size-20 md:size-28 rounded-2xl overflow-hidden bg-shade/40 shrink-0">
         {props.image && <img src={props.image} alt={props.title} class="size-full object-cover" />}
       </div>
-      <p class="font-dm-sans font-medium text-4xl text-dim mt-6">
+      <p class="font-dm-sans font-medium text-xl md:text-2xl lg:text-4xl text-dim mt-4 md:mt-6">
         <span class="text-foreground">{props.title}</span> {props.description}
       </p>
     </article>
@@ -290,19 +290,19 @@ function SpotlightCard(props: { image: string, title: string, description: strin
 
 function Docs() {
   return (
-    <section id={nav.directory.id} class="w-full bg-shade/20 mt-60 pt-40 relative scroll-mt-15">
-      <div class="max-w-7xl mx-auto w-full">
-        <h2 class="font-jakarta text-7xl font-bold max-w-3xl mx-auto text-center bg-linear-to-t from-foreground to-foreground/20 bg-clip-text text-transparent tracking-tight pb-3">
+    <section id={nav.directory.id} class="w-full bg-shade/20 mt-20 md:mt-40 lg:mt-60 pt-20 md:pt-40 relative overflow-hidden scroll-mt-15">
+      <div class="max-w-7xl mx-auto w-full px-4">
+        <h2 class="font-jakarta text-4xl md:text-5xl lg:text-7xl font-bold max-w-3xl mx-auto text-center bg-linear-to-t from-foreground to-foreground/20 bg-clip-text text-transparent tracking-tight pb-3">
           {docsHeading}
         </h2>
 
-        <div class="grid grid-cols-2 mt-24 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 mt-12 md:mt-24 gap-6 md:gap-8">
           {[docsItems.filter((_, i) => i % 2 === 0), docsItems.filter((_, i) => i % 2 === 1)].map(col => (
-            <div class="flex flex-col gap-8">
+            <div class="flex flex-col gap-6 md:gap-8">
               {col.map(el => (
-                <div class="bg-background rounded-3xl p-16 flex flex-col gap-6">
-                  <h3 class="font-dm-sans font-medium text-4xl">{el.title}</h3>
-                  <span class="text-dim text-2xl flex flex-wrap gap-x-4 gap-y-2">
+                <div class="bg-background rounded-2xl md:rounded-3xl p-8 md:p-16 flex flex-col gap-4 md:gap-6">
+                  <h3 class="font-dm-sans font-medium text-2xl md:text-4xl">{el.title}</h3>
+                  <span class="text-dim text-sm md:text-2xl flex flex-wrap gap-x-3 gap-y-2">
                     {el.links.map(link => (
                       <a class="underline underline-offset-4 decoration-2" href={link.href}>{link.text}</a>
                     ))}
@@ -314,20 +314,20 @@ function Docs() {
         </div>
       </div>
 
-      <p class="text-background text-[300px] -mt-36 max-w-7xl font-jakarta leading-tight mx-auto font-bold">MTKruto</p>
+      <p class="text-background text-[100px] md:text-[200px] lg:text-[300px] -mt-4 md:-mt-16 lg:-mt-36 max-w-7xl font-jakarta leading-tight mx-auto font-bold">MTKruto</p>
     </section>
   )
 }
 
 function Footer() {
   return (
-    <footer class="flex items-center w-full h-15 bg-shade/20 px-4">
-      <div class="max-w-7xl mx-auto w-full flex justify-between items-center font-dm-sans text-dimmest">
-        <small class="text-lg font-dm-sans">
+    <footer class="flex items-center w-full min-h-15 bg-shade/20 px-4 py-4">
+      <div class="max-w-7xl mx-auto w-full flex flex-col md:flex-row justify-between items-center gap-2 font-dm-sans text-dimmest">
+        <small class="text-sm font-dm-sans">
           {footer.copyright}
         </small>
 
-        <a href={links.github} class="flex items-center gap-2">
+        <a href={links.github} class="flex items-center gap-2 text-sm">
           {footer.license}
           <Icon name="ph:github-logo-fill" size={24} />
         </a>
@@ -344,7 +344,7 @@ export default () => {
   return (
     <>
       {{ __html: "<!DOCTYPE html>" }}
-      <html class="scroll-smooth">
+      <html>
         <head>
           <meta charset="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -355,8 +355,8 @@ export default () => {
           <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" />
           <style
             {
-              // deno-lint-ignore no-explicit-any
-              ...{ type: "text/tailwindcss" } as any
+            // deno-lint-ignore no-explicit-any
+            ...{ type: "text/tailwindcss" } as any
             }
             dangerouslySetInnerHTML={{
               __html: `@theme {
@@ -397,7 +397,7 @@ export default () => {
           <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet" />
         </head>
 
-        <body class="bg-background text-foreground overflow-x-hidden">
+        <body class="bg-background text-foreground overflow-x-hidden scroll-smooth">
           <Nav />
           <Hero />
           <Features />
