@@ -1,0 +1,15 @@
+/* IDE-only: used by Tailwind CSS IntelliSense extension for autocompletion.
+   Not part of the build — production uses the CDN in index.page.tsx. */
+@import "tailwindcss";
+
+@theme {
+  --color-background: #ffffff;
+  --color-foreground: #000000;
+  --color-brand: #00adfe;
+  --color-dim: #8c8c8c;
+  --color-dimmest: #a3a3a3;
+  --color-shade: #e4e4e4;
+  --font-dm-mono: "DM Mono", monospace;
+  --font-dm-sans: "DM Sans", sans-serif;
+  --font-jakarta: "Plus Jakarta Sans", sans-serif;
+}
