@@ -163,7 +163,7 @@ const footer = {
 
 function Nav() {
   return (
-    <header class="sticky top-0 z-50 flex items-center w-full h-15 bg-shade/20 border-b border-b-shade px-4 backdrop-blur-md">
+    <header class="sticky top-0 z-50 flex items-center w-full h-15 border-b border-b-shade px-4 backdrop-blur-md">
       <div class="max-w-7xl mx-auto w-full flex justify-between items-center font-dm-sans text-dimmest">
         <img src={logo} alt="" class="size-6" />
 
@@ -186,13 +186,13 @@ function Nav() {
 
 function Hero() {
   return (
-    <section class="flex flex-col justify-center items-center max-w-7xl mx-auto w-full px-4 h-[clamp(600px,95dvh,850px)]">
-      <img src={logo} alt="" class="size-16 md:size-28" />
+    <section id="hero-section" class="flex flex-col justify-center items-center max-w-7xl mx-auto w-full px-4 h-[clamp(600px,95dvh,850px)] origin-top">
+      <img id="hero-logo" src={logo} alt="" class="size-16 md:size-28" />
 
-      <h1 class="mt-8 md:mt-12 font-jakarta text-4xl md:text-6xl lg:text-7xl font-bold max-w-4xl text-center tracking-tight text-balance">{hero.heading}</h1>
-      <p class="mt-4 md:mt-8 text-dim text-lg md:text-2xl lg:text-3xl font-dm-sans max-w-lg text-center text-balance">{hero.subheading}</p>
+      <h1 id="hero-heading" class="mt-8 md:mt-12 font-jakarta text-4xl md:text-6xl lg:text-7xl font-bold max-w-4xl text-center tracking-tight text-balance">{hero.heading}</h1>
+      <p id="hero-sub" class="mt-4 md:mt-8 text-dim text-lg md:text-2xl lg:text-3xl font-dm-sans max-w-lg text-center text-balance">{hero.subheading}</p>
 
-      <a href={hero.cta.href} class="mt-8 md:mt-12 rounded-full bg-foreground text-background h-11 md:h-15 px-5 md:px-8 font-semibold text-xs md:text-base inline-flex items-center">
+      <a id="hero-cta" href={hero.cta.href} class="mt-8 md:mt-12 rounded-full bg-foreground text-background h-11 md:h-15 px-5 md:px-8 font-semibold text-xs md:text-base inline-flex items-center">
         {hero.cta.text}
       </a>
     </section>
@@ -202,7 +202,7 @@ function Hero() {
 function Features() {
   return (
     <section id={nav.features.id} class="flex flex-col justify-center items-center max-w-7xl mx-auto w-full px-4 mt-20 md:mt-40 lg:mt-60 scroll-mt-15">
-      <h2 class="mt-12 font-jakarta text-4xl md:text-5xl lg:text-7xl font-bold max-w-3xl text-center bg-linear-to-t from-brand to-brand/20 bg-clip-text text-transparent tracking-tight pb-3">
+      <h2 id="features-heading" class="mt-12 font-jakarta text-4xl md:text-5xl lg:text-7xl font-bold max-w-3xl text-center bg-linear-to-t from-brand to-brand/20 bg-clip-text text-transparent tracking-tight pb-3">
         {featuresHeading}
       </h2>
 
@@ -221,7 +221,7 @@ function Features() {
 
 function FeaturesMajorCard(props: { color: string; eyebrow: string; title: string; description: string; type: string; icons?: string[][]; code?: string }) {
   return (
-    <article class="text-center mt-20 md:mt-40">
+    <article class="features-major-card text-center mt-20 md:mt-40">
       <small class={`font-dm-sans uppercase  md:text-2xl font-semibold tracking-wide text-${props.color}-500`}>{props.eyebrow}</small>
       <h3 class="font-dm-sans text-3xl md:text-5xl mt-3 font-semibold">{props.title}</h3>
       <p class="font-inter text-lg md:text-2xl text-dim mt-4 md:mt-6">{props.description}</p>
@@ -239,7 +239,7 @@ function FeaturesMajorCard(props: { color: string; eyebrow: string; title: strin
 
 function FeaturersMinorCard(props: { icon: string; title: string; description: string }) {
   return (
-    <article class="text-center flex flex-col items-center justify-center">
+    <article class="features-minor-card text-center flex flex-col items-center justify-center">
       <Icon name={props.icon} size={36} />
       <h3 class="font-dm-sans font-medium text-xl md:text-4xl mt-2">{props.title}</h3>
       <p class="text-sm md:text-2xl text-dim mt-2 md:mt-4">{props.description}</p>
@@ -252,12 +252,12 @@ function Spotlight() {
 
   return (
     <section id={nav.spotlight.id} class="mt-20 md:mt-40 lg:mt-60 scroll-mt-15">
-      <h2 class="px-4 font-jakarta text-4xl md:text-5xl lg:text-7xl font-bold max-w-3xl mx-auto text-center bg-linear-to-t from-brand to-brand/20 bg-clip-text text-transparent tracking-tight pb-3">
+      <h2 id="spotlight-heading" class="px-4 font-jakarta text-4xl md:text-5xl lg:text-7xl font-bold max-w-3xl mx-auto text-center bg-linear-to-t from-brand to-brand/20 bg-clip-text text-transparent tracking-tight pb-3">
         {spotlightHeading}
       </h2>
 
-      <div class="overflow-y-hidden overflow-x-auto mt-16 md:mt-40 snap-x snap-mandatory [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-        <div class="flex gap-10 pl-[30vw] pr-[50vw] w-max">
+      <div id="spotlight-carousel" class="overflow-hidden mt-16 md:mt-40">
+        <div id="spotlight-track" class="grid grid-rows-2 md:grid-rows-1 grid-flow-col gap-10 pl-[10vw] pr-[10vw] w-max">
           {spotlightItems.map((el) => <SpotlightCard {...el} />)}
         </div>
       </div>
@@ -267,7 +267,7 @@ function Spotlight() {
 
 function SpotlightCard(props: { image: string; title: string; description: string }) {
   return (
-    <article class="w-64 md:w-80 lg:w-96 snap-center">
+    <article class="spotlight-card w-64 md:w-80 lg:w-96 snap-center">
       <div class="size-20 md:size-28 rounded-2xl overflow-hidden bg-shade/40 shrink-0">
         {props.image && <img src={props.image} alt={props.title} class="size-full object-cover" />}
       </div>
@@ -280,15 +280,15 @@ function SpotlightCard(props: { image: string; title: string; description: strin
 
 function Docs() {
   return (
-    <section id={nav.directory.id} class="w-full bg-shade/20 mt-20 md:mt-40 lg:mt-60 pt-20 md:pt-40 relative overflow-hidden scroll-mt-15">
-      <div class="max-w-7xl mx-auto w-full px-4">
-        <h2 class="font-jakarta text-4xl md:text-5xl lg:text-7xl font-bold max-w-3xl mx-auto text-center bg-linear-to-t from-foreground to-foreground/20 bg-clip-text text-transparent tracking-tight pb-3">
+    <section id={nav.directory.id} class="w-full bg-shade/20 mt-20 md:mt-40 lg:mt-60 pt-20 md:pt-40 pb-30 md:pb-45 lg:pb-60 relative overflow-hidden scroll-mt-15">
+      <div class="relative z-10 max-w-7xl mx-auto w-full px-4">
+        <h2 id="directory-heading" class="font-jakarta text-4xl md:text-5xl lg:text-7xl font-bold max-w-3xl mx-auto text-center bg-linear-to-t from-foreground to-foreground/20 bg-clip-text text-transparent tracking-tight pb-3">
           {docsHeading}
         </h2>
 
         <div class="grid grid-cols-1 md:grid-cols-2 mt-12 md:mt-24 gap-6 md:gap-8">
           {[docsItems.filter((_, i) => i % 2 === 0), docsItems.filter((_, i) => i % 2 === 1)].map((col) => (
-            <div class="flex flex-col gap-6 md:gap-8">
+            <div class="docs-col flex flex-col gap-6 md:gap-8">
               {col.map((el) => (
                 <div class="bg-background rounded-2xl md:rounded-3xl p-8 md:p-16 flex flex-col gap-4 md:gap-6">
                   <h3 class="font-dm-sans font-medium text-2xl md:text-4xl">{el.title}</h3>
@@ -302,14 +302,14 @@ function Docs() {
         </div>
       </div>
 
-      <p class="text-background text-[100px] md:text-[200px] lg:text-[300px] -mt-4 md:-mt-16 lg:-mt-36 max-w-7xl font-jakarta leading-tight mx-auto font-bold">MTKruto</p>
+      <p id="directory-bg-text" class="absolute bottom-0 left-0 right-0 text-background text-[100px] md:text-[200px] lg:text-[300px] max-w-7xl font-jakarta leading-tight mx-auto font-bold">MTKruto</p>
     </section>
   );
 }
 
 function Footer() {
   return (
-    <footer class="flex items-center w-full min-h-15 bg-shade/20 px-4 py-4">
+    <footer class="flex items-center w-full min-h-15 px-4 py-4">
       <div class="max-w-7xl mx-auto w-full flex flex-col md:flex-row justify-between items-center gap-2 font-dm-sans text-dimmest">
         <small class="text-sm font-dm-sans">
           {footer.copyright}
@@ -343,8 +343,8 @@ export default () => {
           <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" />
           <style
             {
-              // deno-lint-ignore no-explicit-any
-              ...{ type: "text/tailwindcss" } as any
+            // deno-lint-ignore no-explicit-any
+            ...{ type: "text/tailwindcss" } as any
             }
             dangerouslySetInnerHTML={{
               __html: `@theme {
@@ -357,6 +357,10 @@ export default () => {
               --font-dm-mono: "DM Mono", monospace;
               --font-dm-sans: "DM Sans", sans-serif;
               --font-jakarta: "Plus Jakarta Sans", sans-serif;
+            }
+
+            #hero-logo, #hero-heading, #hero-sub, #hero-cta {
+              visibility: hidden;
             }
 
             @utility glass {
@@ -385,13 +389,146 @@ export default () => {
           <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet" />
         </head>
 
-        <body class="bg-background text-foreground overflow-x-hidden scroll-smooth">
+        <body class="bg-shade/20 text-foreground overflow-x-hidden scroll-smooth">
           <Nav />
-          <Hero />
-          <Features />
-          <Spotlight />
-          <Docs />
+          <main class="bg-background">
+            <Hero />
+            <Features />
+            <Spotlight />
+            <Docs />
+          </main>
           <Footer />
+
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" />
+          <script dangerouslySetInnerHTML={{
+            __html: `
+            gsap.registerPlugin(ScrollTrigger);
+
+            gsap.set(["#hero-logo", "#hero-heading", "#hero-sub", "#hero-cta"], { visibility: "visible" });
+            var heroTl = gsap.timeline({ defaults: { ease: "power2.out" } });
+            heroTl
+              .from("#hero-logo",    { opacity: 0, scale: 0.82, duration: 1.0 })
+              .from("#hero-heading", { opacity: 0, y: 32, duration: 0.85 }, "-=0.45")
+              .from("#hero-sub",     { opacity: 0, y: 22, duration: 0.75 }, "-=0.5")
+              .from("#hero-cta",     { opacity: 0, y: 16, duration: 0.65 }, "-=0.45");
+
+            gsap.to("#hero-section", {
+              scrollTrigger: {
+                trigger: "#hero-section",
+                start: "top top",
+                end: "bottom top",
+                scrub: 1,
+              },
+              scale: 0.92,
+              opacity: 0,
+              ease: "none",
+            });
+
+            gsap.from("#features-heading", {
+              scrollTrigger: {
+                trigger: "#features-heading",
+                start: "top 92%",
+                end: "top 38%",
+                scrub: 1,
+              },
+              opacity: 0, y: 70, scale: 0.95, ease: "none",
+            });
+
+            gsap.utils.toArray(".features-major-card").forEach(function(card) {
+              gsap.from(card, {
+                scrollTrigger: {
+                  trigger: card,
+                  start: "top 92%",
+                  end: "top 28%",
+                  scrub: 1.2,
+                },
+                opacity: 0, y: 110, ease: "none",
+              });
+            });
+
+            gsap.utils.toArray(".features-minor-card").forEach(function(card) {
+              gsap.from(card, {
+                scrollTrigger: {
+                  trigger: card,
+                  start: "top 95%",
+                  end: "top 55%",
+                  scrub: 1,
+                },
+                opacity: 0, y: 55, ease: "none",
+              });
+            });
+
+            gsap.from("#spotlight-heading", {
+              scrollTrigger: {
+                trigger: "#spotlight-heading",
+                start: "top 92%",
+                end: "top 38%",
+                scrub: 1,
+              },
+              opacity: 0, y: 70, scale: 0.95, ease: "none",
+            });
+
+            (function() {
+              var mm = gsap.matchMedia();
+              function buildCarousel(start) {
+                var track = document.getElementById("spotlight-track");
+                if (!track) return;
+                var totalWidth = track.scrollWidth - window.innerWidth;
+                if (totalWidth <= 0) return;
+                gsap.to(track, {
+                  scrollTrigger: {
+                    trigger: "#spotlight-carousel",
+                    start: start,
+                    end: "+=" + totalWidth,
+                    pin: "#spotlight",
+                    scrub: 1,
+                    anticipatePin: 1,
+                  },
+                  x: -totalWidth,
+                  ease: "none",
+                });
+              }
+              mm.add("(max-width: 767px)", function() { buildCarousel("center center"); });
+              mm.add("(min-width: 768px)", function() { buildCarousel("top center"); });
+            })();
+
+            gsap.from("#directory-heading", {
+              scrollTrigger: {
+                trigger: "#directory-heading",
+                start: "top 92%",
+                end: "top 38%",
+                scrub: 1,
+              },
+              opacity: 0, y: 70, scale: 0.95, ease: "none",
+            });
+
+            gsap.utils.toArray(".docs-col").forEach(function(col, i) {
+              gsap.from(col, {
+                scrollTrigger: {
+                  trigger: col,
+                  start: "top 92%",
+                  end: "top 48%",
+                  scrub: 1,
+                },
+                opacity: 0, y: 70 + i * 25, ease: "none",
+              });
+            });
+
+            gsap.fromTo("#directory-bg-text",
+              { color: "#000000" },
+              {
+                scrollTrigger: {
+                  trigger: "#directory",
+                  start: "top bottom",
+                  end: "bottom bottom",
+                  scrub: 1.5,
+                },
+                color: "#ffffff",
+                ease: "none",
+              }
+            );
+          ` }} />
         </body>
       </html>
     </>
