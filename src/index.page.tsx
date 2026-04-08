@@ -343,8 +343,8 @@ export default () => {
           <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" />
           <style
             {
-            // deno-lint-ignore no-explicit-any
-            ...{ type: "text/tailwindcss" } as any
+              // deno-lint-ignore no-explicit-any
+              ...{ type: "text/tailwindcss" } as any
             }
             dangerouslySetInnerHTML={{
               __html: `@theme {
@@ -401,8 +401,9 @@ export default () => {
 
           <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" />
           <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" />
-          <script dangerouslySetInnerHTML={{
-            __html: `
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
             gsap.registerPlugin(ScrollTrigger);
 
             gsap.set(["#hero-logo", "#hero-heading", "#hero-sub", "#hero-cta"], { visibility: "visible" });
@@ -528,7 +529,9 @@ export default () => {
                 ease: "none",
               }
             );
-          ` }} />
+          `,
+            }}
+          />
         </body>
       </html>
     </>
