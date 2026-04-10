@@ -438,6 +438,17 @@ export default () => {
               --font-jakarta: "Plus Jakarta Sans", sans-serif;
             }
 
+            @media (prefers-color-scheme: dark) {
+              :root {
+                color-scheme: dark;
+                --color-background: #0e0f0f;
+                --color-foreground: #ffffff;
+                --color-dim: #888888;
+                --color-dimmest: #7a7a7a;
+                --color-shade: #2e2e2e;
+              }
+            }
+
             #hero-logo, #hero-heading, #hero-sub, #hero-cta {
               visibility: hidden;
             }
@@ -466,7 +477,8 @@ export default () => {
           ))}
 
           <link rel="stylesheet" href="/fonts.css" />
-          <link rel="stylesheet" href="/github.css" />
+          <link rel="stylesheet" href="/github.css" media="not (prefers-color-scheme: dark)" />
+          <link rel="stylesheet" href="/github-dark.css" media="(prefers-color-scheme: dark)" />
         </head>
 
         <body class="font-inter bg-shade/20 text-foreground overflow-x-hidden scroll-smooth">
@@ -596,19 +608,22 @@ export default () => {
               });
             });
 
-            gsap.fromTo("#directory-bg-text",
-              { color: "#000000" },
-              {
-                scrollTrigger: {
-                  trigger: "#directory",
-                  start: "top bottom",
-                  end: "bottom bottom",
-                  scrub: 1.5,
-                },
-                color: "#ffffff",
-                ease: "none",
-              }
-            );
+            (function() {
+              var isDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+              gsap.fromTo("#directory-bg-text",
+                { color: isDark ? "#ffffff" : "#000000" },
+                {
+                  scrollTrigger: {
+                    trigger: "#directory",
+                    start: "top bottom",
+                    end: "bottom bottom",
+                    scrub: 1.5,
+                  },
+                  color: isDark ? "#0e0f0f" : "#ffffff",
+                  ease: "none",
+                }
+              );
+            })();
           `,
             }}
           />
