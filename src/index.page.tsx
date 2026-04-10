@@ -89,7 +89,16 @@ export type GiftComponentRarity = GiftComponentRarityPerMille |
 });
 
 const me = await client.getMe();
-console.log(me.username);`,
+console.log(me.username);
+
+const photo = await client.getProfilePhoto(user.id);
+await client.downloadFile(photo.fileId);
+
+await client.forwardMessages(chat.id, fromChatId, [messageId]);
+
+await client.pinMessage(chat.id, messageId);
+
+await client.setMessageReaction(chat.id, messageId, [{ type: "emoji", emoji: "👍" }]);`,
   },
   {
     color: "indigo",
@@ -203,19 +212,21 @@ const footer = {
 
 function Nav() {
   return (
-    <header class="sticky top-0 z-50 flex items-center w-full h-15 border-b border-b-shade px-4 backdrop-blur-md">
+    <header class="flex items-center w-full h-15 border-b border-b-shade px-4">
       <div class="max-w-7xl mx-auto w-full flex justify-between items-center font-dm-sans text-dimmest">
         <img src={logo} alt="" class="size-6" />
 
         <div class="hidden md:flex items-center gap-4">
-          {Object.values(nav).map((link) => <a key={link.id} href={`#${link.id}`}>{link.text}</a>)}
+          {Object.values(nav)
+            .filter((link) => !(link.id === nav.spotlight.id && spotlightItems.length === 0))
+            .map((link) => <a key={link.id} href={`#${link.id}`} class="transition-colors hover:text-foreground">{link.text}</a>)}
         </div>
 
         <div class="flex items-center gap-2">
-          <a href={links.github}>
+          <a href={links.github} class="transition-colors hover:text-foreground">
             <Icon name="mingcute:github-fill" size={24} />
           </a>
-          <a href={links.telegram}>
+          <a href={links.telegram} class="transition-colors hover:text-foreground">
             <Icon name="mingcute:telegram-fill" size={24} />
           </a>
         </div>
@@ -232,7 +243,7 @@ function Hero() {
       <h1 id="hero-heading" class="mt-8 md:mt-12 font-jakarta text-4xl md:text-6xl lg:text-7xl font-bold max-w-4xl text-center tracking-tight text-balance">{hero.heading}</h1>
       <p id="hero-sub" class="mt-4 md:mt-8 text-dim text-lg md:text-2xl lg:text-3xl font-dm-sans max-w-lg text-center text-balance">{hero.subheading}</p>
 
-      <a id="hero-cta" href={hero.cta.href} class="mt-8 md:mt-12 rounded-full bg-foreground text-background h-11 md:h-15 px-5 md:px-8 font-semibold text-xs md:text-base inline-flex items-center">
+      <a id="hero-cta" href={hero.cta.href} class="mt-8 md:mt-12 rounded-full bg-foreground text-background h-11 md:h-15 px-5 md:px-8 font-semibold text-xs md:text-base inline-flex items-center transition-[transform,box-shadow] duration-500 hover:shadow-[0_0_96px_#00adfe33]">
         {hero.cta.text}
       </a>
     </section>
@@ -276,7 +287,7 @@ function FeaturesMajorCard(
       <small class={`font-dm-sans uppercase  md:text-2xl font-semibold tracking-wide text-${props.color}-500`}>{props.eyebrow}</small>
       <h3 class="font-dm-sans text-3xl md:text-5xl mt-3 font-semibold">{props.title}</h3>
       <p class="font-inter text-lg md:text-2xl text-dim mt-4 md:mt-6">{props.description}</p>
-      <div class={`glass rounded-3xl md:rounded-4xl mx-auto p-6 md:p-16 flex items-center justify-center flex-wrap mt-8 md:mt-12 gap-4 ` + (props.type === "code" && "pb-0")}>
+      <div class={`glass rounded-3xl md:rounded-4xl mx-auto px-6 pt-6 md:px-16 md:pt-16 flex items-center justify-center flex-wrap mt-8 md:mt-12 gap-4 ` + (props.type === "code" ? "" : "pb-6 md:pb-16")}>
         {props.type === "icons" && props.icons?.map((group) => (
           <div class="flex items-center">
             {group.map((name, i) => <Icon name={name} class={`h-22.5 w-fit${i > 0 ? " -ml-2.25" : ""}`} />)}
@@ -285,13 +296,17 @@ function FeaturesMajorCard(
         {props.type === "chips" && (
           <div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 w-full max-w-3xl">
             {props.chips?.map((chip) => (
-              <div class="rounded-2xl md:rounded-3xl border border-shade/80 bg-background/75 px-4 py-4 md:px-6 md:py-5 font-dm-mono text-sm md:text-xl text-foreground/85">
+              <div class="rounded-2xl md:rounded-3xl border border-shade/80 bg-background/75 px-4 py-4 md:px-6 md:py-5 font-dm-mono text-sm md:text-xl text-foreground/85 transition-colors duration-200 hover:border-brand/50 hover:bg-brand/5 hover:text-foreground">
                 {chip}
               </div>
             ))}
           </div>
         )}
-        {props.type === "code" && <pre class="text-left font-dm-mono text-foreground overflow-x-auto w-full max-h-92.5 overflow-hidden"><code>{props.code}</code></pre>}
+        {props.type === "code" && (
+          <div class="w-full overflow-hidden" style="mask-image: linear-gradient(to bottom, black 55%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, black 55%, transparent 100%);">
+            <pre class="text-left font-dm-mono text-foreground overflow-hidden w-full"><code>{props.code}</code></pre>
+          </div>
+        )}
       </div>
     </article>
   );
@@ -299,7 +314,7 @@ function FeaturesMajorCard(
 
 function FeaturersMinorCard(props: { icon: string; title: string; description: string }) {
   return (
-    <article class="features-minor-card text-center flex flex-col items-center justify-center">
+    <article class="features-minor-card text-center flex flex-col items-center">
       <Icon name={props.icon} size={36} />
       <h3 class="font-dm-sans font-medium text-xl md:text-4xl mt-2">{props.title}</h3>
       <p class="text-sm md:text-2xl text-dim mt-2 md:mt-4">{props.description}</p>
@@ -353,7 +368,7 @@ function Docs() {
                 <div class="bg-background rounded-2xl md:rounded-3xl p-8 md:p-16 flex flex-col gap-4 md:gap-6">
                   <h3 class="font-dm-sans font-medium text-2xl md:text-4xl">{el.title}</h3>
                   <span class="text-dim text-sm md:text-2xl flex flex-wrap gap-x-3 gap-y-2">
-                    {el.links.map((link) => <a class="underline underline-offset-4 decoration-2" href={link.href}>{link.text}</a>)}
+                    {el.links.map((link) => <a key={link.text} class="underline underline-offset-4 decoration-2 transition-colors duration-150 hover:text-brand hover:decoration-brand" href={link.href}>{link.text}</a>)}
                   </span>
                 </div>
               ))}
@@ -375,7 +390,7 @@ function Footer() {
           {footer.copyright}
         </small>
 
-        <a href={links.github} class="flex items-center gap-2 text-sm">
+        <a href={links.github} class="flex items-center gap-2 text-sm transition-colors hover:text-foreground">
           {footer.license}
           <Icon name="mingcute:github-fill" size={24} />
         </a>
@@ -489,7 +504,7 @@ export default () => {
             gsap.from("#features-heading", {
               scrollTrigger: {
                 trigger: "#features-heading",
-                start: "top 92%",
+                start: "top 172%",
                 end: "top 38%",
                 scrub: 1,
               },
@@ -523,7 +538,7 @@ export default () => {
             gsap.from("#spotlight-heading", {
               scrollTrigger: {
                 trigger: "#spotlight-heading",
-                start: "top 92%",
+                start: "top 172%",
                 end: "top 38%",
                 scrub: 1,
               },
@@ -557,7 +572,7 @@ export default () => {
             gsap.from("#directory-heading", {
               scrollTrigger: {
                 trigger: "#directory-heading",
-                start: "top 92%",
+                start: "top 172%",
                 end: "top 38%",
                 scrub: 1,
               },
