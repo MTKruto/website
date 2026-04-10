@@ -790,6 +790,13 @@ Information on what a message is replying to.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/replytomessage">ReplyToMessage</a>
+<div><div>
+
+Information on a message that another message is replying to.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/restrictionreason">RestrictionReason</a>
 <div><div>
 

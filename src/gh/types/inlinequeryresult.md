@@ -12,7 +12,6 @@ A single inline query result.
 <span class="opacity-50">|</span> <a href="/gh/types/inlinequeryresultcachedgif">InlineQueryResultCachedGif</a>
 <span class="opacity-50">|</span> <a href="/gh/types/inlinequeryresultcachedmpeg4gif">InlineQueryResultCachedMpeg4Gif</a>
 <span class="opacity-50">|</span> <a href="/gh/types/inlinequeryresultcachedphoto">InlineQueryResultCachedPhoto</a>
-<span class="opacity-50">|</span> <a href="/gh/types/inlinequeryresultcachedsticker">InlineQueryResultCachedSticker</a>
 <span class="opacity-50">|</span> <a href="/gh/types/inlinequeryresultcachedvideo">InlineQueryResultCachedVideo</a>
 <span class="opacity-50">|</span> <a href="/gh/types/inlinequeryresultcachedvoice">InlineQueryResultCachedVoice</a>
 <span class="opacity-50">|</span> <a href="/gh/types/inlinequeryresultarticle">InlineQueryResultArticle</a>
@@ -26,5 +25,6 @@ A single inline query result.
 <span class="opacity-50">|</span> <a href="/gh/types/inlinequeryresultphoto">InlineQueryResultPhoto</a>
 <span class="opacity-50">|</span> <a href="/gh/types/inlinequeryresultvenue">InlineQueryResultVenue</a>
 <span class="opacity-50">|</span> <a href="/gh/types/inlinequeryresultvideo">InlineQueryResultVideo</a>
+<span class="opacity-50">|</span> <a href="/gh/types/inlinequeryresultsticker">InlineQueryResultSticker</a>
 <span class="opacity-50">|</span> <a href="/gh/types/inlinequeryresultvoice">InlineQueryResultVoice</a></div>
 

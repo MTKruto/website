@@ -33,7 +33,7 @@ The entities of media's caption.
 
 Override the parse mode used for the media's caption.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_video" data-anchor="true"><span class="font-bold">video</span><span class="opacity-50">:</span> <a href="/gh/types/filesource">FileSource</a></div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;video&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_video" data-anchor="true"><span class="font-bold">video</span><span class="opacity-50">:</span> <a href="/gh/types/filesource">FileSource</a></div></div><div class="pl-3"><div class="no-margin">
 
 The video.
 
