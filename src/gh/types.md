@@ -510,13 +510,6 @@ A button of a custom keyboard.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/types/keyboardbuttonpolltype">KeyboardButtonPollType</a>
-<div><div>
-
-A keyboard button representing the type of the poll that is requested to be created.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/gh/types/leftchannellist">LeftChannelList</a>
 <div><div>
 
@@ -654,13 +647,6 @@ Reference to a message.
 <div><div>
 
 A message search filter option.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/miniappbuttoninfo">MiniAppButtonInfo</a>
-<div><div>
-
-Information on a mini app button.
 
 </div></div>
 <div class="descr-list-border"></div>
