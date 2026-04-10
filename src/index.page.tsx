@@ -24,8 +24,8 @@ const nav = {
 };
 
 const hero = {
-  heading: "A Telegram client library you can depend on",
-  subheading: "Connect easily, anywhere, anytime, anyhow, to Telegram",
+  heading: "Cross-runtime JavaScript library for building Telegram clients",
+  subheading: "One API, all runtimes—build and ship Telegram clients in Node.js, Bun, Deno, or the browser",
   cta: { text: "View Documentation", href: "#" },
 };
 
@@ -73,11 +73,11 @@ export type GiftComponentRarity = GiftComponentRarityPerMille |
     description: "MTKruto prefers standard Web APIs over runtime-specific ones, so the same mental model carries across browsers, workers, servers, and modern JavaScript runtimes.",
     type: "chips",
     chips: [
-      "fetch()",
+      "crypto.subtle",
       "WebSocket",
       "ReadableStream",
-      "AbortSignal",
-      "Worker",
+      "fetch()",
+      "SharedWorker",
       "Blob",
     ],
   },
@@ -87,21 +87,18 @@ export type GiftComponentRarity = GiftComponentRarityPerMille |
     title: "Easy to Use",
     description: "MTKruto ships with a high-level API on top of Telegram, letting you reach for expressive methods first and only drop lower when you actually need to.",
     type: "code",
-    code: `await client.sendMessage(chat.id, "Hey there!", {
+    code: `await client.sendMessage(chat.id, "Hello from MTKruto!", {
   isSilent: true,
 });
 
 const me = await client.getMe();
-console.log(me.username);
+console.debug(me.username);
 
-const photo = await client.getProfilePhoto(user.id);
-await client.downloadFile(photo.fileId);
-
-await client.forwardMessages(chat.id, fromChatId, [messageId]);
+await client.forwardMessages(fromChatId, chat.id, [messageId]);
 
 await client.pinMessage(chat.id, messageId);
 
-await client.setMessageReaction(chat.id, messageId, [{ type: "emoji", emoji: "👍" }]);`,
+await client.setReactions(chat.id, messageId, [{ type: "emoji", emoji: "👍" }]);`,
   },
   {
     color: "indigo",
