@@ -1,11 +1,7 @@
 ---
 title: LinkPreviewVideo
 parent: /types
-metas:
-  description: A video link preview.
 ---
-
-A video link preview.
 
 ### Properties
 
@@ -25,5 +21,5 @@ Whether the preview is to be shown above the message's text.
 
 The URL of the link preview.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;video&quot;</span></div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_video" data-anchor="true"><span class="font-bold">video</span><span class="opacity-50">:</span> <a href="/gh/types/document">Document</a></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_startTimestamp" data-anchor="true"><span class="font-bold">startTimestamp</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_thumbnail" data-anchor="true"><span class="font-bold">thumbnail</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/photo">Photo</a></div></div></div></div>
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;video&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_video" data-anchor="true"><span class="font-bold">video</span><span class="opacity-50">:</span> <a href="/gh/types/document">Document</a></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_startTimestamp" data-anchor="true"><span class="font-bold">startTimestamp</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_thumbnail" data-anchor="true"><span class="font-bold">thumbnail</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/photo">Photo</a></div></div></div></div>
 

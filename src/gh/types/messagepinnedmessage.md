@@ -125,7 +125,7 @@ Whether the message is scheduled.
 
 The message's self-destruct preference.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_pinnedMessage" data-anchor="true"><span class="font-bold">pinnedMessage</span><span class="opacity-50">:</span> <a href="/gh/types/message">Message</a></div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;pinnedMessage&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_pinnedMessage" data-anchor="true"><span class="font-bold">pinnedMessage</span><span class="opacity-50">:</span> <a href="/gh/types/message">Message</a></div></div><div class="pl-3"><div class="no-margin">
 
 The message that was pinned.
 
