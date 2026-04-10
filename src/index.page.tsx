@@ -63,28 +63,75 @@ export type GiftComponentRarity = GiftComponentRarityPerMille |
   GiftComponentRarityUncommon | GiftComponentRarityRare |
   GiftComponentRarityEpic | GiftComponentRarityLegendary;`,
   },
+  {
+    color: "sky",
+    eyebrow: "Web-first",
+    title: "Prioritizes the Web",
+    description: "MTKruto prefers standard Web APIs over runtime-specific ones, so the same mental model carries across browsers, workers, servers, and modern JavaScript runtimes.",
+    type: "chips",
+    chips: [
+      "fetch()",
+      "WebSocket",
+      "ReadableStream",
+      "AbortSignal",
+      "Worker",
+      "Blob",
+    ],
+  },
+  {
+    color: "amber",
+    eyebrow: "High-level API",
+    title: "Easy to Use",
+    description: "MTKruto ships with a high-level API on top of Telegram, letting you reach for expressive methods first and only drop lower when you actually need to.",
+    type: "code",
+    code: `await client.sendMessage(chat.id, "Hey there!", {
+  isSilent: true,
+});
+
+const me = await client.getMe();
+console.log(me.username);`,
+  },
+  {
+    color: "indigo",
+    eyebrow: "Middleware",
+    title: "Extensible",
+    description: "Its middleware system makes it easy to layer in logging, auth, filtering, analytics, and external code without turning your app into a tangle of handlers.",
+    type: "code",
+    code: `client.use(async (_ctx, next) => {
+  const startedAt = performance.now();
+  await next();
+  console.log("Handled in", Math.round(performance.now() - startedAt), "ms");
+});
+
+client.command("start", (ctx) => ctx.reply("Ready."));`,
+  },
 ];
 
 const featuresMinors = [
   {
-    icon: "ph:star-fill",
-    title: "Maintained",
-    description: "Updates come out every week. Issues are addressed as soon as possible.",
+    icon: "mingcute:transfer-horizontal-fill",
+    title: "Bot + User Accounts",
+    description: "Work with both bot accounts and user accounts through the Telegram API.",
   },
   {
-    icon: "ph:star-fill",
-    title: "Maintained",
-    description: "Updates come out every week. Issues are addressed as soon as possible.",
+    icon: "mingcute:terminal-box-fill",
+    title: "Direct MTProto Access",
+    description: "Call raw Telegram API functions with client.invoke() whenever you need lower-level control.",
   },
   {
-    icon: "ph:star-fill",
-    title: "Maintained",
-    description: "Updates come out every week. Issues are addressed as soon as possible.",
+    icon: "mingcute:filter-fill",
+    title: "Update Filters",
+    description: "Compose precise handlers with filter queries, commands, and branching middleware.",
   },
   {
-    icon: "ph:star-fill",
-    title: "Maintained",
-    description: "Updates come out every week. Issues are addressed as soon as possible.",
+    icon: "mingcute:storage-fill",
+    title: "Storage Adapters",
+    description: "Built for persistent state with storage adapters that match Telegram client realities.",
+  },
+  {
+    icon: "mingcute:warning-fill",
+    title: "Clear Error Model",
+    description: "Separate Telegram, access, and input errors cleanly so failures are easier to handle.",
   },
 ];
 
@@ -93,14 +140,7 @@ const featuresHeading = "All that you expect from a client";
 const spotlightHeading = "With many using it to build cool things";
 
 const spotlightItems = [
-  { image: "", title: "Corvex", description: "is using it to make a personal diary app, helping thousands keep their moments." },
-  { image: "", title: "Corvex", description: "is using it to make a personal diary app, helping thousands keep their moments." },
-  { image: "", title: "Corvex", description: "is using it to make a personal diary app, helping thousands keep their moments." },
-  { image: "", title: "Corvex", description: "is using it to make a personal diary app, helping thousands keep their moments." },
-  { image: "", title: "Corvex", description: "is using it to make a personal diary app, helping thousands keep their moments." },
-  { image: "", title: "Corvex", description: "is using it to make a personal diary app, helping thousands keep their moments." },
-  { image: "", title: "Corvex", description: "is using it to make a personal diary app, helping thousands keep their moments." },
-  { image: "", title: "Corvex", description: "is using it to make a personal diary app, helping thousands keep their moments." },
+  // { image: "", title: "Corvex", description: "is using it to make a personal diary app, helping thousands keep their moments." },
 ];
 
 const docsHeading = "Start using it now";
@@ -153,8 +193,8 @@ const docsItems = [
 ];
 
 const footer = {
-  copyright: "© 2026 MTKruto. All rights reserved.",
-  license: "Licensed under GPL-3.0 and LGPL-3.0",
+  copyright: "© 2023-2026 MTKruto",
+  license: "Licensed under LGPL-3.0.",
 };
 
 //
@@ -173,10 +213,10 @@ function Nav() {
 
         <div class="flex items-center gap-2">
           <a href={links.github}>
-            <Icon name="ph:github-logo-fill" size={24} />
+            <Icon name="mingcute:github-fill" size={24} />
           </a>
           <a href={links.telegram}>
-            <Icon name="ph:telegram-logo-fill" size={24} />
+            <Icon name="mingcute:telegram-fill" size={24} />
           </a>
         </div>
       </div>
@@ -219,7 +259,18 @@ function Features() {
   );
 }
 
-function FeaturesMajorCard(props: { color: string; eyebrow: string; title: string; description: string; type: string; icons?: string[][]; code?: string }) {
+function FeaturesMajorCard(
+  props: {
+    color: string;
+    eyebrow: string;
+    title: string;
+    description: string;
+    type: string;
+    icons?: string[][];
+    code?: string;
+    chips?: string[];
+  },
+) {
   return (
     <article class="features-major-card text-center mt-20 md:mt-40">
       <small class={`font-dm-sans uppercase  md:text-2xl font-semibold tracking-wide text-${props.color}-500`}>{props.eyebrow}</small>
@@ -231,6 +282,15 @@ function FeaturesMajorCard(props: { color: string; eyebrow: string; title: strin
             {group.map((name, i) => <Icon name={name} class={`h-22.5 w-fit${i > 0 ? " -ml-2.25" : ""}`} />)}
           </div>
         ))}
+        {props.type === "chips" && (
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 w-full max-w-3xl">
+            {props.chips?.map((chip) => (
+              <div class="rounded-2xl md:rounded-3xl border border-shade/80 bg-background/75 px-4 py-4 md:px-6 md:py-5 font-dm-mono text-sm md:text-xl text-foreground/85">
+                {chip}
+              </div>
+            ))}
+          </div>
+        )}
         {props.type === "code" && <pre class="text-left font-dm-mono text-foreground overflow-x-auto w-full max-h-92.5 overflow-hidden"><code>{props.code}</code></pre>}
       </div>
     </article>
@@ -317,7 +377,7 @@ function Footer() {
 
         <a href={links.github} class="flex items-center gap-2 text-sm">
           {footer.license}
-          <Icon name="ph:github-logo-fill" size={24} />
+          <Icon name="mingcute:github-fill" size={24} />
         </a>
       </div>
     </footer>
