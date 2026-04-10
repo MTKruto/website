@@ -1,4 +1,7 @@
 import { Icon } from "../_components/Icon.tsx";
+import hljs from "highlight.js/lib/core";
+import typescript from "highlight.js/lib/languages/typescript";
+hljs.registerLanguage("typescript", typescript);
 
 const fonts = Array.from(Deno.readDirSync("src/static/fonts"))
   .map((v) => v.name.replaceAll("src/", "/"));
@@ -304,7 +307,7 @@ function FeaturesMajorCard(
         )}
         {props.type === "code" && (
           <div class="w-full overflow-hidden" style="mask-image: linear-gradient(to bottom, black 55%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, black 55%, transparent 100%);">
-            <pre class="text-left font-dm-mono text-foreground overflow-hidden w-full"><code>{props.code}</code></pre>
+            <pre class="text-left font-dm-mono text-foreground overflow-hidden w-full"><code dangerouslySetInnerHTML={{ __html: hljs.highlight(props.code ?? "", { language: "typescript" }).value }} /></pre>
           </div>
         )}
       </div>
@@ -315,9 +318,9 @@ function FeaturesMajorCard(
 function FeaturersMinorCard(props: { icon: string; title: string; description: string }) {
   return (
     <article class="features-minor-card text-center flex flex-col items-center">
-      <Icon name={props.icon} size={36} />
-      <h3 class="font-dm-sans font-medium text-xl md:text-4xl mt-2">{props.title}</h3>
-      <p class="text-sm md:text-2xl text-dim mt-2 md:mt-4">{props.description}</p>
+      <Icon name={props.icon} size={52} class="size-10 md:size-15" />
+      <h3 class="font-dm-sans font-medium text-xl md:text-4xl mt-3">{props.title}</h3>
+      <p class="text-sm md:text-2xl text-dim mt-2 md:mt-6">{props.description}</p>
     </article>
   );
 }
@@ -418,8 +421,8 @@ export default () => {
           <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" />
           <style
             {
-              // deno-lint-ignore no-explicit-any
-              ...{ type: "text/tailwindcss" } as any
+            // deno-lint-ignore no-explicit-any
+            ...{ type: "text/tailwindcss" } as any
             }
             dangerouslySetInnerHTML={{
               __html: `@theme {
@@ -429,6 +432,7 @@ export default () => {
               --color-dim: #8c8c8c;
               --color-dimmest: #a3a3a3;
               --color-shade: #e4e4e4;
+              --font-inter: "Inter", sans-serif;
               --font-dm-mono: "DM Mono", monospace;
               --font-dm-sans: "DM Sans", sans-serif;
               --font-jakarta: "Plus Jakarta Sans", sans-serif;
@@ -437,6 +441,8 @@ export default () => {
             #hero-logo, #hero-heading, #hero-sub, #hero-cta {
               visibility: hidden;
             }
+
+            .hljs { background: transparent !important; padding: 0 !important; }
 
             @utility glass {
               background: color-mix(in srgb, var(--color-shade) 20%, transparent);
@@ -459,12 +465,11 @@ export default () => {
             />
           ))}
 
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-          <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet" />
+          <link rel="stylesheet" href="/fonts.css" />
+          <link rel="stylesheet" href="/github.css" />
         </head>
 
-        <body class="bg-shade/20 text-foreground overflow-x-hidden scroll-smooth">
+        <body class="font-inter bg-shade/20 text-foreground overflow-x-hidden scroll-smooth">
           <Nav />
           <main class="bg-background">
             <Hero />
@@ -474,8 +479,8 @@ export default () => {
           </main>
           <Footer />
 
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" />
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" />
+          <script src="/gsap.min.js" />
+          <script src="/ScrollTrigger.min.js" />
           <script
             dangerouslySetInnerHTML={{
               __html: `
