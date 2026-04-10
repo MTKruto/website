@@ -25,7 +25,7 @@ const nav = {
 
 const hero = {
   heading: "Cross-runtime JavaScript library for building Telegram clients",
-  subheading: "One API, all runtimes—build and ship Telegram clients in Node.js, Bun, Deno, or the browser",
+  subheading: "JavaScript Telegram client for Node.js, Bun, Deno, and browsers",
   cta: { text: "View Documentation", href: "#" },
 };
 
@@ -209,31 +209,6 @@ const footer = {
 //
 // Sections
 //
-
-function Nav() {
-  return (
-    <header class="flex items-center w-full h-15 border-b border-b-shade px-4">
-      <div class="max-w-7xl mx-auto w-full flex justify-between items-center font-dm-sans text-dimmest">
-        <img src={logo} alt="" class="size-6" />
-
-        <div class="hidden md:flex items-center gap-4">
-          {Object.values(nav)
-            .filter((link) => !(link.id === nav.spotlight.id && spotlightItems.length === 0))
-            .map((link) => <a key={link.id} href={`#${link.id}`} class="transition-colors hover:text-foreground">{link.text}</a>)}
-        </div>
-
-        <div class="flex items-center gap-2">
-          <a href={links.github} class="transition-colors hover:text-foreground">
-            <Icon name="mingcute:github-fill" size={24} />
-          </a>
-          <a href={links.telegram} class="transition-colors hover:text-foreground">
-            <Icon name="mingcute:telegram-fill" size={24} />
-          </a>
-        </div>
-      </div>
-    </header>
-  );
-}
 
 function Hero() {
   return (
@@ -479,7 +454,6 @@ export default () => {
         </head>
 
         <body class="font-inter bg-shade/20 text-foreground overflow-x-hidden scroll-smooth">
-          <Nav />
           <main class="bg-background">
             <Hero />
             <Features />
