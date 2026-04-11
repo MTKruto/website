@@ -58,6 +58,7 @@ site.copy("_headers");
 site.copy("static", ".");
 site.add("style.scss");
 site.add("fonts.scss");
+site.add("index.scss");
 
 function toAnchor(title: string) {
   return title.replaceAll(/\p{P}/ug, "").toLowerCase().replaceAll(/\s+/g, "-");
