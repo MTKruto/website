@@ -510,13 +510,6 @@ A button of a custom keyboard.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/types/keyboardbuttonpolltype">KeyboardButtonPollType</a>
-<div><div>
-
-A keyboard button representing the type of the poll that is requested to be created.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/types/leftchannellist">LeftChannelList</a>
 <div><div>
 
@@ -657,13 +650,6 @@ A message search filter option.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/types/miniappbuttoninfo">MiniAppButtonInfo</a>
-<div><div>
-
-Information on a mini app button.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/types/miniappinfo">MiniAppInfo</a>
 <div><div>
 
@@ -762,6 +748,13 @@ A price tag.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/profilephotolist">ProfilePhotoList</a>
+<div><div>
+
+A list of profile photos.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/reaction">Reaction</a>
 <div><div>
 
@@ -801,6 +794,13 @@ A reference to a specific part of a message that is being replied to.
 <div><div>
 
 Information on what a message is replying to.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/replytomessage">ReplyToMessage</a>
+<div><div>
+
+Information on a message that another message is replying to.
 
 </div></div>
 <div class="descr-list-border"></div>

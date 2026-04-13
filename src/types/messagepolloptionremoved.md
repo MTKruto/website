@@ -125,7 +125,7 @@ Whether the message is scheduled.
 
 The message's self-destruct preference.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_pollOptionRemoved" data-anchor="true"><span class="font-bold">pollOptionRemoved</span><span class="opacity-50">:</span> <a href="/types/polloption">PollOption</a></div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;pollOptionRemoved&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_pollOptionRemoved" data-anchor="true"><span class="font-bold">pollOptionRemoved</span><span class="opacity-50">:</span> <a href="/types/polloption">PollOption</a></div></div><div class="pl-3"><div class="no-margin">
 
 The option that was added.
 
