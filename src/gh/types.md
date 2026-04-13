@@ -748,6 +748,13 @@ A price tag.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/profilephotolist">ProfilePhotoList</a>
+<div><div>
+
+A list of profile photos.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/reaction">Reaction</a>
 <div><div>
 

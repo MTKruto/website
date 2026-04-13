@@ -119,6 +119,13 @@ Get the user account password's hint.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getprofilephotos">getProfilePhotos</a>
+<div><div>
+
+Get the profile photos of a user.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/gettimezones">getTimezones</a>
 <div><div>
 
