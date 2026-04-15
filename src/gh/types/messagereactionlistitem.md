@@ -15,7 +15,7 @@ The entity that made the reaction.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_date" data-anchor="true"><span class="font-bold">date</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The point in time in which the reaction was made.
+The point in time when the reaction was made.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_reaction" data-anchor="true"><span class="font-bold">reaction</span><span class="opacity-50">:</span> <a href="/gh/types/reaction">Reaction</a></div></div><div class="pl-3"><div class="no-margin">
 

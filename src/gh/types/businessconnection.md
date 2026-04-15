@@ -19,7 +19,7 @@ The business account that the connection is made with.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_date" data-anchor="true"><span class="font-bold">date</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The point in time in which the connection was recently updated.
+The point in time when the connection was last updated.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canReply" data-anchor="true"><span class="font-bold">canReply</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 

@@ -23,7 +23,7 @@ The story's privacy settings.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_activeFor" data-anchor="true"><span class="font-bold">activeFor</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The period in which the story will be active.
+The period during which the story will be active.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_highlight" data-anchor="true"><span class="font-bold">highlight</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 

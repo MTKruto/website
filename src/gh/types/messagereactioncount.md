@@ -19,7 +19,7 @@ The message's identifier.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_date" data-anchor="true"><span class="font-bold">date</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The point in time in which the change was made.
+The point in time when the change was made.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_reactions" data-anchor="true"><span class="font-bold">reactions</span><span class="opacity-50">:</span> <a href="/gh/types/reactioncount">ReactionCount</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
