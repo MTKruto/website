@@ -1425,13 +1425,6 @@ Get messages saved from a specific chat.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/methods/getstickerset">getStickerSet</a>
-<div><div>
-
-Get a sticker set.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/gh/methods/openminiapp">openMiniApp</a>
 <div><div>
 
@@ -2008,6 +2001,103 @@ Schedule a video chat.
 <div><div>
 
 Start a video chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
+## Unlisted
+<div class="descr-list">
+
+<a href="/gh/methods/addstickertostickerset">addStickerToStickerSet</a>
+<div><div>
+
+Add a sticker to a sticker set.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/changestickerpositioninstickerset">changeStickerPositionInStickerSet</a>
+<div><div>
+
+Change the position of a sticker in its set.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/checkstickersetslug">checkStickerSetSlug</a>
+<div><div>
+
+Check the availability of a sticker set slug.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/createstickerset">createStickerSet</a>
+<div><div>
+
+Create a sticker set.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/deletestickerset">deleteStickerSet</a>
+<div><div>
+
+Delete a sticker set.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getstickerset">getStickerSet</a>
+<div><div>
+
+Get a sticker set.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/removestickerfromstickerset">removeStickerFromStickerSet</a>
+<div><div>
+
+Remove a sticker from its set.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/replacestickeremoji">replaceStickerEmoji</a>
+<div><div>
+
+Replace a sticker's emoji.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/replacestickerinstickerset">replaceStickerInStickerSet</a>
+<div><div>
+
+Replace a sticker in a sticker set.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setcustomemojiasstickersetthumbnail">setCustomEmojiAsStickerSetThumbnail</a>
+<div><div>
+
+Set a custom emoji as a sticker set's thumbnail.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setstickersetthumbnail">setStickerSetThumbnail</a>
+<div><div>
+
+Set a sticker set's thumbnail.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setstickersettitle">setStickerSetTitle</a>
+<div><div>
+
+Set the title of a sticker set.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/suggeststickersetslug">suggestStickerSetSlug</a>
+<div><div>
+
+Suggest a sticker set slug from its title.
 
 </div></div>
 <div class="descr-list-border"></div>
