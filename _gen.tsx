@@ -114,6 +114,7 @@ for (const dir of [`src${version}/methods`, `src${version}/types`]) {
   const groups = Object.entries({
     "ac": ["Account", "account"],
     "ms": ["Messages", "messages"],
+    "ss": ["Sticker Sets", "sticker-sets"],
     "ns": ["Network Statistics", "network-statistics"],
     "ch": ["Chats", "chats"],
     "cl": ["Checklists", "checklists"],
