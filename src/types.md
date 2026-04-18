@@ -475,6 +475,13 @@ A poll option to be provided as an input.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/inputsticker">InputSticker</a>
+<div><div>
+
+An input sticker.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/inputstorycontent">InputStoryContent</a>
 <div><div>
 

@@ -11,7 +11,7 @@ The ID of the link preview.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_mediaSize" data-anchor="true"><span class="font-bold">mediaSize</span><span class="opacity-50">:</span> <a href="/types/linkpreviewmediasize">LinkPreviewMediaSize</a></div></div><div class="pl-3"><div class="no-margin">
 
-The size in which the media is expected to be displayed in.
+The size at which the media is expected to be displayed.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isAboveText" data-anchor="true"><span class="font-bold">isAboveText</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 

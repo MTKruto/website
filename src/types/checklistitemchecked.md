@@ -27,7 +27,7 @@ The entities of the text.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_checkedAt" data-anchor="true"><span class="font-bold">checkedAt</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-A point in time in which the checklist item was checked.
+A point in time when the checklist item was checked.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_checkedBy" data-anchor="true"><span class="font-bold">checkedBy</span><span class="opacity-50">:</span> <a href="/types/user">User</a></div></div><div class="pl-3"><div class="no-margin">
 

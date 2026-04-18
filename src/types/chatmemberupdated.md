@@ -11,7 +11,7 @@ Changes made to a chat member.
 
 <div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_chat" data-anchor="true"><span class="font-bold">chat</span><span class="opacity-50">:</span> <a href="/types/chatp">ChatP</a></div></div><div class="pl-3"><div class="no-margin">
 
-The chat in which the change was made.
+The chat where the change was made.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_from" data-anchor="true"><span class="font-bold">from</span><span class="opacity-50">:</span> <a href="/types/user">User</a></div></div><div class="pl-3"><div class="no-margin">
 
@@ -19,7 +19,7 @@ The one who made the change.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_date" data-anchor="true"><span class="font-bold">date</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The point in time in which the chat member's status was changed.
+The point in time when the chat member's status was changed.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_oldChatMember" data-anchor="true"><span class="font-bold">oldChatMember</span><span class="opacity-50">:</span> <a href="/types/chatmember">ChatMember</a></div></div><div class="pl-3"><div class="no-margin">
 
