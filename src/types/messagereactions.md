@@ -27,7 +27,7 @@ The chat that changed its reactions to the message. Unset if done on behalf of a
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_date" data-anchor="true"><span class="font-bold">date</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The point in time in which the change was made.
+The point in time when the change was made.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_oldReactions" data-anchor="true"><span class="font-bold">oldReactions</span><span class="opacity-50">:</span> <a href="/types/reaction">Reaction</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 

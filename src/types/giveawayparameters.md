@@ -19,7 +19,7 @@ The identifiers of additional chats that the user must subscribe to in order to 
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_winnerSelectionDate" data-anchor="true"><span class="font-bold">winnerSelectionDate</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-A point in time within the future in which the winners will be selected.
+A point in time in the future when the winners will be selected.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_onlyNewMembers" data-anchor="true"><span class="font-bold">onlyNewMembers</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 

@@ -9,7 +9,7 @@ A message content that shares a location.
 
 ### Properties
 
-<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;text&quot;</span></div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_latitude" data-anchor="true"><span class="font-bold">latitude</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;location&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_latitude" data-anchor="true"><span class="font-bold">latitude</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 The latitude of the location.
 
@@ -23,7 +23,7 @@ The accuracy radius of the location in meters. Must be in the range of 0-1500.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_livePeriod" data-anchor="true"><span class="font-bold">livePeriod</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The duration in which the location can be updated in seconds. Must be in the range of 80-864,000.
+The duration for which the location can be updated, in seconds. Must be in the range of 80-864,000.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_heading" data-anchor="true"><span class="font-bold">heading</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 

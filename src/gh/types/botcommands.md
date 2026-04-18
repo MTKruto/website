@@ -15,7 +15,7 @@ The identifier of the bot.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_chatId" data-anchor="true"><span class="font-bold">chatId</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The identifier of the chat in which the command list is valid.
+The identifier of the chat where the command list is valid.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_commands" data-anchor="true"><span class="font-bold">commands</span><span class="opacity-50">:</span> <a href="/gh/types/botcommand">BotCommand</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 

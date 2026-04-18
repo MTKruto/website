@@ -55,7 +55,7 @@ Whether the set is archived.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_addedAt" data-anchor="true"><span class="font-bold">addedAt</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-A point in time in which the set was added to the current account.
+A point in time when the set was added to the current account.
 
 </div></div></div></div>
 

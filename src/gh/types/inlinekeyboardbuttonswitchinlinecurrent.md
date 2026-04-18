@@ -13,7 +13,7 @@ An inline keyboard button that, when pressed, switches to inline mode in the cur
 
 The text of the button.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_style" data-anchor="true"><span class="font-bold">style</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/buttonstyle">ButtonStyle</a></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_switchInlineQueryCurrentChat" data-anchor="true"><span class="font-bold">switchInlineQueryCurrentChat</span><span class="opacity-50">:</span> <span>string</span></div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_style" data-anchor="true"><span class="font-bold">style</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/buttonstyle">ButtonStyle</a></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;switchInlineQueryCurrentChat&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_inlineQuery" data-anchor="true"><span class="font-bold">inlineQuery</span><span class="opacity-50">:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
 The query to type into the user's message box once switched to inline.
 

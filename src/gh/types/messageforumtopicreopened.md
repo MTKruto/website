@@ -27,7 +27,7 @@ The sender of the message.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_date" data-anchor="true"><span class="font-bold">date</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The point in time in which the message was sent.
+The point in time when the message was sent.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_chat" data-anchor="true"><span class="font-bold">chat</span><span class="opacity-50">:</span> <a href="/gh/types/chatp">ChatP</a></div></div><div class="pl-3"><div class="no-margin">
 
@@ -71,7 +71,7 @@ The inline bot that was used to send this message.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_editDate" data-anchor="true"><span class="font-bold">editDate</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The point in time in which the message's last edit was made.
+The point in time when the message's last edit was made.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_hasProtectedContent" data-anchor="true"><span class="font-bold">hasProtectedContent</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
@@ -111,7 +111,7 @@ The number of the boosts made by the sender of the message.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_viaBusinessBot" data-anchor="true"><span class="font-bold">viaBusinessBot</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/user">User</a></div></div><div class="pl-3"><div class="no-margin">
 
-The identifier of the business connection in which the message was sent.
+The identifier of the business connection through which the message was sent.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_effectId" data-anchor="true"><span class="font-bold">effectId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
@@ -125,5 +125,5 @@ Whether the message is scheduled.
 
 The message's self-destruct preference.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_forumTopicReopened" data-anchor="true"><span class="font-bold">forumTopicReopened</span><span class="opacity-50">:</span> true</div><div class="flex items-center"><div class="bg-dbt px-1.5 rounded-md select-none text-fgt text-[10px]">DISCRIMINATOR</div></div></div></div></div>
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;forumTopicReopened&quot;</span></div></div></div></div>
 

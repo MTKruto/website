@@ -15,7 +15,7 @@ The blocked user.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_blockedAt" data-anchor="true"><span class="font-bold">blockedAt</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The point in time in which the user was blocked.
+The point in time when the user was blocked.
 
 </div></div></div></div>
 
