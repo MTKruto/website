@@ -475,6 +475,13 @@ A poll option to be provided as an input.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/inputsticker">InputSticker</a>
+<div><div>
+
+An input sticker.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/inputstorycontent">InputStoryContent</a>
 <div><div>
 
@@ -745,6 +752,13 @@ The duration of a Telegram Premium subscription.
 <div><div>
 
 A price tag.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/profilephotolist">ProfilePhotoList</a>
+<div><div>
+
+A list of profile photos.
 
 </div></div>
 <div class="descr-list-border"></div>

@@ -15,7 +15,7 @@ The identifier of a chat to schedule the video chat in.
 
 </div></div></div><div><div class="font-mono" id="p_startAt" data-anchor="true"><span class="font-bold">startAt</span><span class="opacity-50">:</span> <span>number</span></div><div class="pl-3"><div class="no-margin">
 
-A point in time within the future in which the video chat will be started.
+A point in time in the future when the video chat will be started.
 
 </div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_title" data-anchor="true"><span class="font-bold">title</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 

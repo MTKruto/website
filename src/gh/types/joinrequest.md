@@ -19,7 +19,7 @@ The user who made the join request.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_date" data-anchor="true"><span class="font-bold">date</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The point in time in which the join request was made.
+The point in time when the join request was made.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_bio" data-anchor="true"><span class="font-bold">bio</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
