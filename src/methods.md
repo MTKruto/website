@@ -1254,6 +1254,26 @@ Send an inline query.
 
 </div>
 
+## Managed Bots
+<div class="descr-list">
+
+<a href="/methods/getmanagedbottoken">getManagedBotToken</a>
+<div><div>
+
+Get the token of a managed bot.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/revokemanagedbottoken">revokeManagedBotToken</a>
+<div><div>
+
+Revoke the token of a managed bot.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
 ## Messages
 <div class="descr-list">
 
