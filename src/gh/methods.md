@@ -175,6 +175,13 @@ Remove the current account's emoji status.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/removeprofilephoto">removeProfilePhoto</a>
+<div><div>
+
+Remove the profile video of the current user or a bot managed by the current user.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/removeuseremojistatus">removeUserEmojiStatus</a>
 <div><div>
 
