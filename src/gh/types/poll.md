@@ -65,5 +65,9 @@ Duration of the poll in seconds.
 
 The time when the poll will be closed.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_countries" data-anchor="true"><span class="font-bold">countries</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+
+The codes of the countries where the poll is available.
+
 </div></div></div></div>
 

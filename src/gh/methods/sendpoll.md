@@ -97,6 +97,10 @@ Whether the result of the poll should be hidden until voting is closed.
 
 Whether it is allowed for options to be added. Not supported for anonymous polls and quizzes.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_countries" data-anchor="true"><span class="font-bold">countries</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+
+The codes of the countries where the poll is available in.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isSilent" data-anchor="true"><span class="font-bold">isSilent</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether to send the message in a silent way without making a sound on the recipients' clients.
@@ -175,6 +179,7 @@ await client.sendPoll(chatId, question, options, {
     isShuffled,
     isResultHidden,
     isAddingOptionsAllowed,
+    countries,
     isSilent,
     isContentProtected,
     replyTo,
