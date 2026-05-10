@@ -1784,6 +1784,20 @@ Undo a reaction made to a message.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/removeuserreaction">removeUserReaction</a>
+<div><div>
+
+Undo a reaction by another user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/removeuserreactions">removeUserReactions</a>
+<div><div>
+
+Undo recent reactions to messages made by another user.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/setreactions">setReactions</a>
 <div><div>
 
