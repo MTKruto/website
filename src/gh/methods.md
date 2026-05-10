@@ -2131,3 +2131,16 @@ Start a video chat.
 
 </div>
 
+## Unlisted
+<div class="descr-list">
+
+<a href="/gh/methods/answerguestquery">answerGuestQuery</a>
+<div><div>
+
+Answer a guest query.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+

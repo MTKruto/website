@@ -16,6 +16,7 @@ An incoming update.
 <span class="opacity-50">|</span> <a href="/gh/types/updatemessagesdeleted">UpdateMessagesDeleted</a>
 <span class="opacity-50">|</span> <a href="/gh/types/updatecallbackquery">UpdateCallbackQuery</a>
 <span class="opacity-50">|</span> <a href="/gh/types/updateinlinequery">UpdateInlineQuery</a>
+<span class="opacity-50">|</span> <a href="/gh/types/updateguestquery">UpdateGuestQuery</a>
 <span class="opacity-50">|</span> <a href="/gh/types/updatechoseninlineresult">UpdateChosenInlineResult</a>
 <span class="opacity-50">|</span> <a href="/gh/types/updatenewchat">UpdateNewChat</a>
 <span class="opacity-50">|</span> <a href="/gh/types/updateeditedchat">UpdateEditedChat</a>
