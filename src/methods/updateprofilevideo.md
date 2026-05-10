@@ -2,10 +2,10 @@
 title: updateProfileVideo
 parent: /methods
 metas:
-  description: Update the profile video of the current user.
+  description: Update the profile video of the current user or a bot managed by the current user.
 ---
 
-Update the profile video of the current user.<span class="select-none">  </span>
+Update the profile video of the current user or a bot managed by the current user.<span class="select-none">  </span>
 
 ### Parameters 
 
@@ -13,7 +13,11 @@ Update the profile video of the current user.<span class="select-none">  </span>
 
 The video to set as profile video.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_isPublic" data-anchor="true"><span class="font-bold">isPublic</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_botId" data-anchor="true"><span class="font-bold">botId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/id">ID</a></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of a bot managed by the current user. If specified, the profile video of the bot will be updated. User-only.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isPublic" data-anchor="true"><span class="font-bold">isPublic</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the video should be set as the fallback public profile photo. User-only.
 
@@ -60,6 +64,7 @@ await client.updateProfileVideo(video);
 // Required parameters + optional parameters.
 // Any of the optional parameters can be omitted.
 await client.updateProfileVideo(video, {
+    botId,
     isPublic,
     thumbnailTimestamp,
     fileName,

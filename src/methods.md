@@ -175,6 +175,13 @@ Remove the current account's emoji status.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/removeprofilephoto">removeProfilePhoto</a>
+<div><div>
+
+Remove the profile video of the current user or a bot managed by the current user.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/removeuseremojistatus">removeUserEmojiStatus</a>
 <div><div>
 
@@ -339,14 +346,14 @@ Update the profile of the current user. At least one parameter must be specified
 <a href="/methods/updateprofilephoto">updateProfilePhoto</a>
 <div><div>
 
-Update the profile photo of the current user.
+Update the profile photo of the current user or a bot managed by the current user.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/methods/updateprofilevideo">updateProfileVideo</a>
 <div><div>
 
-Update the profile video of the current user.
+Update the profile video of the current user or a bot managed by the current user.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1777,6 +1784,20 @@ Undo a reaction made to a message.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/removeuserreaction">removeUserReaction</a>
+<div><div>
+
+Undo a reaction by another user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/removeuserreactions">removeUserReactions</a>
+<div><div>
+
+Undo recent reactions to messages made by another user.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/setreactions">setReactions</a>
 <div><div>
 
@@ -2118,6 +2139,19 @@ Schedule a video chat.
 <div><div>
 
 Start a video chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
+## Unlisted
+<div class="descr-list">
+
+<a href="/methods/answerguestquery">answerGuestQuery</a>
+<div><div>
+
+Answer a guest query.
 
 </div></div>
 <div class="descr-list-border"></div>

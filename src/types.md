@@ -391,6 +391,13 @@ Giveaway parameters.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/guestquery">GuestQuery</a>
+<div><div>
+
+A guest query.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/id">ID</a>
 <div><div>
 
