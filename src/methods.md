@@ -1241,6 +1241,19 @@ Transfer a gift.
 
 </div>
 
+## Guest Queries
+<div class="descr-list">
+
+<a href="/methods/answerguestquery">answerGuestQuery</a>
+<div><div>
+
+Answer a guest query.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
 ## Inline Queries
 <div class="descr-list">
 
@@ -2139,19 +2152,6 @@ Schedule a video chat.
 <div><div>
 
 Start a video chat.
-
-</div></div>
-<div class="descr-list-border"></div>
-
-</div>
-
-## Unlisted
-<div class="descr-list">
-
-<a href="/methods/answerguestquery">answerGuestQuery</a>
-<div><div>
-
-Answer a guest query.
 
 </div></div>
 <div class="descr-list-border"></div>
