@@ -69,6 +69,13 @@ A list of blocked users.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/botaccesssettings">BotAccessSettings</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/botcommand">BotCommand</a>
 <div><div>
 

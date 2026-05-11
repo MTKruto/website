@@ -1277,6 +1277,13 @@ Send an inline query.
 ## Managed Bots
 <div class="descr-list">
 
+<a href="/gh/methods/getmanagedbotaccesssettings">getManagedBotAccessSettings</a>
+<div><div>
+
+Set the access settings of a managed bot.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getmanagedbottoken">getManagedBotToken</a>
 <div><div>
 
@@ -1288,6 +1295,13 @@ Get the token of a managed bot.
 <div><div>
 
 Revoke the token of a managed bot.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setmanagedbotaccesssettings">setManagedBotAccessSettings</a>
+<div><div>
+
+Set the access settings of a managed bot.
 
 </div></div>
 <div class="descr-list-border"></div>
