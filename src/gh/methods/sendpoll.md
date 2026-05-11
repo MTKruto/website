@@ -101,6 +101,10 @@ Whether it is allowed for options to be added. Not supported for anonymous polls
 
 The codes of the countries where the poll is available in.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isSubscriberOnly" data-anchor="true"><span class="font-bold">isSubscriberOnly</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether only channel subscribers can vote in the poll.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isSilent" data-anchor="true"><span class="font-bold">isSilent</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether to send the message in a silent way without making a sound on the recipients' clients.
@@ -180,6 +184,7 @@ await client.sendPoll(chatId, question, options, {
     isResultHidden,
     isAddingOptionsAllowed,
     countries,
+    isSubscriberOnly,
     isSilent,
     isContentProtected,
     replyTo,
