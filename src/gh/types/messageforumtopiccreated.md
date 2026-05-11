@@ -125,6 +125,10 @@ Whether the message is scheduled.
 
 The message's self-destruct preference.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_for" data-anchor="true"><span class="font-bold">for</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/chatp">ChatP</a></div></div><div class="pl-3"><div class="no-margin">
+
+If this message is a guest message, the user or chat that triggered it.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;forumTopicCreated&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_forumTopicCreated" data-anchor="true"><span class="font-bold">forumTopicCreated</span><span class="opacity-50">:</span> <span class="font-mono">{ <span class="font-bold">name</span><span class="opacity-50">:</span> <span>string</span><span class="opacity-50">;</span> <span class="font-bold">color</span><span class="opacity-50">:</span> <span>number</span><span class="opacity-50">;</span> <span class="font-bold">customEmojiId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span> }</span></div></div><div class="pl-3"><div class="no-margin">
 
 Information on the created forum topic.
