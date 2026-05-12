@@ -1570,6 +1570,13 @@ Send an invoice.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/sendlivephoto">sendLivePhoto</a>
+<div><div>
+
+Send a live photo.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/sendlocation">sendLocation</a>
 <div><div>
 
