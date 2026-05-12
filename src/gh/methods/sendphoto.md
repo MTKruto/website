@@ -21,6 +21,10 @@ The photo to send.
 
 The photo's self-destruct preference.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_video" data-anchor="true"><span class="font-bold">video</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/filesource">FileSource</a></div></div><div class="pl-3"><div class="no-margin">
+
+The live photo's video. If specified, the photo will be a live photo.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_caption" data-anchor="true"><span class="font-bold">caption</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
 The caption to attach.
@@ -125,6 +129,7 @@ await client.sendPhoto(chatId, photo);
 // Any of the optional parameters can be omitted.
 await client.sendPhoto(chatId, photo, {
     selfDestruct,
+    video,
     caption,
     captionEntities,
     parseMode,
