@@ -10,6 +10,7 @@ Any type of message.
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/types/messagetext">MessageText</a>
 <span class="opacity-50">|</span> <a href="/types/messagelink">MessageLink</a>
 <span class="opacity-50">|</span> <a href="/types/messagephoto">MessagePhoto</a>
+<span class="opacity-50">|</span> <a href="/types/messagelivephoto">MessageLivePhoto</a>
 <span class="opacity-50">|</span> <a href="/types/messagedocument">MessageDocument</a>
 <span class="opacity-50">|</span> <a href="/types/messagevideo">MessageVideo</a>
 <span class="opacity-50">|</span> <a href="/types/messagesticker">MessageSticker</a>

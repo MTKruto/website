@@ -125,6 +125,10 @@ Whether the message is scheduled.
 
 The message's self-destruct preference.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_for" data-anchor="true"><span class="font-bold">for</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/chatp">ChatP</a></div></div><div class="pl-3"><div class="no-margin">
+
+If this message is a guest message, the user or chat that triggered it.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;invoice&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_invoice" data-anchor="true"><span class="font-bold">invoice</span><span class="opacity-50">:</span> <a href="/types/invoice">Invoice</a></div></div><div class="pl-3"><div class="no-margin">
 
 The invoice included in the message.

@@ -1277,6 +1277,13 @@ Send an inline query.
 ## Managed Bots
 <div class="descr-list">
 
+<a href="/methods/getmanagedbotaccesssettings">getManagedBotAccessSettings</a>
+<div><div>
+
+Set the access settings of a managed bot.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getmanagedbottoken">getManagedBotToken</a>
 <div><div>
 
@@ -1288,6 +1295,13 @@ Get the token of a managed bot.
 <div><div>
 
 Revoke the token of a managed bot.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setmanagedbotaccesssettings">setManagedBotAccessSettings</a>
+<div><div>
+
+Set the access settings of a managed bot.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1553,6 +1567,13 @@ Send a document.
 <div><div>
 
 Send an invoice.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/sendlivephoto">sendLivePhoto</a>
+<div><div>
+
+Send a live photo.
 
 </div></div>
 <div class="descr-list-border"></div>
