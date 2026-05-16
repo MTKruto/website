@@ -49,6 +49,13 @@ Check the availability of a username.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/deleteaccount">deleteAccount</a>
+<div><div>
+
+Delete the current account.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/disablesponsoredmessages">disableSponsoredMessages</a>
 <div><div>
 
