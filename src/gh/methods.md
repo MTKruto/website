@@ -1451,6 +1451,13 @@ Retrieve a single message.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getmessagecounters">getMessageCounters</a>
+<div><div>
+
+Get the counters of a single message.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getmessagereactions">getMessageReactions</a>
 <div><div>
 
@@ -1462,6 +1469,13 @@ Get a list of reactions made to a message.
 <div><div>
 
 Retrieve multiple messages.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getmessagescounters">getMessagesCounters</a>
+<div><div>
+
+Get the counters of multiple messages.
 
 </div></div>
 <div class="descr-list-border"></div>

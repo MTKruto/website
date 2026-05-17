@@ -594,6 +594,13 @@ The content of a message in an inline query result.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/messagecounters">MessageCounters</a>
+<div><div>
+
+The counters of a message.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/messagedraft">MessageDraft</a>
 <div><div>
 
