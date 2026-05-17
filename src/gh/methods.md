@@ -1724,6 +1724,20 @@ Unpin all pinned messages.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/viewmessage">viewMessage</a>
+<div><div>
+
+View a single message.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/viewmessages">viewMessages</a>
+<div><div>
+
+View multiple messages.
+
+</div></div>
+<div class="descr-list-border"></div>
 
 </div>
 
