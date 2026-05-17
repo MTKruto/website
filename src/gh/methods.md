@@ -1710,6 +1710,34 @@ Transcribe a voice message.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/translatemessage">translateMessage</a>
+<div><div>
+
+Translate a single text.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/translatemessages">translateMessages</a>
+<div><div>
+
+Translate multiple texts.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/translatetext">translateText</a>
+<div><div>
+
+Translate a single text.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/translatetexts">translateTexts</a>
+<div><div>
+
+Translate multiple texts.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/unpinmessage">unpinMessage</a>
 <div><div>
 
