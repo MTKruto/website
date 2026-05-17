@@ -993,6 +993,13 @@ Configuration for switching to inline mode in specific chat types.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/texttotranslate">TextToTranslate</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/thumbnail">Thumbnail</a>
 <div><div>
 
@@ -1011,6 +1018,13 @@ A timezone.
 <div><div>
 
 A forum topic.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/translatedtext">TranslatedText</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>

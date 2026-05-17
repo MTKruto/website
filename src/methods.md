@@ -49,6 +49,13 @@ Check the availability of a username.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/deleteaccount">deleteAccount</a>
+<div><div>
+
+Delete the current account.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/disablesponsoredmessages">disableSponsoredMessages</a>
 <div><div>
 
@@ -1703,6 +1710,34 @@ Transcribe a voice message.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/translatemessage">translateMessage</a>
+<div><div>
+
+Translate a single text.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/translatemessages">translateMessages</a>
+<div><div>
+
+Translate multiple texts.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/translatetext">translateText</a>
+<div><div>
+
+Translate a single text.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/translatetexts">translateTexts</a>
+<div><div>
+
+Translate multiple texts.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/unpinmessage">unpinMessage</a>
 <div><div>
 
@@ -1714,6 +1749,20 @@ Unpin a pinned message.
 <div><div>
 
 Unpin all pinned messages.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/viewmessage">viewMessage</a>
+<div><div>
+
+View a single message.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/viewmessages">viewMessages</a>
+<div><div>
+
+View multiple messages.
 
 </div></div>
 <div class="descr-list-border"></div>
