@@ -34,6 +34,13 @@ An audio file.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/authorizationsession">AuthorizationSession</a>
+<div><div>
+
+An authorization session.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/authorizationstate">AuthorizationState</a>
 <div><div>
 
