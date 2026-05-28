@@ -34,6 +34,13 @@ An audio file.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/authorizationsession">AuthorizationSession</a>
+<div><div>
+
+An authorization session.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/authorizationstate">AuthorizationState</a>
 <div><div>
 
@@ -591,6 +598,13 @@ Any type of message.
 <div><div>
 
 The content of a message in an inline query result.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/messagecounters">MessageCounters</a>
+<div><div>
+
+The counters of a message.
 
 </div></div>
 <div class="descr-list-border"></div>

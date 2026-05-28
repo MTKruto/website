@@ -84,6 +84,13 @@ Get app support name.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getauthorizationsessions">getAuthorizationSessions</a>
+<div><div>
+
+Get the authorization sessions.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getblockedusers">getBlockedUsers</a>
 <div><div>
 
@@ -158,6 +165,20 @@ Hide all usernames from a supergroup or a channel's profile.
 <div><div>
 
 Pause the business bot in a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/removeauthorizationsession">removeAuthorizationSession</a>
+<div><div>
+
+Remove an authorization session.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/removeauthorizationsessions">removeAuthorizationSessions</a>
+<div><div>
+
+Remove all authorization sessions except for the current one.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1451,6 +1472,13 @@ Retrieve a single message.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getmessagecounters">getMessageCounters</a>
+<div><div>
+
+Get the counters of a single message.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getmessagereactions">getMessageReactions</a>
 <div><div>
 
@@ -1462,6 +1490,13 @@ Get a list of reactions made to a message.
 <div><div>
 
 Retrieve multiple messages.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getmessagescounters">getMessagesCounters</a>
+<div><div>
+
+Get the counters of multiple messages.
 
 </div></div>
 <div class="descr-list-border"></div>
