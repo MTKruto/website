@@ -1964,6 +1964,13 @@ Delete a sticker set.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getdicestickerset">getDiceStickerSet</a>
+<div><div>
+
+Get a dice sticker set.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getstickerset">getStickerSet</a>
 <div><div>
 
