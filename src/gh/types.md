@@ -720,6 +720,13 @@ Information on an order.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/pageblock">PageBlock</a>
+<div><div>
+
+Any type of page block.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/parsemode">ParseMode</a>
 <div><div>
 
@@ -843,6 +850,13 @@ Information on a message that another message is replying to.
 <div><div>
 
 The reason for restricting an entity.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/richtextcomponent">RichTextComponent</a>
+<div><div>
+
+Any type of rich text component.
 
 </div></div>
 <div class="descr-list-border"></div>
