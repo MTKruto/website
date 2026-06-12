@@ -1661,6 +1661,13 @@ Send a poll.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/sendrichtext">sendRichText</a>
+<div><div>
+
+Send a rich text message.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/sendscheduledmessage">sendScheduledMessage</a>
 <div><div>
 

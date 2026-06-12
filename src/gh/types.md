@@ -496,6 +496,13 @@ A poll option to be provided as an input.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/inputrichtext">InputRichText</a>
+<div><div>
+
+Any type of input rich text.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/inputsticker">InputSticker</a>
 <div><div>
 
