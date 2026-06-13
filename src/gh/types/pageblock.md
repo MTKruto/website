@@ -23,6 +23,7 @@ Any type of page block.
 <span class="opacity-50">|</span> <a href="/gh/types/pageblockpullquote">PageBlockPullQuote</a>
 <span class="opacity-50">|</span> <a href="/gh/types/pageblockphoto">PageBlockPhoto</a>
 <span class="opacity-50">|</span> <a href="/gh/types/pageblockvideo">PageBlockVideo</a>
+<span class="opacity-50">|</span> <a href="/gh/types/pageblockanimation">PageBlockAnimation</a>
 <span class="opacity-50">|</span> <a href="/gh/types/pageblockcover">PageBlockCover</a>
 <span class="opacity-50">|</span> <a href="/gh/types/pageblockembed">PageBlockEmbed</a>
 <span class="opacity-50">|</span> <a href="/gh/types/pageblockembedpost">PageBlockEmbedPost</a>
@@ -30,6 +31,7 @@ Any type of page block.
 <span class="opacity-50">|</span> <a href="/gh/types/pageblockslideshow">PageBlockSlideshow</a>
 <span class="opacity-50">|</span> <a href="/gh/types/pageblockchannel">PageBlockChannel</a>
 <span class="opacity-50">|</span> <a href="/gh/types/pageblockaudio">PageBlockAudio</a>
+<span class="opacity-50">|</span> <a href="/gh/types/pageblockvoice">PageBlockVoice</a>
 <span class="opacity-50">|</span> <a href="/gh/types/pageblockkicker">PageBlockKicker</a>
 <span class="opacity-50">|</span> <a href="/gh/types/pageblocktable">PageBlockTable</a>
 <span class="opacity-50">|</span> <a href="/gh/types/pageblockorderedlist">PageBlockOrderedList</a>

@@ -1668,6 +1668,13 @@ Send a rich text message.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/sendrichtextdraft">sendRichTextDraft</a>
+<div><div>
+
+Stream a drafted rich text message.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/sendscheduledmessage">sendScheduledMessage</a>
 <div><div>
 
