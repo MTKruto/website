@@ -56,5 +56,6 @@ Any type of message.
 <span class="opacity-50">|</span> <a href="/types/messagegiftnonupgraded">MessageGiftNonUpgraded</a>
 <span class="opacity-50">|</span> <a href="/types/messagegiftupgraded">MessageGiftUpgraded</a>
 <span class="opacity-50">|</span> <a href="/types/messagepolloptionadded">MessagePollOptionAdded</a>
-<span class="opacity-50">|</span> <a href="/types/messagepolloptionremoved">MessagePollOptionRemoved</a></div>
+<span class="opacity-50">|</span> <a href="/types/messagepolloptionremoved">MessagePollOptionRemoved</a>
+<span class="opacity-50">|</span> <a href="/types/messagerichtext">MessageRichText</a></div>
 

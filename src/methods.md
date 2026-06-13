@@ -1661,6 +1661,20 @@ Send a poll.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/sendrichtext">sendRichText</a>
+<div><div>
+
+Send a rich text message.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/sendrichtextdraft">sendRichTextDraft</a>
+<div><div>
+
+Stream a drafted rich text message.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/sendscheduledmessage">sendScheduledMessage</a>
 <div><div>
 
