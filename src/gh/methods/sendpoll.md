@@ -29,6 +29,10 @@ The entities of the poll's question.
 
 The parse mode to use for the poll's question. If omitted, the default parse mode will be used.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_media" data-anchor="true"><span class="font-bold">media</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/inputpollmedia">InputPollMedia</a></div></div><div class="pl-3"><div class="no-margin">
+
+A media to attach.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isAnonymous" data-anchor="true"><span class="font-bold">isAnonymous</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the poll should be anonymous.
@@ -56,6 +60,10 @@ The parse mode to use for the explanation. if omitted, the default parse mode wi
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_explanationEntities" data-anchor="true"><span class="font-bold">explanationEntities</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/messageentity">MessageEntity</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
 The explanation's entities.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_explanationMedia" data-anchor="true"><span class="font-bold">explanationMedia</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/inputpollmedia">InputPollMedia</a></div></div><div class="pl-3"><div class="no-margin">
+
+The explanation's media.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_description" data-anchor="true"><span class="font-bold">description</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
@@ -166,6 +174,7 @@ await client.sendPoll(chatId, question, options);
 await client.sendPoll(chatId, question, options, {
     questionEntities,
     questionParseMode,
+    media,
     isAnonymous,
     type,
     isMultipleAnswersAllowed,
@@ -173,6 +182,7 @@ await client.sendPoll(chatId, question, options, {
     explanation,
     explanationParseMode,
     explanationEntities,
+    explanationMedia,
     description,
     descriptionParseMode,
     descriptionEntities,

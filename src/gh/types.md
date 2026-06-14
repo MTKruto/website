@@ -489,17 +489,17 @@ An input media.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/inputpollmedia">InputPollMedia</a>
+<div><div>
+
+A poll option input media.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/inputpolloption">InputPollOption</a>
 <div><div>
 
 A poll option to be provided as an input.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/inputpolloptionmedia">InputPollOptionMedia</a>
-<div><div>
-
-A poll option input media.
 
 </div></div>
 <div class="descr-list-border"></div>
