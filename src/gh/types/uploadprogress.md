@@ -21,5 +21,9 @@ Uploaded byte count.
 
 Total byte count if available, otherwise 0.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isUploaded" data-anchor="true"><span class="font-bold">isUploaded</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the file is completely uploaded.
+
 </div></div></div></div>
 
