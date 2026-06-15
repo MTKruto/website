@@ -17,6 +17,10 @@ The identifier of the message.
 
 The identifier of the message's thread.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_directMessagesTopicId" data-anchor="true"><span class="font-bold">directMessagesTopicId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of the direct message's topic.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_from" data-anchor="true"><span class="font-bold">from</span><span class="opacity-50">:</span> <a href="/gh/types/chatp">ChatP</a></div></div><div class="pl-3"><div class="no-margin">
 
 The sender of the message.

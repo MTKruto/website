@@ -17,7 +17,11 @@ The identifier of the chat including the album.
 
 The identifier of an album.
 
-</div></div></div><div><div class="font-mono" id="p_storyId" data-anchor="true"><span class="font-bold">storyId</span><span class="opacity-50">:</span> <span>number</span></div></div></div>
+</div></div></div><div><div class="font-mono" id="p_storyId" data-anchor="true"><span class="font-bold">storyId</span><span class="opacity-50">:</span> <span>number</span></div><div class="pl-3"><div class="no-margin">
+
+The identifier of the story to remove.
+
+</div></div></div></div>
 
 ### Result 
 

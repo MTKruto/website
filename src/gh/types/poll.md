@@ -47,7 +47,7 @@ Whether the poll allows multiple answers.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_correctOptionIndexes" data-anchor="true"><span class="font-bold">correctOptionIndexes</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
-The indexes of correct options.
+The indexes of the correct options.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_explanation" data-anchor="true"><span class="font-bold">explanation</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 

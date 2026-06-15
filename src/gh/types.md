@@ -681,7 +681,7 @@ An item in a reaction list.
 <a href="/gh/types/messagereactions">MessageReactions</a>
 <div><div>
 
-The reactions of a user to a messages in a group.
+The reactions of a user to a message in a group.
 
 </div></div>
 <div class="descr-list-border"></div>

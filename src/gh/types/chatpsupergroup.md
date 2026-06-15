@@ -53,5 +53,9 @@ The reason why the chat or channel has been restricted.
 
 Whether the chat is a forum.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isDirectMessagesChat" data-anchor="true"><span class="font-bold">isDirectMessagesChat</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the chat is a channel's direct messages.
+
 </div></div></div></div>
 

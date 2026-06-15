@@ -45,6 +45,10 @@ Information on what the message is replying to.
 
 The identifier of a thread to send the message to.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_directMessagesTopicId" data-anchor="true"><span class="font-bold">directMessagesTopicId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of the direct messages topic that is being replied to.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_sendAs" data-anchor="true"><span class="font-bold">sendAs</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/id">ID</a></div></div><div class="pl-3"><div class="no-margin">
 
 The identifier of a chat to send the message on behalf of. User-only.
@@ -94,6 +98,7 @@ await client.sendContact(chatId, firstName, number, {
     isContentProtected,
     replyTo,
     messageThreadId,
+    directMessagesTopicId,
     sendAs,
     effectId,
     sendAt,
