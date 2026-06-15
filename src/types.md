@@ -489,6 +489,13 @@ An input media.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/inputpollmedia">InputPollMedia</a>
+<div><div>
+
+A poll option input media.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/inputpolloption">InputPollOption</a>
 <div><div>
 
@@ -674,7 +681,7 @@ An item in a reaction list.
 <a href="/types/messagereactions">MessageReactions</a>
 <div><div>
 
-The reactions of a user to a messages in a group.
+The reactions of a user to a message in a group.
 
 </div></div>
 <div class="descr-list-border"></div>

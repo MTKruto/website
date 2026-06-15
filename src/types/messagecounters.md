@@ -15,7 +15,7 @@ The number of times the message was viewed.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_replies" data-anchor="true"><span class="font-bold">replies</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The number of replies made to the messages.
+The number of replies made to the message.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_forwards" data-anchor="true"><span class="font-bold">forwards</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 

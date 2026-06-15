@@ -23,7 +23,7 @@ The checklist's items.
 
 </div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_titleEntities" data-anchor="true"><span class="font-bold">titleEntities</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/messageentity">MessageEntity</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
-The entities of the to-do list's title.
+The entities of the checklist list's title.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_titleParseMode" data-anchor="true"><span class="font-bold">titleParseMode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/parsemode">ParseMode</a></div></div><div class="pl-3"><div class="no-margin">
 
@@ -31,11 +31,11 @@ The parse mode to use for the title. If omitted, the default parse mode will be 
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isExtendableByOthers" data-anchor="true"><span class="font-bold">isExtendableByOthers</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
-Whether users other than the creator of the to-do list can add more items.
+Whether users other than the creator of the checklist list can add more items.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isCompletableByOthers" data-anchor="true"><span class="font-bold">isCompletableByOthers</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
-Whether users other than the creator of the to-do list can mark items as completed.
+Whether users other than the creator of the checklist list can mark items as completed.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isSilent" data-anchor="true"><span class="font-bold">isSilent</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
@@ -52,6 +52,10 @@ Information on what the message is replying to.
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_messageThreadId" data-anchor="true"><span class="font-bold">messageThreadId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 The identifier of a thread to send the message to.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_directMessagesTopicId" data-anchor="true"><span class="font-bold">directMessagesTopicId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of the direct messages topic that is being replied to.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_sendAs" data-anchor="true"><span class="font-bold">sendAs</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/id">ID</a></div></div><div class="pl-3"><div class="no-margin">
 
@@ -100,6 +104,7 @@ await client.sendChecklist(chatId, title, items, {
     isContentProtected,
     replyTo,
     messageThreadId,
+    directMessagesTopicId,
     sendAs,
     effectId,
     sendAt,

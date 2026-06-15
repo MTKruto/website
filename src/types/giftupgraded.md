@@ -48,7 +48,7 @@ The components of the gift.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_address" data-anchor="true"><span class="font-bold">address</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
-The address of the gift in TON blockchain.
+The address of the gift on TON blockchain.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_price" data-anchor="true"><span class="font-bold">price</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 

@@ -1444,6 +1444,13 @@ Edit a message's reply markup.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/editmessagerichtext">editMessageRichText</a>
+<div><div>
+
+Edit a message's rich text.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/editmessagetext">editMessageText</a>
 <div><div>
 
