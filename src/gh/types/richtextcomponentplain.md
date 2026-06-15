@@ -2,10 +2,10 @@
 title: RichTextComponentPlain
 parent: /types
 metas:
-  description: An plain rich text component.
+  description: A plain rich text component.
 ---
 
-An plain rich text component.
+A plain rich text component.
 
 ### Properties
 
