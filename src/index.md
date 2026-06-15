@@ -42,8 +42,8 @@ Its key features include:
 - [Log Verbosity](/log-verbosity) {{ "/log-verbosity" |> i }}
 - [Splitting Code](/splitting-code) {{ "/splitting-code" |> i }}
 - [Storage Adapters](/storage-adapters) {{ "/storage-adapters" |> i }}
-- [Web Workers](/web-workers)
-- [Proxies](/proxies)
+- [Web Workers](/web-workers) {{ "/web-workers" |> i }}
+- [Proxies](/proxies) {{ "/proxies" |> i }}
 
 ### API Reference
 
