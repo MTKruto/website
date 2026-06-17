@@ -133,25 +133,5 @@ The message's self-destruct preference.
 
 If this message is a guest message, the user or chat that triggered it.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;richText&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_blocks" data-anchor="true"><span class="font-bold">blocks</span><span class="opacity-50">:</span> <a href="/gh/types/pageblock">PageBlock</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
-
-The blocks of the rich text.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isRtl" data-anchor="true"><span class="font-bold">isRtl</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
-
-Whether the rich text is right-to-left.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isPartial" data-anchor="true"><span class="font-bold">isPartial</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
-
-Whether the rich text is partial.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_photos" data-anchor="true"><span class="font-bold">photos</span><span class="opacity-50">:</span> <a href="/gh/types/photo">Photo</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
-
-The photos included in the rich text.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_documents" data-anchor="true"><span class="font-bold">documents</span><span class="opacity-50">:</span> <a href="/gh/types/document">Document</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
-
-The documents included in the rich text.
-
-</div></div></div></div>
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;richText&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_richText" data-anchor="true"><span class="font-bold">richText</span><span class="opacity-50">:</span> <a href="/gh/types/richtext">RichText</a></div></div></div></div>
 

@@ -1514,6 +1514,13 @@ Get a progress ID that can be passed to relevant send* methods to receive upload
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getrichtext">getRichText</a>
+<div><div>
+
+Get a message's full rich text.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getsavedchats">getSavedChats</a>
 <div><div>
 

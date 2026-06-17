@@ -874,6 +874,13 @@ The reason for restricting an entity.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/richtext">RichText</a>
+<div><div>
+
+A message's rich text.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/richtextcomponent">RichTextComponent</a>
 <div><div>
 
