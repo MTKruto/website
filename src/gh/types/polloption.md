@@ -33,5 +33,13 @@ Whether this option has been chosen.
 
 The option's media.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_addedBy" data-anchor="true"><span class="font-bold">addedBy</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/chatp">ChatP</a></div></div><div class="pl-3"><div class="no-margin">
+
+The user or chat which added the poll option.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_addedAt" data-anchor="true"><span class="font-bold">addedAt</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+A point in time when the poll option was added.
+
 </div></div></div></div>
 
