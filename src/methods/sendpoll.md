@@ -55,7 +55,7 @@ A text that will be shown to the user when the poll is answered. Only valid for 
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_explanationParseMode" data-anchor="true"><span class="font-bold">explanationParseMode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/parsemode">ParseMode</a></div></div><div class="pl-3"><div class="no-margin">
 
-The parse mode to use for the explanation. if omitted, the default parse mode will be used.
+The parse mode to use for the explanation. If omitted, the default parse mode will be used.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_explanationEntities" data-anchor="true"><span class="font-bold">explanationEntities</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/messageentity">MessageEntity</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 

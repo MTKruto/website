@@ -2,10 +2,10 @@
 title: RichTextComponentMention
 parent: /types
 metas:
-  description: An rich text component that mentions a username.
+  description: A rich text component that mentions a username.
 ---
 
-An rich text component that mentions a username.
+A rich text component that mentions a username.
 
 ### Properties
 

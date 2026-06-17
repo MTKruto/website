@@ -15,7 +15,7 @@ The emoji on which the dice is based on.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_value" data-anchor="true"><span class="font-bold">value</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The result of the roll, which is in the range of 1-6 for the emojis "🎲", "🎯" and "🎳",  1-5 for the emojis "🏀" and "⚽", and 1-64 for emoji "🎰".
+The result of the roll, which is in the range of 1-6 for the emojis "🎲", "🎯" and "🎳", 1-5 for the emojis "🏀" and "⚽", and 1-64 for the emoji "🎰".
 
 </div></div></div></div>
 

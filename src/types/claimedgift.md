@@ -35,7 +35,7 @@ The entities of the message.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_messageId" data-anchor="true"><span class="font-bold">messageId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The identifier of the service message announcing the receival of the gift.
+The identifier of the service message announcing the receipt of the gift.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_conversionStars" data-anchor="true"><span class="font-bold">conversionStars</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 

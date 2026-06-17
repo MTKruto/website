@@ -2,10 +2,10 @@
 title: RichTextComponentSpoiler
 parent: /types
 metas:
-  description: An rich text component that displays a spoiler.
+  description: A rich text component that displays a spoiler.
 ---
 
-An rich text component that displays a spoiler.
+A rich text component that displays a spoiler.
 
 ### Properties
 

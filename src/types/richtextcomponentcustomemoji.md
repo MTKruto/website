@@ -2,10 +2,10 @@
 title: RichTextComponentCustomEmoji
 parent: /types
 metas:
-  description: An rich text component that displays a custom emoji.
+  description: A rich text component that displays a custom emoji.
 ---
 
-An rich text component that displays a custom emoji.
+A rich text component that displays a custom emoji.
 
 ### Properties
 

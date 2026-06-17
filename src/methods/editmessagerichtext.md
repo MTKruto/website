@@ -25,18 +25,6 @@ The new rich text of the message.
 
 The identifier of a business connection to perform the action on. Bot-only.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_parseMode" data-anchor="true"><span class="font-bold">parseMode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/parsemode">ParseMode</a></div></div><div class="pl-3"><div class="no-margin">
-
-The parse mode to use. If omitted, the default parse mode will be used.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_entities" data-anchor="true"><span class="font-bold">entities</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/messageentity">MessageEntity</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
-
-The message's entities.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_linkPreview" data-anchor="true"><span class="font-bold">linkPreview</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/linkpreview">LinkPreview</a></div></div><div class="pl-3"><div class="no-margin">
-
-The message's link preview.
-
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_replyMarkup" data-anchor="true"><span class="font-bold">replyMarkup</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/replymarkup">ReplyMarkup</a></div></div><div class="pl-3"><div class="no-margin">
 
 The reply markup of the message. Bot-only.
@@ -61,9 +49,6 @@ await client.editMessageRichText(chatId, messageId, richText);
 // Any of the optional parameters can be omitted.
 await client.editMessageRichText(chatId, messageId, richText, {
     businessConnectionId,
-    parseMode,
-    entities,
-    linkPreview,
     replyMarkup,
 });
 ```

@@ -2,10 +2,10 @@
 title: RichTextComponentMath
 parent: /types
 metas:
-  description: An rich text component that displays a mathematical expression.
+  description: A rich text component that displays a mathematical expression.
 ---
 
-An rich text component that displays a mathematical expression.
+A rich text component that displays a mathematical expression.
 
 ### Properties
 

@@ -29,5 +29,17 @@ Number of users that voted this option.
 
 Whether this option has been chosen.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_media" data-anchor="true"><span class="font-bold">media</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/pollmedia">PollMedia</a></div></div><div class="pl-3"><div class="no-margin">
+
+The option's media.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_addedBy" data-anchor="true"><span class="font-bold">addedBy</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/chatp">ChatP</a></div></div><div class="pl-3"><div class="no-margin">
+
+The user or chat which added the poll option.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_addedAt" data-anchor="true"><span class="font-bold">addedAt</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+A point in time when the poll option was added.
+
 </div></div></div></div>
 

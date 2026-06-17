@@ -2,10 +2,10 @@
 title: PageBlockList
 parent: /types
 metas:
-  description: An list page block.
+  description: A list page block.
 ---
 
-An list page block.
+A list page block.
 
 ### Properties
 

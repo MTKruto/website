@@ -776,6 +776,13 @@ An answer to a poll.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/pollmedia">PollMedia</a>
+<div><div>
+
+Any type of poll option media.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/polloption">PollOption</a>
 <div><div>
 
@@ -864,6 +871,13 @@ Information on a message that another message is replying to.
 <div><div>
 
 The reason for restricting an entity.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/richtext">RichText</a>
+<div><div>
+
+A message's rich text.
 
 </div></div>
 <div class="descr-list-border"></div>

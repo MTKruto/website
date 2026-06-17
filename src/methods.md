@@ -1409,6 +1409,13 @@ Edit an inline message's reply markup.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/editinlinemessagerichtext">editInlineMessageRichText</a>
+<div><div>
+
+Edit an inline message's rich text.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/editinlinemessagetext">editInlineMessageText</a>
 <div><div>
 
@@ -1511,6 +1518,13 @@ Get the counters of multiple messages.
 <div><div>
 
 Get a progress ID that can be passed to relevant send* methods to receive upload progress updates for them.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getrichtext">getRichText</a>
+<div><div>
+
+Get a message's full rich text.
 
 </div></div>
 <div class="descr-list-border"></div>

@@ -2,10 +2,10 @@
 title: LinkPreviewGift
 parent: /types
 metas:
-  description: An gift link preview.
+  description: A gift link preview.
 ---
 
-An gift link preview.
+A gift link preview.
 
 ### Properties
 
