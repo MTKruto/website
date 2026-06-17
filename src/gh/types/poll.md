@@ -21,6 +21,10 @@ The poll's question.
 
 The entities of the poll's question.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_media" data-anchor="true"><span class="font-bold">media</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/pollmedia">PollMedia</a></div></div><div class="pl-3"><div class="no-margin">
+
+The poll's media.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_options" data-anchor="true"><span class="font-bold">options</span><span class="opacity-50">:</span> <a href="/gh/types/polloption">PollOption</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
 The poll's options.
@@ -56,6 +60,10 @@ A text that is shown to the user when the poll is answered.
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_explanationEntities" data-anchor="true"><span class="font-bold">explanationEntities</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/messageentity">MessageEntity</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
 The explanation's entities.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_explanationMedia" data-anchor="true"><span class="font-bold">explanationMedia</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/pollmedia">PollMedia</a></div></div><div class="pl-3"><div class="no-margin">
+
+The explanation's media.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_openPeriod" data-anchor="true"><span class="font-bold">openPeriod</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
