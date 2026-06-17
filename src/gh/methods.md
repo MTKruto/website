@@ -1409,6 +1409,13 @@ Edit an inline message's reply markup.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/editinlinemessagerichtext">editInlineMessageRichText</a>
+<div><div>
+
+Edit an inline message's rich text.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/editinlinemessagetext">editInlineMessageText</a>
 <div><div>
 
