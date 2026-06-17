@@ -29,5 +29,9 @@ Number of users that voted this option.
 
 Whether this option has been chosen.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_media" data-anchor="true"><span class="font-bold">media</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/pollmedia">PollMedia</a></div></div><div class="pl-3"><div class="no-margin">
+
+The option's media.
+
 </div></div></div></div>
 

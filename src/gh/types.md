@@ -776,6 +776,13 @@ An answer to a poll.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/pollmedia">PollMedia</a>
+<div><div>
+
+Any type of poll option media.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/polloption">PollOption</a>
 <div><div>
 
