@@ -8,11 +8,6 @@ metas:
 Any type of page block.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/gh/types/pageblockunsupported">PageBlockUnsupported</a>
-<span class="opacity-50">|</span> <a href="/gh/types/pageblocktitle">PageBlockTitle</a>
-<span class="opacity-50">|</span> <a href="/gh/types/pageblocksubtitle">PageBlockSubtitle</a>
-<span class="opacity-50">|</span> <a href="/gh/types/pageblockauthordate">PageBlockAuthorDate</a>
-<span class="opacity-50">|</span> <a href="/gh/types/pageblockheader">PageBlockHeader</a>
-<span class="opacity-50">|</span> <a href="/gh/types/pageblocksubheader">PageBlockSubheader</a>
 <span class="opacity-50">|</span> <a href="/gh/types/pageblockparagraph">PageBlockParagraph</a>
 <span class="opacity-50">|</span> <a href="/gh/types/pageblockpre">PageBlockPre</a>
 <span class="opacity-50">|</span> <a href="/gh/types/pageblockfooter">PageBlockFooter</a>
@@ -36,7 +31,6 @@ Any type of page block.
 <span class="opacity-50">|</span> <a href="/gh/types/pageblocktable">PageBlockTable</a>
 <span class="opacity-50">|</span> <a href="/gh/types/pageblockorderedlist">PageBlockOrderedList</a>
 <span class="opacity-50">|</span> <a href="/gh/types/pageblockdetails">PageBlockDetails</a>
-<span class="opacity-50">|</span> <a href="/gh/types/pageblockrelatedarticles">PageBlockRelatedArticles</a>
 <span class="opacity-50">|</span> <a href="/gh/types/pageblockmap">PageBlockMap</a>
 <span class="opacity-50">|</span> <a href="/gh/types/pageblockheading1">PageBlockHeading1</a>
 <span class="opacity-50">|</span> <a href="/gh/types/pageblockheading2">PageBlockHeading2</a>
