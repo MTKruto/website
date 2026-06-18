@@ -23,7 +23,7 @@ The entities of the option's text.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_voterCount" data-anchor="true"><span class="font-bold">voterCount</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-Number of users that voted this option.
+Number of users that voted for this option.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isChosen" data-anchor="true"><span class="font-bold">isChosen</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
