@@ -11,7 +11,7 @@ A rolled dice.
 
 <div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_emoji" data-anchor="true"><span class="font-bold">emoji</span><span class="opacity-50">:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
-The emoji on which the dice is based on.
+The emoji on which the dice is based.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_value" data-anchor="true"><span class="font-bold">value</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 

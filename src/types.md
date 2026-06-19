@@ -867,6 +867,83 @@ Information on a message that another message is replying to.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/reportreason">ReportReason</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/reportreasonchildabuse">ReportReasonChildAbuse</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/reportreasoncopyright">ReportReasonCopyright</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/reportreasonfake">ReportReasonFake</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/reportreasonillegaldrugs">ReportReasonIllegalDrugs</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/reportreasonlocationirrelevant">ReportReasonLocationIrrelevant</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/reportreasonother">ReportReasonOther</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/reportreasonpersonaldetails">ReportReasonPersonalDetails</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/reportreasonpornography">ReportReasonPornography</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/reportreasonspam">ReportReasonSpam</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/reportreasonviolence">ReportReasonViolence</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/restrictionreason">RestrictionReason</a>
 <div><div>
 
@@ -1025,6 +1102,41 @@ Represents a type of reaction made to a story.
 <div><div>
 
 Reference to a story.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/storyreportoption">StoryReportOption</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/storyreportresult">StoryReportResult</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/storyreportresultoptionrequired">StoryReportResultOptionRequired</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/storyreportresultreported">StoryReportResultReported</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/storyreportresulttextrequired">StoryReportResultTextRequired</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>

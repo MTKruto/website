@@ -900,6 +900,13 @@ Reopen a forum topic.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/reportchat">reportChat</a>
+<div><div>
+
+Report a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/setavailablereactions">setAvailableReactions</a>
 <div><div>
 
@@ -1339,10 +1346,31 @@ Set the access settings of a managed bot.
 ## Messages
 <div class="descr-list">
 
+<a href="/methods/addstickertofavorites">addStickerToFavorites</a>
+<div><div>
+
+Add a sticker to favorites.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/addstickertorecents">addStickerToRecents</a>
+<div><div>
+
+Add a sticker to recents.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/cleardrafts">clearDrafts</a>
 <div><div>
 
 Clear all message drafts.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/clearrecentstickers">clearRecentStickers</a>
+<div><div>
+
+Clear recent stickers.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1479,6 +1507,13 @@ Forward multiple messages.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getfavoritestickers">getFavoriteStickers</a>
+<div><div>
+
+Get favorite stickers.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getmessage">getMessage</a>
 <div><div>
 
@@ -1521,10 +1556,24 @@ Get a progress ID that can be passed to relevant send* methods to receive upload
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getrecentstickers">getRecentStickers</a>
+<div><div>
+
+Get recent stickers.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getrichtext">getRichText</a>
 <div><div>
 
 Get a message's full rich text.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getsavedanimations">getSavedAnimations</a>
+<div><div>
+
+Get saved animations.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1539,6 +1588,13 @@ Get a list of saved chats.
 <div><div>
 
 Get messages saved from a specific chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getscheduledmessages">getScheduledMessages</a>
+<div><div>
+
+Get the scheduled messages of a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1563,10 +1619,31 @@ Mark messages as read.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/removestickerfromfavorites">removeStickerFromFavorites</a>
+<div><div>
+
+Remove a sticker from favorites.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/removestickerfromrecents">removeStickerFromRecents</a>
+<div><div>
+
+Remove a sticker from recents.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/resolvemessagelink">resolveMessageLink</a>
 <div><div>
 
 Retrieve a message using its link.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/saveanimation">saveAnimation</a>
+<div><div>
+
+Save an animation.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1819,6 +1896,13 @@ Unpin a pinned message.
 <div><div>
 
 Unpin all pinned messages.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/unsaveanimation">unsaveAnimation</a>
+<div><div>
+
+Unsave an animation.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -2128,6 +2212,20 @@ Remove multiple stories from highlights.
 <div><div>
 
 Remove a single story from highlights.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/reportstories">reportStories</a>
+<div><div>
+
+Report multiple stories.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/reportstory">reportStory</a>
+<div><div>
+
+Report a single story.
 
 </div></div>
 <div class="descr-list-border"></div>

@@ -1,0 +1,9 @@
+---
+title: StoryReportResult
+parent: /types
+---
+
+<div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/types/storyreportresultoptionrequired">StoryReportResultOptionRequired</a>
+<span class="opacity-50">|</span> <a href="/types/storyreportresulttextrequired">StoryReportResultTextRequired</a>
+<span class="opacity-50">|</span> <a href="/types/storyreportresultreported">StoryReportResultReported</a></div>
+
