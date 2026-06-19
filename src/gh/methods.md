@@ -1542,13 +1542,6 @@ Get messages saved from a specific chat.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/methods/getscheduledmessages">getScheduledMessages</a>
-<div><div>
-
-Get the scheduled messages of a chat.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/gh/methods/openminiapp">openMiniApp</a>
 <div><div>
 
