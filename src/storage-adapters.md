@@ -59,7 +59,7 @@ This storage adapter persists data inside a [Deno KV](https://docs.deno.com/kv/m
 To use it, import the `StorageDenoKV` class from the path specified below, construct it (optionally with a path provided), and pass it to the client's constructor:
 
 ```ts
-import { StorageDenoKV } from "{{ deno }}/storage/1_storage_deno_kv.ts";
+import { StorageDenoKV } from "{{ deno }}/storage-deno-kv";
 
 const client = new Client({
   storage: new StorageDenoKV(),
