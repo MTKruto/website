@@ -1570,6 +1570,13 @@ Get a message's full rich text.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getsavedanimations">getSavedAnimations</a>
+<div><div>
+
+Get saved animations.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getsavedchats">getSavedChats</a>
 <div><div>
 
@@ -1630,6 +1637,13 @@ Remove a sticker from recents.
 <div><div>
 
 Retrieve a message using its link.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/saveanimation">saveAnimation</a>
+<div><div>
+
+Save an animation.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1882,6 +1896,13 @@ Unpin a pinned message.
 <div><div>
 
 Unpin all pinned messages.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/unsaveanimation">unsaveAnimation</a>
+<div><div>
+
+Unsave an animation.
 
 </div></div>
 <div class="descr-list-border"></div>
