@@ -1486,6 +1486,13 @@ Forward multiple messages.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getfavoritestickers">getFavoriteStickers</a>
+<div><div>
+
+Get favorite stickers.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getmessage">getMessage</a>
 <div><div>
 
