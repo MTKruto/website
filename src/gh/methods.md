@@ -1346,6 +1346,13 @@ Set the access settings of a managed bot.
 ## Messages
 <div class="descr-list">
 
+<a href="/gh/methods/addstickertofavorites">addStickerToFavorites</a>
+<div><div>
+
+Add a sticker to favorites.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/cleardrafts">clearDrafts</a>
 <div><div>
 
@@ -1581,6 +1588,13 @@ Pin a message in a chat.
 <div><div>
 
 Mark messages as read.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/removestickerfromfavorites">removeStickerFromFavorites</a>
+<div><div>
+
+Remove a sticker from favorites.
 
 </div></div>
 <div class="descr-list-border"></div>
