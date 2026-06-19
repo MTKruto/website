@@ -1367,6 +1367,13 @@ Clear all message drafts.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/clearrecentstickers">clearRecentStickers</a>
+<div><div>
+
+Clear recent stickers.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/deletechatmembermessages">deleteChatMemberMessages</a>
 <div><div>
 
@@ -1546,6 +1553,13 @@ Get the counters of multiple messages.
 <div><div>
 
 Get a progress ID that can be passed to relevant send* methods to receive upload progress updates for them.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getrecentstickers">getRecentStickers</a>
+<div><div>
+
+Get recent stickers.
 
 </div></div>
 <div class="descr-list-border"></div>
