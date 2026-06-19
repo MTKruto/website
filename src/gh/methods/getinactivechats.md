@@ -11,7 +11,7 @@ Get inactive chats.<span class="select-none"> <span class="inline-flex w-fit ite
 
 <div class="font-mono"><a href="/gh/types/inactivechat">InactiveChat</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
 
-A list of inactive chats the current user is member of.
+A list of inactive chats the current user is a member of.
 
 </div></div>
 
