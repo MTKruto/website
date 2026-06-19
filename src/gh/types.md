@@ -867,6 +867,83 @@ Information on a message that another message is replying to.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/reportreason">ReportReason</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/reportreasonchildabuse">ReportReasonChildAbuse</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/reportreasoncopyright">ReportReasonCopyright</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/reportreasonfake">ReportReasonFake</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/reportreasonillegaldrugs">ReportReasonIllegalDrugs</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/reportreasonlocationirrelevant">ReportReasonLocationIrrelevant</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/reportreasonother">ReportReasonOther</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/reportreasonpersonaldetails">ReportReasonPersonalDetails</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/reportreasonpornography">ReportReasonPornography</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/reportreasonspam">ReportReasonSpam</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/reportreasonviolence">ReportReasonViolence</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/restrictionreason">RestrictionReason</a>
 <div><div>
 

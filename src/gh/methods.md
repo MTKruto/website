@@ -900,6 +900,13 @@ Reopen a forum topic.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/reportchat">reportChat</a>
+<div><div>
+
+Report a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/setavailablereactions">setAvailableReactions</a>
 <div><div>
 
