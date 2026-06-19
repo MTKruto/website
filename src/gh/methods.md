@@ -2145,6 +2145,20 @@ Remove a single story from highlights.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/reportstories">reportStories</a>
+<div><div>
+
+Report multiple stories.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/reportstory">reportStory</a>
+<div><div>
+
+Report a single story.
+
+</div></div>
+<div class="descr-list-border"></div>
 
 </div>
 

@@ -1105,6 +1105,41 @@ Reference to a story.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/storyreportoption">StoryReportOption</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/storyreportresult">StoryReportResult</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/storyreportresultoptionrequired">StoryReportResultOptionRequired</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/storyreportresultreported">StoryReportResultReported</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/storyreportresulttextrequired">StoryReportResultTextRequired</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/successfulpayment">SuccessfulPayment</a>
 <div><div>
 
