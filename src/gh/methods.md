@@ -1353,6 +1353,13 @@ Add a sticker to favorites.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/addstickertorecents">addStickerToRecents</a>
+<div><div>
+
+Add a sticker to recents.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/cleardrafts">clearDrafts</a>
 <div><div>
 
@@ -1595,6 +1602,13 @@ Mark messages as read.
 <div><div>
 
 Remove a sticker from favorites.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/removestickerfromrecents">removeStickerFromRecents</a>
+<div><div>
+
+Remove a sticker from recents.
 
 </div></div>
 <div class="descr-list-border"></div>
