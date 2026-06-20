@@ -909,6 +909,27 @@ A list of saved chats.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/secretchat">SecretChat</a>
+<div><div>
+
+Any type of secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/secretmessage">SecretMessage</a>
+<div><div>
+
+A secret chat message.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/secretmessageentity">SecretMessageEntity</a>
+<div><div>
+
+Any type of secret message entity.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/selfdestructoption">SelfDestructOption</a>
 <div><div>
 

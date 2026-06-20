@@ -2424,3 +2424,30 @@ Start a video chat.
 
 </div>
 
+## Unlisted
+<div class="descr-list">
+
+<a href="/gh/methods/acceptsecretchat">acceptSecretChat</a>
+<div><div>
+
+Accept a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/requestsecretchat">requestSecretChat</a>
+<div><div>
+
+Request a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/sendsecretchatmessage">sendSecretChatMessage</a>
+<div><div>
+
+Send a message to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
