@@ -1549,6 +1549,13 @@ Get a list of reactions made to a message.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getmessagereaddate">getMessageReadDate</a>
+<div><div>
+
+Get a message's read date.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getmessages">getMessages</a>
 <div><div>
 
