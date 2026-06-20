@@ -79,7 +79,7 @@ Whether the user is a close friend.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isScam" data-anchor="true"><span class="font-bold">isScam</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
-Whether the user has been identified as scam.
+Whether the user has been identified as a scam.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isFake" data-anchor="true"><span class="font-bold">isFake</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
