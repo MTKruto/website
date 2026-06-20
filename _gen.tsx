@@ -1,10 +1,4 @@
-import {
-  DocNodeInterface,
-  JsDocTagDoc,
-  JsDocTagUnsupported,
-  TsTypeDef,
-  TsTypeDefLiteral,
-} from "deno_doc/types.d.ts";
+import { DocNodeInterface, JsDocTagDoc, JsDocTagUnsupported, TsTypeDef, TsTypeDefLiteral } from "deno_doc/types.d.ts";
 import { getDocs } from "./_docs.ts";
 import { getMethodOptionalParams, Method } from "./_components/Method.tsx";
 import { TsType, TypeParams_ } from "./_components/TsType.tsx";
@@ -69,12 +63,14 @@ function resolveInterfaceProperties(
         continue;
       }
       const omitKeys = new Set(getLiteralStringKeys(omitted));
-      for (const property of resolveInterfaceProperties(
-        parent,
-        allInterfaces,
-        cache,
-        visiting,
-      )) {
+      for (
+        const property of resolveInterfaceProperties(
+          parent,
+          allInterfaces,
+          cache,
+          visiting,
+        )
+      ) {
         if (!omitKeys.has(property.name)) {
           extended.push(property);
         }
@@ -398,9 +394,7 @@ ${optional}`.trim()
 } // METHOD
 
 { // TYPE
-  const interfaceTypes = types.filter((v): v is DocNodeInterface =>
-    v.kind == "interface"
-  );
+  const interfaceTypes = types.filter((v): v is DocNodeInterface => v.kind == "interface");
   const interfacePropertiesCache = new Map<
     string,
     DocNodeInterface["interfaceDef"]["properties"]
