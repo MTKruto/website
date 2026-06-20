@@ -872,6 +872,20 @@ Leave a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/markchatasread">markChatAsRead</a>
+<div><div>
+
+Mark a chat as read.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/markchatasunread">markChatAsUnread</a>
+<div><div>
+
+Mark a chat as unread.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/openchat">openChat</a>
 <div><div>
 
