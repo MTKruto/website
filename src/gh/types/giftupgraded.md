@@ -36,7 +36,7 @@ The user or chat that owns the gift.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_currentUpgrades" data-anchor="true"><span class="font-bold">currentUpgrades</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The count of the amount of upgraded gifts of the same type.
+The number of upgraded gifts of the same type.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_maxUpgrades" data-anchor="true"><span class="font-bold">maxUpgrades</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
