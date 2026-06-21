@@ -17,7 +17,7 @@ The identifier of a chat to send the contact to.
 
 The contact's first name.
 
-</div></div></div><div><div class="font-mono" id="p_number" data-anchor="true"><span class="font-bold">number</span><span class="opacity-50">:</span> <span>string</span></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="font-mono" id="p_phoneNumber" data-anchor="true"><span class="font-bold">phoneNumber</span><span class="opacity-50">:</span> <span>string</span></div><div class="pl-3"><div class="no-margin">
 
 The contact's phone number.
 
@@ -87,11 +87,11 @@ The sent contact.
 
 ```ts
 // Required parameters only.
-await client.sendContact(chatId, firstName, number);
+await client.sendContact(chatId, firstName, phoneNumber);
 
 // Required parameters + optional parameters.
 // Any of the optional parameters can be omitted.
-await client.sendContact(chatId, firstName, number, {
+await client.sendContact(chatId, firstName, phoneNumber, {
     lastName,
     vcard,
     isSilent,
