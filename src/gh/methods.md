@@ -2097,6 +2097,13 @@ Send a message to a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/sendsecretvenue">sendSecretVenue</a>
+<div><div>
+
+Send a venue to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 
 </div>
 
