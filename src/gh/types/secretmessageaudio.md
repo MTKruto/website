@@ -45,6 +45,10 @@ The message's caption.
 
 The entities of the message's caption.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_fileInformation" data-anchor="true"><span class="font-bold">fileInformation</span><span class="opacity-50">:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+Information required for downloading the file.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;audio&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_audio" data-anchor="true"><span class="font-bold">audio</span><span class="opacity-50">:</span> <a href="/gh/types/audio">Audio</a></div></div><div class="pl-3"><div class="no-margin">
 
 The audio included in the message.
