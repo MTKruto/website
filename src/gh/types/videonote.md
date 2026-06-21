@@ -19,7 +19,7 @@ A file identifier that can be used to identify this file.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_length" data-anchor="true"><span class="font-bold">length</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-Video width and height (diameter of the video message) as defined by sender
+Video width and height (diameter of the video message) as defined by its sender.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_duration" data-anchor="true"><span class="font-bold">duration</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
