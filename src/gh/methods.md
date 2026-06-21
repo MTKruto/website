@@ -2076,6 +2076,13 @@ Accept a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/endsecretchat">endSecretChat</a>
+<div><div>
+
+End a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/requestsecretchat">requestSecretChat</a>
 <div><div>
 
