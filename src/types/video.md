@@ -19,11 +19,11 @@ A file identifier that can be used to identify this file.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_width" data-anchor="true"><span class="font-bold">width</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-Video width as defined by sender
+Video width as defined by its sender.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_height" data-anchor="true"><span class="font-bold">height</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-Video height as defined by sender
+Video height as defined by its sender.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_duration" data-anchor="true"><span class="font-bold">duration</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 

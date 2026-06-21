@@ -11,7 +11,7 @@ Check whether a password entered by the user is the same as the account's one.<s
 
 <div class="flex flex-col gap-3"><div><div class="font-mono" id="p_password" data-anchor="true"><span class="font-bold">password</span><span class="opacity-50">:</span> <span>string</span></div><div class="pl-3"><div class="no-margin">
 
-The password to check
+The password to check.
 
 </div></div></div></div>
 

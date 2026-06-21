@@ -19,15 +19,15 @@ A file identifier that can be used to identify this file.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;regular&quot;</span> <span class="opacity-50">|</span> <span>&quot;mask&quot;</span> <span class="opacity-50">|</span> <span>&quot;customEmoji&quot;</span></div></div><div class="pl-3"><div class="no-margin">
 
-Type of the sticker, currently one of "regular", "mask", "customEmoji". The type of the sticker is independent from its format, which is determined by the fields is_animated and is_video.
+Type of the sticker, currently one of "regular", "mask", "customEmoji". The type of the sticker is independent from its format, which is determined by the fields isAnimated and isVideo.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_width" data-anchor="true"><span class="font-bold">width</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-Sticker width
+The width of the sticker.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_height" data-anchor="true"><span class="font-bold">height</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-Sticker height
+The height of the sticker.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isAnimated" data-anchor="true"><span class="font-bold">isAnimated</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
