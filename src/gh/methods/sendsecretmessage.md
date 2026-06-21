@@ -1,5 +1,5 @@
 ---
-title: sendSecretChatMessage
+title: sendSecretMessage
 parent: /methods
 metas:
   description: Send a message to a secret chat. User-only.
@@ -47,11 +47,11 @@ The name of the bot that was used to send the message.
 
 ```ts
 // Required parameters only.
-await client.sendSecretChatMessage(id, text);
+await client.sendSecretMessage(id, text);
 
 // Required parameters + optional parameters.
 // Any of the optional parameters can be omitted.
-await client.sendSecretChatMessage(id, text, {
+await client.sendSecretMessage(id, text, {
     entities,
     isSilent,
     replyToMessageId,

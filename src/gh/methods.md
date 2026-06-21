@@ -2083,7 +2083,7 @@ Request a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/methods/sendsecretchatmessage">sendSecretChatMessage</a>
+<a href="/gh/methods/sendsecretmessage">sendSecretMessage</a>
 <div><div>
 
 Send a message to a secret chat.
