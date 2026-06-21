@@ -2083,6 +2083,13 @@ Request a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/sendsecretlocation">sendSecretLocation</a>
+<div><div>
+
+Send a location to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/sendsecretmessage">sendSecretMessage</a>
 <div><div>
 
