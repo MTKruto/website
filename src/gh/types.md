@@ -6,6 +6,13 @@ metas:
 ---
 <div class="descr-list">
 
+<a href="/gh/types/_secretmessagemediabase">_SecretMessageMediaBase</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/albumstorylist">AlbumStoryList</a>
 <div><div>
 
@@ -919,7 +926,7 @@ Any type of secret chat.
 <a href="/gh/types/secretmessage">SecretMessage</a>
 <div><div>
 
-A secret chat message.
+Any type of secret message.
 
 </div></div>
 <div class="descr-list-border"></div>
