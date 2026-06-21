@@ -25,6 +25,10 @@ Download offset in bytes.
 
 Download abort signal.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_fileInformation" data-anchor="true"><span class="font-bold">fileInformation</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+Additional file information. Required for secret chat files.
+
 </div></div></div></div></div>
 
 ### Result 
@@ -43,7 +47,12 @@ await client.downloadChunk(fileId);
 
 // Required parameters + optional parameters.
 // Any of the optional parameters can be omitted.
-await client.downloadChunk(fileId, { chunkSize, offset, signal });
+await client.downloadChunk(fileId, {
+    chunkSize,
+    offset,
+    signal,
+    fileInformation,
+});
 ```
 
 ### Examples 

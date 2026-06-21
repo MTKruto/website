@@ -35,11 +35,11 @@ The duration of the video in seconds.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_width" data-anchor="true"><span class="font-bold">width</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The width of the photo in pixels.
+The width of the video in pixels.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_height" data-anchor="true"><span class="font-bold">height</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The height of the photo in pixels.
+The height of the video in pixels.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_supportsStreaming" data-anchor="true"><span class="font-bold">supportsStreaming</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 

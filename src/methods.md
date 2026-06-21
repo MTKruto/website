@@ -872,6 +872,20 @@ Leave a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/markchatasread">markChatAsRead</a>
+<div><div>
+
+Mark a chat as read.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/markchatasunread">markChatAsUnread</a>
+<div><div>
+
+Mark a chat as unread.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/openchat">openChat</a>
 <div><div>
 
@@ -1535,6 +1549,13 @@ Get a list of reactions made to a message.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getmessagereaddate">getMessageReadDate</a>
+<div><div>
+
+Get a message's read date.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getmessages">getMessages</a>
 <div><div>
 
@@ -2039,6 +2060,54 @@ Undo recent reactions to messages made by another user.
 <div><div>
 
 Change reactions made to a message.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
+## Secret Chats
+<div class="descr-list">
+
+<a href="/methods/acceptsecretchat">acceptSecretChat</a>
+<div><div>
+
+Accept a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/requestsecretchat">requestSecretChat</a>
+<div><div>
+
+Request a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/sendsecretcontact">sendSecretContact</a>
+<div><div>
+
+Send a contact to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/sendsecretlocation">sendSecretLocation</a>
+<div><div>
+
+Send a location to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/sendsecretmessage">sendSecretMessage</a>
+<div><div>
+
+Send a message to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/sendsecretvenue">sendSecretVenue</a>
+<div><div>
+
+Send a venue to a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>

@@ -19,7 +19,7 @@ The identifier of a gift collection.
 
 </div></div></div><div><div class="font-mono" id="p_gifts" data-anchor="true"><span class="font-bold">gifts</span><span class="opacity-50">:</span> <a href="/types/inputgift">InputGift</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
 
-The gifts to remove from the collection.
+The new order of gifts.
 
 </div></div></div></div>
 

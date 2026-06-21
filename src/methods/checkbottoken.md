@@ -9,7 +9,11 @@ Check whether a bot token is valid.<span class="select-none">  </span>
 
 ### Parameters 
 
-<div class="flex flex-col gap-3"><div><div class="font-mono" id="p_botToken" data-anchor="true"><span class="font-bold">botToken</span><span class="opacity-50">:</span> <span>string</span></div></div></div>
+<div class="flex flex-col gap-3"><div><div class="font-mono" id="p_botToken" data-anchor="true"><span class="font-bold">botToken</span><span class="opacity-50">:</span> <span>string</span></div><div class="pl-3"><div class="no-margin">
+
+The bot token to check
+
+</div></div></div></div>
 
 ### Result 
 

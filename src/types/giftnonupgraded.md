@@ -20,7 +20,7 @@ The sticker that represents the gift.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_price" data-anchor="true"><span class="font-bold">price</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The price of the sticker in Telegram Stars.
+The price of the gift in Telegram Stars.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isLimited" data-anchor="true"><span class="font-bold">isLimited</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 

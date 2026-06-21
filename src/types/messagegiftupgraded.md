@@ -2,10 +2,10 @@
 title: MessageGiftUpgraded
 parent: /types
 metas:
-  description: An action related an upgraded gift.
+  description: An action related to an upgraded gift.
 ---
 
-An action related an upgraded gift.
+An action related to an upgraded gift.
 
 ### Properties
 
@@ -35,7 +35,7 @@ The point in time when the message was sent.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_chat" data-anchor="true"><span class="font-bold">chat</span><span class="opacity-50">:</span> <a href="/types/chatp">ChatP</a></div></div><div class="pl-3"><div class="no-margin">
 
-The chat where the message was sent to.
+The chat where the message was sent.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_link" data-anchor="true"><span class="font-bold">link</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
@@ -79,7 +79,7 @@ The point in time when the message's last edit was made.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_hasProtectedContent" data-anchor="true"><span class="font-bold">hasProtectedContent</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
-Whether the contents of the message is protected.
+Whether the contents of the message are protected.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_mediaGroupId" data-anchor="true"><span class="font-bold">mediaGroupId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 

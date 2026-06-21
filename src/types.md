@@ -6,6 +6,13 @@ metas:
 ---
 <div class="descr-list">
 
+<a href="/types/_secretmessagemediabase">_SecretMessageMediaBase</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/albumstorylist">AlbumStoryList</a>
 <div><div>
 
@@ -906,6 +913,27 @@ Information on a saved chat.
 <div><div>
 
 A list of saved chats.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/secretchat">SecretChat</a>
+<div><div>
+
+Any type of secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/secretmessage">SecretMessage</a>
+<div><div>
+
+Any type of secret message.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/secretmessageentity">SecretMessageEntity</a>
+<div><div>
+
+Any type of secret message entity.
 
 </div></div>
 <div class="descr-list-border"></div>
