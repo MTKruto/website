@@ -2097,6 +2097,13 @@ Send a contact to a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/sendsecretdocument">sendSecretDocument</a>
+<div><div>
+
+Send a document to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/sendsecretlocation">sendSecretLocation</a>
 <div><div>
 
