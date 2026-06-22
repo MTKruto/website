@@ -31,7 +31,7 @@ The parse mode to use for the poll's question. If omitted, the default parse mod
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_media" data-anchor="true"><span class="font-bold">media</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/inputpollmedia">InputPollMedia</a></div></div><div class="pl-3"><div class="no-margin">
 
-A media to attach.
+Media to attach.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isAnonymous" data-anchor="true"><span class="font-bold">isAnonymous</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
@@ -51,7 +51,7 @@ Index of the correct option. Required for quiz polls.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_explanation" data-anchor="true"><span class="font-bold">explanation</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
-A text that will be shown to the user when the poll is answered. Only valid for quiz polls.
+Text that will be shown to the user when the poll is answered. Only valid for quiz polls.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_explanationParseMode" data-anchor="true"><span class="font-bold">explanationParseMode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/parsemode">ParseMode</a></div></div><div class="pl-3"><div class="no-margin">
 

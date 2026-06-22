@@ -254,7 +254,7 @@ A checklist.
 <a href="/gh/types/checklistchanged">ChecklistChanged</a>
 <div><div>
 
-A change in checklist.
+A change to a checklist.
 
 </div></div>
 <div class="descr-list-border"></div>
