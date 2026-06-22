@@ -2139,6 +2139,13 @@ Send a video to a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/sendsecretvideonote">sendSecretVideoNote</a>
+<div><div>
+
+Send a video note to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 
 </div>
 
