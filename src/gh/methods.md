@@ -2139,6 +2139,13 @@ Send a photo to a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/sendsecretsticker">sendSecretSticker</a>
+<div><div>
+
+Send a sticker to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/sendsecretvenue">sendSecretVenue</a>
 <div><div>
 
