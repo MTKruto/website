@@ -2153,6 +2153,13 @@ Send a video note to a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/sendsecretvoice">sendSecretVoice</a>
+<div><div>
+
+Send a voice message to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 
 </div>
 
