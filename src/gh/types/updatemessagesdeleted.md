@@ -19,7 +19,7 @@ client.on("deletedMessages", (ctx) => {
 
 <div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;deletedMessages&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_deletedMessages" data-anchor="true"><span class="font-bold">deletedMessages</span><span class="opacity-50">:</span> <a href="/gh/types/messagereference">MessageReference</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
-The deleted messages
+The deleted messages.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isScheduled" data-anchor="true"><span class="font-bold">isScheduled</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_businessConnectionId" data-anchor="true"><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div></div></div>
 
