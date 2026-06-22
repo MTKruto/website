@@ -31,27 +31,23 @@ The height of the sticker.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isAnimated" data-anchor="true"><span class="font-bold">isAnimated</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
-True, if the sticker is [animated](https://telegram.org/blog/animated-stickers)
+Whether the sticker is animated.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isVideo" data-anchor="true"><span class="font-bold">isVideo</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
-True, if the sticker is a [video sticker](https://telegram.org/blog/video-stickers-better-reactions)
+Whether the sticker is a video.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_thumbnails" data-anchor="true"><span class="font-bold">thumbnails</span><span class="opacity-50">:</span> <a href="/gh/types/thumbnail">Thumbnail</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
-Sticker thumbnail in the .WEBP or .JPG format
+Thumbnails of the sticker in the WebP or JPG.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_emoji" data-anchor="true"><span class="font-bold">emoji</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
-Emoji associated with the sticker
+The emoji associated with the sticker.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_setName" data-anchor="true"><span class="font-bold">setName</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
-Name of the sticker set to which the sticker belongs
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_premiumAnimation" data-anchor="true"><span class="font-bold">premiumAnimation</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">File</span></div></div><div class="pl-3"><div class="no-margin">
-
-For premium regular stickers, premium animation for the sticker
+Name of the sticker set where the sticker belongs.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_maskPosition" data-anchor="true"><span class="font-bold">maskPosition</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/maskposition">MaskPosition</a></div></div><div class="pl-3"><div class="no-margin">
 
@@ -61,9 +57,9 @@ For mask stickers, the position where the mask should be placed
 
 For custom emoji stickers, unique identifier of the custom emoji
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_needsRepainting" data-anchor="true"><span class="font-bold">needsRepainting</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isRepaintingNeeded" data-anchor="true"><span class="font-bold">isRepaintingNeeded</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
-True, if the sticker must be repainted to a text color in messages, the color of the Telegram Premium badge in emoji status, white color on chat photos, or another appropriate color in other places
+Whether the sticker needs repainting.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_fileSize" data-anchor="true"><span class="font-bold">fileSize</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
