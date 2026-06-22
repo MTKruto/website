@@ -2132,6 +2132,13 @@ Send a venue to a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/sendsecretvideo">sendSecretVideo</a>
+<div><div>
+
+Send a video to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 
 </div>
 
