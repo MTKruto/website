@@ -2076,6 +2076,13 @@ Accept a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/endsecretchat">endSecretChat</a>
+<div><div>
+
+End a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/requestsecretchat">requestSecretChat</a>
 <div><div>
 
@@ -2090,6 +2097,13 @@ Send a contact to a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/sendsecretdocument">sendSecretDocument</a>
+<div><div>
+
+Send a document to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/sendsecretlocation">sendSecretLocation</a>
 <div><div>
 
@@ -2101,6 +2115,13 @@ Send a location to a secret chat.
 <div><div>
 
 Send a message to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/sendsecretphoto">sendSecretPhoto</a>
+<div><div>
+
+Send a photo to a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
