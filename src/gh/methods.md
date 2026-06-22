@@ -2090,6 +2090,13 @@ Request a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/sendsecretaudio">sendSecretAudio</a>
+<div><div>
+
+Send an audio file to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/sendsecretcontact">sendSecretContact</a>
 <div><div>
 
