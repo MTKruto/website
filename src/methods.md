@@ -2090,6 +2090,20 @@ Request a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/sendsecretanimation">sendSecretAnimation</a>
+<div><div>
+
+Send an animation to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/sendsecretaudio">sendSecretAudio</a>
+<div><div>
+
+Send an audio file to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/sendsecretcontact">sendSecretContact</a>
 <div><div>
 
@@ -2129,6 +2143,27 @@ Send a photo to a secret chat.
 <div><div>
 
 Send a venue to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/sendsecretvideo">sendSecretVideo</a>
+<div><div>
+
+Send a video to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/sendsecretvideonote">sendSecretVideoNote</a>
+<div><div>
+
+Send a video note to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/sendsecretvoice">sendSecretVoice</a>
+<div><div>
+
+Send a voice message to a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
