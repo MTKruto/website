@@ -804,6 +804,20 @@ A poll option.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/pollvoter">PollVoter</a>
+<div><div>
+
+A poll voter.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/pollvoterlist">PollVoterList</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/precheckoutquery">PreCheckoutQuery</a>
 <div><div>
 

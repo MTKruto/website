@@ -2029,6 +2029,27 @@ Refund a star payment.
 ## Polls
 <div class="descr-list">
 
+<a href="/gh/methods/addpolloption">addPollOption</a>
+<div><div>
+
+Add an option to a poll.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getpollvoters">getPollVoters</a>
+<div><div>
+
+Get poll voters.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/removepolloption">removePollOption</a>
+<div><div>
+
+Remove an option from a poll.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/retractvote">retractVote</a>
 <div><div>
 
