@@ -17,9 +17,9 @@ The identifier of the chat that includes the poll.
 
 The identifier of the message that includes the poll.
 
-</div></div></div><div><div class="font-mono" id="p_optionId" data-anchor="true"><span class="font-bold">optionId</span><span class="opacity-50">:</span> <span>string</span></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="font-mono" id="p_optionIndex" data-anchor="true"><span class="font-bold">optionIndex</span><span class="opacity-50">:</span> <span>number</span></div><div class="pl-3"><div class="no-margin">
 
-The identifier of the option to remove.
+The index of the option to remove.
 
 </div></div></div></div>
 
@@ -30,7 +30,7 @@ The identifier of the option to remove.
 ### Syntax
 
 ```ts
-await client.removePollOption(chatId, messageId, optionId);
+await client.removePollOption(chatId, messageId, optionIndex);
 ```
 
 

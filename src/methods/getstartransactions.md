@@ -27,7 +27,7 @@ Whether only outbound transactions should be returned.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isAscending" data-anchor="true"><span class="font-bold">isAscending</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
-Whether results should be sorted in an ascending order.
+Whether results should be sorted in ascending order.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_subscriptionId" data-anchor="true"><span class="font-bold">subscriptionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 

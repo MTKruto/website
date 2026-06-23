@@ -29,7 +29,7 @@ The width of the video in pixels.
 
 The height of the video in pixels.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_supportsStreaming" data-anchor="true"><span class="font-bold">supportsStreaming</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isStreamingSupported" data-anchor="true"><span class="font-bold">isStreamingSupported</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the video is suitable for streaming.
 
@@ -53,7 +53,7 @@ The parse mode to use for the caption. If omitted, the default parse mode will b
 
 A thumbnail to assign. Cannot be a URL.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_hasSpoiler" data-anchor="true"><span class="font-bold">hasSpoiler</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isSpoiler" data-anchor="true"><span class="font-bold">isSpoiler</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether to mark the media as a spoiler.
 
@@ -67,7 +67,7 @@ The file's size.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_mimeType" data-anchor="true"><span class="font-bold">mimeType</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
-The mime type to assign if applicable.
+The MIME type to assign if applicable.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_chunkSize" data-anchor="true"><span class="font-bold">chunkSize</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
@@ -147,13 +147,13 @@ await client.sendVideo(chatId, video, {
     duration,
     width,
     height,
-    supportsStreaming,
+    isStreamingSupported,
     selfDestruct,
     caption,
     captionEntities,
     parseMode,
     thumbnail,
-    hasSpoiler,
+    isSpoiler,
     fileName,
     fileSize,
     mimeType,

@@ -19,7 +19,7 @@ The results to answer with.
 
 </div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_cacheTime" data-anchor="true"><span class="font-bold">cacheTime</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-TTL of the caches of the results in seconds. Defaults to 300.
+The TTL of cached results, in seconds. Defaults to 300.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isPersonal" data-anchor="true"><span class="font-bold">isPersonal</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 

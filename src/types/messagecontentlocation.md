@@ -27,11 +27,11 @@ The duration for which the location can be updated, in seconds. Must be in the r
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_heading" data-anchor="true"><span class="font-bold">heading</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The direction which the user is moving towards. Must be in the range of 1-350.
+The direction in which the user is moving. Must be in the range of 1-350.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_proximityAlertRadius" data-anchor="true"><span class="font-bold">proximityAlertRadius</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The maximum distance for proximity alerts on approaching another chat member in meters. Must be in the range 1-100,000.
+The maximum distance for proximity alerts when approaching another chat member, in meters. Must be in the range of 1-100,000.
 
 </div></div></div></div>
 

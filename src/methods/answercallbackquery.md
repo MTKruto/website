@@ -15,7 +15,7 @@ ID of the callback query to answer.
 
 </div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_text" data-anchor="true"><span class="font-bold">text</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
-A text to be shown to the user.
+Text to be shown to the user.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isAlert" data-anchor="true"><span class="font-bold">isAlert</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
@@ -27,7 +27,7 @@ A URL to be opened.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_cacheTime" data-anchor="true"><span class="font-bold">cacheTime</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-TTL of answer caches in seconds.
+The TTL of cached answers, in seconds.
 
 </div></div></div></div></div>
 

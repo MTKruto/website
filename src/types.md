@@ -254,7 +254,7 @@ A checklist.
 <a href="/types/checklistchanged">ChecklistChanged</a>
 <div><div>
 
-A change in checklist.
+A change to a checklist.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -706,6 +706,13 @@ A message search filter option.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/messageviewer">MessageViewer</a>
+<div><div>
+
+A message's viewer.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/miniappinfo">MiniAppInfo</a>
 <div><div>
 
@@ -794,6 +801,20 @@ Any type of poll option media.
 <div><div>
 
 A poll option.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/pollvoter">PollVoter</a>
+<div><div>
+
+A poll voter.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/pollvoterlist">PollVoterList</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>

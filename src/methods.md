@@ -70,6 +70,13 @@ Enable sponsored messages on the current user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getaccountttl">getAccountTtl</a>
+<div><div>
+
+Get the current account's TTL.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getappsupport">getAppSupport</a>
 <div><div>
 
@@ -256,6 +263,13 @@ Resume the business bot in a chat.
 <div><div>
 
 Send a user verification code.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setaccountttl">setAccountTtl</a>
+<div><div>
+
+Set the current account's TTL.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -869,6 +883,13 @@ Kick a member from a chat. Same as a banChatMember call followed by unbanChatMem
 <div><div>
 
 Leave a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/markallmentionsasread">markAllMentionsAsRead</a>
+<div><div>
+
+Mark all mentions in a chat as read.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1570,6 +1591,13 @@ Get the counters of multiple messages.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getmessageviewers">getMessageViewers</a>
+<div><div>
+
+Get a message's viewers.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getprogressid">getProgressId</a>
 <div><div>
 
@@ -2001,6 +2029,27 @@ Refund a star payment.
 ## Polls
 <div class="descr-list">
 
+<a href="/methods/addpolloption">addPollOption</a>
+<div><div>
+
+Add an option to a poll.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getpollvoters">getPollVoters</a>
+<div><div>
+
+Get poll voters.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/removepolloption">removePollOption</a>
+<div><div>
+
+Remove an option from a poll.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/retractvote">retractVote</a>
 <div><div>
 

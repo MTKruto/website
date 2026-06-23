@@ -2,10 +2,10 @@
 title: ChecklistChanged
 parent: /types
 metas:
-  description: A change in checklist.
+  description: A change to a checklist.
 ---
 
-A change in checklist.
+A change to a checklist.
 
 ### Properties
 

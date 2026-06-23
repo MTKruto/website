@@ -17,9 +17,9 @@ The identifier of the message that is being replied to.
 
 A quoted part of the message that is being replied to.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_pollOptionId" data-anchor="true"><span class="font-bold">pollOptionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_pollOptionIndex" data-anchor="true"><span class="font-bold">pollOptionIndex</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The identifier of a poll option to reply to.
+The index of a poll option to reply to.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_checklistItemId" data-anchor="true"><span class="font-bold">checklistItemId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 

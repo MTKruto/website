@@ -51,11 +51,11 @@ Name of the sticker set where the sticker belongs.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_maskPosition" data-anchor="true"><span class="font-bold">maskPosition</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/maskposition">MaskPosition</a></div></div><div class="pl-3"><div class="no-margin">
 
-For mask stickers, the position where the mask should be placed
+For mask stickers, the position where the mask should be placed.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_customEmojiId" data-anchor="true"><span class="font-bold">customEmojiId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
-For custom emoji stickers, unique identifier of the custom emoji
+For custom emoji stickers, unique identifier of the custom emoji.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isRepaintingNeeded" data-anchor="true"><span class="font-bold">isRepaintingNeeded</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
@@ -63,7 +63,7 @@ Whether the sticker needs repainting.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_fileSize" data-anchor="true"><span class="font-bold">fileSize</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-File size in bytes
+File size in bytes.
 
 </div></div></div></div>
 
