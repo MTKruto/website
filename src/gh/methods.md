@@ -886,6 +886,13 @@ Leave a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/markallmentionsasread">markAllMentionsAsRead</a>
+<div><div>
+
+Mark all mentions in a chat as read.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/markchatasread">markChatAsRead</a>
 <div><div>
 
