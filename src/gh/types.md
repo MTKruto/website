@@ -706,6 +706,13 @@ A message search filter option.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/messageviewer">MessageViewer</a>
+<div><div>
+
+A message's viewer.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/miniappinfo">MiniAppInfo</a>
 <div><div>
 

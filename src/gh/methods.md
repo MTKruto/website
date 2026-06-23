@@ -1584,6 +1584,13 @@ Get the counters of multiple messages.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getmessageviewers">getMessageViewers</a>
+<div><div>
+
+Get a message's viewers.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getprogressid">getProgressId</a>
 <div><div>
 
