@@ -2,10 +2,10 @@
 title: ChatP
 parent: /types
 metas:
-  description: A chat with lesser fields.
+  description: A partial chat.
 ---
 
-A chat with lesser fields.
+A partial chat.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/gh/types/chatpprivate">ChatPPrivate</a>
 <span class="opacity-50">|</span> <a href="/gh/types/chatpgroup">ChatPGroup</a>

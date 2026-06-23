@@ -226,7 +226,7 @@ Changes made to a chat member.
 <a href="/gh/types/chatp">ChatP</a>
 <div><div>
 
-A chat with lesser fields.
+A partial chat.
 
 </div></div>
 <div class="descr-list-border"></div>

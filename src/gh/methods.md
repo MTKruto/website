@@ -760,6 +760,13 @@ Get the members of a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getchatp">getChatP</a>
+<div><div>
+
+Get a partial chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getchats">getChats</a>
 <div><div>
 
