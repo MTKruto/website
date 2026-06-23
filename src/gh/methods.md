@@ -70,6 +70,13 @@ Enable sponsored messages on the current user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getaccountttl">getAccountTtl</a>
+<div><div>
+
+Get the current account's TTL.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getappsupport">getAppSupport</a>
 <div><div>
 
@@ -256,6 +263,13 @@ Resume the business bot in a chat.
 <div><div>
 
 Send a user verification code.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setaccountttl">setAccountTtl</a>
+<div><div>
+
+Set the current account's TTL.
 
 </div></div>
 <div class="descr-list-border"></div>
