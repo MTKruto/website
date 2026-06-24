@@ -893,6 +893,13 @@ Get the topics of a forum chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/gettopicsbyid">getTopicsById</a>
+<div><div>
+
+Get topics of a forum chat by their identifiers.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/hidegeneraltopic">hideGeneralTopic</a>
 <div><div>
 
