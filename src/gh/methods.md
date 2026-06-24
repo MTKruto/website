@@ -648,6 +648,13 @@ Delete a chat's sticker set.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/deletetopic">deleteTopic</a>
+<div><div>
+
+Delete a forum topic.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/disableantispam">disableAntispam</a>
 <div><div>
 
