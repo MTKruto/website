@@ -112,6 +112,13 @@ Get a business connection.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getconnectedwebsites">getConnectedWebsites</a>
+<div><div>
+
+Get connected websites.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getcountries">getCountries</a>
 <div><div>
 
