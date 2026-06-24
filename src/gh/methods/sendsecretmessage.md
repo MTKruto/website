@@ -21,6 +21,10 @@ The message's text.
 
 The entities of the message's text.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_parseMode" data-anchor="true"><span class="font-bold">parseMode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/parsemode">ParseMode</a></div></div><div class="pl-3"><div class="no-margin">
+
+The parse mode to use. If omitted, the default parse mode will be used.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isSilent" data-anchor="true"><span class="font-bold">isSilent</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the message should be sent silently.
@@ -53,6 +57,7 @@ await client.sendSecretMessage(id, text);
 // Any of the optional parameters can be omitted.
 await client.sendSecretMessage(id, text, {
     entities,
+    parseMode,
     isSilent,
     replyToMessageId,
     ttl,
