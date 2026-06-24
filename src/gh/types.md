@@ -1157,14 +1157,14 @@ Any type of forum topic.
 <a href="/gh/types/topiclist">TopicList</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A list of topics.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/types/topiclistitem">TopicListItem</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+An item of a topic list.
 
 </div></div>
 <div class="descr-list-border"></div>
