@@ -63,6 +63,20 @@ Disable sponsored messages on the current user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/disconnectconnectedwebsite">disconnectConnectedWebsite</a>
+<div><div>
+
+Disconnect a connected website.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/disconnectconnectedwebsites">disconnectConnectedWebsites</a>
+<div><div>
+
+Disconnect all connected websites.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/enablesponsoredmessages">enableSponsoredMessages</a>
 <div><div>
 
