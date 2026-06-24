@@ -2195,6 +2195,13 @@ Send an audio file to a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/sendsecretchataction">sendSecretChatAction</a>
+<div><div>
+
+Send a secret chat action.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/sendsecretcontact">sendSecretContact</a>
 <div><div>
 
