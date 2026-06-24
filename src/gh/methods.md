@@ -140,6 +140,13 @@ Get countries.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getcountrycode">getCountryCode</a>
+<div><div>
+
+Get the country code for the current user based on its IP address.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getme">getMe</a>
 <div><div>
 
