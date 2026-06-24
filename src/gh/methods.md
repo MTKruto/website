@@ -2202,6 +2202,13 @@ Send an audio file to a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/sendsecretcanceltypingaction">sendSecretCancelTypingAction</a>
+<div><div>
+
+Send a cancel typing action to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/sendsecretcontact">sendSecretContact</a>
 <div><div>
 
@@ -2248,6 +2255,13 @@ Send a secret chat screenshot notification.
 <div><div>
 
 Send a sticker to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/sendsecrettypingaction">sendSecretTypingAction</a>
+<div><div>
+
+Send a typing action to a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
