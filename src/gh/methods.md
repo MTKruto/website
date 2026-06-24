@@ -886,6 +886,13 @@ Get similar channels.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/gettopics">getTopics</a>
+<div><div>
+
+Get the topics of a forum chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/hidegeneraltopic">hideGeneralTopic</a>
 <div><div>
 

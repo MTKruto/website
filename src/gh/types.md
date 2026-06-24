@@ -1150,7 +1150,21 @@ A timezone.
 <a href="/gh/types/topic">Topic</a>
 <div><div>
 
-A forum topic.
+Any type of forum topic.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/topiclist">TopicList</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/topiclistitem">TopicListItem</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
