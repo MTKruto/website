@@ -1878,6 +1878,13 @@ Send multiple scheduled messages before their schedule.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/sendscreenshotnotification">sendScreenshotNotification</a>
+<div><div>
+
+Send a screenshot notification.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/sendsticker">sendSticker</a>
 <div><div>
 
