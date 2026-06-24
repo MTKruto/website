@@ -944,13 +944,6 @@ Any type of secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/types/secretchataction">SecretChatAction</a>
-<div><div>
-
-A sign of a possible action by a member of a secret chat.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/gh/types/secretchatactiontype">SecretChatActionType</a>
 <div><div>
 
