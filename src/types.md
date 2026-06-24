@@ -6,13 +6,6 @@ metas:
 ---
 <div class="descr-list">
 
-<a href="/types/_secretmessagemediabase">_SecretMessageMediaBase</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/types/albumstorylist">AlbumStoryList</a>
 <div><div>
 
@@ -86,7 +79,7 @@ A list of blocked users.
 <a href="/types/botaccesssettings">BotAccessSettings</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A bot's access settings.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -296,7 +289,7 @@ The result after checking a sent code.
 <a href="/types/connectedwebsite">ConnectedWebsite</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A user's connected website.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -821,7 +814,7 @@ A poll voter.
 <a href="/types/pollvoterlist">PollVoterList</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A list of poll voters.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -905,7 +898,7 @@ Information on a message that another message is replying to.
 <a href="/types/reportreason">ReportReason</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+Any type of report reason.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -948,13 +941,6 @@ A list of saved chats.
 <div><div>
 
 Any type of secret chat.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/secretchataction">SecretChatAction</a>
-<div><div>
-
-A sign of a possible action by a member of a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1108,14 +1094,14 @@ Reference to a story.
 <a href="/types/storyreportoption">StoryReportOption</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A story report option.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/types/storyreportresult">StoryReportResult</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+Any type of story report result.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1143,7 +1129,7 @@ Configuration for switching to inline mode in specific chat types.
 <a href="/types/texttotranslate">TextToTranslate</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A text to translate.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1164,14 +1150,28 @@ A timezone.
 <a href="/types/topic">Topic</a>
 <div><div>
 
-A forum topic.
+Any type of forum topic.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/topiclist">TopicList</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/topiclistitem">TopicListItem</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/types/translatedtext">TranslatedText</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A translated text.
 
 </div></div>
 <div class="descr-list-border"></div>

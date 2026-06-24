@@ -886,6 +886,27 @@ Get similar channels.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/gettopic">getTopic</a>
+<div><div>
+
+Get a topic of a forum chat by its identifier.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/gettopics">getTopics</a>
+<div><div>
+
+Get the topics of a forum chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/gettopicsbyid">getTopicsById</a>
+<div><div>
+
+Get topics of a forum chat by their identifiers.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/hidegeneraltopic">hideGeneralTopic</a>
 <div><div>
 
@@ -2202,10 +2223,10 @@ Send an audio file to a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/sendsecretchataction">sendSecretChatAction</a>
+<a href="/methods/sendsecretcanceltypingaction">sendSecretCancelTypingAction</a>
 <div><div>
 
-Send a secret chat action.
+Send a cancel typing action to a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -2255,6 +2276,13 @@ Send a secret chat screenshot notification.
 <div><div>
 
 Send a sticker to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/sendsecrettypingaction">sendSecretTypingAction</a>
+<div><div>
+
+Send a typing action to a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
