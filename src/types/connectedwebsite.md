@@ -1,0 +1,9 @@
+---
+title: ConnectedWebsite
+parent: /types
+---
+
+### Properties
+
+<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_id" data-anchor="true"><span class="font-bold">id</span><span class="opacity-50">:</span> <span>string</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_bot" data-anchor="true"><span class="font-bold">bot</span><span class="opacity-50">:</span> <a href="/types/user">User</a></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_domain" data-anchor="true"><span class="font-bold">domain</span><span class="opacity-50">:</span> <span>string</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_browser" data-anchor="true"><span class="font-bold">browser</span><span class="opacity-50">:</span> <span>string</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_platform" data-anchor="true"><span class="font-bold">platform</span><span class="opacity-50">:</span> <span>string</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_createdAt" data-anchor="true"><span class="font-bold">createdAt</span><span class="opacity-50">:</span> <span>number</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_lastActiveAt" data-anchor="true"><span class="font-bold">lastActiveAt</span><span class="opacity-50">:</span> <span>number</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_ipAddress" data-anchor="true"><span class="font-bold">ipAddress</span><span class="opacity-50">:</span> <span>string</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_ipAddressRegion" data-anchor="true"><span class="font-bold">ipAddressRegion</span><span class="opacity-50">:</span> <span>string</span></div></div></div></div>
+

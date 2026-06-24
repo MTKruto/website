@@ -226,7 +226,7 @@ Changes made to a chat member.
 <a href="/types/chatp">ChatP</a>
 <div><div>
 
-A chat with lesser fields.
+A partial chat.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -290,6 +290,13 @@ Gifts claimed by a user or a channel.
 <div><div>
 
 The result after checking a sent code.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/connectedwebsite">ConnectedWebsite</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -941,6 +948,20 @@ A list of saved chats.
 <div><div>
 
 Any type of secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/secretchataction">SecretChatAction</a>
+<div><div>
+
+A sign of a possible action by a member of a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/secretchatactiontype">SecretChatActionType</a>
+<div><div>
+
+A type of a secret chat action.
 
 </div></div>
 <div class="descr-list-border"></div>

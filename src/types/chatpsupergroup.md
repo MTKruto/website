@@ -9,7 +9,7 @@ parent: /types
 
 The identifier of the chat.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;supergroup&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_color" data-anchor="true"><span class="font-bold">color</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_color" data-anchor="true"><span class="font-bold">color</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 Identifier of a color that can be displayed instead of the chat's photo.
 
@@ -49,7 +49,7 @@ Whether the chat or channel has been restricted.
 
 The reason why the chat or channel has been restricted.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isForum" data-anchor="true"><span class="font-bold">isForum</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;supergroup&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isForum" data-anchor="true"><span class="font-bold">isForum</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the chat is a forum.
 

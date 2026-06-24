@@ -63,6 +63,20 @@ Disable sponsored messages on the current user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/disconnectconnectedwebsite">disconnectConnectedWebsite</a>
+<div><div>
+
+Disconnect a connected website.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/disconnectconnectedwebsites">disconnectConnectedWebsites</a>
+<div><div>
+
+Disconnect all connected websites.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/enablesponsoredmessages">enableSponsoredMessages</a>
 <div><div>
 
@@ -112,10 +126,24 @@ Get a business connection.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getconnectedwebsites">getConnectedWebsites</a>
+<div><div>
+
+Get connected websites.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getcountries">getCountries</a>
 <div><div>
 
 Get countries.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getcountrycode">getCountryCode</a>
+<div><div>
+
+Get the country code for the current user based on its IP address.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -757,6 +785,13 @@ Get information on a user's chat membership.
 <div><div>
 
 Get the members of a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getchatp">getChatP</a>
+<div><div>
+
+Get a partial chat.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1549,6 +1584,13 @@ Get favorite stickers.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getlinkpreview">getLinkPreview</a>
+<div><div>
+
+Get the link preview for a message that is about to be sent.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getmessage">getMessage</a>
 <div><div>
 
@@ -1833,6 +1875,13 @@ Send a scheduled message before its schedule.
 <div><div>
 
 Send multiple scheduled messages before their schedule.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/sendscreenshotnotification">sendScreenshotNotification</a>
+<div><div>
+
+Send a screenshot notification.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -2153,6 +2202,13 @@ Send an audio file to a secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/sendsecretchataction">sendSecretChatAction</a>
+<div><div>
+
+Send a secret chat action.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/sendsecretcontact">sendSecretContact</a>
 <div><div>
 
@@ -2185,6 +2241,13 @@ Send a message to a secret chat.
 <div><div>
 
 Send a photo to a secret chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/sendsecretscreenshotnotification">sendSecretScreenshotNotification</a>
+<div><div>
+
+Send a secret chat screenshot notification.
 
 </div></div>
 <div class="descr-list-border"></div>
