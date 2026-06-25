@@ -34,7 +34,7 @@ In browsers, the global variable `MTKRUTO__LOG_VERBOSITY` can be used.
 ```html
 <!-- at the very top of the document -->
 <script>
-  globalThis.MTKRUTO__LOG_VERBOSITY = 4;
+globalThis.MTKRUTO__LOG_VERBOSITY = 4;
 </script>
 ```
 
@@ -53,6 +53,6 @@ LOG_VERBOSITY=4 LOG_VERBOSITY=receiveLoop npm start
 ```html
 <!-- at the very top of the document -->
 <script>
-  globalThis.MTKRUTO__LOG_FILTER = "receiveLoop";
+globalThis.MTKRUTO__LOG_FILTER = "receiveLoop";
 </script>
 ```

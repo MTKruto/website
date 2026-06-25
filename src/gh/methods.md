@@ -56,6 +56,13 @@ Check the availability of a username.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/clearrecentemojistatuses">clearRecentEmojiStatuses</a>
+<div><div>
+
+Clear recent emoji statuses.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/deleteaccount">deleteAccount</a>
 <div><div>
 
