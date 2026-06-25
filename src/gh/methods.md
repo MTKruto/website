@@ -112,6 +112,13 @@ Get the current account's TTL.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getapplicationconfiguration">getApplicationConfiguration</a>
+<div><div>
+
+Get application configuration.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getappsupport">getAppSupport</a>
 <div><div>
 
