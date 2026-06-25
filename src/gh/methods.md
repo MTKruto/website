@@ -14,6 +14,13 @@ Add a bot to the attachments menu.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/allowbottosetcustomemojistatus">allowBotToSetCustomEmojiStatus</a>
+<div><div>
+
+Allow a bot to set custom emoji status.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/blockuser">blockUser</a>
 <div><div>
 
@@ -60,6 +67,13 @@ Delete the current account.
 <div><div>
 
 Disable sponsored messages on the current user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/disallowbottosetcustomemojistatus">disallowBotToSetCustomEmojiStatus</a>
+<div><div>
+
+Disallow a bot to set custom emoji status.
 
 </div></div>
 <div class="descr-list-border"></div>
