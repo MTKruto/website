@@ -2418,6 +2418,13 @@ Delete a sticker set.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getaddedstickersets">getAddedStickerSets</a>
+<div><div>
+
+Get added sticker sets.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getdicestickerset">getDiceStickerSet</a>
 <div><div>
 

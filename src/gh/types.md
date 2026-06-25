@@ -1385,6 +1385,13 @@ A sticker (or emoji) set.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/stickersetp">StickerSetP</a>
+<div><div>
+
+A partial sticker (or emoji) set.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/story">Story</a>
 <div><div>
 
