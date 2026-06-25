@@ -683,6 +683,13 @@ Delete a chat's sticker set.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/deleterevokedinvitelinks">deleteRevokedInviteLinks</a>
+<div><div>
+
+Delete revoked invite links.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/deletetopic">deleteTopic</a>
 <div><div>
 
