@@ -767,6 +767,13 @@ Enable topics in a group.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getadministeredchats">getAdministeredChats</a>
+<div><div>
+
+Get administered chats.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getchat">getChat</a>
 <div><div>
 
