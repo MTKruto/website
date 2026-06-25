@@ -2369,10 +2369,24 @@ Send a voice message to a secret chat.
 ## Sticker Sets
 <div class="descr-list">
 
+<a href="/gh/methods/addstickerset">addStickerSet</a>
+<div><div>
+
+Add a sticker set.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/addstickertostickerset">addStickerToStickerSet</a>
 <div><div>
 
 Add a sticker to a sticker set.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/archivestickerset">archiveStickerSet</a>
+<div><div>
+
+Archive a sticker set.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -2425,6 +2439,13 @@ Remove a sticker from its set.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/removestickerset">removeStickerSet</a>
+<div><div>
+
+Remove a sticker set.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/replacestickeremoji">replaceStickerEmoji</a>
 <div><div>
 
@@ -2464,6 +2485,13 @@ Set the title of a sticker set.
 <div><div>
 
 Suggest a sticker set slug from its title.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/unarchivestickerset">unarchiveStickerSet</a>
+<div><div>
+
+Unarchive a sticker set.
 
 </div></div>
 <div class="descr-list-border"></div>
