@@ -599,6 +599,13 @@ Ban a member from a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/boostchat">boostChat</a>
+<div><div>
+
+Add a single user to a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/closechat">closeChat</a>
 <div><div>
 
