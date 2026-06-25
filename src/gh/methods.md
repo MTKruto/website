@@ -196,6 +196,13 @@ Get the profile photos of a user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getrecentemojistatuses">getRecentEmojiStatuses</a>
+<div><div>
+
+Get recent emoji statuses.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/gettimezones">getTimezones</a>
 <div><div>
 
