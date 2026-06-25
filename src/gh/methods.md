@@ -1309,6 +1309,13 @@ Remove gifts from a gift collection.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/reordergiftcollections">reorderGiftCollections</a>
+<div><div>
+
+Reorder gift collections.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/reordergiftsincollection">reorderGiftsInCollection</a>
 <div><div>
 
