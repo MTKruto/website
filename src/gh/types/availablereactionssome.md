@@ -13,7 +13,7 @@ An available reactions value allowing a specific set of reactions.
 
 The allowed reactions.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_maxReactionCount" data-anchor="true"><span class="font-bold">maxReactionCount</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_maxReactionCount" data-anchor="true"><span class="font-bold">maxReactionCount</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 The maximum number of allowed reactions on a single message.
 

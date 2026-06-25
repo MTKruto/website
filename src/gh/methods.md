@@ -879,6 +879,13 @@ Get pinned chats from a chat list.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getrecentactions">getRecentActions</a>
+<div><div>
+
+Get the recent actions of a channel or a supergroup.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getrecommendedchannels">getRecommendedChannels</a>
 <div><div>
 
