@@ -654,6 +654,66 @@ Update the profile video of the current user or a bot managed by the current use
 
 </div>
 
+## Authorization
+<div class="descr-list">
+
+<a href="/gh/methods/checkbottoken">checkBotToken</a>
+<div><div>
+
+Check whether a bot token is valid.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/checkcode">checkCode</a>
+<div><div>
+
+Check if a code entered by the user was the same as the verification code.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/checkpassword">checkPassword</a>
+<div><div>
+
+Check whether a password entered by the user is the same as the account's one.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/exportauthstring">exportAuthString</a>
+<div><div>
+
+Export the auth string for the current authorization session.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/importauthstring">importAuthString</a>
+<div><div>
+
+Import an auth string.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/signin">signIn</a>
+<div><div>
+
+Signs in using the provided parameters if not already signed in.
+If no parameters are provided, the credentials will be prompted in runtime.
+
+Notes:
+1. Requires the `apiId` and `apiHash` parameters to be passed when constructing the client.
+3. Reconnects the client to the appropriate DC in case of MIGRATE_X errors.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/signout">signOut</a>
+<div><div>
+
+Sign out.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
 ## Bots
 <div class="descr-list">
 
@@ -1455,6 +1515,33 @@ Update a checklist.
 
 </div>
 
+## Connection
+<div class="descr-list">
+
+<a href="/gh/methods/connect">connect</a>
+<div><div>
+
+Connect the client.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/disconnect">disconnect</a>
+<div><div>
+
+Disconnect the client.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/start">start</a>
+<div><div>
+
+Start the client. Same as calling {@link Client.connect} followed by {@link Client.signIn}.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
 ## Contacts
 <div class="descr-list">
 
@@ -1674,6 +1761,33 @@ Answer an inline query.
 <div><div>
 
 Send an inline query.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
+## Low Level
+<div class="descr-list">
+
+<a href="/gh/methods/getinputchannel">getInputChannel</a>
+<div><div>
+
+Get a channel or a supergroup's inputChannel. Useful when calling API functions directly.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getinputpeer">getInputPeer</a>
+<div><div>
+
+Get a chat's inputPeer. Useful when calling API functions directly.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getinputuser">getInputUser</a>
+<div><div>
+
+Get a user's inputUser. Useful when calling API functions directly.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -3005,108 +3119,6 @@ Schedule a video chat.
 <div><div>
 
 Start a video chat.
-
-</div></div>
-<div class="descr-list-border"></div>
-
-</div>
-
-## Unlisted
-<div class="descr-list">
-
-<a href="/gh/methods/checkbottoken">checkBotToken</a>
-<div><div>
-
-Check whether a bot token is valid.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/checkcode">checkCode</a>
-<div><div>
-
-Check if a code entered by the user was the same as the verification code.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/checkpassword">checkPassword</a>
-<div><div>
-
-Check whether a password entered by the user is the same as the account's one.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/connect">connect</a>
-<div><div>
-
-Connect the client.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/disconnect">disconnect</a>
-<div><div>
-
-Disconnect the client.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/exportauthstring">exportAuthString</a>
-<div><div>
-
-Export the auth string for the current authorization session.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getinputchannel">getInputChannel</a>
-<div><div>
-
-Get a channel or a supergroup's inputChannel. Useful when calling API functions directly.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getinputpeer">getInputPeer</a>
-<div><div>
-
-Get a chat's inputPeer. Useful when calling API functions directly.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getinputuser">getInputUser</a>
-<div><div>
-
-Get a user's inputUser. Useful when calling API functions directly.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/importauthstring">importAuthString</a>
-<div><div>
-
-Import an auth string.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/signin">signIn</a>
-<div><div>
-
-Signs in using the provided parameters if not already signed in.
-If no parameters are provided, the credentials will be prompted in runtime.
-
-Notes:
-1. Requires the `apiId` and `apiHash` parameters to be passed when constructing the client.
-3. Reconnects the client to the appropriate DC in case of MIGRATE_X errors.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/signout">signOut</a>
-<div><div>
-
-Sign out.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/start">start</a>
-<div><div>
-
-Start the client. Same as calling {@link Client.connect} followed by {@link Client.signIn}.
 
 </div></div>
 <div class="descr-list-border"></div>
