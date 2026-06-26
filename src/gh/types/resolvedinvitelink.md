@@ -73,7 +73,7 @@ The chat's subscription price.
 
 The chat verification bot's identifier.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_verificationCustomEmojiId" data-anchor="true"><span class="font-bold">verificationCustomEmojiId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_verificationCustomEmojiId" data-anchor="true"><span class="font-bold">verificationCustomEmojiId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
 The chat verification's custom emoji identifier.
 
