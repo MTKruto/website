@@ -1068,6 +1068,13 @@ Report a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/resolveinvitelink">resolveInviteLink</a>
+<div><div>
+
+Resolve an invite link.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/setavailablereactions">setAvailableReactions</a>
 <div><div>
 

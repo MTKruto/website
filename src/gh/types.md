@@ -1259,6 +1259,13 @@ Any type of report reason.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/resolvedinvitelink">ResolvedInviteLink</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/restrictionreason">RestrictionReason</a>
 <div><div>
 
