@@ -1822,6 +1822,13 @@ Remove a sticker from recents.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/reportreaction">reportReaction</a>
+<div><div>
+
+Report a message reaction.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/resolvemessagelink">resolveMessageLink</a>
 <div><div>
 
