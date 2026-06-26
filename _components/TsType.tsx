@@ -1,4 +1,4 @@
-import { LiteralDef, ObjectPatPropAssignDef, ObjectPatPropDef, ObjectPatPropKeyValueDef, ObjectPatPropRestDef, ParamArrayDef, ParamAssignDef, ParamDef, ParamIdentifierDef, ParamObjectDef, ParamRestDef, TsConditionalDef, TsFnOrConstructorDef, TsIndexedAccessDef, TsTypeDef, TsTypeLiteralDef, TsTypeOperatorDef, TsTypeParamDef, TsTypePredicateDef, TsTypeRefDef } from "deno_doc/types.d.ts";
+import { LiteralDef, ObjectPatPropAssignDef, ObjectPatPropDef, ObjectPatPropKeyValueDef, ObjectPatPropRestDef, ParamArrayDef, ParamAssignDef, ParamDef, ParamIdentifierDef, ParamObjectDef, ParamRestDef, TsConditionalDef, TsFnOrConstructorDef, TsIndexedAccessDef, TsInferDef, TsTypeDef, TsTypeLiteralDef, TsTypeOperatorDef, TsTypeParamDef, TsTypePredicateDef, TsTypeRefDef } from "deno_doc/types.d.ts";
 import { PropertyName } from "./PropertyName.tsx";
 import { fixName } from "./misc.ts";
 
@@ -47,7 +47,7 @@ export function TsType(
     case "importType":
       break;
     case "infer":
-      break;
+      return <Infer getLink={getLink}>{tt.infer}</Infer>;
     case "indexedAccess":
       return <IndexedAccess getLink={getLink}>{tt.indexedAccess}</IndexedAccess>;
     case "mapped":
@@ -58,6 +58,19 @@ export function TsType(
       return <TypePredicate getLink={getLink}>{tt.typePredicate}</TypePredicate>;
   }
   return <span class="text-red-500">{tt.kind}</span>;
+}
+
+function Infer(
+  { getLink, children }: {
+    getLink: LinkGetter;
+    children: TsInferDef;
+  },
+) {
+  return (
+    <>
+      infer {<TypeParam_ getLink={getLink}>{children.typeParam}</TypeParam_>}
+    </>
+  );
 }
 
 function Keyword({ children: keyword }: { children: string }) {
