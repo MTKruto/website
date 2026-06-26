@@ -195,6 +195,13 @@ A chat folder.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/chatjoinresult">ChatJoinResult</a>
+<div><div>
+
+Any type of chat join result.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/chatlistitem">ChatListItem</a>
 <div><div>
 

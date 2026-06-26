@@ -17,7 +17,7 @@ The identifier of a chat.
 
 ### Result 
 
-<div class="font-mono"><span>void</span></div>
+<div class="font-mono"><a href="/gh/types/chatjoinresult">ChatJoinResult</a></div>
 
 ### Syntax
 
