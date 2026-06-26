@@ -133,20 +133,6 @@ Get the authorization sessions.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/methods/getbioprivacy">getBioPrivacy</a>
-<div><div>
-
-Get the current bio privacy setting.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getbirthdayprivacy">getBirthdayPrivacy</a>
-<div><div>
-
-Get the current birthday privacy setting.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/gh/methods/getblockedusers">getBlockedUsers</a>
 <div><div>
 
@@ -182,41 +168,6 @@ Get the country code for the current user based on its IP address.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/methods/getfindbyphonenumberprivacy">getFindByPhoneNumberPrivacy</a>
-<div><div>
-
-Get the current find by phone number privacy setting.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getforwardsprivacy">getForwardsPrivacy</a>
-<div><div>
-
-Get the current forwards privacy setting.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getgiftsprivacy">getGiftsPrivacy</a>
-<div><div>
-
-Get the current gifts privacy setting.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getinvitationprivacy">getInvitationPrivacy</a>
-<div><div>
-
-Get the current invitation privacy setting.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getlastseenprivacy">getLastSeenPrivacy</a>
-<div><div>
-
-Get the current last seen privacy setting.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/gh/methods/getme">getMe</a>
 <div><div>
 
@@ -231,13 +182,6 @@ Get owned bots.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/methods/getpaidmessageexceptionprivacy">getPaidMessageExceptionPrivacy</a>
-<div><div>
-
-Get the current paid message exception privacy setting.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/gh/methods/getpasswordhint">getPasswordHint</a>
 <div><div>
 
@@ -245,31 +189,10 @@ Get the user account password's hint.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/methods/getpeertopeercallprivacy">getPeerToPeerCallPrivacy</a>
+<a href="/gh/methods/getprivacysetting">getPrivacySetting</a>
 <div><div>
 
-Get the current peer-to-peer call privacy setting.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getphonecallprivacy">getPhoneCallPrivacy</a>
-<div><div>
-
-Get the current phone call privacy setting.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getphonenumberprivacy">getPhoneNumberPrivacy</a>
-<div><div>
-
-Get the current phone number privacy setting.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getprofilephotoprivacy">getProfilePhotoPrivacy</a>
-<div><div>
-
-Get the current profile photo privacy setting.
+Get a privacy setting.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -287,24 +210,10 @@ Get recent emoji statuses.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/methods/getsavedmusicprivacy">getSavedMusicPrivacy</a>
-<div><div>
-
-Get the current saved music privacy setting.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/gh/methods/gettimezones">getTimezones</a>
 <div><div>
 
 Get timezones.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getvoicemessageprivacy">getVoiceMessagePrivacy</a>
-<div><div>
-
-Get the current voice message privacy setting.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -427,24 +336,10 @@ Set the current account's TTL.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/methods/setbioprivacy">setBioPrivacy</a>
-<div><div>
-
-Set bio privacy setting.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/gh/methods/setbirthday">setBirthday</a>
 <div><div>
 
 Set the birthday of the current user.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/setbirthdayprivacy">setBirthdayPrivacy</a>
-<div><div>
-
-Set birthday privacy setting.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -469,45 +364,10 @@ Set the current account's emoji status.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/methods/setfindbyphonenumberprivacy">setFindByPhoneNumberPrivacy</a>
-<div><div>
-
-Set find by phone number privacy setting.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/setforwardsprivacy">setForwardsPrivacy</a>
-<div><div>
-
-Set forwards privacy setting.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/setgiftsprivacy">setGiftsPrivacy</a>
-<div><div>
-
-Set gifts privacy setting.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/setinvitationprivacy">setInvitationPrivacy</a>
-<div><div>
-
-Set invitation privacy setting.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/gh/methods/setisonline">setIsOnline</a>
 <div><div>
 
 Set the current account's online status.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/setlastseenprivacy">setLastSeenPrivacy</a>
-<div><div>
-
-Set last seen privacy setting.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -525,20 +385,6 @@ Set the name color of the current user.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/methods/setpaidmessageexceptionprivacy">setPaidMessageExceptionPrivacy</a>
-<div><div>
-
-Set paid message exception privacy setting.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/setpeertopeercallprivacy">setPeerToPeerCallPrivacy</a>
-<div><div>
-
-Set peer-to-peer call privacy setting.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/gh/methods/setpersonalchannel">setPersonalChannel</a>
 <div><div>
 
@@ -546,17 +392,10 @@ Set the personal channel of the current user.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/methods/setphonecallprivacy">setPhoneCallPrivacy</a>
+<a href="/gh/methods/setprivacysetting">setPrivacySetting</a>
 <div><div>
 
-Set phone call privacy setting.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/setphonenumberprivacy">setPhoneNumberPrivacy</a>
-<div><div>
-
-Set phone number privacy setting.
+Set a privacy setting.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -564,20 +403,6 @@ Set phone number privacy setting.
 <div><div>
 
 Set the profile color of the current user.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/setprofilephotoprivacy">setProfilePhotoPrivacy</a>
-<div><div>
-
-Set profile photo privacy setting.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/setsavedmusicprivacy">setSavedMusicPrivacy</a>
-<div><div>
-
-Set saved music privacy setting.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -592,13 +417,6 @@ Set the emoji status of a bot's user.
 <div><div>
 
 Set the username of the current account.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/setvoicemessageprivacy">setVoiceMessagePrivacy</a>
-<div><div>
-
-Set voice message privacy setting.
 
 </div></div>
 <div class="descr-list-border"></div>

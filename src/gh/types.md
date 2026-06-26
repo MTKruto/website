@@ -867,6 +867,13 @@ A price tag.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/privacysettingkey">PrivacySettingKey</a>
+<div><div>
+
+A privacy setting key.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/profilephotolist">ProfilePhotoList</a>
 <div><div>
 
