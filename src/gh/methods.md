@@ -21,6 +21,13 @@ Allow a bot to set custom emoji status.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/allowunpaidmessagesfromuser">allowUnpaidMessagesFromUser</a>
+<div><div>
+
+Allow unpaid messages from a user.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/blockuser">blockUser</a>
 <div><div>
 
@@ -81,6 +88,13 @@ Disable sponsored messages on the current user.
 <div><div>
 
 Disallow a bot to set custom emoji status.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/disallowunpaidmessagesfromuser">disallowUnpaidMessagesFromUser</a>
+<div><div>
+
+Disallow unpaid messages from a user.
 
 </div></div>
 <div class="descr-list-border"></div>
