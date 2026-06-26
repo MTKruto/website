@@ -998,6 +998,13 @@ Join a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/joinchatbyinvitelink">joinChatByInviteLink</a>
+<div><div>
+
+Join a chat using an invite link.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/kickchatmember">kickChatMember</a>
 <div><div>
 
