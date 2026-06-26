@@ -1871,6 +1871,20 @@ Save an animation.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/savedraft">saveDraft</a>
+<div><div>
+
+Save a message draft.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/saverichtextdraft">saveRichTextDraft</a>
+<div><div>
+
+Save a rich text message draft.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/searchmessages">searchMessages</a>
 <div><div>
 
