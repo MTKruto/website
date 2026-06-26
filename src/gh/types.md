@@ -524,6 +524,13 @@ A poll option to be provided as an input.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/inputprivacyrule">InputPrivacyRule</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/inputrichtext">InputRichText</a>
 <div><div>
 
