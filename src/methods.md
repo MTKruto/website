@@ -14,6 +14,13 @@ Add a bot to the attachments menu.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/allowbottosetcustomemojistatus">allowBotToSetCustomEmojiStatus</a>
+<div><div>
+
+Allow a bot to set custom emoji status.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/blockuser">blockUser</a>
 <div><div>
 
@@ -49,6 +56,13 @@ Check the availability of a username.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/clearrecentemojistatuses">clearRecentEmojiStatuses</a>
+<div><div>
+
+Clear recent emoji statuses.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/deleteaccount">deleteAccount</a>
 <div><div>
 
@@ -60,6 +74,13 @@ Delete the current account.
 <div><div>
 
 Disable sponsored messages on the current user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/disallowbottosetcustomemojistatus">disallowBotToSetCustomEmojiStatus</a>
+<div><div>
+
+Disallow a bot to set custom emoji status.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -88,6 +109,13 @@ Enable sponsored messages on the current user.
 <div><div>
 
 Get the current account's TTL.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getapplicationconfiguration">getApplicationConfiguration</a>
+<div><div>
+
+Get application configuration.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -172,6 +200,13 @@ Get the user account password's hint.
 <div><div>
 
 Get the profile photos of a user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getrecentemojistatuses">getRecentEmojiStatuses</a>
+<div><div>
+
+Get recent emoji statuses.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -564,6 +599,13 @@ Ban a member from a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/boostchat">boostChat</a>
+<div><div>
+
+Add a single user to a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/closechat">closeChat</a>
 <div><div>
 
@@ -645,6 +687,20 @@ Delete a chat's photo.
 <div><div>
 
 Delete a chat's sticker set.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/deleterevokedinvitelinks">deleteRevokedInviteLinks</a>
+<div><div>
+
+Delete revoked invite links.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/deletetopic">deleteTopic</a>
+<div><div>
+
+Delete a forum topic.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -760,6 +816,13 @@ Enable topics in a group.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getadministeredchats">getAdministeredChats</a>
+<div><div>
+
+Get administered chats.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getchat">getChat</a>
 <div><div>
 
@@ -862,6 +925,13 @@ Get the count of online members in a chat.
 <div><div>
 
 Get pinned chats from a chat list.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getrecentactions">getRecentActions</a>
+<div><div>
+
+Get the recent actions of a channel or a supergroup.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1285,6 +1355,13 @@ Get gift collections of a chat.
 <div><div>
 
 Remove gifts from a gift collection.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/reordergiftcollections">reorderGiftCollections</a>
+<div><div>
+
+Reorder gift collections.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -2320,10 +2397,24 @@ Send a voice message to a secret chat.
 ## Sticker Sets
 <div class="descr-list">
 
+<a href="/methods/addstickerset">addStickerSet</a>
+<div><div>
+
+Add a sticker set.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/addstickertostickerset">addStickerToStickerSet</a>
 <div><div>
 
 Add a sticker to a sticker set.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/archivestickerset">archiveStickerSet</a>
+<div><div>
+
+Archive a sticker set.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -2355,6 +2446,13 @@ Delete a sticker set.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getaddedstickersets">getAddedStickerSets</a>
+<div><div>
+
+Get added sticker sets.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getdicestickerset">getDiceStickerSet</a>
 <div><div>
 
@@ -2373,6 +2471,13 @@ Get a sticker set.
 <div><div>
 
 Remove a sticker from its set.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/removestickerset">removeStickerSet</a>
+<div><div>
+
+Remove a sticker set.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -2415,6 +2520,13 @@ Set the title of a sticker set.
 <div><div>
 
 Suggest a sticker set slug from its title.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/unarchivestickerset">unarchiveStickerSet</a>
+<div><div>
+
+Unarchive a sticker set.
 
 </div></div>
 <div class="descr-list-border"></div>

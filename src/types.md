@@ -153,6 +153,13 @@ A country calling code.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/channellocation">ChannelLocation</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/chat">Chat</a>
 <div><div>
 
@@ -860,6 +867,356 @@ The count of a specific reaction.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/recentaction">RecentAction</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionchangedescription">RecentActionChangeDescription</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionchangediscussionchat">RecentActionChangeDiscussionChat</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionchangelocation">RecentActionChangeLocation</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionchangephoto">RecentActionChangePhoto</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionchangesetslowmode">RecentActionChangeSetSlowMode</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionchangestickerset">RecentActionChangeStickerSet</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionchangetitle">RecentActionChangeTitle</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionchangeusername">RecentActionChangeUsername</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactioncreatetopic">RecentActionCreateTopic</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactiondeleteinvitelink">RecentActionDeleteInviteLink</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactiondeletemessage">RecentActionDeleteMessage</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactiondeletetopic">RecentActionDeleteTopic</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactioneditchatmembertag">RecentActionEditChatMemberTag</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactioneditinvitelink">RecentActionEditInviteLink</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactioneditmessage">RecentActionEditMessage</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionedittopic">RecentActionEditTopic</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionendvideochat">RecentActionEndVideoChat</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactioninvite">RecentActionInvite</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionjoin">RecentActionJoin</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionjoinbyinvite">RecentActionJoinByInvite</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionjoinbyrequest">RecentActionJoinByRequest</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionleave">RecentActionLeave</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionmutevideochatparticipant">RecentActionMuteVideoChatParticipant</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionparticipantsubextend">RecentActionParticipantSubExtend</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionpinmessage">RecentActionPinMessage</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionpintopic">RecentActionPinTopic</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionrevokeinvitelink">RecentActionRevokeInviteLink</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionsendmessage">RecentActionSendMessage</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionsentry">RecentActionsEntry</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionsetavailablereactions">RecentActionSetAvailableReactions</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionsetdefaultpermissions">RecentActionSetDefaultPermissions</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionsetemojistickerset">RecentActionSetEmojiStickerSet</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionsethistoryttl">RecentActionSetHistoryTtl</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionsetusernames">RecentActionSetUsernames</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionsetvideochatparticipantvolume">RecentActionSetVideoChatParticipantVolume</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionstartvideochat">RecentActionStartVideoChat</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionstoppoll">RecentActionStopPoll</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactiontoggleantispam">RecentActionToggleAntispam</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactiontoggleautomatictranslation">RecentActionToggleAutomaticTranslation</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactiontogglechathistoryfornewmembers">RecentActionToggleChatHistoryForNewMembers</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactiontogglecontentprotection">RecentActionToggleContentProtection</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactiontoggleinvites">RecentActionToggleInvites</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactiontogglepromotion">RecentActionTogglePromotion</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactiontogglerestriction">RecentActionToggleRestriction</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactiontogglesignatures">RecentActionToggleSignatures</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactiontoggletopics">RecentActionToggleTopics</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactiontogglevideochatdefaultmuted">RecentActionToggleVideoChatDefaultMuted</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionunmutevideochatparticipant">RecentActionUnmuteVideoChatParticipant</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/recentactionunsupported">RecentActionUnsupported</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/refundedpayment">RefundedPayment</a>
 <div><div>
 
@@ -1028,6 +1385,13 @@ A sticker (or emoji) set.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/stickersetp">StickerSetP</a>
+<div><div>
+
+A partial sticker (or emoji) set.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/story">Story</a>
 <div><div>
 
@@ -1157,14 +1521,14 @@ Any type of forum topic.
 <a href="/types/topiclist">TopicList</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A list of topics.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/types/topiclistitem">TopicListItem</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+An item of a topic list.
 
 </div></div>
 <div class="descr-list-border"></div>
