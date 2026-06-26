@@ -1,5 +1,5 @@
 import { doc as doc_ } from "@deno/doc";
-import { DocNodeClass, DocNodeInterface, DocNodeNamespace, DocNodeTypeAlias, TsTypeDef } from "deno_doc/types.d.ts";
+import { ClassMethodDef, DocNodeClass, DocNodeInterface, DocNodeNamespace, DocNodeTypeAlias, TsTypeDef } from "deno_doc/types.d.ts";
 import versions from "./_versions.ts";
 
 const mdnLinks: Record<string, string> = {
@@ -101,7 +101,33 @@ export async function getDocs(version?: string) {
   const Client = mod
     .find((v): v is DocNodeClass => (v.kind == "class") && (v.name == "Client"));
   const names = new Set<string>();
-  const methods = Client === undefined ? [] : Client.classDef.methods
+  const callableProperties = Client?.classDef.properties
+    .filter((v) => v.tsType?.kind == "typeLiteral" && v.tsType.typeLiteral.callSignatures.length > 0)
+    .map((v): ClassMethodDef => {
+      const callSignature = v.tsType!.kind == "typeLiteral" ? v.tsType.typeLiteral.callSignatures[0] : undefined!;
+      const tags = v.jsDoc?.tags ?? [];
+      return {
+        jsDoc: {
+          doc: v.jsDoc?.doc ?? "",
+          tags: tags.some((v) => v.kind == "unsupported" && v.value.startsWith("@method")) ? tags : v.name == "invoke" ? [...tags, { kind: "unsupported", value: "@method ll" }] : tags,
+        },
+        optional: v.optional,
+        isAbstract: v.isAbstract,
+        isStatic: v.isStatic,
+        name: v.name,
+        kind: "method",
+        functionDef: {
+          params: callSignature.params,
+          returnType: callSignature.tsType,
+          hasBody: false,
+          isAsync: false,
+          isGenerator: false,
+          typeParams: callSignature.typeParams,
+        },
+        location: v.location,
+      };
+    }) ?? [];
+  const methods = Client === undefined ? [] : [...Client.classDef.methods, ...callableProperties]
     .filter((v) => (v.accessibility === undefined) || (v.accessibility == "public"))
     .filter((v) => v.jsDoc?.tags?.some((v) => v.kind == "unsupported" && v.value.startsWith("@method")))
     .filter((v) => !v.name.includes("["))

@@ -1791,6 +1791,13 @@ Get a user's inputUser. Useful when calling API functions directly.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/invoke">invoke</a>
+<div><div>
+
+Invoke a low-level function.
+
+</div></div>
+<div class="descr-list-border"></div>
 
 </div>
 

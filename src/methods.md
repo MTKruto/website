@@ -1505,6 +1505,20 @@ Send an inline query.
 
 </div>
 
+## Low Level
+<div class="descr-list">
+
+<a href="/methods/invoke">invoke</a>
+<div><div>
+
+Invokes a function waiting and returning its reply.
+Requires the client to be connected.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
 ## Managed Bots
 <div class="descr-list">
 
