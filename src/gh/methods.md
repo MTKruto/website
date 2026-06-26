@@ -154,6 +154,20 @@ Get the authorization sessions.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getbioprivacy">getBioPrivacy</a>
+<div><div>
+
+Get the current bio privacy setting.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getbirthdayprivacy">getBirthdayPrivacy</a>
+<div><div>
+
+Get the current birthday privacy setting.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getblockedusers">getBlockedUsers</a>
 <div><div>
 
@@ -189,6 +203,41 @@ Get the country code for the current user based on its IP address.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getfindbyphonenumberprivacy">getFindByPhoneNumberPrivacy</a>
+<div><div>
+
+Get the current find by phone number privacy setting.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getforwardsprivacy">getForwardsPrivacy</a>
+<div><div>
+
+Get the current forwards privacy setting.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getgiftsprivacy">getGiftsPrivacy</a>
+<div><div>
+
+Get the current gifts privacy setting.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getinvitationprivacy">getInvitationPrivacy</a>
+<div><div>
+
+Get the current invitation privacy setting.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getlastseenprivacy">getLastSeenPrivacy</a>
+<div><div>
+
+Get the current last seen privacy setting.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getme">getMe</a>
 <div><div>
 
@@ -203,10 +252,45 @@ Get owned bots.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getpaidmessageexceptionprivacy">getPaidMessageExceptionPrivacy</a>
+<div><div>
+
+Get the current paid message exception privacy setting.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getpasswordhint">getPasswordHint</a>
 <div><div>
 
 Get the user account password's hint.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getpeertopeercallprivacy">getPeerToPeerCallPrivacy</a>
+<div><div>
+
+Get the current peer-to-peer call privacy setting.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getphonecallprivacy">getPhoneCallPrivacy</a>
+<div><div>
+
+Get the current phone call privacy setting.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getphonenumberprivacy">getPhoneNumberPrivacy</a>
+<div><div>
+
+Get the current phone number privacy setting.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getprofilephotoprivacy">getProfilePhotoPrivacy</a>
+<div><div>
+
+Get the current profile photo privacy setting.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -224,10 +308,24 @@ Get recent emoji statuses.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getsavedmusicprivacy">getSavedMusicPrivacy</a>
+<div><div>
+
+Get the current saved music privacy setting.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/gettimezones">getTimezones</a>
 <div><div>
 
 Get timezones.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getvoicemessageprivacy">getVoiceMessagePrivacy</a>
+<div><div>
+
+Get the current voice message privacy setting.
 
 </div></div>
 <div class="descr-list-border"></div>

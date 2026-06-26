@@ -853,6 +853,13 @@ A price tag.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/privacyrule">PrivacyRule</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/profilephotolist">ProfilePhotoList</a>
 <div><div>
 
