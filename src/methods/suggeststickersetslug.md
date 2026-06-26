@@ -11,7 +11,7 @@ Suggest a sticker set slug from its title.<span class="select-none">  </span>
 
 <div class="flex flex-col gap-3"><div><div class="font-mono" id="p_title" data-anchor="true"><span class="font-bold">title</span><span class="opacity-50">:</span> <span>string</span></div><div class="pl-3"><div class="no-margin">
 
-A title of a sticker set.
+A sticker set title.
 
 </div></div></div></div>
 

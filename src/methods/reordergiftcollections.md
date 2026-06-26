@@ -11,7 +11,7 @@ Reorder gift collections.<span class="select-none"> <span class="inline-flex w-f
 
 <div class="flex flex-col gap-3"><div><div class="font-mono" id="p_chatId" data-anchor="true"><span class="font-bold">chatId</span><span class="opacity-50">:</span> <a href="/types/id">ID</a></div><div class="pl-3"><div class="no-margin">
 
-The identifier of the chat that includes the gift collection.
+The identifier of the chat that includes the gift collections.
 
 </div></div></div><div><div class="font-mono" id="p_collectionIds" data-anchor="true"><span class="font-bold">collectionIds</span><span class="opacity-50">:</span> <span>number</span><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
 

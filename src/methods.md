@@ -21,6 +21,13 @@ Allow a bot to set custom emoji status.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/allowunpaidmessagesfromuser">allowUnpaidMessagesFromUser</a>
+<div><div>
+
+Allow unpaid messages from a user.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/blockuser">blockUser</a>
 <div><div>
 
@@ -81,6 +88,13 @@ Disable sponsored messages on the current user.
 <div><div>
 
 Disallow a bot to set custom emoji status.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/disallowunpaidmessagesfromuser">disallowUnpaidMessagesFromUser</a>
+<div><div>
+
+Disallow unpaid messages from a user.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -998,6 +1012,13 @@ Join a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/joinchatbyinvitelink">joinChatByInviteLink</a>
+<div><div>
+
+Join a chat using an invite link.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/kickchatmember">kickChatMember</a>
 <div><div>
 
@@ -1065,6 +1086,13 @@ Reopen a forum topic.
 <div><div>
 
 Report a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/resolveinvitelink">resolveInviteLink</a>
+<div><div>
+
+Resolve an invite link.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1819,6 +1847,13 @@ Remove a sticker from favorites.
 <div><div>
 
 Remove a sticker from recents.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/reportreaction">reportReaction</a>
+<div><div>
+
+Report a message reaction.
 
 </div></div>
 <div class="descr-list-border"></div>

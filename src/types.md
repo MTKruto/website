@@ -195,6 +195,13 @@ A chat folder.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/chatjoinresult">ChatJoinResult</a>
+<div><div>
+
+Any type of chat join result.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/chatlistitem">ChatListItem</a>
 <div><div>
 
@@ -1256,6 +1263,13 @@ Information on a message that another message is replying to.
 <div><div>
 
 Any type of report reason.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/resolvedinvitelink">ResolvedInviteLink</a>
+<div><div>
+
+A resolved invite link.
 
 </div></div>
 <div class="descr-list-border"></div>
