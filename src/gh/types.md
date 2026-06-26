@@ -1262,7 +1262,7 @@ Any type of report reason.
 <a href="/gh/types/resolvedinvitelink">ResolvedInviteLink</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A resolved invite link.
 
 </div></div>
 <div class="descr-list-border"></div>
