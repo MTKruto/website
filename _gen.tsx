@@ -337,9 +337,14 @@ parent: /methods
       <>
         {(() => {
           const requiredParams = method.functionDef.params.filter((v) => v.kind == "identifier" && !v.optional).map((v) => "name" in v ? v.name : "").filter((v) => v);
+          const optionalParam = method.functionDef.params.find((v) => v.kind == "identifier" && v.optional && v.name == "params");
           const p = getMethodOptionalParams(method, methodTypes);
+          const hasInlineOptionalParams = optionalParam?.tsType?.kind == "typeLiteral";
+          const isSignInParamsAlias = optionalParam?.tsType?.kind == "typeRef" && optionalParam.tsType.typeRef.typeName == "SignInParams";
+          const optionalParamName = optionalParam && !p && !hasInlineOptionalParams && isSignInParamsAlias ? optionalParam.name : "";
           const len = (p?.interfaceDef?.properties?.length ?? 0) +
-            requiredParams.length;
+            requiredParams.length +
+            (optionalParamName ? 1 : 0);
           const split = len >= 5;
 
           if (!len) {
@@ -361,12 +366,18 @@ await client.${method.name}();
           const required = requiredParams.length
             ? `${optional ? "// Required parameters only." : ""}
 await client.${method.name}(${requiredParams.join(", ")});`.trim()
+            : optionalParamName
+            ? `// Without the optional parameter.
+await client.${method.name}();`
             : "";
 
           optional = optional
             ? `// ${required ? "Required parameters + o" : "O"}ptional parameters.
 // Any of the optional parameters can be omitted.
 await client.${method.name}(${requiredParams.join(", ")}${optional ? `${requiredParams.length ? "," : ""} ${optional}` : ""});`
+            : optionalParamName
+            ? `// With the optional parameter.
+await client.${method.name}(${optionalParamName});`
             : "";
 
           return `\`\`\`ts

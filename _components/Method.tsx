@@ -50,6 +50,10 @@ export function getMethodOptionalParams(
   return p;
 }
 
+function isSignInParamsAlias(param: ParamIdentifierDef) {
+  return param.name == "params" && param.tsType?.kind == "typeRef" && param.tsType.typeRef.typeName == "SignInParams";
+}
+
 export function Method(
   { getLink, methodTypes, children: method }: {
     getLink: LinkGetter;
@@ -64,6 +68,28 @@ export function Method(
   return (
     <div class="flex flex-col gap-3">
       {method.functionDef.params.filter((v): v is ParamIdentifierDef => v.kind == "identifier" && !v.optional)
+        .map((v) => (
+          <div>
+            <div class="font-mono" id={`p_${v.name}`} data-anchor>
+              <PropertyName hasType={!!v.tsType}>{v}</PropertyName> {v.tsType ? <TsType getLink={getLink}>{v.tsType}</TsType> : "any"}
+            </div>
+            {method.jsDoc?.tags && (() => {
+              const a = method.jsDoc!.tags!
+                .find((v_) => v_.kind == "param" && v_.name == v.name) as JsDocTagParam;
+
+              return (
+                <>
+                  {a?.doc && (
+                    <div class="pl-3">
+                      <Description>{a.doc}</Description>
+                    </div>
+                  )}
+                </>
+              );
+            })()}
+          </div>
+        ))}
+      {!p && !t && method.functionDef.params.filter((v): v is ParamIdentifierDef => v.kind == "identifier" && v.optional && isSignInParamsAlias(v))
         .map((v) => (
           <div>
             <div class="font-mono" id={`p_${v.name}`} data-anchor>
