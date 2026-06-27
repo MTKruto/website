@@ -762,6 +762,13 @@ An entry of a client's network statistics.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/newchatprivacy">NewChatPrivacy</a>
+<div><div>
+
+A new chat privacy setting.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/orderinfo">OrderInfo</a>
 <div><div>
 

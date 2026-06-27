@@ -182,6 +182,13 @@ Get information on the currently authorized user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getnewchatprivacy">getNewChatPrivacy</a>
+<div><div>
+
+Get new chat privacy setting.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getownedbots">getOwnedBots</a>
 <div><div>
 
@@ -403,6 +410,13 @@ Set the location of the current user.
 <div><div>
 
 Set the name color of the current user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setnewchatprivacy">setNewChatPrivacy</a>
+<div><div>
+
+Set new chat privacy setting.
 
 </div></div>
 <div class="descr-list-border"></div>
