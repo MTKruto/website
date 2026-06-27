@@ -598,6 +598,13 @@ Sign out.
 ## Bots
 <div class="descr-list">
 
+<a href="/gh/methods/deletemycommands">deleteMyCommands</a>
+<div><div>
+
+Delete the bot's commands in the given scope and/or language.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getmycommands">getMyCommands</a>
 <div><div>
 
