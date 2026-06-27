@@ -776,6 +776,20 @@ A new chat privacy setting.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/notificationsettings">NotificationSettings</a>
+<div><div>
+
+A chat's notification settings
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/notificationsound">NotificationSound</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/orderinfo">OrderInfo</a>
 <div><div>
 

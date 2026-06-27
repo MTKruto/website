@@ -1296,6 +1296,13 @@ Set the time to live of the messages of a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/setnotificationsettings">setNotificationSettings</a>
+<div><div>
+
+Set a chat's notification settings.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/setslowmode">setSlowMode</a>
 <div><div>
 
