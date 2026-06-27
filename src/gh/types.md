@@ -517,6 +517,13 @@ Any type of input media.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/inputnotificationsettings">InputNotificationSettings</a>
+<div><div>
+
+A chat's notification settings that is to be used as an input.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/inputpollmedia">InputPollMedia</a>
 <div><div>
 
@@ -779,14 +786,14 @@ A new chat privacy setting.
 <a href="/gh/types/notificationsettings">NotificationSettings</a>
 <div><div>
 
-A chat's notification settings
+A chat's notification settings.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/types/notificationsound">NotificationSound</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+Any type of notification sound.
 
 </div></div>
 <div class="descr-list-border"></div>

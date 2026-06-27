@@ -1051,6 +1051,13 @@ Get pending join requests in a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getnotificationsettings">getNotificationSettings</a>
+<div><div>
+
+Get a chat's notification settings.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getonlinecount">getOnlineCount</a>
 <div><div>
 
