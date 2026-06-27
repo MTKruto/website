@@ -357,6 +357,13 @@ Send a user verification code.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/sendcustomrequest">sendCustomRequest</a>
+<div><div>
+
+Send a custom request.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/setaccountttl">setAccountTtl</a>
 <div><div>
 
