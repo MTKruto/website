@@ -203,6 +203,13 @@ Get the profile photos of a user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getreaddateprivacy">getReadDatePrivacy</a>
+<div><div>
+
+Get read date privacy.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getrecentemojistatuses">getRecentEmojiStatuses</a>
 <div><div>
 
@@ -403,6 +410,13 @@ Set a privacy setting.
 <div><div>
 
 Set the profile color of the current user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setreaddateprivacy">setReadDatePrivacy</a>
+<div><div>
+
+Set read date privacy.
 
 </div></div>
 <div class="descr-list-border"></div>
