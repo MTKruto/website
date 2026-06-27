@@ -175,6 +175,13 @@ Get the country code for the current user based on its IP address.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getgiftprivacy">getGiftPrivacy</a>
+<div><div>
+
+Get gift privacy setting.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getme">getMe</a>
 <div><div>
 
@@ -389,6 +396,13 @@ Set the list of close friends.
 <div><div>
 
 Set the current account's emoji status.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setgiftprivacy">setGiftPrivacy</a>
+<div><div>
+
+Set gift privacy setting.
 
 </div></div>
 <div class="descr-list-border"></div>

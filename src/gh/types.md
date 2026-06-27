@@ -398,6 +398,13 @@ Information on a non-upgraded gift.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/giftprivacy">GiftPrivacy</a>
+<div><div>
+
+A gift privacy setting.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/giftupgradedinformation">GiftUpgradedInformation</a>
 <div><div>
 
