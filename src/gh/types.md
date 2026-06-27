@@ -156,7 +156,7 @@ A country calling code.
 <a href="/gh/types/channellocation">ChannelLocation</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A channel's location.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -534,7 +534,7 @@ A poll option to be provided as an input.
 <a href="/gh/types/inputprivacyrule">InputPrivacyRule</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+Any type of input privacy rule.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -919,7 +919,7 @@ Any type of recent action.
 <a href="/gh/types/recentactionsentry">RecentActionsEntry</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A recent actions entry.
 
 </div></div>
 <div class="descr-list-border"></div>
