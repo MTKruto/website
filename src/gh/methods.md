@@ -126,6 +126,13 @@ Get app support name.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getarchiveandmutenewchatsfromunknownusers">getArchiveAndMuteNewChatsFromUnknownUsers</a>
+<div><div>
+
+Get whether new chats from unknown users are archived and muted.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getauthorizationsessions">getAuthorizationSessions</a>
 <div><div>
 
@@ -340,6 +347,13 @@ Send a user verification code.
 <div><div>
 
 Set the current account's TTL.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setarchiveandmutenewchatsfromunknownusers">setArchiveAndMuteNewChatsFromUnknownUsers</a>
+<div><div>
+
+Set whether new chats from unknown users should be archived and muted.
 
 </div></div>
 <div class="descr-list-border"></div>
