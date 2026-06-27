@@ -2,10 +2,10 @@
 title: InlineQueryResult
 parent: /types
 metas:
-  description: A single inline query result.
+  description: Any type of a single inline query result.
 ---
 
-A single inline query result.
+Any type of a single inline query result.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/gh/types/inlinequeryresultcachedaudio">InlineQueryResultCachedAudio</a>
 <span class="opacity-50">|</span> <a href="/gh/types/inlinequeryresultcacheddocument">InlineQueryResultCachedDocument</a>

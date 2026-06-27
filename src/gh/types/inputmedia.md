@@ -2,10 +2,10 @@
 title: InputMedia
 parent: /types
 metas:
-  description: An input media.
+  description: Any type of input media.
 ---
 
-An input media.
+Any type of input media.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/gh/types/inputmediaanimation">InputMediaAnimation</a>
 <span class="opacity-50">|</span> <a href="/gh/types/inputmediaaudio">InputMediaAudio</a>

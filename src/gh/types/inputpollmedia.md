@@ -2,10 +2,10 @@
 title: InputPollMedia
 parent: /types
 metas:
-  description: A poll option input media.
+  description: Any type of poll input media.
 ---
 
-A poll option input media.
+Any type of poll input media.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/gh/types/inputpollmediaanimation">InputPollMediaAnimation</a>
 <span class="opacity-50">|</span> <a href="/gh/types/inputpollmediaphoto">InputPollMediaPhoto</a>

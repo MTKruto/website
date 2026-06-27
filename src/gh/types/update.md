@@ -2,10 +2,10 @@
 title: Update
 parent: /types
 metas:
-  description: An incoming update.
+  description: Any type of update.
 ---
 
-An incoming update.
+Any type of update.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/gh/types/updateconnectionstate">UpdateConnectionState</a>
 <span class="opacity-50">|</span> <a href="/gh/types/updateauthorizationstate">UpdateAuthorizationState</a>

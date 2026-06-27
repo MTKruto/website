@@ -2,10 +2,10 @@
 title: MessageContent
 parent: /types
 metas:
-  description: The content of a message in an inline query result.
+  description: Any type of an inline message's content.
 ---
 
-The content of a message in an inline query result.
+Any type of an inline message's content.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/gh/types/messagecontenttext">MessageContentText</a>
 <span class="opacity-50">|</span> <a href="/gh/types/messagecontentrichtext">MessageContentRichText</a>

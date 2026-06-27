@@ -2,10 +2,10 @@
 title: StoryPrivacy
 parent: /types
 metas:
-  description: A story's privacy choice.
+  description: Any type of a story's privacy choice.
 ---
 
-A story's privacy choice.
+Any type of a story's privacy choice.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/gh/types/storyprivacyeveryone">StoryPrivacyEveryone</a>
 <span class="opacity-50">|</span> <a href="/gh/types/storyprivacycontacts">StoryPrivacyContacts</a>

@@ -1,7 +1,11 @@
 ---
 title: PrivacyRule
 parent: /types
+metas:
+  description: Any type of privacy rule.
 ---
+
+Any type of privacy rule.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/gh/types/privacyrulecontacts">PrivacyRuleContacts</a>
 <span class="opacity-50">|</span> <a href="/gh/types/privacyruleeverybody">PrivacyRuleEverybody</a>

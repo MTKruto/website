@@ -51,7 +51,7 @@ A client's authorization state.
 <a href="/gh/types/availablereactions">AvailableReactions</a>
 <div><div>
 
-A chat's available reactions.
+Any type of a chat's available reactions.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -100,7 +100,7 @@ A bot's list of commands.
 <a href="/gh/types/botcommandscope">BotCommandScope</a>
 <div><div>
 
-A type specifying where bot commands are available.
+Any type specifying where bot commands are available.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -142,7 +142,7 @@ An answer to a callback query.
 <a href="/gh/types/callbackqueryquestion">CallbackQueryQuestion</a>
 <div><div>
 
-A reference to a button that is to be clicked by a user.
+Any type referencing a button that is to be clicked by a user.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -177,7 +177,7 @@ A sign of a possible action by a member of a conversation.
 <a href="/gh/types/chatactiontype">ChatActionType</a>
 <div><div>
 
-A type of a chat action.
+Any type of a chat action type.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -212,7 +212,7 @@ An item of a chat list.
 <a href="/gh/types/chatmember">ChatMember</a>
 <div><div>
 
-A chat member.
+Any type of a chat's member.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -233,7 +233,7 @@ Changes made to a chat member.
 <a href="/gh/types/chatp">ChatP</a>
 <div><div>
 
-A partial chat.
+Any type of a partial chat.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -373,7 +373,7 @@ A game.
 <a href="/gh/types/gift">Gift</a>
 <div><div>
 
-A gift.
+Any type of gift.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -457,7 +457,7 @@ An inactive chat.
 <a href="/gh/types/inlinekeyboardbutton">InlineKeyboardButton</a>
 <div><div>
 
-A button of an inline keyboard.
+Any type of an inline keyboard's button.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -478,7 +478,7 @@ An answer to an inline query.
 <a href="/gh/types/inlinequeryresult">InlineQueryResult</a>
 <div><div>
 
-A single inline query result.
+Any type of a single inline query result.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -499,28 +499,28 @@ A checklist item that is to be provided as an input.
 <a href="/gh/types/inputemojistatus">InputEmojiStatus</a>
 <div><div>
 
-An emoji status to be passed as an input.
+Any type of emoji status to be passed as an input.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/types/inputgift">InputGift</a>
 <div><div>
 
-Reference to a gift.
+Any type of a gift reference.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/types/inputmedia">InputMedia</a>
 <div><div>
 
-An input media.
+Any type of input media.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/types/inputpollmedia">InputPollMedia</a>
 <div><div>
 
-A poll option input media.
+Any type of poll input media.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -555,7 +555,7 @@ An input sticker.
 <a href="/gh/types/inputstorycontent">InputStoryContent</a>
 <div><div>
 
-A story content when provided as an input.
+Any type of story content when provided as an input.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -583,7 +583,7 @@ A join request.
 <a href="/gh/types/keyboardbutton">KeyboardButton</a>
 <div><div>
 
-A button of a custom keyboard.
+Any type of a custom keyboard's button.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -597,7 +597,7 @@ A list of left channels.
 <a href="/gh/types/linkpreview">LinkPreview</a>
 <div><div>
 
-A link preview.
+Any type of link preview.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -646,7 +646,7 @@ Any type of message.
 <a href="/gh/types/messagecontent">MessageContent</a>
 <div><div>
 
-The content of a message in an inline query result.
+Any type of an inline message's content.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -667,7 +667,7 @@ A message draft.
 <a href="/gh/types/messageentity">MessageEntity</a>
 <div><div>
 
-A single entity of a message's text or caption.
+Any type of a single entity of a message's text or caption.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -877,7 +877,7 @@ A price tag.
 <a href="/gh/types/privacyrule">PrivacyRule</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+Any type of privacy rule.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -898,7 +898,7 @@ A list of profile photos.
 <a href="/gh/types/reaction">Reaction</a>
 <div><div>
 
-A reaction type.
+Any type of reaction.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -933,7 +933,7 @@ Information on a refunded payment.
 <a href="/gh/types/replymarkup">ReplyMarkup</a>
 <div><div>
 
-A message's reply markup.
+Any type of a message's reply markup.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -947,7 +947,7 @@ A reference to a specific part of a message that is being replied to.
 <a href="/gh/types/replyto">ReplyTo</a>
 <div><div>
 
-Information on what a message is replying to.
+Any type of information on what a message is replying to.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1122,14 +1122,14 @@ A story album.
 <a href="/gh/types/storyalbumicon">StoryAlbumIcon</a>
 <div><div>
 
-A story album's icon.
+Any type of a story album's icon.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/types/storycontent">StoryContent</a>
 <div><div>
 
-A story content.
+Any type of story content.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1143,14 +1143,14 @@ The interactions made with a story.
 <a href="/gh/types/storyinteractivearea">StoryInteractiveArea</a>
 <div><div>
 
-A story's interactive area.
+A any type of a story's interactive area.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/gh/types/storyprivacy">StoryPrivacy</a>
 <div><div>
 
-A story's privacy choice.
+Any type of a story's privacy choice.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1262,7 +1262,7 @@ A translation.
 <a href="/gh/types/update">Update</a>
 <div><div>
 
-An incoming update.
+Any type of update.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1304,7 +1304,7 @@ A video file.
 <a href="/gh/types/videochat">VideoChat</a>
 <div><div>
 
-A video chat.
+Any type of video chat.
 
 </div></div>
 <div class="descr-list-border"></div>

@@ -2,10 +2,10 @@
 title: InlineKeyboardButton
 parent: /types
 metas:
-  description: A button of an inline keyboard.
+  description: Any type of an inline keyboard's button.
 ---
 
-A button of an inline keyboard.
+Any type of an inline keyboard's button.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/gh/types/inlinekeyboardbuttonurl">InlineKeyboardButtonURL</a>
 <span class="opacity-50">|</span> <a href="/gh/types/inlinekeyboardbuttoncallback">InlineKeyboardButtonCallback</a>
