@@ -524,6 +524,13 @@ A poll option to be provided as an input.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/inputprivacyrule">InputPrivacyRule</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/inputrichtext">InputRichText</a>
 <div><div>
 
@@ -850,6 +857,20 @@ The duration of a Telegram Premium subscription.
 <div><div>
 
 A price tag.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/privacyrule">PrivacyRule</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/privacysettingkey">PrivacySettingKey</a>
+<div><div>
+
+A privacy setting key.
 
 </div></div>
 <div class="descr-list-border"></div>

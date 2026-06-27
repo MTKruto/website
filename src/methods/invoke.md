@@ -2,11 +2,10 @@
 title: invoke
 parent: /methods
 metas:
-  description: Invokes a function waiting and returning its reply.
+  description: Invoke a low-level function.
 ---
 
-Invokes a function waiting and returning its reply.
-Requires the client to be connected.<span class="select-none">  </span>
+Invoke a low-level function.<span class="select-none">  </span>
 
 ### Type Parameters 
 

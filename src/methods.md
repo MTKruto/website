@@ -35,27 +35,6 @@ Block a user.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/checkbottoken">checkBotToken</a>
-<div><div>
-
-Check whether a bot token is valid.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/methods/checkcode">checkCode</a>
-<div><div>
-
-Check if a code entered by the user was the same as the verification code.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/methods/checkpassword">checkPassword</a>
-<div><div>
-
-Check whether a password entered by the user is the same as the account's one.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/methods/checkusername">checkUsername</a>
 <div><div>
 
@@ -207,6 +186,13 @@ Get owned bots.
 <div><div>
 
 Get the user account password's hint.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getprivacysetting">getPrivacySetting</a>
+<div><div>
+
+Get a privacy setting.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -406,6 +392,13 @@ Set the personal channel of the current user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/setprivacysetting">setPrivacySetting</a>
+<div><div>
+
+Set a privacy setting.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/setprofilecolor">setProfileColor</a>
 <div><div>
 
@@ -473,6 +466,66 @@ Update the profile photo of the current user or a bot managed by the current use
 <div><div>
 
 Update the profile video of the current user or a bot managed by the current user.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
+## Authorization
+<div class="descr-list">
+
+<a href="/methods/checkbottoken">checkBotToken</a>
+<div><div>
+
+Check whether a bot token is valid.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/checkcode">checkCode</a>
+<div><div>
+
+Check if a code entered by the user was the same as the verification code.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/checkpassword">checkPassword</a>
+<div><div>
+
+Check whether a password entered by the user is the same as the account's one.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/exportauthstring">exportAuthString</a>
+<div><div>
+
+Export the auth string for the current authorization session.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/importauthstring">importAuthString</a>
+<div><div>
+
+Import an auth string.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/signin">signIn</a>
+<div><div>
+
+Signs in using the provided parameters if not already signed in.
+If no parameters are provided, the credentials will be prompted in runtime.
+
+Notes:
+1. Requires the `apiId` and `apiHash` parameters to be passed when constructing the client.
+3. Reconnects the client to the appropriate DC in case of MIGRATE_X errors.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/signout">signOut</a>
+<div><div>
+
+Sign out.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1280,6 +1333,33 @@ Update a checklist.
 
 </div>
 
+## Connection
+<div class="descr-list">
+
+<a href="/methods/connect">connect</a>
+<div><div>
+
+Connect the client.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/disconnect">disconnect</a>
+<div><div>
+
+Disconnect the client.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/start">start</a>
+<div><div>
+
+Start the client. Same as calling {@link Client.connect} followed by {@link Client.signIn}.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
 ## Contacts
 <div class="descr-list">
 
@@ -1508,11 +1588,31 @@ Send an inline query.
 ## Low Level
 <div class="descr-list">
 
+<a href="/methods/getinputchannel">getInputChannel</a>
+<div><div>
+
+Get a channel or a supergroup's inputChannel. Useful when calling API functions directly.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getinputpeer">getInputPeer</a>
+<div><div>
+
+Get a chat's inputPeer. Useful when calling API functions directly.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getinputuser">getInputUser</a>
+<div><div>
+
+Get a user's inputUser. Useful when calling API functions directly.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/invoke">invoke</a>
 <div><div>
 
-Invokes a function waiting and returning its reply.
-Requires the client to be connected.
+Invoke a low-level function.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1882,6 +1982,20 @@ Retrieve a message using its link.
 <div><div>
 
 Save an animation.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/savedraft">saveDraft</a>
+<div><div>
+
+Save a message draft.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/saverichtextdraft">saveRichTextDraft</a>
+<div><div>
+
+Save a rich text message draft.
 
 </div></div>
 <div class="descr-list-border"></div>
