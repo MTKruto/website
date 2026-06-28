@@ -2825,6 +2825,13 @@ Delete a single story.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/editstory">editStory</a>
+<div><div>
+
+Edit a story.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getstories">getStories</a>
 <div><div>
 
