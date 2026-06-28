@@ -2,10 +2,10 @@
 title: ReplyMarkup
 parent: /types
 metas:
-  description: A message's reply markup.
+  description: Any type of a message's reply markup.
 ---
 
-A message's reply markup.
+Any type of a message's reply markup.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/types/replymarkupinlinekeyboard">ReplyMarkupInlineKeyboard</a>
 <span class="opacity-50">|</span> <a href="/types/replymarkupkeyboard">ReplyMarkupKeyboard</a>

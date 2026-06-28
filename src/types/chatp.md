@@ -2,10 +2,10 @@
 title: ChatP
 parent: /types
 metas:
-  description: A partial chat.
+  description: Any type of a partial chat.
 ---
 
-A partial chat.
+Any type of a partial chat.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/types/chatpprivate">ChatPPrivate</a>
 <span class="opacity-50">|</span> <a href="/types/chatpgroup">ChatPGroup</a>

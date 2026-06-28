@@ -2,10 +2,10 @@
 title: StoryInteractiveArea
 parent: /types
 metas:
-  description: A story's interactive area.
+  description: A any type of a story's interactive area.
 ---
 
-A story's interactive area.
+A any type of a story's interactive area.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/types/storyinteractivearealocation">StoryInteractiveAreaLocation</a>
 <span class="opacity-50">|</span> <a href="/types/storyinteractiveareavenue">StoryInteractiveAreaVenue</a>

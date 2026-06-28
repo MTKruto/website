@@ -2,10 +2,10 @@
 title: Reaction
 parent: /types
 metas:
-  description: A reaction type.
+  description: Any type of reaction.
 ---
 
-A reaction type.
+Any type of reaction.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/types/reactionemoji">ReactionEmoji</a>
 <span class="opacity-50">|</span> <a href="/types/reactioncustom">ReactionCustom</a>

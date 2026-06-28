@@ -2,10 +2,10 @@
 title: ChatActionType
 parent: /types
 metas:
-  description: A type of a chat action.
+  description: Any type of a chat action type.
 ---
 
-A type of a chat action.
+Any type of a chat action type.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/types/chatactiontypetyping">ChatActionTypeTyping</a>
 <span class="opacity-50">|</span> <a href="/types/chatactiontypeuploadingphoto">ChatActionTypeUploadingPhoto</a>

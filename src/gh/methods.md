@@ -329,6 +329,13 @@ Reorder the usernames of the current account, a bot account, a supergroup, or a 
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/resetnotificationsettings">resetNotificationSettings</a>
+<div><div>
+
+Reset notification settings.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/resolvephonenumber">resolvePhoneNumber</a>
 <div><div>
 

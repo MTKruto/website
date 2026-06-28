@@ -2,10 +2,10 @@
 title: CallbackQueryQuestion
 parent: /types
 metas:
-  description: A reference to a button that is to be clicked by a user.
+  description: Any type referencing a button that is to be clicked by a user.
 ---
 
-A reference to a button that is to be clicked by a user.
+Any type referencing a button that is to be clicked by a user.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/types/callbackqueryquestiongame">CallbackQueryQuestionGame</a>
 <span class="opacity-50">|</span> <a href="/types/callbackqueryquestionpassword">CallbackQueryQuestionPassword</a>

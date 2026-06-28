@@ -2,10 +2,10 @@
 title: KeyboardButton
 parent: /types
 metas:
-  description: A button of a custom keyboard.
+  description: Any type of a custom keyboard's button.
 ---
 
-A button of a custom keyboard.
+Any type of a custom keyboard's button.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/types/keyboardbuttontext">KeyboardButtonText</a>
 <span class="opacity-50">|</span> <a href="/types/keyboardbuttonrequestuser">KeyboardButtonRequestUser</a>

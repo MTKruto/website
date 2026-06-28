@@ -2,10 +2,10 @@
 title: InputGift
 parent: /types
 metas:
-  description: Reference to a gift.
+  description: Any type of a gift reference.
 ---
 
-Reference to a gift.
+Any type of a gift reference.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/types/inputgiftslug">InputGiftSlug</a>
 <span class="opacity-50">|</span> <a href="/types/inputgiftchat">InputGiftChat</a>

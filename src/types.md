@@ -51,7 +51,7 @@ A client's authorization state.
 <a href="/types/availablereactions">AvailableReactions</a>
 <div><div>
 
-A chat's available reactions.
+Any type of a chat's available reactions.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -100,7 +100,7 @@ A bot's list of commands.
 <a href="/types/botcommandscope">BotCommandScope</a>
 <div><div>
 
-A type specifying where bot commands are available.
+Any type specifying where bot commands are available.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -142,7 +142,7 @@ An answer to a callback query.
 <a href="/types/callbackqueryquestion">CallbackQueryQuestion</a>
 <div><div>
 
-A reference to a button that is to be clicked by a user.
+Any type referencing a button that is to be clicked by a user.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -156,7 +156,7 @@ A country calling code.
 <a href="/types/channellocation">ChannelLocation</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A channel's location.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -177,7 +177,7 @@ A sign of a possible action by a member of a conversation.
 <a href="/types/chatactiontype">ChatActionType</a>
 <div><div>
 
-A type of a chat action.
+Any type of a chat action type.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -212,7 +212,7 @@ An item of a chat list.
 <a href="/types/chatmember">ChatMember</a>
 <div><div>
 
-A chat member.
+Any type of a chat's member.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -233,7 +233,7 @@ Changes made to a chat member.
 <a href="/types/chatp">ChatP</a>
 <div><div>
 
-A partial chat.
+Any type of a partial chat.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -373,7 +373,7 @@ A game.
 <a href="/types/gift">Gift</a>
 <div><div>
 
-A gift.
+Any type of gift.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -395,6 +395,13 @@ The rarity of a gift component.
 <div><div>
 
 Information on a non-upgraded gift.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/giftprivacy">GiftPrivacy</a>
+<div><div>
+
+A gift privacy setting.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -450,7 +457,7 @@ An inactive chat.
 <a href="/types/inlinekeyboardbutton">InlineKeyboardButton</a>
 <div><div>
 
-A button of an inline keyboard.
+Any type of an inline keyboard's button.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -471,7 +478,7 @@ An answer to an inline query.
 <a href="/types/inlinequeryresult">InlineQueryResult</a>
 <div><div>
 
-A single inline query result.
+Any type of a single inline query result.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -492,28 +499,35 @@ A checklist item that is to be provided as an input.
 <a href="/types/inputemojistatus">InputEmojiStatus</a>
 <div><div>
 
-An emoji status to be passed as an input.
+Any type of emoji status to be passed as an input.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/types/inputgift">InputGift</a>
 <div><div>
 
-Reference to a gift.
+Any type of a gift reference.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/types/inputmedia">InputMedia</a>
 <div><div>
 
-An input media.
+Any type of input media.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/inputnotificationsettings">InputNotificationSettings</a>
+<div><div>
+
+A chat's notification settings that is to be used as an input.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/types/inputpollmedia">InputPollMedia</a>
 <div><div>
 
-A poll option input media.
+Any type of poll input media.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -527,7 +541,7 @@ A poll option to be provided as an input.
 <a href="/types/inputprivacyrule">InputPrivacyRule</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+Any type of input privacy rule.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -548,7 +562,7 @@ An input sticker.
 <a href="/types/inputstorycontent">InputStoryContent</a>
 <div><div>
 
-A story content when provided as an input.
+Any type of story content when provided as an input.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -576,7 +590,7 @@ A join request.
 <a href="/types/keyboardbutton">KeyboardButton</a>
 <div><div>
 
-A button of a custom keyboard.
+Any type of a custom keyboard's button.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -590,7 +604,7 @@ A list of left channels.
 <a href="/types/linkpreview">LinkPreview</a>
 <div><div>
 
-A link preview.
+Any type of link preview.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -639,7 +653,7 @@ Any type of message.
 <a href="/types/messagecontent">MessageContent</a>
 <div><div>
 
-The content of a message in an inline query result.
+Any type of an inline message's content.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -660,7 +674,7 @@ A message draft.
 <a href="/types/messageentity">MessageEntity</a>
 <div><div>
 
-A single entity of a message's text or caption.
+Any type of a single entity of a message's text or caption.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -759,6 +773,27 @@ A client's network statistics.
 <div><div>
 
 An entry of a client's network statistics.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/newchatprivacy">NewChatPrivacy</a>
+<div><div>
+
+A new chat privacy setting.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/notificationsettings">NotificationSettings</a>
+<div><div>
+
+A chat's notification settings.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/notificationsound">NotificationSound</a>
+<div><div>
+
+Any type of notification sound.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -863,7 +898,7 @@ A price tag.
 <a href="/types/privacyrule">PrivacyRule</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+Any type of privacy rule.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -884,7 +919,7 @@ A list of profile photos.
 <a href="/types/reaction">Reaction</a>
 <div><div>
 
-A reaction type.
+Any type of reaction.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -898,350 +933,14 @@ The count of a specific reaction.
 <a href="/types/recentaction">RecentAction</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionchangedescription">RecentActionChangeDescription</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionchangediscussionchat">RecentActionChangeDiscussionChat</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionchangelocation">RecentActionChangeLocation</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionchangephoto">RecentActionChangePhoto</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionchangesetslowmode">RecentActionChangeSetSlowMode</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionchangestickerset">RecentActionChangeStickerSet</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionchangetitle">RecentActionChangeTitle</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionchangeusername">RecentActionChangeUsername</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactioncreatetopic">RecentActionCreateTopic</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactiondeleteinvitelink">RecentActionDeleteInviteLink</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactiondeletemessage">RecentActionDeleteMessage</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactiondeletetopic">RecentActionDeleteTopic</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactioneditchatmembertag">RecentActionEditChatMemberTag</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactioneditinvitelink">RecentActionEditInviteLink</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactioneditmessage">RecentActionEditMessage</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionedittopic">RecentActionEditTopic</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionendvideochat">RecentActionEndVideoChat</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactioninvite">RecentActionInvite</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionjoin">RecentActionJoin</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionjoinbyinvite">RecentActionJoinByInvite</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionjoinbyrequest">RecentActionJoinByRequest</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionleave">RecentActionLeave</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionmutevideochatparticipant">RecentActionMuteVideoChatParticipant</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionparticipantsubextend">RecentActionParticipantSubExtend</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionpinmessage">RecentActionPinMessage</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionpintopic">RecentActionPinTopic</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionrevokeinvitelink">RecentActionRevokeInviteLink</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionsendmessage">RecentActionSendMessage</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
+Any type of recent action.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/types/recentactionsentry">RecentActionsEntry</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionsetavailablereactions">RecentActionSetAvailableReactions</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionsetdefaultpermissions">RecentActionSetDefaultPermissions</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionsetemojistickerset">RecentActionSetEmojiStickerSet</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionsethistoryttl">RecentActionSetHistoryTtl</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionsetusernames">RecentActionSetUsernames</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionsetvideochatparticipantvolume">RecentActionSetVideoChatParticipantVolume</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionstartvideochat">RecentActionStartVideoChat</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionstoppoll">RecentActionStopPoll</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactiontoggleantispam">RecentActionToggleAntispam</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactiontoggleautomatictranslation">RecentActionToggleAutomaticTranslation</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactiontogglechathistoryfornewmembers">RecentActionToggleChatHistoryForNewMembers</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactiontogglecontentprotection">RecentActionToggleContentProtection</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactiontoggleinvites">RecentActionToggleInvites</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactiontogglepromotion">RecentActionTogglePromotion</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactiontogglerestriction">RecentActionToggleRestriction</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactiontogglesignatures">RecentActionToggleSignatures</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactiontoggletopics">RecentActionToggleTopics</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactiontogglevideochatdefaultmuted">RecentActionToggleVideoChatDefaultMuted</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionunmutevideochatparticipant">RecentActionUnmuteVideoChatParticipant</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/recentactionunsupported">RecentActionUnsupported</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
+A recent actions entry.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1255,7 +954,7 @@ Information on a refunded payment.
 <a href="/types/replymarkup">ReplyMarkup</a>
 <div><div>
 
-A message's reply markup.
+Any type of a message's reply markup.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1269,7 +968,7 @@ A reference to a specific part of a message that is being replied to.
 <a href="/types/replyto">ReplyTo</a>
 <div><div>
 
-Information on what a message is replying to.
+Any type of information on what a message is replying to.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1444,14 +1143,14 @@ A story album.
 <a href="/types/storyalbumicon">StoryAlbumIcon</a>
 <div><div>
 
-A story album's icon.
+Any type of a story album's icon.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/types/storycontent">StoryContent</a>
 <div><div>
 
-A story content.
+Any type of story content.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1465,14 +1164,14 @@ The interactions made with a story.
 <a href="/types/storyinteractivearea">StoryInteractiveArea</a>
 <div><div>
 
-A story's interactive area.
+A any type of a story's interactive area.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/types/storyprivacy">StoryPrivacy</a>
 <div><div>
 
-A story's privacy choice.
+Any type of a story's privacy choice.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1584,7 +1283,7 @@ A translation.
 <a href="/types/update">Update</a>
 <div><div>
 
-An incoming update.
+Any type of update.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1626,7 +1325,7 @@ A video file.
 <a href="/types/videochat">VideoChat</a>
 <div><div>
 
-A video chat.
+Any type of video chat.
 
 </div></div>
 <div class="descr-list-border"></div>

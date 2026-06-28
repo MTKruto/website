@@ -2,10 +2,10 @@
 title: ChatMember
 parent: /types
 metas:
-  description: A chat member.
+  description: Any type of a chat's member.
 ---
 
-A chat member.
+Any type of a chat's member.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/types/chatmembercreator">ChatMemberCreator</a>
 <span class="opacity-50">|</span> <a href="/types/chatmemberadministrator">ChatMemberAdministrator</a>

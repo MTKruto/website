@@ -2,10 +2,10 @@
 title: GiftUpgradedComponent
 parent: /types
 metas:
-  description: A component of an upgraded gift.
+  description: Any type of an upgraded gift's component.
 ---
 
-A component of an upgraded gift.
+Any type of an upgraded gift's component.
 
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/types/giftupgradedcomponentmodel">GiftUpgradedComponentModel</a>

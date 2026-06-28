@@ -1,7 +1,11 @@
 ---
 title: RecentAction
 parent: /types
+metas:
+  description: Any type of recent action.
 ---
+
+Any type of recent action.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/types/recentactionchangetitle">RecentActionChangeTitle</a>
 <span class="opacity-50">|</span> <a href="/types/recentactionchangedescription">RecentActionChangeDescription</a>

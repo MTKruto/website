@@ -2,10 +2,10 @@
 title: LinkPreview
 parent: /types
 metas:
-  description: A link preview.
+  description: Any type of link preview.
 ---
 
-A link preview.
+Any type of link preview.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/types/inputlinkpreview">InputLinkPreview</a>
 <span class="opacity-50">|</span> <a href="/types/linkpreviewloading">LinkPreviewLoading</a>

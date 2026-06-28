@@ -126,6 +126,13 @@ Get app support name.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getarchiveandmutenewchatsfromunknownusers">getArchiveAndMuteNewChatsFromUnknownUsers</a>
+<div><div>
+
+Get whether new chats from unknown users are archived and muted.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getauthorizationsessions">getAuthorizationSessions</a>
 <div><div>
 
@@ -168,10 +175,24 @@ Get the country code for the current user based on its IP address.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getgiftprivacy">getGiftPrivacy</a>
+<div><div>
+
+Get gift privacy setting.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getme">getMe</a>
 <div><div>
 
 Get information on the currently authorized user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getnewchatprivacy">getNewChatPrivacy</a>
+<div><div>
+
+Get new chat privacy setting.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -200,6 +221,13 @@ Get a privacy setting.
 <div><div>
 
 Get the profile photos of a user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getreaddateprivacy">getReadDatePrivacy</a>
+<div><div>
+
+Get read date privacy.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -329,10 +357,24 @@ Send a user verification code.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/sendcustomrequest">sendCustomRequest</a>
+<div><div>
+
+Send a custom request.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/setaccountttl">setAccountTtl</a>
 <div><div>
 
 Set the current account's TTL.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setarchiveandmutenewchatsfromunknownusers">setArchiveAndMuteNewChatsFromUnknownUsers</a>
+<div><div>
+
+Set whether new chats from unknown users should be archived and muted.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -364,6 +406,13 @@ Set the current account's emoji status.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/setgiftprivacy">setGiftPrivacy</a>
+<div><div>
+
+Set gift privacy setting.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/setisonline">setIsOnline</a>
 <div><div>
 
@@ -385,6 +434,13 @@ Set the name color of the current user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/setnewchatprivacy">setNewChatPrivacy</a>
+<div><div>
+
+Set new chat privacy setting.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/setpersonalchannel">setPersonalChannel</a>
 <div><div>
 
@@ -403,6 +459,13 @@ Set a privacy setting.
 <div><div>
 
 Set the profile color of the current user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setreaddateprivacy">setReadDatePrivacy</a>
+<div><div>
+
+Set read date privacy.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -535,6 +598,13 @@ Sign out.
 ## Bots
 <div class="descr-list">
 
+<a href="/methods/deletemycommands">deleteMyCommands</a>
+<div><div>
+
+Delete the bot's commands in the given scope and/or language.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getmycommands">getMyCommands</a>
 <div><div>
 
@@ -981,6 +1051,13 @@ Get pending join requests in a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getnotificationsettings">getNotificationSettings</a>
+<div><div>
+
+Get a chat's notification settings.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getonlinecount">getOnlineCount</a>
 <div><div>
 
@@ -1223,6 +1300,13 @@ Set a channel's discussion chat.
 <div><div>
 
 Set the time to live of the messages of a chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setnotificationsettings">setNotificationSettings</a>
+<div><div>
+
+Set a chat's notification settings.
 
 </div></div>
 <div class="descr-list-border"></div>
