@@ -33,6 +33,22 @@ Whether to add the story to highlights.
 
 Whether to protect the contents of the story from copying and forwarding.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_albumIds" data-anchor="true"><span class="font-bold">albumIds</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+
+Identifiers of albums to add the story to.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_forwardedFromChatId" data-anchor="true"><span class="font-bold">forwardedFromChatId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/id">ID</a></div></div><div class="pl-3"><div class="no-margin">
+
+Identifier of the chat including the reposted story.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_forwardedFromStoryId" data-anchor="true"><span class="font-bold">forwardedFromStoryId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+Identifier of the reposted story.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isRepostedStoryModified" data-anchor="true"><span class="font-bold">isRepostedStoryModified</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the reposted story is modified.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_caption" data-anchor="true"><span class="font-bold">caption</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
 The caption to attach.
@@ -93,6 +109,10 @@ await client.createStory(chatId, content, {
     activeFor,
     highlight,
     isContentProtected,
+    albumIds,
+    forwardedFromChatId,
+    forwardedFromStoryId,
+    isRepostedStoryModified,
     caption,
     captionEntities,
     parseMode,
