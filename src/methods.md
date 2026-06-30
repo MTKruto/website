@@ -329,6 +329,13 @@ Reorder the usernames of the current account, a bot account, a supergroup, or a 
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/resetnotificationsettings">resetNotificationSettings</a>
+<div><div>
+
+Reset notification settings.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/resolvephonenumber">resolvePhoneNumber</a>
 <div><div>
 
@@ -2815,6 +2822,13 @@ Delete multiple stories.
 <div><div>
 
 Delete a single story.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/editstory">editStory</a>
+<div><div>
+
+Edit a story.
 
 </div></div>
 <div class="descr-list-border"></div>
