@@ -83,7 +83,7 @@ Duration of the poll in seconds. Must be in the range of 5-600. Cannot be used s
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_closeDate" data-anchor="true"><span class="font-bold">closeDate</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The time when the poll will be closed. Must be at least 5 seconds in the future, and no more than 600. Cannot be used simultaneously with `openPeriod`.
+The time when the poll will be closed. Must be at least 5 seconds in the future, and no more than 600 seconds in the future. Cannot be used simultaneously with `openPeriod`.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isClosed" data-anchor="true"><span class="font-bold">isClosed</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
