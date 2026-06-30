@@ -2,10 +2,10 @@
 title: TopicDeleted
 parent: /types
 metas:
-  description: An active forum topic.
+  description: A deleted forum topic.
 ---
 
-An active forum topic.
+A deleted forum topic.
 
 ### Properties
 

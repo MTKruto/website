@@ -588,7 +588,7 @@ If no parameters are provided, the credentials will be prompted in runtime.
 
 Notes:
 1. Requires the `apiId` and `apiHash` parameters to be passed when constructing the client.
-3. Reconnects the client to the appropriate DC in case of MIGRATE_X errors.
+2. Reconnects the client to the appropriate DC in case of MIGRATE_X errors.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1716,7 +1716,7 @@ Invoke a low-level function.
 <a href="/gh/methods/getmanagedbotaccesssettings">getManagedBotAccessSettings</a>
 <div><div>
 
-Set the access settings of a managed bot.
+Get the access settings of a managed bot.
 
 </div></div>
 <div class="descr-list-border"></div>

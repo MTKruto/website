@@ -2,10 +2,10 @@
 title: FileSource
 parent: /types
 metas:
-  description: Source to a file. Can be a file ID, a file path, URL, a `Uint8Array`, a potentially async `Uint8Array` iterator, or a readable stream of `Uint8Array`, unless otherwise noted.
+  description: A file source. Can be a file ID, a file path, URL, a `Uint8Array`, a potentially async `Uint8Array` iterator, or a readable stream of `Uint8Array`, unless otherwise noted.
 ---
 
-Source to a file. Can be a file ID, a file path, URL, a `Uint8Array`, a potentially async `Uint8Array` iterator, or a readable stream of `Uint8Array`, unless otherwise noted.
+A file source. Can be a file ID, a file path, URL, a `Uint8Array`, a potentially async `Uint8Array` iterator, or a readable stream of `Uint8Array`, unless otherwise noted.
 
 <div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <span>string</span>
 <span class="opacity-50">|</span> <a href="https://developer.mozilla.org/en-US/docs/Web/API/URL" target="_blank" rel="noreferrer noopener">URL</a>
