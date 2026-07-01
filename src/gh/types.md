@@ -111,6 +111,13 @@ A result after checking a bot token.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/businessawaymessageschedule">BusinessAwayMessageSchedule</a>
+<div><div>
+
+The schedule for a business away message.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/businessconnection">BusinessConnection</a>
 <div><div>
 
@@ -486,6 +493,13 @@ Any type of a single inline query result.
 <div><div>
 
 A button to be shown along with the results of an inline query.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/inputbusinessrecipients">InputBusinessRecipients</a>
+<div><div>
+
+The recipients of a business message.
 
 </div></div>
 <div class="descr-list-border"></div>

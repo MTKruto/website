@@ -287,6 +287,13 @@ Remove a bot from the attachments menu.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/removebusinessawaymessage">removeBusinessAwayMessage</a>
+<div><div>
+
+Remove the current user's business away message.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/removechannelemojistatus">removeChannelEmojiStatus</a>
 <div><div>
 
@@ -389,6 +396,13 @@ Set whether new chats from unknown users should be archived and muted.
 <div><div>
 
 Set the birthday of the current user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setbusinessawaymessage">setBusinessAwayMessage</a>
+<div><div>
+
+Set the current user's business away message.
 
 </div></div>
 <div class="descr-list-border"></div>
