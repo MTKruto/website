@@ -420,6 +420,13 @@ Set the list of close friends.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/setdefaultmessagettl">setDefaultMessageTtl</a>
+<div><div>
+
+Set the default message TTL.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/setemojistatus">setEmojiStatus</a>
 <div><div>
 
