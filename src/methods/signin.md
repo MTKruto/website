@@ -10,7 +10,7 @@ If no parameters are provided, the credentials will be prompted in runtime.
 
 Notes:
 1. Requires the `apiId` and `apiHash` parameters to be passed when constructing the client.
-3. Reconnects the client to the appropriate DC in case of MIGRATE_X errors.<span class="select-none">  </span>
+2. Reconnects the client to the appropriate DC in case of MIGRATE_X errors.<span class="select-none">  </span>
 
 ### Parameters 
 

@@ -15,7 +15,7 @@ The identifier of the user.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_color" data-anchor="true"><span class="font-bold">color</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-Identifier of color that can be displayed instead of the user's photo.
+Identifier of a color that can be displayed instead of the user's photo.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isBot" data-anchor="true"><span class="font-bold">isBot</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
