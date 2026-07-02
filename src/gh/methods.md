@@ -634,6 +634,13 @@ Sign out.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/signup">signUp</a>
+<div><div>
+
+Sign up.
+
+</div></div>
+<div class="descr-list-border"></div>
 
 </div>
 
