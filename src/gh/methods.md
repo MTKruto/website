@@ -371,13 +371,6 @@ Resume the business bot in a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/gh/methods/sendcode">sendCode</a>
-<div><div>
-
-Send a user verification code.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/gh/methods/sendcustomrequest">sendCustomRequest</a>
 <div><div>
 
@@ -612,6 +605,13 @@ Export the auth string for the current authorization session.
 <div><div>
 
 Import an auth string.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/sendcode">sendCode</a>
+<div><div>
+
+Send a user verification code.
 
 </div></div>
 <div class="descr-list-border"></div>
