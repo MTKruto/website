@@ -287,6 +287,20 @@ Remove a bot from the attachments menu.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/removebusinessawaymessage">removeBusinessAwayMessage</a>
+<div><div>
+
+Remove the current user's business away message.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/removebusinessintro">removeBusinessIntro</a>
+<div><div>
+
+Remove the business intro.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/removechannelemojistatus">removeChannelEmojiStatus</a>
 <div><div>
 
@@ -357,13 +371,6 @@ Resume the business bot in a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
-<a href="/methods/sendcode">sendCode</a>
-<div><div>
-
-Send a user verification code.
-
-</div></div>
-<div class="descr-list-border"></div>
 <a href="/methods/sendcustomrequest">sendCustomRequest</a>
 <div><div>
 
@@ -392,6 +399,20 @@ Set the birthday of the current user.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/setbusinessawaymessage">setBusinessAwayMessage</a>
+<div><div>
+
+Set the current user's business away message.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setbusinessintro">setBusinessIntro</a>
+<div><div>
+
+Set the business intro.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/setchannelemojistatus">setChannelEmojiStatus</a>
 <div><div>
 
@@ -403,6 +424,13 @@ Set the emoji status of a channel.
 <div><div>
 
 Set the list of close friends.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setdefaultmessagettl">setDefaultMessageTtl</a>
+<div><div>
+
+Set the default message TTL.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -577,6 +605,13 @@ Export the auth string for the current authorization session.
 <div><div>
 
 Import an auth string.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/sendcode">sendCode</a>
+<div><div>
+
+Send a user verification code.
 
 </div></div>
 <div class="descr-list-border"></div>
