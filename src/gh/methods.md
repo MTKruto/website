@@ -294,6 +294,13 @@ Remove the current user's business away message.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/removebusinessintro">removeBusinessIntro</a>
+<div><div>
+
+Remove the business intro.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/removechannelemojistatus">removeChannelEmojiStatus</a>
 <div><div>
 
@@ -403,6 +410,13 @@ Set the birthday of the current user.
 <div><div>
 
 Set the current user's business away message.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setbusinessintro">setBusinessIntro</a>
+<div><div>
+
+Set the business intro.
 
 </div></div>
 <div class="descr-list-border"></div>
