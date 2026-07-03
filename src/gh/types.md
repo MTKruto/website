@@ -1042,6 +1042,13 @@ A list of saved chats.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/savednotificationsound">SavedNotificationSound</a>
+<div><div>
+
+A saved notification sound.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/secretchat">SecretChat</a>
 <div><div>
 

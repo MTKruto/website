@@ -14,6 +14,13 @@ Add a bot to the attachments menu.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/addsavednotificationsound">addSavedNotificationSound</a>
+<div><div>
+
+Add a saved notification sound.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/allowbottosetcustomemojistatus">allowBotToSetCustomEmojiStatus</a>
 <div><div>
 
@@ -238,6 +245,13 @@ Get recent emoji statuses.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getsavednotificationsounds">getSavedNotificationSounds</a>
+<div><div>
+
+Get saved notification sounds.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/gettimezones">getTimezones</a>
 <div><div>
 
@@ -319,6 +333,13 @@ Remove the current account's emoji status.
 <div><div>
 
 Remove the profile video of the current user or a bot managed by the current user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/removesavednotificationsound">removeSavedNotificationSound</a>
+<div><div>
+
+Remove a saved notification sound.
 
 </div></div>
 <div class="descr-list-border"></div>
