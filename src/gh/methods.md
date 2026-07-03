@@ -14,6 +14,13 @@ Add a bot to the attachments menu.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/addmusictoprofile">addMusicToProfile</a>
+<div><div>
+
+Add a music to profile.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/addsavednotificationsound">addSavedNotificationSound</a>
 <div><div>
 
@@ -224,6 +231,13 @@ Get a privacy setting.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getprofilemusic">getProfileMusic</a>
+<div><div>
+
+Get a user's profile music.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getprofilephotos">getProfilePhotos</a>
 <div><div>
 
@@ -333,6 +347,13 @@ Remove the emoji status of a channel.
 <div><div>
 
 Remove the current account's emoji status.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/removemusicfromprofile">removeMusicFromProfile</a>
+<div><div>
+
+Remove a music from profile.
 
 </div></div>
 <div class="descr-list-border"></div>
