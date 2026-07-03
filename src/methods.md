@@ -14,6 +14,20 @@ Add a bot to the attachments menu.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/addmusictoprofile">addMusicToProfile</a>
+<div><div>
+
+Add a music to profile.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/addsavednotificationsound">addSavedNotificationSound</a>
+<div><div>
+
+Add a saved notification sound.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/allowbottosetcustomemojistatus">allowBotToSetCustomEmojiStatus</a>
 <div><div>
 
@@ -217,6 +231,13 @@ Get a privacy setting.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/getprofilemusic">getProfileMusic</a>
+<div><div>
+
+Get a user's profile music.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getprofilephotos">getProfilePhotos</a>
 <div><div>
 
@@ -235,6 +256,13 @@ Get read date privacy.
 <div><div>
 
 Get recent emoji statuses.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getsavednotificationsounds">getSavedNotificationSounds</a>
+<div><div>
+
+Get saved notification sounds.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -294,6 +322,13 @@ Remove the current user's business away message.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/removebusinessgreetingmessage">removeBusinessGreetingMessage</a>
+<div><div>
+
+Remove the business greeting message.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/removebusinessintro">removeBusinessIntro</a>
 <div><div>
 
@@ -315,10 +350,24 @@ Remove the current account's emoji status.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/removemusicfromprofile">removeMusicFromProfile</a>
+<div><div>
+
+Remove a music from profile.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/removeprofilephoto">removeProfilePhoto</a>
 <div><div>
 
 Remove the profile video of the current user or a bot managed by the current user.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/removesavednotificationsound">removeSavedNotificationSound</a>
+<div><div>
+
+Remove a saved notification sound.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -403,6 +452,13 @@ Set the birthday of the current user.
 <div><div>
 
 Set the current user's business away message.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/setbusinessgreetingmessage">setBusinessGreetingMessage</a>
+<div><div>
+
+Set the business greeting message.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -631,6 +687,13 @@ Notes:
 <div><div>
 
 Sign out.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/signup">signUp</a>
+<div><div>
+
+Sign up.
 
 </div></div>
 <div class="descr-list-border"></div>
