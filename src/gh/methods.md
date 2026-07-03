@@ -308,6 +308,13 @@ Remove the current user's business away message.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/removebusinessgreetingmessage">removeBusinessGreetingMessage</a>
+<div><div>
+
+Remove the business greeting message.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/removebusinessintro">removeBusinessIntro</a>
 <div><div>
 
@@ -424,6 +431,13 @@ Set the birthday of the current user.
 <div><div>
 
 Set the current user's business away message.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/setbusinessgreetingmessage">setBusinessGreetingMessage</a>
+<div><div>
+
+Set the business greeting message.
 
 </div></div>
 <div class="descr-list-border"></div>
