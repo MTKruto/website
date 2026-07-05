@@ -2515,6 +2515,13 @@ Get the TON balance of a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/gettontransactions">getTonTransactions</a>
+<div><div>
+
+Get TON transactions.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/refundstarpayment">refundStarPayment</a>
 <div><div>
 
