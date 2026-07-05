@@ -11,7 +11,7 @@ Delete the current account.<span class="select-none"> <span class="inline-flex w
 
 <div class="flex flex-col gap-3"><div><div class="font-mono" id="p_reason" data-anchor="true"><span class="font-bold">reason</span><span class="opacity-50">:</span> <span>string</span></div><div class="pl-3"><div class="no-margin">
 
-The reason of the deletion.
+The reason for the deletion.
 
 </div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_password" data-anchor="true"><span class="font-bold">password</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 

@@ -17,7 +17,7 @@ Add a bot to the attachments menu.
 <a href="/gh/methods/addmusictoprofile">addMusicToProfile</a>
 <div><div>
 
-Add a music to profile.
+Add music to profile.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -353,7 +353,7 @@ Remove the current account's emoji status.
 <a href="/gh/methods/removemusicfromprofile">removeMusicFromProfile</a>
 <div><div>
 
-Remove a music from profile.
+Remove music from profile.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -646,7 +646,7 @@ Check if a code entered by the user was the same as the verification code.
 <a href="/gh/methods/checkpassword">checkPassword</a>
 <div><div>
 
-Check whether a password entered by the user is the same as the account's one.
+Check whether a password entered by the user is the same as the account's password.
 
 </div></div>
 <div class="descr-list-border"></div>
