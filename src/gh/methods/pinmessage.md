@@ -17,7 +17,7 @@ The identifier of a chat.
 
 The identifier of the message.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_bothSides" data-anchor="true"><span class="font-bold">bothSides</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_isForBothSides" data-anchor="true"><span class="font-bold">isForBothSides</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether to pin the message for both sides. For private chats only.
 
@@ -44,7 +44,7 @@ await client.pinMessage(chatId, messageId);
 // Required parameters + optional parameters.
 // Any of the optional parameters can be omitted.
 await client.pinMessage(chatId, messageId, {
-    bothSides,
+    isForBothSides,
     isSilent,
     businessConnectionId,
 });
