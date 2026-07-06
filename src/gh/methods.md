@@ -3006,6 +3006,13 @@ Create a story album.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/deletestoryalbum">deleteStoryAlbum</a>
+<div><div>
+
+Delete a story album.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getstoriesinalbum">getStoriesInAlbum</a>
 <div><div>
 
@@ -3038,6 +3045,13 @@ Remove a single story from an album.
 <div><div>
 
 Reorder stories in an album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/reorderstoryalbums">reorderStoryAlbums</a>
+<div><div>
+
+Reorder story albums.
 
 </div></div>
 <div class="descr-list-border"></div>
