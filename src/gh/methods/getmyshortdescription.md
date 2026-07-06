@@ -22,7 +22,9 @@ The current bot's short description in the specified language.
 ### Syntax
 
 ```ts
-await client.getMyShortDescription();
+// Optional parameters.
+// Any of the optional parameters can be omitted.
+await client.getMyShortDescription( { languageCode });
 ```
 
 

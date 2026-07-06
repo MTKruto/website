@@ -18,7 +18,9 @@ Set the bot's description in the given language.<span class="select-none"> <span
 ### Syntax
 
 ```ts
-await client.setMyDescription();
+// Optional parameters.
+// Any of the optional parameters can be omitted.
+await client.setMyDescription( { description, languageCode });
 ```
 
 

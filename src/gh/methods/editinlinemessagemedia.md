@@ -13,7 +13,7 @@ Edit an inline message's media.<span class="select-none"> <span class="inline-fl
 
 The identifier of the inline message.
 
-</div></div></div><div><div class="font-mono" id="p_media" data-anchor="true"><span class="font-bold">media</span><span class="opacity-50">:</span> <a href="/gh/types/inputmedia">InputMedia</a></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="font-mono" id="p_media" data-anchor="true"><span class="font-bold">media</span><span class="opacity-50">:</span> <span href="/">InputMedia</span></div><div class="pl-3"><div class="no-margin">
 
 The new media of the message.
 

@@ -41,7 +41,7 @@ The chat where the message was sent.
 
 A link to the message.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_forwardFrom" data-anchor="true"><span class="font-bold">forwardFrom</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/forwardheader">ForwardHeader</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_forwardFrom" data-anchor="true"><span class="font-bold">forwardFrom</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">ForwardHeader</span></div></div><div class="pl-3"><div class="no-margin">
 
 Information on the original message.
 
@@ -65,7 +65,7 @@ The identifier of the message that is being replied to.
 
 The reactions of the message.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_replyQuote" data-anchor="true"><span class="font-bold">replyQuote</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/replyquote">ReplyQuote</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_replyQuote" data-anchor="true"><span class="font-bold">replyQuote</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">ReplyQuote</span></div></div><div class="pl-3"><div class="no-margin">
 
 The part of the message that is being replied to.
 
@@ -133,7 +133,7 @@ The message's self-destruct preference.
 
 If this message is a guest message, the user or chat that triggered it.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;venue&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_venue" data-anchor="true"><span class="font-bold">venue</span><span class="opacity-50">:</span> <a href="/gh/types/venue">Venue</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;venue&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_venue" data-anchor="true"><span class="font-bold">venue</span><span class="opacity-50">:</span> <span href="/">Venue</span></div></div><div class="pl-3"><div class="no-margin">
 
 The venue included in the message.
 

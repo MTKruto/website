@@ -13,7 +13,7 @@ Send a media group.<span class="select-none">  </span>
 
 The identifier of a chat to send the media group to.
 
-</div></div></div><div><div class="font-mono" id="p_media" data-anchor="true"><span class="font-bold">media</span><span class="opacity-50">:</span> <a href="/gh/types/inputmedia">InputMedia</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="font-mono" id="p_media" data-anchor="true"><span class="font-bold">media</span><span class="opacity-50">:</span> <span href="/">InputMedia</span><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
 
 The media to include in the media group. Animations are not allowed. All of them must be of the same media type, but an exception is that photos and videos can be mixed.
 

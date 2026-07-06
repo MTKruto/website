@@ -33,7 +33,7 @@ The payload of the payment's invoice.
 
 The payment's shipping option ID.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_orderInfo" data-anchor="true"><span class="font-bold">orderInfo</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/orderinfo">OrderInfo</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_orderInfo" data-anchor="true"><span class="font-bold">orderInfo</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">OrderInfo</span></div></div><div class="pl-3"><div class="no-margin">
 
 The payment's order info.
 

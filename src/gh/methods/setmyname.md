@@ -18,7 +18,9 @@ Set the bot's name in the given language.<span class="select-none"> <span class=
 ### Syntax
 
 ```ts
-await client.setMyName();
+// Optional parameters.
+// Any of the optional parameters can be omitted.
+await client.setMyName( { name, languageCode });
 ```
 
 
