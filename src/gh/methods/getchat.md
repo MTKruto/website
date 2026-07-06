@@ -13,7 +13,7 @@ Get a chat.<span class="select-none">  <span class="inline-flex w-fit items-cent
 
 ### Result 
 
-<div class="font-mono"><span href="/">Chat</span></div>
+<div class="font-mono"><a href="/gh/types/chat">Chat</a></div>
 
 ### Syntax
 

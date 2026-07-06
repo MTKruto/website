@@ -17,7 +17,7 @@ The identifier of the chat.
 
 ### Result 
 
-<div class="font-mono"><span href="/">NotificationSettings</span></div>
+<div class="font-mono"><a href="/gh/types/notificationsettings">NotificationSettings</a></div>
 
 ### Syntax
 

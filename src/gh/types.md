@@ -167,6 +167,13 @@ A channel's location.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/chat">Chat</a>
+<div><div>
+
+A chat with more fields.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/chataction">ChatAction</a>
 <div><div>
 
@@ -321,6 +328,13 @@ A shared contact.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/country">Country</a>
+<div><div>
+
+A country.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/dice">Dice</a>
 <div><div>
 
@@ -346,6 +360,13 @@ Any type of emoji status.
 <div><div>
 
 A failed invitation.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/forwardheader">ForwardHeader</a>
+<div><div>
+
+Any type of forward header.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -500,6 +521,13 @@ Any type of emoji status to be passed as an input.
 <div><div>
 
 Any type of a gift reference.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/inputmedia">InputMedia</a>
+<div><div>
+
+Any type of input media.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -769,10 +797,24 @@ A new chat privacy setting.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/notificationsettings">NotificationSettings</a>
+<div><div>
+
+A chat's notification settings.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/notificationsound">NotificationSound</a>
 <div><div>
 
 Any type of notification sound.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/orderinfo">OrderInfo</a>
+<div><div>
+
+Information on an order.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -815,6 +857,13 @@ A poll.
 <div><div>
 
 An answer to a poll.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/pollmedia">PollMedia</a>
+<div><div>
+
+Any type of poll option media.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -923,6 +972,13 @@ Any type of a message's reply markup.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/replyquote">ReplyQuote</a>
+<div><div>
+
+A reference to a specific part of a message that is being replied to.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/replyto">ReplyTo</a>
 <div><div>
 
@@ -1000,6 +1056,13 @@ Any type of secret chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/secretmessage">SecretMessage</a>
+<div><div>
+
+Any type of secret message.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/secretmessageentity">SecretMessageEntity</a>
 <div><div>
 
@@ -1049,6 +1112,13 @@ A list of star transactions.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/startransactionpeer">StarTransactionPeer</a>
+<div><div>
+
+Any type of star transaction peer.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/sticker">Sticker</a>
 <div><div>
 
@@ -1067,6 +1137,13 @@ A sticker (or emoji) set.
 <div><div>
 
 A partial sticker (or emoji) set.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/story">Story</a>
+<div><div>
+
+A story.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1259,6 +1336,13 @@ Any type of a user's status.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/venue">Venue</a>
+<div><div>
+
+A shared venue.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/video">Video</a>
 <div><div>
 
@@ -1277,6 +1361,13 @@ Any type of video chat.
 <div><div>
 
 A video note.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/voice">Voice</a>
+<div><div>
+
+A voice note.
 
 </div></div>
 <div class="descr-list-border"></div>

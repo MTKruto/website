@@ -89,7 +89,7 @@ A progress ID retrieved from the method getProgressId. If specified, updates on 
 
 ### Result 
 
-<div class="font-mono"><span href="/">Story</span></div><div class="pl-3"><div class="no-margin">
+<div class="font-mono"><a href="/gh/types/story">Story</a></div><div class="pl-3"><div class="no-margin">
 
 The created story.
 
