@@ -17,29 +17,16 @@ The identifier of the chat including albums.
 
 The identifier of an album.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_offset" data-anchor="true"><span class="font-bold">offset</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-The number of results to skip.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_limit" data-anchor="true"><span class="font-bold">limit</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-The maximum number of results to return.
-
-</div></div></div></div></div>
+</div></div></div></div>
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/albumstorylist">AlbumStoryList</a></div>
+<div class="font-mono"><span href="/">AlbumStoryList</span></div>
 
 ### Syntax
 
 ```ts
-// Required parameters only.
 await client.getStoriesInAlbum(chatId, albumId);
-
-// Required parameters + optional parameters.
-// Any of the optional parameters can be omitted.
-await client.getStoriesInAlbum(chatId, albumId, { offset, limit });
 ```
 
 

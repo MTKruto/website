@@ -17,99 +17,7 @@ The identifier of a chat to send the video note to.
 
 The video note to send.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_duration" data-anchor="true"><span class="font-bold">duration</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-The duration of the video note in seconds.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_length" data-anchor="true"><span class="font-bold">length</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-The video's width and height (diameter).
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_caption" data-anchor="true"><span class="font-bold">caption</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
-
-The caption to attach.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_captionEntities" data-anchor="true"><span class="font-bold">captionEntities</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/messageentity">MessageEntity</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
-
-The caption's entities.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_parseMode" data-anchor="true"><span class="font-bold">parseMode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/parsemode">ParseMode</a></div></div><div class="pl-3"><div class="no-margin">
-
-The parse mode to use for the caption. If omitted, the default parse mode will be used.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_thumbnail" data-anchor="true"><span class="font-bold">thumbnail</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/filesource">FileSource</a></div></div><div class="pl-3"><div class="no-margin">
-
-A thumbnail to assign. Cannot be a URL.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_fileName" data-anchor="true"><span class="font-bold">fileName</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
-
-The file name to assign if applicable.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_fileSize" data-anchor="true"><span class="font-bold">fileSize</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-The file's size.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_mimeType" data-anchor="true"><span class="font-bold">mimeType</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
-
-The MIME type to assign if applicable.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_chunkSize" data-anchor="true"><span class="font-bold">chunkSize</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-Size of each upload chunk in bytes.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_signal" data-anchor="true"><span class="font-bold">signal</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">AbortSignal</span></div></div><div class="pl-3"><div class="no-margin">
-
-Upload abort signal.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_progressId" data-anchor="true"><span class="font-bold">progressId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
-
-A progress ID retrieved from the method getProgressId. If specified, updates on the upload progress will be sent.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isSilent" data-anchor="true"><span class="font-bold">isSilent</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
-
-Whether to send the message in a silent way without making a sound on the recipients' clients.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isContentProtected" data-anchor="true"><span class="font-bold">isContentProtected</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
-
-Whether to protect the contents of the message from copying and forwarding.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_replyTo" data-anchor="true"><span class="font-bold">replyTo</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/replyto">ReplyTo</a></div></div><div class="pl-3"><div class="no-margin">
-
-Information on what the message is replying to.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_messageThreadId" data-anchor="true"><span class="font-bold">messageThreadId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-The identifier of a thread to send the message to.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_directMessagesTopicId" data-anchor="true"><span class="font-bold">directMessagesTopicId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-The identifier of the direct messages topic that is being replied to.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_sendAs" data-anchor="true"><span class="font-bold">sendAs</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/id">ID</a></div></div><div class="pl-3"><div class="no-margin">
-
-The identifier of a chat to send the message on behalf of. User-only.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_effectId" data-anchor="true"><span class="font-bold">effectId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
-
-The identifier of a message effect to be attached to the message.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_sendAt" data-anchor="true"><span class="font-bold">sendAt</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-If specified, the message will be scheduled to be sent at that date. User-only.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_businessConnectionId" data-anchor="true"><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
-
-The identifier of a business connection to perform the action on. Bot-only.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isPaidBroadcast" data-anchor="true"><span class="font-bold">isPaidBroadcast</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
-
-Whether the message is a broadcast that is going to be paid for. Bot-only.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_replyMarkup" data-anchor="true"><span class="font-bold">replyMarkup</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/replymarkup">ReplyMarkup</a></div></div><div class="pl-3"><div class="no-margin">
-
-The reply markup of the message. Bot-only.
-
-</div></div></div></div></div>
+</div></div></div></div>
 
 ### Result 
 
@@ -122,36 +30,7 @@ The sent video note.
 ### Syntax
 
 ```ts
-// Required parameters only.
 await client.sendVideoNote(chatId, videoNote);
-
-// Required parameters + optional parameters.
-// Any of the optional parameters can be omitted.
-await client.sendVideoNote(chatId, videoNote, {
-    duration,
-    length,
-    caption,
-    captionEntities,
-    parseMode,
-    thumbnail,
-    fileName,
-    fileSize,
-    mimeType,
-    chunkSize,
-    signal,
-    progressId,
-    isSilent,
-    isContentProtected,
-    replyTo,
-    messageThreadId,
-    directMessagesTopicId,
-    sendAs,
-    effectId,
-    sendAt,
-    businessConnectionId,
-    isPaidBroadcast,
-    replyMarkup,
-});
 ```
 
 

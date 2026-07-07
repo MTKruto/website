@@ -25,7 +25,7 @@ The new name of the album.
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/storyalbum">StoryAlbum</a></div>
+<div class="font-mono"><span href="/">StoryAlbum</span></div>
 
 ### Syntax
 

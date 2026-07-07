@@ -25,15 +25,7 @@ Stream channel scale.
 
 Millisecond timestamp of the chunk to download.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_quality" data-anchor="true"><span class="font-bold">quality</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>&quot;low&quot;</span> <span class="opacity-50">|</span> <span>&quot;medium&quot;</span> <span class="opacity-50">|</span> <span>&quot;high&quot;</span></div></div><div class="pl-3"><div class="no-margin">
-
-Video quality.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_signal" data-anchor="true"><span class="font-bold">signal</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">AbortSignal</span></div></div><div class="pl-3"><div class="no-margin">
-
-Download abort signal.
-
-</div></div></div></div></div>
+</div></div></div></div>
 
 ### Result 
 
@@ -42,15 +34,7 @@ Download abort signal.
 ### Syntax
 
 ```ts
-// Required parameters only.
 await client.downloadLiveStreamSegment(id, channelId, scale, timestamp);
-
-// Required parameters + optional parameters.
-// Any of the optional parameters can be omitted.
-await client.downloadLiveStreamSegment(id, channelId, scale, timestamp, {
-    quality,
-    signal,
-});
 ```
 
 

@@ -21,15 +21,7 @@ The identifier of the message to add the reaction to.
 
 The reaction to add.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_isBig" data-anchor="true"><span class="font-bold">isBig</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
-
-Whether to make the new reaction more notable.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_addToRecents" data-anchor="true"><span class="font-bold">addToRecents</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
-
-Whether to add the reaction to recent reactions.
-
-</div></div></div></div></div>
+</div></div></div></div>
 
 ### Result 
 
@@ -38,15 +30,7 @@ Whether to add the reaction to recent reactions.
 ### Syntax
 
 ```ts
-// Required parameters only.
 await client.addReaction(chatId, messageId, reaction);
-
-// Required parameters + optional parameters.
-// Any of the optional parameters can be omitted.
-await client.addReaction(chatId, messageId, reaction, {
-    isBig,
-    addToRecents,
-});
 ```
 
 

@@ -17,7 +17,7 @@ The emoji of the dice.
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/stickerset">StickerSet</a></div>
+<div class="font-mono"><span href="/">StickerSet</span></div>
 
 ### Syntax
 

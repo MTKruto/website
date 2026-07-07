@@ -17,7 +17,7 @@ The identifier of the secret chat.
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/secretchat">SecretChat</a></div>
+<div class="font-mono"><span href="/">SecretChat</span></div>
 
 ### Syntax
 

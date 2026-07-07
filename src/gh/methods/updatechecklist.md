@@ -17,15 +17,7 @@ The identifier of a chat.
 
 The identifier of the checklist message.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_itemsToCheck" data-anchor="true"><span class="font-bold">itemsToCheck</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
-
-List of identifiers of items to check.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_itemsToUncheck" data-anchor="true"><span class="font-bold">itemsToUncheck</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
-
-List of identifiers of items to uncheck.
-
-</div></div></div></div></div>
+</div></div></div></div>
 
 ### Result 
 
@@ -34,12 +26,7 @@ List of identifiers of items to uncheck.
 ### Syntax
 
 ```ts
-// Required parameters only.
 await client.updateChecklist(chatId, messageId);
-
-// Required parameters + optional parameters.
-// Any of the optional parameters can be omitted.
-await client.updateChecklist(chatId, messageId, { itemsToCheck, itemsToUncheck });
 ```
 
 

@@ -9,7 +9,7 @@ Get app support.<span class="select-none"> <span class="inline-flex w-fit items-
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/appsupport">AppSupport</a></div>
+<div class="font-mono"><span href="/">AppSupport</span></div>
 
 ### Syntax
 

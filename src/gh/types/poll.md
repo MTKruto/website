@@ -17,7 +17,7 @@ The identifier of the poll.
 
 The poll's question.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_questionEntities" data-anchor="true"><span class="font-bold">questionEntities</span><span class="opacity-50">:</span> <a href="/gh/types/messageentity">MessageEntity</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_questionEntities" data-anchor="true"><span class="font-bold">questionEntities</span><span class="opacity-50">:</span> <span href="/">MessageEntity</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
 The entities of the poll's question.
 
@@ -57,7 +57,7 @@ The indexes of the correct options.
 
 A text that is shown to the user when the poll is answered.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_explanationEntities" data-anchor="true"><span class="font-bold">explanationEntities</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/messageentity">MessageEntity</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_explanationEntities" data-anchor="true"><span class="font-bold">explanationEntities</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">MessageEntity</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
 The explanation's entities.
 

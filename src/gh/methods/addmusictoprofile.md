@@ -13,11 +13,7 @@ Add music to profile.<span class="select-none"> <span class="inline-flex w-fit i
 
 The identifier of the audio file to add to profile.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_afterFileId" data-anchor="true"><span class="font-bold">afterFileId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
-
-File identifier of a music to add the music after.
-
-</div></div></div></div></div>
+</div></div></div></div>
 
 ### Result 
 
@@ -26,12 +22,7 @@ File identifier of a music to add the music after.
 ### Syntax
 
 ```ts
-// Required parameters only.
 await client.addMusicToProfile(fileId);
-
-// Required parameters + optional parameters.
-// Any of the optional parameters can be omitted.
-await client.addMusicToProfile(fileId, { afterFileId });
 ```
 
 

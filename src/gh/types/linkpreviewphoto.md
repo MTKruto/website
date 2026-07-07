@@ -13,7 +13,7 @@ An embedded video link preview.
 
 The ID of the link preview.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_mediaSize" data-anchor="true"><span class="font-bold">mediaSize</span><span class="opacity-50">:</span> <a href="/gh/types/linkpreviewmediasize">LinkPreviewMediaSize</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_mediaSize" data-anchor="true"><span class="font-bold">mediaSize</span><span class="opacity-50">:</span> <span href="/">LinkPreviewMediaSize</span></div></div><div class="pl-3"><div class="no-margin">
 
 The size at which the media is expected to be displayed.
 
@@ -25,5 +25,5 @@ Whether the preview is to be shown above the message's text.
 
 The URL of the link preview.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;photo&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_photo" data-anchor="true"><span class="font-bold">photo</span><span class="opacity-50">:</span> <a href="/gh/types/photo">Photo</a></div></div></div></div>
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;photo&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_photo" data-anchor="true"><span class="font-bold">photo</span><span class="opacity-50">:</span> <span href="/">Photo</span></div></div></div></div>
 

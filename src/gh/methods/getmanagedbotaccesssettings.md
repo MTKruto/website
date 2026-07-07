@@ -17,7 +17,7 @@ The identifier of the bot user.
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/botaccesssettings">BotAccessSettings</a></div>
+<div class="font-mono"><span href="/">BotAccessSettings</span></div>
 
 ### Syntax
 

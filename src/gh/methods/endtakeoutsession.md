@@ -13,11 +13,7 @@ End a takeout session.<span class="select-none"> <span class="inline-flex w-fit 
 
 The identifier of a takeout session.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_isFailed" data-anchor="true"><span class="font-bold">isFailed</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
-
-Whether the takeout failed. Defaults to false.
-
-</div></div></div></div></div>
+</div></div></div></div>
 
 ### Result 
 
@@ -26,12 +22,7 @@ Whether the takeout failed. Defaults to false.
 ### Syntax
 
 ```ts
-// Required parameters only.
 await client.endTakeoutSession(takeoutId);
-
-// Required parameters + optional parameters.
-// Any of the optional parameters can be omitted.
-await client.endTakeoutSession(takeoutId, { isFailed });
 ```
 
 

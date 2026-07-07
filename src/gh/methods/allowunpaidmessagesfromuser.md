@@ -13,7 +13,7 @@ Allow unpaid messages from a user.<span class="select-none"> <span class="inline
 
 The identifier of the user.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_parentChatId" data-anchor="true"><span class="font-bold">parentChatId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/id">ID</a></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isRefunded" data-anchor="true"><span class="font-bold">isRefunded</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div></div></div></div>
+</div></div></div></div>
 
 ### Result 
 
@@ -22,12 +22,7 @@ The identifier of the user.
 ### Syntax
 
 ```ts
-// Required parameters only.
 await client.allowUnpaidMessagesFromUser(userId);
-
-// Required parameters + optional parameters.
-// Any of the optional parameters can be omitted.
-await client.allowUnpaidMessagesFromUser(userId, { parentChatId, isRefunded });
 ```
 
 
