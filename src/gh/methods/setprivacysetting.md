@@ -13,7 +13,7 @@ Set a privacy setting.<span class="select-none"> <span class="inline-flex w-fit 
 
 The key of the privacy setting.
 
-</div></div></div><div><div class="font-mono" id="p_rules" data-anchor="true"><span class="font-bold">rules</span><span class="opacity-50">:</span> <span href="/">InputPrivacyRule</span><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="font-mono" id="p_rules" data-anchor="true"><span class="font-bold">rules</span><span class="opacity-50">:</span> <a href="/gh/types/inputprivacyrule">InputPrivacyRule</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
 
 The rules to set.
 
@@ -21,7 +21,7 @@ The rules to set.
 
 ### Result 
 
-<div class="font-mono"><span href="/">PrivacyRule</span><span class="opacity-50">[]</span></div>
+<div class="font-mono"><a href="/gh/types/privacyrule">PrivacyRule</a><span class="opacity-50">[]</span></div>
 
 ### Syntax
 

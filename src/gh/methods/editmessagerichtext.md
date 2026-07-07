@@ -21,7 +21,11 @@ The identifier of the message.
 
 The new rich text of the message.
 
-</div></div></div></div>
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_businessConnectionId" data-anchor="true"><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of a business connection to perform the action on. Bot-only.
+
+</div></div></div></div></div>
 
 ### Result 
 
@@ -34,7 +38,12 @@ The edited rich text message.
 ### Syntax
 
 ```ts
+// Required parameters only.
 await client.editMessageRichText(chatId, messageId, richText);
+
+// Required parameters + optional parameters.
+// Any of the optional parameters can be omitted.
+await client.editMessageRichText(chatId, messageId, richText, { businessConnectionId });
 ```
 
 

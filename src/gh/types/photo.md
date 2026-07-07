@@ -1,0 +1,37 @@
+---
+title: Photo
+parent: /types
+metas:
+  description: A photo.
+---
+
+A photo.
+
+### Properties
+
+<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_fileId" data-anchor="true"><span class="font-bold">fileId</span><span class="opacity-50">:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+A file identifier that can be used to download or reuse this file.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_fileUniqueId" data-anchor="true"><span class="font-bold">fileUniqueId</span><span class="opacity-50">:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+A file identifier that can be used to identify this file.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_width" data-anchor="true"><span class="font-bold">width</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The width of the photo.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_height" data-anchor="true"><span class="font-bold">height</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The height of the photo.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_fileSize" data-anchor="true"><span class="font-bold">fileSize</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+Size of the file in bytes.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_thumbnails" data-anchor="true"><span class="font-bold">thumbnails</span><span class="opacity-50">:</span> <a href="/gh/types/thumbnail">Thumbnail</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+
+The photo's thumbnails.
+
+</div></div></div></div>
+

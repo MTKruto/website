@@ -13,7 +13,11 @@ Delete the current account.<span class="select-none"> <span class="inline-flex w
 
 The reason for the deletion.
 
-</div></div></div></div>
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_password" data-anchor="true"><span class="font-bold">password</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The account's password.
+
+</div></div></div></div></div>
 
 ### Result 
 
@@ -22,7 +26,12 @@ The reason for the deletion.
 ### Syntax
 
 ```ts
+// Required parameters only.
 await client.deleteAccount(reason);
+
+// Required parameters + optional parameters.
+// Any of the optional parameters can be omitted.
+await client.deleteAccount(reason, { password });
 ```
 
 

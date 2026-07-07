@@ -13,7 +13,7 @@ Suggest a birthday.<span class="select-none"> <span class="inline-flex w-fit ite
 
 The identifier of the user to suggest a birthday for.
 
-</div></div></div><div><div class="font-mono" id="p_birthday" data-anchor="true"><span class="font-bold">birthday</span><span class="opacity-50">:</span> <span href="/">Birthday</span></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="font-mono" id="p_birthday" data-anchor="true"><span class="font-bold">birthday</span><span class="opacity-50">:</span> <a href="/gh/types/birthday">Birthday</a></div><div class="pl-3"><div class="no-margin">
 
 The birthday to suggest.
 

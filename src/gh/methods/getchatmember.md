@@ -21,7 +21,7 @@ The identifier of the user.
 
 ### Result 
 
-<div class="font-mono"><span href="/">ChatMember</span></div>
+<div class="font-mono"><a href="/gh/types/chatmember">ChatMember</a></div>
 
 ### Syntax
 

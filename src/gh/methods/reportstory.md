@@ -17,16 +17,29 @@ The identifier of a chat that posted the story.
 
 The identifier of the story to report.
 
-</div></div></div></div>
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_option" data-anchor="true"><span class="font-bold">option</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The option of the report.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_text" data-anchor="true"><span class="font-bold">text</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The text of the report.
+
+</div></div></div></div></div>
 
 ### Result 
 
-<div class="font-mono"><span href="/">StoryReportResult</span></div>
+<div class="font-mono"><a href="/gh/types/storyreportresult">StoryReportResult</a></div>
 
 ### Syntax
 
 ```ts
+// Required parameters only.
 await client.reportStory(chatId, storyId);
+
+// Required parameters + optional parameters.
+// Any of the optional parameters can be omitted.
+await client.reportStory(chatId, storyId, { option, text });
 ```
 
 

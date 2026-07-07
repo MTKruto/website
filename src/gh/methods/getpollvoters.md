@@ -17,16 +17,37 @@ The identifier of the chat that includes the poll.
 
 The identifier of the message that includes the poll.
 
-</div></div></div></div>
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_optionIndex" data-anchor="true"><span class="font-bold">optionIndex</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The index of an option. If specified, only voters of that option will be returned.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_offset" data-anchor="true"><span class="font-bold">offset</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+An offset key returned by a previous result.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_limit" data-anchor="true"><span class="font-bold">limit</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The maximum number of results to return.
+
+</div></div></div></div></div>
 
 ### Result 
 
-<div class="font-mono"><span href="/">PollVoterList</span></div>
+<div class="font-mono"><a href="/gh/types/pollvoterlist">PollVoterList</a></div>
 
 ### Syntax
 
 ```ts
+// Required parameters only.
 await client.getPollVoters(chatId, messageId);
+
+// Required parameters + optional parameters.
+// Any of the optional parameters can be omitted.
+await client.getPollVoters(chatId, messageId, {
+    optionIndex,
+    offset,
+    limit,
+});
 ```
 
 

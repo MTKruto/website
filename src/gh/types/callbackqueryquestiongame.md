@@ -1,0 +1,13 @@
+---
+title: CallbackQueryQuestionGame
+parent: /types
+metas:
+  description: A reference to a button for opening the bot's game.
+---
+
+A reference to a button for opening the bot's game.
+
+### Properties
+
+<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;game&quot;</span></div></div></div></div>
+

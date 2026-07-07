@@ -13,7 +13,7 @@ Set a chat's notification settings.<span class="select-none"> <span class="inlin
 
 The identifier of the chat.
 
-</div></div></div></div>
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_settings" data-anchor="true"><span class="font-bold">settings</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/inputnotificationsettings">InputNotificationSettings</a></div></div></div></div></div>
 
 ### Result 
 
@@ -22,7 +22,12 @@ The identifier of the chat.
 ### Syntax
 
 ```ts
+// Required parameters only.
 await client.setNotificationSettings(chatId);
+
+// Required parameters + optional parameters.
+// Any of the optional parameters can be omitted.
+await client.setNotificationSettings(chatId, { settings });
 ```
 
 

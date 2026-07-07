@@ -17,7 +17,7 @@ The identifier of the chat that includes the gift collection.
 
 The identifier of a gift collection.
 
-</div></div></div><div><div class="font-mono" id="p_gifts" data-anchor="true"><span class="font-bold">gifts</span><span class="opacity-50">:</span> <span href="/">InputGift</span><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="font-mono" id="p_gifts" data-anchor="true"><span class="font-bold">gifts</span><span class="opacity-50">:</span> <a href="/gh/types/inputgift">InputGift</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
 
 The new order of gifts.
 

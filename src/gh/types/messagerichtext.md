@@ -41,7 +41,7 @@ The chat where the message was sent.
 
 A link to the message.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_forwardFrom" data-anchor="true"><span class="font-bold">forwardFrom</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">ForwardHeader</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_forwardFrom" data-anchor="true"><span class="font-bold">forwardFrom</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/forwardheader">ForwardHeader</a></div></div><div class="pl-3"><div class="no-margin">
 
 Information on the original message.
 
@@ -61,7 +61,7 @@ The message that is being replied to. Not always available even if a message is 
 
 The identifier of the message that is being replied to.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_reactions" data-anchor="true"><span class="font-bold">reactions</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">MessageReaction</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_reactions" data-anchor="true"><span class="font-bold">reactions</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/messagereaction">MessageReaction</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
 The reactions of the message.
 
@@ -101,7 +101,7 @@ The number of times the message was viewed.
 
 The number of times the message was forwarded.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_replyMarkup" data-anchor="true"><span class="font-bold">replyMarkup</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">ReplyMarkup</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_replyMarkup" data-anchor="true"><span class="font-bold">replyMarkup</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/replymarkup">ReplyMarkup</a></div></div><div class="pl-3"><div class="no-margin">
 
 The message's reply markup.
 
@@ -133,5 +133,5 @@ The message's self-destruct preference.
 
 If this message is a guest message, the user or chat that triggered it.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;richText&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_richText" data-anchor="true"><span class="font-bold">richText</span><span class="opacity-50">:</span> <span href="/">RichText</span></div></div></div></div>
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;richText&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_richText" data-anchor="true"><span class="font-bold">richText</span><span class="opacity-50">:</span> <a href="/gh/types/richtext">RichText</a></div></div></div></div>
 

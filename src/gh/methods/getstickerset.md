@@ -17,7 +17,7 @@ The slug of the sticker set or its link.
 
 ### Result 
 
-<div class="font-mono"><span href="/">StickerSet</span></div>
+<div class="font-mono"><a href="/gh/types/stickerset">StickerSet</a></div>
 
 ### Syntax
 

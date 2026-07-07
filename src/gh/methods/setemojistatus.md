@@ -13,7 +13,11 @@ Set the current account's emoji status.<span class="select-none"> <span class="i
 
 The emoji or gift to set as the new emoji status.
 
-</div></div></div></div>
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_until" data-anchor="true"><span class="font-bold">until</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+If specified, the emoji status will be unset on that date.
+
+</div></div></div></div></div>
 
 ### Result 
 
@@ -22,7 +26,12 @@ The emoji or gift to set as the new emoji status.
 ### Syntax
 
 ```ts
+// Required parameters only.
 await client.setEmojiStatus(emojiStatus);
+
+// Required parameters + optional parameters.
+// Any of the optional parameters can be omitted.
+await client.setEmojiStatus(emojiStatus, { until });
 ```
 
 

@@ -13,7 +13,7 @@ Set the business greeting message.<span class="select-none"> <span class="inline
 
 The identifier of the quick reply shortcut to send.
 
-</div></div></div><div><div class="font-mono" id="p_recipients" data-anchor="true"><span class="font-bold">recipients</span><span class="opacity-50">:</span> <span href="/">InputBusinessRecipients</span></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="font-mono" id="p_recipients" data-anchor="true"><span class="font-bold">recipients</span><span class="opacity-50">:</span> <a href="/gh/types/inputbusinessrecipients">InputBusinessRecipients</a></div><div class="pl-3"><div class="no-margin">
 
 The recipients to send the greeting message to.
 

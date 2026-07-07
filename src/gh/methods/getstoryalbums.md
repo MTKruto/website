@@ -17,7 +17,7 @@ The identifier of a chat including albums.
 
 ### Result 
 
-<div class="font-mono"><span href="/">StoryAlbum</span><span class="opacity-50">[]</span></div>
+<div class="font-mono"><a href="/gh/types/storyalbum">StoryAlbum</a><span class="opacity-50">[]</span></div>
 
 ### Syntax
 

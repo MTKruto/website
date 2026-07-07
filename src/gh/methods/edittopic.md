@@ -21,7 +21,11 @@ The identifier of the topic.
 
 The new title of the topic.
 
-</div></div></div></div>
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_customEmojiId" data-anchor="true"><span class="font-bold">customEmojiId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+Identifier of a custom emoji to display as the icon of the topic.
+
+</div></div></div></div></div>
 
 ### Result 
 
@@ -34,7 +38,12 @@ The new topic.
 ### Syntax
 
 ```ts
+// Required parameters only.
 await client.editTopic(chatId, topicId, title);
+
+// Required parameters + optional parameters.
+// Any of the optional parameters can be omitted.
+await client.editTopic(chatId, topicId, title, { customEmojiId });
 ```
 
 

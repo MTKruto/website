@@ -17,7 +17,35 @@ The identifier of a chat.
 
 The text of the draft.
 
-</div></div></div></div>
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_replyTo" data-anchor="true"><span class="font-bold">replyTo</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/replyto">ReplyTo</a></div></div><div class="pl-3"><div class="no-margin">
+
+Information on what the message is replying to.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_parseMode" data-anchor="true"><span class="font-bold">parseMode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/parsemode">ParseMode</a></div></div><div class="pl-3"><div class="no-margin">
+
+The parse mode to use. If omitted, the default parse mode will be used.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_entities" data-anchor="true"><span class="font-bold">entities</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/messageentity">MessageEntity</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+
+The message's entities.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_effectId" data-anchor="true"><span class="font-bold">effectId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of a message effect to be attached to the message.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_media" data-anchor="true"><span class="font-bold">media</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/inputmedia">InputMedia</a></div></div><div class="pl-3"><div class="no-margin">
+
+A media to attach.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isMediaAboveText" data-anchor="true"><span class="font-bold">isMediaAboveText</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the position of the media is inverted.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isLinkPreviewDisabled" data-anchor="true"><span class="font-bold">isLinkPreviewDisabled</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether link preview is disabled.
+
+</div></div></div></div></div>
 
 ### Result 
 
@@ -26,7 +54,20 @@ The text of the draft.
 ### Syntax
 
 ```ts
+// Required parameters only.
 await client.saveDraft(chatId, text);
+
+// Required parameters + optional parameters.
+// Any of the optional parameters can be omitted.
+await client.saveDraft(chatId, text, {
+    replyTo,
+    parseMode,
+    entities,
+    effectId,
+    media,
+    isMediaAboveText,
+    isLinkPreviewDisabled,
+});
 ```
 
 

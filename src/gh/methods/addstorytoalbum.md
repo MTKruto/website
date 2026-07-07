@@ -25,7 +25,7 @@ The identifier of the story to add.
 
 ### Result 
 
-<div class="font-mono"><span href="/">StoryAlbum</span></div>
+<div class="font-mono"><a href="/gh/types/storyalbum">StoryAlbum</a></div>
 
 ### Syntax
 

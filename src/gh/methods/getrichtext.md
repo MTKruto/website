@@ -21,7 +21,7 @@ The identifier of the message.
 
 ### Result 
 
-<div class="font-mono"><span href="/">RichText</span> <span class="opacity-50">|</span> <span>null</span></div>
+<div class="font-mono"><a href="/gh/types/richtext">RichText</a> <span class="opacity-50">|</span> <span>null</span></div>
 
 ### Syntax
 

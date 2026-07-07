@@ -21,7 +21,7 @@ The identifiers of the stories to retrieve.
 
 ### Result 
 
-<div class="font-mono"><span href="/">Story</span><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
+<div class="font-mono"><a href="/gh/types/story">Story</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
 
 The retrieved stories.
 

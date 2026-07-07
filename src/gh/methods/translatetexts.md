@@ -13,20 +13,29 @@ Translate multiple texts.<span class="select-none"> <span class="inline-flex w-f
 
 The code of the language to translate into.
 
-</div></div></div><div><div class="font-mono" id="p_texts" data-anchor="true"><span class="font-bold">texts</span><span class="opacity-50">:</span> <span href="/">TextToTranslate</span><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="font-mono" id="p_texts" data-anchor="true"><span class="font-bold">texts</span><span class="opacity-50">:</span> <a href="/gh/types/texttotranslate">TextToTranslate</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
 
 The texts to translate.
 
-</div></div></div></div>
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_tone" data-anchor="true"><span class="font-bold">tone</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The tone of the translation.
+
+</div></div></div></div></div>
 
 ### Result 
 
-<div class="font-mono"><span href="/">TranslatedText</span><span class="opacity-50">[]</span></div>
+<div class="font-mono"><a href="/gh/types/translatedtext">TranslatedText</a><span class="opacity-50">[]</span></div>
 
 ### Syntax
 
 ```ts
+// Required parameters only.
 await client.translateTexts(toLanguage, texts);
+
+// Required parameters + optional parameters.
+// Any of the optional parameters can be omitted.
+await client.translateTexts(toLanguage, texts, { tone });
 ```
 
 
