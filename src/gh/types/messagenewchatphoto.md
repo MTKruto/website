@@ -133,7 +133,7 @@ The message's self-destruct preference.
 
 If this message is a guest message, the user or chat that triggered it.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;newChatPhoto&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_newChatPhoto" data-anchor="true"><span class="font-bold">newChatPhoto</span><span class="opacity-50">:</span> <a href="/gh/types/photo">Photo</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;newChatPhoto&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_newChatPhoto" data-anchor="true"><span class="font-bold">newChatPhoto</span><span class="opacity-50">:</span> <span href="/">Photo</span></div></div><div class="pl-3"><div class="no-margin">
 
 The new photo of the chat.
 

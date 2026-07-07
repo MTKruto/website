@@ -13,7 +13,7 @@ Set the current user's business away message.<span class="select-none"> <span cl
 
 The identifier of the quick reply shortcut to send.
 
-</div></div></div><div><div class="font-mono" id="p_schedule" data-anchor="true"><span class="font-bold">schedule</span><span class="opacity-50">:</span> <a href="/gh/types/businessawaymessageschedule">BusinessAwayMessageSchedule</a></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="font-mono" id="p_schedule" data-anchor="true"><span class="font-bold">schedule</span><span class="opacity-50">:</span> <span href="/">BusinessAwayMessageSchedule</span></div><div class="pl-3"><div class="no-margin">
 
 The schedule on which to send the away message.
 

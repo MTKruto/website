@@ -21,7 +21,7 @@ Whether the rich text is right-to-left.
 
 Whether the rich text is partial.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_photos" data-anchor="true"><span class="font-bold">photos</span><span class="opacity-50">:</span> <a href="/gh/types/photo">Photo</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_photos" data-anchor="true"><span class="font-bold">photos</span><span class="opacity-50">:</span> <span href="/">Photo</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
 The photos included in the rich text.
 

@@ -9,7 +9,7 @@ Create a story.<span class="select-none"> <span class="inline-flex w-fit items-c
 
 ### Parameters 
 
-<div class="flex flex-col gap-3"><div><div class="font-mono" id="p_chatId" data-anchor="true"><span class="font-bold">chatId</span><span class="opacity-50">:</span> <a href="/gh/types/id">ID</a></div></div><div><div class="font-mono" id="p_content" data-anchor="true"><span class="font-bold">content</span><span class="opacity-50">:</span> <a href="/gh/types/inputstorycontent">InputStoryContent</a></div><div class="pl-3"><div class="no-margin">
+<div class="flex flex-col gap-3"><div><div class="font-mono" id="p_chatId" data-anchor="true"><span class="font-bold">chatId</span><span class="opacity-50">:</span> <a href="/gh/types/id">ID</a></div></div><div><div class="font-mono" id="p_content" data-anchor="true"><span class="font-bold">content</span><span class="opacity-50">:</span> <span href="/">InputStoryContent</span></div><div class="pl-3"><div class="no-margin">
 
 The content of the story.
 
