@@ -13,7 +13,7 @@ Answer a guest query.<span class="select-none"> <span class="inline-flex w-fit i
 
 The identifier of the guest query to answer.
 
-</div></div></div><div><div class="font-mono" id="p_result" data-anchor="true"><span class="font-bold">result</span><span class="opacity-50">:</span> <a href="/gh/types/inlinequeryresult">InlineQueryResult</a></div></div></div>
+</div></div></div><div><div class="font-mono" id="p_result" data-anchor="true"><span class="font-bold">result</span><span class="opacity-50">:</span> <span href="/">InlineQueryResult</span></div></div></div>
 
 ### Result 
 

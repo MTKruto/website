@@ -17,19 +17,11 @@ The identifier of a bot to send the inline query to.
 
 The identifier of the chat from which the inline query is sent.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_query" data-anchor="true"><span class="font-bold">query</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
-
-The inline query's text. Defaults to empty string.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_offset" data-anchor="true"><span class="font-bold">offset</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
-
-Bot-provided pagination offset.
-
-</div></div></div></div></div>
+</div></div></div></div>
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/inlinequeryanswer">InlineQueryAnswer</a></div><div class="pl-3"><div class="no-margin">
+<div class="font-mono"><span href="/">InlineQueryAnswer</span></div><div class="pl-3"><div class="no-margin">
 
 The bot's answer to the inline query.
 
@@ -38,12 +30,7 @@ The bot's answer to the inline query.
 ### Syntax
 
 ```ts
-// Required parameters only.
 await client.sendInlineQuery(botId, chatId);
-
-// Required parameters + optional parameters.
-// Any of the optional parameters can be omitted.
-await client.sendInlineQuery(botId, chatId, { query, offset });
 ```
 
 

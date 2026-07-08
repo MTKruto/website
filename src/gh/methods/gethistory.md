@@ -13,27 +13,7 @@ Get chat history.<span class="select-none"> <span class="inline-flex w-fit items
 
 The identifier of a chat.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_offsetId" data-anchor="true"><span class="font-bold">offsetId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-The identifier of a message. If specified, the chat history will be fetched from that message.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_offsetDate" data-anchor="true"><span class="font-bold">offsetDate</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-A point in time. If specified, the chat history will be fetched from that date.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_addOffset" data-anchor="true"><span class="font-bold">addOffset</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-Additional offset.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_limit" data-anchor="true"><span class="font-bold">limit</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-The maximum number of results to return. Must be in the range of 1-100. Defaults to 100.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_takeoutId" data-anchor="true"><span class="font-bold">takeoutId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
-
-The identifier of a takeout session.
-
-</div></div></div></div></div>
+</div></div></div></div>
 
 ### Result 
 
@@ -42,18 +22,7 @@ The identifier of a takeout session.
 ### Syntax
 
 ```ts
-// Required parameters only.
 await client.getHistory(chatId);
-
-// Required parameters + optional parameters.
-// Any of the optional parameters can be omitted.
-await client.getHistory(chatId, {
-    offsetId,
-    offsetDate,
-    addOffset,
-    limit,
-    takeoutId,
-});
 ```
 
 

@@ -21,7 +21,7 @@ The country's name.
 
 The country's 2-letter code.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_callingCodes" data-anchor="true"><span class="font-bold">callingCodes</span><span class="opacity-50">:</span> <a href="/gh/types/callingcode">CallingCode</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_callingCodes" data-anchor="true"><span class="font-bold">callingCodes</span><span class="opacity-50">:</span> <span href="/">CallingCode</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
 The country's calling codes.
 

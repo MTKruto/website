@@ -21,11 +21,7 @@ The identifier of the draft.
 
 The message's rich text.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_messageThreadId" data-anchor="true"><span class="font-bold">messageThreadId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-The identifier of a thread to send the message to.
-
-</div></div></div></div></div>
+</div></div></div></div>
 
 ### Result 
 
@@ -34,12 +30,7 @@ The identifier of a thread to send the message to.
 ### Syntax
 
 ```ts
-// Required parameters only.
 await client.sendRichTextDraft(chatId, draftId, richText);
-
-// Required parameters + optional parameters.
-// Any of the optional parameters can be omitted.
-await client.sendRichTextDraft(chatId, draftId, richText, { messageThreadId });
 ```
 
 

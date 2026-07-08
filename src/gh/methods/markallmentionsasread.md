@@ -13,11 +13,7 @@ Mark all mentions in a chat as read.<span class="select-none"> <span class="inli
 
 The identifier of the chat.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_topicId" data-anchor="true"><span class="font-bold">topicId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-If specified, only mentions in that topic will be marked as read.
-
-</div></div></div></div></div>
+</div></div></div></div>
 
 ### Result 
 
@@ -26,12 +22,7 @@ If specified, only mentions in that topic will be marked as read.
 ### Syntax
 
 ```ts
-// Required parameters only.
 await client.markAllMentionsAsRead(chatId);
-
-// Required parameters + optional parameters.
-// Any of the optional parameters can be omitted.
-await client.markAllMentionsAsRead(chatId, { topicId });
 ```
 
 

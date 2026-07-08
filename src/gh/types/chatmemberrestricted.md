@@ -13,11 +13,11 @@ A restricted chat member.
 
 The status of the chat member.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_member" data-anchor="true"><span class="font-bold">member</span><span class="opacity-50">:</span> <a href="/gh/types/chatp">ChatP</a></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isMember" data-anchor="true"><span class="font-bold">isMember</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_member" data-anchor="true"><span class="font-bold">member</span><span class="opacity-50">:</span> <span href="/">ChatP</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isMember" data-anchor="true"><span class="font-bold">isMember</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the restricted user is currently a member of the chat.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_rights" data-anchor="true"><span class="font-bold">rights</span><span class="opacity-50">:</span> <a href="/gh/types/chatmemberrights">ChatMemberRights</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_rights" data-anchor="true"><span class="font-bold">rights</span><span class="opacity-50">:</span> <span href="/">ChatMemberRights</span></div></div><div class="pl-3"><div class="no-margin">
 
 The rights of the restricted chat member.
 

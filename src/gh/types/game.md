@@ -17,7 +17,7 @@ The title of the game.
 
 The description of the game.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_photo" data-anchor="true"><span class="font-bold">photo</span><span class="opacity-50">:</span> <a href="/gh/types/photo">Photo</a></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_photo" data-anchor="true"><span class="font-bold">photo</span><span class="opacity-50">:</span> <span href="/">Photo</span></div></div><div class="pl-3"><div class="no-margin">
 
 A photo that is displayed when the game is shared.
 

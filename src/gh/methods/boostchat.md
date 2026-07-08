@@ -13,11 +13,7 @@ Add a single user to a chat.<span class="select-none"> <span class="inline-flex 
 
 The identifier of the chat to boost.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_slots" data-anchor="true"><span class="font-bold">slots</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
-
-The slots to assign.
-
-</div></div></div></div></div>
+</div></div></div></div>
 
 ### Result 
 
@@ -26,12 +22,7 @@ The slots to assign.
 ### Syntax
 
 ```ts
-// Required parameters only.
 await client.boostChat(chatId);
-
-// Required parameters + optional parameters.
-// Any of the optional parameters can be omitted.
-await client.boostChat(chatId, { slots });
 ```
 
 

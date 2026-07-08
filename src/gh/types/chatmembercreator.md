@@ -13,7 +13,7 @@ A chat member which is the creator of the chat.
 
 The status of the chat member.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_member" data-anchor="true"><span class="font-bold">member</span><span class="opacity-50">:</span> <a href="/gh/types/chatp">ChatP</a></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isAnonymous" data-anchor="true"><span class="font-bold">isAnonymous</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_member" data-anchor="true"><span class="font-bold">member</span><span class="opacity-50">:</span> <span href="/">ChatP</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isAnonymous" data-anchor="true"><span class="font-bold">isAnonymous</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the chat member is an anonymous admin.
 

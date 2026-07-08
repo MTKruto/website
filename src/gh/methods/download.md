@@ -13,23 +13,7 @@ Download a file.<span class="select-none">  <span class="inline-flex w-fit items
 
 The identifier of the file to download.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_chunkSize" data-anchor="true"><span class="font-bold">chunkSize</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-Size of each download chunk in bytes.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_offset" data-anchor="true"><span class="font-bold">offset</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-Download offset in bytes.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_signal" data-anchor="true"><span class="font-bold">signal</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">AbortSignal</span></div></div><div class="pl-3"><div class="no-margin">
-
-Download abort signal.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_fileInformation" data-anchor="true"><span class="font-bold">fileInformation</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
-
-Additional file information. Required for secret chat files.
-
-</div></div></div></div></div>
+</div></div></div></div>
 
 ### Result 
 
@@ -42,17 +26,7 @@ A generator yielding the contents of the file.
 ### Syntax
 
 ```ts
-// Required parameters only.
 await client.download(fileId);
-
-// Required parameters + optional parameters.
-// Any of the optional parameters can be omitted.
-await client.download(fileId, {
-    chunkSize,
-    offset,
-    signal,
-    fileInformation,
-});
 ```
 
 ### Examples 

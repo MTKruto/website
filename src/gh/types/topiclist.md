@@ -9,7 +9,7 @@ A list of topics.
 
 ### Properties
 
-<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_items" data-anchor="true"><span class="font-bold">items</span><span class="opacity-50">:</span> <a href="/gh/types/topiclistitem">TopicListItem</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_items" data-anchor="true"><span class="font-bold">items</span><span class="opacity-50">:</span> <span href="/">TopicListItem</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
 The items in this list.
 

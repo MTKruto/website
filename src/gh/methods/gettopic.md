@@ -21,7 +21,7 @@ The identifier of the topic.
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/topiclistitem">TopicListItem</a> <span class="opacity-50">|</span> <span>null</span></div>
+<div class="font-mono"><span href="/">TopicListItem</span> <span class="opacity-50">|</span> <span>null</span></div>
 
 ### Syntax
 

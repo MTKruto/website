@@ -13,11 +13,7 @@ End a secret chat.<span class="select-none"> <span class="inline-flex w-fit item
 
 The identifier of the secret chat.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_isHistoryDeleted" data-anchor="true"><span class="font-bold">isHistoryDeleted</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
-
-Whether to delete the history of the secret chat.
-
-</div></div></div></div></div>
+</div></div></div></div>
 
 ### Result 
 
@@ -26,12 +22,7 @@ Whether to delete the history of the secret chat.
 ### Syntax
 
 ```ts
-// Required parameters only.
 await client.endSecretChat(id);
-
-// Required parameters + optional parameters.
-// Any of the optional parameters can be omitted.
-await client.endSecretChat(id, { isHistoryDeleted });
 ```
 
 

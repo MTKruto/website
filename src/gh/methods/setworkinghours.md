@@ -9,11 +9,7 @@ Set the working hours of the current user.<span class="select-none"> <span class
 
 ### Parameters 
 
-<div class="flex flex-col gap-3"><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_workingHours" data-anchor="true"><span class="font-bold">workingHours</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/workinghours">WorkingHours</a></div></div><div class="pl-3"><div class="no-margin">
-
-The working hours of the business. If not set, working hours will be removed.
-
-</div></div></div></div></div>
+<div class="flex flex-col gap-3"></div>
 
 ### Result 
 
@@ -22,9 +18,7 @@ The working hours of the business. If not set, working hours will be removed.
 ### Syntax
 
 ```ts
-// Optional parameters.
-// Any of the optional parameters can be omitted.
-await client.setWorkingHours( { workingHours });
+await client.setWorkingHours();
 ```
 
 

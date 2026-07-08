@@ -17,7 +17,7 @@ The identifier of a channel to get similar channels for.
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/chatpchannel">ChatPChannel</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
+<div class="font-mono"><span href="/">ChatPChannel</span><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
 
 A list of similar channels.
 

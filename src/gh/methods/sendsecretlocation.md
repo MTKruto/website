@@ -21,23 +21,7 @@ The location's latitude.
 
 The location's longitude.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_isSilent" data-anchor="true"><span class="font-bold">isSilent</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
-
-Whether the message should be sent silently.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_replyToMessageId" data-anchor="true"><span class="font-bold">replyToMessageId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
-
-The identifier of a message to reply to.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_ttl" data-anchor="true"><span class="font-bold">ttl</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-The message's time-to-live.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_viaBot" data-anchor="true"><span class="font-bold">viaBot</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
-
-The name of the bot that was used to send the message.
-
-</div></div></div></div></div>
+</div></div></div></div>
 
 ### Result 
 
@@ -46,17 +30,7 @@ The name of the bot that was used to send the message.
 ### Syntax
 
 ```ts
-// Required parameters only.
 await client.sendSecretLocation(id, latitude, longitude);
-
-// Required parameters + optional parameters.
-// Any of the optional parameters can be omitted.
-await client.sendSecretLocation(id, latitude, longitude, {
-    isSilent,
-    replyToMessageId,
-    ttl,
-    viaBot,
-});
 ```
 
 

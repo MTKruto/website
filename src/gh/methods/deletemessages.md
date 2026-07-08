@@ -17,11 +17,7 @@ The identifier of the chat which the message belongs to.
 
 The identifiers of the messages to delete.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_isOnlyForMe" data-anchor="true"><span class="font-bold">isOnlyForMe</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
-
-Whether to delete the messages only for this side.
-
-</div></div></div></div></div>
+</div></div></div></div>
 
 ### Result 
 
@@ -30,12 +26,7 @@ Whether to delete the messages only for this side.
 ### Syntax
 
 ```ts
-// Required parameters only.
 await client.deleteMessages(chatId, messageIds);
-
-// Required parameters + optional parameters.
-// Any of the optional parameters can be omitted.
-await client.deleteMessages(chatId, messageIds, { isOnlyForMe });
 ```
 
 

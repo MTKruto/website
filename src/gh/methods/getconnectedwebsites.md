@@ -9,7 +9,7 @@ Get connected websites.<span class="select-none"> <span class="inline-flex w-fit
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/connectedwebsite">ConnectedWebsite</a><span class="opacity-50">[]</span></div>
+<div class="font-mono"><span href="/">ConnectedWebsite</span><span class="opacity-50">[]</span></div>
 
 ### Syntax
 

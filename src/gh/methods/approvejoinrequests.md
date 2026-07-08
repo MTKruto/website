@@ -13,11 +13,7 @@ Approve all join requests.<span class="select-none"> <span class="inline-flex w-
 
 The identifier of a chat with the join requests.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_inviteLink" data-anchor="true"><span class="font-bold">inviteLink</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
-
-If specified, only join requests initiated from this invite link will be approved.
-
-</div></div></div></div></div>
+</div></div></div></div>
 
 ### Result 
 
@@ -26,12 +22,7 @@ If specified, only join requests initiated from this invite link will be approve
 ### Syntax
 
 ```ts
-// Required parameters only.
 await client.approveJoinRequests(chatId);
-
-// Required parameters + optional parameters.
-// Any of the optional parameters can be omitted.
-await client.approveJoinRequests(chatId, { inviteLink });
 ```
 
 
