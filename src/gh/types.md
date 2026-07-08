@@ -104,6 +104,20 @@ Any type specifying where bot commands are available.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/bottokencheckresult">BotTokenCheckResult</a>
+<div><div>
+
+A result after checking a bot token.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/businessawaymessageschedule">BusinessAwayMessageSchedule</a>
+<div><div>
+
+The schedule for a business away message.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/businessconnection">BusinessConnection</a>
 <div><div>
 
@@ -314,6 +328,13 @@ A shared contact.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/country">Country</a>
+<div><div>
+
+A country.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/dice">Dice</a>
 <div><div>
 
@@ -395,6 +416,13 @@ A gift privacy setting.
 <div><div>
 
 Information on an upgraded gift.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/giftvalue">GiftValue</a>
+<div><div>
+
+A gift's value.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -545,6 +573,13 @@ An input sticker.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/inputstorycontent">InputStoryContent</a>
+<div><div>
+
+Any type of story content when provided as an input.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/invitelink">InviteLink</a>
 <div><div>
 
@@ -587,6 +622,13 @@ Any type of link preview.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/linkpreviewmediasize">LinkPreviewMediaSize</a>
+<div><div>
+
+The size of a link preview's media.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/livestreamchannel">LiveStreamChannel</a>
 <div><div>
 
@@ -594,10 +636,24 @@ A live stream channel.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/location">Location</a>
+<div><div>
+
+A shared location.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/loginurl">LoginUrl</a>
 <div><div>
 
 A login URL.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/maskposition">MaskPosition</a>
+<div><div>
+
+A mask position.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -699,6 +755,13 @@ A message search filter option.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/messageviewer">MessageViewer</a>
+<div><div>
+
+A message's viewer.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/miniappinfo">MiniAppInfo</a>
 <div><div>
 
@@ -734,6 +797,13 @@ A new chat privacy setting.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/notificationsettings">NotificationSettings</a>
+<div><div>
+
+A chat's notification settings.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/notificationsound">NotificationSound</a>
 <div><div>
 
@@ -766,6 +836,13 @@ Message parse mode.
 <div><div>
 
 A result after checking a password.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/photo">Photo</a>
+<div><div>
+
+A photo.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1112,6 +1189,13 @@ Any type of a story's privacy choice.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/storyreaction">StoryReaction</a>
+<div><div>
+
+Represents a type of reaction made to a story.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/storyreference">StoryReference</a>
 <div><div>
 
@@ -1228,6 +1312,13 @@ A translation.
 <div><div>
 
 Any type of update.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/uploadprogress">UploadProgress</a>
+<div><div>
+
+The progress of an upload.
 
 </div></div>
 <div class="descr-list-border"></div>

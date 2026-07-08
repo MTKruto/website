@@ -13,7 +13,7 @@ Get countries.<span class="select-none"> <span class="inline-flex w-fit items-ce
 
 ### Result 
 
-<div class="font-mono"><span href="/">Country</span><span class="opacity-50">[]</span></div>
+<div class="font-mono"><a href="/gh/types/country">Country</a><span class="opacity-50">[]</span></div>
 
 ### Syntax
 

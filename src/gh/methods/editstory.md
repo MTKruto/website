@@ -17,7 +17,7 @@ The identifier of the chat including the story.
 
 The identifier of the story to edit.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_content" data-anchor="true"><span class="font-bold">content</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">InputStoryContent</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_content" data-anchor="true"><span class="font-bold">content</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/inputstorycontent">InputStoryContent</a></div></div><div class="pl-3"><div class="no-margin">
 
 The story's new content.
 

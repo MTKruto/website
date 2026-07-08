@@ -13,7 +13,7 @@ An external audio link preview.
 
 The ID of the link preview.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_mediaSize" data-anchor="true"><span class="font-bold">mediaSize</span><span class="opacity-50">:</span> <span href="/">LinkPreviewMediaSize</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_mediaSize" data-anchor="true"><span class="font-bold">mediaSize</span><span class="opacity-50">:</span> <a href="/gh/types/linkpreviewmediasize">LinkPreviewMediaSize</a></div></div><div class="pl-3"><div class="no-margin">
 
 The size at which the media is expected to be displayed.
 

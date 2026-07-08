@@ -5,7 +5,7 @@ parent: /types
 
 ### Properties
 
-<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_photo" data-anchor="true"><span class="font-bold">photo</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">Photo</span></div></div><div class="pl-3"><div class="no-margin">
+<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_photo" data-anchor="true"><span class="font-bold">photo</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/photo">Photo</a></div></div><div class="pl-3"><div class="no-margin">
 
 The chat's photo.
 
@@ -121,7 +121,7 @@ The user's birthday.
 
 The written address of the business.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_location" data-anchor="true"><span class="font-bold">location</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">Location</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_location" data-anchor="true"><span class="font-bold">location</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/location">Location</a></div></div><div class="pl-3"><div class="no-margin">
 
 The location of the business.
 

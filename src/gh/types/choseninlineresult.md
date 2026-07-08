@@ -17,7 +17,7 @@ The identifier of the inline result that was chosen.
 
 The user who chose the result.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_location" data-anchor="true"><span class="font-bold">location</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">Location</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_location" data-anchor="true"><span class="font-bold">location</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/location">Location</a></div></div><div class="pl-3"><div class="no-margin">
 
 The location of the user who chose the result.
 

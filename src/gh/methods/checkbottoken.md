@@ -17,7 +17,7 @@ The bot token to check
 
 ### Result 
 
-<div class="font-mono"><span href="/">BotTokenCheckResult</span></div><div class="pl-3"><div class="no-margin">
+<div class="font-mono"><a href="/gh/types/bottokencheckresult">BotTokenCheckResult</a></div><div class="pl-3"><div class="no-margin">
 
 The result of the check.
 

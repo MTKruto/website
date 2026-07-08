@@ -49,7 +49,7 @@ The emoji associated with the sticker.
 
 Name of the sticker set where the sticker belongs.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_maskPosition" data-anchor="true"><span class="font-bold">maskPosition</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">MaskPosition</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_maskPosition" data-anchor="true"><span class="font-bold">maskPosition</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/maskposition">MaskPosition</a></div></div><div class="pl-3"><div class="no-margin">
 
 For mask stickers, the position where the mask should be placed.
 
