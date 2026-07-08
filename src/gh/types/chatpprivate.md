@@ -1,0 +1,117 @@
+---
+title: ChatPPrivate
+parent: /types
+---
+
+### Properties
+
+<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_id" data-anchor="true"><span class="font-bold">id</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of the chat.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_color" data-anchor="true"><span class="font-bold">color</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+Identifier of a color that can be displayed instead of the chat's photo.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_photo" data-anchor="true"><span class="font-bold">photo</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/chatphoto">ChatPhoto</a></div></div><div class="pl-3"><div class="no-margin">
+
+The chat's photo.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;private&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isBot" data-anchor="true"><span class="font-bold">isBot</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether this is a bot's chat.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_firstName" data-anchor="true"><span class="font-bold">firstName</span><span class="opacity-50">:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The first name of the user.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_lastName" data-anchor="true"><span class="font-bold">lastName</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The last name of the user.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_username" data-anchor="true"><span class="font-bold">username</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The user's main username.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_phoneNumber" data-anchor="true"><span class="font-bold">phoneNumber</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The user's phone number.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_also" data-anchor="true"><span class="font-bold">also</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+
+The user's additional usernames.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_status" data-anchor="true"><span class="font-bold">status</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/userstatus">UserStatus</a></div></div><div class="pl-3"><div class="no-margin">
+
+The user's status.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_emojiStatus" data-anchor="true"><span class="font-bold">emojiStatus</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/emojistatus">EmojiStatus</a></div></div><div class="pl-3"><div class="no-margin">
+
+The user's emoji status.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isSelf" data-anchor="true"><span class="font-bold">isSelf</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the user is the current user.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isDeleted" data-anchor="true"><span class="font-bold">isDeleted</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the user has been deleted.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isContact" data-anchor="true"><span class="font-bold">isContact</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the user is a contact.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isMutualContact" data-anchor="true"><span class="font-bold">isMutualContact</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the user is a mutual contact.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isCloseFriend" data-anchor="true"><span class="font-bold">isCloseFriend</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the user is a close friend.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_languageCode" data-anchor="true"><span class="font-bold">languageCode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The user's [IETF language tag](https://en.wikipedia.org/wiki/IETF_language_tag).
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isScam" data-anchor="true"><span class="font-bold">isScam</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the user has been identified as a scam.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isFake" data-anchor="true"><span class="font-bold">isFake</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the user has been identified as an impersonator.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isPremium" data-anchor="true"><span class="font-bold">isPremium</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the user is subscribed to Telegram Premium.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isVerified" data-anchor="true"><span class="font-bold">isVerified</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the user has been verified.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isSupport" data-anchor="true"><span class="font-bold">isSupport</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the user is official support.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isRestricted" data-anchor="true"><span class="font-bold">isRestricted</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the user has been restricted.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_restrictionReason" data-anchor="true"><span class="font-bold">restrictionReason</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/restrictionreason">RestrictionReason</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+
+The reason why the user has been restricted.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isAddedToAttachmentsMenu" data-anchor="true"><span class="font-bold">isAddedToAttachmentsMenu</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the user is a bot that has been added to the attachment menu by the current user.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_hasMainMiniApp" data-anchor="true"><span class="font-bold">hasMainMiniApp</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the user is a bot that has a main mini app.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isGuestQuerySupported" data-anchor="true"><span class="font-bold">isGuestQuerySupported</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the user is a bot that supports guest queries.
+
+</div></div></div></div>
+

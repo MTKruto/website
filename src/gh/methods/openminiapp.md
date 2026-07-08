@@ -17,7 +17,39 @@ The identifier of a bot with the mini app.
 
 The identifier of the chat from which the mini app is opened.
 
-</div></div></div></div>
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_mode" data-anchor="true"><span class="font-bold">mode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/miniappmode">MiniAppMode</a></div></div><div class="pl-3"><div class="no-margin">
+
+The mode to open the mini app in. Defaults to the default mode.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_url" data-anchor="true"><span class="font-bold">url</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The URL of the mini app to open.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_startParameter" data-anchor="true"><span class="font-bold">startParameter</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The start parameter to pass to the mini app.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_themeParameters" data-anchor="true"><span class="font-bold">themeParameters</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+Theme parameters encoded in JSON.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isSilent" data-anchor="true"><span class="font-bold">isSilent</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether messages relevant to the mini app session should be sent silently.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_sendAs" data-anchor="true"><span class="font-bold">sendAs</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/id">ID</a></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of a chat to send relevant messages on behalf of.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isFromMenu" data-anchor="true"><span class="font-bold">isFromMenu</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the mini app is being opened from the menu.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_replyTo" data-anchor="true"><span class="font-bold">replyTo</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/replyto">ReplyTo</a></div></div><div class="pl-3"><div class="no-margin">
+
+Information on a message to which relevant messages should be replied to.
+
+</div></div></div></div></div>
 
 ### Result 
 
@@ -26,7 +58,21 @@ The identifier of the chat from which the mini app is opened.
 ### Syntax
 
 ```ts
+// Required parameters only.
 await client.openMiniApp(botId, chatId);
+
+// Required parameters + optional parameters.
+// Any of the optional parameters can be omitted.
+await client.openMiniApp(botId, chatId, {
+    mode,
+    url,
+    startParameter,
+    themeParameters,
+    isSilent,
+    sendAs,
+    isFromMenu,
+    replyTo,
+});
 ```
 
 

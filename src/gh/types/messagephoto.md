@@ -21,7 +21,7 @@ The identifier of the message's thread.
 
 The identifier of the direct message's topic.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_from" data-anchor="true"><span class="font-bold">from</span><span class="opacity-50">:</span> <span href="/">ChatP</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_from" data-anchor="true"><span class="font-bold">from</span><span class="opacity-50">:</span> <a href="/gh/types/chatp">ChatP</a></div></div><div class="pl-3"><div class="no-margin">
 
 The sender of the message.
 
@@ -29,7 +29,7 @@ The sender of the message.
 
 The point in time when the message was sent.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_chat" data-anchor="true"><span class="font-bold">chat</span><span class="opacity-50">:</span> <span href="/">ChatP</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_chat" data-anchor="true"><span class="font-bold">chat</span><span class="opacity-50">:</span> <a href="/gh/types/chatp">ChatP</a></div></div><div class="pl-3"><div class="no-margin">
 
 The chat where the message was sent.
 
@@ -125,7 +125,7 @@ Whether the message is scheduled.
 
 The message's self-destruct preference.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_for" data-anchor="true"><span class="font-bold">for</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">ChatP</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_for" data-anchor="true"><span class="font-bold">for</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/chatp">ChatP</a></div></div><div class="pl-3"><div class="no-margin">
 
 If this message is a guest message, the user or chat that triggered it.
 
@@ -141,7 +141,7 @@ The entities of the media's caption.
 
 Whether the media is a spoiler.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;photo&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_photo" data-anchor="true"><span class="font-bold">photo</span><span class="opacity-50">:</span> <span href="/">Photo</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;photo&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_photo" data-anchor="true"><span class="font-bold">photo</span><span class="opacity-50">:</span> <a href="/gh/types/photo">Photo</a></div></div><div class="pl-3"><div class="no-margin">
 
 The photo included in the message.
 

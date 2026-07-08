@@ -13,7 +13,11 @@ Check the availability of a username.<span class="select-none"> <span class="inl
 
 The username to check.
 
-</div></div></div></div>
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_chatId" data-anchor="true"><span class="font-bold">chatId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/id">ID</a></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of a supergroup or a channel. If specified, the username check will be made against it.
+
+</div></div></div></div></div>
 
 ### Result 
 
@@ -26,7 +30,12 @@ Whether the username is available.
 ### Syntax
 
 ```ts
+// Required parameters only.
 await client.checkUsername(username);
+
+// Required parameters + optional parameters.
+// Any of the optional parameters can be omitted.
+await client.checkUsername(username, { chatId });
 ```
 
 

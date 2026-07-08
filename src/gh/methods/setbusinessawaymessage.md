@@ -21,7 +21,11 @@ The schedule on which to send the away message.
 
 The recipients to send the away message to.
 
-</div></div></div></div>
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_isOfflineOnly" data-anchor="true"><span class="font-bold">isOfflineOnly</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the away message should be sent only when the account is offline.
+
+</div></div></div></div></div>
 
 ### Result 
 
@@ -30,7 +34,12 @@ The recipients to send the away message to.
 ### Syntax
 
 ```ts
+// Required parameters only.
 await client.setBusinessAwayMessage(shortcutId, schedule, recipients);
+
+// Required parameters + optional parameters.
+// Any of the optional parameters can be omitted.
+await client.setBusinessAwayMessage(shortcutId, schedule, recipients, { isOfflineOnly });
 ```
 
 

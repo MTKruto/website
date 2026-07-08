@@ -13,7 +13,11 @@ Add a bot to the attachments menu.<span class="select-none"> <span class="inline
 
 The identifier of the bot to add to the attachments menu.
 
-</div></div></div></div>
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_isWriteAllowed" data-anchor="true"><span class="font-bold">isWriteAllowed</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the bot is allowed to write to the user.
+
+</div></div></div></div></div>
 
 ### Result 
 
@@ -22,7 +26,12 @@ The identifier of the bot to add to the attachments menu.
 ### Syntax
 
 ```ts
+// Required parameters only.
 await client.addBotToAttachmentsMenu(botId);
+
+// Required parameters + optional parameters.
+// Any of the optional parameters can be omitted.
+await client.addBotToAttachmentsMenu(botId, { isWriteAllowed });
 ```
 
 

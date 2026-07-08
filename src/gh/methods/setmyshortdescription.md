@@ -9,7 +9,7 @@ Set the bot's short description in the given language.<span class="select-none">
 
 ### Parameters 
 
-<div class="flex flex-col gap-3"></div>
+<div class="flex flex-col gap-3"><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_shortDescription" data-anchor="true"><span class="font-bold">shortDescription</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_languageCode" data-anchor="true"><span class="font-bold">languageCode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div></div></div></div>
 
 ### Result 
 
@@ -18,7 +18,9 @@ Set the bot's short description in the given language.<span class="select-none">
 ### Syntax
 
 ```ts
-await client.setMyShortDescription();
+// Optional parameters.
+// Any of the optional parameters can be omitted.
+await client.setMyShortDescription( { shortDescription, languageCode });
 ```
 
 

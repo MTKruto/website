@@ -17,7 +17,7 @@ The identifier of a chat.
 
 The identifier of the checklist message.
 
-</div></div></div><div><div class="font-mono" id="p_items" data-anchor="true"><span class="font-bold">items</span><span class="opacity-50">:</span> <span href="/">InputChecklistItem</span><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="font-mono" id="p_items" data-anchor="true"><span class="font-bold">items</span><span class="opacity-50">:</span> <a href="/gh/types/inputchecklistitem">InputChecklistItem</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
 
 The items to add.
 

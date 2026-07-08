@@ -17,7 +17,7 @@ Invoke a low-level function.<span class="select-none">  </span>
 
 The function to invoke.
 
-</div></div></div></div>
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_dc" data-anchor="true"><span class="font-bold">dc</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">DC</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>&quot;download&quot;</span> <span class="opacity-50">|</span> <span>&quot;upload&quot;</span></div></div></div></div></div>
 
 ### Result 
 
@@ -26,7 +26,12 @@ The function to invoke.
 ### Syntax
 
 ```ts
+// Required parameters only.
 await client.invoke(function_);
+
+// Required parameters + optional parameters.
+// Any of the optional parameters can be omitted.
+await client.invoke(function_, { dc, type });
 ```
 
 

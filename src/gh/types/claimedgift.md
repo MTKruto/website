@@ -21,7 +21,7 @@ The gift.
 
 Whether the gift is publicly visible.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_sender" data-anchor="true"><span class="font-bold">sender</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">ChatP</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_sender" data-anchor="true"><span class="font-bold">sender</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/chatp">ChatP</a></div></div><div class="pl-3"><div class="no-margin">
 
 The sender of the gift.
 

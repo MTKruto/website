@@ -9,7 +9,7 @@ The reactions of a user to a message in a group.
 
 ### Properties
 
-<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_chat" data-anchor="true"><span class="font-bold">chat</span><span class="opacity-50">:</span> <span href="/">ChatP</span></div></div><div class="pl-3"><div class="no-margin">
+<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_chat" data-anchor="true"><span class="font-bold">chat</span><span class="opacity-50">:</span> <a href="/gh/types/chatp">ChatP</a></div></div><div class="pl-3"><div class="no-margin">
 
 The chat containing the message the user reacted to.
 
@@ -21,7 +21,7 @@ The message's identifier.
 
 The user who changed their reactions to the message. Unset if done on behalf of a chat.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_actorChat" data-anchor="true"><span class="font-bold">actorChat</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">ChatP</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_actorChat" data-anchor="true"><span class="font-bold">actorChat</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/chatp">ChatP</a></div></div><div class="pl-3"><div class="no-margin">
 
 The chat that changed its reactions to the message. Unset if done on behalf of a user.
 

@@ -17,7 +17,7 @@ The key of the privacy setting.
 
 ### Result 
 
-<div class="font-mono"><span href="/">PrivacyRule</span><span class="opacity-50">[]</span></div>
+<div class="font-mono"><a href="/gh/types/privacyrule">PrivacyRule</a><span class="opacity-50">[]</span></div>
 
 ### Syntax
 

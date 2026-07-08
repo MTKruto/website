@@ -29,7 +29,7 @@ The type of the set.
 
 The stickers (or emojis) in the set.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_thumbnails" data-anchor="true"><span class="font-bold">thumbnails</span><span class="opacity-50">:</span> <span href="/">Thumbnail</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_thumbnails" data-anchor="true"><span class="font-bold">thumbnails</span><span class="opacity-50">:</span> <a href="/gh/types/thumbnail">Thumbnail</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
 Thumbnails if available.
 

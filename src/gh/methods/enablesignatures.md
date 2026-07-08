@@ -13,7 +13,11 @@ Enable post signatures in a channel.<span class="select-none"> <span class="inli
 
 The identifier of the channel.
 
-</div></div></div></div>
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_showAuthorProfile" data-anchor="true"><span class="font-bold">showAuthorProfile</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether author profiles should be shown in posts.
+
+</div></div></div></div></div>
 
 ### Result 
 
@@ -22,7 +26,12 @@ The identifier of the channel.
 ### Syntax
 
 ```ts
+// Required parameters only.
 await client.enableSignatures(chatId);
+
+// Required parameters + optional parameters.
+// Any of the optional parameters can be omitted.
+await client.enableSignatures(chatId, { showAuthorProfile });
 ```
 
 

@@ -34,7 +34,7 @@ The name of the user that owns the gift.
 
 The address of the TON wallet that owns the gift.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_owner" data-anchor="true"><span class="font-bold">owner</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">ChatP</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_owner" data-anchor="true"><span class="font-bold">owner</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/chatp">ChatP</a></div></div><div class="pl-3"><div class="no-margin">
 
 The user or chat that owns the gift.
 
@@ -46,7 +46,7 @@ The number of upgraded gifts of the same type.
 
 The maximum count of gifts of the same type that can be upgraded.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_components" data-anchor="true"><span class="font-bold">components</span><span class="opacity-50">:</span> <span href="/">GiftUpgradedComponent</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_components" data-anchor="true"><span class="font-bold">components</span><span class="opacity-50">:</span> <a href="/gh/types/giftupgradedcomponent">GiftUpgradedComponent</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
 The components of the gift.
 

@@ -17,7 +17,7 @@ The invite link to resolve.
 
 ### Result 
 
-<div class="font-mono"><span href="/">ChatP</span> <span class="opacity-50">|</span> <a href="/gh/types/resolvedinvitelink">ResolvedInviteLink</a></div>
+<div class="font-mono"><a href="/gh/types/chatp">ChatP</a> <span class="opacity-50">|</span> <a href="/gh/types/resolvedinvitelink">ResolvedInviteLink</a></div>
 
 ### Syntax
 

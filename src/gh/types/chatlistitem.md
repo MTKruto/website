@@ -9,11 +9,11 @@ An item of a chat list.
 
 ### Properties
 
-<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_folder" data-anchor="true"><span class="font-bold">folder</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span href="/">ChatFolder</span></div></div><div class="pl-3"><div class="no-margin">
+<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_folder" data-anchor="true"><span class="font-bold">folder</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/chatfolder">ChatFolder</a></div></div><div class="pl-3"><div class="no-margin">
 
 A chat folder. If specified, the item is a chat folder.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_chat" data-anchor="true"><span class="font-bold">chat</span><span class="opacity-50">:</span> <span href="/">ChatP</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_chat" data-anchor="true"><span class="font-bold">chat</span><span class="opacity-50">:</span> <a href="/gh/types/chatp">ChatP</a></div></div><div class="pl-3"><div class="no-margin">
 
 The item's chat.
 

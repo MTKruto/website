@@ -13,7 +13,23 @@ Get the topics of a forum chat.<span class="select-none"> <span class="inline-fl
 
 The identifier of the chat.
 
-</div></div></div></div>
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_offsetId" data-anchor="true"><span class="font-bold">offsetId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+Offset message ID from a previous result.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_offsetTopicId" data-anchor="true"><span class="font-bold">offsetTopicId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+Offset topic ID from a previous result.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_offsetDate" data-anchor="true"><span class="font-bold">offsetDate</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+Offset date from a previous result.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_limit" data-anchor="true"><span class="font-bold">limit</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The maximum number of results to return.
+
+</div></div></div></div></div>
 
 ### Result 
 
@@ -22,7 +38,17 @@ The identifier of the chat.
 ### Syntax
 
 ```ts
+// Required parameters only.
 await client.getTopics(chatId);
+
+// Required parameters + optional parameters.
+// Any of the optional parameters can be omitted.
+await client.getTopics(chatId, {
+    offsetId,
+    offsetTopicId,
+    offsetDate,
+    limit,
+});
 ```
 
 

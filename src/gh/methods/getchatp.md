@@ -13,7 +13,7 @@ Get a partial chat.<span class="select-none">  <span class="inline-flex w-fit it
 
 ### Result 
 
-<div class="font-mono"><span href="/">ChatP</span></div>
+<div class="font-mono"><a href="/gh/types/chatp">ChatP</a></div>
 
 ### Syntax
 

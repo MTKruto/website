@@ -17,7 +17,11 @@ The identifier of a chat.
 
 The identifier of a message.
 
-</div></div></div></div>
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_languageCode" data-anchor="true"><span class="font-bold">languageCode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+A language code. If specified, the message will be summarized into that language.
+
+</div></div></div></div></div>
 
 ### Result 
 
@@ -26,7 +30,12 @@ The identifier of a message.
 ### Syntax
 
 ```ts
+// Required parameters only.
 await client.summarizeText(chatId, messageId);
+
+// Required parameters + optional parameters.
+// Any of the optional parameters can be omitted.
+await client.summarizeText(chatId, messageId, { languageCode });
 ```
 
 

@@ -9,7 +9,7 @@ Set the bot's name in the given language.<span class="select-none"> <span class=
 
 ### Parameters 
 
-<div class="flex flex-col gap-3"></div>
+<div class="flex flex-col gap-3"><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_name" data-anchor="true"><span class="font-bold">name</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_languageCode" data-anchor="true"><span class="font-bold">languageCode</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div></div></div></div>
 
 ### Result 
 
@@ -18,7 +18,9 @@ Set the bot's name in the given language.<span class="select-none"> <span class=
 ### Syntax
 
 ```ts
-await client.setMyName();
+// Optional parameters.
+// Any of the optional parameters can be omitted.
+await client.setMyName( { name, languageCode });
 ```
 
 

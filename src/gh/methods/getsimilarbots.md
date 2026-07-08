@@ -17,7 +17,7 @@ The identifier of a bot to get similar bots for.
 
 ### Result 
 
-<div class="font-mono"><span href="/">ChatPPrivate</span><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
+<div class="font-mono"><a href="/gh/types/chatpprivate">ChatPPrivate</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
 
 A list of similar bots.
 
