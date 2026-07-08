@@ -34,7 +34,7 @@ The remaining supply of the gift if limited.
 
 The total supply of the gift if limited.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_soldOut" data-anchor="true"><span class="font-bold">soldOut</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isSoldOut" data-anchor="true"><span class="font-bold">isSoldOut</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether the gift is sold out if limited.
 

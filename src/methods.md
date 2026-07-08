@@ -17,7 +17,7 @@ Add a bot to the attachments menu.
 <a href="/methods/addmusictoprofile">addMusicToProfile</a>
 <div><div>
 
-Add a music to profile.
+Add music to profile.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -353,7 +353,7 @@ Remove the current account's emoji status.
 <a href="/methods/removemusicfromprofile">removeMusicFromProfile</a>
 <div><div>
 
-Remove a music from profile.
+Remove music from profile.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -646,7 +646,7 @@ Check if a code entered by the user was the same as the verification code.
 <a href="/methods/checkpassword">checkPassword</a>
 <div><div>
 
-Check whether a password entered by the user is the same as the account's one.
+Check whether a password entered by the user is the same as the account's password.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -2515,6 +2515,13 @@ Get the TON balance of a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/gettontransactions">getTonTransactions</a>
+<div><div>
+
+Get TON transactions.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/refundstarpayment">refundStarPayment</a>
 <div><div>
 
@@ -2999,6 +3006,13 @@ Create a story album.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/deletestoryalbum">deleteStoryAlbum</a>
+<div><div>
+
+Delete a story album.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getstoriesinalbum">getStoriesInAlbum</a>
 <div><div>
 
@@ -3031,6 +3045,13 @@ Remove a single story from an album.
 <div><div>
 
 Reorder stories in an album.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/reorderstoryalbums">reorderStoryAlbums</a>
+<div><div>
+
+Reorder story albums.
 
 </div></div>
 <div class="descr-list-border"></div>

@@ -1259,6 +1259,20 @@ A timezone.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/tontransaction">TonTransaction</a>
+<div><div>
+
+A TON transaction.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/tontransactionlist">TonTransactionList</a>
+<div><div>
+
+A list of TON transactions.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/topic">Topic</a>
 <div><div>
 

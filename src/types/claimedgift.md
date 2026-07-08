@@ -37,6 +37,14 @@ The entities of the message.
 
 The identifier of the service message announcing the receipt of the gift.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_inputId" data-anchor="true"><span class="font-bold">inputId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier that can be used to reference the gift in a chat.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_collectionIds" data-anchor="true"><span class="font-bold">collectionIds</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+
+The identifiers of the collections that include the gift.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_conversionStars" data-anchor="true"><span class="font-bold">conversionStars</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
 The amount of stars the gift would be worth.

@@ -61,6 +61,14 @@ Whether inline bot results are allowed to be sent.
 
 Whether it is allowed to add web page previews.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canMakeReactions" data-anchor="true"><span class="font-bold">canMakeReactions</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether reactions are allowed to be sent.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canEditMemberTag" data-anchor="true"><span class="font-bold">canEditMemberTag</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the member can change their own tag.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canChangeInfo" data-anchor="true"><span class="font-bold">canChangeInfo</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
 Whether it is allowed to change the chat info. Ignored for supergroups.

@@ -22,7 +22,9 @@ The current bot's name in the specified language.
 ### Syntax
 
 ```ts
-await client.getMyName();
+// Optional parameters.
+// Any of the optional parameters can be omitted.
+await client.getMyName( { languageCode });
 ```
 
 
