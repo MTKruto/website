@@ -986,6 +986,13 @@ Any type of information on what a message is replying to.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/replytoephemeralmessage">ReplyToEphemeralMessage</a>
+<div><div>
+
+Information on an ephemeral message that another message is replying to.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/replytomessage">ReplyToMessage</a>
 <div><div>
 

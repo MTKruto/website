@@ -1880,6 +1880,13 @@ Delete all messages sent by a specific member of a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/deleteephemeralmessage">deleteEphemeralMessage</a>
+<div><div>
+
+Delete an ephemeral message.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/deletemessage">deleteMessage</a>
 <div><div>
 
@@ -1905,6 +1912,34 @@ Delete a scheduled message.
 <div><div>
 
 Delete multiple scheduled messages.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/editephemeralmessagecaption">editEphemeralMessageCaption</a>
+<div><div>
+
+Edit an ephemeral message's caption.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/editephemeralmessagemedia">editEphemeralMessageMedia</a>
+<div><div>
+
+Edit an ephemeral message's media.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/editephemeralmessagereplymarkup">editEphemeralMessageReplyMarkup</a>
+<div><div>
+
+Edit an ephemeral message's reply markup.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/editephemeralmessagetext">editEphemeralMessageText</a>
+<div><div>
+
+Edit an ephemeral message's text.
 
 </div></div>
 <div class="descr-list-border"></div>
