@@ -1035,6 +1035,13 @@ Any type of report reason.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/reportresult">ReportResult</a>
+<div><div>
+
+Any type of story report result.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/resolvedinvitelink">ResolvedInviteLink</a>
 <div><div>
 
@@ -1242,13 +1249,6 @@ Reference to a story.
 <div><div>
 
 A story report option.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/storyreportresult">StoryReportResult</a>
-<div><div>
-
-Any type of story report result.
 
 </div></div>
 <div class="descr-list-border"></div>

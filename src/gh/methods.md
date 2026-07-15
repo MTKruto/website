@@ -2188,6 +2188,13 @@ Remove a sticker from recents.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/reportephemeralmessage">reportEphemeralMessage</a>
+<div><div>
+
+Report an ephemeral message.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/reportreaction">reportReaction</a>
 <div><div>
 
