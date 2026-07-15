@@ -23,7 +23,7 @@ A point in time in the future when the invite link will be invalidated.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_limit" data-anchor="true"><span class="font-bold">limit</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The times the invite link can be used. Cannot be specified while `requireApproval` is `true`.
+The number of times the invite link can be used. Cannot be specified while `requireApproval` is `true`.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isApprovalRequired" data-anchor="true"><span class="font-bold">isApprovalRequired</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 

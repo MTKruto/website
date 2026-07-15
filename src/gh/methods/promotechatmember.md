@@ -87,7 +87,7 @@ Whether the administrator can manage member tags.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canManageLinkedChats" data-anchor="true"><span class="font-bold">canManageLinkedChats</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
-Whether the administrator can managed linked chats.
+Whether the administrator can manage linked chats.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_title" data-anchor="true"><span class="font-bold">title</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
