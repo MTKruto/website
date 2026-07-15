@@ -77,5 +77,9 @@ Whether the administrator can manage direct messages.
 
 Whether the administrator can manage member tags.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canManageLinkedChats" data-anchor="true"><span class="font-bold">canManageLinkedChats</span><span class="opacity-50">:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the administrator can managed linked chats.
+
 </div></div></div></div>
 
