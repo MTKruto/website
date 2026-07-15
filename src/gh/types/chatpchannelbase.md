@@ -49,5 +49,9 @@ Whether the chat or channel has been restricted.
 
 The reason why the chat or channel has been restricted.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_communityId" data-anchor="true"><span class="font-bold">communityId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of the community to which the chat or channel is linked.
+
 </div></div></div></div>
 

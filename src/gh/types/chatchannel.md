@@ -49,6 +49,10 @@ Whether the chat or channel has been restricted.
 
 The reason why the chat or channel has been restricted.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_communityId" data-anchor="true"><span class="font-bold">communityId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of the community to which the chat or channel is linked.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;channel&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_emojiStatus" data-anchor="true"><span class="font-bold">emojiStatus</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/emojistatus">EmojiStatus</a></div></div><div class="pl-3"><div class="no-margin">
 
 The channel's emoji status.
