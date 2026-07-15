@@ -1522,34 +1522,7 @@ Update a checklist.
 
 </div>
 
-## Connection
-<div class="descr-list">
-
-<a href="/gh/methods/connect">connect</a>
-<div><div>
-
-Connect the client.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/disconnect">disconnect</a>
-<div><div>
-
-Disconnect the client.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/start">start</a>
-<div><div>
-
-Start the client. Same as calling {@link Client.connect} followed by {@link Client.signIn}.
-
-</div></div>
-<div class="descr-list-border"></div>
-
-</div>
-
-## Contacts
+## Communities
 <div class="descr-list">
 
 <a href="/gh/methods/addcontact">addContact</a>
@@ -1584,6 +1557,33 @@ Get contacts.
 <div><div>
 
 Set a contact note.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
+## Connection
+<div class="descr-list">
+
+<a href="/gh/methods/connect">connect</a>
+<div><div>
+
+Connect the client.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/disconnect">disconnect</a>
+<div><div>
+
+Disconnect the client.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/start">start</a>
+<div><div>
+
+Start the client. Same as calling {@link Client.connect} followed by {@link Client.signIn}.
 
 </div></div>
 <div class="descr-list-border"></div>

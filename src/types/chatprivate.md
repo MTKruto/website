@@ -113,6 +113,10 @@ Whether the user is a bot that has a main mini app.
 
 Whether the user is a bot that supports guest queries.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_communityId" data-anchor="true"><span class="font-bold">communityId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of the community to which the bot is linked.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_birthday" data-anchor="true"><span class="font-bold">birthday</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/birthday">Birthday</a></div></div><div class="pl-3"><div class="no-margin">
 
 The user's birthday.

@@ -137,5 +137,9 @@ If this message is a guest message, the user or chat that triggered it.
 
 The amount of stars needed to see the message.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_receiver" data-anchor="true"><span class="font-bold">receiver</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/user">User</a></div></div><div class="pl-3"><div class="no-margin">
+
+The receiver of the ephemeral message.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;videoChatStarted&quot;</span></div></div></div></div>
 

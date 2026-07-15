@@ -61,6 +61,14 @@ The identifier of a message effect to be attached to the message.
 
 If specified, the message will be scheduled to be sent at that date. User-only.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_receiverId" data-anchor="true"><span class="font-bold">receiverId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/id">ID</a></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of the user that will receive the ephemeral message.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_callbackQueryId" data-anchor="true"><span class="font-bold">callbackQueryId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of the callback query that triggered the ephemeral message.
+
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_businessConnectionId" data-anchor="true"><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
 The identifier of a business connection to perform the action on. Bot-only.
@@ -103,6 +111,8 @@ await client.sendMessage(chatId, text, {
     sendAs,
     effectId,
     sendAt,
+    receiverId,
+    callbackQueryId,
     businessConnectionId,
     isPaidBroadcast,
     replyMarkup,

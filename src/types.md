@@ -307,6 +307,13 @@ The result after checking a sent code.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/community">Community</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/connectedwebsite">ConnectedWebsite</a>
 <div><div>
 
@@ -983,6 +990,13 @@ A reference to a specific part of a message that is being replied to.
 <div><div>
 
 Any type of information on what a message is replying to.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/replytoephemeralmessage">ReplyToEphemeralMessage</a>
+<div><div>
+
+Information on an ephemeral message that another message is replying to.
 
 </div></div>
 <div class="descr-list-border"></div>

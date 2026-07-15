@@ -85,5 +85,9 @@ Whether it is allowed to pin messages.
 
 Whether it is allowed to manage topics.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_canManageLinkedChats" data-anchor="true"><span class="font-bold">canManageLinkedChats</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether it is allowed to manage linked chats.
+
 </div></div></div></div>
 

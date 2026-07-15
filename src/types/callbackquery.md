@@ -25,7 +25,7 @@ The message from which the callback query was made. Unset if made from an inline
 
 The identifier of the inline result message from which the callback query was made. Unset if made from a message not originating from an inline query result.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_chatInstance" data-anchor="true"><span class="font-bold">chatInstance</span><span class="opacity-50">:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_chatInstance" data-anchor="true"><span class="font-bold">chatInstance</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
 A special identifier for the chat from which the callback was made. Useful for inline result messages.
 
