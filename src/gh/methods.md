@@ -3233,6 +3233,13 @@ Get a community.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/getjoinedcommunities">getJoinedCommunities</a>
+<div><div>
+
+Get joined communities.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/removechatfromcommunity">removeChatFromCommunity</a>
 <div><div>
 
