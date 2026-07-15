@@ -314,7 +314,21 @@ The result after checking a sent code.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/communitychat">CommunityChat</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/communitygetter">CommunityGetter</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/communityp">CommunityP</a>
 <div><div>
 
 <i style="opacity: 0.5">No Description</i>

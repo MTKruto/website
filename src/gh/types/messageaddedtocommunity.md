@@ -141,5 +141,5 @@ The amount of stars needed to see the message.
 
 The receiver of the ephemeral message.
 
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;addedToCommunity&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_community" data-anchor="true"><span class="font-bold">community</span><span class="opacity-50">:</span> <a href="/gh/types/community">Community</a></div></div></div></div>
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;addedToCommunity&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_community" data-anchor="true"><span class="font-bold">community</span><span class="opacity-50">:</span> <a href="/gh/types/communityp">CommunityP</a></div></div></div></div>
 

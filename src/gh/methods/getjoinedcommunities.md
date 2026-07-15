@@ -9,7 +9,7 @@ Get joined communities.<span class="select-none"> <span class="inline-flex w-fit
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/community">Community</a><span class="opacity-50">[]</span></div>
+<div class="font-mono"><a href="/gh/types/communityp">CommunityP</a><span class="opacity-50">[]</span></div>
 
 ### Syntax
 
