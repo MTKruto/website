@@ -12,7 +12,7 @@ Here's how it can be done.
 <code-group-item title="Deno">
 
 ```ts
-Deno.addSignalListener("SIGINT", async () => {
+Deno.addSignalListener("SIGTERM", async () => {
   await client.disconnect();
   Deno.exit(0);
 });
@@ -23,7 +23,7 @@ Deno.addSignalListener("SIGINT", async () => {
 <code-group-item title="Node.js">
 
 ```ts
-process.on("SIGINT", async () => {
+process.on("SIGTERM", async () => {
   await client.disconnect();
   process.exit();
 });
