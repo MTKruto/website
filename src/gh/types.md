@@ -597,7 +597,7 @@ Any type of input rich text.
 <a href="/gh/types/inputrichtextmedia">InputRichTextMedia</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A media that is to be used with HTML and Markdown input rich texts.
 
 </div></div>
 <div class="descr-list-border"></div>
