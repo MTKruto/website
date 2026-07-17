@@ -566,6 +566,13 @@ A chat's notification settings that is to be used as an input.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/inputpageblock">InputPageBlock</a>
+<div><div>
+
+Any type of input page block.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/inputpollmedia">InputPollMedia</a>
 <div><div>
 
