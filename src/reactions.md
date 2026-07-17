@@ -77,7 +77,7 @@ client.on("messageReactions", (ctx) => {
     oldReactions,
     // the user's new reactions to the message
     newReactions,
-  } = ctx.messageReactions;
+  } = ctx.update.messageReactions;
 });
 
 // received only for channels
