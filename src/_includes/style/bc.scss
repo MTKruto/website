@@ -1,19 +1,41 @@
-.bc {
-  padding: 4px 8px;
+.breadcrumbs {
+  width: min(100%, 70rem);
+  margin: 0 auto;
+  padding: 1.65rem 0 0;
+  color: var(--muted);
+  font-size: 0.75rem;
+  line-height: 1.4;
 
-  .link-content {
-    opacity: 0.5;
+  ol,
+  li {
+    display: flex;
+    align-items: center;
   }
 
-  .link-content,
-  .link-content a {
-    color: var(--fgt) !important;
+  ol {
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
   }
 
-  a {
-    &:hover,
-    &:hover * {
-      text-decoration: underline;
-    }
+  li {
+    min-width: 0;
+  }
+
+  li:last-child {
+    overflow: hidden;
+    color: var(--fg);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  span {
+    margin: 0 0.55rem;
+    color: var(--muted);
+  }
+
+  a:hover {
+    color: var(--fg);
   }
 }

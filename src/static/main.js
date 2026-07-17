@@ -1,3 +1,11 @@
+const userAgent = navigator.userAgent;
+if (
+  userAgent.includes("Safari") &&
+  !/(Chrome|Chromium|CriOS|Edg|FxiOS|OPR)/.test(userAgent)
+) {
+  document.documentElement.classList.add("safari");
+}
+
 document.addEventListener("click", (e) => {
   if (e.target instanceof HTMLButtonElement) {
     const button = e.target;

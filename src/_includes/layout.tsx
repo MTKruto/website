@@ -6,25 +6,30 @@ export default (
   { title, url, children, prev, next, hide_toc, toc }: Lume.Data,
   { bc, getTitle }: Lume.Helpers,
 ) => {
+  const hasToc = !hide_toc && toc?.length > 0;
+
   function Bc() {
-    const items = bc(url).map((v: [string, string]) => <a key={v[0]} href={v[0]}>{v[1]}</a>);
+    const items = bc(url);
 
     return (
-      <div class="text-xs bc w-full">
-        <div class="link-content">
-          {items.map((v: any) =>
-            // deno-lint-ignore jsx-key
-            <>{v} /{" "}</>
-          )}
-        </div>
-      </div>
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          {items.map(([path, label]: [string, string]) => (
+            <li key={path}>
+              <a href={path}>{label}</a>
+              <span aria-hidden="true">/</span>
+            </li>
+          ))}
+          <li aria-current="page">{title}</li>
+        </ol>
+      </nav>
     );
   }
 
   return (
     <>
       {{ __html: "<!DOCTYPE html>" }}
-      <html style="scroll-padding-top: 10px">
+      <html lang="en">
         <head>
           <meta charset="utf-8" />
           <meta
@@ -35,9 +40,15 @@ export default (
             {title} | {url.startsWith("/server") ? "MTKruto Server" : "MTKruto"}
           </title>
           <meta property="og:site_name" content="MTKruto" />
+          <meta name="theme-color" content="#f7f7f4" media="(prefers-color-scheme: light)" />
+          <meta name="theme-color" content="#0e0f0f" media="(prefers-color-scheme: dark)" />
+          <link rel="icon" href="/favicon.ico" sizes="any" />
+          <link rel="icon" href="/logo.svg" type="image/svg+xml" />
+          <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+          <link rel="manifest" href="/site.webmanifest" />
           <link rel="stylesheet" href="/reset.css" />
           <link rel="stylesheet" href="/migrate.css" />
-          <link rel="stylesheet" href="/style.css" />
+          <link rel="stylesheet" href="/style.css?v=20260718-1" />
           <link
             rel="stylesheet"
             href="/github.css"
@@ -48,34 +59,48 @@ export default (
             href="/github-dark.css"
             media="(prefers-color-scheme: dark)"
           />
-          <script src="/main.js" />
+          <script src="/main.js?v=20260718-1" />
         </head>
-        <body class="bg-bg text-fg overflow-x-hidden">
-          <Bc />
-          <main class="min-h-screen w-full xl:flex px-5 pt-[25px]">
-            <div class="max-w-screen-md w-full mx-auto flex gap-2 relative">
-              <div class="content w-full grow">
-                <h1>
-                  {title}
-                </h1>
+        <body>
+          <a class="skip-link" href="#main-content">Skip to content</a>
+          <main id="main-content" class="site-main">
+            <Bc />
+            <div class={`page-layout${hasToc ? " page-layout-with-toc" : ""}`}>
+              <article class="content">
+                <h1>{title}</h1>
                 {children}
                 {(next || prev) && (
-                  <nav class="bottom-nav">
-                    {prev ? <a href={prev}>← {getTitle(prev)}</a> : <span></span>}
-                    {next ? <a href={next}>{getTitle(next)} →</a> : <span></span>}
+                  <nav class="bottom-nav" aria-label="Documentation pagination">
+                    {prev
+                      ? (
+                        <a class="bottom-nav-prev" href={prev}>
+                          <span>Previous</span>
+                          {getTitle(prev)}
+                        </a>
+                      )
+                      : <span></span>}
+                    {next
+                      ? (
+                        <a class="bottom-nav-next" href={next}>
+                          <span>Next</span>
+                          {getTitle(next)}
+                        </a>
+                      )
+                      : <span></span>}
                   </nav>
                 )}
-              </div>
-              {!hide_toc && (
-                <div class="toc absolute top-0 left-full h-full">
-                  <nav class="pt-4 pl-4 sticky top-0 h-auto self-start text-[13px]">
+              </article>
+              {hasToc && (
+                <aside class="toc">
+                  <nav aria-label="On this page">
+                    <div class="toc-title">On this page</div>
                     <ol>
                       {toc.map((v: any) => (
                         <li>
                           <a
                             href={`#${v.slug}`}
                             data-toc={`#${v.slug}`}
-                            class="toc-link truncate block"
+                            class="toc-link"
                           >
                             {v.text}
                           </a>
@@ -86,7 +111,7 @@ export default (
                                   <a
                                     href={`#${v.slug}`}
                                     data-toc={`#${v.slug}`}
-                                    class="toc-link truncate block"
+                                    class="toc-link"
                                   >
                                     {v.text}
                                   </a>
@@ -98,35 +123,34 @@ export default (
                       ))}
                     </ol>
                   </nav>
-                </div>
+                </aside>
               )}
             </div>
           </main>
-          <div class="relative">
-            <div class="spacer" />
-            <footer class="w-full px-5 py-5 sticky bottom-0 bg-bg">
-              <div class="max-w-screen-md w-full mx-auto flex gap-5 items-center justify-between text-xs">
-                <div class="opacity-50">&copy; 2023-2026 MTKruto</div>
-                <div class="flex gap-2 opacity-50">
-                  <a
-                    href="https://telegram.me/MTKruto"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    <Telegram />
-                  </a>
-                  <a
-                    href="https://github.com/MTKruto"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    <GitHub />
-                  </a>
-                </div>
-              </div>
-            </footer>
-          </div>
-          <script src="/script.js" />
+          <footer class="site-footer">
+            <div class="site-footer-inner">
+              <div>&copy; 2023-2026 MTKruto</div>
+              <nav aria-label="Community links">
+                <a
+                  href="https://telegram.me/MTKruto"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <Telegram />
+                  <span>Telegram</span>
+                </a>
+                <a
+                  href="https://github.com/MTKruto"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <GitHub />
+                  <span>GitHub</span>
+                </a>
+              </nav>
+            </div>
+          </footer>
+          <script src="/script.js?v=20260718-1" />
         </body>
       </html>
     </>

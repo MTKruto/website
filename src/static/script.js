@@ -23,64 +23,40 @@ document.querySelectorAll(".code-group-button").forEach((button) => {
 
 const headings = Array.from(document.querySelectorAll(".header-anchor"));
 const tocItems = Array.from(document.querySelectorAll("[data-toc]"));
+let activeTocItem;
 
-const SCROLL_OFFSET = 50;
 function updateActiveTocItem() {
-  const scrollY = globalThis.scrollY;
-  const innerHeight = globalThis.innerHeight;
-  const offsetHeight = document.body.offsetHeight;
-  const isBottom = Math.abs(Math.ceil(scrollY + innerHeight) - offsetHeight) <= 1;
+  if (!headings.length || !tocItems.length) return;
 
-  let activeItem;
+  let nextActiveItem = null;
+  const atPageBottom = globalThis.scrollY + globalThis.innerHeight >= document.documentElement.scrollHeight - 2;
 
-  // page top
-  if (globalThis.scrollY < 1) {
-    activeItem = null;
-  } else if (isBottom) {
-    activeItem = headings[headings.length - 1].getAttribute("href");
-  } else {
-    const a = headings.map((v) => ({
-      link: v.getAttribute("href"),
-      top: getAbsoluteTop(v),
-    }))
-      .filter(({ top }) => !Number.isNaN(top))
-      .sort((a, b) => a.top - b.top);
-    for (const { link, top } of a) {
-      if (top > scrollY + SCROLL_OFFSET + 4) {
-        break;
-      }
-      activeItem = link;
+  if (atPageBottom) {
+    nextActiveItem = headings.at(-1).getAttribute("href");
+  } else if (globalThis.scrollY > 0) {
+    for (const heading of headings) {
+      if (heading.parentElement.getBoundingClientRect().top > 40) break;
+      nextActiveItem = heading.getAttribute("href");
     }
   }
-  for (const tocItem of tocItems) {
-    if (tocItem.dataset.toc == activeItem) {
-      tocItem.classList.add("toc-link-active");
-    } else {
-      tocItem.classList.remove("toc-link-active");
-    }
+
+  if (nextActiveItem === activeTocItem) return;
+  activeTocItem = nextActiveItem;
+
+  for (const item of tocItems) {
+    item.classList.toggle("toc-link-active", item.dataset.toc === activeTocItem);
   }
+}
+
+let tocFrame;
+function scheduleTocUpdate() {
+  if (tocFrame !== undefined) return;
+  tocFrame = requestAnimationFrame(() => {
+    tocFrame = undefined;
+    updateActiveTocItem();
+  });
 }
 
 updateActiveTocItem();
-
-document.addEventListener("scroll", () => {
-  requestAnimationFrame(() => {
-    updateActiveTocItem();
-  });
-});
-
-function getAbsoluteTop(element) {
-  let offsetTop = 0;
-  while (element !== document.body) {
-    if (element === null) {
-      // child element is:
-      // - not attached to the DOM (display: none)
-      // - set to fixed position (not scrollable)
-      // - body or html element (null offsetParent)
-      return NaN;
-    }
-    offsetTop += element.offsetTop;
-    element = element.offsetParent;
-  }
-  return offsetTop;
-}
+document.addEventListener("scroll", scheduleTocUpdate, { passive: true });
+globalThis.addEventListener("resize", scheduleTocUpdate, { passive: true });

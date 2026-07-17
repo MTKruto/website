@@ -1,7 +1,38 @@
 .bottom-nav {
   display: flex;
-  gap: 1rem;
-  align-items: center;
-  font-size: 14px;
   justify-content: space-between;
+  gap: 1.5rem;
+  margin-top: 5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+
+  a {
+    display: flex;
+    max-width: 45%;
+    flex-direction: column;
+    color: var(--fg) !important;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    line-height: 1.4;
+    text-decoration: none !important;
+
+    &:hover {
+      color: var(--kr) !important;
+    }
+  }
+
+  a > span {
+    margin-bottom: 0.35rem;
+    color: var(--muted);
+    font-size: 0.6875rem;
+    font-weight: 650;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  &-next {
+    align-items: flex-end;
+    margin-left: auto;
+    text-align: right;
+  }
 }

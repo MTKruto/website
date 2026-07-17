@@ -1,25 +1,70 @@
 .toc {
-  width: 100%;
   display: none;
+  min-width: 0;
+  align-self: start;
 
-  &-link {
-    opacity: 0.5;
-
-    &:hover {
-      text-decoration: underline;
-    }
-
-    &-active {
-      opacity: 1;
-      color: var(--kr);
-    }
+  nav {
+    padding-left: 1.25rem;
+    border-left: 1px solid var(--border);
   }
 
-  @media (min-width: 1024px) {
-    display: block;
+  &-title {
+    margin-bottom: 0.75rem;
+    color: var(--fg);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+  }
+
+  ol,
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li + li {
+    margin-top: 0.15rem;
   }
 
   li ul {
-    padding-left: 1rem;
+    padding: 0.25rem 0 0.25rem 0.8rem;
+  }
+
+  &-link {
+    display: block;
+    overflow: hidden;
+    padding: 0.23rem 0;
+    color: var(--muted);
+    font-size: 0.78rem;
+    line-height: 1.4;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: color 120ms ease;
+
+    &:hover {
+      color: var(--fg);
+    }
+
+    &-active {
+      color: var(--kr);
+    }
+  }
+}
+
+@media (min-width: 48rem) {
+  .toc {
+    position: fixed;
+    top: 2rem;
+    right: max(1.5rem, calc((100vw - 70rem) / 2));
+    display: block;
+    width: 9rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  .toc {
+    width: 13rem;
   }
 }
