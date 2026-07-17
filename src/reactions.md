@@ -2,6 +2,7 @@
 title: Reactions
 parent: /#walkthrough
 prev: /commands
+next: /keyboards-and-callback-queries
 ---
 
 ## Reacting to Messages

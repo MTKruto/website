@@ -31,6 +31,7 @@ Its key features include:
 6. [Working with Messages](/working-with-messages) {{ "/working-with-messages" |> i }}
 7. [Commands](/commands) {{ "/commands" |> i }}
 8. [Reactions](/reactions) {{ "/reactions" |> i }}
+9. [Keyboards and Callback Queries](/keyboards-and-callback-queries) {{ "/keyboards-and-callback-queries" |> i }}
 
 ### Guides
 
