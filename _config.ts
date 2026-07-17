@@ -240,7 +240,7 @@ yarn ${jsr ? "add jsr:" + pkg : "add " + pkg}
 <code-group-item title="npm">
 
 \`\`\`shell
-${jsr ? "npx jsr i " + pkg : "npm install " + pkg}
+${jsr ? "npx jsr add " + pkg : "npm install " + pkg}
 \`\`\`
 
 </code-group-item>

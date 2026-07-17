@@ -1,5 +1,5 @@
 ---
-title: Formatting Text
+title: Rich Messages and Text Formatting
 parent: /#walkthrough
 prev: /inline-queries
 ---
@@ -72,3 +72,43 @@ await client.sendMessage(chatId, text, {
 ```
 
 Explicit entities are useful when text is assembled dynamically because formatting does not depend on escaping markup characters.
+
+## Entity Builders
+
+The [@mtkruto/fmt](https://jsr.io/@mtkruto/fmt) package provides chainable builders that create text and entities together, keeping their offsets aligned as text is added.
+
+{{ "jsr:@mtkruto/fmt" |> install }}
+
+```ts
+import { text } from "@mtkruto/fmt/entities";
+
+const formatted = text("Hello, ")
+  .bold("world")
+  .text("! Visit ")
+  .link("MTKruto", "https://mtkru.to")
+  .text(".");
+
+await client.sendMessage(chatId, formatted.rawText, {
+  entities: formatted.toArray(),
+});
+```
+
+The package also provides builders for secret-chat entities through its `secret-entities` export.
+
+## Rich Messages
+
+Rich messages are built from page blocks and can contain headings, paragraphs, lists, tables, media, and other structured content. Use {{ "sendRichText" |> m }} with an {{ "InputRichText" |> t }} made from blocks, HTML, or Markdown.
+
+The `rich` export of `@mtkruto/fmt` makes it easier to construct blocks and nested text components.
+
+```ts
+import { bold, heading1 } from "@mtkruto/fmt/rich";
+
+const blocks = heading1("Release notes")
+  .paragraph(["Version ", bold("1.0"), " is ready."]);
+
+await client.sendRichText(chatId, {
+  type: "blocks",
+  blocks: blocks.toArray(),
+});
+```
