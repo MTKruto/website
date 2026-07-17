@@ -12,7 +12,7 @@ Here you will learn how you can construct and start a client assuming that you h
 For your client to be able to authorize accounts, you need to have your own Telegram API credentials. To do that, you should create an application.
 
 1. Visit [my.telegram.org/apps](https://my.telegram.org/apps).
-2. Enter your phone number and login.
+2. Enter your phone number and log in.
 3. Fill in the form.
 4. Click "Create application."
 
