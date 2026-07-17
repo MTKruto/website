@@ -60,6 +60,14 @@
     right: max(1.5rem, calc((100vw - 70rem) / 2));
     display: block;
     width: 9rem;
+    max-height: calc(100vh - 4rem);
+    padding-right: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-color: var(--border) transparent;
+    scrollbar-gutter: stable;
+    scrollbar-width: thin;
   }
 }
 

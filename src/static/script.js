@@ -23,7 +23,22 @@ document.querySelectorAll(".code-group-button").forEach((button) => {
 
 const headings = Array.from(document.querySelectorAll(".header-anchor"));
 const tocItems = Array.from(document.querySelectorAll("[data-toc]"));
+const toc = document.querySelector(".toc");
 let activeTocItem;
+
+function revealTocItem(item) {
+  if (!toc || !item || toc.clientHeight === 0 || toc.scrollHeight <= toc.clientHeight) return;
+
+  const edgePadding = 12;
+  const tocRect = toc.getBoundingClientRect();
+  const itemRect = item.getBoundingClientRect();
+
+  if (itemRect.top < tocRect.top + edgePadding) {
+    toc.scrollTop += itemRect.top - tocRect.top - edgePadding;
+  } else if (itemRect.bottom > tocRect.bottom - edgePadding) {
+    toc.scrollTop += itemRect.bottom - tocRect.bottom + edgePadding;
+  }
+}
 
 function updateActiveTocItem() {
   if (!headings.length || !tocItems.length) return;
@@ -43,9 +58,15 @@ function updateActiveTocItem() {
   if (nextActiveItem === activeTocItem) return;
   activeTocItem = nextActiveItem;
 
+  let activeItemElement;
   for (const item of tocItems) {
-    item.classList.toggle("toc-link-active", item.dataset.toc === activeTocItem);
+    const isActive = item.dataset.toc === activeTocItem;
+    item.classList.toggle("toc-link-active", isActive);
+    if (isActive) activeItemElement = item;
   }
+
+  if (activeItemElement) revealTocItem(activeItemElement);
+  else if (toc && globalThis.scrollY < 1) toc.scrollTop = 0;
 }
 
 let tocFrame;

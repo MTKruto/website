@@ -48,7 +48,7 @@ export default (
           <link rel="manifest" href="/site.webmanifest" />
           <link rel="stylesheet" href="/reset.css" />
           <link rel="stylesheet" href="/migrate.css" />
-          <link rel="stylesheet" href="/style.css?v=20260718-1" />
+          <link rel="stylesheet" href="/style.css" />
           <link
             rel="stylesheet"
             href="/github.css"
@@ -59,7 +59,7 @@ export default (
             href="/github-dark.css"
             media="(prefers-color-scheme: dark)"
           />
-          <script src="/main.js?v=20260718-1" />
+          <script src="/main.js" />
         </head>
         <body>
           <a class="skip-link" href="#main-content">Skip to content</a>
@@ -150,7 +150,7 @@ export default (
               </nav>
             </div>
           </footer>
-          <script src="/script.js?v=20260718-1" />
+          <script src="/script.js" />
         </body>
       </html>
     </>
