@@ -34,6 +34,7 @@ Its key features include:
 9. [Keyboards and Callback Queries](/keyboards-and-callback-queries) {{ "/keyboards-and-callback-queries" |> i }}
 10. [Files](/files) {{ "/files" |> i }}
 11. [Inline Queries](/inline-queries) {{ "/inline-queries" |> i }}
+12. [Formatting Text](/formatting-text) {{ "/formatting-text" |> i }}
 
 ### Guides
 
