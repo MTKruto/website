@@ -1,6 +1,5 @@
 ---
 title: Index
-hide_toc: true
 ---
 
 **MTKruto** is a Telegram client library for JavaScript.
