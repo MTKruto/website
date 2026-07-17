@@ -63,7 +63,7 @@ Bots receive two kinds of updates for reactions: {{ "UpdateMessageReactions" |> 
 
 The former is received when a user reacts to a message in a private chat, a basic group, or a supergroup chat. It includes information on the user who made the reaction.
 
-The latter on the other hand, is received when the reactions to a channel post change. It only includes reaction counts, and no references to the users who made them.
+The latter, on the other hand, is received when the reactions to a channel post change. It only includes reaction counts, and no references to the users who made them.
 
 ```ts
 // received only for private chats and groups
