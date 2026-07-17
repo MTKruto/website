@@ -2188,6 +2188,13 @@ Remove a sticker from recents.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/reportephemeralmessage">reportEphemeralMessage</a>
+<div><div>
+
+Report an ephemeral message.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/reportreaction">reportReaction</a>
 <div><div>
 
@@ -3230,6 +3237,20 @@ Delete a community.
 <div><div>
 
 Get a community.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getcommunityp">getCommunityP</a>
+<div><div>
+
+Get a community.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/getjoinedcommunities">getJoinedCommunities</a>
+<div><div>
+
+Get joined communities.
 
 </div></div>
 <div class="descr-list-border"></div>

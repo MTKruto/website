@@ -11,7 +11,7 @@ Get a community.<span class="select-none"> <span class="inline-flex w-fit items-
 
 <div class="flex flex-col gap-3"><div><div class="font-mono" id="p_communityId" data-anchor="true"><span class="font-bold">communityId</span><span class="opacity-50">:</span> <span>number</span></div><div class="pl-3"><div class="no-margin">
 
-The identifier of the community to delete.
+The identifier of the community.
 
 </div></div></div></div>
 

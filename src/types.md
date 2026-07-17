@@ -314,6 +314,27 @@ The result after checking a sent code.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/communitychat">CommunityChat</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/communitygetter">CommunityGetter</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/communityp">CommunityP</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/connectedwebsite">ConnectedWebsite</a>
 <div><div>
 
@@ -542,6 +563,13 @@ Any type of input media.
 <div><div>
 
 A chat's notification settings that is to be used as an input.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/inputpageblock">InputPageBlock</a>
+<div><div>
+
+Any type of input page block.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1014,6 +1042,13 @@ Any type of report reason.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/types/reportresult">ReportResult</a>
+<div><div>
+
+Any type of story report result.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/types/resolvedinvitelink">ResolvedInviteLink</a>
 <div><div>
 
@@ -1221,13 +1256,6 @@ Reference to a story.
 <div><div>
 
 A story report option.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/storyreportresult">StoryReportResult</a>
-<div><div>
-
-Any type of story report result.
 
 </div></div>
 <div class="descr-list-border"></div>

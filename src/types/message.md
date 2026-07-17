@@ -58,5 +58,7 @@ Any type of message.
 <span class="opacity-50">|</span> <a href="/types/messagepolloptionadded">MessagePollOptionAdded</a>
 <span class="opacity-50">|</span> <a href="/types/messagepolloptionremoved">MessagePollOptionRemoved</a>
 <span class="opacity-50">|</span> <a href="/types/messagescreenshottaken">MessageScreenshotTaken</a>
-<span class="opacity-50">|</span> <a href="/types/messagerichtext">MessageRichText</a></div>
+<span class="opacity-50">|</span> <a href="/types/messagerichtext">MessageRichText</a>
+<span class="opacity-50">|</span> <a href="/types/messageaddedtocommunity">MessageAddedToCommunity</a>
+<span class="opacity-50">|</span> <a href="/types/messageremovedfromcommunity">MessageRemovedFromCommunity</a></div>
 

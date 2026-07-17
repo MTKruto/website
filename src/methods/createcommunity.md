@@ -29,7 +29,7 @@ Whether the chat should be hidden inside the community.
 
 ### Result 
 
-<div class="font-mono"><a href="/types/community">Community</a></div>
+<div class="font-mono"><a href="/types/communityp">CommunityP</a></div>
 
 ### Syntax
 

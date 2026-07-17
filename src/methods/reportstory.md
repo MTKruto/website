@@ -29,7 +29,7 @@ The text of the report.
 
 ### Result 
 
-<div class="font-mono"><a href="/types/storyreportresult">StoryReportResult</a></div>
+<div class="font-mono"><a href="/types/reportresult">ReportResult</a></div>
 
 ### Syntax
 
