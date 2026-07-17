@@ -1525,6 +1525,102 @@ Update a checklist.
 ## Communities
 <div class="descr-list">
 
+<a href="/gh/methods/addchattocommunity">addChatToCommunity</a>
+<div><div>
+
+Add a chat to a community.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/createcommunity">createCommunity</a>
+<div><div>
+
+Create a community.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/deletecommunity">deleteCommunity</a>
+<div><div>
+
+Delete a community.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getcommunity">getCommunity</a>
+<div><div>
+
+Get a community.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getcommunityp">getCommunityP</a>
+<div><div>
+
+Get a partial community.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getjoinedcommunities">getJoinedCommunities</a>
+<div><div>
+
+Get joined communities.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/removechatfromcommunity">removeChatFromCommunity</a>
+<div><div>
+
+Remove a chat from a community.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/showcommunityasdifferentchats">showCommunityAsDifferentChats</a>
+<div><div>
+
+Show a community as different chats.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/showcommunityasonechat">showCommunityAsOneChat</a>
+<div><div>
+
+Show a community as one chat.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
+## Connection
+<div class="descr-list">
+
+<a href="/gh/methods/connect">connect</a>
+<div><div>
+
+Connect the client.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/disconnect">disconnect</a>
+<div><div>
+
+Disconnect the client.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/start">start</a>
+<div><div>
+
+Start the client. Same as calling {@link Client.connect} followed by {@link Client.signIn}.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
+## Contacts
+<div class="descr-list">
+
 <a href="/gh/methods/addcontact">addContact</a>
 <div><div>
 
@@ -1557,33 +1653,6 @@ Get contacts.
 <div><div>
 
 Set a contact note.
-
-</div></div>
-<div class="descr-list-border"></div>
-
-</div>
-
-## Connection
-<div class="descr-list">
-
-<a href="/gh/methods/connect">connect</a>
-<div><div>
-
-Connect the client.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/disconnect">disconnect</a>
-<div><div>
-
-Disconnect the client.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/start">start</a>
-<div><div>
-
-Start the client. Same as calling {@link Client.connect} followed by {@link Client.signIn}.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -3203,75 +3272,6 @@ Schedule a video chat.
 <div><div>
 
 Start a video chat.
-
-</div></div>
-<div class="descr-list-border"></div>
-
-</div>
-
-## Unlisted
-<div class="descr-list">
-
-<a href="/gh/methods/addchattocommunity">addChatToCommunity</a>
-<div><div>
-
-Add a chat to a community.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/createcommunity">createCommunity</a>
-<div><div>
-
-Create a community.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/deletecommunity">deleteCommunity</a>
-<div><div>
-
-Delete a community.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getcommunity">getCommunity</a>
-<div><div>
-
-Get a community.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getcommunityp">getCommunityP</a>
-<div><div>
-
-Get a partial community.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getjoinedcommunities">getJoinedCommunities</a>
-<div><div>
-
-Get joined communities.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/removechatfromcommunity">removeChatFromCommunity</a>
-<div><div>
-
-Remove a chat from a community.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/showcommunityasdifferentchats">showCommunityAsDifferentChats</a>
-<div><div>
-
-Show a community as different chats.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/showcommunityasonechat">showCommunityAsOneChat</a>
-<div><div>
-
-Show a community as one chat.
 
 </div></div>
 <div class="descr-list-border"></div>
