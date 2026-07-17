@@ -2,10 +2,10 @@
 title: InputPageBlockHeading6
 parent: /types
 metas:
-  description: A heading 6 page block.
+  description: An input heading 6 page block.
 ---
 
-A heading 6 page block.
+An input heading 6 page block.
 
 ### Properties
 

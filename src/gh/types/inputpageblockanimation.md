@@ -2,10 +2,10 @@
 title: InputPageBlockAnimation
 parent: /types
 metas:
-  description: An animation page block.
+  description: An input animation page block.
 ---
 
-An animation page block.
+An input animation page block.
 
 ### Properties
 

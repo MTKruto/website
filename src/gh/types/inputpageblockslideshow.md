@@ -2,10 +2,10 @@
 title: InputPageBlockSlideshow
 parent: /types
 metas:
-  description: A slideshow page block.
+  description: An input slideshow page block.
 ---
 
-A slideshow page block.
+An input slideshow page block.
 
 ### Properties
 

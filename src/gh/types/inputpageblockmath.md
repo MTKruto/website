@@ -2,10 +2,10 @@
 title: InputPageBlockMath
 parent: /types
 metas:
-  description: A math page block.
+  description: An input math page block.
 ---
 
-A math page block.
+An input math page block.
 
 ### Properties
 

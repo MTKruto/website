@@ -2,10 +2,10 @@
 title: InputPageBlockMap
 parent: /types
 metas:
-  description: A map page block.
+  description: An input map page block.
 ---
 
-A map page block.
+An input map page block.
 
 ### Properties
 

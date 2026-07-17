@@ -2,10 +2,10 @@
 title: InputPageBlockDetails
 parent: /types
 metas:
-  description: A details page block.
+  description: An input details page block.
 ---
 
-A details page block.
+An input details page block.
 
 ### Properties
 

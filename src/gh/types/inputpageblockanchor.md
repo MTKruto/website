@@ -2,10 +2,10 @@
 title: InputPageBlockAnchor
 parent: /types
 metas:
-  description: An anchor page block.
+  description: An input anchor page block.
 ---
 
-An anchor page block.
+An input anchor page block.
 
 ### Properties
 

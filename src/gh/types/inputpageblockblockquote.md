@@ -2,10 +2,10 @@
 title: InputPageBlockBlockQuote
 parent: /types
 metas:
-  description: A block quote page block.
+  description: An input block quote page block.
 ---
 
-A block quote page block.
+An input block quote page block.
 
 ### Properties
 

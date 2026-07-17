@@ -2,10 +2,10 @@
 title: InputPageBlockDivider
 parent: /types
 metas:
-  description: A divider page block.
+  description: An input divider page block.
 ---
 
-A divider page block.
+An input divider page block.
 
 ### Properties
 

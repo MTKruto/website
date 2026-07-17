@@ -2,10 +2,10 @@
 title: InputPageBlockHeading3
 parent: /types
 metas:
-  description: A heading 3 page block.
+  description: An input heading 3 page block.
 ---
 
-A heading 3 page block.
+An input heading 3 page block.
 
 ### Properties
 

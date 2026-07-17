@@ -2,10 +2,10 @@
 title: InputPageBlockParagraph
 parent: /types
 metas:
-  description: A paragraph page block.
+  description: An input paragraph page block.
 ---
 
-A paragraph page block.
+An input paragraph page block.
 
 ### Properties
 

@@ -2,10 +2,10 @@
 title: InputPageBlockEmbed
 parent: /types
 metas:
-  description: An embed page block.
+  description: An input embed page block.
 ---
 
-An embed page block.
+An input embed page block.
 
 ### Properties
 

@@ -2,10 +2,10 @@
 title: InputPageBlockAudio
 parent: /types
 metas:
-  description: An audio page block.
+  description: An input audio page block.
 ---
 
-An audio page block.
+An input audio page block.
 
 ### Properties
 

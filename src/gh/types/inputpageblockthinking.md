@@ -2,10 +2,10 @@
 title: InputPageBlockThinking
 parent: /types
 metas:
-  description: A thinking block.
+  description: An input thinking block.
 ---
 
-A thinking block.
+An input thinking block.
 
 ### Properties
 

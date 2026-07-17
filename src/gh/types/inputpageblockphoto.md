@@ -2,10 +2,10 @@
 title: InputPageBlockPhoto
 parent: /types
 metas:
-  description: A photo page block.
+  description: An input photo page block.
 ---
 
-A photo page block.
+An input photo page block.
 
 ### Properties
 

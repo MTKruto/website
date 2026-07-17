@@ -39,7 +39,7 @@ The voice.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_duration" data-anchor="true"><span class="font-bold">duration</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The duration of the audio file in seconds.
+The duration of the voice message in seconds.
 
 </div></div></div></div>
 

@@ -2,10 +2,10 @@
 title: InputPageBlockList
 parent: /types
 metas:
-  description: A list page block.
+  description: An input list page block.
 ---
 
-A list page block.
+An input list page block.
 
 ### Properties
 

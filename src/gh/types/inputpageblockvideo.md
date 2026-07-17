@@ -2,10 +2,10 @@
 title: InputPageBlockVideo
 parent: /types
 metas:
-  description: A video page block.
+  description: An input video page block.
 ---
 
-A video page block.
+An input video page block.
 
 ### Properties
 

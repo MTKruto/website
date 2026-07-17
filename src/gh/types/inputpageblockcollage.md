@@ -2,10 +2,10 @@
 title: InputPageBlockCollage
 parent: /types
 metas:
-  description: A collage page block.
+  description: An input collage page block.
 ---
 
-A collage page block.
+An input collage page block.
 
 ### Properties
 
