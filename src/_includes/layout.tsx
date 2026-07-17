@@ -2,8 +2,6 @@
 import { Telegram } from "../../_components/Telegram.tsx";
 import { GitHub } from "../../_components/GitHub.tsx";
 
-const fonts = Array.from(Deno.readDirSync("src/static/fonts"))
-  .map((v) => v.name.replaceAll("src/", "/"));
 
 export default (
   { title, url, children, prev, next, hide_toc, toc }: Lume.Data,
@@ -52,15 +50,6 @@ export default (
             media="(prefers-color-scheme: dark)"
           />
           <script src="/main.js" />
-          {fonts.map((v) => (
-            <link
-              rel="preload"
-              href={`/fonts/${v}`}
-              as="font"
-              type="font/woff2"
-              crossOrigin=""
-            />
-          ))}
         </head>
         <body class="bg-bg text-fg overflow-x-hidden">
           <Bc />
