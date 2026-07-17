@@ -2,7 +2,6 @@
 import { Telegram } from "../../_components/Telegram.tsx";
 import { GitHub } from "../../_components/GitHub.tsx";
 
-
 export default (
   { title, url, children, prev, next, hide_toc, toc }: Lume.Data,
   { bc, getTitle }: Lume.Helpers,
