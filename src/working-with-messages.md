@@ -84,7 +84,7 @@ client.on("deletedMessages", (ctx) => {
 
 ```ts
 const client = new Client({
-  ignoreOutgoing: false,
+  outgoingMessages: false,
   /* ... */
 });
 ```

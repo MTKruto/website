@@ -189,7 +189,7 @@ Here are some examples.
 
 ```ts
 /** When the client's connection state changes */
-client.on("connectionState", (ctx)) => {
+client.on("connectionState", (ctx) => {
   console.log("New connection state:", ctx.update.connectionState);
 });
 
