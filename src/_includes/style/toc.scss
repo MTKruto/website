@@ -43,7 +43,7 @@
     white-space: nowrap;
     transition: color 120ms ease;
 
-    &:hover {
+    &:not(&-active):hover {
       color: var(--fg);
     }
 
