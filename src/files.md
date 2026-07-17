@@ -2,6 +2,7 @@
 title: Files
 parent: /#walkthrough
 prev: /keyboards-and-callback-queries
+next: /inline-queries
 ---
 
 Methods that send photos, videos, documents, and other media accept a {{ "FileSource" |> t }}. A file source can be a file path, URL, file ID, `Uint8Array`, iterable of byte arrays, or readable stream.
