@@ -2,6 +2,7 @@
 title: Keyboards and Callback Queries
 parent: /#walkthrough
 prev: /reactions
+next: /files
 ---
 
 Bots can attach a keyboard to a message to give users a set of actions to choose from. An inline keyboard appears directly below the message and can contain buttons that send data back to the bot, open URLs, launch mini apps, and perform other actions.
