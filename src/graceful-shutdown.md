@@ -16,6 +16,11 @@ Deno.addSignalListener("SIGTERM", async () => {
   await client.disconnect();
   Deno.exit(0);
 });
+
+Deno.addSignalListener("SIGINT", async () => {
+  await client.disconnect();
+  Deno.exit(0);
+});
 ```
 
 </code-group-item>
@@ -24,6 +29,11 @@ Deno.addSignalListener("SIGTERM", async () => {
 
 ```ts
 process.on("SIGTERM", async () => {
+  await client.disconnect();
+  process.exit();
+});
+
+process.on("SIGINT", async () => {
   await client.disconnect();
   process.exit();
 });
