@@ -55,10 +55,12 @@ Processing chunks as they arrive avoids loading the entire file into memory. You
 ```ts
 const controller = new AbortController();
 
-for await (const chunk of client.download(fileId, {
-  chunkSize: 256 * 1024,
-  signal: controller.signal,
-})) {
+for await (
+  const chunk of client.download(fileId, {
+    chunkSize: 256 * 1024,
+    signal: controller.signal,
+  })
+) {
   // ...
 }
 ```
