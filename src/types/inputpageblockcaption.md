@@ -2,10 +2,10 @@
 title: InputPageBlockCaption
 parent: /types
 metas:
-  description: A page block's caption.
+  description: An input page block's caption.
 ---
 
-A page block's caption.
+An input page block's caption.
 
 
 ### Properties

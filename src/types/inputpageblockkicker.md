@@ -2,10 +2,10 @@
 title: InputPageBlockKicker
 parent: /types
 metas:
-  description: A kicker page block.
+  description: An input kicker page block.
 ---
 
-A kicker page block.
+An input kicker page block.
 
 ### Properties
 

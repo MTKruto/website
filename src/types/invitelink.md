@@ -35,7 +35,7 @@ A point in time in the future when the invite link will be revoked.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_limit" data-anchor="true"><span class="font-bold">limit</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The times the invite link can be used.
+The number of times the invite link can be used.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_pendingJoinRequestCount" data-anchor="true"><span class="font-bold">pendingJoinRequestCount</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 

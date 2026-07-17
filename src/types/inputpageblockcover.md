@@ -2,10 +2,10 @@
 title: InputPageBlockCover
 parent: /types
 metas:
-  description: A cover page block.
+  description: An input cover page block.
 ---
 
-A cover page block.
+An input cover page block.
 
 ### Properties
 

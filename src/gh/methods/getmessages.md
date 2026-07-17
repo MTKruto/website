@@ -36,6 +36,6 @@ await client.getMessages(chatId, messageIds);
 ### Examples 
 
 ```ts
-const message = await client.getMessages("@MTKruto", [210, 212]);
+const messages = await client.getMessages("@MTKruto", [210, 212]);
 ```
 

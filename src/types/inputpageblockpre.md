@@ -2,10 +2,10 @@
 title: InputPageBlockPre
 parent: /types
 metas:
-  description: A pre-formatted page block.
+  description: An input pre-formatted page block.
 ---
 
-A pre-formatted page block.
+An input pre-formatted page block.
 
 ### Properties
 

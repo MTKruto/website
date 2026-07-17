@@ -2,10 +2,10 @@
 title: InputPageBlockFooter
 parent: /types
 metas:
-  description: A footer page block.
+  description: An input footer page block.
 ---
 
-A footer page block.
+An input footer page block.
 
 ### Properties
 

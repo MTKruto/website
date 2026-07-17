@@ -2,10 +2,10 @@
 title: InputPageBlockVoice
 parent: /types
 metas:
-  description: A voice page block.
+  description: An input voice page block.
 ---
 
-A voice page block.
+An input voice page block.
 
 ### Properties
 

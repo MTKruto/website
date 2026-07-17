@@ -2,10 +2,10 @@
 title: InputPageBlockOrderedList
 parent: /types
 metas:
-  description: An order list page block.
+  description: An input ordered list page block.
 ---
 
-An order list page block.
+An input ordered list page block.
 
 ### Properties
 

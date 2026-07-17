@@ -844,7 +844,7 @@ Ban a member from a chat.
 <a href="/methods/boostchat">boostChat</a>
 <div><div>
 
-Add a single user to a chat.
+Boost a chat.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -3243,7 +3243,7 @@ Get a community.
 <a href="/methods/getcommunityp">getCommunityP</a>
 <div><div>
 
-Get a community.
+Get a partial community.
 
 </div></div>
 <div class="descr-list-border"></div>

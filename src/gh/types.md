@@ -555,7 +555,7 @@ Any type of input media.
 <a href="/gh/types/inputnotificationsettings">InputNotificationSettings</a>
 <div><div>
 
-A chat's notification settings that is to be used as an input.
+A chat's notification settings that are to be used as an input.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1227,7 +1227,7 @@ The interactions made with a story.
 <a href="/gh/types/storyinteractivearea">StoryInteractiveArea</a>
 <div><div>
 
-A any type of a story's interactive area.
+Any type of a story's interactive area.
 
 </div></div>
 <div class="descr-list-border"></div>

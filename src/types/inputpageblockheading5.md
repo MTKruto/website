@@ -2,10 +2,10 @@
 title: InputPageBlockHeading5
 parent: /types
 metas:
-  description: A heading 5 page block.
+  description: An input heading 5 page block.
 ---
 
-A heading 5 page block.
+An input heading 5 page block.
 
 ### Properties
 

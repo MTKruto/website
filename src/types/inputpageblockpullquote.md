@@ -2,10 +2,10 @@
 title: InputPageBlockPullQuote
 parent: /types
 metas:
-  description: A pull quote page block.
+  description: An input pull quote page block.
 ---
 
-A pull quote page block.
+An input pull quote page block.
 
 ### Properties
 

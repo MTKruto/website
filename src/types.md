@@ -310,28 +310,21 @@ The result after checking a sent code.
 <a href="/types/community">Community</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A community.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/types/communitychat">CommunityChat</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/types/communitygetter">CommunityGetter</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
+A chat in a community.
 
 </div></div>
 <div class="descr-list-border"></div>
 <a href="/types/communityp">CommunityP</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
+A partial community.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -562,7 +555,7 @@ Any type of input media.
 <a href="/types/inputnotificationsettings">InputNotificationSettings</a>
 <div><div>
 
-A chat's notification settings that is to be used as an input.
+A chat's notification settings that are to be used as an input.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -598,6 +591,13 @@ Any type of input privacy rule.
 <div><div>
 
 Any type of input rich text.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/types/inputrichtextmedia">InputRichTextMedia</a>
+<div><div>
+
+A media that is to be used with HTML and Markdown input rich texts.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1227,7 +1227,7 @@ The interactions made with a story.
 <a href="/types/storyinteractivearea">StoryInteractiveArea</a>
 <div><div>
 
-A any type of a story's interactive area.
+Any type of a story's interactive area.
 
 </div></div>
 <div class="descr-list-border"></div>
