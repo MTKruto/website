@@ -69,15 +69,6 @@ function updateActiveTocItem() {
   else if (toc && globalThis.scrollY < 1) toc.scrollTop = 0;
 }
 
-let tocFrame;
-function scheduleTocUpdate() {
-  if (tocFrame !== undefined) return;
-  tocFrame = requestAnimationFrame(() => {
-    tocFrame = undefined;
-    updateActiveTocItem();
-  });
-}
-
 updateActiveTocItem();
-document.addEventListener("scroll", scheduleTocUpdate, { passive: true });
-globalThis.addEventListener("resize", scheduleTocUpdate, { passive: true });
+globalThis.addEventListener("scroll", updateActiveTocItem, { passive: true });
+globalThis.addEventListener("resize", updateActiveTocItem, { passive: true });
