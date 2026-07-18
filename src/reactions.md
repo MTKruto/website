@@ -21,7 +21,7 @@ await client.setReactions(
   chatId,
   messageId,
   [{ type: "emoji", emoji: "👍" }],
-  { big: true },
+  { isBig: true },
 );
 
 // remove all reactions
@@ -31,7 +31,7 @@ await client.setReactions(chatId, messageId, []);
 await client.setReactions(
   chatId,
   messageId,
-  [{ type: "customEmoji", id: "1234567" }],
+  [{ type: "custom", id: "1234567" }],
 );
 
 client.on("message", async (ctx) => {

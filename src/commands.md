@@ -19,15 +19,16 @@ For user clients on the other hand, the default command prefix is `\` (backslash
 
 ## Custom Prefixes
 
-Command prefixes can be configured when the client is constructed:
+Command prefixes can be configured after the client is constructed:
 
 ```ts
 const client = new Client({
   storage,
   apiId,
   apiHash,
-  prefixes: ["!", "."],
 });
+
+client.prefixes = ["!", "."];
 ```
 
 The above will make commands accessible with the prefixes `!` and `.`.
@@ -42,7 +43,7 @@ composer.prefixes = ["!", "."];
 Alternatively, you can also specify custom prefixes for specific handlers:
 
 ```ts
-client.command({ name: "start", prefixes: ["!", "."] }, async (ctx) => {
+client.command({ names: "start", prefixes: ["!", "."] }, async (ctx) => {
   /* ... */
 });
 ```
@@ -53,7 +54,7 @@ Note that the command handlers are getting triggered for user clients even if th
 
 ```ts
 client.command("start", async (ctx) => {
-  if (!ctx.msg.out) {
+  if (!ctx.msg.isOutgoing) {
     // Not sent by the current user.
     return;
   }

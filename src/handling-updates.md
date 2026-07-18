@@ -66,7 +66,7 @@ client.use(async (_ctx, next) => {
 client.use(async (ctx, next) => {
   const message = ctx.msg;
   const date = message?.date;
-  const isTooOld = date !== undefined && Date.now() - date.getTime() > 5 * 60 * 1_000;
+  const isTooOld = date !== undefined && Date.now() - (date * 1_000) > 5 * 60 * 1_000;
   if (message !== undefined && isTooOld) {
     // message is older than 5 minutes, not interesting
     console.log(

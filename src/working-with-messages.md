@@ -156,8 +156,8 @@ client.on("message", async (ctx) => {
 You can delete messages by calling either {{ "deleteMessage" |> m }} or {{ "deleteMessages" |> m }}.
 
 ```ts
-await ctx.deleteMessage(chat, messageId);
-await ctx.deleteMessages(chat, [...messageIds]);
+await ctx.deleteMessage(messageId);
+await ctx.deleteMessages([...messageIds]);
 ```
 
 You can delete the context message with `delete`:
@@ -173,8 +173,8 @@ client.on("message", async (ctx) => {
 You can forward messages by calling either {{ "forwardMessage" |> m }} or {{ "forwardMessages" |> m }}.
 
 ```ts
-await ctx.forwardMessage(fromChat, toChat);
-await ctx.forwardMessages(fromChat, toChat);
+await ctx.forwardMessage(toChat, messageId);
+await ctx.forwardMessages(toChat, messageIds);
 ```
 
 You can forward the context message with `forward`:

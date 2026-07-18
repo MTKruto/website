@@ -11,11 +11,10 @@ This page lists the built-in storage adapters and shows how they can be used.
 
 This storage adapter stores data in the memory. It is ideal for bots.
 
-To use it, just pass `null` to the client constructor's storage parameter:
+To use it, just omit the `storage` parameter in the client constructor:
 
 ```ts
 const client = new Client({
-  storage: null,
   /* ... */
 });
 ```
