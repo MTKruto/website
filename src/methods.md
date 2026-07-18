@@ -360,7 +360,7 @@ Remove music from profile.
 <a href="/methods/removeprofilephoto">removeProfilePhoto</a>
 <div><div>
 
-Remove the profile video of the current user or a bot managed by the current user.
+Remove the profile photo of the current user or a bot managed by the current user.
 
 </div></div>
 <div class="descr-list-border"></div>

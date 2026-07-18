@@ -2,10 +2,10 @@
 title: removeProfilePhoto
 parent: /methods
 metas:
-  description: Remove the profile video of the current user or a bot managed by the current user.
+  description: Remove the profile photo of the current user or a bot managed by the current user.
 ---
 
-Remove the profile video of the current user or a bot managed by the current user.<span class="select-none">  </span>
+Remove the profile photo of the current user or a bot managed by the current user.<span class="select-none">  </span>
 
 ### Parameters 
 
