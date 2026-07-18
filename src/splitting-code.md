@@ -25,7 +25,7 @@ File: handlers/start.ts
 <code-group-item title="Deno">
 
 ```ts
-import { Composer } from "{{ deno }}/mod.ts";
+import { Composer } from "{{ deno }}";
 
 const composer = new Composer();
 
@@ -79,7 +79,7 @@ File: handlers/hello.ts
 <code-group-item title="Deno">
 
 ```ts
-import { Composer } from "{{ deno }}/mod.ts";
+import { Composer } from "{{ deno }}";
 
 const composer = new Composer();
 

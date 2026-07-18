@@ -139,7 +139,7 @@ const client = new Client({
 <code-group-item title="Deno">
 
 ```ts
-import { StorageIndexedDB } from "{{ deno }}/mod.ts";
+import { StorageIndexedDB } from "{{ deno }}";
 
 const client = new Client({
   storage: new StorageIndexedDB("client"),
