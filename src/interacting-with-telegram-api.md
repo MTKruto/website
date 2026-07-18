@@ -15,7 +15,7 @@ parent: /#guides
 }
 ```
 
-- Other keys of the object can be the parameters of the constructor with the same casing as in API scheme files. So, a [`peerUser`](https://core.telegram.org/constructor/inputPeerSelf) instance with its `user_id` parameter set to `1234` is represented like:
+- Other keys of the object can be the parameters of the constructor with the same casing as in API schema files. So, a [`peerUser`](https://core.telegram.org/constructor/peerUser) instance with its `user_id` parameter set to `1234` is represented like:
 
 ```ts
 { _: "peerUser", user_id: 1234n }

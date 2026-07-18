@@ -133,7 +133,7 @@ site.process([".html"], (pages) => {
       page.data.parent !== undefined &&
       (getTitle(page.data.parent) === page.data.parent)
     ) {
-      console.error("Tha page", page.src.path, "has an invalid parent.");
+      console.error("The page", page.src.path, "has an invalid parent.");
       error = true;
       ++errorCount;
     }

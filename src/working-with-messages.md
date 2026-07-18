@@ -128,8 +128,6 @@ await client.sendVideo(chat, file, { caption: "Optional Caption", /* ooo */ });
 
 await client.sendAnimation(chat, file, { caption: "Optional Caption", /* ooo */ });
 
-await client.sendAnimation(chat, file, { caption: "Optional Caption", /* ooo */ });
-
 await client.sendAudio(chat, file, { caption: "Optional Caption", /* ooo */ });
 
 await client.sendVoice(chat, file, { caption: "Optional Caption", /* ooo */ });
@@ -138,7 +136,7 @@ await client.sendDice(chat); // defaults to 🎲
 await client.sendDice(chat, { emoji: "🏀" }); // but you can send any valid dice
 ```
 
-To use the above example calls, `chat` must be replaced with a valid {{ "ID" |> t }}, and `file` must be replaced a valid {{ "FileSource" |> t }}.
+To use the above example calls, `chat` must be replaced with a valid {{ "ID" |> t }}, and `file` must be replaced with a valid {{ "FileSource" |> t }}.
 
 As previously said, the last parameters are optional and can always be omitted, so for example you can do just `await client.sendMessage(chat, "Hey!");` if you don't specify any optional parameter. Optional parameters are those parameters marked with `?` in the method documentations.
 

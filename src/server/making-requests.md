@@ -137,7 +137,7 @@ BigInts (`long` in TL schema files) are described with an object that has its `_
 ```json
 {
   "_": "bigint",
-  "value": "12456"
+  "value": "123456"
 }
 ```
 

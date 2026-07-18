@@ -47,7 +47,7 @@ LOG_VERBOSITY=4 LOG_FILTER=receiveLoop deno run main.ts
 ```
 
 ```shell
-LOG_VERBOSITY=4 LOG_VERBOSITY=receiveLoop npm start
+LOG_VERBOSITY=4 LOG_FILTER=receiveLoop npm start
 ```
 
 ```html

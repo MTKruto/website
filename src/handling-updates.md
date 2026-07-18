@@ -194,12 +194,12 @@ client.on("connectionState", (ctx) => {
 });
 
 /** Handles text messages */
-client.on("message:text", (message) => {
+client.on("message:text", (ctx) => {
   // do something with ctx.message.text
 });
 
 /** Handles callback queries */
-client.on("callbackQuery", (callbackQuery) => {
+client.on("callbackQuery", (ctx) => {
   // do something with ctx.callbackQuery
 });
 ```

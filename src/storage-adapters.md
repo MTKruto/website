@@ -117,7 +117,7 @@ import { StorageIndexedDB } from "@mtkruto/browser";
 
 const client = new Client({
     storage: new StorageIndexedDB("client"),
-    /\* ... \*/
+    /* ... */
 });
 ```
 
@@ -130,7 +130,7 @@ import { StorageIndexedDB } from "{{ esm }}";
 
 const client = new Client({
     storage: new StorageIndexedDB("client"),
-    /\* ... \*/
+    /* ... */
 });
 ```
 
@@ -143,7 +143,7 @@ import { StorageIndexedDB } from "{{ deno }}/mod.ts";
 
 const client = new Client({
     storage: new StorageIndexedDB("client"),
-    /\* ... \*/
+    /* ... */
 });
 ```
 
