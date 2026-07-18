@@ -116,8 +116,8 @@ To use it, import the `StorageIndexedDB` class, construct it with a database nam
 import { StorageIndexedDB } from "@mtkruto/browser";
 
 const client = new Client({
-    storage: new StorageIndexedDB("client"),
-    /* ... */
+  storage: new StorageIndexedDB("client"),
+  /* ... */
 });
 ```
 
@@ -129,8 +129,8 @@ const client = new Client({
 import { StorageIndexedDB } from "{{ esm }}";
 
 const client = new Client({
-    storage: new StorageIndexedDB("client"),
-    /* ... */
+  storage: new StorageIndexedDB("client"),
+  /* ... */
 });
 ```
 
@@ -142,8 +142,8 @@ const client = new Client({
 import { StorageIndexedDB } from "{{ deno }}/mod.ts";
 
 const client = new Client({
-    storage: new StorageIndexedDB("client"),
-    /* ... */
+  storage: new StorageIndexedDB("client"),
+  /* ... */
 });
 ```
 
