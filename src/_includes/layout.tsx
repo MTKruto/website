@@ -40,6 +40,10 @@ export default (
             {title} | {url.startsWith("/server") ? "MTKruto Server" : "MTKruto"}
           </title>
           <meta property="og:site_name" content="MTKruto" />
+          <meta property="tg:site_verification" content="g7j8/rPFXfhyrq5q0QQV7EsYWv4=" />
+          <meta property="article:published_time" content="" />
+          <meta property="article:author" content="https://t.me/MTKruto" />
+          <meta property="telegram:channel" content="@MTKruto" />
           <meta name="theme-color" content="#f7f7f4" media="(prefers-color-scheme: light)" />
           <meta name="theme-color" content="#0e0f0f" media="(prefers-color-scheme: dark)" />
           <link rel="icon" href="/favicon.ico" sizes="any" />
@@ -65,8 +69,8 @@ export default (
           <a class="skip-link" href="#main-content">Skip to content</a>
           <main id="main-content" class="site-main">
             <Bc />
-            <div class={`page-layout${hasToc ? " page-layout-with-toc" : ""}`}>
-              <article class="content">
+            <div class={`article page-layout${hasToc ? " page-layout-with-toc" : ""}`}>
+              <article class="article__content content">
                 <h1>{title}</h1>
                 {children}
                 {(next || prev) && (
