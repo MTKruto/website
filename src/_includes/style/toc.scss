@@ -4,17 +4,10 @@
   align-self: start;
 
   nav {
-    padding-left: 1.25rem;
-    border-left: 1px solid var(--border);
-  }
-
-  &-title {
-    margin-bottom: 0.75rem;
-    color: var(--fg);
-    font-size: 0.68rem;
-    font-weight: 700;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
+    display: flex;
+    min-height: 0;
+    max-height: inherit;
+    flex-direction: column;
   }
 
   ol,
@@ -24,31 +17,91 @@
     list-style: none;
   }
 
-  li + li {
-    margin-top: 0.15rem;
+  &-list-wrap {
+    position: relative;
+    min-height: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: none;
   }
 
-  li ul {
-    padding: 0.25rem 0 0.25rem 0.8rem;
+  &-list-wrap::-webkit-scrollbar {
+    display: none;
+    width: 0;
+  }
+
+  &-list {
+    padding-bottom: 1rem !important;
+  }
+
+  &:not(&-enhanced) &-list {
+    border-left: 1px solid var(--border);
+  }
+
+  &-enhanced &-sublist {
+    display: none;
+  }
+
+  &-enhanced &-group-active > &-sublist {
+    display: block;
   }
 
   &-link {
+    position: relative;
+    z-index: 2;
     display: block;
     overflow: hidden;
-    padding: 0.23rem 0;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.375rem;
     color: var(--muted);
-    font-size: 0.78rem;
-    line-height: 1.4;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 1.5;
     text-overflow: ellipsis;
     white-space: nowrap;
-    transition: color 120ms ease;
+    transition: color 180ms ease, font-weight 180ms ease;
 
     &:not(&-active):hover {
-      color: var(--fg);
+      color: var(--kr);
     }
 
     &-active {
       color: var(--kr);
+      font-weight: 500;
+    }
+  }
+
+  &-sublist &-link {
+    padding-left: 1.625rem;
+  }
+
+  &-rail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: none;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+
+  &-rail-background {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(109, 119, 130, 0.22);
+  }
+
+  &-rail-thumb {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    background-color: var(--kr);
+
+    &.is-animated {
+      transition: margin-top 200ms cubic-bezier(0.4, 0, 0.2, 1), height 200ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
 }
@@ -60,14 +113,9 @@
     right: max(1.5rem, calc((100vw - 70rem) / 2));
     display: block;
     width: 9rem;
-    max-height: calc(100vh - 4rem);
+    max-height: var(--toc-max-height, calc(100vh - 4rem));
     padding-right: 0.5rem;
-    overflow-x: hidden;
-    overflow-y: auto;
-    overscroll-behavior: contain;
-    scrollbar-color: var(--border) transparent;
-    scrollbar-gutter: stable;
-    scrollbar-width: thin;
+    overflow: hidden;
   }
 }
 

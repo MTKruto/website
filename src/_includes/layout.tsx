@@ -45,7 +45,7 @@ export default (
           <meta property="article:published_time" content="" />
           <meta property="article:author" content="https://t.me/MTKruto" />
           <meta property="telegram:channel" content="@MTKruto" />
-          <meta name="theme-color" content="#f7f7f4" media="(prefers-color-scheme: light)" />
+          <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
           <meta name="theme-color" content="#0e0f0f" media="(prefers-color-scheme: dark)" />
           <link rel="icon" href="/favicon.ico" sizes="any" />
           <link rel="icon" href="/logo.svg" type="image/svg+xml" />
@@ -113,35 +113,40 @@ export default (
               {hasToc && (
                 <aside class="toc">
                   <nav aria-label="On this page">
-                    <div class="toc-title">On this page</div>
-                    <ol>
-                      {toc.map((v: any) => (
-                        <li>
-                          <a
-                            href={`#${v.slug}`}
-                            data-toc={`#${v.slug}`}
-                            class="toc-link"
-                          >
-                            {v.text}
-                          </a>
-                          {!!v.children?.length && (
-                            <ul>
-                              {v?.children?.map((v: any) => (
-                                <li>
-                                  <a
-                                    href={`#${v.slug}`}
-                                    data-toc={`#${v.slug}`}
-                                    class="toc-link"
-                                  >
-                                    {v.text}
-                                  </a>
-                                </li>
-                              ))}
-                            </ul>
-                          )}
-                        </li>
-                      ))}
-                    </ol>
+                    <div class="toc-list-wrap">
+                      <ol class="toc-list">
+                        {toc.map((v: any) => (
+                          <li class="toc-item">
+                            <a
+                              href={`#${v.slug}`}
+                              data-toc={`#${v.slug}`}
+                              class="toc-link"
+                            >
+                              {v.text}
+                            </a>
+                            {!!v.children?.length && (
+                              <ul class="toc-sublist">
+                                {v?.children?.map((v: any) => (
+                                  <li class="toc-item">
+                                    <a
+                                      href={`#${v.slug}`}
+                                      data-toc={`#${v.slug}`}
+                                      class="toc-link"
+                                    >
+                                      {v.text}
+                                    </a>
+                                  </li>
+                                ))}
+                              </ul>
+                            )}
+                          </li>
+                        ))}
+                      </ol>
+                      <div class="toc-rail" aria-hidden="true">
+                        <div class="toc-rail-background"></div>
+                        <div class="toc-rail-thumb"></div>
+                      </div>
+                    </div>
                   </nav>
                 </aside>
               )}
