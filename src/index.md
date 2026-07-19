@@ -35,6 +35,15 @@ Its key features include:
 10. [Files](/files) {{ "/files" |> i }}
 11. [Inline Queries](/inline-queries) {{ "/inline-queries" |> i }}
 12. [Rich Messages and Text Formatting](/rich-messages-and-text-formatting) {{ "/rich-messages-and-text-formatting" |> i }}
+13. [Polls](/polls) {{ "/polls" |> i }}
+14. [Checklists](/checklists) {{ "/checklists" |> i }}
+15. [Scheduled Messages](/scheduled-messages) {{ "/scheduled-messages" |> i }}
+16. [Stories](/stories) {{ "/stories" |> i }}
+17. [Topics](/topics) {{ "/topics" |> i }}
+18. [Chat Members](/chat-members) {{ "/chat-members" |> i }}
+19. [Invite Links and Join Requests](/invite-links-and-join-requests) {{ "/invite-links-and-join-requests" |> i }}
+20. [Chat Settings](/chat-settings) {{ "/chat-settings" |> i }}
+21. [Secret Chats](/secret-chats) {{ "/secret-chats" |> i }}
 
 ### Guides
 

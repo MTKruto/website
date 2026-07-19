@@ -2,6 +2,7 @@
 title: Rich Messages and Text Formatting
 parent: /#walkthrough
 prev: /inline-queries
+next: /polls
 ---
 
 MTKruto supports both rich messages and formatted text messages. Rich messages contain structured page content such as headings, paragraphs, lists, tables, and media. Regular messages and media captions remain strings, with formatting described by message entities.
