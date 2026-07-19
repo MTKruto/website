@@ -3,10 +3,11 @@ import { Telegram } from "../../_components/Telegram.tsx";
 import { GitHub } from "../../_components/GitHub.tsx";
 
 export default (
-  { title, url, children, prev, next, hide_toc, toc }: Lume.Data,
+  { title, url, children, prev, next, hide_toc, toc, walkthrough }: Lume.Data,
   { bc, getTitle }: Lume.Helpers,
 ) => {
   const hasToc = !hide_toc && toc?.length > 0;
+  const audience = walkthrough?.track === "user" || walkthrough?.track === "bot" ? walkthrough.track : undefined;
 
   function Bc() {
     const items = bc(url);
@@ -71,7 +72,22 @@ export default (
             <Bc />
             <div class={`article page-layout${hasToc ? " page-layout-with-toc" : ""}`}>
               <article class="article__content content">
-                <h1>{title}</h1>
+                <h1 class="page-title">
+                  {title}
+                  {audience && (
+                    <span
+                      class="inline-flex w-fit items-center"
+                      style="font-size:12px;white-space:nowrap;word-break:keep-all;"
+                    >
+                      <span
+                        class="w-fit bg-dbt select-none text-fgt"
+                        style="padding:2px 8px;border-radius:12px;"
+                      >
+                        {audience.toUpperCase()}-ONLY
+                      </span>
+                    </span>
+                  )}
+                </h1>
                 {children}
                 {(next || prev) && (
                   <nav class="bottom-nav" aria-label="Documentation pagination">

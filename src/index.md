@@ -23,27 +23,23 @@ Its key features include:
 
 ### Walkthrough
 
-1. [Installation](/installation) {{ "/installation" |> i }}
-2. [Starting the Client](/starting-the-client) {{ "/starting-the-client" |> i }}
-3. [Calling Methods](/calling-methods) {{ "/calling-methods" |> i }}
-4. [Handling Updates](/handling-updates) {{ "/handling-updates" |> i }}
-5. [Catching Errors](/catching-errors) {{ "/catching-errors" |> i }}
-6. [Working with Messages](/working-with-messages) {{ "/working-with-messages" |> i }}
-7. [Commands](/commands) {{ "/commands" |> i }}
-8. [Reactions](/reactions) {{ "/reactions" |> i }}
-9. [Keyboards and Callback Queries](/keyboards-and-callback-queries) {{ "/keyboards-and-callback-queries" |> i }}
-10. [Files](/files) {{ "/files" |> i }}
-11. [Inline Queries](/inline-queries) {{ "/inline-queries" |> i }}
-12. [Rich Messages and Text Formatting](/rich-messages-and-text-formatting) {{ "/rich-messages-and-text-formatting" |> i }}
-13. [Polls](/polls) {{ "/polls" |> i }}
-14. [Checklists](/checklists) {{ "/checklists" |> i }}
-15. [Scheduled Messages](/scheduled-messages) {{ "/scheduled-messages" |> i }}
-16. [Stories](/stories) {{ "/stories" |> i }}
-17. [Topics](/topics) {{ "/topics" |> i }}
-18. [Chat Members](/chat-members) {{ "/chat-members" |> i }}
-19. [Invite Links and Join Requests](/invite-links-and-join-requests) {{ "/invite-links-and-join-requests" |> i }}
-20. [Chat Settings](/chat-settings) {{ "/chat-settings" |> i }}
-21. [Secret Chats](/secret-chats) {{ "/secret-chats" |> i }}
+Start with the main walkthrough. Individual sections are tagged when they apply only to user accounts or bots.
+
+#### Main
+
+{{ "main" |> walkthrough }}
+
+#### Users
+
+Features available when the client authorizes a personal Telegram account.
+
+{{ "user" |> walkthrough }}
+
+#### Bots
+
+Features available when the client authorizes a bot token.
+
+{{ "bot" |> walkthrough }}
 
 ### Guides
 

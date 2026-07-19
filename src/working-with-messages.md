@@ -1,8 +1,11 @@
 ---
 title: Working with Messages
 parent: /#walkthrough
-prev: /catching-errors
-next: /commands
+walkthrough:
+  track: main
+  order: 6
+  sections:
+    notes: bot
 ---
 
 ## Message Updates

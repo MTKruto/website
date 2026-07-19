@@ -1,0 +1,43 @@
+.page-title,
+.audience-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 0.65rem;
+  row-gap: 0.4rem;
+
+  > .inline-flex {
+    font-weight: 400;
+  }
+}
+
+ol.walkthrough-list {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+
+  > li {
+    padding-left: 0.2rem;
+
+    &::marker {
+      color: var(--muted);
+      font-weight: 400;
+      font-variant-numeric: tabular-nums;
+    }
+
+    + li {
+      margin-top: 0.6rem;
+    }
+  }
+
+  > li > ul {
+    display: grid;
+    gap: 0.15rem;
+    margin: 0.2rem 0 0.35rem !important;
+    padding-left: 1.2rem !important;
+    color: var(--fgt);
+  }
+
+  > li > ul > li > .inline-flex {
+    margin-left: 0.4rem;
+  }
+}

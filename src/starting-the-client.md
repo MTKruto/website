@@ -1,8 +1,9 @@
 ---
 title: Starting the Client
 parent: /#walkthrough
-prev: /installation
-next: /calling-methods
+walkthrough:
+  track: main
+  order: 2
 ---
 
 Here you will learn how you can construct and start a client assuming that you have already [installed MTKruto](./installation).

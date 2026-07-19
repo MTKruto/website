@@ -1,7 +1,9 @@
 ---
 title: Installation
 parent: /#walkthrough
-next: /starting-the-client
+walkthrough:
+  track: main
+  order: 1
 ---
 
 ## Bun & Node.js

@@ -1,8 +1,9 @@
 ---
 title: Reactions
 parent: /#walkthrough
-prev: /commands
-next: /keyboards-and-callback-queries
+walkthrough:
+  track: main
+  order: 8
 ---
 
 ## Reacting to Messages

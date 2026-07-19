@@ -41,20 +41,24 @@
   }
 
   .header-anchor {
+    position: relative;
     color: inherit;
     text-decoration: none;
 
-    &::after {
+    &::before {
+      position: absolute;
+      top: 0;
+      left: -0.45rem;
       content: "#";
-      margin-left: 0.45rem;
       color: var(--kr);
       font-weight: 500;
       opacity: 0;
+      transform: translateX(-100%);
       transition: opacity 120ms ease;
     }
 
-    &:hover::after,
-    &:focus-visible::after {
+    &:hover::before,
+    &:focus-visible::before {
       opacity: 0.55;
     }
   }

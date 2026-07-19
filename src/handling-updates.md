@@ -1,8 +1,13 @@
 ---
 title: Handling Updates
 parent: /#walkthrough
-prev: /calling-methods
-next: /working-with-messages
+walkthrough:
+  track: main
+  order: 4
+  sections:
+    callbackquery: bot
+    inlinequery: bot
+    choseninlineresult: bot
 ---
 
 MTKruto uses an update middleware inspired by [grammY](https://grammy.dev/guide/filter-queries).

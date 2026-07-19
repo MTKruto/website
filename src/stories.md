@@ -1,8 +1,9 @@
 ---
 title: Stories
 parent: /#walkthrough
-prev: /scheduled-messages
-next: /topics
+walkthrough:
+  track: user
+  order: 2
 ---
 
 User clients can post photo and video stories with {{ "createStory" |> m }}.

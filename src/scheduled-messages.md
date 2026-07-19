@@ -1,8 +1,9 @@
 ---
 title: Scheduled Messages
 parent: /#walkthrough
-prev: /checklists
-next: /stories
+walkthrough:
+  track: user
+  order: 1
 ---
 
 User clients can schedule messages to be sent later. Set `sendAt` to a future Unix timestamp in seconds when sending a message.

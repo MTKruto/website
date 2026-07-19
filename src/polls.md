@@ -1,8 +1,9 @@
 ---
 title: Polls
 parent: /#walkthrough
-prev: /rich-messages-and-text-formatting
-next: /checklists
+walkthrough:
+  track: main
+  order: 11
 ---
 
 Polls let users choose from a list of options directly in a chat. Use {{ "sendPoll" |> m }} with a question and an array of {{ "InputPollOption" |> t }} objects.

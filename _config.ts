@@ -62,6 +62,70 @@ function toAnchor(title: string) {
   return title.replaceAll(/\p{P}/ug, "").toLowerCase().replaceAll(/\s+/g, "-");
 }
 
+const walkthroughTracks = ["main", "user", "bot"] as const;
+type WalkthroughTrack = typeof walkthroughTracks[number];
+type WalkthroughAudience = Exclude<WalkthroughTrack, "main">;
+
+interface WalkthroughData {
+  track: WalkthroughTrack;
+  order: number;
+  sections?: Record<string, WalkthroughAudience>;
+}
+
+function isWalkthroughTrack(value: unknown): value is WalkthroughTrack {
+  return walkthroughTracks.includes(value as WalkthroughTrack);
+}
+
+function getWalkthroughData(page: Lume.Page): WalkthroughData | undefined {
+  const data = page.data.walkthrough;
+  if (
+    typeof data !== "object" || data === null ||
+    !isWalkthroughTrack(data.track) ||
+    typeof data.order !== "number" || !Number.isFinite(data.order)
+  ) {
+    return undefined;
+  }
+  return data as WalkthroughData;
+}
+
+function getWalkthroughPages(
+  track: WalkthroughTrack,
+  pages: Lume.Page[] = site.pages,
+) {
+  return pages
+    .filter((page) => getWalkthroughData(page)?.track === track)
+    .sort((a, b) => {
+      const order = getWalkthroughData(a)!.order - getWalkthroughData(b)!.order;
+      return order || a.src.path.localeCompare(b.src.path);
+    });
+}
+
+function getH2Links(page: Lume.Page) {
+  const content = page.data.content;
+  const links = new Array<[string, string, string]>();
+  if (typeof content !== "string") {
+    return links;
+  }
+  for (let line of content.split("\n")) {
+    if (!line.startsWith("## ")) {
+      continue;
+    }
+    line = line.slice(3).trim();
+    const id = toAnchor(line);
+    links.push([line, page.src.path + "#" + id, id]);
+  }
+  return links;
+}
+
+function escapeHtml(value: string) {
+  return value
+    .replaceAll("&", "&amp;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;");
+}
+
 function getTitle(path: string) {
   let anchor: string | undefined;
   if (path.includes("#")) {
@@ -121,6 +185,22 @@ site.preprocess([".html"], (pages) => {
       parentMap[page.src.path] = page.data.parent;
     }
   }
+
+  for (const track of walkthroughTracks) {
+    const trackPages = getWalkthroughPages(track, pages);
+    for (let index = 0; index < trackPages.length; ++index) {
+      const page = trackPages[index];
+      delete page.data.prev;
+      delete page.data.next;
+      if (index > 0) {
+        page.data.prev = trackPages[index - 1].src.path;
+      }
+      if (index < trackPages.length - 1) {
+        page.data.next = trackPages[index + 1].src.path;
+      }
+    }
+  }
+
   errorCount && console.error("Aborting because of", errorCount, "error(s).");
   error && Deno.exit(1);
 });
@@ -192,6 +272,61 @@ site.process([".html"], (pages) => {
       codeGroup.replaceWith(div);
     }
   }
+});
+
+site.process([".html"], (pages) => {
+  let error = false;
+  let errorCount = 0;
+
+  for (const page of pages) {
+    const document = page.document;
+    const sections = getWalkthroughData(page)?.sections;
+    if (!document || !sections) {
+      continue;
+    }
+
+    for (const [id, audience] of Object.entries(sections)) {
+      if (audience !== "user" && audience !== "bot") {
+        console.error(
+          "The walkthrough section",
+          `${page.src.path}#${id}`,
+          "has an invalid audience.",
+        );
+        error = true;
+        ++errorCount;
+        continue;
+      }
+
+      const heading = document.querySelector(`#${id}`);
+      if (!heading) {
+        console.error(
+          "The walkthrough section",
+          `${page.src.path}#${id}`,
+          "does not exist.",
+        );
+        error = true;
+        ++errorCount;
+        continue;
+      }
+
+      heading.classList.add("audience-heading");
+      const badge = document.createElement("span");
+      badge.classList.add("inline-flex", "w-fit", "items-center");
+      badge.setAttribute(
+        "style",
+        "font-size:12px;white-space:nowrap;word-break:keep-all;",
+      );
+      const badgeText = document.createElement("span");
+      badgeText.classList.add("w-fit", "bg-dbt", "select-none", "text-fgt");
+      badgeText.setAttribute("style", "padding:2px 8px;border-radius:12px;");
+      badgeText.textContent = `${audience.toUpperCase()}-ONLY`;
+      badge.append(badgeText);
+      heading.append(badge);
+    }
+  }
+
+  errorCount && console.error("Aborting because of", errorCount, "error(s).");
+  error && Deno.exit(1);
 });
 
 site.preprocess(
@@ -321,6 +456,35 @@ site.helper("i", (page) => {
     links.push([title, link]);
   }
   return "\n" + links.map((v) => `    - [${v[0]}](${v[1]})`).join("\n");
+}, { type: "filter" });
+
+site.helper("walkthrough", (track: string) => {
+  if (!isWalkthroughTrack(track)) {
+    throw new Error(`Invalid walkthrough track: ${track}`);
+  }
+
+  const label = {
+    main: "Main walkthrough",
+    user: "User account walkthrough",
+    bot: "Bot account walkthrough",
+  }[track];
+  const items = getWalkthroughPages(track).map((page) => {
+    const title = page.data.title ?? page.src.path;
+    const headings = getH2Links(page);
+    const audiences = getWalkthroughData(page)?.sections ?? {};
+    const sections = headings.length
+      ? `\n    <ul aria-label="Sections in ${escapeHtml(title)}">\n${
+        headings.map(([heading, link, id]) => {
+          const audience = audiences[id];
+          const badge = audience ? `<span class="inline-flex w-fit items-center" style="font-size:12px;white-space:nowrap;word-break:keep-all;"><span class="w-fit bg-dbt select-none text-fgt" style="padding:2px 8px;border-radius:12px;">${audience.toUpperCase()}-ONLY</span></span>` : "";
+          return `      <li><a href="${escapeHtml(link)}">${escapeHtml(heading)}</a>${badge}</li>`;
+        }).join("\n")
+      }\n    </ul>`
+      : "";
+    return `  <li><a href="${escapeHtml(page.src.path)}">${escapeHtml(title)}</a>${sections}\n  </li>`;
+  });
+
+  return `<ol class="walkthrough-list" aria-label="${label}">\n${items.join("\n")}\n</ol>`;
 }, { type: "filter" });
 
 site.data("layout", "layout.tsx");

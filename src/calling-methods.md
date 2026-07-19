@@ -1,8 +1,9 @@
 ---
 title: Calling Methods
 parent: /#walkthrough
-prev: /starting-the-client
-next: /handling-updates
+walkthrough:
+  track: main
+  order: 3
 ---
 
 ## High-level Methods

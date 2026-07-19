@@ -1,8 +1,11 @@
 ---
 title: Invite Links and Join Requests
 parent: /#walkthrough
-prev: /chat-members
-next: /chat-settings
+walkthrough:
+  track: main
+  order: 15
+  sections:
+    listing-join-requests: user
 ---
 
 Invite links let people join a group, supergroup, or channel.

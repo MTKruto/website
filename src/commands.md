@@ -1,8 +1,11 @@
 ---
 title: Commands
 parent: /#walkthrough
-prev: /working-with-messages
-next: /reactions
+walkthrough:
+  track: main
+  order: 7
+  sections:
+    outgoing-messages: user
 ---
 
 Command handlers can be registered through `.command()`.

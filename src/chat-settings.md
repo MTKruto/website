@@ -1,8 +1,12 @@
 ---
 title: Chat Settings
 parent: /#walkthrough
-prev: /invite-links-and-join-requests
-next: /secret-chats
+walkthrough:
+  track: main
+  order: 16
+  sections:
+    enabling-slow-mode: user
+    automatically-deleting-messages: user
 ---
 
 Administrators can change a chat's details and behavior.

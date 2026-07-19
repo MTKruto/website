@@ -1,8 +1,9 @@
 ---
 title: Chat Members
 parent: /#walkthrough
-prev: /topics
-next: /invite-links-and-join-requests
+walkthrough:
+  track: main
+  order: 14
 ---
 
 Chat members are represented by {{ "ChatMember" |> t }} objects. Each object contains the member and their status in the chat.

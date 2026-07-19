@@ -1,8 +1,12 @@
 ---
 title: Topics
 parent: /#walkthrough
-prev: /stories
-next: /chat-members
+walkthrough:
+  track: main
+  order: 13
+  sections:
+    enabling-topics: user
+    listing-topics: user
 ---
 
 Forum topics separate conversations in a supergroup. The supergroup must have topics enabled.

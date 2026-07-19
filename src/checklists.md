@@ -1,8 +1,11 @@
 ---
 title: Checklists
 parent: /#walkthrough
-prev: /polls
-next: /scheduled-messages
+walkthrough:
+  track: main
+  order: 12
+  sections:
+    updating-a-checklist: user
 ---
 
 Checklists let users track tasks in a chat. Use {{ "sendChecklist" |> m }} with a title and an array of {{ "InputChecklistItem" |> t }} objects.

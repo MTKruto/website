@@ -1,7 +1,9 @@
 ---
 title: Secret Chats
 parent: /#walkthrough
-prev: /chat-settings
+walkthrough:
+  track: user
+  order: 3
 ---
 
 Secret chats are one-to-one, end-to-end encrypted conversations available to user clients. MTKruto handles the key exchange, encryption, and key rotation.

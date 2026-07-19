@@ -1,8 +1,9 @@
 ---
 title: Catching Errors
 parent: /#walkthrough
-prev: /handling-updates
-next: /working-with-messages
+walkthrough:
+  track: main
+  order: 5
 ---
 
 The `errors` namespace includes all errors that have a chance of being thrown by MTKruto. This includes user input errors, access errors, TL errors, and Telegram API errors.
