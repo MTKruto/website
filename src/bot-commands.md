@@ -23,7 +23,7 @@ This only changes the displayed command list. Register handlers separately with 
 
 ## Scoping and Localizing Commands
 
-Pass a `scope` to show a command list only in specific chats. This example sets a command for group administrators.
+Pass a `scope` to show a command list only to specific audiences or in specific chats. This example sets a command for group administrators.
 
 ```ts
 await client.setMyCommands(
@@ -36,8 +36,8 @@ Pass `languageCode` to set a localized command list.
 
 ```ts
 await client.setMyCommands(
-  [{ command: "help", description: "Hilfe anzeigen" }],
-  { languageCode: "de" },
+  [{ command: "help", description: "Показать справку" }],
+  { languageCode: "ru" },
 );
 ```
 
