@@ -42,7 +42,7 @@ function initIndexSubsections() {
     button.type = "button";
     button.className = "index-subsection-toggle";
     button.setAttribute("aria-controls", panelId);
-    button.innerHTML = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 5.5l5 5 5-5" /></svg>';
+    button.innerHTML = '<span class="index-subsection-toggle-icon"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 5.5l5 5 5-5" /></svg></span>';
     link.after(button);
 
     const entry = { button, item, panel, title };
