@@ -152,6 +152,60 @@ client.on("message", async (ctx) => {
 });
 ```
 
+## Editing Messages
+
+You can edit messages that have already been sent. Each method targets a specific part of the message, and the referenced message must already be of a matching type.
+
+### Editing Text
+
+Use {{ "editMessageText" |> m }} to change the text of a text message.
+
+```ts
+await client.editMessageText(chatId, messageId, "Updated text");
+```
+
+Like {{ "sendMessage" |> m }}, it accepts formatting options.
+
+```ts
+await client.editMessageText(chatId, messageId, "*Updated* text", {
+  parseMode: "Markdown",
+});
+```
+
+### Editing Captions
+
+Use {{ "editMessageCaption" |> m }} to change the caption of a media message.
+
+```ts
+await client.editMessageCaption(chatId, messageId, {
+  caption: "New caption",
+});
+```
+
+### Replacing Media
+
+Use {{ "editMessageMedia" |> m }} to replace the media of a media message. Pass an {{ "InputMedia" |> t }} describing the new media.
+
+```ts
+await client.editMessageMedia(chatId, messageId, {
+  type: "photo",
+  photo: new URL("https://example.com/photo.jpg"),
+  caption: "New caption",
+});
+```
+
+### Editing Reply Markup
+
+Use {{ "editMessageReplyMarkup" |> m }} to update the buttons attached to a message without changing its content.
+
+```ts
+await client.editMessageReplyMarkup(chatId, messageId, {
+  replyMarkup: { /* ... */ },
+});
+```
+
+Live locations can be updated with {{ "editMessageLiveLocation" |> m }}, and rich text messages with {{ "editMessageRichText" |> m }}.
+
 ## Deleting Messages
 
 You can delete messages by calling either {{ "deleteMessage" |> m }} or {{ "deleteMessages" |> m }}.
