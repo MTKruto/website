@@ -239,3 +239,64 @@ client.on("message", async (ctx) => {
   await ctx.forward(toChat); // This forwards the received message.
 });
 ```
+
+## Pinned Messages
+
+Pinning a message keeps it at the top of a chat so members can find it easily. Both users and bots can pin messages, provided they have the rights to do so in the chat.
+
+### Pinning a Message
+
+Use {{ "pinMessage" |> m }} to pin a message.
+
+```ts
+await client.pinMessage(chatId, messageId);
+```
+
+In private chats, the pin is visible to both participants by default. Pass `isForBothSides` as `false` to pin it only for the current account.
+
+```ts
+await client.pinMessage(chatId, messageId, {
+  isForBothSides: false,
+});
+```
+
+Pass `isSilent` to pin without notifying the chat.
+
+```ts
+await client.pinMessage(chatId, messageId, {
+  isSilent: true,
+});
+```
+
+### Unpinning Messages
+
+Use {{ "unpinMessage" |> m }} to unpin a single message.
+
+```ts
+await client.unpinMessage(chatId, messageId);
+```
+
+Use {{ "unpinMessages" |> m }} to unpin every pinned message in a chat at once.
+
+```ts
+await client.unpinMessages(chatId);
+```
+
+In a forum, pass a `topicId` to unpin only the messages in that topic.
+
+```ts
+await client.unpinMessages(chatId, {
+  topicId,
+});
+```
+
+### Receiving Pin Notifications
+
+When a message is pinned in a group, a service message of type `pinnedMessage` is added to the chat. Listen for it like any other message, and read the pinned message through `ctx.msg.pinnedMessage`.
+
+```ts
+client.on("message:pinnedMessage", (ctx) => {
+  const pinned = ctx.msg.pinnedMessage;
+  console.log("Pinned:", pinned.id);
+});
+```
