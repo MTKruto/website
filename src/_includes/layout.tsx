@@ -16,6 +16,7 @@ export default (
       walkthroughProgress.step <= walkthroughProgress.total
     ? walkthroughProgress
     : undefined;
+  const referenceIndex = url === "/methods/" ? "methods" : url === "/types/" ? "types" : undefined;
   const searchable = !url.startsWith("/gh/") && !url.startsWith("/404") && url !== "/source-map/";
   const searchKind = url.startsWith("/methods/") ? "Methods" : url.startsWith("/types/") ? "Types" : url.startsWith("/server/") ? "Server" : "Guides";
 
@@ -213,6 +214,32 @@ export default (
                       <span style={`width:${(progress.step / progress.total) * 100}%`}></span>
                     </div>
                   </div>
+                )}
+                {referenceIndex && (
+                  <>
+                    <div class="reference-filter" role="search" aria-label={`Filter ${referenceIndex}`} data-reference-filter={referenceIndex} data-pagefind-ignore="all">
+                      <label class="reference-filter-label" for="reference-filter-input">
+                        Filter {referenceIndex}
+                      </label>
+                      <div class="reference-filter-field">
+                        <input
+                          id="reference-filter-input"
+                          class="reference-filter-input"
+                          type="search"
+                          placeholder={`Filter ${referenceIndex}...`}
+                          autocomplete="off"
+                          autocapitalize="none"
+                          spellcheck="false"
+                        />
+                        <button type="button" class="reference-filter-clear" aria-label="Clear filter" hidden>
+                          <svg viewBox="0 0 16 16" aria-hidden="true">
+                            <path d="m4 4 8 8m0-8-8 8" />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    <p class="reference-filter-empty" data-reference-filter-empty hidden data-pagefind-ignore="all"></p>
+                  </>
                 )}
                 {children}
                 {(next || prev) && (

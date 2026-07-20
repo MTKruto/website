@@ -540,7 +540,7 @@ const pagefindUi = {
   debounceTimeoutMs: 150,
   translations: {
     placeholder: "Search...",
-    clear_search: "Clear search",
+    clear_search: "Clear Search",
     search_label: "Search documentation",
     zero_results: "No results were found for “[SEARCH_TERM]”.",
   },

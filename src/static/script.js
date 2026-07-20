@@ -58,6 +58,106 @@ function initCodeGroups() {
 
 initCodeGroups();
 
+function initReferenceFilter() {
+  const filter = document.querySelector("[data-reference-filter]");
+  const input = filter?.querySelector(".reference-filter-input");
+  const clearButton = filter?.querySelector(".reference-filter-clear");
+  const content = filter?.closest(".content");
+  const empty = content?.querySelector("[data-reference-filter-empty]");
+  const kind = filter?.dataset.referenceFilter;
+
+  if (
+    !(input instanceof HTMLInputElement) ||
+    !(clearButton instanceof HTMLButtonElement) ||
+    !(empty instanceof HTMLElement) ||
+    !content ||
+    (kind !== "methods" && kind !== "types")
+  ) return;
+
+  function normalize(value) {
+    return value.normalize("NFKD").toLocaleLowerCase().replace(/[\p{P}\p{S}\s]+/gu, "");
+  }
+
+  const groups = Array.from(content.querySelectorAll(".descr-list"), (list) => {
+    const heading = list.previousElementSibling?.matches("h2") ? list.previousElementSibling : undefined;
+    const children = Array.from(list.children);
+    const entries = [];
+
+    for (let index = 0; index < children.length; index++) {
+      const nameNode = children[index];
+      const link = nameNode.matches("a[href]") ? nameNode : nameNode.matches("p") ? nameNode.querySelector(":scope > a[href]:only-child") : null;
+      const description = children[index + 1];
+      const divider = children[index + 2];
+      if (!link || !description || !divider?.classList.contains("descr-list-border")) continue;
+
+      entries.push({
+        nodes: [nameNode, description, divider],
+        name: normalize(link.textContent),
+      });
+      index += 2;
+    }
+
+    return { heading, list, entries };
+  }).filter((group) => group.entries.length);
+  const total = groups.reduce((sum, group) => sum + group.entries.length, 0);
+  const toc = document.querySelector(".toc");
+  let updateFrame;
+
+  if (!total) {
+    filter.hidden = true;
+    return;
+  }
+
+  function update() {
+    updateFrame = undefined;
+    const rawQuery = input.value.trim();
+    const terms = rawQuery.split(/\s+/).map(normalize).filter(Boolean);
+    let matches = 0;
+
+    for (const group of groups) {
+      let groupMatches = 0;
+      for (const entry of group.entries) {
+        const visible = terms.every((term) => entry.name.includes(term));
+        for (const node of entry.nodes) node.hidden = !visible;
+        if (visible) {
+          matches++;
+          groupMatches++;
+        }
+      }
+
+      const groupVisible = groupMatches > 0;
+      group.list.hidden = !groupVisible;
+      if (group.heading) group.heading.hidden = !groupVisible;
+    }
+
+    clearButton.hidden = rawQuery.length === 0;
+    empty.hidden = matches > 0;
+    empty.textContent = matches ? "" : `No ${kind} match “${rawQuery}”.`;
+    if (toc) toc.hidden = terms.length > 0;
+    globalThis.dispatchEvent(new Event("referencefilterchange"));
+  }
+
+  function scheduleUpdate() {
+    globalThis.cancelAnimationFrame(updateFrame);
+    updateFrame = globalThis.requestAnimationFrame(update);
+  }
+
+  input.addEventListener("input", scheduleUpdate);
+  input.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape" || !input.value) return;
+    event.preventDefault();
+    input.value = "";
+    update();
+  });
+  clearButton.addEventListener("click", () => {
+    input.value = "";
+    update();
+    input.focus({ preventScroll: true });
+  });
+
+  update();
+}
+
 function initIndexSubsections() {
   const panels = Array.from(document.querySelectorAll(".index-subsections"));
   const content = panels[0]?.closest(".content");
@@ -612,6 +712,7 @@ function initToc() {
   globalThis.addEventListener("resize", relayout, { passive: true });
   globalThis.addEventListener("load", relayout);
   globalThis.addEventListener("hashchange", onHashChange);
+  globalThis.addEventListener("referencefilterchange", relayout);
   globalThis.addEventListener("wheel", releaseLockedEntry, { passive: true });
   globalThis.addEventListener("touchstart", releaseLockedEntry, { passive: true });
   globalThis.addEventListener("pointerdown", releaseLockedEntry, { passive: true });
@@ -627,4 +728,5 @@ function initToc() {
 }
 
 initIndexSubsections();
+initReferenceFilter();
 initToc();
