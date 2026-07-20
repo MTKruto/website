@@ -1,3 +1,24 @@
+function installPagefindMetadataCompatibility() {
+  const originalFetch = globalThis.fetch.bind(globalThis);
+
+  globalThis.fetch = (input, init) => {
+    const requestUrl = input instanceof Request ? input.url : input;
+    if (typeof requestUrl !== "string" && !(requestUrl instanceof URL)) {
+      return originalFetch(input, init);
+    }
+
+    const url = new URL(requestUrl, globalThis.location.href);
+    if (url.pathname.endsWith("/pagefind/pagefind-entry.json") && url.searchParams.has("ts")) {
+      url.searchParams.delete("ts");
+      input = input instanceof Request ? new Request(url, input) : url;
+    }
+
+    return originalFetch(input, init);
+  };
+}
+
+installPagefindMetadataCompatibility();
+
 function initSearchDialog() {
   const dialog = document.getElementById("search-dialog");
   const closeButton = dialog?.querySelector("[data-search-close]");
