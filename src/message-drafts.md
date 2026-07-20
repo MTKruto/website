@@ -16,6 +16,12 @@ Use {{ "saveDraft" |> m }} with a chat's identifier and the draft text.
 await client.saveDraft(chatId, "Remember to send the report.");
 ```
 
+Pass an empty string to clear the draft.
+
+```ts
+await client.saveDraft(chatId, "");
+```
+
 Use {{ "saveRichTextDraft" |> m }} to save a rich text draft.
 
 ## Clearing Drafts
