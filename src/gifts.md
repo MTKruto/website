@@ -48,7 +48,7 @@ await client.sendGift(userId, giftId, {
 
 ## Selling a Gift
 
-Use {{ "sellGift" |> m }} to convert a saved gift to Telegram Stars. Reference the gift by its chat and identifier.
+Use {{ "sellGift" |> m }} to convert a gift to Telegram Stars. Reference the gift by its chat and identifier.
 
 ```ts
 await client.sellGift({ type: "chat", chatId, id });
