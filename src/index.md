@@ -31,13 +31,9 @@ Start with the main walkthrough. Individual sections are tagged when they apply 
 
 #### Users
 
-Features available when the client authorizes a personal Telegram account.
-
 {{ "user" |> walkthrough }}
 
 #### Bots
-
-Features available when the client authorizes a bot token.
 
 {{ "bot" |> walkthrough }}
 
