@@ -200,7 +200,7 @@ Use {{ "editMessageReplyMarkup" |> m }} to update the buttons attached to a mess
 
 ```ts
 await client.editMessageReplyMarkup(chatId, messageId, {
-  replyMarkup: { /* ... */ },
+  replyMarkup: {/* ... */},
 });
 ```
 
