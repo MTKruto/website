@@ -141,7 +141,7 @@ await client.sendDice(chat, { emoji: "🏀" }); // but you can send any valid di
 
 To use the above example calls, `chat` must be replaced with a valid {{ "ID" |> t }}, and `file` must be replaced with a valid {{ "FileSource" |> t }}.
 
-As previously said, the last parameters are optional and can always be omitted, so for example you can do just `await client.sendMessage(chat, "Hey!");` if you don't specify any optional parameter. Optional parameters are those parameters marked with `?` in the method documentations.
+As previously said, the last parameters are optional and can always be omitted, so for example you can do just `await client.sendMessage(chat, "Hey!");` if you don't specify any optional parameter. Optional parameters are those parameters marked with `?` in the method documentation.
 
 Inside handlers, you can call the respective `reply*` shortcuts to easily reply the context message:
 

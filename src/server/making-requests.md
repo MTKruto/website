@@ -150,4 +150,4 @@ Raw bytes (`bytes` in TL schema files) are described with an object that has its
 }
 ```
 
-Results of the functions invocations are in the same format.
+Results of the function invocations are in the same format.
