@@ -21,6 +21,68 @@ document.querySelectorAll(".code-group-button").forEach((button) => {
   });
 });
 
+function initIndexSubsections() {
+  const panels = Array.from(document.querySelectorAll(".index-subsections"));
+  const content = panels[0]?.closest(".content");
+  if (!panels.length || !content) return;
+
+  const hoverQuery = globalThis.matchMedia("(hover: hover) and (pointer: fine)");
+  const entries = panels.map((panel, index) => {
+    const item = panel.parentElement;
+    const list = panel.querySelector(":scope > ul");
+    const link = item?.querySelector(":scope > a, :scope > p > a");
+    if (!item || !list || !link) return null;
+
+    const title = list.getAttribute("aria-label")?.replace(/^Sections in /, "") || link.textContent.trim();
+    const button = document.createElement("button");
+    const panelId = `index-subsections-${index + 1}`;
+
+    panel.id = panelId;
+    item.classList.add("index-item-collapsible");
+    button.type = "button";
+    button.className = "index-subsection-toggle";
+    button.setAttribute("aria-controls", panelId);
+    button.innerHTML = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 5.5l5 5 5-5" /></svg>';
+    link.after(button);
+
+    const entry = { button, item, panel, title };
+    button.addEventListener("click", () => {
+      if (!hoverQuery.matches) setOpen(entry, !item.classList.contains("is-open"));
+    });
+    return entry;
+  }).filter(Boolean);
+
+  function setOpen(entry, open) {
+    entry.item.classList.toggle("is-open", open);
+    entry.panel.inert = !open;
+    entry.panel.setAttribute("aria-hidden", String(!open));
+    entry.button.setAttribute("aria-expanded", String(open));
+    entry.button.setAttribute("aria-label", `${open ? "Hide" : "Show"} sections in ${entry.title}`);
+  }
+
+  function syncInputMode() {
+    for (const entry of entries) {
+      entry.item.classList.remove("is-open");
+      if (hoverQuery.matches) {
+        entry.panel.inert = false;
+        entry.panel.removeAttribute("aria-hidden");
+        entry.button.tabIndex = -1;
+        entry.button.setAttribute("aria-hidden", "true");
+        entry.button.removeAttribute("aria-expanded");
+        entry.button.removeAttribute("aria-label");
+      } else {
+        entry.button.tabIndex = 0;
+        entry.button.removeAttribute("aria-hidden");
+        setOpen(entry, false);
+      }
+    }
+  }
+
+  syncInputMode();
+  content.classList.add("index-subsections-enhanced");
+  hoverQuery.addEventListener("change", syncInputMode);
+}
+
 function initToc() {
   const toc = document.querySelector(".toc");
   const viewport = toc?.querySelector(".toc-list-wrap");
@@ -376,4 +438,5 @@ function initToc() {
   if (!activateHashEntry()) updateActive();
 }
 
+initIndexSubsections();
 initToc();

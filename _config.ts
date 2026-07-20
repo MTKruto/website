@@ -440,10 +440,11 @@ bun create ${pkg}
 `;
 }, { type: "filter" });
 
-site.helper("i", (page) => {
-  const content = site.pages.find((v) => v.src.path === page)?.data.content;
+site.helper("i", (path) => {
+  const page = site.pages.find((v) => v.src.path === path);
+  const content = page?.data.content;
   if (typeof content !== "string") {
-    return "no for " + page;
+    return "no for " + path;
   }
   const links = new Array<[string, string]>();
   for (let line of content.split("\n")) {
@@ -452,10 +453,20 @@ site.helper("i", (page) => {
     }
     line = line.slice(3).trim();
     const title = line;
-    const link = page + "#" + toAnchor(line);
+    const link = path + "#" + toAnchor(line);
     links.push([title, link]);
   }
-  return "\n" + links.map((v) => `    - [${v[0]}](${v[1]})`).join("\n");
+  if (!links.length) {
+    return "";
+  }
+  const title = page.data.title ?? path;
+  const items = links.map(([heading, link], index) => `        <li style="--subsection-delay: ${index * 28}ms"><a href="${escapeHtml(link)}">${escapeHtml(heading)}</a></li>`).join("\n");
+  return `
+    <div class="index-subsections">
+      <ul aria-label="Sections in ${escapeHtml(title)}">
+${items}
+      </ul>
+    </div>`;
 }, { type: "filter" });
 
 site.helper("walkthrough", (track: string) => {
@@ -473,13 +484,13 @@ site.helper("walkthrough", (track: string) => {
     const headings = getH2Links(page);
     const audiences = getWalkthroughData(page)?.sections ?? {};
     const sections = headings.length
-      ? `\n    <ul aria-label="Sections in ${escapeHtml(title)}">\n${
-        headings.map(([heading, link, id]) => {
+      ? `\n    <div class="index-subsections">\n      <ul aria-label="Sections in ${escapeHtml(title)}">\n${
+        headings.map(([heading, link, id], index) => {
           const audience = audiences[id];
           const badge = audience ? `<span class="inline-flex w-fit items-center" style="font-size:12px;white-space:nowrap;word-break:keep-all;"><span class="w-fit bg-dbt select-none text-fgt" style="padding:2px 8px;border-radius:12px;">${audience.toUpperCase()}-ONLY</span></span>` : "";
-          return `      <li><a href="${escapeHtml(link)}">${escapeHtml(heading)}</a>${badge}</li>`;
+          return `        <li style="--subsection-delay: ${index * 28}ms"><a href="${escapeHtml(link)}">${escapeHtml(heading)}</a>${badge}</li>`;
         }).join("\n")
-      }\n    </ul>`
+      }\n      </ul>\n    </div>`
       : "";
     return `  <li><a href="${escapeHtml(page.src.path)}">${escapeHtml(title)}</a>${sections}\n  </li>`;
   });
