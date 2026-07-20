@@ -115,6 +115,7 @@ function initToc() {
   let settleTimer;
   let ticking = false;
   let railBoundsTicking = false;
+  let lastSideRailBottom;
   let relayoutTicking = false;
 
   toc.classList.add("toc-enhanced");
@@ -202,6 +203,7 @@ function initToc() {
     const style = getComputedStyle(sideRail);
     if (style.position !== "fixed") {
       sideRail.style.removeProperty("--side-rail-bottom");
+      lastSideRailBottom = undefined;
       return;
     }
 
@@ -212,7 +214,12 @@ function initToc() {
       Math.max(0, globalThis.innerHeight - top),
       Math.max(0, footerBottomInset),
     );
-    sideRail.style.setProperty("--side-rail-bottom", `${bottom}px`);
+    const value = `${bottom}px`;
+    if (value === lastSideRailBottom) return;
+
+    lastSideRailBottom = value;
+    sideRail.style.setProperty("--side-rail-bottom", value);
+    if (activeEntry) revealLink(activeEntry.link);
   }
 
   function requestSideRailBoundsUpdate() {
