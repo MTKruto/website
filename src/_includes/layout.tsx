@@ -3,11 +3,19 @@ import { Telegram } from "../../_components/Telegram.tsx";
 import { GitHub } from "../../_components/GitHub.tsx";
 
 export default (
-  { title, url, children, prev, next, hide_toc, toc, walkthrough }: Lume.Data,
+  { title, url, children, prev, next, hide_toc, toc, walkthrough, walkthroughProgress }: Lume.Data,
   { bc, getTitle }: Lume.Helpers,
 ) => {
   const hasToc = !hide_toc && toc?.length > 0;
   const audience = walkthrough?.track === "user" || walkthrough?.track === "bot" ? walkthrough.track : undefined;
+  const progress = walkthroughProgress &&
+      typeof walkthroughProgress.label === "string" &&
+      Number.isInteger(walkthroughProgress.step) &&
+      Number.isInteger(walkthroughProgress.total) &&
+      walkthroughProgress.step > 0 &&
+      walkthroughProgress.step <= walkthroughProgress.total
+    ? walkthroughProgress
+    : undefined;
   const searchable = !url.startsWith("/gh/") && !url.startsWith("/404") && url !== "/source-map/";
   const searchKind = url.startsWith("/methods/") ? "Methods" : url.startsWith("/types/") ? "Types" : url.startsWith("/server/") ? "Server" : "Guides";
 
@@ -55,7 +63,18 @@ export default (
 
     return (
       <aside class="toc">
-        <nav aria-label="On this page">
+        <button
+          type="button"
+          class="toc-mobile-toggle"
+          aria-expanded="false"
+          aria-controls="toc-navigation"
+        >
+          <span>On this page</span>
+          <svg viewBox="0 0 16 16" aria-hidden="true">
+            <path d="M3 5.5l5 5 5-5" />
+          </svg>
+        </button>
+        <nav id="toc-navigation" aria-label="On this page">
           <div class="toc-list-wrap">
             <ol class="toc-list">
               {toc.map((v: any) => (
@@ -178,6 +197,23 @@ export default (
                     </span>
                   )}
                 </h1>
+                {progress && (
+                  <div class="walkthrough-progress" data-pagefind-ignore="all">
+                    <div class="walkthrough-progress-label">
+                      {progress.label} Walkthrough <span aria-hidden="true">·</span> {progress.step} of {progress.total}
+                    </div>
+                    <div
+                      class="walkthrough-progress-track"
+                      role="progressbar"
+                      aria-label={`${progress.label} walkthrough progress`}
+                      aria-valuemin="1"
+                      aria-valuemax={progress.total}
+                      aria-valuenow={progress.step}
+                    >
+                      <span style={`width:${(progress.step / progress.total) * 100}%`}></span>
+                    </div>
+                  </div>
+                )}
                 {children}
                 {(next || prev) && (
                   <nav class="bottom-nav" aria-label="Documentation pagination" data-pagefind-ignore="all">

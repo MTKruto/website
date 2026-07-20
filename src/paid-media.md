@@ -6,7 +6,7 @@ walkthrough:
   order: 20
 ---
 
-Bots can require users to pay Telegram Stars before viewing a photo or video.
+Users and bots can require users to pay Telegram Stars before viewing a photo or video.
 
 ## Sending Paid Media
 

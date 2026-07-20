@@ -187,12 +187,26 @@ site.preprocess([".html"], (pages) => {
     }
   }
 
+  for (const page of pages) {
+    delete page.data.walkthroughProgress;
+  }
+
+  const trackLabels: Record<WalkthroughTrack, string> = {
+    main: "Main",
+    user: "User",
+    bot: "Bot",
+  };
   for (const track of walkthroughTracks) {
     const trackPages = getWalkthroughPages(track, pages);
     for (let index = 0; index < trackPages.length; ++index) {
       const page = trackPages[index];
       delete page.data.prev;
       delete page.data.next;
+      page.data.walkthroughProgress = {
+        label: trackLabels[track],
+        step: index + 1,
+        total: trackPages.length,
+      };
       if (index > 0) {
         page.data.prev = trackPages[index - 1].src.path;
       }

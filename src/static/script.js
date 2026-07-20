@@ -242,6 +242,7 @@ function initIndexSubsections() {
 
 function initToc() {
   const toc = document.querySelector(".toc");
+  const mobileToggle = toc?.querySelector(".toc-mobile-toggle");
   const viewport = toc?.querySelector(".toc-list-wrap");
   const list = toc?.querySelector(".toc-list");
   const rail = toc?.querySelector(".toc-rail");
@@ -276,6 +277,13 @@ function initToc() {
   let relayoutTicking = false;
 
   toc.classList.add("toc-enhanced");
+
+  function setMobileTocOpen(open, focusToggle = false) {
+    if (!(mobileToggle instanceof HTMLButtonElement)) return;
+    mobileToggle.setAttribute("aria-expanded", String(open));
+    if (open) relayout();
+    if (focusToggle) mobileToggle.focus({ preventScroll: true });
+  }
 
   function parentItem(item) {
     return item.parentElement?.closest(".toc-item");
@@ -551,6 +559,8 @@ function initToc() {
     if (globalThis.history.replaceState) globalThis.history.replaceState(null, "", hash);
     else globalThis.location.hash = hash;
 
+    setMobileTocOpen(false);
+
     globalThis.clearTimeout(settleTimer);
     settleTimer = globalThis.setTimeout(endProgrammaticScroll, 2000);
   }
@@ -574,6 +584,11 @@ function initToc() {
   }
 
   function onKeyDown(event) {
+    if (event.key === "Escape" && mobileToggle?.getAttribute("aria-expanded") === "true") {
+      event.preventDefault();
+      setMobileTocOpen(false, true);
+      return;
+    }
     if (["ArrowDown", "ArrowUp", "PageDown", "PageUp", "Home", "End", " "].includes(event.key)) releaseLockedEntry();
   }
 
@@ -588,6 +603,9 @@ function initToc() {
     });
   }
 
+  mobileToggle?.addEventListener("click", () => {
+    setMobileTocOpen(mobileToggle.getAttribute("aria-expanded") !== "true");
+  });
   toc.addEventListener("click", onClick);
   document.addEventListener("click", onDocumentFragmentClick);
   globalThis.addEventListener("scroll", onScroll, { passive: true });
