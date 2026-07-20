@@ -230,7 +230,8 @@ export default (
               <div class="search-panel-content">
                 <div id="pagefind-search"></div>
                 <button type="button" class="search-close" data-search-close aria-label="Close search">
-                  Esc
+                  <span class="search-close-desktop">Esc</span>
+                  <span class="search-close-mobile">Close</span>
                 </button>
                 <noscript>Search requires JavaScript.</noscript>
               </div>

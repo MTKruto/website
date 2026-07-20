@@ -23,7 +23,7 @@
   align-items: center;
   gap: 0.45rem;
   border: 1px solid var(--border);
-  border-radius: 0.55rem;
+  border-radius: 0;
   background: var(--surface);
   color: var(--muted);
   cursor: pointer;
@@ -86,7 +86,6 @@
 
   .side-rail .search-trigger {
     width: 100%;
-    border-radius: 0;
   }
 }
 
@@ -157,6 +156,10 @@ html.search-open body {
     background: var(--code-bg);
     color: var(--fg);
   }
+}
+
+.search-close-mobile {
+  display: none;
 }
 
 .search-panel-content {
@@ -325,6 +328,14 @@ html.search-open body {
 
   .search-close {
     top: calc(1rem + env(safe-area-inset-top));
+  }
+
+  .search-close-desktop {
+    display: none;
+  }
+
+  .search-close-mobile {
+    display: inline;
   }
 }
 
