@@ -7,6 +7,7 @@ import lang_plaintext from "highlight.js/lib/languages/plaintext";
 import lang_shell from "highlight.js/lib/languages/shell";
 import sass from "lume/plugins/sass.ts";
 import sitemap from "lume/plugins/sitemap.ts";
+import pagefind from "lume/plugins/pagefind.ts";
 import versions from "./_versions.ts";
 import metas from "lume/plugins/metas.ts";
 
@@ -499,5 +500,47 @@ site.helper("walkthrough", (track: string) => {
 }, { type: "filter" });
 
 site.data("layout", "layout.tsx");
+
+const pagefindUi = {
+  containerId: "pagefind-search",
+  pageSize: 8,
+  showSubResults: true,
+  showImages: false,
+  excerptLength: 24,
+  showEmptyFilters: false,
+  resetStyles: true,
+  debounceTimeoutMs: 150,
+  translations: {
+    placeholder: "Search...",
+    clear_search: "Clear search",
+    search_label: "Search documentation",
+    zero_results: "No results were found for “[SEARCH_TERM]”.",
+  },
+  // Pagefind UI forwards additional options to the search API.
+  // API reference pages vary greatly in length, so length should not outrank a closer title match.
+  ranking: { pageLength: 0 },
+};
+
+site.use(pagefind({
+  ui: pagefindUi,
+  indexing: {
+    rootSelector: "html",
+    verbose: false,
+    excludeSelectors: [
+      ".bottom-nav",
+      ".walkthrough-list",
+      ".index-subsections",
+      ".descr-list",
+      ".page-home > ul",
+      ".page-home > ol",
+    ],
+  },
+}));
+
+site.process([".html"], (pages) => {
+  for (const page of pages) {
+    page.document?.querySelector('script[src$="/pagefind-ui.js"]')?.setAttribute("defer", "");
+  }
+});
 
 export default site;

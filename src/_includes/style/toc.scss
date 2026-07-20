@@ -5,8 +5,8 @@
 
   nav {
     display: flex;
+    height: 100%;
     min-height: 0;
-    max-height: inherit;
     flex-direction: column;
   }
 
@@ -20,6 +20,7 @@
   &-list-wrap {
     position: relative;
     min-height: 0;
+    flex: 1;
     overflow-x: hidden;
     overflow-y: auto;
     overscroll-behavior: contain;
@@ -32,6 +33,7 @@
   }
 
   &-list {
+    padding-top: 1rem !important;
     padding-bottom: 1rem !important;
   }
 
@@ -104,23 +106,17 @@
       transition: margin-top 200ms cubic-bezier(0.4, 0, 0.2, 1), height 200ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
+
 }
 
 @media (min-width: 48rem) {
-  .toc {
-    position: fixed;
-    top: 2rem;
-    right: max(1.5rem, calc((100vw - 70rem) / 2));
+  .side-rail .toc {
     display: block;
-    width: 9rem;
-    max-height: var(--toc-max-height, calc(100vh - 4rem));
+    width: 100%;
+    min-height: 0;
+    flex: 1;
+    align-self: stretch;
     padding-right: 0.5rem;
     overflow: hidden;
-  }
-}
-
-@media (min-width: 64rem) {
-  .toc {
-    width: 13rem;
   }
 }

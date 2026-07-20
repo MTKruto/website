@@ -89,6 +89,7 @@ function initToc() {
   const list = toc?.querySelector(".toc-list");
   const rail = toc?.querySelector(".toc-rail");
   const railThumb = toc?.querySelector(".toc-rail-thumb");
+  const sideRail = toc?.closest(".side-rail");
   const footer = document.querySelector(".site-footer");
 
   if (!toc || !viewport || !list || !rail || !railThumb) return;
@@ -113,7 +114,7 @@ function initToc() {
   let programmaticTarget = 0;
   let settleTimer;
   let ticking = false;
-  let boundsTicking = false;
+  let railBoundsTicking = false;
   let relayoutTicking = false;
 
   toc.classList.add("toc-enhanced");
@@ -187,34 +188,39 @@ function initToc() {
   function revealLink(link) {
     if (viewport.clientHeight === 0 || viewport.scrollHeight <= viewport.clientHeight) return;
 
-    const edgePadding = 8;
     const linkRect = link.getBoundingClientRect();
     const viewportRect = viewport.getBoundingClientRect();
-
-    if (linkRect.top < viewportRect.top + edgePadding) {
-      viewport.scrollTop -= viewportRect.top - linkRect.top + edgePadding;
-    } else if (linkRect.bottom > viewportRect.bottom - edgePadding) {
-      viewport.scrollTop += linkRect.bottom - viewportRect.bottom + edgePadding;
-    }
+    const centered = viewport.scrollTop + linkRect.top - viewportRect.top -
+      (viewport.clientHeight - link.clientHeight) / 2;
+    const maximum = viewport.scrollHeight - viewport.clientHeight;
+    viewport.scrollTop = Math.max(0, Math.min(centered, maximum));
   }
 
-  function updateTocBounds() {
-    const style = getComputedStyle(toc);
-    if (style.display === "none") return;
+  function updateSideRailBottom() {
+    if (!(sideRail instanceof HTMLElement)) return;
+
+    const style = getComputedStyle(sideRail);
+    if (style.position !== "fixed") {
+      sideRail.style.removeProperty("--side-rail-bottom");
+      return;
+    }
 
     const top = Number.parseFloat(style.top) || 0;
-    const viewportBottom = globalThis.innerHeight - top;
-    const footerBottom = footer ? footer.getBoundingClientRect().top - 16 : viewportBottom;
-    const bottom = Math.min(viewportBottom, footerBottom);
-    toc.style.setProperty("--toc-max-height", `${Math.max(0, bottom - top)}px`);
+    const footerTop = footer?.getBoundingClientRect().top ?? globalThis.innerHeight;
+    const footerBottomInset = globalThis.innerHeight - footerTop + 16;
+    const bottom = Math.min(
+      Math.max(0, globalThis.innerHeight - top),
+      Math.max(0, footerBottomInset),
+    );
+    sideRail.style.setProperty("--side-rail-bottom", `${bottom}px`);
   }
 
-  function requestTocBoundsUpdate() {
-    if (boundsTicking) return;
-    boundsTicking = true;
+  function requestSideRailBoundsUpdate() {
+    if (railBoundsTicking) return;
+    railBoundsTicking = true;
     globalThis.requestAnimationFrame(() => {
-      boundsTicking = false;
-      updateTocBounds();
+      railBoundsTicking = false;
+      updateSideRailBottom();
     });
   }
 
@@ -337,7 +343,7 @@ function initToc() {
   }
 
   function onScroll() {
-    requestTocBoundsUpdate();
+    requestSideRailBoundsUpdate();
     if (programmatic) {
       if (Math.abs(globalThis.scrollY - programmaticTarget) <= 2) endProgrammaticScroll();
       return;
@@ -412,7 +418,7 @@ function initToc() {
     relayoutTicking = true;
     globalThis.requestAnimationFrame(() => {
       relayoutTicking = false;
-      updateTocBounds();
+      updateSideRailBottom();
       lastGroup = null;
       applyCurrent(programmaticEntry || lockedEntry || findCurrent(), true);
     });
@@ -434,7 +440,7 @@ function initToc() {
     resizeObserver.observe(list);
   }
 
-  updateTocBounds();
+  updateSideRailBottom();
   if (!activateHashEntry()) updateActive();
 }
 

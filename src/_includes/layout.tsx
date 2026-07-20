@@ -8,6 +8,8 @@ export default (
 ) => {
   const hasToc = !hide_toc && toc?.length > 0;
   const audience = walkthrough?.track === "user" || walkthrough?.track === "bot" ? walkthrough.track : undefined;
+  const searchable = !url.startsWith("/gh/") && !url.startsWith("/404") && url !== "/source-map/";
+  const searchKind = url.startsWith("/methods/") ? "Methods" : url.startsWith("/types/") ? "Types" : url.startsWith("/server/") ? "Server" : "Guides";
 
   function Bc() {
     const items = bc(url);
@@ -24,6 +26,72 @@ export default (
           <li aria-current="page">{title}</li>
         </ol>
       </nav>
+    );
+  }
+
+  function SearchTrigger() {
+    return (
+      <button
+        type="button"
+        class="search-trigger"
+        data-search-open
+        aria-label="Search documentation"
+        aria-haspopup="dialog"
+        aria-controls="search-dialog"
+        aria-keyshortcuts="Meta+K Control+K"
+      >
+        <svg viewBox="0 0 20 20" aria-hidden="true">
+          <circle cx="8.75" cy="8.75" r="5.25" />
+          <path d="m12.6 12.6 3.9 3.9" />
+        </svg>
+        <span>Search</span>
+        <kbd data-search-shortcut aria-hidden="true">⌘ K</kbd>
+      </button>
+    );
+  }
+
+  function Toc() {
+    if (!hasToc) return null;
+
+    return (
+      <aside class="toc">
+        <nav aria-label="On this page">
+          <div class="toc-list-wrap">
+            <ol class="toc-list">
+              {toc.map((v: any) => (
+                <li class="toc-item">
+                  <a
+                    href={`#${v.slug}`}
+                    data-toc={`#${v.slug}`}
+                    class="toc-link"
+                  >
+                    {v.text}
+                  </a>
+                  {!!v.children?.length && (
+                    <ul class="toc-sublist">
+                      {v.children.map((v: any) => (
+                        <li class="toc-item">
+                          <a
+                            href={`#${v.slug}`}
+                            data-toc={`#${v.slug}`}
+                            class="toc-link"
+                          >
+                            {v.text}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </li>
+              ))}
+            </ol>
+            <div class="toc-rail" aria-hidden="true">
+              <div class="toc-rail-background"></div>
+              <div class="toc-rail-thumb"></div>
+            </div>
+          </div>
+        </nav>
+      </aside>
     );
   }
 
@@ -68,15 +136,38 @@ export default (
         <body>
           <a class="skip-link" href="#main-content">Skip to content</a>
           <main id="main-content" class="site-main">
-            <Bc />
+            <div class={`page-tools${hasToc ? " page-tools-with-toc" : ""}`} data-pagefind-ignore="all">
+              <Bc />
+              {hasToc
+                ? (
+                  <div class="side-rail">
+                    <SearchTrigger />
+                    <Toc />
+                  </div>
+                )
+                : <SearchTrigger />}
+            </div>
             <div class={`article page-layout${hasToc ? " page-layout-with-toc" : ""}`}>
-              <article class="article__content content">
-                <h1 class="page-title">
+              <article
+                class={`article__content content${url === "/" ? " page-home" : ""}`}
+                data-pagefind-body={searchable ? "true" : undefined}
+              >
+                {searchable && (
+                  <span
+                    class="pagefind-meta"
+                    data-pagefind-filter="kind"
+                    data-pagefind-meta={`kind:${searchKind}`}
+                  >
+                    {searchKind}
+                  </span>
+                )}
+                <h1 class="page-title" data-pagefind-meta={searchable ? "title" : undefined}>
                   {title}
                   {audience && (
                     <span
                       class="inline-flex w-fit items-center"
                       style="font-size:12px;white-space:nowrap;word-break:keep-all;"
+                      data-pagefind-ignore="all"
                     >
                       <span
                         class="w-fit bg-dbt select-none text-fgt"
@@ -89,7 +180,7 @@ export default (
                 </h1>
                 {children}
                 {(next || prev) && (
-                  <nav class="bottom-nav" aria-label="Documentation pagination">
+                  <nav class="bottom-nav" aria-label="Documentation pagination" data-pagefind-ignore="all">
                     {prev
                       ? (
                         <a class="bottom-nav-prev" href={prev}>
@@ -109,46 +200,6 @@ export default (
                   </nav>
                 )}
               </article>
-              {hasToc && (
-                <aside class="toc">
-                  <nav aria-label="On this page">
-                    <div class="toc-list-wrap">
-                      <ol class="toc-list">
-                        {toc.map((v: any) => (
-                          <li class="toc-item">
-                            <a
-                              href={`#${v.slug}`}
-                              data-toc={`#${v.slug}`}
-                              class="toc-link"
-                            >
-                              {v.text}
-                            </a>
-                            {!!v.children?.length && (
-                              <ul class="toc-sublist">
-                                {v?.children?.map((v: any) => (
-                                  <li class="toc-item">
-                                    <a
-                                      href={`#${v.slug}`}
-                                      data-toc={`#${v.slug}`}
-                                      class="toc-link"
-                                    >
-                                      {v.text}
-                                    </a>
-                                  </li>
-                                ))}
-                              </ul>
-                            )}
-                          </li>
-                        ))}
-                      </ol>
-                      <div class="toc-rail" aria-hidden="true">
-                        <div class="toc-rail-background"></div>
-                        <div class="toc-rail-thumb"></div>
-                      </div>
-                    </div>
-                  </nav>
-                </aside>
-              )}
             </div>
           </main>
           <footer class="site-footer">
@@ -174,6 +225,18 @@ export default (
               </nav>
             </div>
           </footer>
+          <dialog id="search-dialog" class="search-dialog" aria-label="Search documentation">
+            <div class="search-panel">
+              <div class="search-panel-content">
+                <div id="pagefind-search"></div>
+                <button type="button" class="search-close" data-search-close aria-label="Close search">
+                  Esc
+                </button>
+                <noscript>Search requires JavaScript.</noscript>
+              </div>
+            </div>
+          </dialog>
+          <script src="/search.js" />
           <script src="/script.js" />
         </body>
       </html>
