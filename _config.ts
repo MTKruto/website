@@ -243,32 +243,46 @@ site.process([".html"], (pages) => {
     if (!document) {
       continue;
     }
-    for (const codeGroup of document.querySelectorAll("code-group")) {
+    for (const [groupIndex, codeGroup] of [...document.querySelectorAll("code-group")].entries()) {
       const div = document.createElement("div");
-      let first = true;
+      const controls = document.createElement("div");
+      const items = [...codeGroup.querySelectorAll("code-group-item")];
+      const panels = new Array<Element>();
 
-      {
-        const controls = document.createElement("div");
-        controls.classList.add("code-group-header");
-        let first = true;
-        let n = 0;
-        for (const node of codeGroup.querySelectorAll("code-group-item")) {
-          controls.innerHTML += `<button data-n=${n++} class="code-group-button${first ? " code-group-button-active" : ""}">${node.getAttribute("title")}</button>`;
-          first = false;
-        }
-        div.append(controls);
-      }
-      let n = 0;
-      for (const pre of codeGroup.querySelectorAll("pre")) {
-        if (!first) {
-          pre.setAttribute("hidden", "");
-        } else {
-          first = false;
-        }
-        pre.setAttribute("data-n", n++ + "");
+      controls.classList.add("code-group-header");
+      controls.setAttribute("role", "tablist");
+      controls.setAttribute("aria-label", "Code example variants");
+
+      for (const [itemIndex, item] of items.entries()) {
+        const pre = item.querySelector("pre");
+        if (!pre) continue;
+
+        const label = item.getAttribute("title")?.trim() || `Example ${itemIndex + 1}`;
+        const selected = panels.length === 0;
+        const tabId = `code-group-${groupIndex + 1}-tab-${itemIndex + 1}`;
+        const panelId = `code-group-${groupIndex + 1}-panel-${itemIndex + 1}`;
+        const button = document.createElement("button");
+
+        button.textContent = label;
+        button.className = `code-group-button${selected ? " code-group-button-active" : ""}`;
+        button.setAttribute("type", "button");
+        button.setAttribute("id", tabId);
+        button.setAttribute("role", "tab");
+        button.setAttribute("aria-controls", panelId);
+        button.setAttribute("aria-selected", String(selected));
+        button.setAttribute("tabindex", selected ? "0" : "-1");
+        button.setAttribute("data-code-group-label", label);
+        controls.append(button);
+
+        pre.setAttribute("id", panelId);
+        pre.setAttribute("role", "tabpanel");
+        pre.setAttribute("aria-labelledby", tabId);
+        if (!selected) pre.setAttribute("hidden", "");
         pre.classList.add("code-group-item");
-        div.append(pre);
+        panels.push(pre);
       }
+
+      div.append(controls, ...panels);
       div.classList.add("code-group");
       codeGroup.replaceWith(div);
     }

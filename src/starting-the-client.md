@@ -94,7 +94,7 @@ And here is an example on how you can use your own resolver functions for author
 
 <code-group>
 
-<code-group-item title="Bun, Deno, Web">
+<code-group-item title="Deno, Web, Bun">
 
 ```ts
 // The functions may also return promises.

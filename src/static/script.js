@@ -1,25 +1,62 @@
-document.querySelectorAll(".code-group-button").forEach((button) => {
-  button.addEventListener("click", (e) => {
-    const codeGroup = e.target.parentElement.parentElement;
-    const codeGroupControls = e.target.parentElement;
+function initCodeGroups() {
+  const groups = Array.from(document.querySelectorAll(".content .code-group"));
+  if (!groups.length) return;
 
-    for (const pre of codeGroup.querySelectorAll("pre")) {
-      if (pre.dataset.n == button.dataset.n) {
-        pre.hidden = false;
-      } else {
-        pre.hidden = true;
-      }
+  function buttonsIn(group) {
+    return Array.from(group.querySelectorAll(":scope > .code-group-header > .code-group-button"));
+  }
+
+  function activateInGroup(group, label) {
+    const buttons = buttonsIn(group);
+    const selected = buttons.find((button) => button.dataset.codeGroupLabel === label);
+    if (!selected) return;
+
+    for (const button of buttons) {
+      const active = button === selected;
+      button.classList.toggle("code-group-button-active", active);
+      button.setAttribute("aria-selected", String(active));
+      button.tabIndex = active ? 0 : -1;
     }
 
-    for (const button of codeGroupControls.querySelectorAll("button")) {
-      if (button == e.target) {
-        button.classList.add("code-group-button-active");
-      } else {
-        button.classList.remove("code-group-button-active");
-      }
+    for (const panel of group.querySelectorAll(":scope > .code-group-item")) {
+      panel.hidden = panel.id !== selected.getAttribute("aria-controls");
     }
-  });
-});
+  }
+
+  function activateMatching(label) {
+    if (!label) return;
+    for (const group of groups) activateInGroup(group, label);
+  }
+
+  for (const group of groups) {
+    const buttons = buttonsIn(group);
+
+    for (const button of buttons) {
+      button.addEventListener("click", () => activateMatching(button.dataset.codeGroupLabel));
+      button.addEventListener("keydown", (event) => {
+        let index;
+        if (event.key === "ArrowRight") {
+          index = (buttons.indexOf(button) + 1) % buttons.length;
+        } else if (event.key === "ArrowLeft") {
+          index = (buttons.indexOf(button) - 1 + buttons.length) % buttons.length;
+        } else if (event.key === "Home") {
+          index = 0;
+        } else if (event.key === "End") {
+          index = buttons.length - 1;
+        } else {
+          return;
+        }
+
+        event.preventDefault();
+        const next = buttons[index];
+        activateMatching(next.dataset.codeGroupLabel);
+        next.focus();
+      });
+    }
+  }
+}
+
+initCodeGroups();
 
 function initIndexSubsections() {
   const panels = Array.from(document.querySelectorAll(".index-subsections"));
@@ -27,6 +64,7 @@ function initIndexSubsections() {
   if (!panels.length || !content) return;
 
   const hoverQuery = globalThis.matchMedia("(hover: hover) and (pointer: fine)");
+  const reducedMotionQuery = globalThis.matchMedia("(prefers-reduced-motion: reduce)");
   const entries = panels.map((panel, index) => {
     const item = panel.parentElement;
     const list = panel.querySelector(":scope > ul");
@@ -45,27 +83,147 @@ function initIndexSubsections() {
     button.innerHTML = '<span class="index-subsection-toggle-icon"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 5.5l5 5 5-5" /></svg></span>';
     link.after(button);
 
-    const entry = { button, item, panel, title };
+    const entry = { button, item, link, panel, title };
     button.addEventListener("click", () => {
       if (!hoverQuery.matches) setOpen(entry, !item.classList.contains("is-open"));
     });
     return entry;
   }).filter(Boolean);
 
+  const lists = new Set(entries.map((entry) => entry.item.closest(".walkthrough-list")).filter(Boolean));
+  const hoverDelay = 120;
+  const hoverMoveTolerance = 4;
+  const hoverTransitionLock = 500;
+  let activeEntry;
+  let candidateEntry;
+  let candidateX = 0;
+  let candidateY = 0;
+  let candidateAnchorX = 0;
+  let candidateAnchorY = 0;
+  let candidateTimer;
+  let closeTimer;
+  let hoverLockedUntil = 0;
+
   function setOpen(entry, open) {
     entry.item.classList.toggle("is-open", open);
     entry.panel.inert = !open;
     entry.panel.setAttribute("aria-hidden", String(!open));
-    entry.button.setAttribute("aria-expanded", String(open));
-    entry.button.setAttribute("aria-label", `${open ? "Hide" : "Show"} sections in ${entry.title}`);
+    if (!hoverQuery.matches) {
+      entry.button.setAttribute("aria-expanded", String(open));
+      entry.button.setAttribute("aria-label", `${open ? "Hide" : "Show"} sections in ${entry.title}`);
+    }
+  }
+
+  function cancelCandidate() {
+    globalThis.clearTimeout(candidateTimer);
+    candidateTimer = undefined;
+    candidateEntry = undefined;
+  }
+
+  function closeActive(entry = activeEntry) {
+    if (!entry || entry !== activeEntry) return;
+    setOpen(entry, false);
+    activeEntry = undefined;
+    hoverLockedUntil = 0;
+  }
+
+  function activateDesktop(entry, pointer) {
+    cancelCandidate();
+    if (entry === activeEntry) return;
+    if (activeEntry) setOpen(activeEntry, false);
+    activeEntry = entry;
+    setOpen(entry, true);
+    if (pointer) {
+      hoverLockedUntil = performance.now() + (reducedMotionQuery.matches ? hoverDelay * 2 : hoverTransitionLock);
+    }
+  }
+
+  function titleAtPoint(entry, x, y) {
+    const target = document.elementFromPoint(x, y);
+    return target === entry.link || entry.link.contains(target);
+  }
+
+  function armCandidate(entry, event) {
+    if (!hoverQuery.matches || (event.pointerType && event.pointerType !== "mouse")) return;
+    if (entry === activeEntry || performance.now() < hoverLockedUntil) return;
+
+    candidateX = event.clientX;
+    candidateY = event.clientY;
+    if (candidateEntry !== entry) {
+      cancelCandidate();
+      candidateEntry = entry;
+      candidateAnchorX = candidateX;
+      candidateAnchorY = candidateY;
+    } else if (
+      Math.hypot(candidateX - candidateAnchorX, candidateY - candidateAnchorY) >= hoverMoveTolerance
+    ) {
+      globalThis.clearTimeout(candidateTimer);
+      candidateAnchorX = candidateX;
+      candidateAnchorY = candidateY;
+    } else if (candidateTimer) {
+      return;
+    }
+
+    candidateTimer = globalThis.setTimeout(() => {
+      candidateTimer = undefined;
+      if (
+        candidateEntry === entry &&
+        performance.now() >= hoverLockedUntil &&
+        titleAtPoint(entry, candidateX, candidateY)
+      ) {
+        activateDesktop(entry, { x: candidateX, y: candidateY });
+      }
+    }, hoverDelay);
+  }
+
+  for (const entry of entries) {
+    entry.link.addEventListener("pointerenter", (event) => armCandidate(entry, event));
+    entry.link.addEventListener("pointermove", (event) => armCandidate(entry, event));
+    entry.link.addEventListener("pointerleave", () => {
+      if (candidateEntry === entry) cancelCandidate();
+    });
+    entry.item.addEventListener("focusin", () => {
+      if (hoverQuery.matches) activateDesktop(entry);
+    });
+    entry.item.addEventListener("focusout", () => {
+      globalThis.setTimeout(() => {
+        if (
+          hoverQuery.matches &&
+          activeEntry === entry &&
+          !entry.item.contains(document.activeElement) &&
+          !entry.item.matches(":hover")
+        ) {
+          closeActive(entry);
+        }
+      });
+    });
+  }
+
+  for (const list of lists) {
+    list.addEventListener("pointerenter", () => globalThis.clearTimeout(closeTimer));
+    list.addEventListener("pointerleave", () => {
+      cancelCandidate();
+      globalThis.clearTimeout(closeTimer);
+      closeTimer = globalThis.setTimeout(() => {
+        if (
+          activeEntry?.item.closest(".walkthrough-list") === list &&
+          !list.matches(":hover") &&
+          !list.contains(document.activeElement)
+        ) {
+          closeActive();
+        }
+      }, hoverDelay);
+    });
   }
 
   function syncInputMode() {
+    cancelCandidate();
+    globalThis.clearTimeout(closeTimer);
+    hoverLockedUntil = 0;
+    activeEntry = undefined;
     for (const entry of entries) {
-      entry.item.classList.remove("is-open");
+      setOpen(entry, false);
       if (hoverQuery.matches) {
-        entry.panel.inert = false;
-        entry.panel.removeAttribute("aria-hidden");
         entry.button.tabIndex = -1;
         entry.button.setAttribute("aria-hidden", "true");
         entry.button.removeAttribute("aria-expanded");
@@ -73,7 +231,6 @@ function initIndexSubsections() {
       } else {
         entry.button.tabIndex = 0;
         entry.button.removeAttribute("aria-hidden");
-        setOpen(entry, false);
       }
     }
   }

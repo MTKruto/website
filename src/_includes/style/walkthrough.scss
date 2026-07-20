@@ -147,28 +147,6 @@ ol.walkthrough-list {
   .index-subsection-toggle {
     display: none;
   }
-
-  .index-subsections-enhanced .index-item-collapsible:is(:hover, :focus-within) {
-    > .index-subsections {
-      grid-template-rows: 1fr;
-      opacity: 1;
-      transform: none;
-
-      > ul > li {
-        opacity: 1;
-        transform: none;
-        transition-delay: calc(55ms + var(--subsection-delay, 0ms));
-      }
-    }
-
-    .index-subsection-toggle {
-      opacity: 0.9;
-
-      > .index-subsection-toggle-icon {
-        transform: translateZ(0) rotate(180deg);
-      }
-    }
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
