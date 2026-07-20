@@ -23,8 +23,6 @@ Its key features include:
 
 ### Walkthrough
 
-Start with the main walkthrough. Individual sections are tagged when they apply only to user accounts or bots.
-
 #### Main
 
 {{ "main" |> walkthrough }}
