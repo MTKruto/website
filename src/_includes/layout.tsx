@@ -48,7 +48,6 @@ export default (
           <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
           <meta name="theme-color" content="#0e0f0f" media="(prefers-color-scheme: dark)" />
           <link rel="icon" href="/favicon.ico" sizes="any" />
-          <link rel="icon" href="/logo.svg" type="image/svg+xml" />
           <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
           <link rel="manifest" href="/site.webmanifest" />
           <link rel="stylesheet" href="/reset.css" />
