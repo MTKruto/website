@@ -539,7 +539,9 @@ function initToc() {
     programmaticEntry = entry;
     applyCurrent(entry);
 
-    const top = entry.target.getBoundingClientRect().top + globalThis.scrollY - 20;
+    setMobileTocOpen(false);
+    const scrollPaddingTop = Number.parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop) || 0;
+    const top = entry.target.getBoundingClientRect().top + globalThis.scrollY - scrollPaddingTop;
     const maxScroll = document.documentElement.scrollHeight - globalThis.innerHeight;
     programmaticTarget = Math.max(0, Math.min(top, maxScroll));
 
@@ -558,8 +560,6 @@ function initToc() {
     const hash = link.dataset.toc;
     if (globalThis.history.replaceState) globalThis.history.replaceState(null, "", hash);
     else globalThis.location.hash = hash;
-
-    setMobileTocOpen(false);
 
     globalThis.clearTimeout(settleTimer);
     settleTimer = globalThis.setTimeout(endProgrammaticScroll, 2000);
