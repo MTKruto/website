@@ -20,7 +20,9 @@
 
   &-button {
     position: relative;
+    display: inline-flex;
     padding: 0.65rem 1rem;
+    align-items: center;
     color: var(--muted);
     cursor: pointer;
     font-size: 0.72rem;

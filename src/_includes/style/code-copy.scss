@@ -86,11 +86,12 @@
   position: relative;
 
   > .code-group-header {
-    margin-right: 5.9rem;
+    min-height: 2.8rem;
+    margin-right: 5.8rem;
   }
 
   > .code-copy-button {
-    top: 0.35rem;
+    top: 0.45rem;
     right: 0.45rem;
   }
 }
