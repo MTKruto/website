@@ -6,7 +6,7 @@ walkthrough:
   order: 21
 ---
 
-User clients can view and remove the account's authorization sessions.
+Users can view and remove the account's authorization sessions.
 
 ## Listing Sessions
 

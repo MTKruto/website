@@ -13,7 +13,7 @@ Forum topics separate conversations in a supergroup. The supergroup must have to
 
 ## Enabling Topics
 
-User clients can enable topics with {{ "enableTopics" |> m }}. The second argument controls whether topics are shown as tabs.
+Users can enable topics with {{ "enableTopics" |> m }}. The second argument controls whether topics are shown as tabs.
 
 ```ts
 await client.enableTopics(chatId, false);
@@ -51,7 +51,7 @@ client.on("message", (ctx) => {
 
 ## Listing Topics
 
-User clients can list a forum's topics with {{ "getTopics" |> m }}.
+Users can list a forum's topics with {{ "getTopics" |> m }}.
 
 ```ts
 const { items } = await client.getTopics(chatId);

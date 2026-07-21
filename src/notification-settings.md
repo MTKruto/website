@@ -6,7 +6,7 @@ walkthrough:
   order: 19
 ---
 
-User clients can control notifications for individual chats.
+Users can control notifications for individual chats.
 
 ## Getting Notification Settings
 

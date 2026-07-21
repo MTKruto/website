@@ -54,7 +54,7 @@ An item's `type` is either `"checked"` or `"unchecked"`. Checked items also incl
 
 ## Updating a Checklist
 
-User clients can check and uncheck items by their identifiers.
+Users can check and uncheck items by their identifiers.
 
 ```ts
 const itemId = message.checklist.items[0].id;

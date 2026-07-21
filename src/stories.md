@@ -6,7 +6,7 @@ walkthrough:
   order: 10
 ---
 
-User clients can post photo and video stories with {{ "createStory" |> m }}.
+Users can post photo and video stories with {{ "createStory" |> m }}.
 
 ## Posting a Photo Story
 

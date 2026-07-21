@@ -6,7 +6,7 @@ walkthrough:
   order: 5
 ---
 
-User clients can list chats with saved messages and get the messages saved from each chat.
+Users can list chats with saved messages and get the messages saved from each chat.
 
 ## Listing Saved Chats
 

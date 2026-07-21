@@ -6,7 +6,7 @@ walkthrough:
   order: 23
 ---
 
-User clients can control when an inactive account is automatically deleted.
+Users can control when an inactive account is automatically deleted.
 
 ## Getting the Auto-Deletion Period
 

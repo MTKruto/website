@@ -6,7 +6,7 @@ walkthrough:
   order: 6
 ---
 
-User clients can save message drafts and clear all drafts.
+Users can save message drafts and clear all drafts.
 
 ## Saving a Draft
 

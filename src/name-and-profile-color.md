@@ -6,7 +6,7 @@ walkthrough:
   order: 13
 ---
 
-User clients can customize their name color and profile color.
+Users can customize their name color and profile color.
 
 ## Setting the Name Color
 

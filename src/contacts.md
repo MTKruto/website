@@ -6,7 +6,7 @@ walkthrough:
   order: 1
 ---
 
-User clients can manage the account's Telegram contacts.
+Users can manage the account's Telegram contacts.
 
 ## Listing Contacts
 

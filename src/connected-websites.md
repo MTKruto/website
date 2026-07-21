@@ -6,7 +6,7 @@ walkthrough:
   order: 22
 ---
 
-User clients can view and disconnect websites linked to the account.
+Users can view and disconnect websites linked to the account.
 
 ## Listing Connected Websites
 

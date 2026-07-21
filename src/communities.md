@@ -6,7 +6,7 @@ walkthrough:
   order: 3
 ---
 
-User clients can organize related chats into communities.
+Users can organize related chats into communities.
 
 ## Creating a Community
 

@@ -6,7 +6,7 @@ walkthrough:
   order: 15
 ---
 
-User clients can add music to their profile.
+Users can add music to their profile.
 
 ## Adding Music
 

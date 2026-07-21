@@ -6,7 +6,7 @@ walkthrough:
   order: 16
 ---
 
-User clients can display a channel on the account's profile.
+Users can display a channel on the account's profile.
 
 ## Setting a Personal Channel
 

@@ -6,7 +6,7 @@ walkthrough:
   order: 18
 ---
 
-User clients can block users and manage the account's block list.
+Users can block users and manage the account's block list.
 
 ## Blocking a User
 

@@ -6,7 +6,7 @@ walkthrough:
   order: 11
 ---
 
-User clients can manage the account's profile photo or video.
+Users can manage the account's profile photo or video.
 
 ## Setting a Profile Photo
 

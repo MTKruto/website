@@ -6,7 +6,7 @@ walkthrough:
   order: 14
 ---
 
-User clients can set or remove the account's birthday.
+Users can set or remove the account's birthday.
 
 ## Setting a Birthday
 

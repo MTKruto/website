@@ -6,7 +6,7 @@ walkthrough:
   order: 2
 ---
 
-User clients can get recommended channels and find similar channels or bots.
+Users can get recommended channels and find similar channels or bots.
 
 ## Getting Recommended Channels
 

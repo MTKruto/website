@@ -35,7 +35,7 @@ const inviteLink = await client.createInviteLink(chatId, {
 });
 ```
 
-User clients can use {{ "enableJoinRequests" |> m }} and {{ "disableJoinRequests" |> m }} to enable or disable join requests for a channel or supergroup.
+Users can use {{ "enableJoinRequests" |> m }} and {{ "disableJoinRequests" |> m }} to enable or disable join requests for a channel or supergroup.
 
 ## Handling Join Requests
 
@@ -52,7 +52,7 @@ Use {{ "declineJoinRequest" |> m }} to decline a request instead.
 
 ## Listing Join Requests
 
-User clients can list pending requests with {{ "getJoinRequests" |> m }}.
+Users can list pending requests with {{ "getJoinRequests" |> m }}.
 
 ```ts
 const requests = await client.getJoinRequests(chatId);

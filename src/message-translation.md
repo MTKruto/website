@@ -6,7 +6,7 @@ walkthrough:
   order: 8
 ---
 
-User clients can translate messages and text into another language.
+Users can translate messages and text into another language.
 
 ## Translating a Message
 

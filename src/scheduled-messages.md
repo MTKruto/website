@@ -6,7 +6,7 @@ walkthrough:
   order: 7
 ---
 
-User clients can schedule messages to be sent later. Set `sendAt` to a future Unix timestamp in seconds when sending a message.
+Users can schedule messages to be sent later. Set `sendAt` to a future Unix timestamp in seconds when sending a message.
 
 ## Scheduling a Message
 

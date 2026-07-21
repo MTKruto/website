@@ -6,7 +6,7 @@ walkthrough:
   order: 4
 ---
 
-User clients can move chats between the main and archived chat lists.
+Users can move chats between the main and archived chat lists.
 
 ## Archiving a Chat
 

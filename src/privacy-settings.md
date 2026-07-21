@@ -6,7 +6,7 @@ walkthrough:
   order: 20
 ---
 
-User clients can control who can see account information and use features such as calls and group invitations.
+Users can control who can see account information and use features such as calls and group invitations.
 
 ## Getting Privacy Rules
 

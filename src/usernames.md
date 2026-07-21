@@ -6,7 +6,7 @@ walkthrough:
   order: 12
 ---
 
-User clients can check and manage the account's usernames.
+Users can check and manage the account's usernames.
 
 ## Checking a Username
 

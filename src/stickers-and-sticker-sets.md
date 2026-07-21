@@ -15,7 +15,7 @@ Clients can create, retrieve, and manage sticker sets.
 
 ## Suggesting a Slug
 
-User clients can use {{ "suggestStickerSetSlug" |> m }} to generate a slug from a title.
+Users can use {{ "suggestStickerSetSlug" |> m }} to generate a slug from a title.
 
 ```ts
 const slug = await client.suggestStickerSetSlug("Cat Stickers");
@@ -88,7 +88,7 @@ Bot clients must pass `{ userId }` to {{ "setStickerSetThumbnail" |> m }}.
 
 ## Managing Added Sticker Sets
 
-User clients can add an existing set with {{ "addStickerSet" |> m }} and list added sets with {{ "getAddedStickerSets" |> m }}.
+Users can add an existing set with {{ "addStickerSet" |> m }} and list added sets with {{ "getAddedStickerSets" |> m }}.
 
 ```ts
 await client.addStickerSet(slug);
@@ -105,7 +105,7 @@ await client.removeStickerSet(slug);
 
 ## Managing Favorite Stickers
 
-User clients can list favorite stickers with {{ "getFavoriteStickers" |> m }}.
+Users can list favorite stickers with {{ "getFavoriteStickers" |> m }}.
 
 ```ts
 const favoriteStickers = await client.getFavoriteStickers();
@@ -120,7 +120,7 @@ await client.removeStickerFromFavorites(sticker.fileId);
 
 ## Managing Recent Stickers
 
-User clients can list recent stickers with {{ "getRecentStickers" |> m }}.
+Users can list recent stickers with {{ "getRecentStickers" |> m }}.
 
 ```ts
 const recentStickers = await client.getRecentStickers();
