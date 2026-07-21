@@ -1,5 +1,5 @@
 ---
-title: Sticker Sets
+title: Stickers and Sticker Sets
 parent: /#walkthrough
 walkthrough:
   track: main
@@ -7,6 +7,8 @@ walkthrough:
   sections:
     suggesting-a-slug: user
     managing-added-sticker-sets: user
+    managing-favorite-stickers: user
+    managing-recent-stickers: user
 ---
 
 Clients can create, retrieve, and manage sticker sets.
@@ -99,6 +101,42 @@ Use {{ "archiveStickerSet" |> m }} and {{ "unarchiveStickerSet" |> m }} to chang
 await client.archiveStickerSet(slug);
 await client.unarchiveStickerSet(slug);
 await client.removeStickerSet(slug);
+```
+
+## Managing Favorite Stickers
+
+User clients can list favorite stickers with {{ "getFavoriteStickers" |> m }}.
+
+```ts
+const favoriteStickers = await client.getFavoriteStickers();
+```
+
+Use {{ "addStickerToFavorites" |> m }} and {{ "removeStickerFromFavorites" |> m }} with a sticker's file identifier to update the list.
+
+```ts
+await client.addStickerToFavorites(sticker.fileId);
+await client.removeStickerFromFavorites(sticker.fileId);
+```
+
+## Managing Recent Stickers
+
+User clients can list recent stickers with {{ "getRecentStickers" |> m }}.
+
+```ts
+const recentStickers = await client.getRecentStickers();
+```
+
+Use {{ "addStickerToRecents" |> m }} and {{ "removeStickerFromRecents" |> m }} with a sticker's file identifier to update the list.
+
+```ts
+await client.addStickerToRecents(sticker.fileId);
+await client.removeStickerFromRecents(sticker.fileId);
+```
+
+Use {{ "clearRecentStickers" |> m }} to remove every sticker from the recent list.
+
+```ts
+await client.clearRecentStickers();
 ```
 
 ## Deleting a Sticker Set
