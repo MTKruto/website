@@ -27,7 +27,7 @@ For your client to be able to authorize accounts, you need to have your own Tele
 3. Fill in the form.
 4. Click "Create application."
 
-You should then be moved to somewhere where you can see your app's API ID and API hash.
+After creating the application, the site displays its API ID and API hash.
 
 > It is recommended that these credentials are not leaked.
 
@@ -100,7 +100,7 @@ Here is how you can authorize a bot with its token.
 await client.start({ botToken: "1234567890:AABCDEFGHIJKLMNOP" });
 ```
 
-And here is an example on how you can use your own resolver functions for authorizing a user.
+Here is an example of using custom resolver functions to authorize a user.
 
 <code-group>
 
@@ -143,4 +143,4 @@ client.start({
 
 </code-group>
 
-Now try running your code and see if the "Started." message is logged. If it did, you are good to go!
+Run the code and confirm that it logs "Started."

@@ -24,7 +24,7 @@ await client.setMyDescription({
 
 ## Getting Profile Information
 
-the corresponding getter methods lets you read the current values.
+The corresponding getter methods let you read the current values.
 
 ```ts
 const name = await client.getMyName();

@@ -180,7 +180,7 @@ await client.sendLivePhoto(chatId, photo, video);
 
 ## Getting Messages
 
-{{ "getMessage" |> m }} lets you get one message or {{ "getMessages" |> m }} to get several.
+{{ "getMessage" |> m }} retrieves one message, while {{ "getMessages" |> m }} retrieves several.
 
 ```ts
 const message = await client.getMessage(chatId, messageId);
