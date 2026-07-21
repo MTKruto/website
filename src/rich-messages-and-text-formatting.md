@@ -7,19 +7,28 @@ walkthrough:
   sections:
     html: bot
     markdown: bot
+    getting-rich-text: user
 ---
+
+## Getting Rich Text
+
+Users can retrieve structured rich text from a message through {{ "getRichText" |> m }}.
+
+```ts
+const richText = await client.getRichText(chatId, messageId);
+```
 
 MTKruto supports both rich messages and formatted text messages. Rich messages contain structured page content such as headings, paragraphs, lists, tables, and media. Regular messages and media captions remain strings, with formatting described by message entities.
 
 ## Rich Messages
 
-Send a rich message with {{ "sendRichText" |> m }} and an {{ "InputRichText" |> t }}. The input can be expressed in three ways:
+{{ "sendRichText" |> m }} sends an {{ "InputRichText" |> t }}. The input can be expressed in three ways:
 
 - `blocks` provides the page structure and nested text components directly.
 - `html` lets bots provide the page as HTML.
 - `markdown` lets bots provide the page as Markdown.
 
-Choose blocks when the content is assembled programmatically or when you want the TypeScript type system to check its structure. HTML and Markdown are convenient when the content already exists as markup.
+Blocks suit content assembled programmatically or checked by the TypeScript type system. HTML and Markdown are convenient when the content already exists as markup.
 
 ### Page Blocks
 
@@ -150,7 +159,7 @@ Messages and media captions can contain bold text, links, spoilers, code, and ot
 
 ### HTML and Markdown
 
-Set `parseMode` on a method call when its text contains supported markup.
+The `parseMode` option identifies supported markup in a method's text.
 
 ```ts
 await client.sendMessage(
@@ -182,7 +191,7 @@ await client.sendMessage(chatId, "<b>This remains unchanged.</b>", {
 
 ### Explicit Entities
 
-Pass entities directly when the text is assembled programmatically. Entity offsets and lengths use UTF-16 code units, which is how JavaScript measures string length.
+Programmatically assembled text can include entities directly. Entity offsets and lengths use UTF-16 code units, which is how JavaScript measures string length.
 
 ```ts
 const text = "Important message";

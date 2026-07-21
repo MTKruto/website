@@ -10,7 +10,11 @@ Methods that send photos, videos, documents, and other media accept a {{ "FileSo
 
 ## Uploading Files
 
-Pass a file source directly to the method for the type of media you want to send.
+Each media-sending method accepts a file source directly.
+
+## Downloading a Chunk
+
+To download a specific byte range when the complete-file helpers are not suitable, call {{ "downloadChunk" |> m }}.
 
 ```ts
 // A local file path.

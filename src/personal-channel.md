@@ -10,7 +10,7 @@ Users can display a channel on the account's profile.
 
 ## Setting a Personal Channel
 
-Use {{ "setPersonalChannel" |> m }} with the channel's identifier.
+{{ "setPersonalChannel" |> m }} accepts the channel's identifier.
 
 ```ts
 await client.setPersonalChannel({ chatId: channelId });
@@ -18,7 +18,7 @@ await client.setPersonalChannel({ chatId: channelId });
 
 ## Removing the Personal Channel
 
-Call {{ "setPersonalChannel" |> m }} without a channel.
+An empty {{ "setPersonalChannel" |> m }} call removes the channel.
 
 ```ts
 await client.setPersonalChannel();

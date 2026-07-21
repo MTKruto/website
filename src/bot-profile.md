@@ -10,7 +10,7 @@ Bots can manage the name and descriptions Telegram shows to users.
 
 ## Updating Profile Information
 
-Use {{ "setMyName" |> m }}, {{ "setMyShortDescription" |> m }}, and {{ "setMyDescription" |> m }} to update the bot's profile information.
+{{ "setMyName" |> m }}, {{ "setMyShortDescription" |> m }}, and {{ "setMyDescription" |> m }} update the bot's profile information.
 
 ```ts
 await client.setMyName({ name: "Reminder Bot" });
@@ -24,7 +24,7 @@ await client.setMyDescription({
 
 ## Getting Profile Information
 
-Use the corresponding getter methods to read the current values.
+the corresponding getter methods lets you read the current values.
 
 ```ts
 const name = await client.getMyName();
@@ -34,7 +34,7 @@ const description = await client.getMyDescription();
 
 ## Localizing Profile Information
 
-Pass `languageCode` to set a value for a specific language.
+The `languageCode` option sets a value for a specific language.
 
 ```ts
 await client.setMyShortDescription({

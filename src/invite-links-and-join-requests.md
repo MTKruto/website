@@ -5,6 +5,8 @@ walkthrough:
   track: main
   order: 15
   sections:
+    deleting-revoked-invite-links: user
+    listing-created-invite-links: user
     listing-join-requests: user
 ---
 
@@ -12,7 +14,7 @@ Invite links let people join a group, supergroup, or channel.
 
 ## Creating an Invite Link
 
-Use {{ "createInviteLink" |> m }} to create an invite link.
+To create an invite link, call {{ "createInviteLink" |> m }}.
 
 ```ts
 const inviteLink = await client.createInviteLink(chatId, {
@@ -23,11 +25,23 @@ const inviteLink = await client.createInviteLink(chatId, {
 console.log(inviteLink.inviteLink);
 ```
 
-Set `expireAt` to a future Unix timestamp in seconds to make the link temporary.
+A future Unix timestamp in `expireAt` makes the link temporary.
+
+## Deleting Revoked Invite Links
+
+{{ "deleteRevokedInviteLinks" |> m }} deletes the revoked links created by an administrator.
+
+```ts
+await client.deleteRevokedInviteLinks(chatId, administratorId);
+```
+
+## Listing Created Invite Links
+
+With {{ "getCreatedInviteLinks" |> m }}, you can list invite links created by a specific administrator.
 
 ## Requiring Approval
 
-Set `isApprovalRequired` to make users send a join request instead of joining immediately. It cannot be used together with `limit`.
+The `isApprovalRequired` option makes users send a join request instead of joining immediately. It cannot be used together with `limit`.
 
 ```ts
 const inviteLink = await client.createInviteLink(chatId, {
@@ -35,7 +49,7 @@ const inviteLink = await client.createInviteLink(chatId, {
 });
 ```
 
-Users can use {{ "enableJoinRequests" |> m }} and {{ "disableJoinRequests" |> m }} to enable or disable join requests for a channel or supergroup.
+{{ "enableJoinRequests" |> m }} and {{ "disableJoinRequests" |> m }} control join requests for a channel or supergroup.
 
 ## Handling Join Requests
 
@@ -48,7 +62,7 @@ client.on("joinRequest", async (ctx) => {
 });
 ```
 
-Use {{ "declineJoinRequest" |> m }} to decline a request instead.
+{{ "declineJoinRequest" |> m }} lets you decline a request instead.
 
 ## Listing Join Requests
 
@@ -62,4 +76,4 @@ for (const request of requests) {
 }
 ```
 
-Use {{ "approveJoinRequests" |> m }} or {{ "declineJoinRequests" |> m }} to handle all pending requests at once.
+To handle all pending requests at once, call {{ "approveJoinRequests" |> m }} or {{ "declineJoinRequests" |> m }}.

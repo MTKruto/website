@@ -10,7 +10,7 @@ Users can control when an inactive account is automatically deleted.
 
 ## Getting the Auto-Deletion Period
 
-Use {{ "getAccountTtl" |> m }} to get the period in days.
+{{ "getAccountTtl" |> m }} lets you get the period in days.
 
 ```ts
 const dayCount = await client.getAccountTtl();
@@ -20,7 +20,7 @@ console.log(dayCount);
 
 ## Setting the Auto-Deletion Period
 
-Use {{ "setAccountTtl" |> m }} with the period in days.
+{{ "setAccountTtl" |> m }} accepts the period in days.
 
 ```ts
 await client.setAccountTtl(365);

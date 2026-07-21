@@ -10,7 +10,7 @@ Users can get recommended channels and find similar channels or bots.
 
 ## Getting Recommended Channels
 
-Use {{ "getRecommendedChannels" |> m }} to get recommended channels as {{ "ChatPChannel" |> t }} objects.
+{{ "getRecommendedChannels" |> m }} returns recommended channels as {{ "ChatPChannel" |> t }} objects.
 
 ```ts
 const channels = await client.getRecommendedChannels();
@@ -22,7 +22,7 @@ for (const channel of channels) {
 
 ## Getting Similar Channels
 
-Use {{ "getSimilarChannels" |> m }} with a channel's identifier.
+{{ "getSimilarChannels" |> m }} accepts a channel's identifier.
 
 ```ts
 const channels = await client.getSimilarChannels(channelId);
@@ -30,7 +30,7 @@ const channels = await client.getSimilarChannels(channelId);
 
 ## Getting Similar Bots
 
-Use {{ "getSimilarBots" |> m }} with a bot's identifier.
+{{ "getSimilarBots" |> m }} accepts a bot's identifier.
 
 ```ts
 const bots = await client.getSimilarBots(botId);

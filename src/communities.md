@@ -10,7 +10,7 @@ Users can organize related chats into communities.
 
 ## Creating a Community
 
-Use {{ "createCommunity" |> m }} with a name and the identifier of its first chat.
+{{ "createCommunity" |> m }} accepts a name and the identifier of its first chat.
 
 ```ts
 const community = await client.createCommunity("Project", chatId, {
@@ -20,7 +20,7 @@ const community = await client.createCommunity("Project", chatId, {
 
 ## Listing Communities
 
-Use {{ "getJoinedCommunities" |> m }} to get the account's communities as {{ "CommunityP" |> t }} objects.
+With {{ "getJoinedCommunities" |> m }}, you can get the account's communities as {{ "CommunityP" |> t }} objects.
 
 ```ts
 const communities = await client.getJoinedCommunities();
@@ -32,7 +32,7 @@ for (const community of communities) {
 
 ## Getting a Community
 
-Use {{ "getCommunity" |> m }} to get a {{ "Community" |> t }}, including its chats.
+{{ "getCommunity" |> m }} returns a {{ "Community" |> t }}, including its chats.
 
 ```ts
 const community = await client.getCommunity(communityId);
@@ -42,9 +42,11 @@ for (const { chat } of community.chats) {
 }
 ```
 
+{{ "getCommunityP" |> m }} returns only the community's peer representation.
+
 ## Managing Chats
 
-Use {{ "addChatToCommunity" |> m }} and {{ "removeChatFromCommunity" |> m }} to manage a community's chats.
+To manage a community's chats, call {{ "addChatToCommunity" |> m }} and {{ "removeChatFromCommunity" |> m }}.
 
 ```ts
 await client.addChatToCommunity(communityId, chatId);
@@ -53,7 +55,7 @@ await client.removeChatFromCommunity(communityId, chatId);
 
 ## Changing the Display
 
-Choose whether the community appears as one chat or as separate chats.
+The community can appear as one chat or as separate chats.
 
 ```ts
 await client.showCommunityAsOneChat(communityId);
@@ -62,7 +64,7 @@ await client.showCommunityAsDifferentChats(communityId);
 
 ## Deleting a Community
 
-Use {{ "deleteCommunity" |> m }} with the community's identifier.
+{{ "deleteCommunity" |> m }} deletes the community identified by its argument.
 
 ```ts
 await client.deleteCommunity(communityId);

@@ -40,7 +40,7 @@ The example disables caching, which is useful while developing. In production, u
 
 ## Filtering Queries
 
-Use `inlineQuery` with a string or regular expression when only specific queries should reach a handler.
+An `inlineQuery` string or regular expression limits which queries reach a handler.
 
 ```ts
 client.inlineQuery(/^help\b/i, async (ctx) => {

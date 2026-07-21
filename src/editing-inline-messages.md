@@ -20,7 +20,7 @@ client.on("chosenInlineResult", async (ctx) => {
 
 ## Editing the Caption
 
-Use the context shortcut for {{ "editInlineMessageCaption" |> m }} to update the caption.
+The context shortcut for {{ "editInlineMessageCaption" |> m }} updates the caption.
 
 ```ts
 client.on("chosenInlineResult", async (ctx) => {
@@ -30,7 +30,7 @@ client.on("chosenInlineResult", async (ctx) => {
 
 ## Editing the Reply Markup
 
-Use the context shortcut for {{ "editInlineMessageReplyMarkup" |> m }} to change the inline keyboard.
+the context shortcut for {{ "editInlineMessageReplyMarkup" |> m }} lets you change the inline keyboard.
 
 ```ts
 client.callbackQuery("refresh", async (ctx) => {

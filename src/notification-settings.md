@@ -10,7 +10,7 @@ Users can control notifications for individual chats.
 
 ## Getting Notification Settings
 
-Use {{ "getNotificationSettings" |> m }} to get a chat's {{ "NotificationSettings" |> t }}.
+To get a chat's {{ "NotificationSettings" |> t }}, call {{ "getNotificationSettings" |> m }}.
 
 ```ts
 const settings = await client.getNotificationSettings(chatId);
@@ -20,7 +20,7 @@ console.log(settings.isSilent, settings.muteUntil);
 
 ## Muting a Chat
 
-Use {{ "setNotificationSettings" |> m }} with a Unix timestamp in seconds.
+{{ "setNotificationSettings" |> m }} accepts a Unix timestamp in seconds.
 
 ```ts
 const muteUntil = Math.floor(Date.now() / 1_000) + 60 * 60;
@@ -30,11 +30,11 @@ await client.setNotificationSettings(chatId, {
 });
 ```
 
-Set `muteUntil` to `0` to unmute the chat.
+A `muteUntil` value of `0` unmutes the chat.
 
 ## Changing Other Settings
 
-Use {{ "InputNotificationSettings" |> t }} to change options such as notification previews, sounds, and story notifications.
+An {{ "InputNotificationSettings" |> t }} changes options such as notification previews, sounds, and story notifications.
 
 ```ts
 await client.setNotificationSettings(chatId, {
@@ -47,8 +47,18 @@ await client.setNotificationSettings(chatId, {
 
 ## Resetting Notification Settings
 
-Use {{ "resetNotificationSettings" |> m }} to reset all notification settings.
+{{ "resetNotificationSettings" |> m }} lets you reset all notification settings.
 
 ```ts
 await client.resetNotificationSettings();
+```
+
+## Saved Notification Sounds
+
+{{ "addSavedNotificationSound" |> m }}, {{ "getSavedNotificationSounds" |> m }}, and {{ "removeSavedNotificationSound" |> m }} manage sounds saved to the account.
+
+```ts
+await client.addSavedNotificationSound("./notification.mp3");
+const sounds = await client.getSavedNotificationSounds();
+await client.removeSavedNotificationSound(sounds[0].fileId);
 ```

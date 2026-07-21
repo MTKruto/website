@@ -10,7 +10,7 @@ Users can view and remove the account's authorization sessions.
 
 ## Listing Sessions
 
-Use {{ "getAuthorizationSessions" |> m }} to get the sessions as {{ "AuthorizationSession" |> t }} objects.
+To get the sessions as {{ "AuthorizationSession" |> t }} objects, call {{ "getAuthorizationSessions" |> m }}.
 
 ```ts
 const sessions = await client.getAuthorizationSessions();
@@ -24,7 +24,7 @@ The current session has `isCurrent` set to `true`.
 
 ## Removing a Session
 
-Use {{ "removeAuthorizationSession" |> m }} with the session's identifier.
+{{ "removeAuthorizationSession" |> m }} accepts the session's identifier.
 
 ```ts
 await client.removeAuthorizationSession(sessionId);
@@ -32,7 +32,7 @@ await client.removeAuthorizationSession(sessionId);
 
 ## Removing Other Sessions
 
-Use {{ "removeAuthorizationSessions" |> m }} to remove every session except the current one.
+{{ "removeAuthorizationSessions" |> m }} removes every session except the current one.
 
 ```ts
 await client.removeAuthorizationSessions();

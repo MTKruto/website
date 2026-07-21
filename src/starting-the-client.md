@@ -6,6 +6,16 @@ walkthrough:
   order: 2
 ---
 
+The client can handle authorization automatically with {{ "start" |> m }}. The methods below are available when authorization needs to be driven manually.
+
+## Connecting Manually
+
+{{ "connect" |> m }} establishes the connection. For user accounts, call {{ "sendCode" |> m }}, then {{ "checkCode" |> m }} and, when two-step verification is enabled, {{ "checkPassword" |> m }}. {{ "getPasswordHint" |> m }} returns the password hint.
+
+Complete authorization with {{ "signIn" |> m }}, or call {{ "signUp" |> m }} when Telegram requires registration. {{ "checkBotToken" |> m }} validates a bot token before sign-in.
+
+With {{ "signOut" |> m }}, you can end the current authorization.
+
 Here you will learn how you can construct and start a client assuming that you have already [installed MTKruto](./installation).
 
 ## Acquiring API Credentials
@@ -80,7 +90,7 @@ const client = new Client({
 
 ## Connecting the Client and Authorizing an Account
 
-Use the `start` method to connect the client and authorize an account.
+The `start` method connects the client and authorizes an account.
 
 If you pass no arguments to it, you will be requested the authorization credentials in runtime. You can also design your own user authorization experience by specifying resolver functions for each authorization step. For bots, it is recommended that the bot token is passed directly. If an account is already authorized or all credentials are passed directly, no credentials will be requested.
 

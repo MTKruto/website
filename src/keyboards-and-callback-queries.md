@@ -10,7 +10,7 @@ Bots can attach a keyboard to a message to give users a set of actions to choose
 
 ## Sending an Inline Keyboard
 
-Pass a {{ "ReplyMarkupInlineKeyboard" |> t }} as `replyMarkup` when sending a message. The `inlineKeyboard` field is an array of rows, and each row is an array of buttons.
+A {{ "ReplyMarkupInlineKeyboard" |> t }} can be supplied as `replyMarkup` when sending a message. The `inlineKeyboard` field is an array of rows, and each row is an array of buttons.
 
 ```ts
 client.command("menu", async (ctx) => {
@@ -42,7 +42,7 @@ Pressing the URL button opens its URL without sending an update to the bot. Pres
 
 ## Handling Callback Queries
 
-Use `callbackQuery` to handle a specific callback data value. Within its handler, `ctx.callbackQuery` contains the query and its data.
+With `callbackQuery`, you can handle a specific callback data value. Within its handler, `ctx.callbackQuery` contains the query and its data.
 
 ```ts
 client.callbackQuery("show_details", async (ctx) => {
@@ -61,7 +61,7 @@ client.callbackQuery("saved", async (ctx) => {
 });
 ```
 
-Set `isAlert` to display the text in an alert instead:
+An `isAlert` value of `true` displays the text in an alert instead:
 
 ```ts
 client.callbackQuery("confirm_delete", async (ctx) => {

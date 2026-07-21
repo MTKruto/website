@@ -7,9 +7,12 @@ walkthrough:
   sections:
     enabling-topics: user
     listing-topics: user
+    controlling-forum-mode: user
 ---
 
 Forum topics separate conversations in a supergroup. The supergroup must have topics enabled.
+
+Pinned topics are managed by {{ "pinTopic" |> m }} and {{ "unpinTopic" |> m }}. {{ "hideGeneralTopic" |> m }} and {{ "showGeneralTopic" |> m }} control the general topic.
 
 ## Enabling Topics
 
@@ -27,7 +30,7 @@ const topic = await client.createTopic(chatId, "Announcements");
 
 ## Sending Messages to a Topic
 
-Set `messageThreadId` to the topic identifier.
+The topic identifier belongs in `messageThreadId`.
 
 ```ts
 await client.sendMessage(chatId, "Welcome.", {
@@ -53,6 +56,8 @@ client.on("message", (ctx) => {
 
 Users can list a forum's topics with {{ "getTopics" |> m }}.
 
+{{ "getTopic" |> m }} retrieves one topic; {{ "getTopicsById" |> m }} retrieves several known identifiers.
+
 ```ts
 const { items } = await client.getTopics(chatId);
 
@@ -62,6 +67,10 @@ for (const { topic } of items) {
   }
 }
 ```
+
+## Controlling Forum Mode
+
+Users can turn forum mode off with {{ "disableTopics" |> m }}.
 
 ## Managing a Topic
 

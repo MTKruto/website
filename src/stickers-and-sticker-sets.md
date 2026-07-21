@@ -15,7 +15,7 @@ Clients can create, retrieve, and manage sticker sets.
 
 ## Suggesting a Slug
 
-Users can use {{ "suggestStickerSetSlug" |> m }} to generate a slug from a title.
+{{ "suggestStickerSetSlug" |> m }} lets you generate a slug from a title.
 
 ```ts
 const slug = await client.suggestStickerSetSlug("Cat Stickers");
@@ -23,7 +23,7 @@ const slug = await client.suggestStickerSetSlug("Cat Stickers");
 
 ## Creating a Sticker Set
 
-Use {{ "checkStickerSetSlug" |> m }} to check whether a slug is available, then pass it to {{ "createStickerSet" |> m }} with at least one sticker.
+{{ "checkStickerSetSlug" |> m }} reports whether a slug is available. {{ "createStickerSet" |> m }} then accepts that slug with at least one sticker.
 
 ```ts
 if (!await client.checkStickerSetSlug(slug)) {
@@ -41,16 +41,18 @@ Bot clients must pass `{ userId }` as the final argument to identify the owner. 
 
 ## Getting a Sticker Set
 
-Use {{ "getStickerSet" |> m }} with a slug or sticker set link. Use {{ "getDiceStickerSet" |> m }} to get the set used by a dice emoji.
+{{ "getStickerSet" |> m }} accepts a slug or sticker set link. {{ "getDiceStickerSet" |> m }} returns the set used by a dice emoji.
 
 ```ts
 const stickerSet = await client.getStickerSet(slug);
 const diceStickerSet = await client.getDiceStickerSet("🎲");
 ```
 
+{{ "getCustomEmojiStickers" |> m }} returns stickers from their custom emoji identifiers.
+
 ## Managing Stickers
 
-Use {{ "addStickerToStickerSet" |> m }} to add an {{ "InputSticker" |> t }} or {{ "replaceStickerInStickerSet" |> m }} to replace an existing sticker.
+{{ "addStickerToStickerSet" |> m }} lets you add an {{ "InputSticker" |> t }} or {{ "replaceStickerInStickerSet" |> m }} to replace an existing sticker.
 
 ```ts
 await client.addStickerToStickerSet(
@@ -66,7 +68,7 @@ await client.replaceStickerInStickerSet(
 
 Bot clients must pass `{ userId }` as the final argument to both methods.
 
-Use {{ "replaceStickerEmoji" |> m }} to change a sticker's emoji, {{ "changeStickerPositionInStickerSet" |> m }} to move it, and {{ "removeStickerFromStickerSet" |> m }} to remove it.
+{{ "replaceStickerEmoji" |> m }} changes a sticker's emoji, {{ "changeStickerPositionInStickerSet" |> m }} moves it, and {{ "removeStickerFromStickerSet" |> m }} removes it.
 
 ```ts
 await client.replaceStickerEmoji(fileId, "😺");
@@ -76,7 +78,7 @@ await client.removeStickerFromStickerSet(fileId);
 
 ## Changing Set Details
 
-Use {{ "setStickerSetTitle" |> m }} to change the title. Set the thumbnail with {{ "setStickerSetThumbnail" |> m }} or {{ "setCustomEmojiAsStickerSetThumbnail" |> m }}.
+With {{ "setStickerSetTitle" |> m }}, you can change the title. Set the thumbnail with {{ "setStickerSetThumbnail" |> m }} or {{ "setCustomEmojiAsStickerSetThumbnail" |> m }}.
 
 ```ts
 await client.setStickerSetTitle(slug, "Cat Reactions");
@@ -95,7 +97,7 @@ await client.addStickerSet(slug);
 const stickerSets = await client.getAddedStickerSets();
 ```
 
-Use {{ "archiveStickerSet" |> m }} and {{ "unarchiveStickerSet" |> m }} to change whether an added set is archived. Use {{ "removeStickerSet" |> m }} to remove it from the account.
+{{ "archiveStickerSet" |> m }} and {{ "unarchiveStickerSet" |> m }} change whether an added set is archived. {{ "removeStickerSet" |> m }} removes it from the account.
 
 ```ts
 await client.archiveStickerSet(slug);
@@ -111,7 +113,7 @@ Users can list favorite stickers with {{ "getFavoriteStickers" |> m }}.
 const favoriteStickers = await client.getFavoriteStickers();
 ```
 
-Use {{ "addStickerToFavorites" |> m }} and {{ "removeStickerFromFavorites" |> m }} with a sticker's file identifier to update the list.
+{{ "addStickerToFavorites" |> m }} and {{ "removeStickerFromFavorites" |> m }} with a sticker's file identifier lets you update the list.
 
 ```ts
 await client.addStickerToFavorites(sticker.fileId);
@@ -126,14 +128,14 @@ Users can list recent stickers with {{ "getRecentStickers" |> m }}.
 const recentStickers = await client.getRecentStickers();
 ```
 
-Use {{ "addStickerToRecents" |> m }} and {{ "removeStickerFromRecents" |> m }} with a sticker's file identifier to update the list.
+To update the list, call {{ "addStickerToRecents" |> m }} and {{ "removeStickerFromRecents" |> m }} with a sticker's file identifier.
 
 ```ts
 await client.addStickerToRecents(sticker.fileId);
 await client.removeStickerFromRecents(sticker.fileId);
 ```
 
-Use {{ "clearRecentStickers" |> m }} to remove every sticker from the recent list.
+With {{ "clearRecentStickers" |> m }}, you can remove every sticker from the recent list.
 
 ```ts
 await client.clearRecentStickers();
@@ -141,7 +143,7 @@ await client.clearRecentStickers();
 
 ## Deleting a Sticker Set
 
-Use {{ "deleteStickerSet" |> m }} to permanently delete a sticker set.
+{{ "deleteStickerSet" |> m }} permanently deletes a sticker set.
 
 ```ts
 await client.deleteStickerSet(slug);

@@ -10,7 +10,7 @@ Clients can show actions such as typing or uploading while preparing a response.
 
 ## Showing an Action
 
-Use {{ "sendChatAction" |> m }} before starting the work.
+{{ "sendChatAction" |> m }} indicates that work has started.
 
 ```ts
 client.command("status", async (ctx) => {
@@ -38,7 +38,7 @@ See {{ "ChatActionType" |> t }} for all available actions.
 
 ## Cancelling an Action
 
-Send the `cancel` action when no response will follow.
+The `cancel` action indicates that no response will follow.
 
 ```ts
 await client.sendChatAction(chatId, { type: "cancel" });

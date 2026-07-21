@@ -26,7 +26,7 @@ The storage contains secret chat key material and must be protected.
 
 ## Requesting a Secret Chat
 
-Use {{ "requestSecretChat" |> m }} with the identifier of a private chat.
+Request a secret chat with {{ "requestSecretChat" |> m }} and the private chat's identifier.
 
 ```ts
 const secretChat = await client.requestSecretChat(chatId);
@@ -65,13 +65,13 @@ Wait for an `active` secret chat before sending messages.
 
 ## Sending Messages
 
-Use {{ "sendSecretMessage" |> m }} with the secret chat identifier.
+{{ "sendSecretMessage" |> m }} accepts the secret chat identifier.
 
 ```ts
 await client.sendSecretMessage(secretChatId, "This message is encrypted.");
 ```
 
-Set `ttl` to request a self-destruct timer in seconds. A value of `0` disables the timer.
+The `ttl` option requests a self-destruct timer in seconds. A value of `0` disables the timer.
 
 ```ts
 await client.sendSecretMessage(secretChatId, "This message expires.", {
@@ -153,7 +153,7 @@ client.on("secretMessage:document", async (ctx) => {
 
 ## Typing and Screenshots
 
-Use {{ "sendSecretTypingAction" |> m }} and {{ "sendSecretCancelTypingAction" |> m }} to update the typing state. The `secretTyping` update contains the identifier of a secret chat in which the other user is typing.
+{{ "sendSecretTypingAction" |> m }} and {{ "sendSecretCancelTypingAction" |> m }} update the typing state. The `secretTyping` update contains the identifier of a secret chat in which the other user is typing.
 
 ```ts
 await client.sendSecretTypingAction(secretChatId);
@@ -172,7 +172,7 @@ await client.sendSecretScreenshotNotification(secretChatId, [message.id]);
 
 ## Ending a Secret Chat
 
-Use {{ "endSecretChat" |> m }} to discard a secret chat. Set `isHistoryDeleted` to request deletion of its history.
+With {{ "endSecretChat" |> m }}, you can discard a secret chat. Set `isHistoryDeleted` to request deletion of its history.
 
 ```ts
 await client.endSecretChat(secretChatId, {

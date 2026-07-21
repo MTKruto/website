@@ -10,7 +10,7 @@ Users can manage the account's close friends list.
 
 ## Setting Close Friends
 
-Use {{ "setCloseFriends" |> m }} with the identifiers of the users to include.
+{{ "setCloseFriends" |> m }} with the identifiers of the users lets you include.
 
 ```ts
 await client.setCloseFriends([userId1, userId2]);

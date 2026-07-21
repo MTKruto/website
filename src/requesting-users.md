@@ -10,7 +10,7 @@ Bots can ask users to select a user through Telegram's user picker.
 
 ## Requesting a User
 
-Send a `requestUser` button in a custom keyboard. The `requestId` identifies the request when the user responds.
+A custom keyboard can contain a `requestUser` button. The `requestId` identifies the request when the user responds.
 
 ```ts
 client.command("choose_user", async (ctx) => {

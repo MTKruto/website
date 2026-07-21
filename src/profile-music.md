@@ -10,7 +10,7 @@ Users can add music to their profile.
 
 ## Adding Music
 
-Use {{ "addMusicToProfile" |> m }} with the file identifier of an {{ "Audio" |> t }}.
+{{ "addMusicToProfile" |> m }} accepts the file identifier of an {{ "Audio" |> t }}.
 
 ```ts
 await client.addMusicToProfile(audio.fileId);
@@ -18,7 +18,7 @@ await client.addMusicToProfile(audio.fileId);
 
 ## Listing Profile Music
 
-Use {{ "getProfileMusic" |> m }} with a user's identifier to get their profile music.
+{{ "getProfileMusic" |> m }} with a user's identifier lets you get their profile music.
 
 ```ts
 const music = await client.getProfileMusic("me");
@@ -30,7 +30,7 @@ for (const audio of music) {
 
 ## Removing Music
 
-Use {{ "removeMusicFromProfile" |> m }} with the audio's file identifier.
+{{ "removeMusicFromProfile" |> m }} removes profile music by file identifier.
 
 ```ts
 await client.removeMusicFromProfile(audio.fileId);

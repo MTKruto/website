@@ -10,7 +10,7 @@ Users can list chats with saved messages and get the messages saved from each ch
 
 ## Listing Saved Chats
 
-Use {{ "getSavedChats" |> m }} to get a {{ "SavedChats" |> t }} object.
+To get a {{ "SavedChats" |> t }} object, call {{ "getSavedChats" |> m }}.
 
 ```ts
 const { chats } = await client.getSavedChats();
@@ -22,7 +22,7 @@ for (const { chat } of chats) {
 
 ## Getting Saved Messages
 
-Use {{ "getSavedMessages" |> m }} with a chat's identifier.
+{{ "getSavedMessages" |> m }} accepts a chat identifier.
 
 ```ts
 const messages = await client.getSavedMessages(chatId);

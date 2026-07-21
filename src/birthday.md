@@ -10,7 +10,7 @@ Users can set or remove the account's birthday.
 
 ## Setting a Birthday
 
-Use {{ "setBirthday" |> m }} with the day, month, and optionally the year.
+{{ "setBirthday" |> m }} accepts the day, month, and optionally the year.
 
 ```ts
 await client.setBirthday({
@@ -20,8 +20,16 @@ await client.setBirthday({
 
 ## Removing the Birthday
 
-Call {{ "setBirthday" |> m }} without a birthday.
+An empty {{ "setBirthday" |> m }} call removes the birthday.
 
 ```ts
 await client.setBirthday();
+```
+
+## Suggesting a Birthday
+
+{{ "suggestBirthday" |> m }} suggests a birthday to another user.
+
+```ts
+await client.suggestBirthday(userId, { day: 1, month: 1, year: 2000 });
 ```

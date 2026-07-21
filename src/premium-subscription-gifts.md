@@ -10,13 +10,13 @@ Bots can gift Telegram Premium subscriptions to users with Telegram Stars.
 
 ## Gifting a Subscription
 
-Use {{ "giftPremiumSubscription" |> m }} with the user's identifier and a duration of 3, 6, or 12 months.
+{{ "giftPremiumSubscription" |> m }} accepts a user identifier and a duration of 3, 6, or 12 months.
 
 ```ts
 await client.giftPremiumSubscription(userId, 3);
 ```
 
-Pass `text` to attach a message to the gift.
+The optional `text` field attaches a message to the gift.
 
 ```ts
 await client.giftPremiumSubscription(userId, 12, {

@@ -4,7 +4,52 @@ parent: /#walkthrough
 walkthrough:
   track: main
   order: 8
+  sections:
+    available-reactions: user
+    detailed-reactions: user
+    reporting-a-reaction: user
+    recent-and-default-reactions: user
 ---
+
+{{ "removeUserReaction" |> m }} removes one reaction made by a user, while {{ "removeUserReactions" |> m }} removes all of that user's reactions from a message.
+
+## Available Reactions
+
+Users who administer a chat can choose its allowed reactions with {{ "setAvailableReactions" |> m }}.
+
+```ts
+await client.setAvailableReactions(chatId, availableReactions);
+```
+
+## Detailed Reactions
+
+Users can retrieve detailed reactions through {{ "getMessageReactions" |> m }}.
+
+```ts
+const reactions = await client.getMessageReactions(chatId, messageId);
+```
+
+## Reporting a Reaction
+
+{{ "reportReaction" |> m }} reports an inappropriate reaction.
+
+```ts
+await client.reportReaction(chatId, messageId, reactionActorId);
+```
+
+## Recent and Default Reactions
+
+{{ "clearRecentReactions" |> m }} clears the recent reaction list.
+
+```ts
+await client.clearRecentReactions();
+```
+
+{{ "setDefaultReaction" |> m }} changes the account's default.
+
+```ts
+await client.setDefaultReaction({ type: "emoji", emoji: "👍" });
+```
 
 ## Reacting to Messages
 

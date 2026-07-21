@@ -10,7 +10,7 @@ Paid broadcasts let bots use Telegram Stars to send messages beyond the free bro
 
 ## Sending a Paid Broadcast
 
-Set `isPaidBroadcast` to `true` when sending each message in the broadcast.
+Each message in the broadcast needs `isPaidBroadcast` set to `true`.
 
 ```ts
 await client.sendMessage(chatId, "A new version is available.", {

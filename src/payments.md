@@ -10,7 +10,7 @@ Bots can accept payments by sending invoices and handling checkout updates.
 
 ## Sending an Invoice
 
-Use {{ "sendInvoice" |> m }} to send an invoice. This example charges 100 Telegram Stars.
+{{ "sendInvoice" |> m }} sends an invoice. This example charges 100 Telegram Stars.
 
 ```ts
 await client.sendInvoice(

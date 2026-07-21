@@ -8,9 +8,11 @@ walkthrough:
 
 Users can translate messages and text into another language.
 
+With {{ "getTranslations" |> m }}, you can retrieve the available translation languages.
+
 ## Translating a Message
 
-Use {{ "translateMessage" |> m }} with the target language code, chat identifier, and message identifier.
+{{ "translateMessage" |> m }} accepts the target language code, chat identifier, and message identifier.
 
 ```ts
 const translation = await client.translateMessage("en", chatId, messageId);
@@ -18,11 +20,11 @@ const translation = await client.translateMessage("en", chatId, messageId);
 console.log(translation.text);
 ```
 
-Use {{ "translateMessages" |> m }} to translate multiple messages at once.
+{{ "translateMessages" |> m }} lets you translate multiple messages at once.
 
 ## Translating Text
 
-Use {{ "translateText" |> m }} with the target language code and a {{ "TextToTranslate" |> t }}.
+{{ "translateText" |> m }} accepts the target language code and a {{ "TextToTranslate" |> t }}.
 
 ```ts
 const translation = await client.translateText("en", {
@@ -33,4 +35,4 @@ const translation = await client.translateText("en", {
 console.log(translation.text);
 ```
 
-Use {{ "translateTexts" |> m }} to translate multiple texts at once.
+With {{ "translateTexts" |> m }}, you can translate multiple texts at once.

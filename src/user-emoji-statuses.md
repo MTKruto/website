@@ -10,7 +10,7 @@ Bots can set and remove emoji statuses for users who allow them to do so.
 
 ## Setting an Emoji Status
 
-Use {{ "setUserEmojiStatus" |> m }} with a custom emoji ID.
+{{ "setUserEmojiStatus" |> m }} accepts a custom emoji ID.
 
 ```ts
 await client.setUserEmojiStatus(userId, {
@@ -19,7 +19,7 @@ await client.setUserEmojiStatus(userId, {
 });
 ```
 
-Pass `until` as a future Unix timestamp in seconds to remove the status automatically.
+A future Unix timestamp in `until` removes the status automatically.
 
 ```ts
 const until = Math.floor(Date.now() / 1_000) + 60 * 60;
@@ -32,7 +32,7 @@ await client.setUserEmojiStatus(userId, {
 
 ## Removing an Emoji Status
 
-Use {{ "removeUserEmojiStatus" |> m }} to remove the user's current emoji status.
+To remove the user's current emoji status, call {{ "removeUserEmojiStatus" |> m }}.
 
 ```ts
 await client.removeUserEmojiStatus(userId);

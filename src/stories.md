@@ -76,7 +76,7 @@ await client.editStory(chatId, story.id, {
 await client.deleteStory(chatId, story.id);
 ```
 
-Use {{ "getStory" |> m }} to retrieve a story by its chat and story identifiers.
+{{ "getStory" |> m }} lets you retrieve a story by its chat and story identifiers.
 
 ## Adding a Story to Highlights
 

@@ -6,6 +6,8 @@ walkthrough:
   order: 6
   sections:
     notes: bot
+    link-previews: user
+    screenshot-notifications: user
 ---
 
 ## Message Updates
@@ -152,13 +154,64 @@ client.on("message", async (ctx) => {
 });
 ```
 
+### Sending Stickers
+
+{{ "sendSticker" |> m }} accepts a sticker file source or file identifier.
+
+```ts
+await client.sendSticker(chatId, sticker);
+```
+
+### Sending Media Groups
+
+With {{ "sendMediaGroup" |> m }}, you can send several photos or videos as one album.
+
+```ts
+await client.sendMediaGroup(chatId, media);
+```
+
+### Sending Live Photos
+
+{{ "sendLivePhoto" |> m }} accepts the photo and video parts.
+
+```ts
+await client.sendLivePhoto(chatId, photo, video);
+```
+
+## Getting Messages
+
+{{ "getMessage" |> m }} lets you get one message or {{ "getMessages" |> m }} to get several.
+
+```ts
+const message = await client.getMessage(chatId, messageId);
+const messages = await client.getMessages(chatId, messageIds);
+```
+
+To resolve a Telegram message link, call {{ "resolveMessageLink" |> m }}.
+
+```ts
+const message = await client.resolveMessageLink(link);
+```
+
+## Link Previews
+
+With {{ "getLinkPreview" |> m }}, you can preview a link before sending it.
+
+## Screenshot Notifications
+
+Users can send a screenshot notification with {{ "sendScreenshotNotification" |> m }}.
+
+```ts
+await client.sendScreenshotNotification(chatId, messageId);
+```
+
 ## Editing Messages
 
 You can edit messages that have already been sent. Each method targets a specific part of the message, and the referenced message must already be of a matching type.
 
 ### Editing Text
 
-Use {{ "editMessageText" |> m }} to change the text of a text message.
+{{ "editMessageText" |> m }} changes the text of a text message.
 
 ```ts
 await client.editMessageText(chatId, messageId, "Updated text");
@@ -174,7 +227,7 @@ await client.editMessageText(chatId, messageId, "*Updated* text", {
 
 ### Editing Captions
 
-Use {{ "editMessageCaption" |> m }} to change the caption of a media message.
+{{ "editMessageCaption" |> m }} lets you change the caption of a media message.
 
 ```ts
 await client.editMessageCaption(chatId, messageId, {
@@ -184,7 +237,7 @@ await client.editMessageCaption(chatId, messageId, {
 
 ### Replacing Media
 
-Use {{ "editMessageMedia" |> m }} to replace the media of a media message. Pass an {{ "InputMedia" |> t }} describing the new media.
+Replace a media message's content through {{ "editMessageMedia" |> m }}. Pass an {{ "InputMedia" |> t }} describing the new media.
 
 ```ts
 await client.editMessageMedia(chatId, messageId, {
@@ -196,7 +249,7 @@ await client.editMessageMedia(chatId, messageId, {
 
 ### Editing Reply Markup
 
-Use {{ "editMessageReplyMarkup" |> m }} to update the buttons attached to a message without changing its content.
+With {{ "editMessageReplyMarkup" |> m }}, you can update the buttons attached to a message without changing its content.
 
 ```ts
 await client.editMessageReplyMarkup(chatId, messageId, {
@@ -246,7 +299,7 @@ Pinning a message keeps it at the top of a chat so members can find it easily. B
 
 ### Pinning a Message
 
-Use {{ "pinMessage" |> m }} to pin a message.
+{{ "pinMessage" |> m }} pins a message.
 
 ```ts
 await client.pinMessage(chatId, messageId);
@@ -260,7 +313,7 @@ await client.pinMessage(chatId, messageId, {
 });
 ```
 
-Pass `isSilent` to pin without notifying the chat.
+The `isSilent` option prevents a pin notification.
 
 ```ts
 await client.pinMessage(chatId, messageId, {
@@ -270,13 +323,13 @@ await client.pinMessage(chatId, messageId, {
 
 ### Unpinning Messages
 
-Use {{ "unpinMessage" |> m }} to unpin a single message.
+{{ "unpinMessage" |> m }} lets you unpin a single message.
 
 ```ts
 await client.unpinMessage(chatId, messageId);
 ```
 
-Use {{ "unpinMessages" |> m }} to unpin every pinned message in a chat at once.
+To unpin every pinned message in a chat at once, call {{ "unpinMessages" |> m }}.
 
 ```ts
 await client.unpinMessages(chatId);

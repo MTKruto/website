@@ -21,7 +21,7 @@ client.on("managedBot", (ctx) => {
 
 ## Managing Access
 
-Use {{ "setManagedBotAccessSettings" |> m }} to restrict access to specific users. The bot owner always retains access.
+{{ "setManagedBotAccessSettings" |> m }} restricts access to specific users. The bot owner always retains access.
 
 ```ts
 await client.setManagedBotAccessSettings(managedBotId, true, {
@@ -29,13 +29,13 @@ await client.setManagedBotAccessSettings(managedBotId, true, {
 });
 ```
 
-Use {{ "getManagedBotAccessSettings" |> m }} to read the current settings.
+{{ "getManagedBotAccessSettings" |> m }} lets you read the current settings.
 
 ```ts
 const settings = await client.getManagedBotAccessSettings(managedBotId);
 ```
 
-Set `isAccessRestricted` to `false` to remove the restriction.
+A value of `false` for `isAccessRestricted` removes the restriction.
 
 ```ts
 await client.setManagedBotAccessSettings(managedBotId, false);
@@ -43,13 +43,13 @@ await client.setManagedBotAccessSettings(managedBotId, false);
 
 ## Managing Tokens
 
-Use {{ "getManagedBotToken" |> m }} to get the current token.
+To get the current token, call {{ "getManagedBotToken" |> m }}.
 
 ```ts
 const token = await client.getManagedBotToken(managedBotId);
 ```
 
-Use {{ "revokeManagedBotToken" |> m }} to revoke it. The method returns the new token.
+With {{ "revokeManagedBotToken" |> m }}, you can revoke it. The method returns the new token.
 
 ```ts
 const newToken = await client.revokeManagedBotToken(managedBotId);

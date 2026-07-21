@@ -10,7 +10,7 @@ Bots can publish a list of commands that Telegram shows to users.
 
 ## Setting Commands
 
-Use {{ "setMyCommands" |> m }} with each command's name and description.
+{{ "setMyCommands" |> m }} accepts each command's name and description.
 
 ```ts
 await client.setMyCommands([
@@ -23,7 +23,7 @@ This only changes the displayed command list. Register handlers separately with 
 
 ## Scoping and Localizing Commands
 
-Pass a `scope` to show a command list only to specific audiences or in specific chats. This example sets a command for group administrators.
+A `scope` limits a command list to specific audiences or chats. This example sets a command for group administrators.
 
 ```ts
 await client.setMyCommands(
@@ -32,7 +32,7 @@ await client.setMyCommands(
 );
 ```
 
-Pass `languageCode` to set a localized command list.
+The `languageCode` option sets a localized command list.
 
 ```ts
 await client.setMyCommands(
@@ -43,7 +43,7 @@ await client.setMyCommands(
 
 ## Reading and Deleting Commands
 
-Use {{ "getMyCommands" |> m }} to read a command list and {{ "deleteMyCommands" |> m }} to delete it.
+{{ "getMyCommands" |> m }} reads a command list, while {{ "deleteMyCommands" |> m }} deletes it.
 
 ```ts
 const commands = await client.getMyCommands();

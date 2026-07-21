@@ -22,7 +22,7 @@ The same option is available on other sending methods, such as {{ "sendPhoto" |>
 
 ## Listing Scheduled Messages
 
-Use {{ "getScheduledMessages" |> m }} to get all scheduled messages in a chat.
+{{ "getScheduledMessages" |> m }} returns all scheduled messages in a chat.
 
 ```ts
 const messages = await client.getScheduledMessages(chatId);
@@ -34,13 +34,13 @@ for (const message of messages) {
 
 ## Sending a Message Early
 
-Use {{ "sendScheduledMessage" |> m }} to send a scheduled message immediately.
+{{ "sendScheduledMessage" |> m }} lets you send a scheduled message immediately.
 
 ```ts
 await client.sendScheduledMessage(chatId, message.id);
 ```
 
-Use {{ "sendScheduledMessages" |> m }} to send multiple scheduled messages at once.
+To send multiple scheduled messages at once, call {{ "sendScheduledMessages" |> m }}.
 
 ## Deleting a Scheduled Message
 
@@ -48,4 +48,4 @@ Use {{ "sendScheduledMessages" |> m }} to send multiple scheduled messages at on
 await client.deleteScheduledMessage(chatId, message.id);
 ```
 
-Use {{ "deleteScheduledMessages" |> m }} to delete multiple scheduled messages at once.
+With {{ "deleteScheduledMessages" |> m }}, you can delete multiple scheduled messages at once.

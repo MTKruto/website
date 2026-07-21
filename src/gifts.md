@@ -8,9 +8,11 @@ walkthrough:
 
 Clients can browse, send, sell, and transfer Telegram Star gifts.
 
+Combine eligible gifts with {{ "craftGifts" |> m }}. {{ "getClaimedGifts" |> m }} lists gifts claimed from a limited gift.
+
 ## Getting Available Gifts
 
-Use {{ "getGifts" |> m }} to list the gifts available for purchase.
+{{ "getGifts" |> m }} lists the gifts available for purchase.
 
 ```ts
 const gifts = await client.getGifts();
@@ -24,7 +26,7 @@ for (const gift of gifts) {
 
 ## Getting a Gift
 
-Use {{ "getGift" |> m }} with a gift slug to fetch its details.
+{{ "getGift" |> m }} with a gift slug lets you fetch its details.
 
 ```ts
 const gift = await client.getGift("delicious-bento");
@@ -32,7 +34,7 @@ const gift = await client.getGift("delicious-bento");
 
 ## Sending a Gift
 
-Use {{ "sendGift" |> m }} with the recipient and the gift identifier to purchase and send a gift.
+To purchase and send a gift, call {{ "sendGift" |> m }} with the recipient and the gift identifier.
 
 ```ts
 await client.sendGift(userId, giftId);
@@ -48,7 +50,7 @@ await client.sendGift(userId, giftId, {
 
 ## Selling a Gift
 
-Use {{ "sellGift" |> m }} to convert a gift to Telegram Stars. Reference the gift by its chat and identifier.
+With {{ "sellGift" |> m }}, you can convert a gift to Telegram Stars. Reference the gift by its chat and identifier.
 
 ```ts
 await client.sellGift({ type: "chat", chatId, id });
@@ -62,7 +64,7 @@ await client.sellGift({ type: "user", messageId });
 
 ## Transferring a Gift
 
-Use {{ "transferGift" |> m }} to give a saved gift to another user.
+{{ "transferGift" |> m }} gives a saved gift to another user.
 
 ```ts
 await client.transferGift(userId, { type: "chat", chatId, id });

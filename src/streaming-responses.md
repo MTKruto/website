@@ -10,7 +10,7 @@ Bots can stream text while generating a response.
 
 ## Streaming a Draft
 
-Call {{ "sendMessageDraft" |> m }} repeatedly with the same draft ID. Each call should contain the complete text generated so far.
+Repeated {{ "sendMessageDraft" |> m }} calls with the same draft ID update the draft. Each call should contain the complete text generated so far.
 
 ```ts
 client.command("answer", async (ctx) => {
@@ -26,11 +26,11 @@ client.command("answer", async (ctx) => {
 });
 ```
 
-Send the completed response normally after the draft finishes.
+The completed response is sent normally after the draft finishes.
 
 ## Streaming a Rich Text Draft
 
-Use {{ "sendRichTextDraft" |> m }} to stream an {{ "InputRichText" |> t }}. Reuse the same draft ID and finish with a regular rich text message.
+Stream an {{ "InputRichText" |> t }} through {{ "sendRichTextDraft" |> m }}. Reuse the same draft ID and finish with a regular rich text message.
 
 ```ts
 const draftId = ctx.msg.id;

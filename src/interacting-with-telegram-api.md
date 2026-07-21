@@ -127,6 +127,16 @@ To call Telegram API functions, use the client's `invoke()` method. It takes an 
 const config = await client.invoke({ _: "help.getConfig" });
 ```
 
+## Resolving Entities
+
+Convert an MTKruto identifier with {{ "getInputPeer" |> m }}, or call {{ "getInputUser" |> m }} or {{ "getInputChannel" |> m }} when a Telegram API function specifically requires an input user or channel.
+
+```ts
+const peer = await client.getInputPeer(chatId);
+const user = await client.getInputUser(userId);
+const channel = await client.getInputChannel(channelId);
+```
+
 ## Handling Updates
 
 Telegram API updates can be handled using the filter query `update`:

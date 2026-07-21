@@ -10,7 +10,7 @@ Users can control whether message read dates are visible.
 
 ## Getting Read Date Privacy
 
-Use {{ "getReadDatePrivacy" |> m }} to check whether read dates are visible.
+{{ "getReadDatePrivacy" |> m }} reports whether read dates are visible.
 
 ```ts
 const isVisible = await client.getReadDatePrivacy();
@@ -20,7 +20,7 @@ console.log(isVisible);
 
 ## Setting Read Date Privacy
 
-Use {{ "setReadDatePrivacy" |> m }} with the desired visibility.
+{{ "setReadDatePrivacy" |> m }} accepts the desired visibility.
 
 ```ts
 await client.setReadDatePrivacy(false);

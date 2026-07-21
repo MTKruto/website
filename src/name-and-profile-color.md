@@ -10,7 +10,7 @@ Users can customize their name color and profile color.
 
 ## Setting the Name Color
 
-Use {{ "setNameColor" |> m }} to set the name color of the current user.
+{{ "setNameColor" |> m }} changes the current user's name color.
 
 ```ts
 await client.setNameColor(5);
@@ -24,7 +24,7 @@ await client.setNameColor(5, { customEmojiId: "..." });
 
 ## Setting the Profile Color
 
-Use {{ "setProfileColor" |> m }} to set the profile color of the current user.
+{{ "setProfileColor" |> m }} lets you set the profile color of the current user.
 
 ```ts
 await client.setProfileColor(3);
