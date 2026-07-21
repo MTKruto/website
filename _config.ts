@@ -524,7 +524,24 @@ site.helper("walkthrough", (track: string) => {
     return `  <li><a href="${escapeHtml(page.src.path)}">${escapeHtml(title)}</a>${sections}\n  </li>`;
   });
 
-  return `<ol class="walkthrough-list" aria-label="${label}">\n${items.join("\n")}\n</ol>`;
+  const visibleItems = items.slice(0, 10);
+  const remainingItems = items.slice(10);
+  if (!remainingItems.length) {
+    return `<ol class="walkthrough-list" aria-label="${label}">\n${visibleItems.join("\n")}\n</ol>`;
+  }
+
+  return `<div class="walkthrough-group" data-walkthrough-collapsed>
+  <ol class="walkthrough-list" aria-label="${label}">\n${visibleItems.join("\n")}\n  </ol>
+  <button class="walkthrough-more" type="button" aria-expanded="false">
+    <span class="walkthrough-more-collapsed">Show More</span>
+    <span class="walkthrough-more-expanded">Show Less</span>
+  </button>
+  <div class="walkthrough-remainder">
+    <div class="walkthrough-remainder-inner">
+      <ol class="walkthrough-list walkthrough-list-continuation" start="11" aria-label="${label}, continued">\n${remainingItems.join("\n")}\n      </ol>
+    </div>
+  </div>
+</div>`;
 }, { type: "filter" });
 
 site.data("layout", "layout.tsx");

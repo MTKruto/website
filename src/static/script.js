@@ -331,6 +331,18 @@ function initIndexSubsections() {
   hoverQuery.addEventListener("change", syncInputMode);
 }
 
+function initWalkthroughGroups() {
+  for (const group of document.querySelectorAll("[data-walkthrough-collapsed]")) {
+    const button = group.querySelector(":scope > .walkthrough-more");
+    if (!(button instanceof HTMLButtonElement)) continue;
+
+    button.addEventListener("click", () => {
+      const expanded = group.classList.toggle("is-expanded");
+      button.setAttribute("aria-expanded", String(expanded));
+    });
+  }
+}
+
 function initToc() {
   const toc = document.querySelector(".toc");
   const mobileToggle = toc?.querySelector(".toc-mobile-toggle");
@@ -718,6 +730,7 @@ function initToc() {
   if (!activateHashEntry()) updateActive();
 }
 
+initWalkthroughGroups();
 initIndexSubsections();
 initReferenceFilter();
 initToc();
