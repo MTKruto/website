@@ -1,5 +1,5 @@
 ---
-title: Star and TON Balance & Transactions
+title: Star & TON Balance and Transactions
 parent: /#walkthrough
 walkthrough:
   track: main

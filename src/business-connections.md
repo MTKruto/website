@@ -3,7 +3,7 @@ title: Business Connections
 parent: /#walkthrough
 walkthrough:
   track: bot
-  order: 6
+  order: 12
 ---
 
 Bots can reply on behalf of Telegram Business accounts that connect to them.

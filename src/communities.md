@@ -3,7 +3,7 @@ title: Communities
 parent: /#walkthrough
 walkthrough:
   track: user
-  order: 9
+  order: 3
 ---
 
 User clients can organize related chats into communities.

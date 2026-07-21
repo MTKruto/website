@@ -3,7 +3,7 @@ title: Archived Chats
 parent: /#walkthrough
 walkthrough:
   track: user
-  order: 11
+  order: 4
 ---
 
 User clients can move chats between the main and archived chat lists.

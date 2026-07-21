@@ -3,7 +3,7 @@ title: Streaming Responses
 parent: /#walkthrough
 walkthrough:
   track: bot
-  order: 5
+  order: 6
 ---
 
 Bots can stream text while generating a response.

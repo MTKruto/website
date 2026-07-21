@@ -3,7 +3,7 @@ title: Contacts
 parent: /#walkthrough
 walkthrough:
   track: user
-  order: 4
+  order: 1
 ---
 
 User clients can manage the account's Telegram contacts.

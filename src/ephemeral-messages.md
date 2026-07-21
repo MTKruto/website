@@ -3,7 +3,7 @@ title: Ephemeral Messages
 parent: /#walkthrough
 walkthrough:
   track: bot
-  order: 8
+  order: 5
 ---
 
 Bots can reply to commands with messages that are visible only to the user who sent the command.

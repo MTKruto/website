@@ -3,7 +3,7 @@ title: Requesting Users
 parent: /#walkthrough
 walkthrough:
   track: bot
-  order: 14
+  order: 4
 ---
 
 Bots can ask users to select a user through Telegram's user picker.

@@ -3,7 +3,7 @@ title: Bot Commands
 parent: /#walkthrough
 walkthrough:
   track: bot
-  order: 12
+  order: 2
 ---
 
 Bots can publish a list of commands that Telegram shows to users.

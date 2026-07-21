@@ -3,7 +3,7 @@ title: Bot Write Access
 parent: /#walkthrough
 walkthrough:
   track: bot
-  order: 16
+  order: 11
 ---
 
 Bots can detect when a user allows them to send messages.

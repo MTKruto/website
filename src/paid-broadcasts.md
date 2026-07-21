@@ -3,7 +3,7 @@ title: Paid Broadcasts
 parent: /#walkthrough
 walkthrough:
   track: bot
-  order: 9
+  order: 16
 ---
 
 Paid broadcasts let bots use Telegram Stars to send messages beyond the free broadcast limit.

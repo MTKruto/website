@@ -3,7 +3,7 @@ title: Premium Subscription Gifts
 parent: /#walkthrough
 walkthrough:
   track: bot
-  order: 13
+  order: 17
 ---
 
 Bots can gift Telegram Premium subscriptions to users with Telegram Stars.

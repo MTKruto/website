@@ -3,7 +3,7 @@ title: Privacy Settings
 parent: /#walkthrough
 walkthrough:
   track: user
-  order: 7
+  order: 20
 ---
 
 User clients can control who can see account information and use features such as calls and group invitations.

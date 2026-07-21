@@ -3,7 +3,7 @@ title: Inline Queries
 parent: /#walkthrough
 walkthrough:
   track: bot
-  order: 2
+  order: 7
 ---
 
 Inline mode lets users interact with a bot from any chat by typing its username followed by a query. It must first be enabled for the bot through [@BotFather](https://t.me/BotFather).

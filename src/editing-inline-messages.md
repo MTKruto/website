@@ -3,7 +3,7 @@ title: Editing Inline Messages
 parent: /#walkthrough
 walkthrough:
   track: bot
-  order: 18
+  order: 8
 ---
 
 Bots can edit inline messages after a user selects an inline query result or interacts with an inline keyboard.

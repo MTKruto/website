@@ -3,7 +3,7 @@ title: Managed Bots
 parent: /#walkthrough
 walkthrough:
   track: bot
-  order: 11
+  order: 18
 ---
 
 Bots that manage other bots can control their access settings and tokens.

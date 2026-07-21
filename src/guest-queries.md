@@ -3,7 +3,7 @@ title: Guest Queries
 parent: /#walkthrough
 walkthrough:
   track: bot
-  order: 7
+  order: 9
 ---
 
 Bots can receive guest queries and answer them with a single result. Guest queries must first be enabled for the bot through [@BotFather](https://t.me/BotFather).

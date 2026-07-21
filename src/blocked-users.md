@@ -3,7 +3,7 @@ title: Blocked Users
 parent: /#walkthrough
 walkthrough:
   track: user
-  order: 6
+  order: 18
 ---
 
 User clients can block users and manage the account's block list.

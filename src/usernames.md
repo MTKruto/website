@@ -3,7 +3,7 @@ title: Usernames
 parent: /#walkthrough
 walkthrough:
   track: user
-  order: 13
+  order: 12
 ---
 
 User clients can check and manage the account's usernames.

@@ -3,7 +3,7 @@ title: Name and Profile Color
 parent: /#walkthrough
 walkthrough:
   track: user
-  order: 18
+  order: 13
 ---
 
 User clients can customize their name color and profile color.

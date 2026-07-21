@@ -3,7 +3,7 @@ title: Star Payment Refunds
 parent: /#walkthrough
 walkthrough:
   track: bot
-  order: 17
+  order: 15
 ---
 
 Bots can refund payments made with Telegram Stars.

@@ -3,7 +3,7 @@ title: Profile Music
 parent: /#walkthrough
 walkthrough:
   track: user
-  order: 10
+  order: 15
 ---
 
 User clients can add music to their profile.

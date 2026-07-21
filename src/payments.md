@@ -3,7 +3,7 @@ title: Payments
 parent: /#walkthrough
 walkthrough:
   track: bot
-  order: 4
+  order: 14
 ---
 
 Bots can accept payments by sending invoices and handling checkout updates.

@@ -3,7 +3,7 @@ title: Authorization Sessions
 parent: /#walkthrough
 walkthrough:
   track: user
-  order: 5
+  order: 21
 ---
 
 User clients can view and remove the account's authorization sessions.

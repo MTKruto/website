@@ -3,7 +3,7 @@ title: User Emoji Statuses
 parent: /#walkthrough
 walkthrough:
   track: bot
-  order: 10
+  order: 13
 ---
 
 Bots can set and remove emoji statuses for users who allow them to do so.

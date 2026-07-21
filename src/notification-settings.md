@@ -3,7 +3,7 @@ title: Notification Settings
 parent: /#walkthrough
 walkthrough:
   track: user
-  order: 8
+  order: 19
 ---
 
 User clients can control notifications for individual chats.

@@ -3,7 +3,7 @@ title: Message Drafts
 parent: /#walkthrough
 walkthrough:
   track: user
-  order: 17
+  order: 6
 ---
 
 User clients can save message drafts and clear all drafts.

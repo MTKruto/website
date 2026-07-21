@@ -3,7 +3,7 @@ title: Account Auto-Deletion
 parent: /#walkthrough
 walkthrough:
   track: user
-  order: 14
+  order: 23
 ---
 
 User clients can control when an inactive account is automatically deleted.

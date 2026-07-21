@@ -3,7 +3,7 @@ title: Saved Messages
 parent: /#walkthrough
 walkthrough:
   track: user
-  order: 16
+  order: 5
 ---
 
 User clients can list chats with saved messages and get the messages saved from each chat.

@@ -3,7 +3,7 @@ title: Chat Recommendations
 parent: /#walkthrough
 walkthrough:
   track: user
-  order: 15
+  order: 2
 ---
 
 User clients can get recommended channels and find similar channels or bots.

@@ -3,7 +3,7 @@ title: Bot Profile
 parent: /#walkthrough
 walkthrough:
   track: bot
-  order: 3
+  order: 1
 ---
 
 Bots can manage the name and descriptions Telegram shows to users.

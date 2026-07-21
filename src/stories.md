@@ -3,7 +3,7 @@ title: Stories
 parent: /#walkthrough
 walkthrough:
   track: user
-  order: 2
+  order: 10
 ---
 
 User clients can post photo and video stories with {{ "createStory" |> m }}.

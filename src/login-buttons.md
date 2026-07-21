@@ -3,7 +3,7 @@ title: Login Buttons
 parent: /#walkthrough
 walkthrough:
   track: bot
-  order: 15
+  order: 10
 ---
 
 Bots can let users sign in to a website with their Telegram account.

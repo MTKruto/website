@@ -3,7 +3,7 @@ title: Scheduled Messages
 parent: /#walkthrough
 walkthrough:
   track: user
-  order: 1
+  order: 7
 ---
 
 User clients can schedule messages to be sent later. Set `sendAt` to a future Unix timestamp in seconds when sending a message.

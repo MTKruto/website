@@ -3,7 +3,7 @@ title: Message Translation
 parent: /#walkthrough
 walkthrough:
   track: user
-  order: 12
+  order: 8
 ---
 
 User clients can translate messages and text into another language.
