@@ -61,14 +61,12 @@ initCodeGroups();
 function initReferenceFilter() {
   const filter = document.querySelector("[data-reference-filter]");
   const input = filter?.querySelector(".reference-filter-input");
-  const clearButton = filter?.querySelector(".reference-filter-clear");
   const content = filter?.closest(".content");
   const empty = content?.querySelector("[data-reference-filter-empty]");
   const kind = filter?.dataset.referenceFilter;
 
   if (
     !(input instanceof HTMLInputElement) ||
-    !(clearButton instanceof HTMLButtonElement) ||
     !(empty instanceof HTMLElement) ||
     !content ||
     (kind !== "methods" && kind !== "types")
@@ -130,7 +128,6 @@ function initReferenceFilter() {
       if (group.heading) group.heading.hidden = !groupVisible;
     }
 
-    clearButton.hidden = rawQuery.length === 0;
     empty.hidden = matches > 0;
     empty.textContent = matches ? "" : `No ${kind} match “${rawQuery}”.`;
     if (toc) toc.hidden = terms.length > 0;
@@ -149,12 +146,6 @@ function initReferenceFilter() {
     input.value = "";
     update();
   });
-  clearButton.addEventListener("click", () => {
-    input.value = "";
-    update();
-    input.focus({ preventScroll: true });
-  });
-
   update();
 }
 

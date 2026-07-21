@@ -233,11 +233,6 @@ export default (
                           autocapitalize="none"
                           spellcheck="false"
                         />
-                        <button type="button" class="reference-filter-clear" aria-label="Clear filter" hidden>
-                          <svg viewBox="0 0 16 16" aria-hidden="true">
-                            <path d="m4 4 8 8m0-8-8 8" />
-                          </svg>
-                        </button>
                       </div>
                     </div>
                     <p class="reference-filter-empty" data-reference-filter-empty hidden data-pagefind-ignore="all"></p>
