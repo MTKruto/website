@@ -118,7 +118,7 @@ export default (
   return (
     <>
       {{ __html: "<!DOCTYPE html>" }}
-      <html lang="en">
+      <html lang="en" data-color-scheme="auto">
         <head>
           <meta charset="utf-8" />
           <meta
@@ -133,8 +133,7 @@ export default (
           <meta property="article:published_time" content="" />
           <meta property="article:author" content="https://t.me/MTKruto" />
           <meta property="telegram:channel" content="@MTKruto" />
-          <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
-          <meta name="theme-color" content="#0e0f0f" media="(prefers-color-scheme: dark)" />
+          <meta id="theme-color" name="theme-color" content="#ffffff" />
           <link rel="icon" href="/favicon.ico" sizes="any" />
           <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
           <link rel="manifest" href="/site.webmanifest" />
@@ -142,15 +141,18 @@ export default (
           <link rel="stylesheet" href="/migrate.css" />
           <link rel="stylesheet" href="/style.css" />
           <link
+            id="highlight-theme-light"
             rel="stylesheet"
             href="/github.css"
             media="(prefers-color-scheme: light)"
           />
           <link
+            id="highlight-theme-dark"
             rel="stylesheet"
             href="/github-dark.css"
             media="(prefers-color-scheme: dark)"
           />
+          <script src="/theme.js" />
           <script src="/main.js" />
         </head>
         <body>
@@ -268,24 +270,40 @@ export default (
           <footer class="site-footer">
             <div class="site-footer-inner">
               <div>&copy; 2023-2026 MTKruto</div>
-              <nav aria-label="Community links">
-                <a
-                  href="https://telegram.me/MTKruto"
-                  rel="noreferrer noopener"
-                  target="_blank"
-                >
-                  <Telegram />
-                  <span>Telegram</span>
-                </a>
-                <a
-                  href="https://github.com/MTKruto"
-                  rel="noreferrer noopener"
-                  target="_blank"
-                >
-                  <GitHub />
-                  <span>GitHub</span>
-                </a>
-              </nav>
+              <div class="site-footer-actions">
+                <nav aria-label="Community links">
+                  <a
+                    href="https://telegram.me/MTKruto"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                  >
+                    <Telegram />
+                    <span>Telegram</span>
+                  </a>
+                  <a
+                    href="https://github.com/MTKruto"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                  >
+                    <GitHub />
+                    <span>GitHub</span>
+                  </a>
+                </nav>
+                <fieldset class="color-scheme-toggle" data-color-scheme-toggle>
+                  <legend>Appearance</legend>
+                  {(["light", "dark", "auto"] as const).map((scheme) => (
+                    <label>
+                      <input
+                        type="radio"
+                        name="color-scheme"
+                        value={scheme}
+                        checked={scheme === "auto"}
+                      />
+                      <span>{scheme[0].toUpperCase() + scheme.slice(1)}</span>
+                    </label>
+                  ))}
+                </fieldset>
+              </div>
             </div>
           </footer>
           <dialog id="search-dialog" class="search-dialog" aria-label="Search documentation">

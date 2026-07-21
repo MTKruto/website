@@ -1,3 +1,20 @@
+@mixin dark-theme {
+  color-scheme: dark;
+  --bg: #0e0f0f;
+  --bgt: #0e0f0fcc;
+  --surface: #151515;
+  --fg: #ffffff;
+  --fgt: #ffffffcc;
+  --muted: #9a9a9a;
+  --db: #212121;
+  --dbt: #21212199;
+  --border: #303030;
+  --kr: #00adff;
+  --code-bg: #212121;
+  --inverse: #ffffff;
+  --inverse-fg: #0e0f0f;
+}
+
 :root {
   color-scheme: light;
   --bg: #ffffff;
@@ -16,22 +33,14 @@
   scrollbar-color: var(--border) var(--bg);
 }
 
+:root[data-color-scheme="dark"] {
+  @include dark-theme;
+}
+
 @media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: dark;
-    --bg: #0e0f0f;
-    --bgt: #0e0f0fcc;
-    --surface: #151515;
-    --fg: #ffffff;
-    --fgt: #ffffffcc;
-    --muted: #9a9a9a;
-    --db: #212121;
-    --dbt: #21212199;
-    --border: #303030;
-    --kr: #00adff;
-    --code-bg: #212121;
-    --inverse: #ffffff;
-    --inverse-fg: #0e0f0f;
+  :root[data-color-scheme="auto"],
+  :root:not([data-color-scheme]) {
+    @include dark-theme;
   }
 }
 
