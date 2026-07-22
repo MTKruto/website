@@ -18,7 +18,7 @@ export default (
     : undefined;
   const referenceIndex = url === "/methods/" ? "methods" : url === "/types/" ? "types" : undefined;
   const searchable = !url.startsWith("/gh/") && !url.startsWith("/404") && url !== "/source-map/";
-  const searchKind = url.startsWith("/methods/") ? "Methods" : url.startsWith("/types/") ? "Types" : url.startsWith("/server/") ? "Server" : "Guides";
+  const searchKind = url.startsWith("/methods/") ? "Methods" : url.startsWith("/types/") ? "Types" : "Guides";
 
   function Bc() {
     const items = bc(url);
@@ -126,7 +126,7 @@ export default (
             content="width=device-width, initial-scale=1.0"
           />
           <title>
-            {title} | {url.startsWith("/server") ? "MTKruto Server" : "MTKruto"}
+            {title} | MTKruto
           </title>
           <meta property="og:site_name" content="MTKruto" />
           <meta property="tg:site_verification" content="g7j8/rPFXfhyrq5q0QQV7EsYWv4=" />

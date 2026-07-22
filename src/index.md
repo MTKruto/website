@@ -56,7 +56,6 @@ Its key features include:
 
 - [FAQ](/faq) {{ "/faq" |> i }}
 - [Terminology](/terminology) {{ "/terminology" |> i }}
-- [MTKruto Server](/server)
 - [Acknowledgements](/acknowledgements)
 - [Contributing](/contributing) {{ "/contributing" |> i }}
 - [Source Map](/source-map)
