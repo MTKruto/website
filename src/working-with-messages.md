@@ -85,11 +85,11 @@ client.on("deletedMessages", (ctx) => {
 ### Notes
 
 - UpdateMessagesDeleted is **not always sent to bots**, so it is recommended that you don't depend on it for bots.
-- Updates for outgoing messages are not sent for bots by default, but you can disable the `ignoreOutgoing` option to receive them:
+- Outgoing messages are not sent as high-level updates by default. Enable the `outgoingMessages` option to receive them:
 
 ```ts
 const client = new Client({
-  outgoingMessages: false,
+  outgoingMessages: true,
   /* ... */
 });
 ```
