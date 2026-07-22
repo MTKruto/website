@@ -4,17 +4,7 @@ parent: /#walkthrough
 walkthrough:
   track: bot
   order: 5
-  sections:
-    reporting-an-ephemeral-message: user
 ---
-
-## Reporting an Ephemeral Message
-
-Users can report an ephemeral message through {{ "reportEphemeralMessage" |> m }}.
-
-```ts
-await client.reportEphemeralMessage(chatId, messageId);
-```
 
 Bots can reply to commands with messages that are visible only to the user who sent the command.
 
