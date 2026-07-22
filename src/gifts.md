@@ -8,8 +8,6 @@ walkthrough:
 
 Clients can browse, send, sell, and transfer Telegram Star gifts.
 
-Combine eligible gifts with {{ "craftGifts" |> m }}. {{ "getClaimedGifts" |> m }} lists gifts claimed from a limited gift.
-
 ## Getting Available Gifts
 
 {{ "getGifts" |> m }} lists the gifts available for purchase.
@@ -30,6 +28,28 @@ for (const gift of gifts) {
 
 ```ts
 const gift = await client.getGift("delicious-bento");
+```
+
+## Getting Claimed Gifts
+
+{{ "getClaimedGifts" |> m }} lists gifts claimed by a user or channel.
+
+```ts
+const claimed = await client.getClaimedGifts(chatId);
+
+for (const gift of claimed.gifts) {
+  console.log(gift);
+}
+```
+
+You can filter the results and use the returned `offset` to fetch the next page.
+
+```ts
+const claimed = await client.getClaimedGifts(chatId, {
+  isUniqueExcluded: true,
+  limit: 50,
+  offset,
+});
 ```
 
 ## Sending a Gift
@@ -68,4 +88,15 @@ await client.sellGift({ type: "user", messageId });
 
 ```ts
 await client.transferGift(userId, { type: "chat", chatId, id });
+```
+
+## Crafting Gifts
+
+Combine eligible gifts with {{ "craftGifts" |> m }}. Pass each gift as a reference by its slug, chat and identifier, or private-chat message identifier.
+
+```ts
+await client.craftGifts([
+  { type: "chat", chatId, id: firstGiftId },
+  { type: "chat", chatId, id: secondGiftId },
+]);
 ```
