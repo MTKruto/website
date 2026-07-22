@@ -149,8 +149,8 @@ Inside handlers, you can call the respective `reply*` shortcuts to easily reply 
 
 ```ts
 client.on("message", async (ctx) => {
-  await ctx.reply(text); // same as client.sendMessage(ctx.chat.id, text, { replyToMessageId: ctx.msg.id });
-  await ctx.replyPhoto(file); // same as client.sendPhoto(ctx.chat.id, file, { replyToMessageId: ctx.msg.id });
+  await ctx.reply(text); // same as client.sendMessage(ctx.chat.id, text, { replyTo: { type: "message", messageId: ctx.msg.id } });
+  await ctx.replyPhoto(file); // same as client.sendPhoto(ctx.chat.id, file, { replyTo: { type: "message", messageId: ctx.msg.id } });
 });
 ```
 
