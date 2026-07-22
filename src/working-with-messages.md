@@ -15,8 +15,8 @@ walkthrough:
 There are three updates that are directly related to messages:
 
 - {{ "UpdateNewMessage" |> t }} --- Received when a message is received or sent.
-- {{ "UpdateEditedMessage" |> t }} --- Received when a message is edited.
-- {{ "UpdateDeletedMessages" |> t }} --- Received when one or more messages are deleted.
+- {{ "UpdateMessageEdited" |> t }} --- Received when a message is edited.
+- {{ "UpdateMessagesDeleted" |> t }} --- Received when one or more messages are deleted.
 
 Here are some examples on adding listeners for each of them:
 
@@ -84,7 +84,7 @@ client.on("deletedMessages", (ctx) => {
 
 ### Notes
 
-- UpdateDeletedMessages is **not always sent to bots**, so it is recommended that you don't depend on it for bots.
+- UpdateMessagesDeleted is **not always sent to bots**, so it is recommended that you don't depend on it for bots.
 - Updates for outgoing messages are not sent for bots by default, but you can disable the `ignoreOutgoing` option to receive them:
 
 ```ts
