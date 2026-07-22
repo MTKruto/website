@@ -6,7 +6,7 @@ walkthrough:
   order: 2
 ---
 
-This guide explains how to construct a client and authorize an account with {{ "start" |> m }}. It assumes that you have already [installed MTKruto](./installation).
+This guide explains how to construct a client and authorize an account with {{ "start" |> m }}. It assumes that you have already [installed MTKruto](/installation).
 
 ## Acquiring API Credentials
 
