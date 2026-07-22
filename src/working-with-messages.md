@@ -38,7 +38,7 @@ To see how the context object would look like for each update, you can refer to 
 
 ### Filtering Message Types
 
-There is a significant number of different types of [messages](/types/Message), which makes processing all of them in a single handler a little harder.
+There is a significant number of {{ "Message" |> t }} variants, which makes processing all of them in a single handler a little harder.
 
 Fortunately, you can easily filter out messages by their types when assigning your handler. Here are some examples:
 
@@ -102,7 +102,7 @@ There are multiple methods that can be used to send messages. Each of them is us
 - {{ "sendPhoto" |> m }} --- For sending photos.
 - {{ "sendDocument" |> m }} --- For sending files.
 - {{ "sendVideo" |> m }} --- For sending videos.
-- {{ "sendAnimation" |> m }} --- For sending [animations](/types/Animation).
+- {{ "sendAnimation" |> m }} --- For sending {{ "Animation" |> t }} messages.
 - {{ "sendAudio" |> m }} --- For sending audio files.
 - {{ "sendVoice" |> m }} --- For sending voice messages.
 - {{ "sendVideoNote" |> m }} --- For sending video notes.

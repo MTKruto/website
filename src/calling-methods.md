@@ -19,7 +19,7 @@ await client.methodIdentifier(requiredParam1, requiredParam2, {
 });
 ```
 
-Here's an example on how you can call [`sendMessage`](/methods/sendMessage) which has two required parameters (`chatId` and `text`), and a number of optional parameters.
+Here's an example on how you can call {{ "sendMessage" |> m }}, which has two required parameters (`chatId` and `text`), and a number of optional parameters.
 
 ```ts
 await client.sendMessage(36265675, "Hey you!", {

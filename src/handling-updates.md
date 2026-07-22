@@ -14,7 +14,7 @@ MTKruto uses an update middleware inspired by [grammY](https://grammy.dev/guide/
 
 You can handle updates by assigning update handlers to the client. A handler is a function that takes two arguments: `ctx` and `next`.
 
-`ctx` includes the received update at `ctx.update` and provides context-aware methods and shortcuts. See all types of updates [here](/types/Update).
+`ctx` includes the received update at `ctx.update` and provides context-aware methods and shortcuts. See {{ "Update" |> t }} for all update types.
 
 `next` is a function that passes the update to the next handlers.
 

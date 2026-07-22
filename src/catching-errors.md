@@ -129,4 +129,4 @@ To decrease the chances of this happening, the chat that is to be interacted wit
 - Searching messages ([searchMessages](/methods/searchmessages))
 - Receiving a message (doesn't matter where from)
 - Loading the user account's chat list ([getChats](/methods/getchats))
-- Using one of its usernames (by passing it to [methods](/methods) accepting [ID](/types/ID))
+- Using one of its usernames (by passing it to [methods](/methods) accepting {{ "ID" |> t }})
