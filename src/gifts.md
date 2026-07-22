@@ -4,6 +4,8 @@ parent: /#walkthrough
 walkthrough:
   track: main
   order: 22
+  sections:
+    crafting-gifts: user
 ---
 
 Clients can browse, send, sell, and transfer Telegram Star gifts.
