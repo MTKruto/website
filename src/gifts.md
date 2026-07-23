@@ -5,6 +5,8 @@ walkthrough:
   track: main
   order: 22
   sections:
+    getting-a-gift: user
+    transferring-a-gift: user
     crafting-gifts: user
 ---
 
