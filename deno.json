@@ -9,6 +9,7 @@
     "lume/jsx-runtime": "https://cdn.jsdelivr.net/gh/oscarotero/ssx@0.1.14/jsx-runtime.ts",
     "preact-render-to-string": "npm:preact-render-to-string@^6.6.5"
   },
+  "minimumDependencyAge": 0,
   "permissions": {
     "lume": {
       "read": true,
