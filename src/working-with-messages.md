@@ -99,13 +99,17 @@ const client = new Client({
 There are multiple methods that can be used to send messages. Each of them is used for sending a specific type of message.
 
 - {{ "sendMessage" |> m }} --- For sending text messages.
+- {{ "sendRichText" |> m }} --- For sending structured rich text messages.
 - {{ "sendPhoto" |> m }} --- For sending photos.
+- {{ "sendLivePhoto" |> m }} --- For sending live photos.
 - {{ "sendDocument" |> m }} --- For sending files.
 - {{ "sendVideo" |> m }} --- For sending videos.
+- {{ "sendMediaGroup" |> m }} --- For sending photos and videos as an album.
 - {{ "sendAnimation" |> m }} --- For sending {{ "Animation" |> t }} messages.
 - {{ "sendAudio" |> m }} --- For sending audio files.
 - {{ "sendVoice" |> m }} --- For sending voice messages.
 - {{ "sendVideoNote" |> m }} --- For sending video notes.
+- {{ "sendSticker" |> m }} --- For sending stickers.
 - {{ "sendDice" |> m }} --- For sending dice messages.
 - {{ "sendLocation" |> m }} --- For sending locations.
 - {{ "sendVenue" |> m }} --- For sending venues.
