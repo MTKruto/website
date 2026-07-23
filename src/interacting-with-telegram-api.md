@@ -159,7 +159,7 @@ client.on("updateDeleteMessages", (ctx) => {
 });
 ```
 
-Note that Telegram API updates and MTKruto's high-level update types are sent separately. For instance, if a middleware includes a handler for `updateNewMessage` (Telegram API) and another for `message` (MTKruto [`Message`](/types/Message)), both of them will be called regardless of them having called `next` or not.
+Note that Telegram API updates and MTKruto's high-level update types are sent separately. For instance, if a middleware includes a handler for `updateNewMessage` (Telegram API) and another for `message` (MTKruto {{ "Message" |> t }}), both of them will be called regardless of them having called `next` or not.
 
 ```ts
 client.on("updateNewMessage", () => {
