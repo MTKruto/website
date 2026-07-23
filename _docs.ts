@@ -104,7 +104,7 @@ export async function getDocs(version?: string) {
   const callableProperties = Client?.classDef.properties
     .filter((v) => v.tsType?.kind == "typeLiteral" && v.tsType.typeLiteral.callSignatures.length > 0)
     .map((v): ClassMethodDef => {
-      const callSignature = v.tsType!.kind == "typeLiteral" ? v.tsType.typeLiteral.callSignatures[0] : undefined!;
+      const callSignature = v.tsType!.kind == "typeLiteral" ? v.tsType!.typeLiteral.callSignatures[0] : undefined!;
       const tags = v.jsDoc?.tags ?? [];
       return {
         jsDoc: {
