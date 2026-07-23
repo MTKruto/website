@@ -332,14 +332,47 @@ function initIndexSubsections() {
 }
 
 function initWalkthroughGroups() {
+  const desktopQuery = matchMedia("(hover: hover) and (pointer: fine)");
+
   for (const group of document.querySelectorAll("[data-walkthrough-collapsed]")) {
     const button = group.querySelector(":scope > .walkthrough-more");
-    if (!(button instanceof HTMLButtonElement)) continue;
+    const remainder = group.querySelector(":scope > .walkthrough-remainder");
+    if (!(button instanceof HTMLButtonElement) || !(remainder instanceof HTMLElement)) continue;
+
+    let hovered = false;
+    let manuallyExpanded = false;
+
+    const setExpanded = (expanded) => {
+      group.classList.toggle("is-expanded", expanded);
+      button.setAttribute("aria-expanded", String(expanded));
+      remainder.setAttribute("aria-hidden", String(!expanded));
+      remainder.toggleAttribute("inert", !expanded);
+    };
+
+    const syncExpanded = () => {
+      const activeElement = document.activeElement;
+      const contentHasFocus = activeElement !== button && group.contains(activeElement);
+      setExpanded(manuallyExpanded || (desktopQuery.matches && (hovered || contentHasFocus)));
+    };
 
     button.addEventListener("click", () => {
-      const expanded = group.classList.toggle("is-expanded");
-      button.setAttribute("aria-expanded", String(expanded));
+      manuallyExpanded = !group.classList.contains("is-expanded");
+      syncExpanded();
     });
+    group.addEventListener("mouseenter", () => {
+      hovered = true;
+      syncExpanded();
+    });
+    group.addEventListener("mouseleave", () => {
+      hovered = false;
+      syncExpanded();
+    });
+    group.addEventListener("focusin", syncExpanded);
+    group.addEventListener("focusout", () => queueMicrotask(syncExpanded));
+    desktopQuery.addEventListener("change", syncExpanded);
+
+    group.classList.add("is-enhanced");
+    syncExpanded();
   }
 }
 

@@ -70,9 +70,8 @@ ol.walkthrough-list {
 
 .walkthrough-remainder {
   display: grid;
-  grid-template-rows: 0fr;
-  opacity: 0;
-  transform: translateY(-0.5rem);
+  grid-template-rows: 1fr;
+  opacity: 1;
   transition:
     grid-template-rows 560ms cubic-bezier(0.16, 1, 0.3, 1),
     opacity 240ms ease,
@@ -86,15 +85,59 @@ ol.walkthrough-list {
 
     > .walkthrough-list {
       margin-top: 0;
-      margin-bottom: 0;
+      margin-bottom: 1rem;
     }
   }
 }
 
 .walkthrough-list-continuation > li {
-  opacity: 0;
-  transform: translateY(-0.3rem);
+  opacity: 1;
   transition: opacity 220ms ease, transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.walkthrough-group.is-enhanced {
+  > .walkthrough-more {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2rem;
+    margin: 0.2rem 0 0.2rem 1.15rem;
+    padding: 0.2rem 0.45rem;
+    border: 0;
+    border-radius: 0;
+    background: var(--dbt);
+    color: var(--kr);
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.75rem;
+    touch-action: manipulation;
+  }
+
+  &:not(.is-expanded) {
+    > .walkthrough-remainder {
+      grid-template-rows: 0fr;
+      opacity: 0;
+      transform: translateY(-0.5rem);
+
+      > .walkthrough-remainder-inner > .walkthrough-list {
+        margin-bottom: 0;
+      }
+    }
+
+    .walkthrough-list-continuation > li {
+      opacity: 0;
+      transform: translateY(-0.3rem);
+    }
+  }
+
+  &.is-expanded > .walkthrough-more {
+    > .walkthrough-more-collapsed {
+      display: none;
+    }
+
+    > .walkthrough-more-expanded {
+      display: inline;
+    }
+  }
 }
 
 .index-subsections > ul {
@@ -211,69 +254,22 @@ ol.walkthrough-list {
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .walkthrough-group:hover,
-  .walkthrough-group:focus-within {
-    > .walkthrough-remainder {
-      grid-template-rows: 1fr;
-      opacity: 1;
-      transform: none;
-
-      > .walkthrough-remainder-inner > .walkthrough-list {
-        margin-bottom: 1rem;
-      }
-    }
-
-    .walkthrough-list-continuation > li {
-      opacity: 1;
-      transform: none;
-    }
+  .walkthrough-group.is-enhanced > .walkthrough-more:not(:focus-visible) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    min-height: 0;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
+    border: 0;
+    white-space: nowrap;
   }
 
   .index-subsection-toggle {
     display: none;
-  }
-}
-
-@media (hover: none), (pointer: coarse) {
-  .walkthrough-more {
-    display: inline-flex;
-    align-items: center;
-    min-height: 2rem;
-    margin: 0.2rem 0 0.2rem 1.15rem;
-    padding: 0.2rem 0.45rem;
-    border: 0;
-    border-radius: 0;
-    background: var(--dbt);
-    color: var(--kr);
-    cursor: pointer;
-    font: inherit;
-    font-size: 0.75rem;
-    touch-action: manipulation;
-  }
-
-  .walkthrough-group.is-expanded > .walkthrough-more {
-    > .walkthrough-more-collapsed {
-      display: none;
-    }
-
-    > .walkthrough-more-expanded {
-      display: inline;
-    }
-  }
-
-  .walkthrough-group.is-expanded > .walkthrough-remainder {
-    grid-template-rows: 1fr;
-    opacity: 1;
-    transform: none;
-
-    > .walkthrough-remainder-inner > .walkthrough-list {
-      margin-bottom: 1rem;
-    }
-  }
-
-  .walkthrough-group.is-expanded .walkthrough-list-continuation > li {
-    opacity: 1;
-    transform: none;
   }
 }
 

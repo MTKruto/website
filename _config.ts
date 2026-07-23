@@ -189,6 +189,15 @@ site.preprocess([".html"], (pages) => {
 
   for (const page of pages) {
     delete page.data.walkthroughProgress;
+    if (page.data.walkthrough !== undefined && !getWalkthroughData(page)) {
+      console.error(
+        "The page",
+        page.src.path,
+        "has invalid walkthrough metadata.",
+      );
+      error = true;
+      ++errorCount;
+    }
   }
 
   const trackLabels: Record<WalkthroughTrack, string> = {
@@ -532,11 +541,11 @@ site.helper("walkthrough", (track: string) => {
 
   return `<div class="walkthrough-group" data-walkthrough-collapsed>
   <ol class="walkthrough-list" aria-label="${label}">\n${visibleItems.join("\n")}\n  </ol>
-  <button class="walkthrough-more" type="button" aria-expanded="false">
+  <button class="walkthrough-more" type="button" aria-expanded="false" aria-controls="walkthrough-${track}-remainder">
     <span class="walkthrough-more-collapsed">Show More</span>
     <span class="walkthrough-more-expanded">Show Less</span>
   </button>
-  <div class="walkthrough-remainder">
+  <div class="walkthrough-remainder" id="walkthrough-${track}-remainder">
     <div class="walkthrough-remainder-inner">
       <ol class="walkthrough-list walkthrough-list-continuation" start="11" aria-label="${label}, continued">\n${remainingItems.join("\n")}\n      </ol>
     </div>
