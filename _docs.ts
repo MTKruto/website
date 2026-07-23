@@ -22,7 +22,7 @@ export async function getDocs(version?: string) {
 
   const mod = Object.values(
     await doc(
-      version === "gh" ? "https://raw.githubusercontent.com/MTKruto/MTKruto/main/mod.ts" : `https://deno.land/x/mtkruto@${version}/mod.ts`,
+      version === "gh" ? "https://raw.githubusercontent.com/MTKruto/MTKruto/main/mod.ts" : `https://jsr.io/@mtkruto/mtkruto/${version}/mod.ts`,
     ),
   ).flat();
 
