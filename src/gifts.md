@@ -6,8 +6,6 @@ walkthrough:
   order: 22
   sections:
     getting-a-gift: user
-    transferring-a-gift: user
-    crafting-gifts: user
 ---
 
 Clients can browse, send, sell, and transfer Telegram Star gifts.
@@ -94,6 +92,14 @@ await client.sellGift({ type: "user", messageId });
 await client.transferGift(userId, { type: "chat", chatId, id });
 ```
 
+Bot clients must pass the business connection identifier:
+
+```ts
+await client.transferGift(userId, { type: "chat", chatId, id }, {
+  businessConnectionId,
+});
+```
+
 ## Crafting Gifts
 
 Combine eligible gifts with {{ "craftGifts" |> m }}. Pass each gift as a reference by its slug, chat and identifier, or private-chat message identifier.
@@ -103,4 +109,15 @@ await client.craftGifts([
   { type: "chat", chatId, id: firstGiftId },
   { type: "chat", chatId, id: secondGiftId },
 ]);
+```
+
+Bot clients must pass the business connection identifier:
+
+```ts
+await client.craftGifts([
+  { type: "chat", chatId, id: firstGiftId },
+  { type: "chat", chatId, id: secondGiftId },
+], {
+  businessConnectionId,
+});
 ```
