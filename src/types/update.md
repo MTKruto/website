@@ -45,5 +45,6 @@ Any type of update.
 <span class="opacity-50">|</span> <a href="/types/updatemessagedraft">UpdateMessageDraft</a>
 <span class="opacity-50">|</span> <a href="/types/updatesecretchat">UpdateSecretChat</a>
 <span class="opacity-50">|</span> <a href="/types/updatesecretmessage">UpdateSecretMessage</a>
-<span class="opacity-50">|</span> <a href="/types/updatesecrettyping">UpdateSecretTyping</a></div>
+<span class="opacity-50">|</span> <a href="/types/updatesecrettyping">UpdateSecretTyping</a>
+<span class="opacity-50">|</span> <a href="/types/updatemanagedbot">UpdateManagedBot</a></div>
 

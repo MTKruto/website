@@ -2,10 +2,10 @@
 title: transferGift
 parent: /methods
 metas:
-  description: Transfer a gift. User-only.
+  description: Transfer a gift.
 ---
 
-Transfer a gift.<span class="select-none"> <span class="inline-flex w-fit items-center" style="font-size:12px;white-space:nowrap;word-break:keep-all;"><span class="w-fit bg-dbt select-none text-fgt" style="padding:2px 8px;border-radius:12px;">USER-ONLY</span></span> </span>
+Transfer a gift.<span class="select-none">  </span>
 
 ### Parameters 
 
@@ -17,7 +17,11 @@ The identifier of a chat to transfer the gift to.
 
 The gift to transfer.
 
-</div></div></div></div>
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_transferPrice" data-anchor="true"><span class="font-bold">transferPrice</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_businessConnectionId" data-anchor="true"><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+The identifier of a business connection to perform the action on. Bot-only.
+
+</div></div></div></div></div>
 
 ### Result 
 
@@ -26,7 +30,12 @@ The gift to transfer.
 ### Syntax
 
 ```ts
+// Required parameters only.
 await client.transferGift(chatId, gift);
+
+// Required parameters + optional parameters.
+// Any of the optional parameters can be omitted.
+await client.transferGift(chatId, gift, { transferPrice, businessConnectionId });
 ```
 
 

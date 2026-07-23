@@ -47,7 +47,7 @@ Whether the video is a spoiler.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isLoop" data-anchor="true"><span class="font-bold">isLoop</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
-Whether the video is played in loop.
+Whether the video is played in a loop.
 
 </div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isAutoplay" data-anchor="true"><span class="font-bold">isAutoplay</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
 
