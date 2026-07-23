@@ -127,15 +127,15 @@ await client.sendMessage(
 
 await client.sendPhoto(chat, file, { caption: "Optional Caption", /* other optional options */ });
 
-await client.sendDocument(chat, file, { caption: "Optional Caption", /* ooo */ });
+await client.sendDocument(chat, file, { caption: "Optional Caption", /* other optional options */ });
 
-await client.sendVideo(chat, file, { caption: "Optional Caption", /* ooo */ });
+await client.sendVideo(chat, file, { caption: "Optional Caption", /* other optional options */ });
 
-await client.sendAnimation(chat, file, { caption: "Optional Caption", /* ooo */ });
+await client.sendAnimation(chat, file, { caption: "Optional Caption", /* other optional options */ });
 
-await client.sendAudio(chat, file, { caption: "Optional Caption", /* ooo */ });
+await client.sendAudio(chat, file, { caption: "Optional Caption", /* other optional options */ });
 
-await client.sendVoice(chat, file, { caption: "Optional Caption", /* ooo */ });
+await client.sendVoice(chat, file, { caption: "Optional Caption", /* other optional options */ });
 
 await client.sendDice(chat); // defaults to 🎲
 await client.sendDice(chat, { emoji: "🏀" }); // but you can send any valid dice
