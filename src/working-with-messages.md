@@ -129,11 +129,28 @@ await client.sendMessage(
   { isSilent: true, /* other optional options */ }
 );
 
+await client.sendRichText(chat, {
+  type: "blocks",
+  blocks: [
+    {
+      type: "paragraph",
+      text: { type: "plain", text: "Hello!" },
+    },
+  ],
+});
+
 await client.sendPhoto(chat, file, { caption: "Optional Caption", /* other optional options */ });
 
 await client.sendDocument(chat, file, { caption: "Optional Caption", /* other optional options */ });
 
 await client.sendVideo(chat, file, { caption: "Optional Caption", /* other optional options */ });
+
+await client.sendLivePhoto(chat, "./photo.jpg", "./video.mp4");
+
+await client.sendMediaGroup(chat, [
+  { type: "photo", photo: "./first.jpg" },
+  { type: "photo", photo: "./second.jpg" },
+]);
 
 await client.sendAnimation(chat, file, { caption: "Optional Caption", /* other optional options */ });
 
@@ -141,8 +158,29 @@ await client.sendAudio(chat, file, { caption: "Optional Caption", /* other optio
 
 await client.sendVoice(chat, file, { caption: "Optional Caption", /* other optional options */ });
 
+await client.sendVideoNote(chat, file);
+
+await client.sendSticker(chat, "./sticker.webp");
+
 await client.sendDice(chat); // defaults to 🎲
 await client.sendDice(chat, { emoji: "🏀" }); // but you can send any valid dice
+
+await client.sendLocation(chat, 25.0953, 55.1562);
+
+await client.sendVenue(chat, 25.0953, 55.1562, "Dubai Media City", "Dubai, UAE");
+
+await client.sendPoll(chat, "Which runtime do you use?", [
+  { text: "Deno" },
+  { text: "Node.js" },
+  { text: "Bun" },
+]);
+
+await client.sendContact(chat, "Alice", "+1234567890");
+
+await client.sendChecklist(chat, "Release checklist", [
+  { text: "Run the tests" },
+  { text: "Publish the release" },
+]);
 ```
 
 To use the above example calls, `chat` must be replaced with a valid {{ "ID" |> t }}, and `file` must be replaced with a valid {{ "FileSource" |> t }}.
