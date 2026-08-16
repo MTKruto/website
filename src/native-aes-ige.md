@@ -3,7 +3,7 @@ title: Native AES-IGE
 parent: /#guides
 ---
 
-MTKruto uses a portable WebAssembly implementation of AES-256-IGE by default. Server-side applications running on a supported platform can use [`@mtkruto/ige-native`](https://github.com/MTKruto/MTKruto-native) to replace it with an implementation that uses the CPU's hardware AES instructions.
+MTKruto uses a portable WebAssembly implementation of AES-256-IGE by default. Server-side applications running on a supported platform can use [`@mtkruto/ige-native`](https://github.com/MTKruto/ige-native) to replace it with an implementation that uses the CPU's hardware AES instructions.
 
 Register both native functions before starting any clients. The functions are shared by every MTKruto client in the same JavaScript context.
 
@@ -35,11 +35,11 @@ Install the FFI provider from [JSR](https://jsr.io/@mtkruto/ige-native):
 deno add jsr:@mtkruto/ige-native
 ```
 
-The JSR package does not download or compile a native library. Get the library for your platform from the [prebuilt artifacts](https://github.com/MTKruto/MTKruto-native/tree/main/artifacts), or build it from source with Deno and Clang:
+The JSR package does not download or compile a native library. Get the library for your platform from the [prebuilt artifacts](https://github.com/MTKruto/ige-native/tree/main/artifacts), or build it from source with Deno and Clang:
 
 ```shell
-git clone https://github.com/MTKruto/MTKruto-native.git
-cd MTKruto-native
+git clone https://github.com/MTKruto/ige-native.git
+cd ige-native
 deno task build
 ```
 
