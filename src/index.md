@@ -42,6 +42,7 @@ Its key features include:
 - [Graceful Shutdown](/graceful-shutdown) {{ "/graceful-shutdown" |> i }}
 - [Interacting with Telegram API](/interacting-with-telegram-api) {{ "/interacting-with-telegram-api" |> i }}
 - [Log Verbosity](/log-verbosity) {{ "/log-verbosity" |> i }}
+- [Native AES-IGE](/native-aes-ige) {{ "/native-aes-ige" |> i }}
 - [Splitting Code](/splitting-code) {{ "/splitting-code" |> i }}
 - [Storage Adapters](/storage-adapters) {{ "/storage-adapters" |> i }}
 - [Web Workers](/web-workers) {{ "/web-workers" |> i }}
