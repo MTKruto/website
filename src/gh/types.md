@@ -1070,6 +1070,13 @@ A message's rich text.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/richtextbutton">RichTextButton</a>
+<div><div>
+
+Any type of an inline keyboard's button.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/richtextcomponent">RichTextComponent</a>
 <div><div>
 

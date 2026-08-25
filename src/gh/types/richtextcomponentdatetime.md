@@ -2,10 +2,10 @@
 title: RichTextComponentDateTime
 parent: /types
 metas:
-  description: A datetime text component.
+  description: A datetime rich text component.
 ---
 
-A datetime text component.
+A datetime rich text component.
 
 ### Properties
 
