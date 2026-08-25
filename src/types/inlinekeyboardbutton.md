@@ -16,5 +16,6 @@ Any type of an inline keyboard's button.
 <span class="opacity-50">|</span> <a href="/types/inlinekeyboardbuttonswitchinlinechosen">InlineKeyboardButtonSwitchInlineChosen</a>
 <span class="opacity-50">|</span> <a href="/types/inlinekeyboardbuttongame">InlineKeyboardButtonGame</a>
 <span class="opacity-50">|</span> <a href="/types/inlinekeyboardbuttonpay">InlineKeyboardButtonPay</a>
-<span class="opacity-50">|</span> <a href="/types/inlinekeyboardbuttoncopy">InlineKeyboardButtonCopy</a></div>
+<span class="opacity-50">|</span> <a href="/types/inlinekeyboardbuttoncopy">InlineKeyboardButtonCopy</a>
+<span class="opacity-50">|</span> <a href="/types/inlinekeyboardbuttondisabled">InlineKeyboardButtonDisabled</a></div>
 

@@ -35,5 +35,6 @@ Any type of rich text component.
 <span class="opacity-50">|</span> <a href="/types/richtextcomponentphone">RichTextComponentPhone</a>
 <span class="opacity-50">|</span> <a href="/types/richtextcomponentbankcard">RichTextComponentBankCard</a>
 <span class="opacity-50">|</span> <a href="/types/richtextcomponenttextmention">RichTextComponentTextMention</a>
-<span class="opacity-50">|</span> <a href="/types/richtextcomponentdatetime">RichTextComponentDateTime</a></div>
+<span class="opacity-50">|</span> <a href="/types/richtextcomponentdatetime">RichTextComponentDateTime</a>
+<span class="opacity-50">|</span> <a href="/types/richtextcomponentbutton">RichTextComponentButton</a></div>
 
