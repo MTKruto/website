@@ -81,5 +81,9 @@ The chat verification's custom emoji identifier.
 
 The chat verification's description.
 
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_verificationDescriptionEntities" data-anchor="true"><span class="font-bold">verificationDescriptionEntities</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/messageentity">MessageEntity</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
+
+The chat verification's description entities.
+
 </div></div></div></div>
 
