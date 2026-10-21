@@ -1758,6 +1758,13 @@ Craft gifts.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/deletegift">deleteGift</a>
+<div><div>
+
+Delete a gift.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/getclaimedgifts">getClaimedGifts</a>
 <div><div>
 
