@@ -7,7 +7,5 @@ metas:
 
 Any type of input rich text.
 
-<div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/gh/types/inputrichtextblocks">InputRichTextBlocks</a>
-<span class="opacity-50">|</span> <a href="/gh/types/inputrichtextmarkdown">InputRichTextMarkdown</a>
-<span class="opacity-50">|</span> <a href="/gh/types/inputrichtexthtml">InputRichTextHtml</a></div>
+
 

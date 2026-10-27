@@ -7,5 +7,5 @@ metas:
 
 A result after checking a bot token.
 
-<div class="font-mono whitespace-pre"><a href="/types/bottokencheckresultsignedin">BotTokenCheckResultSignedIn</a></div>
+
 

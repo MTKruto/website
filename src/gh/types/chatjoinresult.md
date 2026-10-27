@@ -7,6 +7,5 @@ metas:
 
 Any type of chat join result.
 
-<div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/gh/types/chatjoinresultjoined">ChatJoinResultJoined</a>
-<span class="opacity-50">|</span> <a href="/gh/types/chatjoinresultcaptcha">ChatJoinResultCaptcha</a></div>
+
 

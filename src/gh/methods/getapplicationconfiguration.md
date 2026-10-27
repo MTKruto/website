@@ -5,17 +5,15 @@ metas:
   description: Get application configuration. User-only.
 ---
 
-Get application configuration.<span class="select-none"> <span class="inline-flex w-fit items-center" style="font-size:12px;white-space:nowrap;word-break:keep-all;"><span class="w-fit bg-dbt select-none text-fgt" style="padding:2px 8px;border-radius:12px;">USER-ONLY</span></span> </span>
+Get application configuration.
 
 ### Result 
 
-<div class="font-mono"><span>any</span></div>
+
 
 ### Syntax
 
-```ts
-await client.getApplicationConfiguration();
-```
+
 
 
 

@@ -15,9 +15,5 @@ client.on("emojiStatus", (ctx) => {
 
 ### Properties
 
-<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;emojiStatus&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_emojiStatus" data-anchor="true"><span class="font-bold">emojiStatus</span><span class="opacity-50">:</span> <a href="/gh/types/emojistatus">EmojiStatus</a></div></div><div class="pl-3"><div class="no-margin">
 
-The new emoji status.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_userId" data-anchor="true"><span class="font-bold">userId</span><span class="opacity-50">:</span> <span>number</span></div></div></div></div>
 

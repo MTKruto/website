@@ -5,21 +5,15 @@ metas:
   description: Get inactive chats. User-only.
 ---
 
-Get inactive chats.<span class="select-none"> <span class="inline-flex w-fit items-center" style="font-size:12px;white-space:nowrap;word-break:keep-all;"><span class="w-fit bg-dbt select-none text-fgt" style="padding:2px 8px;border-radius:12px;">USER-ONLY</span></span> </span>
+Get inactive chats.
 
 ### Result 
 
-<div class="font-mono"><a href="/types/inactivechat">InactiveChat</a><span class="opacity-50">[]</span></div><div class="pl-3"><div class="no-margin">
 
-A list of inactive chats the current user is a member of.
-
-</div></div>
 
 ### Syntax
 
-```ts
-await client.getInactiveChats();
-```
+
 
 
 

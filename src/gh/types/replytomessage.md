@@ -9,21 +9,5 @@ Information on a message that another message is replying to.
 
 ### Properties
 
-<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor="true"><span class="font-bold">type</span><span class="opacity-50">:</span> <span>&quot;message&quot;</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_messageId" data-anchor="true"><span class="font-bold">messageId</span><span class="opacity-50">:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
 
-The identifier of the message that is being replied to.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_quote" data-anchor="true"><span class="font-bold">quote</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/gh/types/replyquote">ReplyQuote</a></div></div><div class="pl-3"><div class="no-margin">
-
-A quoted part of the message that is being replied to.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_pollOptionIndex" data-anchor="true"><span class="font-bold">pollOptionIndex</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-The index of a poll option to reply to.
-
-</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_checklistItemId" data-anchor="true"><span class="font-bold">checklistItemId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
-
-The identifier of a checklist item to reply to.
-
-</div></div></div></div>
 

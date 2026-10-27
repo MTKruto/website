@@ -7,5 +7,5 @@ metas:
 
 A message self-destruct option that destructs the message after a specified duration in seconds.
 
-<div class="font-mono whitespace-pre"><span>number</span></div>
+
 

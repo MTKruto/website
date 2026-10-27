@@ -1427,6 +1427,20 @@ An audio transcription.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/walletaddress">WalletAddress</a>
+<div><div>
+
+A user's wallet address.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/walletstate">WalletState</a>
+<div><div>
+
+A user's wallet state.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/workinghours">WorkingHours</a>
 <div><div>
 

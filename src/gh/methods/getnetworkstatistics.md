@@ -5,17 +5,15 @@ metas:
   description: Get network statistics. This might not always be available.
 ---
 
-Get network statistics. This might not always be available.<span class="select-none">  </span>
+Get network statistics. This might not always be available.
 
 ### Result 
 
-<div class="font-mono"><a href="/gh/types/networkstatistics">NetworkStatistics</a></div>
+
 
 ### Syntax
 
-```ts
-await client.getNetworkStatistics();
-```
+
 
 
 

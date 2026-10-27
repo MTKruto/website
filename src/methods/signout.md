@@ -5,17 +5,15 @@ metas:
   description: Sign out.
 ---
 
-Sign out.<span class="select-none">  </span>
+Sign out.
 
 ### Result 
 
-<div class="font-mono"><span>void</span></div>
+
 
 ### Syntax
 
-```ts
-await client.signOut();
-```
+
 
 
 
