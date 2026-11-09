@@ -16,7 +16,7 @@ For easier maintainability and preventing circular dependencies, the following r
 
 ## ...to the website
 
-If you noticed something wrong, you can ping us in the [chat](https://mtkrutochat.t.me).
+If you noticed something wrong, you can ping us in the [chat](https://mtkruto.t.me).
 
 ## ...to anything else
 
