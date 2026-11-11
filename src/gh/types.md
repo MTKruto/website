@@ -1441,6 +1441,13 @@ A user's wallet state.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/widget">Widget</a>
+<div><div>
+
+A widget.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/workinghours">WorkingHours</a>
 <div><div>
 

@@ -2488,6 +2488,13 @@ Send a voice message.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/sendwidget">sendWidget</a>
+<div><div>
+
+Send a widget message.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/setdefaultreaction">setDefaultReaction</a>
 <div><div>
 
