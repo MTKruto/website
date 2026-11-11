@@ -2103,6 +2103,13 @@ Edit a message's text.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/editmessagewidgetdata">editMessageWidgetData</a>
+<div><div>
+
+Edit a message's widget data.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/forwardmessage">forwardMessage</a>
 <div><div>
 
@@ -3302,6 +3309,13 @@ Start a video chat.
 ## Unlisted
 <div class="descr-list">
 
+<a href="/gh/methods/answerwidgetquery">answerWidgetQuery</a>
+<div><div>
+
+Answer a widget query.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getwalletaddresses">getWalletAddresses</a>
 <div><div>
 
