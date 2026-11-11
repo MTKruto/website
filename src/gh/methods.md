@@ -2453,6 +2453,13 @@ Send a screenshot notification.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/sendsharedwidget">sendSharedWidget</a>
+<div><div>
+
+Send a shared widget.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/sendsticker">sendSticker</a>
 <div><div>
 
