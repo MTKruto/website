@@ -1,5 +1,5 @@
 ---
-title: StoryInteractiveAreaPosition
+title: WidgetQueryTransaction
 parent: /types
 ---
 

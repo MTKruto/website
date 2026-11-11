@@ -1308,6 +1308,20 @@ A timezone.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/tonnft">TonNft</a>
+<div><div>
+
+A TON NFT.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/tonnftattribute">TonNftAttribute</a>
+<div><div>
+
+A TON NFT attribute.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/tontransaction">TonTransaction</a>
 <div><div>
 
@@ -1427,10 +1441,31 @@ An audio transcription.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/types/wallet">Wallet</a>
+<div><div>
+
+A user's wallet.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/types/walletaddress">WalletAddress</a>
 <div><div>
 
 A user's wallet address.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/walletcard">WalletCard</a>
+<div><div>
+
+A wallet card.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/walletcardsticker">WalletCardSticker</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -1445,6 +1480,34 @@ A user's wallet state.
 <div><div>
 
 A widget.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/widgetquery">WidgetQuery</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/widgetquerydata">WidgetQueryData</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/widgetquerysigndata">WidgetQuerySignData</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/types/widgetquerytransaction">WidgetQueryTransaction</a>
+<div><div>
+
+<i style="opacity: 0.5">No Description</i>
 
 </div></div>
 <div class="descr-list-border"></div>
