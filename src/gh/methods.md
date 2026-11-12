@@ -3316,6 +3316,13 @@ Answer a widget query.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/gh/methods/editsharedwidgetdata">editSharedWidgetData</a>
+<div><div>
+
+Edit a shared widget's data.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/gh/methods/getwalletaddresses">getWalletAddresses</a>
 <div><div>
 
