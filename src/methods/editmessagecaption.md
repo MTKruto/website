@@ -17,7 +17,11 @@ The identifier of the chat which the message belongs to.
 
 The identifier of the message.
 
-</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_businessConnectionId" data-anchor><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_linkPreview" data-anchor><span class="font-bold">linkPreview</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <a href="/types/inputlinkpreview"  >InputLinkPreview</a></div></div><div class="pl-3"><div class="no-margin">
+
+The message's link preview.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_businessConnectionId" data-anchor><span class="font-bold">businessConnectionId</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
 
 The identifier of a business connection to perform the action on. Bot-only.
 
@@ -56,6 +60,7 @@ await client.editMessageCaption(chatId, messageId);
 // Required parameters + optional parameters.
 // Any of the optional parameters can be omitted.
 await client.editMessageCaption(chatId, messageId, {
+    linkPreview,
     businessConnectionId,
     caption,
     parseMode,
