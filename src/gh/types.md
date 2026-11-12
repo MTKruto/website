@@ -1486,28 +1486,7 @@ A widget.
 <a href="/gh/types/widgetquery">WidgetQuery</a>
 <div><div>
 
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/widgetquerydata">WidgetQueryData</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/widgetquerysigndata">WidgetQuerySignData</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/types/widgetquerytransaction">WidgetQueryTransaction</a>
-<div><div>
-
-<i style="opacity: 0.5">No Description</i>
+Any type of widget query.
 
 </div></div>
 <div class="descr-list-border"></div>
