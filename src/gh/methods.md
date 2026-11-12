@@ -3306,7 +3306,27 @@ Start a video chat.
 
 </div>
 
-## Unlisted
+## Wallets
+<div class="descr-list">
+
+<a href="/gh/methods/getwalletaddresses">getWalletAddresses</a>
+<div><div>
+
+Get a user's wallet addresses.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/gh/methods/getwalletstate">getWalletState</a>
+<div><div>
+
+Get the current user's wallet state.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
+## Widgets
 <div class="descr-list">
 
 <a href="/gh/methods/answerwidgetquery">answerWidgetQuery</a>
@@ -3320,20 +3340,6 @@ Answer a widget query.
 <div><div>
 
 Edit a shared widget's data.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getwalletaddresses">getWalletAddresses</a>
-<div><div>
-
-Get a user's wallet addresses.
-
-</div></div>
-<div class="descr-list-border"></div>
-<a href="/gh/methods/getwalletstate">getWalletState</a>
-<div><div>
-
-Get the current user's wallet state.
 
 </div></div>
 <div class="descr-list-border"></div>

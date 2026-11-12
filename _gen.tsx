@@ -5,7 +5,7 @@ import { TsType, TypeParams_ } from "./_components/TsType.tsx";
 import { Properties } from "./_components/Properties.tsx";
 import { TypeAlias } from "./_components/TypeAlias.tsx";
 import { Description } from "./_components/Description.tsx";
-import { renderToString } from "preact-render-to-string";
+import { renderComponent } from "lume/jsx-runtime";
 
 const version = Deno.env.get("VERSION") ? ("/" + Deno.env.get("VERSION")) : "";
 
@@ -136,6 +136,8 @@ for (const dir of [`src${version}/methods`, `src${version}/types`]) {
     "gf": ["Gifts", "gifts"],
     "gc": ["Gift Collections", "gift-collections"],
     "ct": ["Communities", "communities"],
+    "wl": ["Wallets", "wallets"],
+    "wd": ["Widgets", "widgets"],
   }).sort(([, [a]], [, [b]]) => a.localeCompare(b));
   const knowsGroups = groups.map((v) => v[0]);
 
@@ -282,7 +284,7 @@ parent: /methods
     method_md += `---\n\n`;
 
     if (method.jsDoc?.doc) {
-      const a = renderToString(tags);
+      const a = await renderComponent(tags);
       method_md += method.jsDoc.doc.replaceAll("User-only.", "").replaceAll(
         "Bot-only.",
         "",
@@ -293,7 +295,7 @@ parent: /methods
     //
     if (method.functionDef.typeParams.length > 0) {
       method_md += "### Type Parameters \n\n";
-      method_md += renderToString(
+      method_md += await renderComponent(
         <div class="font-mono">
           <TypeParams_ getLink={getLink}>
             {method.functionDef.typeParams}
@@ -305,7 +307,7 @@ parent: /methods
     //
     if (method.functionDef.params.length > 0) {
       method_md += "### Parameters \n\n";
-      method_md += renderToString(
+      method_md += await renderComponent(
         <Method getLink={getLink} methodTypes={methodTypes}>{method}</Method>,
       );
       method_md += "\n\n";
@@ -319,7 +321,7 @@ parent: /methods
       : undefined;
     const retDoc = method.jsDoc?.tags?.find((v) => v.kind == "return")?.doc;
     method_md += "### Result \n\n";
-    method_md += renderToString(
+    method_md += await renderComponent(
       <>
         <div class="font-mono">
           {ret ? <TsType getLink={getLink}>{ret}</TsType> : "void"}
@@ -334,7 +336,7 @@ parent: /methods
     method_md += "\n\n";
     //
     method_md += "### Syntax\n\n";
-    method_md += renderToString(
+    method_md += await renderComponent(
       <>
         {(() => {
           const requiredParams = method.functionDef.params.filter((v) => v.kind == "identifier" && !v.optional).map((v) => "name" in v ? v.name : "").filter((v) => v);
@@ -437,7 +439,7 @@ parent: /types
     //
     if (type.kind == "interface") {
       type_md += "### Properties\n\n";
-      type_md += renderToString(
+      type_md += await renderComponent(
         <Properties getLink={getLink}>
           {resolveInterfaceProperties(
             type,
@@ -448,7 +450,7 @@ parent: /types
       );
       type_md += "\n\n";
     } else {
-      type_md += renderToString(
+      type_md += await renderComponent(
         <TypeAlias getLink={getLink}>{type.typeAliasDef}</TypeAlias>,
       );
       type_md += "\n\n";

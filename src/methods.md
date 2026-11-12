@@ -3285,7 +3285,7 @@ Start a video chat.
 
 </div>
 
-## Unlisted
+## Wallets
 <div class="descr-list">
 
 <a href="/methods/getwalletaddresses">getWalletAddresses</a>
