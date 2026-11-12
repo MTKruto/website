@@ -7,5 +7,6 @@ metas:
 
 The size of a link preview's media.
 
-
+<div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <span>"small"</span>
+<span class="opacity-50">|</span> <span>"large"</span></div>
 

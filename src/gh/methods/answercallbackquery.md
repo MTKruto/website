@@ -5,19 +5,51 @@ metas:
   description: Answer a callback query. Bot-only.
 ---
 
-Answer a callback query.
+Answer a callback query.<span class="select-none"> <span class="inline-flex w-fit items-center" style="fontSize:12;whiteSpace:nowrap;wordBreak:keep-all;"><span class="w-fit bg-dbt select-none text-fgt" style="padding:2px 8px;borderRadius:12;">BOT-ONLY</span></span> </span>
 
 ### Parameters 
 
+<div class="flex flex-col gap-3"><div><div class="font-mono" id="p_id" data-anchor><span class="font-bold">id</span><span class="opacity-50">:</span> <span>string</span></div><div class="pl-3"><div class="no-margin">
 
+ID of the callback query to answer.
+
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_text" data-anchor><span class="font-bold">text</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+Text to be shown to the user.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_isAlert" data-anchor><span class="font-bold">isAlert</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether to show the text as an alert (popup).
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_url" data-anchor><span class="font-bold">url</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>string</span></div></div><div class="pl-3"><div class="no-margin">
+
+A URL to be opened.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_cacheTime" data-anchor><span class="font-bold">cacheTime</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The TTL of cached answers, in seconds.
+
+</div></div></div></div></div>
 
 ### Result 
 
-
+<div class="font-mono"><span>void</span></div>
 
 ### Syntax
 
+```ts
+// Required parameters only.
+await client.answerCallbackQuery(id);
 
+// Required parameters + optional parameters.
+// Any of the optional parameters can be omitted.
+await client.answerCallbackQuery(id, {
+    text,
+    isAlert,
+    url,
+    cacheTime,
+});
+```
 
 
 

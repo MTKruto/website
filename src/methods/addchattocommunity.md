@@ -5,19 +5,38 @@ metas:
   description: Add a chat to a community. User-only.
 ---
 
-Add a chat to a community.
+Add a chat to a community.<span class="select-none"> <span class="inline-flex w-fit items-center" style="fontSize:12;whiteSpace:nowrap;wordBreak:keep-all;"><span class="w-fit bg-dbt select-none text-fgt" style="padding:2px 8px;borderRadius:12;">USER-ONLY</span></span> </span>
 
 ### Parameters 
 
+<div class="flex flex-col gap-3"><div><div class="font-mono" id="p_communityId" data-anchor><span class="font-bold">communityId</span><span class="opacity-50">:</span> <span>number</span></div><div class="pl-3"><div class="no-margin">
 
+The identifier of the community.
+
+</div></div></div><div><div class="font-mono" id="p_chatId" data-anchor><span class="font-bold">chatId</span><span class="opacity-50">:</span> <a href="/types/id"  >ID</a></div><div class="pl-3"><div class="no-margin">
+
+The identifier of the chat to add.
+
+</div></div></div><div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_isHidden" data-anchor><span class="font-bold">isHidden</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>boolean</span></div></div><div class="pl-3"><div class="no-margin">
+
+Whether the chat should be hidden inside the community.
+
+</div></div></div></div></div>
 
 ### Result 
 
-
+<div class="font-mono"><span>void</span></div>
 
 ### Syntax
 
+```ts
+// Required parameters only.
+await client.addChatToCommunity(communityId, chatId);
 
+// Required parameters + optional parameters.
+// Any of the optional parameters can be omitted.
+await client.addChatToCommunity(communityId, chatId, { isHidden });
+```
 
 
 

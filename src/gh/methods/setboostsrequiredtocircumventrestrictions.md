@@ -5,19 +5,29 @@ metas:
   description: Set the number of boosts required to circumvent a chat's default restrictions. User-only.
 ---
 
-Set the number of boosts required to circumvent a chat's default restrictions.
+Set the number of boosts required to circumvent a chat's default restrictions.<span class="select-none"> <span class="inline-flex w-fit items-center" style="fontSize:12;whiteSpace:nowrap;wordBreak:keep-all;"><span class="w-fit bg-dbt select-none text-fgt" style="padding:2px 8px;borderRadius:12;">USER-ONLY</span></span> </span>
 
 ### Parameters 
 
+<div class="flex flex-col gap-3"><div><div class="font-mono" id="p_chatId" data-anchor><span class="font-bold">chatId</span><span class="opacity-50">:</span> <a href="/gh/types/id"  >ID</a></div><div class="pl-3"><div class="no-margin">
 
+The identifier of a chat.
+
+</div></div></div><div><div class="font-mono" id="p_boosts" data-anchor><span class="font-bold">boosts</span><span class="opacity-50">:</span> <span>number</span></div><div class="pl-3"><div class="no-margin">
+
+The number of boosts required to circumvent its restrictions.
+
+</div></div></div></div>
 
 ### Result 
 
-
+<div class="font-mono"><span>void</span></div>
 
 ### Syntax
 
-
+```ts
+await client.setBoostsRequiredToCircumventRestrictions(chatId, boosts);
+```
 
 
 

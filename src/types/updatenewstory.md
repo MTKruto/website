@@ -16,5 +16,5 @@ client.on("story", (ctx) => {
 
 ### Properties
 
-
+<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor><span class="font-bold">type</span><span class="opacity-50">:</span> <span>"story"</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_story" data-anchor><span class="font-bold">story</span><span class="opacity-50">:</span> <a href="/types/story"  >Story</a></div></div></div></div>
 

@@ -2103,6 +2103,13 @@ Edit a message's text.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/editmessagewidgetdata">editMessageWidgetData</a>
+<div><div>
+
+Edit a message's widget data.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/forwardmessage">forwardMessage</a>
 <div><div>
 
@@ -2453,6 +2460,13 @@ Send a screenshot notification.
 
 </div></div>
 <div class="descr-list-border"></div>
+<a href="/methods/sendsharedwidget">sendSharedWidget</a>
+<div><div>
+
+Send a shared widget.
+
+</div></div>
+<div class="descr-list-border"></div>
 <a href="/methods/sendsticker">sendSticker</a>
 <div><div>
 
@@ -2485,6 +2499,13 @@ Send a video note.
 <div><div>
 
 Send a voice message.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/sendwidget">sendWidget</a>
+<div><div>
+
+Send a widget message.
 
 </div></div>
 <div class="descr-list-border"></div>
@@ -3299,6 +3320,26 @@ Get a user's wallet addresses.
 <div><div>
 
 Get the current user's wallet state.
+
+</div></div>
+<div class="descr-list-border"></div>
+
+</div>
+
+## Widgets
+<div class="descr-list">
+
+<a href="/methods/answerwidgetquery">answerWidgetQuery</a>
+<div><div>
+
+Answer a widget query.
+
+</div></div>
+<div class="descr-list-border"></div>
+<a href="/methods/editsharedwidgetdata">editSharedWidgetData</a>
+<div><div>
+
+Edit a shared widget's data.
 
 </div></div>
 <div class="descr-list-border"></div>

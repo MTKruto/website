@@ -5,15 +5,21 @@ metas:
   description: Get the current account's TTL. User-only.
 ---
 
-Get the current account's TTL.
+Get the current account's TTL.<span class="select-none"> <span class="inline-flex w-fit items-center" style="fontSize:12;whiteSpace:nowrap;wordBreak:keep-all;"><span class="w-fit bg-dbt select-none text-fgt" style="padding:2px 8px;borderRadius:12;">USER-ONLY</span></span> </span>
 
 ### Result 
 
+<div class="font-mono"><span>number</span></div><div class="pl-3"><div class="no-margin">
 
+The current account's TTL in days.
+
+</div></div>
 
 ### Syntax
 
-
+```ts
+await client.getAccountTtl();
+```
 
 
 

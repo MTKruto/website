@@ -5,5 +5,13 @@ parent: /types
 
 ### Properties
 
+<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor><span class="font-bold">type</span><span class="opacity-50">:</span> <span>"livePhoto"</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_photo" data-anchor><span class="font-bold">photo</span><span class="opacity-50">:</span> <a href="/types/photo"  >Photo</a></div></div><div class="pl-3"><div class="no-margin">
 
+The photo.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_video" data-anchor><span class="font-bold">video</span><span class="opacity-50">:</span> <a href="/types/video"  >Video</a></div></div><div class="pl-3"><div class="no-margin">
+
+The video version of the photo.
+
+</div></div></div></div>
 

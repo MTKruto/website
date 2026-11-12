@@ -9,5 +9,13 @@ An available reactions value allowing a specific set of reactions.
 
 ### Properties
 
+<div class="flex flex-col gap-3"><div><div class="flex gap-2"><div class="font-mono p" id="p_type" data-anchor><span class="font-bold">type</span><span class="opacity-50">:</span> <span>"some"</span></div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_reactions" data-anchor><span class="font-bold">reactions</span><span class="opacity-50">:</span> <a href="/gh/types/reaction"  >Reaction</a><span class="opacity-50">[]</span></div></div><div class="pl-3"><div class="no-margin">
 
+The allowed reactions.
+
+</div></div></div><div><div class="flex gap-2"><div class="font-mono p" id="p_maxReactionCount" data-anchor><span class="font-bold">maxReactionCount</span><span class="opacity-50"><span title="Optional" class="cursor-help">?</span>:</span> <span>number</span></div></div><div class="pl-3"><div class="no-margin">
+
+The maximum number of allowed reactions on a single message.
+
+</div></div></div></div>
 

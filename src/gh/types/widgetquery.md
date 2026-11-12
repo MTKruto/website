@@ -7,5 +7,7 @@ metas:
 
 Any type of widget query.
 
-
+<div class="font-mono whitespace-pre"><span class="opacity-50">|</span> <a href="/gh/types/widgetquerydata"  >WidgetQueryData</a>
+<span class="opacity-50">|</span> <a href="/gh/types/widgetquerysigndata"  >WidgetQuerySignData</a>
+<span class="opacity-50">|</span> <a href="/gh/types/widgetquerytransaction"  >WidgetQueryTransaction</a></div>
 
